@@ -1,0 +1,26 @@
+{
+  "initial_fixed_target_active": true,
+  "initial_fixed_target_end_elapsed_s": 1038.875,
+  "initial_target_icrf": [
+    -0.8217690512616966,
+    0.010399615485777147,
+    0.5697257887670165
+  ],
+  "final_fixed_target_active": false,
+  "final_fixed_target_start_elapsed_s": 24228000.0,
+  "final_target_icrf": [
+    1.0,
+    0.0,
+    0.0
+  ],
+  "burn_enabled": true,
+  "burn_start_elapsed_s": 146.875,
+  "burn_end_elapsed_s": 438.875,
+  "commanded_delta_v_icrf_mps": [
+    -0.13090162694499874,
+    0.0016565805010550468,
+    0.09075303158183233
+  ],
+  "commanded_delta_v_magnitude_mps": 0.15929247608439373,
+  "commanded_throttle": 0.75942550188459
+}

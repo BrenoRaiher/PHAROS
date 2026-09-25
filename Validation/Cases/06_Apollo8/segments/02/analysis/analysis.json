@@ -1,0 +1,56 @@
+{
+  "continuity": {
+    "position_discontinuity_m": 0.0,
+    "velocity_discontinuity_mps": 0.0,
+    "quaternion_component_max_discontinuity": 0.0,
+    "angular_velocity_discontinuity_radps": 0.0,
+    "mass_discontinuity_kg": 0.0,
+    "inertia_component_max_discontinuity_kgm2": 0.0
+  },
+  "checkpoint_comparisons": [
+    {
+      "event_id": "first_midcourse_ignition",
+      "event_get_seconds": 39599.5,
+      "actual_sample_get_seconds": 39599.5,
+      "sample_time_error_seconds": 2.9061197892588098e-12,
+      "position_delta_icrf_m": [
+        -5671.282575964928,
+        -8033.826889038086,
+        -9968.22866821289
+      ],
+      "position_error_m": 14002.549886404837,
+      "velocity_delta_icrf_mps": [
+        -0.7781220697434037,
+        -1.7475096569789912,
+        0.9475798797727748
+      ],
+      "velocity_error_mps": 2.1347532843883332,
+      "relative_radius_error_m": 230.59655965864658,
+      "relative_speed_error_mps": -0.26040703996295633,
+      "table_position_quantization_half_step_m": 12845.484209231838,
+      "table_velocity_quantization_half_step_mps": 0.3436110206348966,
+      "position_error_over_quantization": 1.0900756762708435,
+      "velocity_error_over_quantization": 6.2127031910789965,
+      "source_note": "NASA Table 5-II converted with ITRF93 or MOON_ME_DE421"
+    }
+  ],
+  "burn_execution": {
+    "burn_start_alignment_error_deg": 0.10018493009407685,
+    "target_mode": "fixed_icrf",
+    "burn_start_mass_kg": 28712.80376952754,
+    "burn_end_mass_kg": 28642.16168847013,
+    "target_preburn_mass_kg": 28715.572167590002,
+    "integrated_thrust_acceleration_delta_v_icrf_mps": [
+      -2.699778959052742,
+      7.015644531587577,
+      -0.7976265469074875
+    ],
+    "integrated_thrust_delta_v_mps": 7.559383753300935,
+    "target_total_delta_v_mps": 7.55904,
+    "delta_v_error_mps": 0.00034375330093450174,
+    "main_command_throttle": 0.9906880262017674,
+    "main_required_thrust_n": 90331.29353909534,
+    "sps_maximum_thrust_n": 91180.3626873533,
+    "ullage_command_throttle": 0.0
+  }
+}

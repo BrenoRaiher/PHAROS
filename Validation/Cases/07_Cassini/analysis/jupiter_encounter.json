@@ -1,0 +1,19 @@
+{
+  "name": "Jupiter",
+  "segment": "12",
+  "reference_radius_km": 71492.0,
+  "reference_closest_utc": "2000-12-30T10:04:21.866135Z",
+  "simulated_closest_utc": "2000-12-30T10:04:08.582722Z",
+  "reference_closest_et": 31442726.050023243,
+  "simulated_closest_et": 31442712.766610704,
+  "closest_time_difference_s": -13.283412538468838,
+  "reference_range_km": 9794457.016714862,
+  "simulated_range_km": 9794210.461391844,
+  "range_difference_km": -246.55532301712037,
+  "reference_altitude_km": 9722965.016714862,
+  "simulated_altitude_km": 9722718.461391844,
+  "minimum_playback_chord_altitude_km": 9722718.34984431,
+  "position_error_at_reference_closest_km": 259.17592288144334,
+  "velocity_error_at_reference_closest_mps": 0.07121644767067756,
+  "estimation": "Nominal-state continuation with original controller elapsed-time offset and 1 s integration/output; cubic Hermite closest approach. Direct-SPICE 1 s reference."
+}

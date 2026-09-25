@@ -1,0 +1,13 @@
+[
+  {
+    "scenario": "Cases/01-03_CoreVerification/cases/02_actuated_multibody/02d_nested_tree/nested_tree.tgscn",
+    "repeat": false,
+    "exit_code": 0,
+    "wall_seconds": 0.4590530000277795,
+    "output_directory": "Cases/01-03_CoreVerification/cases/02_actuated_multibody/02d_nested_tree/results",
+    "runner_sha256": "bb682d5eace254cbe4d8a140cf8015c379e8f1d2d351558f04a2670ad1b4fac7",
+    "scenario_sha256": "460dcbc95af0f1b44ea275f7942464e2419146f87e3a5eae673504bd6b2ef26c",
+    "purpose": "Finer recording for the nested-tree momentum history: output interval 0.01 s; integration and physical inputs unchanged.",
+    "date": "2026-09-18"
+  }
+]

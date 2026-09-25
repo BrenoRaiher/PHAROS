@@ -1,0 +1,19 @@
+{
+  "name": "Phoebe",
+  "segment": "18",
+  "reference_radius_km": 109.4,
+  "reference_closest_utc": "2004-06-11T19:33:40.688980Z",
+  "simulated_closest_utc": "2004-06-11T19:33:44.193715Z",
+  "reference_closest_et": 140254484.87360537,
+  "simulated_closest_et": 140254488.37834057,
+  "closest_time_difference_s": 3.5047352015972137,
+  "reference_range_km": 2179.437350988472,
+  "simulated_range_km": 2183.967591908929,
+  "range_difference_km": 4.530240920456592,
+  "reference_altitude_km": 2070.0373509884726,
+  "simulated_altitude_km": 2074.567591908929,
+  "minimum_playback_chord_altitude_km": 2074.5663626047935,
+  "position_error_at_reference_closest_km": 40.54088140333097,
+  "velocity_error_at_reference_closest_mps": 0.09313087118596679,
+  "estimation": "Nominal-state continuation with original controller elapsed-time offset and 1 s integration/output; cubic Hermite closest approach. Direct-SPICE 1 s reference."
+}

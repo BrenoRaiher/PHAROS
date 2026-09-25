@@ -1,0 +1,1435 @@
+{
+  "cases": [
+    {
+      "name": "cm_positive_rk4",
+      "checks": [
+        {
+          "metric": "all recorded ABA solves successful",
+          "error": 0.0,
+          "tolerance": 0,
+          "pass": true
+        },
+        {
+          "metric": "mass_kg",
+          "error": 1.7763568394002505e-15,
+          "tolerance": 5e-11,
+          "pass": true
+        },
+        {
+          "metric": "position_icrf_x_m",
+          "error": 4.360956040727615e-13,
+          "tolerance": 5e-09,
+          "pass": true
+        },
+        {
+          "metric": "velocity_icrf_x_mps",
+          "error": 3.952393967665557e-14,
+          "tolerance": 5e-09,
+          "pass": true
+        },
+        {
+          "metric": "base_origin_acceleration_body_x_mps2",
+          "error": 4.440892098500626e-16,
+          "tolerance": 5e-10,
+          "pass": true
+        },
+        {
+          "metric": "no transverse acceleration response",
+          "error": 0.0,
+          "tolerance": 1e-11,
+          "pass": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "name": "cm_negative_rk4",
+      "checks": [
+        {
+          "metric": "all recorded ABA solves successful",
+          "error": 0.0,
+          "tolerance": 0,
+          "pass": true
+        },
+        {
+          "metric": "mass_kg",
+          "error": 3.552713678800501e-15,
+          "tolerance": 5e-11,
+          "pass": true
+        },
+        {
+          "metric": "position_icrf_x_m",
+          "error": 2.4780177909633494e-13,
+          "tolerance": 5e-09,
+          "pass": true
+        },
+        {
+          "metric": "velocity_icrf_x_mps",
+          "error": 3.4638958368304884e-14,
+          "tolerance": 5e-09,
+          "pass": true
+        },
+        {
+          "metric": "base_origin_acceleration_body_x_mps2",
+          "error": 4.440892098500626e-16,
+          "tolerance": 5e-10,
+          "pass": true
+        },
+        {
+          "metric": "no transverse acceleration response",
+          "error": 0.0,
+          "tolerance": 1e-11,
+          "pass": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "name": "cm_omitted_rk4",
+      "checks": [
+        {
+          "metric": "all recorded ABA solves successful",
+          "error": 0.0,
+          "tolerance": 0,
+          "pass": true
+        },
+        {
+          "metric": "mass_kg",
+          "error": 1.7763568394002505e-15,
+          "tolerance": 5e-11,
+          "pass": true
+        },
+        {
+          "metric": "position_icrf_x_m",
+          "error": 4.3653969328261155e-13,
+          "tolerance": 5e-09,
+          "pass": true
+        },
+        {
+          "metric": "velocity_icrf_x_mps",
+          "error": 3.9968028886505635e-14,
+          "tolerance": 5e-09,
+          "pass": true
+        },
+        {
+          "metric": "base_origin_acceleration_body_x_mps2",
+          "error": 4.440892098500626e-16,
+          "tolerance": 5e-10,
+          "pass": true
+        },
+        {
+          "metric": "no transverse acceleration response",
+          "error": 0.0,
+          "tolerance": 1e-11,
+          "pass": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "name": "cm_constant_rk4",
+      "checks": [
+        {
+          "metric": "all recorded ABA solves successful",
+          "error": 0.0,
+          "tolerance": 0,
+          "pass": true
+        },
+        {
+          "metric": "mass_kg",
+          "error": 4.440892098500626e-14,
+          "tolerance": 5e-11,
+          "pass": true
+        },
+        {
+          "metric": "position_icrf_x_m",
+          "error": 3.9968028886505635e-15,
+          "tolerance": 5e-09,
+          "pass": true
+        },
+        {
+          "metric": "velocity_icrf_x_mps",
+          "error": 4.884981308350689e-15,
+          "tolerance": 5e-09,
+          "pass": true
+        },
+        {
+          "metric": "base_origin_acceleration_body_x_mps2",
+          "error": 3.9968028886505635e-15,
+          "tolerance": 5e-10,
+          "pass": true
+        },
+        {
+          "metric": "no transverse acceleration response",
+          "error": 0.0,
+          "tolerance": 1e-11,
+          "pass": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "name": "cm_zero_start_rk4",
+      "checks": [
+        {
+          "metric": "all recorded ABA solves successful",
+          "error": 0.0,
+          "tolerance": 0,
+          "pass": true
+        },
+        {
+          "metric": "mass_kg",
+          "error": 1.7763568394002505e-15,
+          "tolerance": 5e-11,
+          "pass": true
+        },
+        {
+          "metric": "position_icrf_x_m",
+          "error": 3.701483564100272e-13,
+          "tolerance": 5e-09,
+          "pass": true
+        },
+        {
+          "metric": "velocity_icrf_x_mps",
+          "error": 1.1324274851176597e-14,
+          "tolerance": 5e-09,
+          "pass": true
+        },
+        {
+          "metric": "base_origin_acceleration_body_x_mps2",
+          "error": 2.220446049250313e-16,
+          "tolerance": 5e-10,
+          "pass": true
+        },
+        {
+          "metric": "no transverse acceleration response",
+          "error": 0.0,
+          "tolerance": 1e-11,
+          "pass": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "name": "cm_prescribed_rk4",
+      "checks": [
+        {
+          "metric": "all recorded ABA solves successful",
+          "error": 0.0,
+          "tolerance": 0,
+          "pass": true
+        },
+        {
+          "metric": "mass_kg",
+          "error": 1.7763568394002505e-15,
+          "tolerance": 5e-11,
+          "pass": true
+        },
+        {
+          "metric": "position_icrf_x_m",
+          "error": 3.701483564100272e-13,
+          "tolerance": 5e-09,
+          "pass": true
+        },
+        {
+          "metric": "velocity_icrf_x_mps",
+          "error": 1.1324274851176597e-14,
+          "tolerance": 5e-09,
+          "pass": true
+        },
+        {
+          "metric": "base_origin_acceleration_body_x_mps2",
+          "error": 3.3306690738754696e-16,
+          "tolerance": 5e-10,
+          "pass": true
+        },
+        {
+          "metric": "no transverse acceleration response",
+          "error": 0.0,
+          "tolerance": 1e-11,
+          "pass": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "name": "cm_variable_isp_rk4",
+      "checks": [
+        {
+          "metric": "all recorded ABA solves successful",
+          "error": 0.0,
+          "tolerance": 0,
+          "pass": true
+        },
+        {
+          "metric": "mass_kg",
+          "error": 5.684341886080802e-14,
+          "tolerance": 5e-11,
+          "pass": true
+        },
+        {
+          "metric": "position_icrf_x_m",
+          "error": 3.090860900556436e-13,
+          "tolerance": 5e-09,
+          "pass": true
+        },
+        {
+          "metric": "velocity_icrf_x_mps",
+          "error": 2.6867397195928788e-14,
+          "tolerance": 5e-09,
+          "pass": true
+        },
+        {
+          "metric": "base_origin_acceleration_body_x_mps2",
+          "error": 4.884981308350689e-15,
+          "tolerance": 5e-10,
+          "pass": true
+        },
+        {
+          "metric": "no transverse acceleration response",
+          "error": 0.0,
+          "tolerance": 1e-11,
+          "pass": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "name": "cm_shared_rk4",
+      "checks": [
+        {
+          "metric": "all recorded ABA solves successful",
+          "error": 0.0,
+          "tolerance": 0,
+          "pass": true
+        },
+        {
+          "metric": "mass_kg",
+          "error": 1.7763568394002505e-15,
+          "tolerance": 5e-11,
+          "pass": true
+        },
+        {
+          "metric": "position_icrf_x_m",
+          "error": 4.360956040727615e-13,
+          "tolerance": 5e-09,
+          "pass": true
+        },
+        {
+          "metric": "velocity_icrf_x_mps",
+          "error": 3.952393967665557e-14,
+          "tolerance": 5e-09,
+          "pass": true
+        },
+        {
+          "metric": "base_origin_acceleration_body_x_mps2",
+          "error": 4.440892098500626e-16,
+          "tolerance": 5e-10,
+          "pass": true
+        },
+        {
+          "metric": "no transverse acceleration response",
+          "error": 0.0,
+          "tolerance": 1e-11,
+          "pass": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "name": "stop_single_rk4",
+      "checks": [
+        {
+          "metric": "all recorded ABA solves successful",
+          "error": 0.0,
+          "tolerance": 0,
+          "pass": true
+        },
+        {
+          "metric": "terminal base angular velocity",
+          "error": 0.0,
+          "tolerance": 5e-08,
+          "pass": true
+        },
+        {
+          "metric": "joint 0 terminal coordinate",
+          "error": 1.3877787807814457e-17,
+          "tolerance": 5e-08,
+          "pass": true
+        },
+        {
+          "metric": "joint 0 terminal rate",
+          "error": 0.0,
+          "tolerance": 5e-08,
+          "pass": true
+        },
+        {
+          "metric": "joint 0 upper-limit penetration",
+          "error": 1.3877787807814457e-17,
+          "tolerance": 5e-10,
+          "pass": true
+        },
+        {
+          "metric": "total angular-momentum conservation",
+          "error": 0.0,
+          "tolerance": 5e-09,
+          "pass": true
+        },
+        {
+          "metric": "kinetic energy does not increase",
+          "error": 0.0,
+          "tolerance": 5e-09,
+          "pass": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "name": "stop_both_lock_rk4",
+      "checks": [
+        {
+          "metric": "all recorded ABA solves successful",
+          "error": 0.0,
+          "tolerance": 0,
+          "pass": true
+        },
+        {
+          "metric": "terminal base angular velocity",
+          "error": 5.551115123125783e-17,
+          "tolerance": 5e-08,
+          "pass": true
+        },
+        {
+          "metric": "joint 0 terminal coordinate",
+          "error": 1.3877787807814457e-17,
+          "tolerance": 5e-08,
+          "pass": true
+        },
+        {
+          "metric": "joint 0 terminal rate",
+          "error": 0.0,
+          "tolerance": 5e-08,
+          "pass": true
+        },
+        {
+          "metric": "joint 0 upper-limit penetration",
+          "error": 1.3877787807814457e-17,
+          "tolerance": 5e-10,
+          "pass": true
+        },
+        {
+          "metric": "joint 1 terminal coordinate",
+          "error": 1.3877787807814457e-17,
+          "tolerance": 5e-08,
+          "pass": true
+        },
+        {
+          "metric": "joint 1 terminal rate",
+          "error": 0.0,
+          "tolerance": 5e-08,
+          "pass": true
+        },
+        {
+          "metric": "joint 1 upper-limit penetration",
+          "error": 1.3877787807814457e-17,
+          "tolerance": 5e-10,
+          "pass": true
+        },
+        {
+          "metric": "total angular-momentum conservation",
+          "error": 2.220446049250313e-16,
+          "tolerance": 5e-09,
+          "pass": true
+        },
+        {
+          "metric": "kinetic energy does not increase",
+          "error": 0.0,
+          "tolerance": 5e-09,
+          "pass": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "name": "stop_release_rk4",
+      "checks": [
+        {
+          "metric": "all recorded ABA solves successful",
+          "error": 0.0,
+          "tolerance": 0,
+          "pass": true
+        },
+        {
+          "metric": "terminal base angular velocity",
+          "error": 0.0,
+          "tolerance": 5e-08,
+          "pass": true
+        },
+        {
+          "metric": "joint 0 terminal coordinate",
+          "error": 1.3877787807814457e-17,
+          "tolerance": 5e-08,
+          "pass": true
+        },
+        {
+          "metric": "joint 0 terminal rate",
+          "error": 0.0,
+          "tolerance": 5e-08,
+          "pass": true
+        },
+        {
+          "metric": "joint 0 upper-limit penetration",
+          "error": 1.3877787807814457e-17,
+          "tolerance": 5e-10,
+          "pass": true
+        },
+        {
+          "metric": "joint 1 terminal coordinate",
+          "error": 1.3877787807814457e-17,
+          "tolerance": 5e-08,
+          "pass": true
+        },
+        {
+          "metric": "joint 1 terminal rate",
+          "error": 1.3877787807814457e-17,
+          "tolerance": 5e-08,
+          "pass": true
+        },
+        {
+          "metric": "joint 1 upper-limit penetration",
+          "error": 1.3877787807814457e-17,
+          "tolerance": 5e-10,
+          "pass": true
+        },
+        {
+          "metric": "total angular-momentum conservation",
+          "error": 0.0,
+          "tolerance": 5e-09,
+          "pass": true
+        },
+        {
+          "metric": "kinetic energy does not increase",
+          "error": 0.0,
+          "tolerance": 5e-09,
+          "pass": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "name": "stop_resting_rk4",
+      "checks": [
+        {
+          "metric": "all recorded ABA solves successful",
+          "error": 0.0,
+          "tolerance": 0,
+          "pass": true
+        },
+        {
+          "metric": "terminal base angular velocity",
+          "error": 0.0,
+          "tolerance": 5e-08,
+          "pass": true
+        },
+        {
+          "metric": "joint 0 terminal coordinate",
+          "error": 1.3877787807814457e-17,
+          "tolerance": 5e-08,
+          "pass": true
+        },
+        {
+          "metric": "joint 0 terminal rate",
+          "error": 0.0,
+          "tolerance": 5e-08,
+          "pass": true
+        },
+        {
+          "metric": "joint 0 upper-limit penetration",
+          "error": 1.3877787807814457e-17,
+          "tolerance": 5e-10,
+          "pass": true
+        },
+        {
+          "metric": "joint 1 terminal coordinate",
+          "error": 0.0,
+          "tolerance": 5e-08,
+          "pass": true
+        },
+        {
+          "metric": "joint 1 terminal rate",
+          "error": 0.0,
+          "tolerance": 5e-08,
+          "pass": true
+        },
+        {
+          "metric": "joint 1 upper-limit penetration",
+          "error": 1.3877787807814457e-17,
+          "tolerance": 5e-10,
+          "pass": true
+        },
+        {
+          "metric": "total angular-momentum conservation",
+          "error": 0.0,
+          "tolerance": 5e-09,
+          "pass": true
+        },
+        {
+          "metric": "kinetic energy does not increase",
+          "error": 0.0,
+          "tolerance": 5e-09,
+          "pass": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "name": "stop_sequential_rk4",
+      "checks": [
+        {
+          "metric": "all recorded ABA solves successful",
+          "error": 0.0,
+          "tolerance": 0,
+          "pass": true
+        },
+        {
+          "metric": "terminal base angular velocity",
+          "error": 0.0,
+          "tolerance": 5e-08,
+          "pass": true
+        },
+        {
+          "metric": "joint 0 terminal coordinate",
+          "error": 1.3877787807814457e-17,
+          "tolerance": 5e-08,
+          "pass": true
+        },
+        {
+          "metric": "joint 0 terminal rate",
+          "error": 0.0,
+          "tolerance": 5e-08,
+          "pass": true
+        },
+        {
+          "metric": "joint 0 upper-limit penetration",
+          "error": 1.3877787807814457e-17,
+          "tolerance": 5e-10,
+          "pass": true
+        },
+        {
+          "metric": "joint 1 terminal coordinate",
+          "error": 1.3877787807814457e-17,
+          "tolerance": 5e-08,
+          "pass": true
+        },
+        {
+          "metric": "joint 1 terminal rate",
+          "error": 0.0,
+          "tolerance": 5e-08,
+          "pass": true
+        },
+        {
+          "metric": "joint 1 upper-limit penetration",
+          "error": 1.3877787807814457e-17,
+          "tolerance": 5e-10,
+          "pass": true
+        },
+        {
+          "metric": "total angular-momentum conservation",
+          "error": 0.0,
+          "tolerance": 5e-09,
+          "pass": true
+        },
+        {
+          "metric": "kinetic energy does not increase",
+          "error": 0.0,
+          "tolerance": 5e-09,
+          "pass": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "name": "stop_near_rk4",
+      "checks": [
+        {
+          "metric": "all recorded ABA solves successful",
+          "error": 0.0,
+          "tolerance": 0,
+          "pass": true
+        },
+        {
+          "metric": "terminal base angular velocity",
+          "error": 0.0,
+          "tolerance": 5e-08,
+          "pass": true
+        },
+        {
+          "metric": "joint 0 terminal coordinate",
+          "error": 1.3877787807814457e-17,
+          "tolerance": 5e-08,
+          "pass": true
+        },
+        {
+          "metric": "joint 0 terminal rate",
+          "error": 0.0,
+          "tolerance": 5e-08,
+          "pass": true
+        },
+        {
+          "metric": "joint 0 upper-limit penetration",
+          "error": 1.3877787807814457e-17,
+          "tolerance": 5e-10,
+          "pass": true
+        },
+        {
+          "metric": "joint 1 terminal coordinate",
+          "error": 0.0,
+          "tolerance": 5e-08,
+          "pass": true
+        },
+        {
+          "metric": "joint 1 terminal rate",
+          "error": 1.3877787807814457e-17,
+          "tolerance": 5e-08,
+          "pass": true
+        },
+        {
+          "metric": "joint 1 upper-limit penetration",
+          "error": 0.0,
+          "tolerance": 5e-10,
+          "pass": true
+        },
+        {
+          "metric": "total angular-momentum conservation",
+          "error": 0.0,
+          "tolerance": 5e-09,
+          "pass": true
+        },
+        {
+          "metric": "kinetic energy does not increase",
+          "error": 0.0,
+          "tolerance": 5e-09,
+          "pass": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "name": "cm_positive_dp54",
+      "checks": [
+        {
+          "metric": "all recorded ABA solves successful",
+          "error": 0.0,
+          "tolerance": 0,
+          "pass": true
+        },
+        {
+          "metric": "mass_kg",
+          "error": 7.105427357601002e-15,
+          "tolerance": 5e-11,
+          "pass": true
+        },
+        {
+          "metric": "position_icrf_x_m",
+          "error": 7.993605777301127e-15,
+          "tolerance": 5e-09,
+          "pass": true
+        },
+        {
+          "metric": "velocity_icrf_x_mps",
+          "error": 5.773159728050814e-15,
+          "tolerance": 5e-09,
+          "pass": true
+        },
+        {
+          "metric": "base_origin_acceleration_body_x_mps2",
+          "error": 1.3322676295501878e-15,
+          "tolerance": 5e-10,
+          "pass": true
+        },
+        {
+          "metric": "no transverse acceleration response",
+          "error": 0.0,
+          "tolerance": 1e-11,
+          "pass": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "name": "cm_negative_dp54",
+      "checks": [
+        {
+          "metric": "all recorded ABA solves successful",
+          "error": 0.0,
+          "tolerance": 0,
+          "pass": true
+        },
+        {
+          "metric": "mass_kg",
+          "error": 7.105427357601002e-15,
+          "tolerance": 5e-11,
+          "pass": true
+        },
+        {
+          "metric": "position_icrf_x_m",
+          "error": 1.4210854715202004e-14,
+          "tolerance": 5e-09,
+          "pass": true
+        },
+        {
+          "metric": "velocity_icrf_x_mps",
+          "error": 3.9968028886505635e-15,
+          "tolerance": 5e-09,
+          "pass": true
+        },
+        {
+          "metric": "base_origin_acceleration_body_x_mps2",
+          "error": 1.3322676295501878e-15,
+          "tolerance": 5e-10,
+          "pass": true
+        },
+        {
+          "metric": "no transverse acceleration response",
+          "error": 0.0,
+          "tolerance": 1e-11,
+          "pass": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "name": "cm_omitted_dp54",
+      "checks": [
+        {
+          "metric": "all recorded ABA solves successful",
+          "error": 0.0,
+          "tolerance": 0,
+          "pass": true
+        },
+        {
+          "metric": "mass_kg",
+          "error": 7.105427357601002e-15,
+          "tolerance": 5e-11,
+          "pass": true
+        },
+        {
+          "metric": "position_icrf_x_m",
+          "error": 3.9968028886505635e-15,
+          "tolerance": 5e-09,
+          "pass": true
+        },
+        {
+          "metric": "velocity_icrf_x_mps",
+          "error": 3.9968028886505635e-15,
+          "tolerance": 5e-09,
+          "pass": true
+        },
+        {
+          "metric": "base_origin_acceleration_body_x_mps2",
+          "error": 1.3322676295501878e-15,
+          "tolerance": 5e-10,
+          "pass": true
+        },
+        {
+          "metric": "no transverse acceleration response",
+          "error": 0.0,
+          "tolerance": 1e-11,
+          "pass": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "name": "cm_constant_dp54",
+      "checks": [
+        {
+          "metric": "all recorded ABA solves successful",
+          "error": 0.0,
+          "tolerance": 0,
+          "pass": true
+        },
+        {
+          "metric": "mass_kg",
+          "error": 4.440892098500626e-14,
+          "tolerance": 5e-11,
+          "pass": true
+        },
+        {
+          "metric": "position_icrf_x_m",
+          "error": 9.769962616701378e-15,
+          "tolerance": 5e-09,
+          "pass": true
+        },
+        {
+          "metric": "velocity_icrf_x_mps",
+          "error": 8.43769498715119e-15,
+          "tolerance": 5e-09,
+          "pass": true
+        },
+        {
+          "metric": "base_origin_acceleration_body_x_mps2",
+          "error": 3.9968028886505635e-15,
+          "tolerance": 5e-10,
+          "pass": true
+        },
+        {
+          "metric": "no transverse acceleration response",
+          "error": 0.0,
+          "tolerance": 1e-11,
+          "pass": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "name": "cm_zero_start_dp54",
+      "checks": [
+        {
+          "metric": "all recorded ABA solves successful",
+          "error": 0.0,
+          "tolerance": 0,
+          "pass": true
+        },
+        {
+          "metric": "mass_kg",
+          "error": 5.329070518200751e-15,
+          "tolerance": 5e-11,
+          "pass": true
+        },
+        {
+          "metric": "position_icrf_x_m",
+          "error": 8.881784197001252e-16,
+          "tolerance": 5e-09,
+          "pass": true
+        },
+        {
+          "metric": "velocity_icrf_x_mps",
+          "error": 3.1086244689504383e-15,
+          "tolerance": 5e-09,
+          "pass": true
+        },
+        {
+          "metric": "base_origin_acceleration_body_x_mps2",
+          "error": 4.440892098500626e-16,
+          "tolerance": 5e-10,
+          "pass": true
+        },
+        {
+          "metric": "no transverse acceleration response",
+          "error": 0.0,
+          "tolerance": 1e-11,
+          "pass": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "name": "cm_prescribed_dp54",
+      "checks": [
+        {
+          "metric": "all recorded ABA solves successful",
+          "error": 0.0,
+          "tolerance": 0,
+          "pass": true
+        },
+        {
+          "metric": "mass_kg",
+          "error": 5.329070518200751e-15,
+          "tolerance": 5e-11,
+          "pass": true
+        },
+        {
+          "metric": "position_icrf_x_m",
+          "error": 6.661338147750939e-16,
+          "tolerance": 5e-09,
+          "pass": true
+        },
+        {
+          "metric": "velocity_icrf_x_mps",
+          "error": 3.1086244689504383e-15,
+          "tolerance": 5e-09,
+          "pass": true
+        },
+        {
+          "metric": "base_origin_acceleration_body_x_mps2",
+          "error": 6.661338147750939e-16,
+          "tolerance": 5e-10,
+          "pass": true
+        },
+        {
+          "metric": "no transverse acceleration response",
+          "error": 0.0,
+          "tolerance": 1e-11,
+          "pass": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "name": "cm_variable_isp_dp54",
+      "checks": [
+        {
+          "metric": "all recorded ABA solves successful",
+          "error": 0.0,
+          "tolerance": 0,
+          "pass": true
+        },
+        {
+          "metric": "mass_kg",
+          "error": 7.105427357601002e-15,
+          "tolerance": 5e-11,
+          "pass": true
+        },
+        {
+          "metric": "position_icrf_x_m",
+          "error": 4.440892098500626e-16,
+          "tolerance": 5e-09,
+          "pass": true
+        },
+        {
+          "metric": "velocity_icrf_x_mps",
+          "error": 1.7763568394002505e-15,
+          "tolerance": 5e-09,
+          "pass": true
+        },
+        {
+          "metric": "base_origin_acceleration_body_x_mps2",
+          "error": 6.661338147750939e-16,
+          "tolerance": 5e-10,
+          "pass": true
+        },
+        {
+          "metric": "no transverse acceleration response",
+          "error": 0.0,
+          "tolerance": 1e-11,
+          "pass": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "name": "cm_shared_dp54",
+      "checks": [
+        {
+          "metric": "all recorded ABA solves successful",
+          "error": 0.0,
+          "tolerance": 0,
+          "pass": true
+        },
+        {
+          "metric": "mass_kg",
+          "error": 7.105427357601002e-15,
+          "tolerance": 5e-11,
+          "pass": true
+        },
+        {
+          "metric": "position_icrf_x_m",
+          "error": 7.993605777301127e-15,
+          "tolerance": 5e-09,
+          "pass": true
+        },
+        {
+          "metric": "velocity_icrf_x_mps",
+          "error": 5.773159728050814e-15,
+          "tolerance": 5e-09,
+          "pass": true
+        },
+        {
+          "metric": "base_origin_acceleration_body_x_mps2",
+          "error": 1.3322676295501878e-15,
+          "tolerance": 5e-10,
+          "pass": true
+        },
+        {
+          "metric": "no transverse acceleration response",
+          "error": 0.0,
+          "tolerance": 1e-11,
+          "pass": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "name": "stop_single_dp54",
+      "checks": [
+        {
+          "metric": "all recorded ABA solves successful",
+          "error": 0.0,
+          "tolerance": 0,
+          "pass": true
+        },
+        {
+          "metric": "terminal base angular velocity",
+          "error": 0.0,
+          "tolerance": 5e-08,
+          "pass": true
+        },
+        {
+          "metric": "joint 0 terminal coordinate",
+          "error": 1.3877787807814457e-17,
+          "tolerance": 5e-08,
+          "pass": true
+        },
+        {
+          "metric": "joint 0 terminal rate",
+          "error": 0.0,
+          "tolerance": 5e-08,
+          "pass": true
+        },
+        {
+          "metric": "joint 0 upper-limit penetration",
+          "error": 1.3877787807814457e-17,
+          "tolerance": 5e-10,
+          "pass": true
+        },
+        {
+          "metric": "total angular-momentum conservation",
+          "error": 0.0,
+          "tolerance": 5e-09,
+          "pass": true
+        },
+        {
+          "metric": "kinetic energy does not increase",
+          "error": 0.0,
+          "tolerance": 5e-09,
+          "pass": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "name": "stop_both_lock_dp54",
+      "checks": [
+        {
+          "metric": "all recorded ABA solves successful",
+          "error": 0.0,
+          "tolerance": 0,
+          "pass": true
+        },
+        {
+          "metric": "terminal base angular velocity",
+          "error": 5.551115123125783e-17,
+          "tolerance": 5e-08,
+          "pass": true
+        },
+        {
+          "metric": "joint 0 terminal coordinate",
+          "error": 1.3877787807814457e-17,
+          "tolerance": 5e-08,
+          "pass": true
+        },
+        {
+          "metric": "joint 0 terminal rate",
+          "error": 0.0,
+          "tolerance": 5e-08,
+          "pass": true
+        },
+        {
+          "metric": "joint 0 upper-limit penetration",
+          "error": 1.3877787807814457e-17,
+          "tolerance": 5e-10,
+          "pass": true
+        },
+        {
+          "metric": "joint 1 terminal coordinate",
+          "error": 1.3877787807814457e-17,
+          "tolerance": 5e-08,
+          "pass": true
+        },
+        {
+          "metric": "joint 1 terminal rate",
+          "error": 0.0,
+          "tolerance": 5e-08,
+          "pass": true
+        },
+        {
+          "metric": "joint 1 upper-limit penetration",
+          "error": 1.3877787807814457e-17,
+          "tolerance": 5e-10,
+          "pass": true
+        },
+        {
+          "metric": "total angular-momentum conservation",
+          "error": 2.220446049250313e-16,
+          "tolerance": 5e-09,
+          "pass": true
+        },
+        {
+          "metric": "kinetic energy does not increase",
+          "error": 0.0,
+          "tolerance": 5e-09,
+          "pass": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "name": "stop_release_dp54",
+      "checks": [
+        {
+          "metric": "all recorded ABA solves successful",
+          "error": 0.0,
+          "tolerance": 0,
+          "pass": true
+        },
+        {
+          "metric": "terminal base angular velocity",
+          "error": 0.0,
+          "tolerance": 5e-08,
+          "pass": true
+        },
+        {
+          "metric": "joint 0 terminal coordinate",
+          "error": 1.3877787807814457e-17,
+          "tolerance": 5e-08,
+          "pass": true
+        },
+        {
+          "metric": "joint 0 terminal rate",
+          "error": 0.0,
+          "tolerance": 5e-08,
+          "pass": true
+        },
+        {
+          "metric": "joint 0 upper-limit penetration",
+          "error": 1.3877787807814457e-17,
+          "tolerance": 5e-10,
+          "pass": true
+        },
+        {
+          "metric": "joint 1 terminal coordinate",
+          "error": 1.3877787807814457e-17,
+          "tolerance": 5e-08,
+          "pass": true
+        },
+        {
+          "metric": "joint 1 terminal rate",
+          "error": 1.3877787807814457e-17,
+          "tolerance": 5e-08,
+          "pass": true
+        },
+        {
+          "metric": "joint 1 upper-limit penetration",
+          "error": 1.3877787807814457e-17,
+          "tolerance": 5e-10,
+          "pass": true
+        },
+        {
+          "metric": "total angular-momentum conservation",
+          "error": 0.0,
+          "tolerance": 5e-09,
+          "pass": true
+        },
+        {
+          "metric": "kinetic energy does not increase",
+          "error": 0.0,
+          "tolerance": 5e-09,
+          "pass": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "name": "stop_resting_dp54",
+      "checks": [
+        {
+          "metric": "all recorded ABA solves successful",
+          "error": 0.0,
+          "tolerance": 0,
+          "pass": true
+        },
+        {
+          "metric": "terminal base angular velocity",
+          "error": 0.0,
+          "tolerance": 5e-08,
+          "pass": true
+        },
+        {
+          "metric": "joint 0 terminal coordinate",
+          "error": 1.3877787807814457e-17,
+          "tolerance": 5e-08,
+          "pass": true
+        },
+        {
+          "metric": "joint 0 terminal rate",
+          "error": 0.0,
+          "tolerance": 5e-08,
+          "pass": true
+        },
+        {
+          "metric": "joint 0 upper-limit penetration",
+          "error": 1.3877787807814457e-17,
+          "tolerance": 5e-10,
+          "pass": true
+        },
+        {
+          "metric": "joint 1 terminal coordinate",
+          "error": 4.163336342344337e-17,
+          "tolerance": 5e-08,
+          "pass": true
+        },
+        {
+          "metric": "joint 1 terminal rate",
+          "error": 0.0,
+          "tolerance": 5e-08,
+          "pass": true
+        },
+        {
+          "metric": "joint 1 upper-limit penetration",
+          "error": 1.3877787807814457e-17,
+          "tolerance": 5e-10,
+          "pass": true
+        },
+        {
+          "metric": "total angular-momentum conservation",
+          "error": 0.0,
+          "tolerance": 5e-09,
+          "pass": true
+        },
+        {
+          "metric": "kinetic energy does not increase",
+          "error": 0.0,
+          "tolerance": 5e-09,
+          "pass": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "name": "stop_sequential_dp54",
+      "checks": [
+        {
+          "metric": "all recorded ABA solves successful",
+          "error": 0.0,
+          "tolerance": 0,
+          "pass": true
+        },
+        {
+          "metric": "terminal base angular velocity",
+          "error": 0.0,
+          "tolerance": 5e-08,
+          "pass": true
+        },
+        {
+          "metric": "joint 0 terminal coordinate",
+          "error": 4.163336342344337e-17,
+          "tolerance": 5e-08,
+          "pass": true
+        },
+        {
+          "metric": "joint 0 terminal rate",
+          "error": 0.0,
+          "tolerance": 5e-08,
+          "pass": true
+        },
+        {
+          "metric": "joint 0 upper-limit penetration",
+          "error": 1.3877787807814457e-17,
+          "tolerance": 5e-10,
+          "pass": true
+        },
+        {
+          "metric": "joint 1 terminal coordinate",
+          "error": 1.3877787807814457e-17,
+          "tolerance": 5e-08,
+          "pass": true
+        },
+        {
+          "metric": "joint 1 terminal rate",
+          "error": 0.0,
+          "tolerance": 5e-08,
+          "pass": true
+        },
+        {
+          "metric": "joint 1 upper-limit penetration",
+          "error": 1.3877787807814457e-17,
+          "tolerance": 5e-10,
+          "pass": true
+        },
+        {
+          "metric": "total angular-momentum conservation",
+          "error": 0.0,
+          "tolerance": 5e-09,
+          "pass": true
+        },
+        {
+          "metric": "kinetic energy does not increase",
+          "error": 0.0,
+          "tolerance": 5e-09,
+          "pass": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "name": "stop_near_dp54",
+      "checks": [
+        {
+          "metric": "all recorded ABA solves successful",
+          "error": 0.0,
+          "tolerance": 0,
+          "pass": true
+        },
+        {
+          "metric": "terminal base angular velocity",
+          "error": 0.0,
+          "tolerance": 5e-08,
+          "pass": true
+        },
+        {
+          "metric": "joint 0 terminal coordinate",
+          "error": 1.3877787807814457e-17,
+          "tolerance": 5e-08,
+          "pass": true
+        },
+        {
+          "metric": "joint 0 terminal rate",
+          "error": 0.0,
+          "tolerance": 5e-08,
+          "pass": true
+        },
+        {
+          "metric": "joint 0 upper-limit penetration",
+          "error": 1.3877787807814457e-17,
+          "tolerance": 5e-10,
+          "pass": true
+        },
+        {
+          "metric": "joint 1 terminal coordinate",
+          "error": 0.0,
+          "tolerance": 5e-08,
+          "pass": true
+        },
+        {
+          "metric": "joint 1 terminal rate",
+          "error": 1.3877787807814457e-17,
+          "tolerance": 5e-08,
+          "pass": true
+        },
+        {
+          "metric": "joint 1 upper-limit penetration",
+          "error": 0.0,
+          "tolerance": 5e-10,
+          "pass": true
+        },
+        {
+          "metric": "total angular-momentum conservation",
+          "error": 0.0,
+          "tolerance": 5e-09,
+          "pass": true
+        },
+        {
+          "metric": "kinetic energy does not increase",
+          "error": 0.0,
+          "tolerance": 5e-09,
+          "pass": true
+        }
+      ],
+      "pass": true
+    }
+  ],
+  "case_count": 28,
+  "checks_passed": 210,
+  "checks_failed": 0
+}

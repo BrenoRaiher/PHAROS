@@ -1,0 +1,3 @@
+event_id,event_name,get_seconds,body,latitude_deg,longitude_east_deg,altitude_nmi,speed_ftps,flight_path_angle_deg,heading_deg
+post_first_midcourse_nav_update,Earth body state query,42936.0,Earth,0.0,0.0,0.0,0.0,0.0,0.0
+pre_second_midcourse_nav_update,Earth body state query,143808.0,Earth,0.0,0.0,0.0,0.0,0.0,0.0

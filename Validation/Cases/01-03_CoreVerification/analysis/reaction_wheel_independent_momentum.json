@@ -1,0 +1,15 @@
+{
+  "scenario": "Cases/01-03_CoreVerification/cases/02_actuated_multibody/02e_reaction_wheel/reaction_wheel.tgscn",
+  "scenario_sha256": "5cbd3054d41645fa6f9e91b061a42c34e787a0990506a607084f955ae049cbae",
+  "solution_csv": "Cases/01-03_CoreVerification/cases/02_actuated_multibody/02e_reaction_wheel/results/reaction_wheel_solution.csv",
+  "solution_sha256": "e0945554f62a9bc87fd637279b9560a6f52d4cf1c178b296ac24a39e5b9334cc",
+  "samples": 301,
+  "rigid_momentum_calculation": "Izz from the scenario input multiplied by angular_velocity_body_z_radps from the recorded state. No recorded total momentum is used.",
+  "Izz_kgm2": 4,
+  "axis_condition": "The bus and wheel z axes remain aligned with inertial z throughout the run.",
+  "total_calculation": "Independent rigid momentum plus reaction_wheel_momentum_0_nms.",
+  "maximum_absolute_difference_from_recorded_total_nms": 0.0,
+  "maximum_total_conservation_residual_nms": 0.0,
+  "final_rigid_momentum_nms": -0.2,
+  "final_wheel_momentum_nms": 0.2
+}

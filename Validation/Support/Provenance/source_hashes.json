@@ -1,0 +1,322 @@
+[
+  {
+    "path": "Source/TGSimCore/CMakeLists.txt",
+    "sha256": "3f22cba0c97c884490efbc312f84aa40f92a53789d0bceb41d12f4731dd17756"
+  },
+  {
+    "path": "Source/TGSimCore/include/TGSim/Control/IController.h",
+    "sha256": "11daae913977d736d961d69f635e0a4ba6559b6daf3f58222e695be44eedf3e1"
+  },
+  {
+    "path": "Source/TGSimCore/include/TGSim/Core/Export.h",
+    "sha256": "8918dfff7386c8f6bba672b2f8a9ef2ee22970b8cf29eae0dc353380e15101bd"
+  },
+  {
+    "path": "Source/TGSimCore/include/TGSim/Core/ISimulationObserver.h",
+    "sha256": "682bea3c8819566123e01634235b7c657f3523a8f4c7e700fec6e7c3c99d2ac0"
+  },
+  {
+    "path": "Source/TGSimCore/include/TGSim/Core/ModelTypes.h",
+    "sha256": "d6a1ad464f74be521754bc86e1e2de3cc6ff65b9b4e5c1580f12fb41270c78d9"
+  },
+  {
+    "path": "Source/TGSimCore/include/TGSim/Core/SimulationConfig.h",
+    "sha256": "92e4aed0302ff637f6e6544113bb99587ad683bd1bc1b7934ce196d9b527ef26"
+  },
+  {
+    "path": "Source/TGSimCore/include/TGSim/Core/SimulationRequest.h",
+    "sha256": "fa9bf5b1bee2785edcddb55c14381686f856c3b0d3c404e0fa8bb7a2a3a4e620"
+  },
+  {
+    "path": "Source/TGSimCore/include/TGSim/Core/SimulationResult.h",
+    "sha256": "5fd615c88e487d96f832134341cb80c270bab460be8419781c3df2ce915ebd27"
+  },
+  {
+    "path": "Source/TGSimCore/include/TGSim/Core/Types.h",
+    "sha256": "0b1bddc00630d3126270611fc53f0ab4c731bf9daf23423def0f4acbc880d146"
+  },
+  {
+    "path": "Source/TGSimCore/include/TGSim/Dynamics/ArticulationConstraintDynamics.h",
+    "sha256": "2b5c3295004f73bc8573f4d88b83140ec896604edcd88f3324b6ae0ed4f9ffaa"
+  },
+  {
+    "path": "Source/TGSimCore/include/TGSim/Dynamics/FloatingBaseTreeDynamics.h",
+    "sha256": "9b4601f865f745b2ca1bef8a4b2228e785bff2abef3989fd00ca88f064c152bc"
+  },
+  {
+    "path": "Source/TGSimCore/include/TGSim/Dynamics/General6DofDynamics.h",
+    "sha256": "e379a60ff9a522d32a4ba15058394f08d16ebd0467bfa56299bb65fc5e9438c6"
+  },
+  {
+    "path": "Source/TGSimCore/include/TGSim/Dynamics/IDynamicsModel.h",
+    "sha256": "b3adbe1e44689657b22904f7026cbb0b23540eeb9bfb6988d23640cd2e8aee5a"
+  },
+  {
+    "path": "Source/TGSimCore/include/TGSim/Dynamics/SpatialAlgebra.h",
+    "sha256": "64fb73942172b437728668a81b22633a6dc96efd9781c956ea8a61128cbf7864"
+  },
+  {
+    "path": "Source/TGSimCore/include/TGSim/Environment/EnvironmentModels.h",
+    "sha256": "3d20e20857a216504698ea607a809bccfd59afe1466eaf9dfdcbaee3d431eb84"
+  },
+  {
+    "path": "Source/TGSimCore/include/TGSim/Environment/IEphemerisProvider.h",
+    "sha256": "81da5b1370e792d6bef6beea4078c51ce1df478c363c391d13bb8fa47f0ff755"
+  },
+  {
+    "path": "Source/TGSimCore/include/TGSim/Forces/AerodynamicCoefficientDatabase.h",
+    "sha256": "aa6d133c90b0e8a87054dffee71005075bf8d5b7884a442c9b0a211bc45a9e4c"
+  },
+  {
+    "path": "Source/TGSimCore/include/TGSim/Forces/AerodynamicsModel.h",
+    "sha256": "8cb835fb8f56b7e2002c3ff30d508af5308881a743c629127b44f4a239d2d9e5"
+  },
+  {
+    "path": "Source/TGSimCore/include/TGSim/Forces/GravityModel.h",
+    "sha256": "2252328fc08c845d6afa0abd361613b51e436d93fe70a4c381cdda82f8ada021"
+  },
+  {
+    "path": "Source/TGSimCore/include/TGSim/Forces/IForceModel.h",
+    "sha256": "17363670a41a10ddddc86fb21694e3ddec5b89b6d7725034f97126dc38191fca"
+  },
+  {
+    "path": "Source/TGSimCore/include/TGSim/Forces/PropulsionModel.h",
+    "sha256": "b92edb01b297e592ee069ae2451811da9c1cb2615f97912e1f619c7c1714814b"
+  },
+  {
+    "path": "Source/TGSimCore/include/TGSim/Forces/SolarRadiationPressureModel.h",
+    "sha256": "1c9710247ec01da9660639810183ecce66173eb28e14cb9697e3c0be1be6f9e5"
+  },
+  {
+    "path": "Source/TGSimCore/include/TGSim/Integrators/AdaptiveDormandPrince54.h",
+    "sha256": "d1986eaf67bb36e4ef9012a2dd5b3ebb06f4e95cf267661adba21b2ece94be83"
+  },
+  {
+    "path": "Source/TGSimCore/include/TGSim/Integrators/FixedStepRK4.h",
+    "sha256": "5cf6e8581aecbdc6799ba719f418a15f408068158ac9f7952d9c420c2f87e92c"
+  },
+  {
+    "path": "Source/TGSimCore/include/TGSim/Integrators/IIntegrator.h",
+    "sha256": "b708a0c59dc1cf8021ec4afe10f883e3dcde877da43b5cc0709d18a58fcd67cc"
+  },
+  {
+    "path": "Source/TGSimCore/include/TGSim/Integrators/IntegratorUtilities.h",
+    "sha256": "3fa47e7239da1c0ddf7d62e377406ec46387c3a8b14eadcc3cf37c77f79c9a58"
+  },
+  {
+    "path": "Source/TGSimCore/include/TGSim/Scenario/CelestialCatalog.h",
+    "sha256": "2244dc94ed71c76e745e8c7011c0606897d6f22cb1a6eb00cf3ef950d93d0454"
+  },
+  {
+    "path": "Source/TGSimCore/include/TGSim/Scenario/ScenarioCompiler.h",
+    "sha256": "61f408b105229afd41a029b21fa5b06dca9f1008409022b4d053f7a43a6a57f5"
+  },
+  {
+    "path": "Source/TGSimCore/include/TGSim/Scenario/ScenarioDiagnostics.h",
+    "sha256": "80592eb10d2d130e1d4498fa693df2093c99a8695837b95529b3c0522ace6a80"
+  },
+  {
+    "path": "Source/TGSimCore/include/TGSim/Scenario/ScenarioDocument.h",
+    "sha256": "5760630cc80c323ce67dc8eb7d96e4837fb8cefb27000a2be85252868a1a5a31"
+  },
+  {
+    "path": "Source/TGSimCore/include/TGSim/Scenario/ScenarioFile.h",
+    "sha256": "6b8ee417dc3e8acef53efc017c417160c1060d67e32fbe6e63ec04c82a1aaf96"
+  },
+  {
+    "path": "Source/TGSimCore/include/TGSim/Simulation/ScenarioFactory.h",
+    "sha256": "9082725673a1cbb1ef7c11b02e75dbb37c4e3564c4eec4bbe84955f6d7c71722"
+  },
+  {
+    "path": "Source/TGSimCore/include/TGSim/Simulation/SimulationConfigBuilder.h",
+    "sha256": "3a8db4bcf037294a2d7f2f90f9d09134f5fca983fb029239b85f9a71c9ea2baa"
+  },
+  {
+    "path": "Source/TGSimCore/include/TGSim/Simulation/SimulationEngine.h",
+    "sha256": "7bdace754fa8ed0cb43b7361dcbf63e7356d31bbbe1f9bc8c504db8b1a00d1e9"
+  },
+  {
+    "path": "Source/TGSimCore/include/TGSim/Simulation/StateRecorder.h",
+    "sha256": "294fade7c87aa4d2bdc4e74115485e70dc6364f94609b04cec811d7a5382ebae"
+  },
+  {
+    "path": "Source/TGSimCore/include/TGSim/Validation/BackendValidationSuite.h",
+    "sha256": "1f1644834493b02043e49308ff8b09217fb15487e45ac88192477d0425a979c7"
+  },
+  {
+    "path": "Source/TGSimCore/include/TGSim/Validation/ValidationReport.h",
+    "sha256": "7930642b72bdc68eb103364522c21e07df37733ec222f2b7a9aa25203f4b7ace"
+  },
+  {
+    "path": "Source/TGSimCore/include/TGSim/Vehicle/ComponentKinematics.h",
+    "sha256": "76429c3bd179fb2208a65b8a0fd512105257786d302f0dc99a8163b8fe27224a"
+  },
+  {
+    "path": "Source/TGSimCore/include/TGSim/Vehicle/MassProperties.h",
+    "sha256": "0216cb65347c7e385ccb1ef86da6f8aa932e54a113c0532afc9446e9bbf0d764"
+  },
+  {
+    "path": "Source/TGSimCore/Private/TGSimCore.cpp",
+    "sha256": "5e1f0b958067d3d745d5d122a45be9affc909f8ef1589d6b11b0c6fc3faf61e9"
+  },
+  {
+    "path": "Source/TGSimCore/README.md",
+    "sha256": "143082a27bd5c868a47bf9aa0e2647ee4390f53894156ec845be3c3fa77ec815"
+  },
+  {
+    "path": "Source/TGSimCore/src/Core/ModelTypes.cpp",
+    "sha256": "b59e181a5f5bbfd7b992c3cdb042845bcbfaa88ddd9246a564f44a73467a1386"
+  },
+  {
+    "path": "Source/TGSimCore/src/Core/Types.cpp",
+    "sha256": "96fc7effa615e27008c77317353e16f8b122b3baa42387a2c4ba0d049b133227"
+  },
+  {
+    "path": "Source/TGSimCore/src/Dynamics/ArticulationConstraintDynamics.cpp",
+    "sha256": "9a219e02f1c7a60b04c0d958ca62c291f9ef5256377270b6cb313603961a58c0"
+  },
+  {
+    "path": "Source/TGSimCore/src/Dynamics/FloatingBaseTreeDynamics.cpp",
+    "sha256": "746d2dbd2f5c78ec57890442f7dedd9ff574e3f4a0b5e823854dfd2526ed74ff"
+  },
+  {
+    "path": "Source/TGSimCore/src/Dynamics/General6DofDynamics.cpp",
+    "sha256": "5a1e927e99fe89a91c59f7a0cd5d56e4c6988d3dc1f68eb27acf2bfb4275ca4d"
+  },
+  {
+    "path": "Source/TGSimCore/src/Dynamics/SpatialAlgebra.cpp",
+    "sha256": "92e57da709b4307c653ff01ae6c4cee85ff38824cfb15ac2c7212ea9fc441a0a"
+  },
+  {
+    "path": "Source/TGSimCore/src/Environment/EnvironmentModels.cpp",
+    "sha256": "4c751b4bff460f3ce2b9995ff38e698fb1d4939549f0252a06c40c379b91bf2b"
+  },
+  {
+    "path": "Source/TGSimCore/src/Forces/AerodynamicCoefficientDatabase.cpp",
+    "sha256": "772bd8e63cc6491522e497d782f28a3304786df619ca1d0d00c4288bfbdffc1a"
+  },
+  {
+    "path": "Source/TGSimCore/src/Forces/AerodynamicsModel.cpp",
+    "sha256": "af002f1b2c26530c93dcfa4a32835d16ec80179e07309d0549dc2d383abd7f31"
+  },
+  {
+    "path": "Source/TGSimCore/src/Forces/GravityModel.cpp",
+    "sha256": "9ef9e2d94ae7b418b183fdc3737de7e1c55a95d2e79e604658d74fd8589b6956"
+  },
+  {
+    "path": "Source/TGSimCore/src/Forces/PropulsionModel.cpp",
+    "sha256": "925dd6c15acdd857e6e16f01aae5fbac17d14ca3671d6e0de787922709780961"
+  },
+  {
+    "path": "Source/TGSimCore/src/Forces/SolarRadiationPressureModel.cpp",
+    "sha256": "a380a2ebe03b2c02a9cff1d6ebdafd54e1ee946fdc1e46bf52d64179d7c69409"
+  },
+  {
+    "path": "Source/TGSimCore/src/Integrators/AdaptiveDormandPrince54.cpp",
+    "sha256": "be2aa72a9132202fac6726270856c16607ef5c70841df84899ef2fb441449242"
+  },
+  {
+    "path": "Source/TGSimCore/src/Integrators/FixedStepRK4.cpp",
+    "sha256": "55e8b4664644ac05a9ca67ed5f94944f694866677df468b2813a4b0e28dab44b"
+  },
+  {
+    "path": "Source/TGSimCore/src/Integrators/IntegratorUtilities.cpp",
+    "sha256": "568e35dd3e2258a8147dd319c947ace61c5e10f63a913c0a8bb0626f9856cbc6"
+  },
+  {
+    "path": "Source/TGSimCore/src/Scenario/CelestialCatalog.cpp",
+    "sha256": "35ac327465be523a5352f9bbbcb420e2af4fba7d82b9ccce7192977f3f1bfc44"
+  },
+  {
+    "path": "Source/TGSimCore/src/Scenario/ScenarioCompiler.cpp",
+    "sha256": "74b375357ef63d4a2bbdee417d98c356522f96fd336fe20090a84c8b1ef2cee1"
+  },
+  {
+    "path": "Source/TGSimCore/src/Scenario/ScenarioDiagnostics.cpp",
+    "sha256": "f4596364b1c0eec001074134cc693494599db2afc56c787186b111886f00647c"
+  },
+  {
+    "path": "Source/TGSimCore/src/Scenario/ScenarioFile.cpp",
+    "sha256": "3eacd38c9be6cc0205f1ee4259cde6da41f9e078f04e16578d9eb3ecfce8758d"
+  },
+  {
+    "path": "Source/TGSimCore/src/Simulation/ScenarioFactory.cpp",
+    "sha256": "ee868e149472c2cc5f5447565cb0a388f6e176b71c45eefa9ba2c304d60fd8c5"
+  },
+  {
+    "path": "Source/TGSimCore/src/Simulation/SimulationConfigBuilder.cpp",
+    "sha256": "59029e5b2273f45992f19ec02f9efef86089a4440a9e1f638759eeca382cf683"
+  },
+  {
+    "path": "Source/TGSimCore/src/Simulation/SimulationEngine.cpp",
+    "sha256": "a705678ef93153fa8042a4d632c344291337db202f7c94987ccb7da29cbd997d"
+  },
+  {
+    "path": "Source/TGSimCore/src/Simulation/StateRecorder.cpp",
+    "sha256": "365278b3e927a79776584b272a4077c3aab8ff6249f3782823c4aed7f78a6466"
+  },
+  {
+    "path": "Source/TGSimCore/src/Validation/BackendValidationSuite.cpp",
+    "sha256": "7976b8c828753740bb156e8e6593935d5336598fa04d66bd167f193149292fbc"
+  },
+  {
+    "path": "Source/TGSimCore/src/Vehicle/ComponentKinematics.cpp",
+    "sha256": "f9dedd152ada91bdb9b0fd3523ef03bc0b87e947d87e1aab0d5e2a3b09da4bb1"
+  },
+  {
+    "path": "Source/TGSimCore/src/Vehicle/MassProperties.cpp",
+    "sha256": "98770f978d9945c59127fa1a94181f9de67b912df9907135a2fd2748eeef0e0a"
+  },
+  {
+    "path": "Source/TGSimCore/tests/TGScenarioRoundTripMain.cpp",
+    "sha256": "527f69ca9661713b4d0d24ea07fb9e44220d57d584b37d1c1ecce5c53583eeca"
+  },
+  {
+    "path": "Source/TGSimCore/tests/TGSimCoreValidationMain.cpp",
+    "sha256": "9864f523cc0a2c133c517c0e30b3ed695f82bae90c0bd7c12d0104b1b4322dd3"
+  },
+  {
+    "path": "Tools/TGScenarioRunner/BuildStandaloneRunner.bat",
+    "sha256": "14cb6837b3ca407e5262ad81953b23eab2c841c34fdb66f8e28b4f2183c6aa26"
+  },
+  {
+    "path": "Tools/TGScenarioRunner/README.md",
+    "sha256": "49a6280fd7e488be0dd667dd3d097a4faacb568fefaec7b97024936ba690663d"
+  },
+  {
+    "path": "Tools/TGScenarioRunner/StandaloneControllerAdapter.cpp",
+    "sha256": "c88be644d27682171a87acd47031fb10d7c9268764fadc6d43afa666e8e4b13c"
+  },
+  {
+    "path": "Tools/TGScenarioRunner/StandaloneControllerAdapter.h",
+    "sha256": "2ed4259aade257646cb14117e7a4dd6dd5e123f7bb4e0c8b9b782bf080677644"
+  },
+  {
+    "path": "Tools/TGScenarioRunner/StandaloneSpiceProvider.cpp",
+    "sha256": "0b77cda2eff9a76cb997c702ff0db29946aa7f44b4bfaf27cf0f5abda6b060da"
+  },
+  {
+    "path": "Tools/TGScenarioRunner/StandaloneSpiceProvider.h",
+    "sha256": "f64571f7bc227f10661b20c5e9b27ce5ed4dca2d93ece353d37b617d7426ba4b"
+  },
+  {
+    "path": "Tools/TGScenarioRunner/TGScenarioRunnerMain.cpp",
+    "sha256": "eca0fa038b16ec4f5938f29092bcad88c856809e0d90ce5d22258ef5b0f27670"
+  },
+  {
+    "path": "ControllerSDK/ControllerTemplate.cpp",
+    "sha256": "5ce573bb7ba86b867a90a3aa887049349fc1a8da2c699ce872f87f705ba217d6"
+  },
+  {
+    "path": "ControllerSDK/PHAROSControllerAPI.h",
+    "sha256": "625e0ee52b3041dca2532b21591a942198f35aa8336f055ef7955f4b4add5533"
+  },
+  {
+    "path": "ControllerSDK/README.md",
+    "sha256": "ecb2e84e77e9d229bcbfaa6015b992d16aa6bd26735f1a29b4f8c0f0d8934386"
+  },
+  {
+    "path": "ControllerSDK/TGControllerAPI.h",
+    "sha256": "27c0704b1a6505b0b331948fe0b2ac4168bac05e592013bf584e091f00f4e410"
+  }
+]

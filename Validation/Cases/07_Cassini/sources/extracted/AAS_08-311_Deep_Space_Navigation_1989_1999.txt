@@ -1,0 +1,1197 @@
+PDF page 1
+AAS 08-311
+THE EVOLUTION OF DEEP SPACE NAVIGATION: 1989-1999 
+Lincoln J. Wood* 
+The exploration of the planets of the solar system using robotic vehicles has 
+been underway since the early 1960s.  During this time the navigational 
+capabilities employed have increased grea tly in accuracy, as required by the 
+scientific objectives of the missions and as enabled by improvements in 
+technology.  This paper is the second in a chronological sequence dealing with 
+the evolution of deep space navigation.  The time interval covered extends from 
+the 1989 launch of the Magellan spacecraft  to Venus through a multiplicity of 
+planetary exploration activities in 1999.  The paper focuses on the observational 
+techniques that have been used to obtain navigational information, propellant-
+efficient means for modifying spacecraft trajectories, and the computational 
+methods that have been employed, tracing their evolution through a dozen 
+planetary missions. 
+INTRODUCTION 
+A previous paper has described the evolution of deep space navigation over the time interval 1962 to 
+1989.
+1  The missions covered ranged from the early Mariner missions to the inner planets to the Voyager 
+mission to the outer planets.  The current paper extends the previous paper by one decade.  It covers the 
+entirety of the Magellan, Mars Observer, Mars Pathfi nder, Mars Climate Orbiter, and Mars Polar Lander 
+missions, as well as the portions of the Pioneer Venu s Orbiter, Galileo, Ulysses, Near Earth Asteroid 
+Rendezvous, Mars Global Surveyor, Cassini, and Deep Space 1 missions that took place between 1989 and 
+1999.  As in the previous paper, attention is limited to those missions that involved travel well in excess of 
+1,500,000 km from the Earth and that were targeted to fly close to one or more distant natural bodies.  
+Attention is focused primarily on planetary missions that were managed by the National Aeronautics and 
+Space Administration (NASA). 
+EXPLORATION OF THE TERRESTRIAL PLANETS 
+Pioneer Venus Orbiter 
+The majority of the Pioneer Venu s Orbiter mission took place before th e time period covered by this 
+paper.
+1  In 1992, the periapsis altitude of the spacecra ft’s highly elliptical orb it about Venus, on a multi-
+year downward trend due to solar gravitational effects, was approaching the upper atmosphere of Venus.  
+Enough on-board propellant remained to sustain the periapsis altitude high in the atmosphere (130-150 km) 
+for a limited amount of time, enabling the collection of atmospheric data. 
+Around this time, power limitations  on the aging spacecraft limited tr acking to a few short intervals 
+spread around each 24-hour orbit, rather than nearly continuous coverage, as had been available early in the 
+mission.  A tracking strategy of four short passes per orbit was tested starting in July 1992.  Three orbits of 
+                                                           
+* Program Manager, Guidance, Na vigation, and Control Section, Jet Propulsion Laboratory,  California Institute of Technology, Mai l 
+Stop 301-150, 4800 Oak Grove Drive, Pasadena, California 91109.  Email: Lincoln.J.Wood@jpl.nasa.gov 
+ 1
+
+PDF page 2
+data were fit at a time to produce orbit solutions.  A sequence of periapsis-raising maneuvers was executed 
+from 8 September into early October 1992, at which point the propellant had been depleted.  After a 
+lowest-yet 128.5-km periapsis passage, with a resulting speed reduction due to atmospheric drag of 2 m/s, 
+no radio signal was detected from the spacecraft.2  The spacecraft entered the atmosphere, never to emerge, 
+some unknown number of orbits thereafter. 
+Magellan 
+X-Band Uplink.  An X-band uplink capability (at 7.2 GH z) was added to one 34-m antenna at each 
+Deep Space Network (DSN) complex in 1990. 3  Although originally motivated principally by the 
+possibility of conducting gravitational wave detectio n experiments, the increase in the uplink frequency 
+from the previously standard S-band offered numerous other benefits, some of which are related to 
+navigation.  For example, at the time of the Magellan mission, S-band and X-band Doppler data had 
+expected measurement accuracies of 1.0 and 0.1 mm/s, respectively, for 60-s averaging times.4  In addition, 
+X-band radio metric data are much less affected by plasma interactions than S-band data because of the 
+inverse-square frequency dependence of these interactions.
+1  An X-band uplink capability was put into 
+operational use at a second subnet of DSN 34-m stations in 1997 (well after the end of the Magellan 
+mission).3 
+Interplanetary Phase.   The Magellan spacecraft was launched  on 4 May 1989 by the Space Shuttle 
+Atlantis, using an Inertial Upper Stage.  Coherent up links and downlinks were available at both S- and X-
+band frequencies during the interplanetary cruise toward Venus (with the X-band uplink first available for 
+operational use at some point during cruise).  The cr uise and approach navigation were carried out using S-
+band and X-band two-way coherent Doppler data and X-band delta-differential one-way range ( ΔDOR) 
+data.
+1  The X-up/X-down Doppler data were of high quality after some initial problems were resolved. 5  
+The Magellan X-band high-rate telemetry subcarrier had harmonics that spanned a 30-MHz bandwidth – 
+the spanned bandwidth being a major determinant of ΔDOR data accuracy.  The overall ΔDOR 
+measurement accuracy was expected to be 0.8 ns (24 cm), resulting in an angular accuracy of about 40 nrad 
+using the DSN’s intercontinental baselines.4  The spacecraft transponder did not include a ranging channel, 
+so that ranging data were not available. 
+The dynamical modeling of the Magellan cruise trajectory included the treatment of solar radiation 
+pressure and reaction wheel momentum dump effects.  Solar radiation pressure effects were modeled by 
+representing the spacecraft as a self-shadowing parabolic  antenna and several flat plates (with shadowing 
+effects not included).  Di ffuse and specular reflectivity coeffici ents associated with each of these 
+components were estimated as part of the orbit determination process.
+4  The Magellan spacecraft was the 
+first NASA planetary spacecraft to use reaction wh eels for attitude control.  The angular momentum 
+accumulated in the reaction wheels was removed by executing thruster firings twice per day.  Each week a 
+file describing the size and duration of each burn was supplied to the project’s navigation team by the 
+spacecraft team.
+4  The most accurate orbit determination so lutions were obtained by processing all 
+available Doppler and Δ DOR data, with the X-band Doppler data deweighted relative to their inherent 
+accuracy, to minimize the impact of modeling errors and allow the limited amount of ΔDOR data available 
+to exert a greater influence on the orbit solution. 4  Three trajectory-correcti on maneuvers (TCMs) were 
+executed en route to Venus.6 
+Elliptical Orbit Mapping Phase.   The Magellan spacecraft reached Venus and was inserted into an 
+elliptical orbit on 10 August 1990.  Magellan’s principa l scientific payload was a synthetic aperture radar 
+(SAR), to map the surface of Venus.  The SAR im aging of the planetary su rface required an orbit 
+inclination between 84 and 86 deg relative to the equator of Venus, an orbit period between 3.1 and 3.3 
+hours, a periapsis altitude between 275 and 325 km, and a latitude of periapsis between 0 and 10 deg north.  
+With no orbit trim maneuvers executed after Venus orbit insertion, the first mapping cycle of roughly 243 
+days (one Venus rotation period), began on 15 September with an orbit inclination of 85.5 deg, an orbit 
+period of 3.26 hours, a periapsis altitude of 295 km, and a latitude of periapsis of 9.7 deg north.
+4,7  The 
+achievement of these orbital characteristics subsequent  to orbit insertion was enabled by the navigational 
+accuracy attained during cruise and on approach to Venus. 
+ 2
+
+PDF page 3
+The orbital period for the Magellan spacecraft was substantially shorter than  for NASA’s previous 
+planetary orbiter missions.  This made it impractical to conduct orbit determination by processing single 
+orbits of data, with periapsis data deleted, as had typically been done before. 1  For a substantial fraction of 
+an hour during each orbit, around periapsis, Doppler data were not  available because radar data were being 
+collected during that time using the high-gain antenna.  In addition, Doppler data could not be collected for 
+15 minutes just after apoapsis, while reference stars were being scanned to calibrate the attitude control 
+gyros. 
+Both two-way and three-way Doppler data were potentially available for use.  Whereas the transmitting 
+and receiving stations are the same with two-way data, the stations are different (and typically lie on 
+different continents) in the case of  “three-way” data.  The differencing  of two-way and three-way Doppler 
+data (referred to as differenced Doppler data) provides information about the spacecraft velocity component 
+perpendicular to the line of sight to the spacecraft an d lying in the plane determined by the two tracking 
+stations and the spacecraft. 
+Plans had existed to use delta-differential one-way Doppler ( ΔDOD) data during the orbit phase of the 
+mission.  ΔDOD data is analogous to ΔDOR data, involving the tracking of a spacecraft relative to a distant 
+quasar from tracking stations on different continents,
+1 but without the need to resolve ambiguities in 
+spacecraft delay.  Like differenced Doppler data, it provides information about the spacecraft velocity 
+component perpendicular to the line of sight to the spacecraft and lying in the plane determined by the two 
+tracking stations and the spacecraft.  It is theoretically more accurate th an differenced Doppler data, due to 
+a greater cancellation of common error sources.  Ho wever, it was found that interstation clock and 
+frequency offsets could be calibrated to sufficient accuracy for the Magellan mission using Global 
+Positioning System satellite signals.  Thus, mission operations could be simplified by eliminating the 
+quasar observations inherent in ΔDOD data and relying on difference d Doppler data instead.  The recent 
+improvements in station time and frequency standards and the migration from S-band to X-band had made 
+the differenced Doppler data type, which had been understood conceptually for some time, of practical use 
+in flight operations.  Tests of both differenced Doppler and ΔDOD were carried out in transit to Venus.
+5 
+Orbit determination accuracy requirements existed for radial, downtrack, and crosstrack position 
+components, both in absolute terms and in orbit-to-orbit relative terms, with the latter requirements (0.15-
+1.0 km) being considerably more stringent than th e former (0.3-14.0 km).  In addition there were 
+downtrack and crosstrack orbit prediction accuracy requirements. 7  All of these requirements were 
+motivated by various details of the SAR mapping process. 
+Uncertainties in the gravity field of Venus were an important error source for orbit determination while 
+in orbit about Venus.  Other dynamical effects that were modeled include atmospheric drag near periapsis, 
+solar radiation pressure, and velocity changes due to reaction wheel desaturation thrustings.  The modeling 
+of solar radiation pressure was improved substantially during cruise.  The angular momentum desaturations 
+occurred every second orbit near apoapsis.  Spacecraft  position and velocity at an initial (or epoch) time 
+and base density were the standard quantities estimated early in the mapping phase, with a local fifth 
+degree and order (5x5) gravity field added later.
+8 
+Orbit determination solutions were carried out daily, using 12 orbits (39 hours) of data.  Thus, orbit 
+solutions on successive days contained 15 hours of common data, to reduce the relative error between the 
+daily orbit calculations.  The two-way Doppler data were deweighted relative to their inherent accuracy, to 
+allow the differenced Doppler data to play a more signifi cant role in the orbit solu tion.  Either a face-on or 
+edge-on geometry occurred every several months, and adversely affected orbit determination accuracy for 
+about three weeks.
+8  In face-on, edge-on, and normal, intermedia te geometries, the inclusion of differenced 
+Doppler data produced more accurate orbits than the processing of two-way Doppler data alone. 
+Orbit determination software, which in the past had resided on mainframe computers and 
+minicomputers,1 was transported to high-performance work stations in the early 1990s.  Orbit 
+determination for the Magellan mission was performed on a dedicated local network consisting of two 28.5 
+MIPS Sun Microsystems SPARCstations, a Sun 3/260 and three Sun 3/60s running UNIX, with 4GB of on-
+line hard-disk storage.8 
+ 3
+
+PDF page 4
+The spacecraft’s orbit plane relative to Venus was ro tated by 0.106 deg by a propulsive maneuver after 
+the first mapping cycle, to allow the cycle-2 altimetry data to be interleaved with the cycle-1 altimetry 
+swaths.9  Over the first three mapping cycles, 99% of the surface of Venus was mapped at least once by the 
+SAR, with some regions mapped three times at different incidence angles.  A second antenna collected 
+altimetry data over 98% of the su rface, in parallel with the SAR im aging.  It was experimentally 
+determined that orbit determination accuracy could be improved significantly, after the fact, by the use of 
+SAR landmark measurements.
+10 
+Periapsis was lowered to 181 km before the fourth data collection cycle, for the purpose of improving 
+the gravity-field model.  The periapsis altitude remained  in a 175±6 km band throughout this cycle.  The 
+collection of high-resolution gravity data was limited to a ±30-deg latitude band near periapsis, due to the 
+elliptical orbit. 
+Aerobraking Phase.  After four data-collection cycles in a 3. 3-hour orbit, an aerobraking maneuver, in 
+which the spacecraft made repeated  passes through the uppermost Venusian atmosphere to reduce the 
+orbital energy and bring the spacecr aft into a more circular orbit,  was performed from 25 May until 3 
+August 1993, over the course of 730 orbits.
+11  This aerobraking process reduced the apoapsis altitude from 
+8467 km to 541 km.  To accomplish this orb it change, involving a total velocity change ( ΔV) of 1219 m/s, 
+in the standard propulsive manner would have required an order of magnitude more propellant than was 
+available.
+12 
+The aerobraking process consisted of three phases: walk -in, main, and endgame.  In the first of these, 
+four propulsive maneuvers were executed over three days to gradually lower the periapsis altitude from 172 
+km to the aerobraking altitude of 141 km.  During the main aerobraking phase, nine small propulsive 
+maneuvers were executed to maintain the orbital periapsis in a time-varying, 2-km portion of a 134 to 141 
+km range, such that excessive aerodynamic heating would be avoided, with the aerodynamic drag still 
+sufficient to gradually lower the periapsis speed.  (It  was really dynamic pressure at periapsis that was 
+carefully tracked, rather than altitude, since the density  at a given altitude can vary due to solar energy 
+inputs, turbulence, and gravity waves.
+13)  Six of these trim maneuvers served to raise periapsis, and three to 
+lower it.  The velocity change imparted by each atmospheric pass was about 1.8 m/s.  In the endgame 
+phase, five propulsive maneuvers were executed to ra ise the periapsis altitude to 197 km after the desired 
+apoapsis altitude had been achieved. 
+Various antenna pointing and geometric constraints limited the theoretical maximum amount of 
+tracking data per orbit to 133 minutes during the main phase and 20 minutes during the endgame phase.  
+Orbit solutions were computed twice per day, with  the estimated quantities in cluding spacecraft position 
+and velocity at an epoch time, the harmonic coefficients for a local 8x8 gravity field, the base atmospheric 
+density (at a reference altitude of 131 km) for each dr ag pass, and constant acceler ations of 600-s duration 
+over each orbit to account fo r thruster firing activity for attitude maintenance while in the atmosphere.
+11  It 
+was particularly important to be able to predict accu rately the dynamic pressure and periapsis time for 
+upcoming drag passes.  A corridor orbit trim maneuver was planned when an upcoming drag pass was 
+expected to incur a dynamic pressure in excess of some limit, typically 0.35 N/m 2.  Accurate predictions of 
+periapsis times were needed to put the spacecraft in  the correct attitude during  the drag pass to reduce 
+attitude control thruster firing.  The orbit period at the end of aerobraking was 1.58 hours. 
+Near-Circular Orbit Phase.   The next data collection cycle was used to acquire gravity information 
+from the initially 541-km (apoapsis altitude) by 197-km  (periapsis altitude) orbit from 3 August 1993 until 
+29 August 1994, producing high-resolution gravity data for about 95% of the planet.  Doppler data could 
+not be collected continuously, because of the need to do star scans to update attitude knowledge, the need 
+to point the high-gain antenna toward  the sun some of the time to put the rest of the spacecraft in shadow 
+for thermal control, the need to desaturate the reac tion wheels, the time required to establish a two-way 
+link, occultations of the spacecraft by Venus, occasi onal superior conjunction conditions, and the demand 
+for the use of DSN tracking stations by other projects.
+14  Periapsis altitude fluctuations over a data-
+collection cycle were now considerably larger than in the earlier elliptical orbit, due to gravity field 
+irregularities, necessitating occasional maneuvers to keep the peak dynamic pressure from becoming too 
+large. 
+ 4
+
+PDF page 5
+In September 1994 a “windmill” experiment took place, in which the solar panels were tilted at an angle 
+so that atmospheric drag put a torque on the spacecra ft, which was measured to give information about the 
+atmospheric density at different altitudes.  The Magellan spacecraft began its final descent into the 
+Venusian atmosphere on 11 October 1994.  On 12 October radio contact was lost, and the spacecraft 
+presumably burned up in the atmosphere shortly thereafter. 
+Mars Observer 
+The Mars Observer spacecraft was launched on 25 September 1992.  It was the first spacecraft to 
+communicate exclusively at X-band.  Three TCMs were  executed on the way to Mars.  A planned fourth 
+TCM was not executed due to the orbit accuracy achieved with  the third TCM months earlier. 15  O r b i t  
+determination solutions constructed using various combinations of Doppler, ranging, and ΔDOR data over 
+various periods of time were found to be consistent throughout the mission.16 
+Communication with the spacecraft was lost on 21 August 1993, three days before the planned insertion 
+into orbit around Mars.  The most probable cause of the spacecraft failure was thought to be a rupture of the 
+fuel pressurization tubing. 
+Mars Global Surveyor 
+Interplanetary Phase.   The Mars Global Surveyor (MGS) sp acecraft was launched on 7 November 
+1996.  Three TCMs were executed on the way to Mars.  An additional TCM (the third in a planned 
+sequence of four) was not executed.  The MGS spacecraft was inserted into  an elliptical orbit about Mars 
+on 12 September 1997 by means of a 973-m/s maneuver.  The actual periapsis altitude of 262.9 km was 
+within 12.9 km of the targeted altitude of 250 km.17 
+Aerobraking Phases.  Whereas aerobraking was employed in the Magellan mission only after many of 
+the scientific objectives had already been accomplished,  due to concerns about risk, this orbit modification 
+approach was considered mature enou gh to be used upon arrival in the case of MGS, due to the successful 
+Magellan demonstration.  However, structural problems with a solar panel wing 17,18 required a more 
+gradual aerobraking schedule than had been planned, so as to put less pressure on the solar panels. 
+Aerobraking was initiated with a sequence of six propu lsive maneuvers at apoapsis, gradually lowering 
+the orbital periapsis into the Martian atmosphere. 19  Aerobraking operations were suspended on 12 
+October, after an aerobraking pass with a dynamic pressure of 0.93 N/m 2, due to concerns about the 
+damaged solar panel wing.  The aerobraking process was replanned, extended in time, divided into two 
+phases, and resumed on 7 November, with average dynamic pressure levels reduced to 0.2 N/m 2 (and later 
+revised upward somewhat).  During the first aerobraking phase, the orbital period was reduced from 45 
+hours to 11.6 hours. 19,20  (It had already been reduced to slightly less than 35 hours at the time of the 
+suspension and replanning of aerobraking.) 
+After the termination of this first aerobraking phas e on 27 March 1998, the spacecraft entered a science 
+phasing orbit.  This phasing orbit avoided the need to carry out aerobraking operations during a solar 
+conjunction period and allowed the ascending node of the orbit to regress toward the local mean solar time 
+desired for the eventual science mapping orbit.  A second phase of aerobraking was initiated on 23 
+September.21,22  Three propulsive maneuvers were executed at apoapsis to gradually lower the orbital 
+periapsis into the Martian atmosphere. 
+Throughout the aerobraking process, the orbit was maintained such that the dynamic pressure at 
+periapsis fell into a corridor bounded above to limit the force acting on the spacecraft’s damaged solar array 
+yoke assembly (as well as thermal effects on the spacecr aft) and bounded below to ensure that the desired 
+reduction in orbital period could be achieved by the scheduled end date for aerobraking (determined by the 
+desired lighting conditions for the mapping phase).  Remaining within this dynamic pressure corridor was 
+complicated by the fact that at mospheric variations of 70% (2σ ) occurred from orbit to orbit and the fact 
+that uncertainties in the Martian gravity field could cause the periapsis altitude to shift unexpectedly.  
+Parameters associated with an atmospheric density model were estimated at almost every periapsis passage, 
+based on the analysis of two-way, and occasionally one-way, Doppler data.  For approximately one hour 
+centered about periapsis passage, no Doppler data c ould be acquired, because the spacecraft orientation 
+employed while passing through the upper Martian atmosphere was not consistent with pointing the high-
+ 5
+
+PDF page 6
+gain antenna toward Earth.  Thus, the effects of the Martian atmosphere were deduced by comparing 
+Doppler-determined orbit solutions before and after periapsis passage.  Spacecraft accelerometer data 
+recorded during the atmospheric passes were helpful in measuring atmospheric properties, particularly the 
+density scale height.
+23  It was necessary to be able to predict future periapsis passage times to 225-280 s, 
+since the timing of the sp acecraft’s sequence of events during an  aerobraking pass was relative to the 
+assumed periapsis passage time.  This prediction accuracy was achieved a sufficient number of orbits in 
+advance to support the sequence generation process for periapsis passages. 
+The second phase of aerobraking was terminated by a propulsive maneuver on 4 February 1999.  Over 
+the course of the two aerobrakin g phases, the MGS spacecraft perfor med 891 drag passes, executed 92 
+trajectory control maneuvers, survived  the onset of a Martian dust storm that tripled dynamic pressure at 
+aerobraking altitudes, and underwent a reduction in spacec raft orbital period of mo re than 43 hours, while 
+avoiding the propellant expenditure associated with a velocity change of nearly 1250 m/s that would have 
+been needed for orbit modification without aerobraking.
+21 
+Mapping Orbit Phase.  From 4 February to 26 February, a gravity calibration period, with nearly 
+continuous Doppler and ranging tracki ng coverage, was carried out.  On 19 February, the spacecraft was 
+transferred into an initial mapping orbit by means of a propulsive maneuver.  Science mapping, with the 
+Mars Orbiter Camera and other instrumentation, be gan on 9 March 1999, with the MGS spacecraft in a 
+117-minute, nearly circular, nearly polar, frozen orbit with a mean altitude of 402 km. 24  (In a frozen orbit, 
+the eccentricity and argument of periapsis are constraine d by the gravitational field structure to vary over 
+narrow ranges with time.25)  The orbit was sun synchronous and crossed the Martian equator from south to 
+north at 2 PM local mean solar time.  The orbit had a 7-day near-repeat cycle, allowing for the mapping of 
+Mars in 26-day cycles. 
+Major orbit determination challenges during the orbiting phase of this mission involved the modeling of 
+the Martian gravity field and the autonomously commanded spacecraft angular momentum desaturations 
+(AMDs).24  The Martian gravity field mode l was significantly improved in accuracy over the course of the 
+mission through the analysis of MGS Doppler data.  AMD thruster firings affected the translational motion 
+of the spacecraft, as well as unloading the angu lar momentum accumulated by the spacecraft’s three 
+reaction wheels; occurred about three times per day; and were difficult to model. 
+X-band Doppler data at 10-s interv als were collected over three to f our orbits for trajectory prediction 
+(to avoid the occurrence of more than one AMD event in  the data span) and 17 to 22 orbits for trajectory 
+reconstruction.24  An ultra-stable oscillator was availa ble on board for tracking and gravity field 
+determination.  Consequently, one-way Doppler data were found to be usable for orbit determination, 
+provided that two-way data were available to resolv e a 4.9-kHz bias in the one-way data.  The quantities 
+estimated include the spacecraft position and velocity at  an epoch time, a subset of the gravitational field 
+harmonic coefficients, velocity cha nges associated with AMD events dur ing the data span, and the ultra-
+stable oscillator frequency bias and drift rate. 
+Orbit reconstruction errors were typically less than 10 m, 200 m, and 3 m in radial, downtrack, and 
+crosstrack directions.24  The results improved by a factor of three to ten during tracking data passes.  The 
+accuracy was somewhat degraded when  the spacecraft orbit about Mars wa s close to edge-on, as viewed 
+from the Earth. 
+Orbit prediction errors twenty days into the future were typically less than 0.2 km, 70 km, and 0.04 km 
+in radial, downtrack, and crosstrack directions. 24  The effects of future AMDs were modeled by constant 
+acceleration components, derived from recent AMD be havior.  An accurate gravity field, MGS75C, 26 
+developed during the mission, was needed to allow proper treatment of AMD effects. 
+Mars Pathfinder 
+Interplanetary Phase.   The Mars Pathfinder (MPF) spacecraft was launched on 4 December 1996.  
+Communications were at X-band.  The circular polarization of the radio signals and an offset of the 
+spacecraft’s antenna boresight from the spin axis of the rotating sp acecraft caused both a bias and a 
+sinusoidal modulation to appear in the Doppler data. 
+ 6
+
+PDF page 7
+The noise level of ranging data was required to be no more than 1m (1σ).  This requirement was not met 
+during much of the interplanetary flight; but the data that were most important, taken during the last 35 
+days, had a noise level of 0.57 m (1 σ).27  In previous planetary missions, range data had typically been 
+weighted more loosely than the noise level would imply, due to various measurement and dynamical error 
+sources that had been difficult to model accurately.  (To a lesser degree, the same approach had been taken 
+with Doppler data at times.)  In the Mars Pathfinder mission, the approach was taken to weight range data 
+near their inherent accuracy level, while using more  sophisticated models to represent measurement and 
+dynamical errors that might be important.
+28,29 
+The quantities estimated in generating orbit determ ination solutions include d spacecraft position and 
+velocity at an epoch time, solar radiation pressure parameters, velocity changes from TCMs and attitude 
+control events, DSN station locations, Earth and Mars ephemerides (near encounter), a range bias due to 
+spacecraft hardware delay, range biases for each DSN s ite, and a Doppler bias.  In addition, a number of 
+stochastic parameters were estimated.  These stocha stic parameters included pass-dependent biases for 
+range and Doppler data, tropospheric and ionospheric transmission effects on the radio signal, Earth 
+rotation and polar motion parameters, and miscellaneous  nongravitational accelerations experienced by the 
+spacecraft.
+27  In previous planetary missions, effects that had been thought to be difficult to model had been 
+treated as “considered” parameters – parameters that are not estimated, but with uncertainties that affect the 
+error covariance associated with the estimated parameters.  Considered parameters were not included in the 
+Mars Pathfinder orbit determination solutions, due to the effort made to model and estimate all significant 
+effects. 
+The flight path angle at entry to the Martian atmosphere was required to be -14.2±1.0 deg, to ensure a 
+safe descent to the surface. 27  Four TCMs were executed en route to Mars to achieve the desired delivery 
+accuracy.  The first two had biased aimpoints due to planetary contamination issues.  The third TCM was 
+not quite sufficient to achieve the desired entry cond itions.  The fourth TCM was executed 9 days before 
+arrival at Mars.  Orbit determination accuracies did not improve significantly after the fourth TCM until the 
+last 48 hours before entry, as the gravitational attraction of Mars began to appear in the Doppler data at 
+levels greater than noise.  These improved flight path estimates were used to update key parameters in the 
+flight software; to update trajectory predictions used by the DSN to maintain contact with the spacecraft for 
+as long as possible during the descent; and to allow for the possibility of a fifth TCM either 10.5 or 5.5 hr 
+before entry, should it be necessary.  This fifth TCM was not executed.  The achieved entry flight path 
+angle was -14.06 deg.
+27,30 
+Entry, Descent, and Landing.   On 4 July 1997, the MPF spacecraft entered the Martian atmosphere at 
+an air-relative speed of 7.48 km/s.  Whereas the Viking landers had entered the Martian atmosphere from 
+orbit, the MPF spacecraft entered the at mosphere directly, at a considerab ly higher speed.  In addition, 
+whereas the Viking landers were designed to achieve lift as well as drag, the MPF spacecraft maintained an 
+angle of attack near zero by virtue of its aerodynamically stable design and by spinning at 2 rpm.  The 
+entry, descent, and landing (EDL) process was executed autonomously, but was subject to various 
+parameter values that were updated on board prior to entry.  The cruise stage was jettisoned 30 min before 
+entry interface (defined to occur at a radius of 3522.2 km), marking the formal beginning of EDL. 
+The aeroshell protecting the lander expe rienced a maximum deceleration of 16 g 78 s after entry 
+interface (EI).  The parachute began to unfurl 171 s afte r EI, at an altitude of 9 km and a speed of 375 m/s 
+(Mach 1.8).  The on-board decision to deploy the parachute was triggered by starting a timer when the 
+accelerometer-sensed aerodynamic deceleration reached 5 g.  The sensed deceleration 12 s after the start of 
+the timer was used as an indexing parameter to select the proper time for parachute deployment from a 
+stored functional relationship, which had been determined in advance from extensive simulations.  There 
+was a desire to deploy the parachute at a dynamic pressure of about 600 N/m
+2 (and a Mach number 
+between 1.7 and 2.3).  The trigge ring scheme was intended to accomp lish this, using the available 
+measurement information.  In the ev ent that this scheme appeared to be malfunctioning, a backup scheme 
+was available, which would have initiated parachute deployment at a fixed time stored on board.  The 
+detailed parameter values associated with the timing of parachute deployment were updated 35 hours 
+before entry, based on the latest available trajectory and atmospheric information.  Opportunities for later 
+updates existed, but changes in parameter values were not needed.
+31 
+ 7
+
+PDF page 8
+Release of the forebody heatshield and extension of a bridle occurred 21 and 40 s after the initiation of 
+parachute deployment.  After the spacecraft had travel ed down the bridle, the radar altimeter initiated the 
+search for the Martian surface, at an altitude of about 1.6 km and a speed of 60-75 m/s.  These altimetry 
+data were used to infer the descent rate and determin e the appropriate time of ai rbag inflation (295 s past 
+EI) and solid-rocket ignition (299 s past EI, at an altitude of 88 m).  After the solid-rocket motors had 
+removed the remaining vertical velocity, the bridle connecting the lander and the backshell was cut, 21 m 
+above the surface, and the spacecraft fell to a first surface impact at 305 s past EI. 30,31  The spacecraft 
+bounced more than 15 times before coming to a stop.  The Sojourner microrover, stowed within the lander, 
+rolled onto the surface on 5 July. 
+Extensive numerical simulations of the EDL process were carried out in advance, using three- and six-
+degree of freedom dynamical modeling software.  Efforts were made to improve the modeling of the 
+Martian atmosphere using Hubble Space Telescope and Earth-based microwave measurements.  An 
+aerodynamic model of the vehicle was developed from computational fluid dynamic calculations and 
+existing wind-tunnel and ballistic-range data.
+31 
+Landing was required to occur within a 100 km x 20 0 km elliptical footprin t on the surface.  The 
+landing took place 27 km from the intended target landing site. 31  The knowledge of the spacecraft’s 
+trajectory upon entry was sufficiently accurate that atmospheric flight dispersions, due to aerodynamic and 
+atmospheric uncertainties, were sign ificant contributors to the landing error.  Based on the successful 
+approach navigation of the Mars Pathfinder spacecraft using the orbit determination filter configuration and 
+the tight weighting of Doppler and range data described above, it was argued that future Mars missions 
+should be navigated using only Doppler and range data, without the addition of optical or ΔDOR data.27 
+Mars Climate Orbiter 
+The Mars Climate Orbiter (MCO) spacecraft was laun ched on 11 December 1998.  During the nine-
+month journey from Earth to Mars, thrusters were peri odically fired to remove angular momentum buildup 
+in the on-board reaction wheels.  Preflight analysis had indicated that momentum unloading events would 
+occur approximately once every seven days during cruise. 32  These angular momentum desaturation 
+(AMD) events occurred much more frequently than this  (10-20 times per week) and more frequently than 
+in the case of the MGS sp acecraft, because the MCO solar array wa s asymmetrical with respect to the 
+spacecraft body, unlike the MGS spacecraft.  This center of pressure/center of mass offset produced torques 
+that resulted in significant accumula tions of angular momentum in the MCO spacecraft’s reaction wheels.  
+A daily 180-deg reorientation of the spacecraft, which would have caused the solar pressure torque and the 
+resulting angular momentum buildup and AMD thrusting effects to largely cancel  over time, had been 
+planned.  These daily rotations were ultimately deleted from the spacecraft operations plan, however.33 
+Information on AMD events that was supplied to the navigation team by means of computer files 
+represented these events in lbf-s, whereas the softwa re interface specification called for the use of N-s.  
+Thus, the effect of the AMD events wa s understated by a factor of 4.45.  These files were not available for 
+use by the navigation team until well into the flight.  Since the AMD effects were mostly perpendicular to 
+the Earth-spacecraft line of sight, the full extent of AMD mismodeling was not readily apparent in the 
+Doppler data.  Some degree of inaccuracy was apparent, however; and, with the problem reported but never 
+fully resolved, the AMD data were assigned relatively large error standard deviations in the orbit 
+determination process.  These error standard deviations were small compared to the actual, yet unknown, 
+errors, though.  The variation in the capture orbit periapsis altitude was required to be no more than ±20 
+km, with 99% probability.  Preflight  analysis had indicated that accurate modeling of the angular 
+momentum desaturation maneuvers would be important in meeting this requirement, even at the originally 
+expected rate of once per week.
+32 
+As the spacecraft approached Mars, orbit determina tion was carried out by processing Doppler data 
+only, range data only, and both Doppler and range data, with the results of the three strategies compared for 
+consistency.  The Doppler-only solutions consistently indicated a closer approach  to the planet than the 
+other two solutions, with range-only solutions indicating a more distant approach.  Four TCMs were 
+executed on the way to Mars, with the fourth of these, executed on 15 September (and based on an 8 
+September orbit solution), targeting the periapsis altitude shortly after the Mars Orbit Insertion (MOI) burn 
+ 8
+
+PDF page 9
+to be 226 km.  Over the week after TCM-4, the pred icted periapsis altitude decreased to the range of 150-
+170 km.  A contingency plan for a fifth TCM was in  place during the approach to Mars.  Such a TCM 
+could have been used as to raise the initial periapsis altitude.  There were concerns regarding the risk and 
+potential compromises to future mission performance associated with executing such a maneuver, however; 
+and a fifth TCM was not attempted.  With Mars exerting a significant grav itational attraction on the 
+spacecraft over the last 24 hours before arrival, increasingly accurate orbit solutions were obtained, with the 
+predicted periapsis altitude dropping to about 110 km about an hour before the MOI burn.33 
+The spacecraft executed the MOI burn on 23 September 1999.  The spacecraft was to have entered a 13-
+14 hour orbit as a result of the MOI burn and then used aerobraking for several weeks to achieve a low-
+altitude, near-circular, near-polar orbit about Mars, for a two-year study of the Martian atmosphere and 
+surface.  The burn was observed in  telemetry data for four minutes, until the spacecraft was occulted by 
+Mars, 49 seconds earlier than predicted.  A signal  from the spacecraft was not reacquired after the 21-
+minute expected occultation interval .  Once the error in the AMD data  had been fully diagnosed and 
+estimates of the spacecraft’s trajectory recalculated using all ava ilable tracking data and corrected AMD 
+data, it was determined that the initial periapsis altit ude (with atmospheric effects ignored, for simplicity) 
+would have been 57 km.  A “vacuum” periapsis altitude of at least 80 km would have been needed to allow 
+the spacecraft to survive a passage through the upper atmosphere.33 
+This incident was an unfortunate demonstration of the fact that orbit determination solutions based 
+solely on line-of-sight radio metric data can be inaccurate if the forces acti ng on a spacecraft are modeled 
+incorrectly.  Some spacecraft position and velocity components are only weakly observable with line-of-
+sight data.  Highly accurate dynami cal and observable mode ling allows these components to be inferred 
+after the processing of sufficient data.  The interplane tary portion of the Mars Pathfinder mission had been 
+navigated very well using just line-of-sight radio metric data, in conjunction with good modeling.  
+However, the reliance on single-vehicle DSN tracking to support planetary orbit insertion, in the context of 
+MCO, was judged, after the fact, to have involved considerable systems risk, due to the possible 
+accumulation of unobserved perturbatio ns to the long interplanetary trajectory.  The development and 
+deployment of alternative navigational schemes were recommended.34 
+Mars Polar Lander 
+Interplanetary Phase.   The Mars Polar Lander spacecraft wa s launched on 3 Ja nuary 1999.  The 
+spacecraft was three-axis stab ilized, with attitude control performed us ing thrusters.  Spacecraft attitude 
+control was made complex because of the need to point the medium-gain antenn a toward the Earth, the 
+solar array toward the sun, and the star cameras in a direction such that they could update the on-board 
+attitude estimate.  In general, it was not possible to  perform these three functions from the same spacecraft 
+orientation.  Thus, many spacecraft reorientations were needed during the mission to accomplish these 
+three essential tasks.  Information about all thruster firings for attitude control was included in spacecraft 
+telemetry data, either individually or in terms of sh ort-term average or accumula ted effects.  The attitude 
+control activity was a major determining factor for the delivery accuracy at Mars.  The solar pressure model 
+consisted of four flat plates and a cylinder, with specular and diffuse reflection coefficients for each.35 
+The main tracking data types used during cruise were two-way Doppler and range data.  Constraints on 
+solid-state power amplifier temperat ure and power availability limited tr acking intervals to four hours, 
+followed by five hours of no tracking.  Special efforts were made with both ground and on-board 
+telecommunications equipment to obtain ranging data with a 1-m noise level.  Late in the cruise, some 
+three-way Doppler data were collected, so as to generate differenced Doppler data.  During the last 30 days 
+of cruise, near simultaneous tracking (NST) data, using the MGS spacecraft as a reference, were collected.  
+By combining tracking data and estimating the trajectories of both spacecraft simultaneously, the effects of 
+error sources common to both spacecraft were reduced, allowing a more accurate estimation of the lander’s 
+trajectory relative to Mars than could be achieved with lander tracking data alone.  The selection of 
+estimated parameters for orbit determination solutions  was roughly the same as for the Mars Pathfinder 
+mission.  No Doppler bias was needed since the spacecra ft was not spinning.  A nu mber of standard filter 
+cases were routinely run, with di fferenced Doppler and NST data incl uded in some cases, but not others, 
+for example.35 
+ 9
+
+PDF page 10
+Four TCMs had been executed on approach to Mars, along with a landing site adjustment maneuver, as 
+of two days before arrival.  The flight path angle at entry to the Martian atmosphere (again defined to occur 
+at a radius of 3522.2 km) was required to be -13.25±0.54 deg with 95% probability, to ensure a safe landing 
+in the designated target area.  Landing was to occur at a latitude of roughly -75 deg.  The question remained 
+as to whether to execute a fifth TCM 6.5 hr before encounter.  A suite of 10 possible TCMs was designed 
+to vary the entry flight path angle in discrete steps, while keeping other entry parameters constant, should a 
+TCM turn out to be necessary, based on future orbit determination solutions.  It was ultimately decided to 
+execute the TCM that would decrease the flight path angle by the minimum designed amount.  The 
+spacecraft reached Mars on 3 December 1999, entering th e atmosphere at a speed of 6.9 km/s.  The actual 
+flight path angle was in error by 0.15 deg.  The late orbit determination solutions drifted somewhat in the 
+B-plane direction that was not being controlled by the fifth TCM; however, the expected landing site was 
+within the target zone on the Martian surface.  (The B-plane is centered on the planet and perpendicular to 
+the spacecraft-planet relative velocity vector on approach, before the flig ht path has been affected by the 
+planet’s gravity.
+1) 
+Entry, Descent, and Landing.   Upon arrival at Mars the spacecraf t was to orient itself in the entry 
+attitude and then jettison the cruise stage.  Decel eration to an acceptable t ouchdown speed was to be 
+accomplished by a combination of an aeroshell, a para chute, and thrusters.  The parachute was to be 
+deployed as the vehicle approached Mach 2, as calcu lated by the on-board inertial measurement unit, with 
+the heatshield jettisoned after the parachute deployment transients had dissipated.  As the lander neared the 
+surface, a short-range Doppler radar was to acquire th e surface.  After the parachute had been jettisoned, a 
+set of 12 pulse-mode hydrazine engines was to slow the vehicle for final touchdown on the Martian 
+surface.36 
+After the planned communication outage during atmos pheric entry and descent to the surface of Mars, 
+contact with the spacecraft was never reestablished.  Th e most probable cause of failure was the generation 
+of spurious signals when the lander legs were deployed during descent.  These signals would have falsely 
+indicated that the lander had landed, resulting in a premature shutdown of the engines and a subsequent 
+crash landing.  An after-the-fact anal ysis determined that the Mars ’98 project, consisting of the MCO and 
+MPL missions, was significantly underfunded from the start, for the established performance 
+requirements.37 
+EXPLORATION OF THE OUTER PLANETS 
+Galileo 
+The Galileo spacecraft consisted of two vehicles: a Jup iter orbiter and an atmospheric probe, the first 
+instance of each type of vehicle to explore an out er planet.  The Galileo spacecraft was launched on 18 
+October 1989, carried into Earth orbit in the cargo bay of Space Shuttle Atlantis.  It was then propelled onto 
+its interplanetary flight path by an Inertial Upper Stage.  Although earlier plans had called for Galileo to use 
+a more powerful upper stage so that it could fly directly to Jupiter, the final flight path took it by other 
+planets first so that it could gain energy from their gravity fields.38 
+Venus and Earth-1 Flybys.  The Galileo spacecraft flew past Venus on 10 February 1990 at an altitude 
+of 16,000 km and then past Earth on 8 December 1990 at 960-km altitude.  Orbit determination solutions 
+were obtained by processing S-band Doppler, range, and ΔDOR data.  Because the S-band transmissions 
+were circularly polarized and the S- band antennas were mounted on the spinning portion of the spacecraft, 
+a bias proportional to the spin rate (nominally 3.15  rpm) was present in the Doppler data and required 
+modeling.  In addition, one of the S-band antennas was offset from the spacecraft’s spin axis, producing a 
+sinusoidal fluctuation in the Doppler signal, which had to be modeled.39 
+A flat-plate model, with specular and diffuse reflectivity coefficients, was used to model solar radiation 
+pressure effects on the spacecraft’s motion.  Trajectory-correction maneuvers could be performed most 
+efficiently by rotating the spacecraft to the desired maneuver orientation, executing the maneuver, and then 
+rotating the spacecraft back to its original orientation (turn-and-burn mode).  They could also be performed 
+less efficiently, but more simply, by firing some co mbination of thrusters with out rotating the spacecraft 
+(vector mode).  To avoid potential thruster overheatin g, the thrusters were fired in pulses, rather than 
+ 10
+
+PDF page 11
+continuously.40  To prevent the clogging of retro-propulsion module passages, the thrusters were briefly 
+fired every few weeks to flush old propellant from the system.  This resulted in small velocity changes 
+periodically, which were estimated as part of the orbit determination process.  It was necessary to reorient 
+the spacecraft from time to time (every two or thre e days to once per month, depending on heliocentric 
+distance) to keep the spin axis pointed toward the sun.  It was intended that these attitude changes would be 
+performed by balanced thruster firings that would produce a torque, but no net translational force.  
+However, there were net velocity changes resulting from these attitude updates, which needed to be 
+modeled.
+39 
+Estimated parameters included spacecraft position and velocity at an epoch time, solar pressure 
+reflectivity coefficients, and ΔV events occurring during the data span.39  Two TCMs were executed on the 
+way to Venus, with a third planned TCM cancelled as unnecessary.  The spacecraft passed about 9 km from 
+the B-plane target point, even with no TCMs executed during the last month and a half before the Venus 
+flyby.
+39,41 
+Between Venus and the Earth, six TCMs were executed. 39  The first two were deterministic maneuvers 
+needed to reach the vicinity of the Earth.  The first four were biased away from the desired Earth-relative 
+aimpoint to maintain the prob ability of the spacecraft’s entering the Earth’s atmosphere below 10 -6.  The 
+first usage of S-band ΔDOR data in this mission took place during th e three months before the Earth flyby, 
+with a data accuracy of 1.67 ns (50 cm) of delay, equivalent to an angular accuracy of about 80 nrad using 
+the DSN’s intercontinental baselines.  The most accurate orbit determination solutions made use of all three 
+available radio metric data types.  The spacecraft passed the Earth about 9 km from the B-plane aimpoint 
+for the final TCM,
+39,41 adding 5.2 km/s to the spacecraft’s heliocentric speed in the process. 
+Gaspra Flyby and Optical Navigation.   Between the first and second Earth flybys, the Galileo 
+spacecraft flew close to the main-belt asteroid 951 Gaspra on 29 October 1991, at a distance of about 1,600 
+km, the first such visit by any spacecraft.  Achieving a successful flyby of Gaspra  required a campaign of 
+ground-based astronomical observations to improve its ephemeris and the development of high-accuracy 
+star catalogs for the region of space behind Gaspra .  The ground-based observational campaign, which 
+included many observations during Gaspra’s oppositions of 1989-90 and 1991, improved the ephemeris 
+errors by roughly a factor of three.  High-accuracy star catalogs were constructed for those portions of the 
+celestial sphere near the track of Gaspra as seen from Earth during these two oppositions. 42,43  The same 
+was done for the track as seen from the spacecraft during the final two m onths before encounter, to allow 
+accurate optical navigation1,44 to be performed over at least a portion of this time. 
+The optical navigation software evolved through a number of languages over the years and was hosted 
+on a variety of computers.  Before operational use in the Galileo mission, the Optical Navigation Image 
+Processing System (ONIPS), for picture display and image centerfinding, was rewritten in SFTRAN.  The 
+Optical Navigation Program set (ONP), for scene prediction, generation of residuals and partial derivatives, 
+and filtering, was rewritten in FORTRAN 77.  The software was hosted on Digital Equipment Corporation 
+VAX minicomputers.
+44 
+The Galileo imaging system had a focal length of 1500 mm, as in the case of the Voyager narrow-angle 
+camera.  Unlike the Voyager camera, however, the Ga lileo imaging system had a charge-coupled device 
+(CCD) light-sensing element, rather than a vidicon sensor.  CCDs, with greater geometric fidelity than 
+vidicons, produce much better astrometry.  Well exposed images of stars or unresolved solar system objects 
+(in Galileo and subsequent missions) often have rms residuals of less than 0.05 picture elements (pixels) 
+with a CCD photodetector.  The prior vidicon systems rarely performed better than 0.25 pixels. 44  Each 
+picture element in the Galileo 800x800 CCD array subtended an angle of 10 μrad.45 
+It was on the way to Gaspra that the spacecraft’ s high-gain antenna was to be deployed, allowing 
+subsequent communication at X-band, with much higher data rates and improved radio metric accuracy.  
+The failure of the high-gain antenna to deploy in April 1991 had many implications – among them a severe 
+limitation on the number of optical navigation images that could be transmitted to Earth prior to the Gaspra 
+flyby, because of the drastically reduced data rates that were available using the low-gain antennas. 
+Four imaging frames were returned, in single-frame mosaic mode, with the images of Gaspra and 
+background stars appearing as irregular streaks, due  to the combination of deliberate and unintended 
+ 11
+
+PDF page 12
+motions of the scan platform while the shutter was held open for an extended time. 42,44,45  Each such 
+imaging frame contained the information equivalent of multiple conventional optical navigation images. 
+On-board optical data were essential for determining and controlling two spacecraft position 
+coordinates perpendicular to the line of sight to the asteroid, but could provide little information in the 
+direction along the spacecraft’s flight path relative to  Gaspra.  The combination of radio metric data 
+(Doppler and, when available, range) and the improved ground-based ephemeris for Gaspra provided 
+information in this third, “time-of-flight” direction.  The quantities estimated in the orbit determination 
+process include those mentioned previously, as well as  the Gaspra ephemeris, camera pointing parameters, 
+and stochastic accelerations included to model miscellaneous spacecraft attitude updating events. 
+Five TCMs were employed during the flight between the Earth and Gaspra – three to correct flight path 
+errors resulting from the Earth flyby and create a flight path that would pass by both Gaspra and the Earth, 
+while satisfying certain mission constraints, and two to home in on the desired Gaspra aimpoint.
+40  It is 
+estimated that the spacecraft passed 6 km from its B-plane aimpoint an d arrived 1.5 s early. 41  A planned 
+science pointing update was not needed because of the proximity of the final orbit solution to the Gaspra 
+aimpoint.45 
+Earth-2 Flyby.  The Galileo spacecraft flew past Earth for a second time on 8 December 1992, at 303-
+km altitude.  Between the Gaspra flyby and the second  Earth flyby, four trajectory correction maneuvers 
+were executed.  The first was deterministic, and the first two had biased aimpoints to minimize the 
+likelihood of entering the Earth’s atmosphere.  As on the approach to the first Earth flyby, S-band Doppler, 
+range, and ΔDOR data were processed.  The most accurate orbit determination solutions made use of all 
+three available radio metric data types.  During th is mission phase and throughout the remainder of the 
+mission, the various navigational advantages associated with X-band communication links could not be 
+realized, because of the high-gain antenna deployment problem. 
+The spacecraft passed the Earth about 1.4 km from the B-plane aimpoint for the final TCM, adding 3.7 
+km/s to the spacecraft’s heliocentric speed.
+41,46  This accuracy was sufficient that a TCM scheduled for two 
+weeks after the flyby, to correct an y errors in the outbound trajectory, was cancelled.  Both the first and 
+second Earth flybys provided opportunities for the experimental processing of range data weighted near 
+their actual precision,47 as would be done later in an operational fashion in the Mars Pathfinder mission. 
+Ida Flyby.  The spacecraft flew past the main-belt asteroid 243 Ida on 28  August 1993, at distance of 
+2,391 km.  As on approach to Gaspra, numerous ground-based observations of Ida were acquired during the 
+several years before the flyby.  This observational campaign improved the Ida ephemeris by roughly a 
+factor of four.48 
+Again, the single-frame mosaic technique was used to generate optical navigation data.  Five optical 
+navigation images were planned.  Only two and a fraction were returned, however, due to spacecraft safing 
+events and the preemption of the DSN’s 70-m ante nna subnet by the Mars Observer project when 
+communication with the latter spacecraft was lost.  Each image contained at least five usable data points. 
+The spacecraft was too far from the Earth for the last several months before encounter to allow S-band 
+ranging with a low-gain antenna.  Only a few ΔDOR points were available, and they were somewhat 
+inconsistent with other tracking data.  Nevertheless, good orbit determination solutions were obtained; and 
+the last of the three Ida targeting TCMs was cancelled as unnecessary.  The flyby took place less than 6 km 
+from the desired B-plane aimpoint.  The time of closest approach was off by about 5 s.41 
+Atmospheric Probe Delivery.   A deterministic TCM was needed after the Ida flyby to return the 
+spacecraft to a flight path toward Jupiter.  A TCM performed on 12 April 1995 was used to place the 
+combined orbiter/probe spacecraft on  the proper trajectory for atmosphe ric probe entry.  A subsequent 
+scheduled TCM for further refinement of the flight path proved to be unnecessary.  To prepare for release, 
+the combined vehicle was oriented in the desired probe release attitude and spun up to 10.5 rpm.  The probe 
+was ejected using pre-loaded springs on 13 July 1995.  The probe had no means of propulsion, so that its 
+flight path was established by the pre-release and release events.  The ΔV uncertainties in the pre-release 
+spinup and the release event, as well as Jupiter ephe meris uncertainties, were the dominant error sources 
+affecting the probe’s flight path.
+41 
+ 12
+
+PDF page 13
+On 7 December the probe entered the top of Jupiter’ s atmosphere at a speed of 47.6 km/s.  It was 
+required that the probe’s atmosphere-r elative flight path angle at entry (defined to occur at 450 km above 
+the 1-bar pressure level) be -8.6±1.4 deg, with 99% probability. 41,49  The actual flight path angle error at 
+entry was 0.15 deg.  Reconstruction of the entry flight path angle was also important.  The achieved 
+accuracy of 0.10 deg compares w ith the requirement of 0.15 deg. 41  The probe slowed by aerodynamic 
+braking for two minutes, then deployed its parachute and released its heat shield.  The probe transmitted 
+data for nearly an hour as it parachuted down through Jupiter’s atmosphere.  The probe could not 
+communicate with (or be tracked in a conventional fashion from) the Earth directly.  Data were transmitted 
+to Earth using the Galileo orbiter spacecraft as a relay. 
+Io Flyby and Jupiter Orbit Insertion.  The Galileo orbiter, deflected away from the probe’s trajectory by 
+a 61-m/s maneuver on 27 July, also arrived at Jupiter on 7 December 1995.  On ap proach to Jupiter, the 
+Galileo orbiter flew close to the satellite Io and used Io’s gravitational field to reduce the propulsive ΔV 
+needed to insert into orbit about Jupiter.  Two months before arrival at Jupiter, the tape recorder on board 
+the spacecraft had begun to behave in an anomalous ma nner.  This resulted in the cancellation of optical 
+navigation images of Io and the removal of science re quirements related to navigational accuracy at Io.  A 
+TCM had been performed on 29 August to clean up errors in the orbiter deflection maneuver.  Two later 
+TCMs were cancelled as a consequence of the tape recorder anomaly and the cancellation of Io remote 
+sensing observations.
+50  The achievement of the desired gravity assist from Io depended principally on the 
+flyby altitude, and the B-plane errors in this directio n were too small to warrant executing these TCMs.  
+Later orbit determination solutions predicted a lower than planned flyby altitude at Io, but this allowed the 
+orbital tour to begin with a Ganymede encounter one Ganymede revolution earlier than planned.  Since the 
+latter outcome was quite satisfactory, the final pre-Io TCM and an update to the Jupiter Orbit Insertion 
+(JOI) maneuver were cancelled.
+50  The spacecraft passed about 67 km  from the expected Io B-plane 
+location.41 
+The JOI burn was executed after J upiter closest approach under acceler ometer control, such that the 
+burn was lengthened slightly to compensate for a slight underperformance in thrust.  This 644-m/s burn was 
+accurate enough that two planned subsequent orbit trim maneuvers (OTMs) were cancelled.50 
+Galilean Satellite Tour.  A 378-m/s perijove-raise maneuver was executed on 14 March 1996 to target 
+for the first encounter of the Galilean satellite tour, with Ganymede on 27 June 1996.  Subsequent 
+encounters with Ganymede during the prime mission took place on 6 September 1996, 5 April 1997, and 7 
+May 1997.  Prime mission Callisto encounters occurr ed on 4 November 1996, 25 June 1997, and 17 
+September 1997.  Prime mission Europa encounters occurred on 19 December 1996, 20 February 1997, and 
+6 November 1997.  Satellite gravity assists were used throughout the tour to enable subsequent satellite 
+encounters. 
+There were typically three OTMs scheduled per orbit about Jupiter: one three days before encounter to 
+fine tune the satellite-relative aimpoint, one three days after encounter to correct for satellite flyby 
+dispersions, and a third near apoapsis.  The satellite tour was frequently reoptimized, taking into account 
+any accumulated flight path dispersions arising from orbit determination uncertainties, uncertainties in the 
+ephemerides and masses of the Galilean satellites, and ma neuver execution errors, in order to select the 
+aimpoint for the next encounter and minimize propellant expenditure.  Five of the first eight pre-encounter 
+OTMs were cancelled as unnecessary.
+51 
+During the satellite tour, one-way, rather than two-way, Doppler data were frequently collected to boost 
+the power of the spacecraft’s telemetry signal for scien ce data return.  One-way Doppler biases, drifts, and 
+drift rates were estimated, based on two-way c overage before and after each one-way data span. 51  Loose 
+pointing requirements for the low-gain antenna and th e spin-stabilized design of the spacecraft led to 
+relatively few nongravitational forces due to attitude control activities to be dealt with in orbit 
+determination. 
+Optical navigation images were generated using a new flight software algorithm that detected and 
+extracted from an imaging frame only the limb and terminator regions of the observed satellite and a small 
+box of data around each star.
+44  The amount of extracted data returned to Earth was about 1/300 of the data 
+in a full imaging frame, a degree of data compression that was ve ry helpful for a spacecraft with limited 
+ 13
+
+PDF page 14
+data storage and transmission capabilities.  More than 100 optical navigation images were returned through 
+the sixth satellite encounter on 5 April 1997.  Optical navigation images were not utilized thereafter 
+because of the improvement in satellite ephemerides that had already been ac hieved, allowing for a 
+simplification of the sequence design process. 
+The ephemeris accuracies of the Galilean satellites impr oved by an order of ma gnitude with the orbit 
+determination data collected during the prime tour encounters.  The satellite encounter delivery errors in the 
+B-plane were typically 10-20 km for these encounters.41,52 
+Subsequent to the prime satellite tour, a two-year Galileo Europa Mission (GEM) was initiated in 
+December 1997, including fo urteen more orbits about Jupiter.  The spacecraft investigations focused 
+particularly on Europa and Io.53 
+Operational orbit determination solutions for the Galileo mission were generated using the Earth Mean 
+Equator and Equinox of 1950 coordinate system, which had been used in many previous planetary 
+missions.  During the GEM, a reconstruction of the sp acecraft trajectory through out the prime tour was 
+undertaken in the newer J2000 International Celestial Reference Frame,54 together with the development of 
+a consistent set of ephemerides for the Galilean sa tellites.  By necessity, th e work also included the 
+improvement of the Jupiter ephemeris, the values of the Jovian system gravitational parameters, and the 
+Jupiter pole orientation angles.55 
+Ulysses 
+The European Space Agency/NASA Ulysses spacecra ft, launched on 6 October 1990 by the Space 
+Shuttle Discovery plus a Centaur upper stage, flew pa st Jupiter on 8 February 1992.  It used Jupiter's 
+gravity to place it in a high-inclinatio n orbit about the sun, allowing obse rvation of the sun's polar regions 
+in 1994 and 1995 and se veral times thereafter. 56  The requirements on navigational accuracy were less 
+demanding (1000-km circular error in the Jupiter B-plane and one hour in time of arrival) than in many 
+missions.  The spinning motion of the spacecraft (nomin ally 5 rpm), coupled with a circularly polarized 
+antenna (nominally Earth-pointed), produced a bias in the Doppler data.  Communications were normally at 
+S-band for the uplink and X-band for the downlink, although an S-band downlink was available also. 
+Estimated parameters typically included spacecraft po sition and velocity at an epoch time, Doppler and 
+range biases, velocity changes associated with attitude change maneuvers, and (stochastically modeled) 
+solar radiation pressure parameters.
+57  As the spacecraft came closer to Jupiter, ephemerides for Jupiter and 
+the Earth and Jupiter’s mass were added to the list of  estimated parameters.  Th ree TCMs were performed 
+en route to Jupiter.  The Ulysses flyby of Jupiter improved the accur acy of the Jupiter ephemeris, for 
+subsequent use by the Galileo project. 
+Tracking data acquired during a solar-conjunction period in 1991 provided a means of testing a model 
+of solar plasma-induced variations in ranging data needed to allow the weighting of these data near their 
+inherent precision,28,58 as would be done later in an operational fashion in the Mars Pathfinder mission. 
+Cassini 
+The Cassini spacecraft was launched on 15 October 1997 .  Because it could not be launched directly to 
+Saturn with the propulsion systems available at the time, it followed a path described as a VVEJGA 
+(Venus-Venus-Earth-Jupiter Gravity Assist) trajectory.  The primary telecommunication frequency was X-
+band, with the NASA Deep Space Transponder being put to its first operational use.  Downlink capabilities 
+were available at S-band and Ka-band also. 
+Venus-1 Flyby.  The Cassini spacecraft flew past Venus on 26 April 1998 at an altitude of 284 km.  
+Only the first two of three planned TCMs on appro ach to Venus were actually needed and executed. 59  
+Even though only two TCMs were executed on the Ea rth-Venus trajectory segment, a total of 22 velocity 
+change events, most associated with some facet of attitude control, were modeled and estimated as part of 
+the orbit determination process.  In addition to thes e 22 discrete velocity change events, a number of 
+continuously acting nongravitational acceleration ef fects were estimated.  Solar radiation pressure, 
+asymmetric radioisotope thermoelectric generator (RTG) radiation, and spacecraft outgassing effects were 
+estimated over the entire data span.  Several shor t-duration nongravitational acceleration effects were 
+ 14
+
+PDF page 15
+estimated also.  Since the heliocentric  distance was nearly constant along portions of the trajectory, it was 
+difficult to separate accelerations due to solar radiation pressure from those due to RTG thermal radiation.60 
+For some period of time, orbit determination solutions drifted toward the Venus impact radius as more 
+data were collected and processed.  The drifts in th e orbit determination solutions were large compared to 
+the error statistics associated with those solutions – an indication of mismodeling, coupled with relatively 
+tight weighting of the X-band tracking data and a spacecraft declination close to zero.1  It was deduced that 
+uncoupled spacecraft thrusters were producing greater than expected ve locity changes along the sun line 
+while performing pitch and yaw attitude control activities, and the spacecraft torque model was adjusted to 
+compensate.  With evidence in hand of a high sensitivity of orbit solutions to mismodeling effects, the 
+weighting of the Doppler and ranging data was diminished (from 0.2 to 1.0 mm/s and 5 to 50 m) to reduce 
+the sensitivity.  The Venus periapsis distance predicted from orbit determination solutions a month before 
+arrival was accurate to within 1 km,
+60 although the B-plane close approach distance was 67 km less than 
+originally planned.59 
+Venus-2 and Earth Flybys.   Five TCMs were scheduled for the time between the spacecraft’s first and 
+second Venus flybys.  The first of these, scheduled for shortly after the first flyby to clean up orbit errors 
+magnified by the flyby, was cancelled due  to a post-flyby trajectory redesign.
+59  A large deep space 
+maneuver (DSM) was executed on 3 December 1998, to lower the periapsis distance and increase the flight 
+path angle at the second Venus flyby.  A subseque nt TCM was executed to co rrect DSM execution errors, 
+primarily in pointing. 61  A subsequent TCM removed a deliberate bias in the Venus aim plane.  A final 
+TCM on approach to Venus was cance lled as unnecessary.  The spacecraft passed 11 km from the desired 
+B-plane aimpoint on 24 June 1999, with a time of flight error of 2.5 s.62 
+Four TCMs were performed between the second Venus flyby and the Earth flyby (18 August 1999), to 
+gradually remove aim point biases (incorporated to keep the probability of Earth impact less than 10 -6) and 
+target for the Earth flyby.  The spacecraft passed 9 km  from the desired B-plane aimpoint at Earth, with a 
+time of flight error of less than 1 s.62 
+For the Venus-1 to Earth flyby trajectory segment, the eight TCMs were modeled as finite burns and 
+estimated as part of the orbit determination process.  In addition, 47 other ΔV events, associated with some 
+sort of spacecraft activity, typically some facet of attitude control, were modele d as impulsive velocity 
+changes and estimated.  As during the launch to Venus-1 mission phase, solar radiation pressure and 
+asymmetric RTG radiation effects were estimated as continuously ac ting nongravitational accelerations.  
+Several short-duration nongravitational acceleration effects were estimated also.  Ephemerides for the Earth 
+and Venus were estimated.  Tracking station locations and media calibration effects were considered. 
+The continuation of the Cassini mission to Jupiter and Saturn lies beyond the time period covered by 
+this paper. 
+EXPLORATION OF ASTEROIDS AND COMETS 
+Near Earth Asteroid Rendezvous 
+The Near Earth Asteroid Rendezvous (NEAR) spacecraft was launched on 17 February 1996.  The first 
+encounter in this mission was with the main-belt asteroid 253 Mathilde.  A series of five TCMs to correct 
+upper-stage injection errors, calibrate the thrusters,
+63 and target for Mathilde was used to fly past this 
+asteroid on 27 June 1997. 
+Mathilde Flyby.   Communications in the NEAR mission were at X-band.  Radio metric orbit 
+determination on the way to Mathilde was complicated by passages through solar conjunction (15 to 23 
+February 1997) and zero declination (22 April 1997) on approach.  Radio metric data were unusable for 
+about a month around conjunction, due to solar corona effects.  When processing radio metric data outside 
+of this time interval, it was found that the use of  ranging data improved orbit determination accuracy 
+significantly relative to the processing of Doppler data alone.  It was also found that the tight weighting of 
+ranging data, in combination with the estimation of add itional parameters to allow this tight weighting, did 
+not improve orbit determination accuracy substantially.
+64 
+ 15
+
+PDF page 16
+The inclusion of ranging data helped to compensate for the long outage of Doppler data around solar 
+conjunction, aided in the estimation of solar radiation pressure coefficients, and aided in the determination 
+of spacecraft declination when it was near zero.  Rang e data were not available at all times because the 
+spacecraft’s high-gain antenna was need ed for ranging; and the pointing of the high-gain antenna toward 
+Earth for extended periods of time would cause unacceptable angular momentum accumulations, due to the 
+solar radiation pressure torque.64 
+Numerous ground-based observations of Mathilde were made at observatories around the world during 
+the asteroid’s 1995 and 1996 oppositions, in order to refine its ephemeris.  Some observations made in May 
+and June 1997 were reduced relative to the Hippar cos and Tycho star catalogs and were particularly 
+accurate.64,65 
+Optical data derived from the on-board Multi-Spectral Imager (MSI) were available only during the last 
+two days before arrival at Mathilde.  The solar phase angle of 140 deg on approach made the asteroid 
+difficult to detect very far in advance.  Optical na vigation images were acquired in batches of 16 at six 
+separate times.  Pointing the MSI at Mathilde required pointing the solar arrays 50 deg away from the sun 
+line, which was undesirable and could be permitted only infrequently.  Pointing the MSI only 40 deg from 
+the sun introduced stray light into the optical navigation images, making dim background stars difficult to 
+detect.  In addition, the high phase  angle displaced the center of bri ghtness of Mathilde from its center of 
+mass.  Mathilde became visible during  the second optical navigation op portunity, but only when several 
+imaging frames were added together.  It became visible in individual frames only in the fifth opportunity.
+64 
+The accurate modeling of any periods of off-nomina l spacecraft attitude was found to be important in 
+obtaining accurate orbit solutions.  Estimated constant  parameters in the orbit determination solutions on 
+approach to Mathilde included the epoch state of the spacecraft, a scale factor applied to the solar radiation 
+pressure model, the magnitude and direction of the fifth TCM, the coordinates of the DSN tracking stations, 
+and the ephemeris and mass of Mathilde.  Estimated stochastic parameters were associated with the Earth’s 
+orientation, tropospheric and ionospheric signal delays, range biases, and camera pointing biases.  Doppler 
+and range data were weighted at 0.1 mm/s and 1 m, respectively.64 
+A TCM planned for 13 hours before the flyby was cancelled as unnecessary, based on the latest solution 
+for the spacecraft’s orbit (based primarily on radio me tric data, along with a limited amount of optical 
+navigation data) and the asteroid’s ephemeris determined largely from the ground-based observations.  A 
+late update to the spacecraft pointing at closest approach to Mathilde was made based on similar 
+information, with additional optical navigation data included.  The spacecraft flew past Mathilde at a 
+distance of 1212 km and a speed of 9.9 km/s.  The relative position uncertainties in the B-plane were less 
+than 10 km at the time of the final encounter sequence update, with the time of flight uncertainty less than 5 
+s.  The mass of Mathilde was determined from pre-an d-post encounter tracking to an accuracy of several 
+percent.64,65 
+Earth Flyby.  On 3 and 23 July 1997, the spacecraft executed  a 274-m/s deep space maneuver in two 
+parts (98%/2%), lowering the perihelion distance from 0.99 AU to 0.95 AU and setting up an Earth gravity 
+assist swingby on 23 January 1998.  Two TCMs after the double maneuver were used to correct maneuver 
+execution errors and target the Eart h flyby, which occurred at a clos est approach distance of 539 km, 
+altering the orbital inclination from 0.5 to 10.2 deg and the aphelion distance from 2.17 to 1.77 AU, nearly 
+matching the corresponding values (as well as the line of apsides) for the near Earth asteroid 433 Eros.
+66 
+Eros Flyby.  Two TCMs preceded an effort  to initiate a rendezvous with  Eros on 20 December 1998, 
+which was aborted shortly after starting due to an  on-board software problem.  Instead, the NEAR 
+spacecraft flew by Eros on 23 December 1998 at a speed of 0.965 km/s and a distance of 3828 km.66 
+A 932-m/s anomaly-recovery maneuver was performed on 3 January 1999, to roughly match the 
+spacecraft's orbital speed to that of Eros.  Two corrective TCMs we re performed over a number of 
+months.66  A successful rendezvous with Eros was achieved beyond the time period covered by this paper. 
+Deep Space 1 
+Technology Demonstrations.  The Deep Space 1 (DS1) spacecraft wa s launched on 24 October 1998 to 
+demonstrate a variety of new technologies.  Propulsion was provided by a xenon ion engine.  Xenon ions 
+ 16
+
+PDF page 17
+were accelerated and ejected from the spacecraft as an ion beam, producing 0.09 N of thrust at maximum 
+power (2300 W) and 0.02 N at the minimum operational power of 500 W.  Whereas deep-space trajectories 
+in missions with chemical propulsion are characterized by long periods of coasting, with only brief periods 
+of thrusting, electric propulsion missions involve thrusting a substantial fraction of the time, with the 
+engines shut off when thrusting is least advantageous. 
+One of the technologies demonstrated by the DS1 mission was AutoNav, the first autonomous 
+navigation system to be used in deep space.  AutoNav consisted of an executive, which interacted with the 
+rest of the flight software and was responsible for scheduling and executing events; a real-time ephemeris 
+server, which provided spacecraft and natural body ephemeris inform ation to other flight software 
+elements; and the computational elements that performed the fundamental navigational calculations related 
+to orbit determination, maneuver planning, and encounter target tracking.
+67,68 
+Another experiment on board th e DS1 spacecraft was the Miniature Integrated Camera and 
+Spectrometer (MICAS).  The two visible light channels were potentially usable for optical navigation – one 
+with a CCD chip and one with an active pixel sensor (APS) array. 
+Cruise and Approach Autonomous Navigation.   Orbit determination during cruise was done 
+autonomously by imaging “beacon” asteroids, one at a time, relative to star backgrounds.  Each such 
+measurement gave a two-dimensi onal position fix for the spacecraft, to some level of accuracy.  
+Subsequent measurements in different directions provided different two-dimensional position fixes.  
+Several clusters of such sightings were incorporated into a least-squares filter to obtain an orbit 
+determination solution.  The accuracy  of such solutions depended on th e brightnesses of, distances to, and 
+angular separations among the asteroids; the accuracies of the asteroid ephemeride s; the resolution of the 
+camera; the ability to pinpoint asteroid locations in camera frames; and the accuracy of the camera pointing 
+information.  A list of beacon asteroids to observe during a given mission segment was stored on board the 
+spacecraft, along with ephemerides for all of the beacons.  At predetermined times, the spacecraft trajectory 
+was compared to the ephemeris of a particular asteroid to generate a camera pointing direction.68 
+Coarse registration of the asteroid and background stars in each imaging frame was done by computing 
+a center of brightness in a 50-100 pixel region surrounding each star, based on the knowledge of the inertial 
+pointing direction provided by the attitude control subsystem star tracker.  The predicted locations for the 
+stars were shifted by the measured center-of-brightness/predicted location offsets, one star at a time, until 
+the light intensity integrated over the specified regions surrounding the stars was maximized.  Fine 
+registration of the asteroid and background stars was done using a variation of the single-frame mosaic 
+technique employed during the Galileo mission on ap proach to Gaspra and Ida.  The spacecraft attitude 
+wandered somewhat during the exposure time, creating complex, unpredictable image tracks.  The image of 
+each object in a frame could be used as a template to cross-correlate with ot her image tracks.  This 
+information was combined in a least-squares sense to find an ensemble of image shifts where the signals 
+had peak responses with respect to each other.  The accuracy with which the pointing estimates provided by 
+the attitude control subsystem could be updated was dependent on the number of stars present in the 
+imaging frame, with single-star frames providing little information regarding rotations about the boresight 
+direction.
+68 
+The on-board dynamical model of the spacecraft included gravitational attractions of the major bodies 
+of the solar system, solar radiation pressure, thrust forces due to the ion propulsion system or the hydrazine 
+attitude control thrusters, and a th ree-dimensional bias acceleration to account for small unmodeled forces.  
+The propagation of the spacecraft motion was done in a heliocentric, Earth Mean Equator of 2000 
+coordinate system using a 7-8 th order Runge-Kutta numerical integrator.  Orbit determination solutions 
+were carried out by linearizing about a nominal traject ory and estimating corrections to parameters that 
+minimized the data residuals in a weighted least-squares sense.  A U-D covariance factorization was used.68 
+Observations of beacon asteroids we re typically carried out during 4- 6 hr time blocks once per week.  
+After all of the imaging frames ha d been recorded and processed, a new orbit determination solution was 
+generated, based on data going back about 30 days in  the past, with the solution mapped from the epoch 
+time to the current time and propagated into the future.68 
+ 17
+
+PDF page 18
+The testing of the autonomous navigation system was delayed for several months due to the need to 
+compensate for some unanticipated attributes of th e experimental MICAS camera.  There was significant 
+stray light apparent in the images, which could be compensated for by the differencing of sets of frames.  
+There were geometric distortions in the images, which required modeling.  The ability to detect dim objects 
+was less than expected, with the result that the dimmer beacon asteroids and background stars were not 
+usable.  Independent of this, the estimates of attitude co ntrol thruster firings were off by a factor of two, 
+which corrupted the orbit determination solutions, until corrected; and an erroneous parameter describing 
+the orientation of the camera boresight was sent to the spacecraft. 
+The on-board orbit determination accuracy varied over a broad range, eventually settling down to 700-
+1000 km, after the various problems noted above had been addressed.  The velocity errors similarly varied 
+over a broad range, settling down to 0.2-0.5 m/s.  After the upload of a corrected parameter file in mid-June 
+1999, orbit determination on board the spacecraft was operating fairly independently of the ground.  The 
+accuracy being obtained was not sufficient to fully support autonomous  maneuver planning, however, even 
+though the algorithms worked well when supplied with sufficiently accurate information.
+68 
+Maneuver planning was accomplished by means of a linear control process.  The initial design of the 
+nominal trajectory using ion propulsion was done on the ground.  Partial derivatives of the target conditions 
+with respect to the availabl e thrust-related control parameters were calculated on board.  Modifications to 
+the control parameters were determined by inverting the partial derivative matrix and multiplying by the 
+desired change in target conditions. 
+The first natural body to be encountered was the near-Earth asteroid 9969 Braille, to be flown past on 
+29 July 1999, at 15.5 km/s relative velocity.  Braille was first detected by the ground processing of multiple 
+images three days before encounter, about 450 km from its expected position.  A TCM, based on ground 
+computations, was executed taking this information into account 1.5 days before encounter.  After the on-
+board software had locked onto Braille, a latent defect in the software caused a spacecraft safing event, 
+destroying the latest trajectory result.  The processing of more imaging frames on the ground refined the 
+orbit solution relative to Braille and precipitated a TC M six hours before encounter to avoid a possible 
+impact.  Later images processed on board confirmed the post-TCM trajectory estimate.68 
+Encounter Autonomous Navigation.  As the spacecraft drew close to the asteroid encounter, a different 
+approach to generating orbit determination solutions was adopted.  At this point, no more thrusting 
+maneuvers were to be performed; and the objective was to maintain visual lock on the asteroid.  The rapid 
+processing of images for this purpose could not be accomplished by the orbit determination process that has 
+been described so far.  Instead, a reduced-state es timator was used, modeling the trajectory as a target-
+centered straight line through encounter, with initial conditions 27 minutes prior to encounter provided by 
+the full orbit determination process.  In addition, th e APS array was used rather than the CCD; the image 
+processing consisted solely of finding a brightness centroid; and, since no stars were visible, pointing 
+information was provided solely by the star tracker.
+68 
+The asteroid was not tracked  successfully during the encounter.  It was determined after the fact that a 
+spurious signal had appeared above the detection threshold level before Braille itself exceeded that level, 
+causing the on-board orbit solution to shift by 30 km.  The asteroid turned out to be considerably dimmer 
+than expected, and the sensitivity of the APS was le ss than expected.  The aste roid was captured in CCD 
+images recorded 15 minutes after closest approach, after the calculation of pointing commands had reverted 
+to the pre-encounter process.68 
+The autonomous navigation system worked well in cruise after the Braille encounter, until the star 
+tracker failed in November 1999.  It also worked well in an encounter with comet 19P/Borrelly, beyond the 
+time frame covered by this paper. 
+CONCLUSION 
+Deep space navigation capabilities, which had evolved enormously from the ear ly Mariner missions of 
+the 1960s and early 1970s to the Voyager mission of the late 1970s and 1980s, continued to evolve through 
+the 1990s, benefiting the dozen planetary missions that  have been described.  The availability of X-band 
+communications on both the uplink and downlink, coupled with the improved calibrations of various error 
+ 18
+
+PDF page 19
+ 19
+REFERENCES 
+ 
+sources, improved the accuracy of Do ppler and ranging data significan tly.  Optical navigation capabilities 
+improved with the use of charge-coupled device photodetectors and the development of more sophisticated 
+image processing techniques. 
+Rapid increases in computing power allowed more accurate orbit determination by permitting the 
+estimation of many additional parameters associated with dynamical and measurement modeling.  The 
+combination of increasing computational capabilities and declining costs allowed more comprehensive 
+navigational analyses to be carried out.  Orbit determination and maneuver planning functions were 
+performed on board a planetary spacecraft for the first time. 
+The use of aerobraking to reduce a long-period ellipti cal orbit about an atmosphere-bearing planet to a 
+low-altitude, near-circular orbit was demonstrated, allowing  a large saving in propellant usage.  The use of 
+a continuous, low level of thrust, provided by an ion propulsion system, was demonstrated as an efficient 
+means of travel through the inner solar system.  Atmospheric entry, descent, and landing techniques were 
+improved in accuracy. 
+ACKNOWLEDGMENT 
+The research described in this paper was carried out at the Jet Propulsion Laboratory, California 
+Institute of Technology, under a contract with the National Aeronautics and Space Administration. 
+1. L. J. Wood, “The Evolution of Deep Space Navigation: 1962-1989,” Paper 08-051, 31st Annual AAS 
+Guidance and Control Conference, Breckenridge, CO, Feb. 2008. 
+2. M. S. Ryne, et al., “Navigation of Pioneer 12 During Atmospheric Reentry at Venus,” Advances in the 
+Astronautical Sciences: Astrodynamics 1993, Vol. 85, Pt. II, ed. A. Misra, et al., Univelt, San Diego, 1994, 
+pp. 1699-1716. 
+3. D. J. Mudgway, Uplink-Downlink: A History of the Deep Space Network 1957-1997 , NASA SP-2001-4227, 
+2001. 
+4. E. J. Graat, et al., “Contribution of Doppler and Interferometric Tracking During the Magellan Approach to 
+Venus,” Advances in the Astronautical Sciences: Astrodynamics 1991, Vol. 76, Pt. II, ed. B. Kaufman, et al., 
+Univelt, San Diego, 1992, pp. 919-939. 
+5. M. S. Ryne, “Differenced Doppler Tracking in Interplanetary Navigation: The Magellan Cruise 
+Reconstruction,” AIAA Paper 92- 4520, AIAA/AAS Astrodynamics Conference, Hilton Head, SC, Aug. 
+1992. 
+6. C. M. Diarra, “Magellan Propulsive Maneuver s Analysis,” AAS Paper 91-179, AAS/AIAA Spaceflight 
+Mechanics Meeting, Houston, TX, Feb. 1991. 
+7. D. B. Engelhardt, et al., “Determina tion and Prediction of Magellan's Orbit,” Advances in the Astronautical 
+Sciences: Spaceflight Mechanics 1991, Vol. 75, Pt. II, ed. J. K. Soldner, et al., Univelt, San Diego, 1991, pp. 
+1143-1160. 
+8. J. D. Giorgini, et al., “Mag ellan Navigation Using X-Band Differenced Doppler During Venus Mapping 
+Phase,” Proceedings of the AIAA/AAS Astrodynamics Conference , Hilton Head, SC, Aug. 1992, pp. 351-
+360. 
+9. D. B. Engelhardt, et al., “Interleaving Magellan Altimetry Data Acquisition Between Mapping Cycles 1 and 
+2,” Advances in the Astronautical  Sciences: Astrodynamics 1991 , Vol. 76, Pt. II, ed. B. Kaufman, et al., 
+Univelt, San Diego, 1992, pp. 863-874. 
+10. P. W. Chodas, et al., “High Precision Magellan Orbit Determination for Stereo Image Processing,” 
+Advances in the Astronautical  Sciences: Astrodynamics 1993 , Vol. 85, Pt. I, ed. A. Misra, et al., Univelt, 
+San Diego, 1994, pp. 279-296. 
+
+PDF page 20
+ 20
+ 
+ 
+11. S. K. Wong, et al., “Naviga ting through the Venus Atmosphere,” Advances in the Astronautical Sciences: 
+Spaceflight Mechanics 1994, Vol. 87, Pt. II, ed. J. E. Cochran, Jr.,  et al., Univelt, San Diego, 1994, pp. 633-
+645. 
+12. D. T. Lyons, “Aerobraking Ma gellan: Plan Versus Reality,” Advances in the As tronautical Sciences: 
+Spaceflight Mechanics 1994, Vol. 87, Pt. II, ed. J. E. Cochran, Jr.,  et al., Univelt, San Diego, 1994, pp. 663-
+680. 
+13. W. H. Willcockson, “Magellan Aerobraking Control Corridor – Design and Implementation,” Advances in 
+the Astronautical Sciences: Spaceflight Mechanics 1994, Vol. 87, Pt. II, ed. J. E. Cochran, Jr., et al., Univelt, 
+San Diego, 1994, pp. 647-662. 
+14. D. T. Lyons, et al., “Beyond Aerobraking: Designing the Magell an Global Gravity Experiment,” Advances 
+in the Astronautical Scie nces: Astrodynamics 1993, Vol. 85, Pt. II, ed. A. Misra, et al., Univelt, San Diego, 
+1994, pp. 1471-1484. 
+15. P. B. Esposito, et al., “Navigating Mars Observer : Launch through Encounter and Response to Spacecraft’s 
+Pre-Encounter Anomaly,” Advances in the Astronautical Sciences: Spaceflight Mechanics 1994, Vol. 87, Pt. 
+II, ed. J. E. Cochran, Jr., et al., Univelt, San Diego, 1994, pp. 681-694. 
+16. L. A. Cangahuala, et al.,  “Mars Observer Interplanetary Cruise Orbit Determination,” Advances in the 
+Astronautical Sciences: Spaceflight Mechanics 1994 , Vol. 87, Pt. II, ed. J. E. Cochran, Jr., et al., Univelt, 
+San Diego, 1994, pp. 1049-1068. 
+17. D. T. Lyons, et al., “Mars Global Surveyor: Aerobraking Mission Overview,” Journal of Spacecraft and 
+Rockets, Vol. 36, May-June 1999, pp. 307-313. 
+18. D. T. Lyons, “Mars Global Survey or: Aerobraking with a Broken Wing,” Advances in th e Astronautical 
+Sciences: Astrodynamics 1997, Vol. 97, Pt. I, ed. F. R. Hoots, et al., Univelt, San Diego, 1998, pp. 275-294. 
+19. M. D. Johnston, et al., “Mars Global Surveyor  Aerobraking at Mars,” Advances in the Astronautical 
+Sciences: Spaceflight Mechanics 1998 , Vol. 99, Pt. I, ed. J. W. Middour, et al., Univelt, San Diego, 1998, 
+pp. 205-223. 
+20. P. Esposito, et al., “Mars Global Surveyor Naviga tion and Aerobraking at Ma rs,” AAS Paper 98-384, 13th 
+International Symposium on Space Flight Dynamics, Greenbelt, MD, May 1998. 
+21. M. D. Johnston, et al., “The Strategy for the Second Phase of Aerobraking Mars Global Surveyor,” 
+Advances in the Astronautical  Sciences: Astrodynamics 1999 , Vol. 103, Pt. I, ed. K. C. Howell, et al., 
+Univelt, San Diego, 2000, pp. 53-68. 
+22. P. B. Esposito, et al., “Naviga ting Mars Global Surveyor Through the Martian Atmosphere: Aerobraking 2,” 
+Advances in the Astronautical  Sciences: Astrodynamics 1999 , Vol. 103, Pt. III, ed. K. C. Howell, et al., 
+Univelt, San Diego, 2000, pp. 2217-2236. 
+23. R. H. Tolson, et al., “Applicatio n of Accelerometer Data to Mars Global Surveyor Aerobraking Operations,” 
+Journal of Spacecraft and Rockets, Vol. 36, May-June 1999, pp. 323-329. 
+24. S. Demcak, et al., “Mars Global Su rveyor Mapping Orbit Determination,” Advances in the Astronautical 
+Sciences: Spaceflight Mechanics 2001, Vol. 108, Pt. I, ed. L. A. D’Amario, et al., Univelt, San Diego, 2001, 
+pp. 3-24. 
+25. C. Uphoff, “Orbit Selection for a Mars Geos cience/Climatology Orbi ter,” Paper 84-0318, AIAA 22nd 
+Aerospace Sciences Meeting, Reno, NV, Jan. 1984. 
+26. D. Smith, et al., “The Gravity Field of Mars: Results from Mars Global Surveyor,” Science, Vol. 286, 1 
+October 1999, pp. 94-97. 
+27. R. M. Vaughan, et al.,  “Navigation Flight Operations for Mars Pathfinder,” Journal of Spacecraft and 
+Rockets, Vol. 36, May-June 1999, pp. 340-347. 
+28. S. W. Thurman, T. P. McElrath , and V. M. Pollmeier, “Short-Arc Orbit Determination Using Coherent X-
+Band Ranging Data,” Advances in the Astronautical Sc iences: Spaceflight Mechanics 1992 , Vol. 79, ed. R. 
+Diehl, et al., Univelt, San Diego, 1992, pp. 23-44. 
+
+PDF page 21
+ 21
+ 
+ 
+29. J. A. Estefan, V. M. Pollmeier , and S. W. Thurman, “Precision X-Band Doppler and Ranging Navigation for 
+Current and Future Mars Exploration Missions,” Advances in the Astronautic al Sciences: Spaceflight 
+Dynamics 1993, Vol. 84, ed. J. Teles and M. Samii, Univelt, San Diego, 1993, pp. 3-15. 
+30. D. A. Spencer, et al., “Mars Pathfinder Entry, Descent, and Landing Reconstruction,” Journal of Spacecraft 
+and Rockets, Vol. 36, May-June 1999, pp. 357-366. 
+31. R. D. Braun, et al., “Mars Pathfinder Atmospheric Entry Navigation Operations,” Journal of Spacecraft and 
+Rockets, Vol. 36, May-June 1999, pp. 348-356. 
+32. P. H. Kallemeyn, Jr., et al., “Navigation and Guidance for the Mars Surveyor ’98 Mission,” Proceedings of 
+the AIAA/AAS Astrodynamics Conference, Boston, MA, Aug. 1998, pp. 471-481. 
+33. Mars Climate Orbiter Mishap Inves tigation Board Phase I Report , National Aeronautics and Space 
+Administration, Washington, DC, Nov. 10, 1999. 
+34. Mars Climate Orbiter Mishap Investigation Board, Report on Project Management in NASA , National 
+Aeronautics and Space Administration, Washington, DC, Mar. 13, 2000. 
+35. P. D. Burkhart, et al., “Mars Polar Lander Approach Navigation,” Advances in the As tronautical Sciences: 
+Spaceflight Mechanics 2000, Vol. 105, Pt. II, ed. C. A. Kluever, et al., Univelt, San Diego, 2000, pp. 1539-
+1557. 
+36. W. H. Willcockson, “Mars Polar Lander Entry, Descent, and Landing Design,” Advances in the 
+Astronautical Sciences: Astrodynamics 1999 , Vol. 103, Pt. I, ed. K. C. Howe ll, et al., Univelt, San Diego, 
+2000, pp. 33-52. 
+37. Mars Program Independent Assessment Team Summary Report , National Aeronautics and Space 
+Administration, Washington, DC, Mar. 14, 2000. 
+38. L. A. D’Amario, et al., “G alileo 1989 VEEGA Trajectory Design,” The Journal of the Astronautical 
+Sciences, Vol. 37, July-Sept. 1989, pp. 281-306. 
+39. P. H. Kallemeyn, et al., “Galileo Orbit De termination for the Venus and Earth-1 Flybys,” Advances in the 
+Astronautical Scienc es: Astrodynamics 1991 , Vol. 76, Pt. II, ed. B. Kaufma n, et al., Univelt, San Diego, 
+1992, pp. 1013-1026. 
+40. C. L. Potts and M. G. Wilson, “Maneuver Design for the Galileo VEEGA Trajectory,” Advances in the 
+Astronautical Sciences: Astrodynamics 1993, Vol. 85, Pt. II, ed. A. Misra, et al., Univelt, San Diego, 1994, 
+pp. 1019-1047. 
+41. L. A. D’Amario, “Navigation of the Galileo Spacecraft,” Proceedings of the Three Galileos Conference , 
+Padua, Italy, Jan. 1997, Kluwer Academic Publishers, pp. 115-143. 
+42. P. H. Kallemeyn, et al., “Galileo Orbit Determination for the Gaspra Asteroid Encounter,” Proceedings of 
+the AIAA/AAS Astrodynamics Conference, Hilton Head, SC, Aug. 1992, pp. 370-380. 
+43. D. K. Yeomans, et al ., “Targeting an Asteroid: The Galileo Spacecraft's Encounter with 951 Gaspra,” 
+Astronomical Journal, Vol. 105, Apr. 1993, pp. 1547-1552, 1631. 
+44. W. M. Owen, Jr., et al., “A Brief History of Optical Navigation at  JPL,” Paper 08-053, 31st Annual AAS 
+Guidance and Control Conference, Breckenridge, CO, Feb. 2008. 
+45. R. M. Vaughan, et al., “Optical Navi gation for the Galileo Gaspra Encounter,” Proceedings of the 
+AIAA/AAS Astrodynamics Conference, Hilton Head, SC, Aug. 1992, pp. 361-369. 
+46. S. Bhaskaran, et al., “Galileo Orb it Determination for the Earth-2 Encounter,” Advances in the Astronautical 
+Sciences: Astrodynamics 1993, Vol. 85, Pt. I, ed. A. Misra, et al., Univelt, San Diego, 1994, pp. 343-354. 
+47. V. M. Pollmeier, P. H. Kallemeyn, and S. W. T hurman, “Application of Hi gh Precision Two-Way S-Band 
+Ranging to the Navigation of the Galileo Earth Encounters,” Advances in the Astronautical Sciences: 
+Spaceflight Dynamics 1993, Vol. 84, Pt. I, ed. J. Teles and M. Samii, Univelt, San Diego, 1993, pp. 17-29. 
+48. P. G. Antreasian, et al., “Galileo Orbit Determination for the Ida Encounter,” Advances in the Astronautical 
+Sciences: Spaceflight Mechanics 1994 , Vol. 87, Pt. II, ed. J. E. Cochran, Jr., et al., Univelt, San Diego, 
+1994, pp. 1027-1048. 
+
+PDF page 22
+ 22
+ 
+49. R. J. Haw, et al., “Navigating Galileo at Jupiter Arrival,” Journal of Spacecraft and Rockets , Vol. 34, July-
+Aug. 1997, pp. 503-508. 
+50. M. G. Wilson, et al., “Maneu ver Design for Galileo Jupiter Appro ach and Orbital Operations,” 12th 
+International Symposium on Space Flight Dynamics, Darmstadt, Germany, June 1997. 
+51. P. G. Antreasian, et al., “Galileo Orbit Determination Results During the Satellite Tour,” Advances in the 
+Astronautical Scienc es: Astrodynamics 1997 , Vol. 97, Pt. II, ed. F. R. Hoots, et al., Univelt, San Diego, 
+1998, pp. 1491-1535. 
+52. R. J. Haw, et al., “Galileo Prime Mission Navigation,” Journal of Spacecraft and Rockets, Vol. 37, Jan.-Feb. 
+2000, pp. 56-63. 
+53. J. L. Bell and J. R.  Johannessen, “Galileo Europa  Mission (GEM) Tour Design,” Advances in the 
+Astronautical Scienc es: Astrodynamics 1997 , Vol. 97, Pt. I, ed. F. R. Hoot s ,  e t  a l . ,  U n i velt, San Diego, 
+1998, pp. 213-227. 
+54. C. Ma, et al., “The International Celestial Reference Frame as Defined by Very Long Baseline 
+Interferometry,” Astronomical Journal, Vol. 116, 1998, pp. 516-546. 
+55. R. A. Jacobson, et al., “A Comprehensive Orbit Reconstruction for the Galileo Prime Mission in the J2000 
+System,” The Journal of the Astronautical Sciences, Vol. 48, Oct.-Dec. 2000, pp. 495-516. 
+56. T. McElrath, et al., “Uly sses Navigation at Jupiter Encoun ter,” AIAA Paper 92-4524, AIAA/AAS 
+Astrodynamics Conference, Hilton Head, SC, Aug. 1992. 
+57. H. J. Gordon, T. P. McElrath , and P. R. Menon, “Ulysses Navigatio n,” 3rd International Symposium on 
+Spacecraft Flight Dynamics, Darmstadt, Germany, Sept.-Oct. 1991. 
+58. T. P. McElrath, S. W. Thurman, and K. E. Criddle, “Navigation De monstrations of Precision Ranging with 
+the Ulysses Spacecraft,” Advances in the Astronautical Sciences: Astrodynamics 1993, Vol. 85, Pt. II, ed. A. 
+Misra, et al., Univelt, San Diego, 1994, pp. 1635-1650. 
+59. T. D. Goodson, et al., “Ca ssini Maneuver Experience: Launch and Early Cruise,” AIAA Guidance, 
+Navigation, and Control Conference, Boston, MA, Aug. 1998. 
+60. D. C. Roth, et al., “Cassini Orbit Determ ination from Launch to the First Venus Flyby,” Proceedings of the 
+AIAA/AAS Astrodynamics Specialist Conference, Boston, MA, Aug. 1998, pp. 482-494. 
+61. T. D. Goodson, et al., “Cassini Maneuver Experience:  Finishing Inner Cruise,” Advances in the 
+Astronautical Sciences: Spaceflight Mechanics 2000, Vol. 105, Pt. II, ed. C. A. Kluever, et al., Univelt, San 
+Diego, 2000, pp. 1031-1051. 
+62. M. D. Guman, et al., “Cassi ni Orbit Determination from First Venus Flyby to Earth Flyby,” Advances in the 
+Astronautical Sciences: Spaceflight Mechanics 2000, Vol. 105, Pt. II, ed. C. A. Kluever, et al., Univelt, San 
+Diego, 2000, pp. 1053-1072. 
+63. B. G. Williams, et al., “Navigation Results fo r NASA’s Near Earth Aste roid Rendezvous Mission,” 
+Proceedings of the AIAA/AAS Astrodynamics Conference, San Diego, CA, July 1996, pp. 87-98. 
+64. D. J. Scheeres, et al., “Missi on Design and Navigation of NEAR’s Encounter with Asteroid 253 Mathilde,” 
+Advances in the Astr onautical Sciences: Spaceflight Mechanics 1998, Vol. 99, Pt. II, ed. J. W. Middour, et 
+al., Univelt, San Diego, 1998, pp. 1157-1173. 
+65. D. K. Yeomans, et al., “Est imating the Mass of Asteroid 253 Mathilde from Tracking Data During the 
+NEAR Flyby,” Science, Vol. 278, 19 Dec. 1997, pp. 2106-2109. 
+66. J. V. McAdams, et al., “Maneuver History for th e NEAR Mission: Launch through Eros Orbit Insertion,” 
+Proceedings of the AIAA/AAS Astrodynamics Specialist Conference, Denver, CO, Aug. 2000, pp. 244-261. 
+67. J. E. Riedel, et al., “Navigation for the Ne w Millennium: Autonomous Navigation for Deep Space 1,” 
+Proceedings of the 12th International  Symposium on Space Flight Dynamics , Darmstadt, Germany, June 
+1997, ESA SP-403, pp. 303-320. 
+68. S. Bhaskaran, et al., “The Deep Space 1 Aut onomous Navigation System: A Post-Flight Analysis,” 
+Proceedings of the AIAA/AAS Astrodynamics Specialist Conference, Denver, CO, Aug. 2000, pp. 42-52. 

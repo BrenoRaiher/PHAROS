@@ -1,0 +1,505 @@
+format = "TGSCN"
+format_version = 1
+generator = "Apollo 8-like continuous validation, 2026-08-25"
+
+[scenario]
+name = "Apollo 8-like 13_transearth_coast_to_csm_separation (visual-appearance variant)"
+start_utc = "1968-12-25T20:51:15.000Z"
+end_mode = "final_utc"
+final_utc = "1968-12-27T15:19:48.000Z"
+integrator = "adaptive_dormand_prince_54"
+maximum_integrator_step_seconds = 20
+initial_integrator_step_seconds = 0.10000000000000001
+absolute_tolerance = 1.0e-5
+relative_tolerance = 1.0e-12
+output_mode = "fixed_interval"
+output_step_seconds = 300
+maximum_integration_steps = 5000000
+maximum_output_samples = 1000000
+mass_flow_convention = "thrust_includes_exhaust_momentum"
+
+[initial_state]
+position_icrf_m = [-10814727672.701662, 134459646479.58447, 58290506549.087997]
+velocity_icrf_mps = [-31405.40970885054, -1908.2901250133032, -741.87366760529585]
+attitude_body_to_icrf = [0.51936755775955989, 0.50143885693851009, 0.21475939195906363, -0.65779542128570945]
+angular_velocity_body_radps = [-1.8716786381017792e-11, 7.0173378820845681e-10, 8.4542393526321581e-10]
+
+[[components]]
+id = "a8000001-0000-0000-0000-000000000001"
+name = "Apollo 8 CSM dry structure"
+initial_mass_kg = 13000
+minimum_mass_kg = 13000
+variable_mass = false
+local_center_of_mass_m = [0.0, 0.0, 0.0]
+origin_body_m = [0.0, 0.0, 0.0]
+component_to_body = [1.0, 0.0, 0.0, 0.0]
+parent_component = ""
+parent_anchor_m = [0.0, 0.0, 0.0]
+child_anchor_m = [0.0, 0.0, 0.0]
+child_to_parent_zero_orientation = [1.0, 0.0, 0.0, 0.0]
+dofs = []
+inertia = { ixx_kgm2 = 22215.393185514, iyy_kgm2 = 70663.24265724, izz_kgm2 = 72245.988780387997, ixy_kgm2 = -1592.9336260196501, ixz_kgm2 = -148.99889359027301, iyz_kgm2 = 4293.8772061924201 }
+
+[[components]]
+id = "a8000002-0000-0000-0000-000000000002"
+name = "Propellant and consumables pool"
+initial_mass_kg = 1511.0512835906375
+minimum_mass_kg = 100.0
+variable_mass = true
+local_center_of_mass_m = [0.0, 0.0, 0.0]
+origin_body_m = [0.0, 0.0, 0.0]
+component_to_body = [1.0, 0.0, 0.0, 0.0]
+parent_component = "Apollo 8 CSM dry structure"
+parent_anchor_m = [0.0, 0.0, 0.0]
+child_anchor_m = [0.0, 0.0, 0.0]
+child_to_parent_zero_orientation = [1.0, 0.0, 0.0, 0.0]
+dofs = []
+inertia = { ixx_kgm2 = 2297.1949787564154, iyy_kgm2 = 3350.0760106864327, izz_kgm2 = 3541.5089255828061, ixy_kgm2 = 0.0, ixz_kgm2 = 0.0, iyz_kgm2 = 0.0 }
+
+
+# The following fixed, massless children are presentation-only.
+# CommonFrame_Baked vertices already use the scenario Apollo body frame:
+# +X points toward the CM nose; the SPS engine bell extends along -X.
+# The detailed display meshes are explicitly excluded from the SRP proxy.
+
+[[components]]
+id = "a800a001-0000-0000-0000-000000000001"
+name = "Apollo 8 visual - command-module upper shell and hatch"
+srp = { included_in_proxy = false }
+initial_mass_kg = 0.0
+minimum_mass_kg = 0.0
+variable_mass = false
+local_center_of_mass_m = [0.0, 0.0, 0.0]
+origin_body_m = [0.0, 0.0, 0.0]
+component_to_body = [1.0, 0.0, 0.0, 0.0]
+parent_component = "Apollo 8 CSM dry structure"
+parent_anchor_m = [0.0, 0.0, 0.0]
+child_anchor_m = [0.0, 0.0, 0.0]
+child_to_parent_zero_orientation = [1.0, 0.0, 0.0, 0.0]
+dofs = []
+inertia = { ixx_kgm2 = 0.0, iyy_kgm2 = 0.0, izz_kgm2 = 0.0, ixy_kgm2 = 0.0, ixz_kgm2 = 0.0, iyz_kgm2 = 0.0 }
+
+[components.visual]
+geometry_source = "custom_stl"
+stl_file = "../../../00_Shared_Visualization_Assets/apollo8_csm_common_frame/CM_Upper_Shell_With_Hatch.stl"
+stl_length_unit = "centimeters"
+stl_recenter_mode = "keep_imported_origin"
+visual_offset_m = [0.0, 0.0, 0.0]
+visual_orientation = [1.0, 0.0, 0.0, 0.0]
+visual_scale = [1.0, 1.0, 1.0]
+surface_appearance = "textured"
+base_color_tint = [1.0, 1.0, 1.0, 1.0]
+base_color_texture_file = "../../../00_Shared_Visualization_Assets/textures/command_module_charcoal_base_color.png"
+normal_texture_file = "../../../00_Shared_Visualization_Assets/textures/command_module_charcoal_normal.png"
+roughness_texture_file = "../../../00_Shared_Visualization_Assets/textures/command_module_charcoal_roughness.png"
+metallic_texture_file = "../../../00_Shared_Visualization_Assets/textures/command_module_charcoal_metallic.png"
+visible = true
+
+[[components]]
+id = "a800a002-0000-0000-0000-000000000002"
+name = "Apollo 8 visual - command-module aft heat shield"
+srp = { included_in_proxy = false }
+initial_mass_kg = 0.0
+minimum_mass_kg = 0.0
+variable_mass = false
+local_center_of_mass_m = [0.0, 0.0, 0.0]
+origin_body_m = [0.0, 0.0, 0.0]
+component_to_body = [1.0, 0.0, 0.0, 0.0]
+parent_component = "Apollo 8 CSM dry structure"
+parent_anchor_m = [0.0, 0.0, 0.0]
+child_anchor_m = [0.0, 0.0, 0.0]
+child_to_parent_zero_orientation = [1.0, 0.0, 0.0, 0.0]
+dofs = []
+inertia = { ixx_kgm2 = 0.0, iyy_kgm2 = 0.0, izz_kgm2 = 0.0, ixy_kgm2 = 0.0, ixz_kgm2 = 0.0, iyz_kgm2 = 0.0 }
+
+[components.visual]
+geometry_source = "custom_stl"
+stl_file = "../../../00_Shared_Visualization_Assets/apollo8_csm_common_frame/CM_Heat_Shield.stl"
+stl_length_unit = "centimeters"
+stl_recenter_mode = "keep_imported_origin"
+visual_offset_m = [0.0, 0.0, 0.0]
+visual_orientation = [1.0, 0.0, 0.0, 0.0]
+visual_scale = [1.0, 1.0, 1.0]
+surface_appearance = "textured"
+base_color_tint = [1.0, 1.0, 1.0, 1.0]
+base_color_texture_file = "../../../00_Shared_Visualization_Assets/textures/heat_shield_ablative_base_color.png"
+normal_texture_file = "../../../00_Shared_Visualization_Assets/textures/heat_shield_ablative_normal.png"
+roughness_texture_file = "../../../00_Shared_Visualization_Assets/textures/heat_shield_ablative_roughness.png"
+metallic_texture_file = "../../../00_Shared_Visualization_Assets/textures/heat_shield_ablative_metallic.png"
+visible = true
+
+[[components]]
+id = "a800a003-0000-0000-0000-000000000003"
+name = "Apollo 8 visual - service-module body"
+srp = { included_in_proxy = false }
+initial_mass_kg = 0.0
+minimum_mass_kg = 0.0
+variable_mass = false
+local_center_of_mass_m = [0.0, 0.0, 0.0]
+origin_body_m = [0.0, 0.0, 0.0]
+component_to_body = [1.0, 0.0, 0.0, 0.0]
+parent_component = "Apollo 8 CSM dry structure"
+parent_anchor_m = [0.0, 0.0, 0.0]
+child_anchor_m = [0.0, 0.0, 0.0]
+child_to_parent_zero_orientation = [1.0, 0.0, 0.0, 0.0]
+dofs = []
+inertia = { ixx_kgm2 = 0.0, iyy_kgm2 = 0.0, izz_kgm2 = 0.0, ixy_kgm2 = 0.0, ixz_kgm2 = 0.0, iyz_kgm2 = 0.0 }
+
+[components.visual]
+geometry_source = "custom_stl"
+stl_file = "../../../00_Shared_Visualization_Assets/apollo8_csm_common_frame/SM_Body.stl"
+stl_length_unit = "centimeters"
+stl_recenter_mode = "keep_imported_origin"
+visual_offset_m = [0.0, 0.0, 0.0]
+visual_orientation = [1.0, 0.0, 0.0, 0.0]
+visual_scale = [1.0, 1.0, 1.0]
+surface_appearance = "textured"
+base_color_tint = [1.0, 1.0, 1.0, 1.0]
+base_color_texture_file = "../../../00_Shared_Visualization_Assets/textures/service_module_silver_base_color.png"
+normal_texture_file = "../../../00_Shared_Visualization_Assets/textures/service_module_silver_normal.png"
+roughness_texture_file = "../../../00_Shared_Visualization_Assets/textures/service_module_silver_roughness.png"
+metallic_texture_file = "../../../00_Shared_Visualization_Assets/textures/service_module_silver_metallic.png"
+visible = true
+
+[[components]]
+id = "a800a004-0000-0000-0000-000000000004"
+name = "Apollo 8 visual - service-module aft structure"
+srp = { included_in_proxy = false }
+initial_mass_kg = 0.0
+minimum_mass_kg = 0.0
+variable_mass = false
+local_center_of_mass_m = [0.0, 0.0, 0.0]
+origin_body_m = [0.0, 0.0, 0.0]
+component_to_body = [1.0, 0.0, 0.0, 0.0]
+parent_component = "Apollo 8 CSM dry structure"
+parent_anchor_m = [0.0, 0.0, 0.0]
+child_anchor_m = [0.0, 0.0, 0.0]
+child_to_parent_zero_orientation = [1.0, 0.0, 0.0, 0.0]
+dofs = []
+inertia = { ixx_kgm2 = 0.0, iyy_kgm2 = 0.0, izz_kgm2 = 0.0, ixy_kgm2 = 0.0, ixz_kgm2 = 0.0, iyz_kgm2 = 0.0 }
+
+[components.visual]
+geometry_source = "custom_stl"
+stl_file = "../../../00_Shared_Visualization_Assets/apollo8_csm_common_frame/SM_Lower_End.stl"
+stl_length_unit = "centimeters"
+stl_recenter_mode = "keep_imported_origin"
+visual_offset_m = [0.0, 0.0, 0.0]
+visual_orientation = [1.0, 0.0, 0.0, 0.0]
+visual_scale = [1.0, 1.0, 1.0]
+surface_appearance = "textured"
+base_color_tint = [1.0, 1.0, 1.0, 1.0]
+base_color_texture_file = "../../../00_Shared_Visualization_Assets/textures/dark_hardware_base_color.png"
+normal_texture_file = "../../../00_Shared_Visualization_Assets/textures/dark_hardware_normal.png"
+roughness_texture_file = "../../../00_Shared_Visualization_Assets/textures/dark_hardware_roughness.png"
+metallic_texture_file = "../../../00_Shared_Visualization_Assets/textures/dark_hardware_metallic.png"
+visible = true
+
+[[components]]
+id = "a800a005-0000-0000-0000-000000000005"
+name = "Apollo 8 visual - service-propulsion-system engine"
+srp = { included_in_proxy = false }
+initial_mass_kg = 0.0
+minimum_mass_kg = 0.0
+variable_mass = false
+local_center_of_mass_m = [0.0, 0.0, 0.0]
+origin_body_m = [0.0, 0.0, 0.0]
+component_to_body = [1.0, 0.0, 0.0, 0.0]
+parent_component = "Apollo 8 CSM dry structure"
+parent_anchor_m = [0.0, 0.0, 0.0]
+child_anchor_m = [0.0, 0.0, 0.0]
+child_to_parent_zero_orientation = [1.0, 0.0, 0.0, 0.0]
+dofs = []
+inertia = { ixx_kgm2 = 0.0, iyy_kgm2 = 0.0, izz_kgm2 = 0.0, ixy_kgm2 = 0.0, ixz_kgm2 = 0.0, iyz_kgm2 = 0.0 }
+
+[components.visual]
+geometry_source = "custom_stl"
+stl_file = "../../../00_Shared_Visualization_Assets/apollo8_csm_common_frame/SM_Engine.stl"
+stl_length_unit = "centimeters"
+stl_recenter_mode = "keep_imported_origin"
+visual_offset_m = [0.0, 0.0, 0.0]
+visual_orientation = [1.0, 0.0, 0.0, 0.0]
+visual_scale = [1.0, 1.0, 1.0]
+surface_appearance = "textured"
+base_color_tint = [1.0, 1.0, 1.0, 1.0]
+base_color_texture_file = "../../../00_Shared_Visualization_Assets/textures/sps_nozzle_base_color.png"
+normal_texture_file = "../../../00_Shared_Visualization_Assets/textures/sps_nozzle_normal.png"
+roughness_texture_file = "../../../00_Shared_Visualization_Assets/textures/sps_nozzle_roughness.png"
+metallic_texture_file = "../../../00_Shared_Visualization_Assets/textures/sps_nozzle_metallic.png"
+visible = true
+
+[[components]]
+id = "a800a006-0000-0000-0000-000000000006"
+name = "Apollo 8 visual - service-module RCS quad A"
+srp = { included_in_proxy = false }
+initial_mass_kg = 0.0
+minimum_mass_kg = 0.0
+variable_mass = false
+local_center_of_mass_m = [0.0, 0.0, 0.0]
+origin_body_m = [0.0, 0.0, 0.0]
+component_to_body = [1.0, 0.0, 0.0, 0.0]
+parent_component = "Apollo 8 CSM dry structure"
+parent_anchor_m = [0.0, 0.0, 0.0]
+child_anchor_m = [0.0, 0.0, 0.0]
+child_to_parent_zero_orientation = [1.0, 0.0, 0.0, 0.0]
+dofs = []
+inertia = { ixx_kgm2 = 0.0, iyy_kgm2 = 0.0, izz_kgm2 = 0.0, ixy_kgm2 = 0.0, ixz_kgm2 = 0.0, iyz_kgm2 = 0.0 }
+
+[components.visual]
+geometry_source = "custom_stl"
+stl_file = "../../../00_Shared_Visualization_Assets/apollo8_csm_common_frame/SM_RCS_Quad_A.stl"
+stl_length_unit = "centimeters"
+stl_recenter_mode = "keep_imported_origin"
+visual_offset_m = [0.0, 0.0, 0.0]
+visual_orientation = [1.0, 0.0, 0.0, 0.0]
+visual_scale = [1.0, 1.0, 1.0]
+surface_appearance = "textured"
+base_color_tint = [1.0, 1.0, 1.0, 1.0]
+base_color_texture_file = "../../../00_Shared_Visualization_Assets/textures/dark_hardware_base_color.png"
+normal_texture_file = "../../../00_Shared_Visualization_Assets/textures/dark_hardware_normal.png"
+roughness_texture_file = "../../../00_Shared_Visualization_Assets/textures/dark_hardware_roughness.png"
+metallic_texture_file = "../../../00_Shared_Visualization_Assets/textures/dark_hardware_metallic.png"
+visible = true
+
+[[components]]
+id = "a800a007-0000-0000-0000-000000000007"
+name = "Apollo 8 visual - service-module RCS quad B"
+srp = { included_in_proxy = false }
+initial_mass_kg = 0.0
+minimum_mass_kg = 0.0
+variable_mass = false
+local_center_of_mass_m = [0.0, 0.0, 0.0]
+origin_body_m = [0.0, 0.0, 0.0]
+component_to_body = [1.0, 0.0, 0.0, 0.0]
+parent_component = "Apollo 8 CSM dry structure"
+parent_anchor_m = [0.0, 0.0, 0.0]
+child_anchor_m = [0.0, 0.0, 0.0]
+child_to_parent_zero_orientation = [1.0, 0.0, 0.0, 0.0]
+dofs = []
+inertia = { ixx_kgm2 = 0.0, iyy_kgm2 = 0.0, izz_kgm2 = 0.0, ixy_kgm2 = 0.0, ixz_kgm2 = 0.0, iyz_kgm2 = 0.0 }
+
+[components.visual]
+geometry_source = "custom_stl"
+stl_file = "../../../00_Shared_Visualization_Assets/apollo8_csm_common_frame/SM_RCS_Quad_B.stl"
+stl_length_unit = "centimeters"
+stl_recenter_mode = "keep_imported_origin"
+visual_offset_m = [0.0, 0.0, 0.0]
+visual_orientation = [1.0, 0.0, 0.0, 0.0]
+visual_scale = [1.0, 1.0, 1.0]
+surface_appearance = "textured"
+base_color_tint = [1.0, 1.0, 1.0, 1.0]
+base_color_texture_file = "../../../00_Shared_Visualization_Assets/textures/dark_hardware_base_color.png"
+normal_texture_file = "../../../00_Shared_Visualization_Assets/textures/dark_hardware_normal.png"
+roughness_texture_file = "../../../00_Shared_Visualization_Assets/textures/dark_hardware_roughness.png"
+metallic_texture_file = "../../../00_Shared_Visualization_Assets/textures/dark_hardware_metallic.png"
+visible = true
+
+[[components]]
+id = "a800a008-0000-0000-0000-000000000008"
+name = "Apollo 8 visual - service-module RCS quad C"
+srp = { included_in_proxy = false }
+initial_mass_kg = 0.0
+minimum_mass_kg = 0.0
+variable_mass = false
+local_center_of_mass_m = [0.0, 0.0, 0.0]
+origin_body_m = [0.0, 0.0, 0.0]
+component_to_body = [1.0, 0.0, 0.0, 0.0]
+parent_component = "Apollo 8 CSM dry structure"
+parent_anchor_m = [0.0, 0.0, 0.0]
+child_anchor_m = [0.0, 0.0, 0.0]
+child_to_parent_zero_orientation = [1.0, 0.0, 0.0, 0.0]
+dofs = []
+inertia = { ixx_kgm2 = 0.0, iyy_kgm2 = 0.0, izz_kgm2 = 0.0, ixy_kgm2 = 0.0, ixz_kgm2 = 0.0, iyz_kgm2 = 0.0 }
+
+[components.visual]
+geometry_source = "custom_stl"
+stl_file = "../../../00_Shared_Visualization_Assets/apollo8_csm_common_frame/SM_RCS_Quad_C.stl"
+stl_length_unit = "centimeters"
+stl_recenter_mode = "keep_imported_origin"
+visual_offset_m = [0.0, 0.0, 0.0]
+visual_orientation = [1.0, 0.0, 0.0, 0.0]
+visual_scale = [1.0, 1.0, 1.0]
+surface_appearance = "textured"
+base_color_tint = [1.0, 1.0, 1.0, 1.0]
+base_color_texture_file = "../../../00_Shared_Visualization_Assets/textures/dark_hardware_base_color.png"
+normal_texture_file = "../../../00_Shared_Visualization_Assets/textures/dark_hardware_normal.png"
+roughness_texture_file = "../../../00_Shared_Visualization_Assets/textures/dark_hardware_roughness.png"
+metallic_texture_file = "../../../00_Shared_Visualization_Assets/textures/dark_hardware_metallic.png"
+visible = true
+
+[[components]]
+id = "a800a009-0000-0000-0000-000000000009"
+name = "Apollo 8 visual - service-module RCS quad D"
+srp = { included_in_proxy = false }
+initial_mass_kg = 0.0
+minimum_mass_kg = 0.0
+variable_mass = false
+local_center_of_mass_m = [0.0, 0.0, 0.0]
+origin_body_m = [0.0, 0.0, 0.0]
+component_to_body = [1.0, 0.0, 0.0, 0.0]
+parent_component = "Apollo 8 CSM dry structure"
+parent_anchor_m = [0.0, 0.0, 0.0]
+child_anchor_m = [0.0, 0.0, 0.0]
+child_to_parent_zero_orientation = [1.0, 0.0, 0.0, 0.0]
+dofs = []
+inertia = { ixx_kgm2 = 0.0, iyy_kgm2 = 0.0, izz_kgm2 = 0.0, ixy_kgm2 = 0.0, ixz_kgm2 = 0.0, iyz_kgm2 = 0.0 }
+
+[components.visual]
+geometry_source = "custom_stl"
+stl_file = "../../../00_Shared_Visualization_Assets/apollo8_csm_common_frame/SM_RCS_Quad_D.stl"
+stl_length_unit = "centimeters"
+stl_recenter_mode = "keep_imported_origin"
+visual_offset_m = [0.0, 0.0, 0.0]
+visual_orientation = [1.0, 0.0, 0.0, 0.0]
+visual_scale = [1.0, 1.0, 1.0]
+surface_appearance = "textured"
+base_color_tint = [1.0, 1.0, 1.0, 1.0]
+base_color_texture_file = "../../../00_Shared_Visualization_Assets/textures/dark_hardware_base_color.png"
+normal_texture_file = "../../../00_Shared_Visualization_Assets/textures/dark_hardware_normal.png"
+roughness_texture_file = "../../../00_Shared_Visualization_Assets/textures/dark_hardware_roughness.png"
+metallic_texture_file = "../../../00_Shared_Visualization_Assets/textures/dark_hardware_metallic.png"
+visible = true
+
+[[components]]
+id = "a800a00a-0000-0000-0000-00000000000a"
+name = "Apollo 8 visual - deployed S-band high-gain antenna"
+srp = { included_in_proxy = false }
+initial_mass_kg = 0.0
+minimum_mass_kg = 0.0
+variable_mass = false
+local_center_of_mass_m = [0.0, 0.0, 0.0]
+origin_body_m = [0.0, 0.0, 0.0]
+component_to_body = [1.0, 0.0, 0.0, 0.0]
+parent_component = "Apollo 8 CSM dry structure"
+parent_anchor_m = [0.0, 0.0, 0.0]
+child_anchor_m = [0.0, 0.0, 0.0]
+child_to_parent_zero_orientation = [1.0, 0.0, 0.0, 0.0]
+dofs = []
+inertia = { ixx_kgm2 = 0.0, iyy_kgm2 = 0.0, izz_kgm2 = 0.0, ixy_kgm2 = 0.0, ixz_kgm2 = 0.0, iyz_kgm2 = 0.0 }
+
+[components.visual]
+geometry_source = "custom_stl"
+stl_file = "../../../00_Shared_Visualization_Assets/apollo8_csm_common_frame/SM_High_Gain_Antenna_DEPLOYED.stl"
+stl_length_unit = "centimeters"
+stl_recenter_mode = "keep_imported_origin"
+visual_offset_m = [0.0, 0.0, 0.0]
+visual_orientation = [1.0, 0.0, 0.0, 0.0]
+visual_scale = [1.0, 1.0, 1.0]
+surface_appearance = "textured"
+base_color_tint = [1.0, 1.0, 1.0, 1.0]
+base_color_texture_file = "../../../00_Shared_Visualization_Assets/textures/hga_coated_aluminum_base_color.png"
+normal_texture_file = "../../../00_Shared_Visualization_Assets/textures/hga_coated_aluminum_normal.png"
+roughness_texture_file = "../../../00_Shared_Visualization_Assets/textures/hga_coated_aluminum_roughness.png"
+metallic_texture_file = "../../../00_Shared_Visualization_Assets/textures/hga_coated_aluminum_metallic.png"
+visible = true
+
+[[components]]
+id = "a800a00b-0000-0000-0000-00000000000b"
+name = "Apollo 8 visual - command/service-module umbilical"
+srp = { included_in_proxy = false }
+initial_mass_kg = 0.0
+minimum_mass_kg = 0.0
+variable_mass = false
+local_center_of_mass_m = [0.0, 0.0, 0.0]
+origin_body_m = [0.0, 0.0, 0.0]
+component_to_body = [1.0, 0.0, 0.0, 0.0]
+parent_component = "Apollo 8 CSM dry structure"
+parent_anchor_m = [0.0, 0.0, 0.0]
+child_anchor_m = [0.0, 0.0, 0.0]
+child_to_parent_zero_orientation = [1.0, 0.0, 0.0, 0.0]
+dofs = []
+inertia = { ixx_kgm2 = 0.0, iyy_kgm2 = 0.0, izz_kgm2 = 0.0, ixy_kgm2 = 0.0, ixz_kgm2 = 0.0, iyz_kgm2 = 0.0 }
+
+[components.visual]
+geometry_source = "custom_stl"
+stl_file = "../../../00_Shared_Visualization_Assets/apollo8_csm_common_frame/SM_CM_Umbilical.stl"
+stl_length_unit = "centimeters"
+stl_recenter_mode = "keep_imported_origin"
+visual_offset_m = [0.0, 0.0, 0.0]
+visual_orientation = [1.0, 0.0, 0.0, 0.0]
+visual_scale = [1.0, 1.0, 1.0]
+surface_appearance = "textured"
+base_color_tint = [1.0, 1.0, 1.0, 1.0]
+base_color_texture_file = "../../../00_Shared_Visualization_Assets/textures/dark_hardware_base_color.png"
+normal_texture_file = "../../../00_Shared_Visualization_Assets/textures/dark_hardware_normal.png"
+roughness_texture_file = "../../../00_Shared_Visualization_Assets/textures/dark_hardware_roughness.png"
+metallic_texture_file = "../../../00_Shared_Visualization_Assets/textures/dark_hardware_metallic.png"
+visible = true
+
+[[thrusters]]
+name = "Balanced Vent Plus"
+mode = "commanded"
+mount_component = "Apollo 8 CSM dry structure"
+propellant_component = "Propellant and consumables pool"
+application_point_component_m = [0, 0, 0]
+direction_component = [0, 1, 0]
+ignition_time_mode = "elapsed"
+ignition_elapsed_seconds = 0.0
+never_shuts_down = false
+shutdown_time_mode = "elapsed"
+shutdown_elapsed_seconds = 152914
+maximum_thrust_n = 100
+
+[[thrusters]]
+name = "Balanced Vent Minus"
+mode = "commanded"
+mount_component = "Apollo 8 CSM dry structure"
+propellant_component = "Propellant and consumables pool"
+application_point_component_m = [0, 0, 0]
+direction_component = [0, -1, 0]
+ignition_time_mode = "elapsed"
+ignition_elapsed_seconds = 0.0
+never_shuts_down = false
+shutdown_time_mode = "elapsed"
+shutdown_elapsed_seconds = 152914
+maximum_thrust_n = 100
+
+[control]
+mode = "compiled_user_controller"
+unreal_controller_id = ""
+controller_dll_file = "../controllers/ApolloFinalCoastController.dll"
+
+
+[gravity]
+include_first_post_newtonian_correction = true
+
+[[gravity.bodies]]
+catalog_key = "Sun"
+gravity_enabled = true
+automatic_activation_radius_m = 0.0
+barycenter_resolution_radius_m = 0.0
+harmonic_model_csv_file = ""
+maximum_harmonic_degree = 0
+
+[[gravity.bodies]]
+catalog_key = "EarthMoonBarycenter"
+gravity_enabled = false
+automatic_activation_radius_m = 0.0
+barycenter_resolution_radius_m = 0.0
+harmonic_model_csv_file = ""
+maximum_harmonic_degree = 0
+
+[[gravity.bodies]]
+catalog_key = "Earth"
+gravity_enabled = true
+automatic_activation_radius_m = 0.0
+barycenter_resolution_radius_m = 0.0
+harmonic_model_csv_file = "../../../data/earth_j2.csv"
+maximum_harmonic_degree = 2
+
+[[gravity.bodies]]
+catalog_key = "Moon"
+gravity_enabled = true
+automatic_activation_radius_m = 0.0
+barycenter_resolution_radius_m = 0.0
+harmonic_model_csv_file = "../../../data/moon_boeing_r2.csv"
+maximum_harmonic_degree = 3
+
+[srp]
+enabled = false
+
+[atmosphere]
+enabled = false
+
+[aerodynamics]
+enabled = false
+

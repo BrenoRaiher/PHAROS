@@ -1,0 +1,17 @@
+{
+  "segment": "06",
+  "retained": true,
+  "iterations": 1,
+  "preceding_preparation_segment": "05",
+  "target_role": "Accepted simplified outgoing Venus-2 trajectory; historical comparisons remain separate.",
+  "original_position_residual_m": 1404333.9642227262,
+  "candidate_position_residual_m": 280.68754856112304,
+  "candidate_velocity_residual_mps": 0.000251223926470691,
+  "update_norm_mps": 0.0008923972711032021,
+  "candidate_vector_mps": [
+    -0.058092373654482145,
+    -0.2397443419883863,
+    -0.040745479667670614
+  ],
+  "purpose": "Update both the physical preparation slew and the existing TCM-7 vector, without a new maneuver or any historical-state reset."
+}

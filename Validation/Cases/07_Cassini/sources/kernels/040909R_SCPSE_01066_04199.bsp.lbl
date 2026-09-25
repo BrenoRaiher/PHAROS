@@ -1,0 +1,153 @@
+MISSION_NAME                 = "CASSINI"
+SPACECRAFT_NAME              = "CASSINI"
+DATA_SET_ID                  = "SPICE_SPK_FILE"
+KERNEL_TYPE_ID               = "SPK"
+PRODUCT_ID                   = "040909R_SCPSE_01066_04199.xsp"
+PRODUCT_CREATION_TIME        = 2004-09-09T13:46:20
+PRODUCER_ID                  = "CASSINI_NAV_TEAM"
+MISSION_PHASE_NAME           = "APPROACH"
+PRODUCT_VERSION_TYPE         = "RECONSTRUCTION"
+PLATFORM_OR_MOUNTING_NAME    = "N/A"
+START_TIME                   = 2001-03-07T11:58:56
+STOP_TIME                    = 2004-07-17T11:58:56
+SPACECRAFT_CLOCK_START_COUNT = "N/A"
+SPACECRAFT_CLOCK_STOP_COUNT  = "N/A"
+TARGET_NAME                  = {
+                               "CASSINI",
+                               "EARTH BARYCENTER",
+                               "JUPITER BARYCENTER",
+                               "SATURN BARYCENTER",
+                               "SUN",
+                               "MOON",
+                               "EARTH",
+                               "MIMAS",
+                               "ENCELADUS",
+                               "TETHYS",
+                               "DIONE",
+                               "RHEA",
+                               "TITAN",
+                               "HYPERION",
+                               "IAPETUS",
+                               "PHOEBE",
+                               "SATURN"
+                               }
+INSTRUMENT_NAME              = "N/A"
+INSTRUMENT_ID                = "N/A"
+SOURCE_PRODUCT_ID            = "SEE COMMENTS"
+NOTE                         = "SPICE transfer format SPK file."
+ 
+; 040909R_SCPSE_01066_04199.BSP LOG FILE
+;
+; Created 2004-09-09/13:46:08.00.
+;
+; BEGIN NIOSPK COMMANDS
+ 
+LEAPSECONDS_FILE    = /cnav/software/internal/leapseconds.dat
+SPK_FILE            = 040909R_SCPSE_01066_04199.BSP
+  SPK_LOG_FILE      = 040909R_SCPSE_01066_04199.log
+  INCLUDE_TEXT_FILE = 040909R_COMMENT_01066_04199.TXT
+  SOURCE_NIO_FILE   = 040909R_SK_01066_04199.NIO
+    BODIES          = -82
+    BEGIN_TIME      = CAL-ET 2001 MAR 07 12:00:00.000
+    END_TIME        = CAL-ET 2004 JUL 17 12:00:00.000
+  SOURCE_NIO_FILE = /cnav/OD/outputs/ops/reconstruction/040908_00Sa/peph_in.nio
+    BODIES          = 3 5 6 10 301 399
+    BEGIN_TIME      = CAL-ET 2001 MAR 07 12:00:00.000
+    END_TIME        = CAL-ET 2004 JUL 17 12:00:00.000
+SOURCE_NIO_FILE = /cnav/OD/outputs/ops/reconstruction/040908_00Sa/sateph_in.nio
+    BEGIN_TIME      = CAL-ET 2004 JAN 03 00:00:00.000
+    END_TIME        = CAL-ET 2004 JUL 17 12:00:00.000
+ 
+; END NIOSPK COMMANDS
+ 
+FILENAME:  040909R_SCPSE_01066_04199.BSP
+ 
+PURPOSE OF DELIVERY:  Saturn approach reconstruction
+ 
+DELIVERED BY:  Joan Pojman; Orig. files from Duane C. Roth
+ 
+DELIVERY DATE:  10-SEPT-2004
+ 
+FILE USAGE RESTRICTIONS:  NONE
+ 
+PLANETARY EPHEMERIS USED:  /cnav/OD/outputs/ops/reconstruction/040908_00Sa/peph_in.nio
+ 
+SATELLITE/ASTEROID/ROCK EPHEMERIS USED:  /cnav/OD/outputs/ops/reconstruction/040908_00Sa/sateph_in.nio
+ 
+START EPOCH OF PROPAGATED DATA ARC (not reconstructed data):  28-FEB-2001 19:50
+ 
+END EPOCH OF PROPAGATED DATA ARC:  14-AUG-2004 21:00
+ 
+START EPOCH OF RECONSTRUCTED DATA ARC:  7-MAR-2001 12:00
+ 
+END EPOCH OF RECONSTRUCTED DATA ARC:  17-JUL-2004 12:00
+ 
+COMMENTS:  Saturn approach reconstruction - based on a data arc extending from 28 February 2001 19:50
+ 
+\beginlabel
+ 
+MISSION_NAME                 = "CASSINI"
+SPACECRAFT_NAME              = "CASSINI"
+DATA_SET_ID                  = "SPICE_SPK_FILE"
+KERNEL_TYPE_ID               = "SPK"
+PRODUCT_ID                   = "040909R_SCPSE_01066_04199.xsp"
+PRODUCT_CREATION_TIME        = 2004-09-09T13:46:20
+PRODUCER_ID                  = "CASSINI_NAV_TEAM"
+MISSION_PHASE_NAME           = "APPROACH"
+PRODUCT_VERSION_TYPE         = "RECONSTRUCTION"
+PLATFORM_OR_MOUNTING_NAME    = "N/A"
+START_TIME                   = 2001-03-07T11:58:56
+STOP_TIME                    = 2004-07-17T11:58:56
+SPACECRAFT_CLOCK_START_COUNT = "N/A"
+SPACECRAFT_CLOCK_STOP_COUNT  = "N/A"
+TARGET_NAME                  = {
+                               "CASSINI",
+                               "EARTH BARYCENTER",
+                               "JUPITER BARYCENTER",
+                               "SATURN BARYCENTER",
+                               "SUN",
+                               "MOON",
+                               "EARTH",
+                               "MIMAS",
+                               "ENCELADUS",
+                               "TETHYS",
+                               "DIONE",
+                               "RHEA",
+                               "TITAN",
+                               "HYPERION",
+                               "IAPETUS",
+                               "PHOEBE",
+                               "SATURN"
+                               }
+INSTRUMENT_NAME              = "N/A"
+INSTRUMENT_ID                = "N/A"
+SOURCE_PRODUCT_ID            = "SEE COMMENTS"
+NOTE                         = "SPICE transfer format SPK file."
+ 
+\endlabel
+ 
+ 
+Brief.  Version: 2.2.0        (SPICE Toolkit N0055)
+ 
+ 
+Summary for: 040909R_SCPSE_01066_04199.bsp
+ 
+Bodies                Start of Interval (ET)          End of Interval (ET)
+-------               -----------------------------   -----------------------------
+-82 CASSINI           2001 MAR 07 12:00:00.000        2004 JUL 17 12:00:00.000
+3 EARTH BARYCENTER                Same coverage as previous object
+5 JUPITER BARYCENTER              Same coverage as previous object
+6 SATURN BARYCENTER               Same coverage as previous object
+10 SUN                            Same coverage as previous object
+301 MOON                          Same coverage as previous object
+399 EARTH                         Same coverage as previous object
+601 MIMAS             2004 JAN 03 00:00:00.000        2004 JUL 17 12:00:00.000
+602 ENCELADUS                     Same coverage as previous object
+603 TETHYS                        Same coverage as previous object
+604 DIONE                         Same coverage as previous object
+605 RHEA                          Same coverage as previous object
+606 TITAN                         Same coverage as previous object
+607 HYPERION                      Same coverage as previous object
+608 IAPETUS                       Same coverage as previous object
+609 PHOEBE                        Same coverage as previous object
+699 SATURN                        Same coverage as previous object

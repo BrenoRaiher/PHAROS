@@ -1,0 +1,27 @@
+{
+  "direction": [
+    0.44539360538651157,
+    0.39189638252813414,
+    0.8050104108905467
+  ],
+  "target_mode": "retrograde_tangential_moon",
+  "target_mode_id": 3,
+  "target_body_naif_id": 301,
+  "radial_bias": 0.02,
+  "normal_bias": 0.0,
+  "circularization_stop_mps": 0.0,
+  "target_mass": 28497.84782999,
+  "burn_start": 60.0,
+  "burn_end": 306.9,
+  "throttle": 0.992925779597439,
+  "use_sps": true,
+  "sps_maximum_thrust_n": 91180.3626873533,
+  "main_required_thrust_n": 90535.33270531752,
+  "main_target_delta_v_mps": 905.8,
+  "ullage_enabled": false,
+  "ullage_start": -1.0,
+  "ullage_end": -1.0,
+  "ullage_throttle": 0.0,
+  "ullage_target_delta_v_mps": 0.0,
+  "total_target_delta_v_mps": 905.8
+}

@@ -1,0 +1,46 @@
+{
+  "before_final_position_error_m": 307873.22421259107,
+  "after_final_position_error_m": 6848.008396874489,
+  "before_final_velocity_error_mps": 0.3104836884395822,
+  "after_final_velocity_error_mps": 0.025028830828084974,
+  "before_evaluation": {
+    "controller_calibration_inputs": [
+      "NAIF reconstructed barycentric state at 2021-12-25T13:00:00Z",
+      "published MCC epochs, durations, and reconstructed delta-v values",
+      "Inherited legacy calibration: NAIF B-H terminal states as weighted objectives for sequential finite-difference burn-vector tuning",
+      "Current calibration: final H position/velocity residual only, for one capped two-burn correction",
+      "published physical mass, propellant, thrust type, and attitude strategy"
+    ],
+    "held_out_evaluation": "Unique exact-epoch samples excluding A[0], inherited B-H fit epochs and current B-H endpoints; duplicate boundaries count once. These are correlated samples of the same reconstructed mission, not a statistically independent validation mission.",
+    "legacy_calibration_endpoint_count": 7,
+    "current_correction_endpoint_count": 1,
+    "excluded_noninitial_epoch_count": 8,
+    "held_out_sample_count": 3165,
+    "held_out_rms_position_error_m": 95742.15128039884,
+    "held_out_maximum_position_error_m": 307426.8615466807,
+    "held_out_rms_velocity_error_mps": 0.15934695012826006,
+    "held_out_maximum_velocity_error_mps": 0.31028251246671323
+  },
+  "after_evaluation": {
+    "controller_calibration_inputs": [
+      "NAIF reconstructed barycentric state at 2021-12-25T13:00:00Z",
+      "published MCC epochs, durations, and reconstructed delta-v values",
+      "Inherited legacy calibration: NAIF B-H terminal states as weighted objectives for sequential finite-difference burn-vector tuning",
+      "Current calibration: D/E/F/G/H terminal position and velocity marks with fixed weights and scales recorded before the response trials.",
+      "published physical mass, propellant, thrust type, and attitude strategy"
+    ],
+    "held_out_evaluation": "Unique exact-epoch samples excluding A[0], inherited B-H fit epochs and current B-H endpoints; duplicate boundaries count once. These are correlated samples of the same reconstructed mission, not a statistically independent validation mission.",
+    "legacy_calibration_endpoint_count": 7,
+    "current_correction_endpoint_count": 5,
+    "excluded_noninitial_epoch_count": 8,
+    "held_out_sample_count": 3165,
+    "held_out_rms_position_error_m": 15613.784340731052,
+    "held_out_maximum_position_error_m": 53097.248078311066,
+    "held_out_rms_velocity_error_mps": 0.10893278645044888,
+    "held_out_maximum_velocity_error_mps": 0.27911230882491184
+  },
+  "accepted_updates": 1,
+  "evaluated_updates": 1,
+  "stop_reason": "The next rounded response-based update predicts less than 5% objective improvement; no further calibration propagation is justified.",
+  "all_nominal_acceptance_checks_pass": true
+}

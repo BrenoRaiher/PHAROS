@@ -1,0 +1,108 @@
+{
+  "source_sha256": "4ee0c8f952ff39352769a9dd3776575d596126b100cf50227d0a9335ba255b72",
+  "source": "Appendix A, printed A-3 through A-23; TRW postflight row, not RTCC inflight row.",
+  "duplicates": "A-4/A-5 and A-6/A-7 repeat the same TRW state at the same epoch; each counted once.",
+  "transcription": "New components rounded to ten significant digits. Maximum component rounding is 0.05 ft (0.01524 m) for positions and 0.0000005 ft/s (0.0000001524 m/s) for velocities. These are transcription rounding bounds, not historical accuracy estimates.",
+  "corrected_calibration_mark_transcriptions": {
+    "lunar_rev1": {
+      "corrected_event_id": "lunar_rev1",
+      "corrected_source": "Trajectory Reconstruction Supplement 1, Appendix A, A-10 (PDF 38), TRW postflight row.",
+      "old_position_ft": [
+        -650479.0,
+        -5146879.0,
+        -3323495.0
+      ],
+      "corrected_position_ft": [
+        -650478.7818,
+        -5146879.266,
+        -3323419.552
+      ],
+      "transcription_change_norm_m": 22.99678949275702
+    },
+    "lunar_rev9": {
+      "corrected_event_id": "lunar_rev10",
+      "corrected_source": "Trajectory Reconstruction Supplement 1, Appendix A, A-19 (PDF 47), TRW postflight row.",
+      "old_position_ft": [
+        481271.0,
+        -5029112.0,
+        -3374147.0
+      ],
+      "corrected_position_ft": [
+        481207.1433,
+        -5029102.274,
+        -3337414.886
+      ],
+      "transcription_change_norm_m": 11195.965657773155
+    }
+  },
+  "calibration_provenance": "The frozen expected/direct_states.json and direct_state_sources.json preserve the original calibration inputs. The mark named lunar_rev9 there is revolution 10, and both lunar positions contain transcription errors. Final historical comparisons use corrected historical_states.json; no propagation or controller was changed.",
+  "NBY1969_to_J2000": [
+    [
+      0.999971430793093,
+      -0.006932510238740845,
+      -0.003012955260858825
+    ],
+    [
+      0.006932510237296334,
+      0.9999759698076381,
+      -1.044430021552792e-05
+    ],
+    [
+      0.00301295526418251,
+      -1.044334136026557e-05,
+      0.999995460985455
+    ]
+  ],
+  "rotation_orthogonality_error": 2.220446049250313e-16,
+  "solution_sha256": {
+    "01": "8dbadf7ea852e9eb0a5489043fa356c9cdd98f195dc0115a3a1a59b59b486431",
+    "02": "c45ec55d088d2f937ad7e21ff6a0516a0e4c23d99df5bffea7b358b1cee78d32",
+    "03": "264efa51174fca547700104b6bc0a0669cabc2eccaa0e7cf7fbd9de1d6bac6f0",
+    "04": "955a3ea82ec2b13faffdc0e010bc681c6eb04f10f4b8d8685ffafdbd8b2cba9a",
+    "05": "c79cc2bdf5552de1d17263ff1ca4c8b9bb626a0bfe67d54ea974228f61355c2c",
+    "06": "85001b3674369ffe80aceae33f47610cf698b6982889044aca33a6635beb8538",
+    "07": "3baf5e9500cc4e9ffdd2d5b06dcd19d7b814b196fd70835d70ad7816881e6e60",
+    "08": "aab86adc38ab09b29054a812f0402a3cedcc67a97a72f8680b11e6a1a96d945c",
+    "09": "eb16c71c6902052fe537e381bb606383d4a828eab57c29d195fe1dd44257d6f1",
+    "10": "49da08ca37b0bdd86fb168f1ea3c0aff3292cc9f5809209738f288ba27b344d2",
+    "11": "f0ebbbaa48a25eb809d346746b461d38005946d7202839ad04ab469b9bec7984",
+    "12": "962a9ae243ee8cfe5fe1cbf59bc96d187df7bc6c500e3ab229c93053859cc187",
+    "13": "9221bbe06d7e8721e69cbeda2e99f8a8d3214cb734d3d7bd21b1b79da2852597"
+  },
+  "physical_inputs_sha256": {
+    "segments/01/scenario/apollo8_like_01.tgscn": "9d4c0f4cc5a9803418a2c1cf49700026a913f4eb8af3fa3627376b3f281a7cee",
+    "segments/01/scenario/apollo8_like_01_with_visual_appearance.tgscn": "4d87a14f13d4adf0e25ae7afcbd4517593114586071bd65d1418559ea1a03c25",
+    "segments/02/scenario/apollo8_like_02.tgscn": "246daaa32ef5a6b6550e1d93a6b04a37a0d9a3264fc42272562332d4fb0b4bd9",
+    "segments/02/scenario/apollo8_like_02_with_visual_appearance.tgscn": "900c2212f167ddc6e501647da97c6e07c5288c984983bce37ee223d55263b66f",
+    "segments/03/scenario/apollo8_like_03.tgscn": "2795347d34d04a52535db88e61129c653ba77d30372c8007e090bbf10dc99ed9",
+    "segments/03/scenario/apollo8_like_03_with_visual_appearance.tgscn": "a555d36c34bbd753d91d952b7992555478a43ef6d2b4dfc90cc0a525f732c02c",
+    "segments/04/scenario/apollo8_like_04.tgscn": "9cdafcd88bdb72ca28d67491b4a57b87235816137e0ab56db0f1fce978f30f10",
+    "segments/04/scenario/apollo8_like_04_with_visual_appearance.tgscn": "da0afd26f74ee632a5e8d1bd841abe6f3996a7833e701c58ac0a093ef567d873",
+    "segments/05/scenario/apollo8_like_05.tgscn": "cd335f3fb9756133c2558f8b343b2e1508cd3c8f8141d3bffe0418cac9dc5569",
+    "segments/05/scenario/apollo8_like_05_with_visual_appearance.tgscn": "9641e0738146fd313665d33d01971de47537b925eb0607e6de1b1877b89c549e",
+    "segments/06/scenario/apollo8_like_06.tgscn": "e88e69704e5b43bba9e168446c055ffeb2a70b61b95d7e2770159fc3d277abab",
+    "segments/06/scenario/apollo8_like_06_with_visual_appearance.tgscn": "7352b5a0ecc5aeff30b200883637c944b10f937d589892d8016cbff230ece4c7",
+    "segments/07/scenario/apollo8_like_07.tgscn": "7cbabc60f66c54fb71561e79fa661bee75d27f0ca7a14f8cc164c928d219bc48",
+    "segments/07/scenario/apollo8_like_07_with_visual_appearance.tgscn": "abe4d641744dbf247320a358e0dea527fe3830cc8a3e2c93a761dc949be40219",
+    "segments/08/scenario/apollo8_like_08.tgscn": "6f640d5ddecbf6365222c664ce3251fabd9e6d4fef11683a5b84042fe7b95083",
+    "segments/08/scenario/apollo8_like_08_with_visual_appearance.tgscn": "660d570fe319adcf969454dbbc468473758f2443458b7571ae8486fc9167a10a",
+    "segments/09/scenario/apollo8_like_09.tgscn": "3bf72cc4579a53fef144d7bc23bcc757f5655acf58602f2c821c4e6649b7d198",
+    "segments/09/scenario/apollo8_like_09_with_visual_appearance.tgscn": "efd2bd4066a2cb4b3c9e6f137269ca39269146852779219ec333a3b8011f849c",
+    "segments/10/scenario/apollo8_like_10.tgscn": "50d0b40788b4bb99d5352de0d7bfa42f9d49c2ad180fc8afec89b1329572333b",
+    "segments/10/scenario/apollo8_like_10_with_visual_appearance.tgscn": "156c81ca1af252d74a50d8150cb3056d61dd709f1a27cb9066a459bb468fa9f2",
+    "segments/11/scenario/apollo8_like_11.tgscn": "30941802e2635c7116625367a8f83e7d1e16126641fb45c80d02767dd3fce3c7",
+    "segments/11/scenario/apollo8_like_11_with_visual_appearance.tgscn": "8ba125124bcd16e470550e13c4dd4ad0764fb058b0b4422fcaa32de3ed06a63e",
+    "segments/12/scenario/apollo8_like_12.tgscn": "10d780d8e5d7f949bc0f7fd755cf76d3794f270ec7dccddfeaac55e9bc834a79",
+    "segments/12/scenario/apollo8_like_12_with_visual_appearance.tgscn": "b8fb4e957c37004f032203436ade0830b1e8a66438b3debddccdf399a51d8da3",
+    "segments/13/scenario/apollo8_like_13.tgscn": "cc13cf411a1f28535c857e7df6050fc67290e90193b3aecda1cd24875c49f434",
+    "segments/13/scenario/apollo8_like_13_with_visual_appearance.tgscn": "442adb8aef1abae4e427336dfe3370c2aec949bd35aad9c8087907322e63873c"
+  },
+  "controllers_sha256": {
+    "segments/02/controllers/controller_parameters.json": "fa605de0ab77fb213366a5d610bf75b0da6db258143c1d7fada1a5ecef357830",
+    "segments/04/controllers/controller_parameters.json": "98cd63488afc01c908f900df2ca8974ae52003335d58a61e9de1ab76961e7051",
+    "segments/06/controllers/controller_parameters.json": "9019d6eaeea7bd1edc2c3f2dced794c53180302de849d5834e459abcfb465312",
+    "segments/08/controllers/controller_parameters.json": "fadfabfd78409f43e11f8752293cd36f8818b8a8c54ca6e36fb0c3675012ab9b",
+    "segments/10/controllers/controller_parameters.json": "717b1d3f53e80c637b7812a5bdaa4f4a020ab5e85a176d69fc2d700994387357",
+    "segments/12/controllers/controller_parameters.json": "025d8fdcde2d03938857d216c41aaf24e48c2e2834da12efcf1f161bd0b42b5f"
+  }
+}

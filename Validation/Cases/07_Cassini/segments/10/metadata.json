@@ -1,0 +1,12 @@
+{
+  "id": "10",
+  "external_initial_state": false,
+  "previous_segment": "09",
+  "runner_sha256": "bb682d5eace254cbe4d8a140cf8015c379e8f1d2d351558f04a2670ad1b4fac7",
+  "scenario_sha256": "db9c1b88db37b7fc9d3bf254f584e3fd6c0606ae171463e825ebe713caaffc04",
+  "controller_sha256": "b20fb9c33f0acdc556c272f237041ab4e5bce904a83d9cd243bdaff3a1913afb",
+  "controller_source_sha256": "0c45334401e8ea09838bd6e8669a194f391978e00ce35095992e102732fc82b5",
+  "controller_configuration_sha256": "65e0e4807ecc9a4fa238e2a66789255be26600b364da9aeb35b978267b40b56f",
+  "maximum_step_factor": 1,
+  "wall_seconds": 234.36000000000058
+}

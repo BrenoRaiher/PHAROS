@@ -1,0 +1,166 @@
+{
+  "id": "05",
+  "label": "tcm6 to pre tcm7",
+  "start_utc": "1999-02-04T20:00:00.000Z",
+  "end_utc": "1999-05-18T17:00:00.000Z",
+  "rows": 29630,
+  "numeric_cells": 12859420,
+  "wall_seconds": 325.56299999999464,
+  "endpoint_position_error_km": 307.98338708339907,
+  "endpoint_velocity_error_mps": 0.1248683157802588,
+  "maximum_sampled_position_error_km": 550.9583042468562,
+  "rms_sampled_position_error_km": 307.7500537873033,
+  "rms_time_weighted_position_error_km": 307.7443157555343,
+  "maximum_sampled_velocity_error_mps": 0.126771229301313,
+  "endpoint_displacement_from_legacy_m": 2311.324790377667,
+  "endpoint_velocity_change_from_legacy_mps": 0.00044628189143362893,
+  "initial_mass_kg": 4796.975128736125,
+  "final_mass_kg": 4778.667743311093,
+  "nominal_mass_loss_kg": 18.30738542503116,
+  "actual_mass_loss_kg": 18.307385425032408,
+  "maximum_wheel_momentum_nms": 36.0,
+  "saturated_output_rows": 1,
+  "continuity_differences": {
+    "ephemeris_time_tdb_seconds_past_j2000": 0.0,
+    "mass_kg": 0.0,
+    "variable_component_mass_0_kg": 0.0,
+    "position_icrf_x_m": 0.0,
+    "position_icrf_y_m": 0.0,
+    "position_icrf_z_m": 0.0,
+    "velocity_icrf_x_mps": 0.0,
+    "velocity_icrf_y_mps": 0.0,
+    "velocity_icrf_z_mps": 0.0,
+    "quaternion_body_to_icrf_w": 0.0,
+    "quaternion_body_to_icrf_x": 0.0,
+    "quaternion_body_to_icrf_y": 0.0,
+    "quaternion_body_to_icrf_z": 0.0,
+    "angular_velocity_body_x_radps": 0.0,
+    "angular_velocity_body_y_radps": 0.0,
+    "angular_velocity_body_z_radps": 0.0,
+    "inertia_body_xx_kgm2": 0.0,
+    "inertia_body_yy_kgm2": 0.0,
+    "inertia_body_zz_kgm2": 0.0,
+    "inertia_body_xy_kgm2": 0.0,
+    "inertia_body_xz_kgm2": 0.0,
+    "inertia_body_yz_kgm2": 0.0,
+    "reaction_wheel_momentum_0_nms": 0.0,
+    "reaction_wheel_momentum_1_nms": 0.0,
+    "reaction_wheel_momentum_2_nms": 0.0
+  },
+  "checks": [
+    {
+      "name": "All recorded numeric cells finite",
+      "passed": true,
+      "measured": 12859420,
+      "limit": null
+    },
+    {
+      "name": "Recorded articulated solves succeeded",
+      "passed": true,
+      "measured": 0,
+      "limit": 0
+    },
+    {
+      "name": "Strictly increasing recorded epochs",
+      "passed": true,
+      "measured": null,
+      "limit": null
+    },
+    {
+      "name": "Reference epochs match recorded epochs",
+      "passed": true,
+      "measured": null,
+      "limit": null
+    },
+    {
+      "name": "Requested start and final epochs reached",
+      "passed": true,
+      "measured": 0.0,
+      "limit": 1e-07
+    },
+    {
+      "name": "Attitude quaternion normalized",
+      "passed": true,
+      "measured": 1.1102230246251565e-16,
+      "limit": 1e-12
+    },
+    {
+      "name": "No propellant creation or exhaustion",
+      "passed": true,
+      "measured": 2255.667743311093,
+      "limit": 0
+    },
+    {
+      "name": "Total mass equals dry mass plus inventory",
+      "passed": true,
+      "measured": 4.547473508864641e-13,
+      "limit": 1e-08
+    },
+    {
+      "name": "Inertia follows retained mass-distribution law",
+      "passed": true,
+      "measured": 3.637978807091713e-12,
+      "limit": 1e-06
+    },
+    {
+      "name": "Wheel momenta remain within capacity",
+      "passed": true,
+      "measured": 36.0,
+      "limit": 36.0000001
+    },
+    {
+      "name": "Wheel torque limits respected",
+      "passed": true,
+      "measured": 0.0,
+      "limit": 0.140000001
+    },
+    {
+      "name": "Thruster 0 respects force limits",
+      "passed": true,
+      "measured": 0.0,
+      "limit": 500
+    },
+    {
+      "name": "Thruster 0 off outside command interval",
+      "passed": true,
+      "measured": null,
+      "limit": null
+    },
+    {
+      "name": "Propellant rates match applied thrust and specific impulse",
+      "passed": true,
+      "measured": 0.0,
+      "limit": 1e-11
+    },
+    {
+      "name": "Commanded burns delivered expected integrated mass flow",
+      "passed": true,
+      "measured": 1.2470025012589758e-12,
+      "limit": 0.0001
+    },
+    {
+      "name": "Complete previous state carried across boundary",
+      "passed": true,
+      "measured": 0.0,
+      "limit": 1e-08
+    },
+    {
+      "name": "Runner reported successful completion",
+      "passed": true,
+      "measured": null,
+      "limit": null
+    },
+    {
+      "name": "No warning or error lines",
+      "passed": true,
+      "measured": null,
+      "limit": null
+    }
+  ],
+  "checks_passed": 18,
+  "checks_total": 18,
+  "scenario_sha256": "8b9ea0bbb97ab35ccaf84ddfee4064eeb547f984e1481fee61a4b68fb414034a",
+  "controller_sha256": "b2a0939a346c79e49209f25e459b59c745dff7c24fdfb5f6dc52948bfbd4274e",
+  "relative_tolerance": 1e-14,
+  "absolute_tolerance": 1e-08
+}

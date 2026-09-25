@@ -1,0 +1,9 @@
+{
+  "started_utc": "2026-09-09T19:45:21.966583+00:00",
+  "legacy_root": "<recorded-user-directory>\\Desktop\\TG ITA\\04_Validation\\03_JWST_L2",
+  "authoritative_project": "<recorded-user-directory>\\Documents\\Unreal Projects\\PHAROS",
+  "runner_sha256": "bb682d5eace254cbe4d8a140cf8015c379e8f1d2d351558f04a2670ad1b4fac7",
+  "runner_relative": "../Support/Runtime/PHAROSScenarioRunner.exe",
+  "truth_spk_sha256": "d2c8279c44d9161599b073dca40d5849c10f7b4df1ea5c6ff6288ccfe868d402",
+  "scope": "Continuous simplified JWST reconstruction with modest calibration; no other mission reruns"
+}

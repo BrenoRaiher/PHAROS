@@ -1,0 +1,75 @@
+{
+  "requirement": "DAT-02",
+  "passed": true,
+  "runner_sha256": "bb682d5eace254cbe4d8a140cf8015c379e8f1d2d351558f04a2670ad1b4fac7",
+  "runs": [
+    {
+      "scenario": "reference",
+      "scenario_sha256": "e1d66a492c2a977036f57b589c8ff857d44561d20986c7c56cda5072feb8f30e",
+      "solution_sha256": "5816e0067c780c352159086f964afdd373ae9cc6e5001755c595109bc0f1e102",
+      "summary_sha256": "2d0facf532ad07fec120760902c27a66f8fbc5a7b249def5641753b1b3f69288",
+      "rows": 31,
+      "columns": 111,
+      "exit_code": 0
+    },
+    {
+      "scenario": "primitives",
+      "scenario_sha256": "b19385a28ae625e04e760a2aef6cc0e05d567fc8b83f829023a98089ca236a7a",
+      "solution_sha256": "5816e0067c780c352159086f964afdd373ae9cc6e5001755c595109bc0f1e102",
+      "summary_sha256": "2d0facf532ad07fec120760902c27a66f8fbc5a7b249def5641753b1b3f69288",
+      "rows": 31,
+      "columns": 111,
+      "exit_code": 0
+    },
+    {
+      "scenario": "transformed",
+      "scenario_sha256": "656c5d792ceb197ce40abdcd68e3d26481df5edc012db3bf85e98bc5169718aa",
+      "solution_sha256": "5816e0067c780c352159086f964afdd373ae9cc6e5001755c595109bc0f1e102",
+      "summary_sha256": "2d0facf532ad07fec120760902c27a66f8fbc5a7b249def5641753b1b3f69288",
+      "rows": 31,
+      "columns": 111,
+      "exit_code": 0
+    },
+    {
+      "scenario": "hidden",
+      "scenario_sha256": "d78d5b8b8955d2b3fa7695ebf56b0146f2b4cdccf3578d8c5e75a908aae79f56",
+      "solution_sha256": "5816e0067c780c352159086f964afdd373ae9cc6e5001755c595109bc0f1e102",
+      "summary_sha256": "2d0facf532ad07fec120760902c27a66f8fbc5a7b249def5641753b1b3f69288",
+      "rows": 31,
+      "columns": 111,
+      "exit_code": 0
+    },
+    {
+      "scenario": "physical_control",
+      "scenario_sha256": "6f4ad0627590d0ba3aab693655b7e9a7abfca32127014dc5ee1b77a72f2d4192",
+      "solution_sha256": "8771f96c2bbe3858374c57bf0e887a852ee5c7d222e324787549ba7bb17c05c1",
+      "summary_sha256": "2d0facf532ad07fec120760902c27a66f8fbc5a7b249def5641753b1b3f69288",
+      "rows": 31,
+      "columns": 111,
+      "exit_code": 0
+    }
+  ],
+  "comparisons": [
+    {
+      "variant": "primitives",
+      "physical_inputs_equal": true,
+      "complete_csv_byte_identical": true,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "variant": "transformed",
+      "physical_inputs_equal": true,
+      "complete_csv_byte_identical": true,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "variant": "hidden",
+      "physical_inputs_equal": true,
+      "complete_csv_byte_identical": true,
+      "maximum_absolute_difference": 0.0
+    }
+  ],
+  "physical_control_changes_output": true,
+  "reference_motion_is_nonconstant": true,
+  "scope": "Visual metadata only; physical components, mass properties, loads, initial state and solver settings are fixed."
+}

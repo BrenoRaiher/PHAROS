@@ -1,0 +1,13 @@
+event_id,event_name,get_seconds,body,latitude_deg,longitude_east_deg,altitude_nmi,speed_ftps,flight_path_angle_deg,heading_deg
+first_midcourse_ignition,First midcourse correction ignition,39599.5,Earth,-1.70,-123.74,52768.4,8187,73.82,120.65
+first_midcourse_cutoff,First midcourse correction cutoff,39601.9,Earth,-1.71,-123.75,52771.7,8172,73.75,120.54
+second_midcourse_ignition,Second midcourse correction ignition,219595.0,Moon,14.09,-44.96,21064.5,4101,-84.41,-86.90
+second_midcourse_cutoff,Second midcourse correction cutoff,219607.8,Moon,14.09,-44.97,21059.2,4103,-84.41,-87.01
+lunar_orbit_insertion_ignition,Lunar orbit insertion ignition,248900.4,Moon,-7.46,-163.98,76.6,8391,-6.43,-123.79
+lunar_orbit_insertion_cutoff,Lunar orbit insertion cutoff,249147.3,Moon,-9.89,179.56,62.0,5458,-0.79,-117.13
+lunar_orbit_circularization_ignition,Lunar orbit circularization ignition,264907.0,Moon,-11.61,160.29,59.3,5479,-0.03,-110.18
+lunar_orbit_circularization_cutoff,Lunar orbit circularization cutoff,264916.0,Moon,-11.66,159.79,60.7,5345,-0.02,-110.18
+transearth_injection_ignition,Transearth injection ignition,321556.6,Moon,-9.27,174.78,60.2,5342,-0.16,-118.59
+transearth_injection_cutoff,Transearth injection cutoff,321760.3,Moon,-11.17,160.19,66.1,8842,5.10,-115.00
+third_midcourse_ignition,Third midcourse correction ignition,374394.0,Earth,-5.67,-57.27,167561.5,4299,-80.59,52.65
+third_midcourse_cutoff,Third midcourse correction cutoff,374408.0,Earth,-5.67,-57.33,167552.0,4298,-80.60,52.65

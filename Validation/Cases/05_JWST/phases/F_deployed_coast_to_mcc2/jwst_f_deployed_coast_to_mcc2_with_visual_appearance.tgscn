@@ -1,0 +1,896 @@
+format = "TGSCN"
+generator = "Continuous JWST mission validation"
+
+[scenario]
+name = "JWST CONTINUOUS VISUAL DEPLOYED_COAST_TO_MCC2"
+start_utc = "2022-01-04T17:00:00Z"
+end_mode = "final_utc"
+final_utc = "2022-01-24T19:00:00Z"
+integrator = "adaptive_dormand_prince_54"
+maximum_integrator_step_seconds = 120
+initial_integrator_step_seconds = 1
+absolute_tolerance = 1.0e-5
+relative_tolerance = 1.0e-12
+output_mode = "fixed_interval"
+output_step_seconds = 3600
+maximum_integration_steps = 5000000
+maximum_output_samples = 1000000
+
+[initial_state]
+position_icrf_m = [-36996336397.361588, 132280607179.34937, 57006084104.776169]
+velocity_icrf_mps = [-29539.957069429351, -6234.6764119086201, -2883.6211765416933]
+attitude_body_to_icrf = [0.44095735806451836, 0.50597232465646647, 0.66026241629903837, -0.33704919028748137]
+angular_velocity_body_radps = [-2.0374401265974429e-07, -2.2153914578932173e-08, -7.9694977966473426e-09]
+
+[[components]]
+id = "31000000-0000-0000-0000-000000000001"
+name = "Bus"
+initial_mass_kg = 5860.4
+minimum_mass_kg = 5860.4
+variable_mass = false
+local_center_of_mass_m = [0.0, 0.0, 0.0]
+origin_body_m = [0.0, 0.0, 0.0]
+component_to_body = [1.0, 0.0, 0.0, 0.0]
+parent_component = ""
+parent_anchor_m = [0.0, 0.0, 0.0]
+child_anchor_m = [0.0, 0.0, 0.0]
+child_to_parent_zero_orientation = [1.0, 0.0, 0.0, 0.0]
+dofs = []
+inertia = { ixx_kgm2 = 30000.0, iyy_kgm2 = 30000.0, izz_kgm2 = 30000.0, ixy_kgm2 = 0.0, ixz_kgm2 = 0.0, iyz_kgm2 = 0.0 }
+
+[components.visual]
+visible = false
+
+[[components]]
+id = "31000000-0000-0000-0000-000000000002"
+name = "Propellant"
+initial_mass_kg = 252.45680952846183
+minimum_mass_kg = 0.0
+variable_mass = true
+local_center_of_mass_m = [0.0, 0.0, 0.0]
+origin_body_m = [0.0, 0.0, 0.0]
+component_to_body = [1.0, 0.0, 0.0, 0.0]
+parent_component = "Bus"
+parent_anchor_m = [0.0, 0.0, 0.0]
+child_anchor_m = [0.0, 0.0, 0.0]
+child_to_parent_zero_orientation = [1.0, 0.0, 0.0, 0.0]
+dofs = []
+inertia = { ixx_kgm2 = 419.36347097751133, iyy_kgm2 = 419.36347097751133, izz_kgm2 = 419.36347097751133, ixy_kgm2 = 0.0, ixz_kgm2 = 0.0, iyz_kgm2 = 0.0 }
+
+[components.visual]
+visible = false
+
+# Fixed, massless presentation children; excluded from SRP.
+[[components]]
+id = "7a570001-0000-0000-0000-000000000001"
+name = "JWST visual - port sunshield boom"
+srp = { included_in_proxy = false }
+initial_mass_kg = 0.0
+minimum_mass_kg = 0.0
+variable_mass = false
+local_center_of_mass_m = [0.0, 0.0, 0.0]
+origin_body_m = [0.0, 0.0, 0.0]
+component_to_body = [1.0, 0.0, 0.0, 0.0]
+parent_component = "Bus"
+parent_anchor_m = [0.0, 0.0, 0.0]
+child_anchor_m = [0.0, 0.0, 0.0]
+child_to_parent_zero_orientation = [1.0, 0.0, 0.0, 0.0]
+dofs = []
+inertia = { ixx_kgm2 = 0.0, iyy_kgm2 = 0.0, izz_kgm2 = 0.0, ixy_kgm2 = 0.0, ixz_kgm2 = 0.0, iyz_kgm2 = 0.0 }
+
+[components.visual]
+geometry_source = "custom_stl"
+stl_file = "../../00_Shared_Visualization_Assets/jwst_deployed_body_frame/01_port_boom.stl"
+stl_length_unit = "meters"
+stl_recenter_mode = "keep_imported_origin"
+visual_offset_m = [0.0, 0.0, 0.0]
+visual_orientation = [1.0, 0.0, 0.0, 0.0]
+visual_scale = [1.0, 1.0, 1.0]
+surface_appearance = "textured"
+base_color_tint = [1.0, 1.0, 1.0, 1.00]
+base_color_texture_file = "../../00_Shared_Visualization_Assets/textures/thermal_blanket_rose_silver_base_color.png"
+normal_texture_file = "../../00_Shared_Visualization_Assets/textures/thermal_blanket_rose_silver_normal.png"
+roughness_texture_file = "../../00_Shared_Visualization_Assets/textures/thermal_blanket_rose_silver_roughness.png"
+metallic_texture_file = "../../00_Shared_Visualization_Assets/textures/thermal_blanket_rose_silver_metallic.png"
+visible = true
+
+[[components]]
+id = "7a570001-0000-0000-0000-000000000002"
+name = "JWST visual - starboard sunshield boom"
+srp = { included_in_proxy = false }
+initial_mass_kg = 0.0
+minimum_mass_kg = 0.0
+variable_mass = false
+local_center_of_mass_m = [0.0, 0.0, 0.0]
+origin_body_m = [0.0, 0.0, 0.0]
+component_to_body = [1.0, 0.0, 0.0, 0.0]
+parent_component = "Bus"
+parent_anchor_m = [0.0, 0.0, 0.0]
+child_anchor_m = [0.0, 0.0, 0.0]
+child_to_parent_zero_orientation = [1.0, 0.0, 0.0, 0.0]
+dofs = []
+inertia = { ixx_kgm2 = 0.0, iyy_kgm2 = 0.0, izz_kgm2 = 0.0, ixy_kgm2 = 0.0, ixz_kgm2 = 0.0, iyz_kgm2 = 0.0 }
+
+[components.visual]
+geometry_source = "custom_stl"
+stl_file = "../../00_Shared_Visualization_Assets/jwst_deployed_body_frame/02_starboard_boom.stl"
+stl_length_unit = "meters"
+stl_recenter_mode = "keep_imported_origin"
+visual_offset_m = [0.0, 0.0, 0.0]
+visual_orientation = [1.0, 0.0, 0.0, 0.0]
+visual_scale = [1.0, 1.0, 1.0]
+surface_appearance = "textured"
+base_color_tint = [1.0, 1.0, 1.0, 1.00]
+base_color_texture_file = "../../00_Shared_Visualization_Assets/textures/thermal_blanket_rose_silver_base_color.png"
+normal_texture_file = "../../00_Shared_Visualization_Assets/textures/thermal_blanket_rose_silver_normal.png"
+roughness_texture_file = "../../00_Shared_Visualization_Assets/textures/thermal_blanket_rose_silver_roughness.png"
+metallic_texture_file = "../../00_Shared_Visualization_Assets/textures/thermal_blanket_rose_silver_metallic.png"
+visible = true
+
+[[components]]
+id = "7a570001-0000-0000-0000-000000000003"
+name = "JWST visual - extended solar array"
+srp = { included_in_proxy = false }
+initial_mass_kg = 0.0
+minimum_mass_kg = 0.0
+variable_mass = false
+local_center_of_mass_m = [0.0, 0.0, 0.0]
+origin_body_m = [0.0, 0.0, 0.0]
+component_to_body = [1.0, 0.0, 0.0, 0.0]
+parent_component = "Bus"
+parent_anchor_m = [0.0, 0.0, 0.0]
+child_anchor_m = [0.0, 0.0, 0.0]
+child_to_parent_zero_orientation = [1.0, 0.0, 0.0, 0.0]
+dofs = []
+inertia = { ixx_kgm2 = 0.0, iyy_kgm2 = 0.0, izz_kgm2 = 0.0, ixy_kgm2 = 0.0, ixz_kgm2 = 0.0, iyz_kgm2 = 0.0 }
+
+[components.visual]
+geometry_source = "custom_stl"
+stl_file = "../../00_Shared_Visualization_Assets/jwst_deployed_body_frame/03_solar_array.stl"
+stl_length_unit = "meters"
+stl_recenter_mode = "keep_imported_origin"
+visual_offset_m = [0.0, 0.0, 0.0]
+visual_orientation = [1.0, 0.0, 0.0, 0.0]
+visual_scale = [1.0, 1.0, 1.0]
+surface_appearance = "textured"
+base_color_tint = [1.0, 1.0, 1.0, 1.00]
+base_color_texture_file = "../../00_Shared_Visualization_Assets/textures/solar_cell_blue_base_color.png"
+normal_texture_file = "../../00_Shared_Visualization_Assets/textures/solar_cell_blue_normal.png"
+roughness_texture_file = "../../00_Shared_Visualization_Assets/textures/solar_cell_blue_roughness.png"
+metallic_texture_file = "../../00_Shared_Visualization_Assets/textures/solar_cell_blue_metallic.png"
+visible = true
+
+[[components]]
+id = "7a570001-0000-0000-0000-000000000004"
+name = "JWST visual - aft momentum flap"
+srp = { included_in_proxy = false }
+initial_mass_kg = 0.0
+minimum_mass_kg = 0.0
+variable_mass = false
+local_center_of_mass_m = [0.0, 0.0, 0.0]
+origin_body_m = [0.0, 0.0, 0.0]
+component_to_body = [1.0, 0.0, 0.0, 0.0]
+parent_component = "Bus"
+parent_anchor_m = [0.0, 0.0, 0.0]
+child_anchor_m = [0.0, 0.0, 0.0]
+child_to_parent_zero_orientation = [1.0, 0.0, 0.0, 0.0]
+dofs = []
+inertia = { ixx_kgm2 = 0.0, iyy_kgm2 = 0.0, izz_kgm2 = 0.0, ixy_kgm2 = 0.0, ixz_kgm2 = 0.0, iyz_kgm2 = 0.0 }
+
+[components.visual]
+geometry_source = "custom_stl"
+stl_file = "../../00_Shared_Visualization_Assets/jwst_deployed_body_frame/04_momentum_flap.stl"
+stl_length_unit = "meters"
+stl_recenter_mode = "keep_imported_origin"
+visual_offset_m = [0.0, 0.0, 0.0]
+visual_orientation = [1.0, 0.0, 0.0, 0.0]
+visual_scale = [1.0, 1.0, 1.0]
+surface_appearance = "textured"
+base_color_tint = [1.0, 1.0, 1.0, 1.00]
+base_color_texture_file = "../../00_Shared_Visualization_Assets/textures/solar_cell_blue_base_color.png"
+normal_texture_file = "../../00_Shared_Visualization_Assets/textures/solar_cell_blue_normal.png"
+roughness_texture_file = "../../00_Shared_Visualization_Assets/textures/solar_cell_blue_roughness.png"
+metallic_texture_file = "../../00_Shared_Visualization_Assets/textures/solar_cell_blue_metallic.png"
+visible = true
+
+[[components]]
+id = "7a570001-0000-0000-0000-000000000005"
+name = "JWST visual - aft deployed cover"
+srp = { included_in_proxy = false }
+initial_mass_kg = 0.0
+minimum_mass_kg = 0.0
+variable_mass = false
+local_center_of_mass_m = [0.0, 0.0, 0.0]
+origin_body_m = [0.0, 0.0, 0.0]
+component_to_body = [1.0, 0.0, 0.0, 0.0]
+parent_component = "Bus"
+parent_anchor_m = [0.0, 0.0, 0.0]
+child_anchor_m = [0.0, 0.0, 0.0]
+child_to_parent_zero_orientation = [1.0, 0.0, 0.0, 0.0]
+dofs = []
+inertia = { ixx_kgm2 = 0.0, iyy_kgm2 = 0.0, izz_kgm2 = 0.0, ixy_kgm2 = 0.0, ixz_kgm2 = 0.0, iyz_kgm2 = 0.0 }
+
+[components.visual]
+geometry_source = "custom_stl"
+stl_file = "../../00_Shared_Visualization_Assets/jwst_deployed_body_frame/05_aft_cover.stl"
+stl_length_unit = "meters"
+stl_recenter_mode = "keep_imported_origin"
+visual_offset_m = [0.0, 0.0, 0.0]
+visual_orientation = [1.0, 0.0, 0.0, 0.0]
+visual_scale = [1.0, 1.0, 1.0]
+surface_appearance = "textured"
+base_color_tint = [1.0, 1.0, 1.0, 1.00]
+base_color_texture_file = "../../00_Shared_Visualization_Assets/textures/thermal_blanket_rose_silver_base_color.png"
+normal_texture_file = "../../00_Shared_Visualization_Assets/textures/thermal_blanket_rose_silver_normal.png"
+roughness_texture_file = "../../00_Shared_Visualization_Assets/textures/thermal_blanket_rose_silver_roughness.png"
+metallic_texture_file = "../../00_Shared_Visualization_Assets/textures/thermal_blanket_rose_silver_metallic.png"
+visible = true
+
+[[components]]
+id = "7a570001-0000-0000-0000-000000000006"
+name = "JWST visual - forward deployed cover"
+srp = { included_in_proxy = false }
+initial_mass_kg = 0.0
+minimum_mass_kg = 0.0
+variable_mass = false
+local_center_of_mass_m = [0.0, 0.0, 0.0]
+origin_body_m = [0.0, 0.0, 0.0]
+component_to_body = [1.0, 0.0, 0.0, 0.0]
+parent_component = "Bus"
+parent_anchor_m = [0.0, 0.0, 0.0]
+child_anchor_m = [0.0, 0.0, 0.0]
+child_to_parent_zero_orientation = [1.0, 0.0, 0.0, 0.0]
+dofs = []
+inertia = { ixx_kgm2 = 0.0, iyy_kgm2 = 0.0, izz_kgm2 = 0.0, ixy_kgm2 = 0.0, ixz_kgm2 = 0.0, iyz_kgm2 = 0.0 }
+
+[components.visual]
+geometry_source = "custom_stl"
+stl_file = "../../00_Shared_Visualization_Assets/jwst_deployed_body_frame/06_forward_cover.stl"
+stl_length_unit = "meters"
+stl_recenter_mode = "keep_imported_origin"
+visual_offset_m = [0.0, 0.0, 0.0]
+visual_orientation = [1.0, 0.0, 0.0, 0.0]
+visual_scale = [1.0, 1.0, 1.0]
+surface_appearance = "textured"
+base_color_tint = [1.0, 1.0, 1.0, 1.00]
+base_color_texture_file = "../../00_Shared_Visualization_Assets/textures/thermal_blanket_rose_silver_base_color.png"
+normal_texture_file = "../../00_Shared_Visualization_Assets/textures/thermal_blanket_rose_silver_normal.png"
+roughness_texture_file = "../../00_Shared_Visualization_Assets/textures/thermal_blanket_rose_silver_roughness.png"
+metallic_texture_file = "../../00_Shared_Visualization_Assets/textures/thermal_blanket_rose_silver_metallic.png"
+visible = true
+
+[[components]]
+id = "7a570001-0000-0000-0000-000000000007"
+name = "JWST visual - spacecraft bus and lower mount"
+srp = { included_in_proxy = false }
+initial_mass_kg = 0.0
+minimum_mass_kg = 0.0
+variable_mass = false
+local_center_of_mass_m = [0.0, 0.0, 0.0]
+origin_body_m = [0.0, 0.0, 0.0]
+component_to_body = [1.0, 0.0, 0.0, 0.0]
+parent_component = "Bus"
+parent_anchor_m = [0.0, 0.0, 0.0]
+child_anchor_m = [0.0, 0.0, 0.0]
+child_to_parent_zero_orientation = [1.0, 0.0, 0.0, 0.0]
+dofs = []
+inertia = { ixx_kgm2 = 0.0, iyy_kgm2 = 0.0, izz_kgm2 = 0.0, ixy_kgm2 = 0.0, ixz_kgm2 = 0.0, iyz_kgm2 = 0.0 }
+
+[components.visual]
+geometry_source = "custom_stl"
+stl_file = "../../00_Shared_Visualization_Assets/jwst_deployed_body_frame/07_spacecraft_bus.stl"
+stl_length_unit = "meters"
+stl_recenter_mode = "keep_imported_origin"
+visual_offset_m = [0.0, 0.0, 0.0]
+visual_orientation = [1.0, 0.0, 0.0, 0.0]
+visual_scale = [1.0, 1.0, 1.0]
+surface_appearance = "textured"
+base_color_tint = [1.0, 1.0, 1.0, 1.00]
+base_color_texture_file = "../../00_Shared_Visualization_Assets/textures/thermal_blanket_rose_silver_base_color.png"
+normal_texture_file = "../../00_Shared_Visualization_Assets/textures/thermal_blanket_rose_silver_normal.png"
+roughness_texture_file = "../../00_Shared_Visualization_Assets/textures/thermal_blanket_rose_silver_roughness.png"
+metallic_texture_file = "../../00_Shared_Visualization_Assets/textures/thermal_blanket_rose_silver_metallic.png"
+visible = true
+
+[[components]]
+id = "7a570001-0000-0000-0000-000000000008"
+name = "JWST visual - forward five-layer sunshield"
+srp = { included_in_proxy = false }
+initial_mass_kg = 0.0
+minimum_mass_kg = 0.0
+variable_mass = false
+local_center_of_mass_m = [0.0, 0.0, 0.0]
+origin_body_m = [0.0, 0.0, 0.0]
+component_to_body = [1.0, 0.0, 0.0, 0.0]
+parent_component = "Bus"
+parent_anchor_m = [0.0, 0.0, 0.0]
+child_anchor_m = [0.0, 0.0, 0.0]
+child_to_parent_zero_orientation = [1.0, 0.0, 0.0, 0.0]
+dofs = []
+inertia = { ixx_kgm2 = 0.0, iyy_kgm2 = 0.0, izz_kgm2 = 0.0, ixy_kgm2 = 0.0, ixz_kgm2 = 0.0, iyz_kgm2 = 0.0 }
+
+[components.visual]
+geometry_source = "custom_stl"
+stl_file = "../../00_Shared_Visualization_Assets/jwst_deployed_body_frame/08_sunshield_forward.stl"
+stl_length_unit = "meters"
+stl_recenter_mode = "keep_imported_origin"
+visual_offset_m = [0.0, 0.0, 0.0]
+visual_orientation = [1.0, 0.0, 0.0, 0.0]
+visual_scale = [1.0, 1.0, 1.0]
+surface_appearance = "textured"
+base_color_tint = [1.0, 1.0, 1.0, 0.92]
+base_color_texture_file = "../../00_Shared_Visualization_Assets/textures/sunshield_silver_base_color.png"
+normal_texture_file = "../../00_Shared_Visualization_Assets/textures/sunshield_silver_normal.png"
+roughness_texture_file = "../../00_Shared_Visualization_Assets/textures/sunshield_silver_roughness.png"
+metallic_texture_file = "../../00_Shared_Visualization_Assets/textures/sunshield_silver_metallic.png"
+visible = true
+
+[[components]]
+id = "7a570001-0000-0000-0000-000000000009"
+name = "JWST visual - aft five-layer sunshield"
+srp = { included_in_proxy = false }
+initial_mass_kg = 0.0
+minimum_mass_kg = 0.0
+variable_mass = false
+local_center_of_mass_m = [0.0, 0.0, 0.0]
+origin_body_m = [0.0, 0.0, 0.0]
+component_to_body = [1.0, 0.0, 0.0, 0.0]
+parent_component = "Bus"
+parent_anchor_m = [0.0, 0.0, 0.0]
+child_anchor_m = [0.0, 0.0, 0.0]
+child_to_parent_zero_orientation = [1.0, 0.0, 0.0, 0.0]
+dofs = []
+inertia = { ixx_kgm2 = 0.0, iyy_kgm2 = 0.0, izz_kgm2 = 0.0, ixy_kgm2 = 0.0, ixz_kgm2 = 0.0, iyz_kgm2 = 0.0 }
+
+[components.visual]
+geometry_source = "custom_stl"
+stl_file = "../../00_Shared_Visualization_Assets/jwst_deployed_body_frame/09_sunshield_aft.stl"
+stl_length_unit = "meters"
+stl_recenter_mode = "keep_imported_origin"
+visual_offset_m = [0.0, 0.0, 0.0]
+visual_orientation = [1.0, 0.0, 0.0, 0.0]
+visual_scale = [1.0, 1.0, 1.0]
+surface_appearance = "textured"
+base_color_tint = [1.0, 1.0, 1.0, 0.92]
+base_color_texture_file = "../../00_Shared_Visualization_Assets/textures/sunshield_silver_base_color.png"
+normal_texture_file = "../../00_Shared_Visualization_Assets/textures/sunshield_silver_normal.png"
+roughness_texture_file = "../../00_Shared_Visualization_Assets/textures/sunshield_silver_roughness.png"
+metallic_texture_file = "../../00_Shared_Visualization_Assets/textures/sunshield_silver_metallic.png"
+visible = true
+
+[[components]]
+id = "7a570001-0000-0000-0000-00000000000a"
+name = "JWST visual - supplied sunshield joining pin"
+srp = { included_in_proxy = false }
+initial_mass_kg = 0.0
+minimum_mass_kg = 0.0
+variable_mass = false
+local_center_of_mass_m = [0.0, 0.0, 0.0]
+origin_body_m = [0.0, 0.0, 0.0]
+component_to_body = [1.0, 0.0, 0.0, 0.0]
+parent_component = "Bus"
+parent_anchor_m = [0.0, 0.0, 0.0]
+child_anchor_m = [0.0, 0.0, 0.0]
+child_to_parent_zero_orientation = [1.0, 0.0, 0.0, 0.0]
+dofs = []
+inertia = { ixx_kgm2 = 0.0, iyy_kgm2 = 0.0, izz_kgm2 = 0.0, ixy_kgm2 = 0.0, ixz_kgm2 = 0.0, iyz_kgm2 = 0.0 }
+
+[components.visual]
+geometry_source = "custom_stl"
+stl_file = "../../00_Shared_Visualization_Assets/jwst_deployed_body_frame/10_sunshield_pin.stl"
+stl_length_unit = "meters"
+stl_recenter_mode = "keep_imported_origin"
+visual_offset_m = [0.0, 0.0, 0.0]
+visual_orientation = [1.0, 0.0, 0.0, 0.0]
+visual_scale = [1.0, 1.0, 1.0]
+surface_appearance = "textured"
+base_color_tint = [1.0, 1.0, 1.0, 1.00]
+base_color_texture_file = "../../00_Shared_Visualization_Assets/textures/polished_aluminum_structure_base_color.png"
+normal_texture_file = "../../00_Shared_Visualization_Assets/textures/polished_aluminum_structure_normal.png"
+roughness_texture_file = "../../00_Shared_Visualization_Assets/textures/polished_aluminum_structure_roughness.png"
+metallic_texture_file = "../../00_Shared_Visualization_Assets/textures/polished_aluminum_structure_metallic.png"
+visible = true
+
+[[components]]
+id = "7a570001-0000-0000-0000-00000000000b"
+name = "JWST visual - primary-mirror backplane and instruments"
+srp = { included_in_proxy = false }
+initial_mass_kg = 0.0
+minimum_mass_kg = 0.0
+variable_mass = false
+local_center_of_mass_m = [0.0, 0.0, 0.0]
+origin_body_m = [0.0, 0.0, 0.0]
+component_to_body = [1.0, 0.0, 0.0, 0.0]
+parent_component = "Bus"
+parent_anchor_m = [0.0, 0.0, 0.0]
+child_anchor_m = [0.0, 0.0, 0.0]
+child_to_parent_zero_orientation = [1.0, 0.0, 0.0, 0.0]
+dofs = []
+inertia = { ixx_kgm2 = 0.0, iyy_kgm2 = 0.0, izz_kgm2 = 0.0, ixy_kgm2 = 0.0, ixz_kgm2 = 0.0, iyz_kgm2 = 0.0 }
+
+[components.visual]
+geometry_source = "custom_stl"
+stl_file = "../../00_Shared_Visualization_Assets/jwst_deployed_body_frame/11_primary_mirror_and_instruments.stl"
+stl_length_unit = "meters"
+stl_recenter_mode = "keep_imported_origin"
+visual_offset_m = [0.0, 0.0, 0.0]
+visual_orientation = [1.0, 0.0, 0.0, 0.0]
+visual_scale = [1.0, 1.0, 1.0]
+surface_appearance = "textured"
+base_color_tint = [1.0, 1.0, 1.0, 1.00]
+base_color_texture_file = "../../00_Shared_Visualization_Assets/textures/graphite_structure_base_color.png"
+normal_texture_file = "../../00_Shared_Visualization_Assets/textures/graphite_structure_normal.png"
+roughness_texture_file = "../../00_Shared_Visualization_Assets/textures/graphite_structure_roughness.png"
+metallic_texture_file = "../../00_Shared_Visualization_Assets/textures/graphite_structure_metallic.png"
+visible = true
+
+[[components]]
+id = "7a570001-0000-0000-0000-00000000000c"
+name = "JWST visual - secondary-mirror arm and housing"
+srp = { included_in_proxy = false }
+initial_mass_kg = 0.0
+minimum_mass_kg = 0.0
+variable_mass = false
+local_center_of_mass_m = [0.0, 0.0, 0.0]
+origin_body_m = [0.0, 0.0, 0.0]
+component_to_body = [1.0, 0.0, 0.0, 0.0]
+parent_component = "Bus"
+parent_anchor_m = [0.0, 0.0, 0.0]
+child_anchor_m = [0.0, 0.0, 0.0]
+child_to_parent_zero_orientation = [1.0, 0.0, 0.0, 0.0]
+dofs = []
+inertia = { ixx_kgm2 = 0.0, iyy_kgm2 = 0.0, izz_kgm2 = 0.0, ixy_kgm2 = 0.0, ixz_kgm2 = 0.0, iyz_kgm2 = 0.0 }
+
+[components.visual]
+geometry_source = "custom_stl"
+stl_file = "../../00_Shared_Visualization_Assets/jwst_deployed_body_frame/12_secondary_mirror_arm.stl"
+stl_length_unit = "meters"
+stl_recenter_mode = "keep_imported_origin"
+visual_offset_m = [0.0, 0.0, 0.0]
+visual_orientation = [1.0, 0.0, 0.0, 0.0]
+visual_scale = [1.0, 1.0, 1.0]
+surface_appearance = "textured"
+base_color_tint = [1.0, 1.0, 1.0, 1.00]
+base_color_texture_file = "../../00_Shared_Visualization_Assets/textures/polished_aluminum_structure_base_color.png"
+normal_texture_file = "../../00_Shared_Visualization_Assets/textures/polished_aluminum_structure_normal.png"
+roughness_texture_file = "../../00_Shared_Visualization_Assets/textures/polished_aluminum_structure_roughness.png"
+metallic_texture_file = "../../00_Shared_Visualization_Assets/textures/polished_aluminum_structure_metallic.png"
+visible = true
+
+[[components]]
+id = "7a570001-0000-0000-0000-00000000000d"
+name = "JWST visual - starboard secondary-mirror arm"
+srp = { included_in_proxy = false }
+initial_mass_kg = 0.0
+minimum_mass_kg = 0.0
+variable_mass = false
+local_center_of_mass_m = [0.0, 0.0, 0.0]
+origin_body_m = [0.0, 0.0, 0.0]
+component_to_body = [1.0, 0.0, 0.0, 0.0]
+parent_component = "Bus"
+parent_anchor_m = [0.0, 0.0, 0.0]
+child_anchor_m = [0.0, 0.0, 0.0]
+child_to_parent_zero_orientation = [1.0, 0.0, 0.0, 0.0]
+dofs = []
+inertia = { ixx_kgm2 = 0.0, iyy_kgm2 = 0.0, izz_kgm2 = 0.0, ixy_kgm2 = 0.0, ixz_kgm2 = 0.0, iyz_kgm2 = 0.0 }
+
+[components.visual]
+geometry_source = "custom_stl"
+stl_file = "../../00_Shared_Visualization_Assets/jwst_deployed_body_frame/13_starboard_secondary_arm.stl"
+stl_length_unit = "meters"
+stl_recenter_mode = "keep_imported_origin"
+visual_offset_m = [0.0, 0.0, 0.0]
+visual_orientation = [1.0, 0.0, 0.0, 0.0]
+visual_scale = [1.0, 1.0, 1.0]
+surface_appearance = "textured"
+base_color_tint = [1.0, 1.0, 1.0, 1.00]
+base_color_texture_file = "../../00_Shared_Visualization_Assets/textures/polished_aluminum_structure_base_color.png"
+normal_texture_file = "../../00_Shared_Visualization_Assets/textures/polished_aluminum_structure_normal.png"
+roughness_texture_file = "../../00_Shared_Visualization_Assets/textures/polished_aluminum_structure_roughness.png"
+metallic_texture_file = "../../00_Shared_Visualization_Assets/textures/polished_aluminum_structure_metallic.png"
+visible = true
+
+[[components]]
+id = "7a570001-0000-0000-0000-00000000000e"
+name = "JWST visual - port secondary-mirror arm"
+srp = { included_in_proxy = false }
+initial_mass_kg = 0.0
+minimum_mass_kg = 0.0
+variable_mass = false
+local_center_of_mass_m = [0.0, 0.0, 0.0]
+origin_body_m = [0.0, 0.0, 0.0]
+component_to_body = [1.0, 0.0, 0.0, 0.0]
+parent_component = "Bus"
+parent_anchor_m = [0.0, 0.0, 0.0]
+child_anchor_m = [0.0, 0.0, 0.0]
+child_to_parent_zero_orientation = [1.0, 0.0, 0.0, 0.0]
+dofs = []
+inertia = { ixx_kgm2 = 0.0, iyy_kgm2 = 0.0, izz_kgm2 = 0.0, ixy_kgm2 = 0.0, ixz_kgm2 = 0.0, iyz_kgm2 = 0.0 }
+
+[components.visual]
+geometry_source = "custom_stl"
+stl_file = "../../00_Shared_Visualization_Assets/jwst_deployed_body_frame/14_port_secondary_arm.stl"
+stl_length_unit = "meters"
+stl_recenter_mode = "keep_imported_origin"
+visual_offset_m = [0.0, 0.0, 0.0]
+visual_orientation = [1.0, 0.0, 0.0, 0.0]
+visual_scale = [1.0, 1.0, 1.0]
+surface_appearance = "textured"
+base_color_tint = [1.0, 1.0, 1.0, 1.00]
+base_color_texture_file = "../../00_Shared_Visualization_Assets/textures/polished_aluminum_structure_base_color.png"
+normal_texture_file = "../../00_Shared_Visualization_Assets/textures/polished_aluminum_structure_normal.png"
+roughness_texture_file = "../../00_Shared_Visualization_Assets/textures/polished_aluminum_structure_roughness.png"
+metallic_texture_file = "../../00_Shared_Visualization_Assets/textures/polished_aluminum_structure_metallic.png"
+visible = true
+
+[[components]]
+id = "7a570001-0000-0000-0000-00000000000f"
+name = "JWST visual - primary-to-secondary mirror mount"
+srp = { included_in_proxy = false }
+initial_mass_kg = 0.0
+minimum_mass_kg = 0.0
+variable_mass = false
+local_center_of_mass_m = [0.0, 0.0, 0.0]
+origin_body_m = [0.0, 0.0, 0.0]
+component_to_body = [1.0, 0.0, 0.0, 0.0]
+parent_component = "Bus"
+parent_anchor_m = [0.0, 0.0, 0.0]
+child_anchor_m = [0.0, 0.0, 0.0]
+child_to_parent_zero_orientation = [1.0, 0.0, 0.0, 0.0]
+dofs = []
+inertia = { ixx_kgm2 = 0.0, iyy_kgm2 = 0.0, izz_kgm2 = 0.0, ixy_kgm2 = 0.0, ixz_kgm2 = 0.0, iyz_kgm2 = 0.0 }
+
+[components.visual]
+geometry_source = "custom_stl"
+stl_file = "../../00_Shared_Visualization_Assets/jwst_deployed_body_frame/15_primary_to_secondary_mount.stl"
+stl_length_unit = "meters"
+stl_recenter_mode = "keep_imported_origin"
+visual_offset_m = [0.0, 0.0, 0.0]
+visual_orientation = [1.0, 0.0, 0.0, 0.0]
+visual_scale = [1.0, 1.0, 1.0]
+surface_appearance = "textured"
+base_color_tint = [1.0, 1.0, 1.0, 1.00]
+base_color_texture_file = "../../00_Shared_Visualization_Assets/textures/polished_aluminum_structure_base_color.png"
+normal_texture_file = "../../00_Shared_Visualization_Assets/textures/polished_aluminum_structure_normal.png"
+roughness_texture_file = "../../00_Shared_Visualization_Assets/textures/polished_aluminum_structure_roughness.png"
+metallic_texture_file = "../../00_Shared_Visualization_Assets/textures/polished_aluminum_structure_metallic.png"
+visible = true
+
+[[components]]
+id = "7a570001-0000-0000-0000-000000000010"
+name = "JWST visual - secondary-arm mount"
+srp = { included_in_proxy = false }
+initial_mass_kg = 0.0
+minimum_mass_kg = 0.0
+variable_mass = false
+local_center_of_mass_m = [0.0, 0.0, 0.0]
+origin_body_m = [0.0, 0.0, 0.0]
+component_to_body = [1.0, 0.0, 0.0, 0.0]
+parent_component = "Bus"
+parent_anchor_m = [0.0, 0.0, 0.0]
+child_anchor_m = [0.0, 0.0, 0.0]
+child_to_parent_zero_orientation = [1.0, 0.0, 0.0, 0.0]
+dofs = []
+inertia = { ixx_kgm2 = 0.0, iyy_kgm2 = 0.0, izz_kgm2 = 0.0, ixy_kgm2 = 0.0, ixz_kgm2 = 0.0, iyz_kgm2 = 0.0 }
+
+[components.visual]
+geometry_source = "custom_stl"
+stl_file = "../../00_Shared_Visualization_Assets/jwst_deployed_body_frame/16_arm_mount.stl"
+stl_length_unit = "meters"
+stl_recenter_mode = "keep_imported_origin"
+visual_offset_m = [0.0, 0.0, 0.0]
+visual_orientation = [1.0, 0.0, 0.0, 0.0]
+visual_scale = [1.0, 1.0, 1.0]
+surface_appearance = "textured"
+base_color_tint = [1.0, 1.0, 1.0, 1.00]
+base_color_texture_file = "../../00_Shared_Visualization_Assets/textures/polished_aluminum_structure_base_color.png"
+normal_texture_file = "../../00_Shared_Visualization_Assets/textures/polished_aluminum_structure_normal.png"
+roughness_texture_file = "../../00_Shared_Visualization_Assets/textures/polished_aluminum_structure_roughness.png"
+metallic_texture_file = "../../00_Shared_Visualization_Assets/textures/polished_aluminum_structure_metallic.png"
+visible = true
+
+[[components]]
+id = "7a570001-0000-0000-0000-000000000011"
+name = "JWST visual - gold-coated primary-mirror faces"
+srp = { included_in_proxy = false }
+initial_mass_kg = 0.0
+minimum_mass_kg = 0.0
+variable_mass = false
+local_center_of_mass_m = [0.0, 0.0, 0.0]
+origin_body_m = [0.0, 0.0, 0.0]
+component_to_body = [1.0, 0.0, 0.0, 0.0]
+parent_component = "Bus"
+parent_anchor_m = [0.0, 0.0, 0.0]
+child_anchor_m = [0.0, 0.0, 0.0]
+child_to_parent_zero_orientation = [1.0, 0.0, 0.0, 0.0]
+dofs = []
+inertia = { ixx_kgm2 = 0.0, iyy_kgm2 = 0.0, izz_kgm2 = 0.0, ixy_kgm2 = 0.0, ixz_kgm2 = 0.0, iyz_kgm2 = 0.0 }
+
+[components.visual]
+geometry_source = "custom_stl"
+stl_file = "../../00_Shared_Visualization_Assets/jwst_deployed_body_frame/17_primary_mirror_gold_surfaces.stl"
+stl_length_unit = "meters"
+stl_recenter_mode = "keep_imported_origin"
+visual_offset_m = [0.0, 0.0, 0.0]
+visual_orientation = [1.0, 0.0, 0.0, 0.0]
+visual_scale = [1.0, 1.0, 1.0]
+surface_appearance = "textured"
+base_color_tint = [1.0, 1.0, 1.0, 1.00]
+base_color_texture_file = "../../00_Shared_Visualization_Assets/textures/mirror_gold_base_color.png"
+normal_texture_file = "../../00_Shared_Visualization_Assets/textures/mirror_gold_normal.png"
+roughness_texture_file = "../../00_Shared_Visualization_Assets/textures/mirror_gold_roughness.png"
+metallic_texture_file = "../../00_Shared_Visualization_Assets/textures/mirror_gold_metallic.png"
+visible = true
+
+[[components]]
+id = "7a570001-0000-0000-0000-000000000012"
+name = "JWST visual - gold-coated secondary-mirror face"
+srp = { included_in_proxy = false }
+initial_mass_kg = 0.0
+minimum_mass_kg = 0.0
+variable_mass = false
+local_center_of_mass_m = [0.0, 0.0, 0.0]
+origin_body_m = [0.0, 0.0, 0.0]
+component_to_body = [1.0, 0.0, 0.0, 0.0]
+parent_component = "Bus"
+parent_anchor_m = [0.0, 0.0, 0.0]
+child_anchor_m = [0.0, 0.0, 0.0]
+child_to_parent_zero_orientation = [1.0, 0.0, 0.0, 0.0]
+dofs = []
+inertia = { ixx_kgm2 = 0.0, iyy_kgm2 = 0.0, izz_kgm2 = 0.0, ixy_kgm2 = 0.0, ixz_kgm2 = 0.0, iyz_kgm2 = 0.0 }
+
+[components.visual]
+geometry_source = "custom_stl"
+stl_file = "../../00_Shared_Visualization_Assets/jwst_deployed_body_frame/18_secondary_mirror_gold_surface.stl"
+stl_length_unit = "meters"
+stl_recenter_mode = "keep_imported_origin"
+visual_offset_m = [0.0, 0.0, 0.0]
+visual_orientation = [1.0, 0.0, 0.0, 0.0]
+visual_scale = [1.0, 1.0, 1.0]
+surface_appearance = "textured"
+base_color_tint = [1.0, 1.0, 1.0, 1.00]
+base_color_texture_file = "../../00_Shared_Visualization_Assets/textures/mirror_gold_base_color.png"
+normal_texture_file = "../../00_Shared_Visualization_Assets/textures/mirror_gold_normal.png"
+roughness_texture_file = "../../00_Shared_Visualization_Assets/textures/mirror_gold_roughness.png"
+metallic_texture_file = "../../00_Shared_Visualization_Assets/textures/mirror_gold_metallic.png"
+visible = true
+
+[[thrusters]]
+name = "SCAT"
+mode = "commanded"
+mount_component = "Bus"
+propellant_component = "Propellant"
+application_point_component_m = [0.0, 0.0, 0.0]
+direction_component = [1.0, 0.0, 0.0]
+ignition_time_mode = "elapsed"
+ignition_elapsed_seconds = 0.0
+never_shuts_down = true
+shutdown_time_mode = "elapsed"
+shutdown_elapsed_seconds = 0.0
+maximum_thrust_n = 32.0
+
+[[reaction_wheels]]
+name = "RW_X"
+mount_component = "Bus"
+axis_component = [1.0, 0.0, 0.0]
+initial_momentum_nms = 0.0061977631761264869
+maximum_absolute_momentum_nms = 2000.0
+
+[[reaction_wheels]]
+name = "RW_Y"
+mount_component = "Bus"
+axis_component = [0.0, 1.0, 0.0]
+initial_momentum_nms = 0.00067390797988915263
+maximum_absolute_momentum_nms = 2000.0
+
+[[reaction_wheels]]
+name = "RW_Z"
+mount_component = "Bus"
+axis_component = [0.0, 0.0, 1.0]
+initial_momentum_nms = 0.00024242705016667244
+maximum_absolute_momentum_nms = 2000.0
+
+[control]
+mode = "compiled_user_controller"
+unreal_controller_id = ""
+controller_dll_file = "../../controllers/JWSTCoastAndSlewController.dll"
+
+[gravity]
+include_first_post_newtonian_correction = true
+
+[[gravity.bodies]]
+catalog_key = "Sun"
+gravity_enabled = true
+automatic_activation_radius_m = 0.0
+barycenter_resolution_radius_m = 0.0
+harmonic_model_csv_file = ""
+maximum_harmonic_degree = 0
+
+[[gravity.bodies]]
+catalog_key = "MercuryBarycenter"
+gravity_enabled = true
+automatic_activation_radius_m = 0.0
+barycenter_resolution_radius_m = 0.0
+harmonic_model_csv_file = ""
+maximum_harmonic_degree = 0
+
+[[gravity.bodies]]
+catalog_key = "Mercury"
+gravity_enabled = false
+automatic_activation_radius_m = 0.0
+barycenter_resolution_radius_m = 0.0
+harmonic_model_csv_file = ""
+maximum_harmonic_degree = 0
+
+[[gravity.bodies]]
+catalog_key = "VenusBarycenter"
+gravity_enabled = true
+automatic_activation_radius_m = 0.0
+barycenter_resolution_radius_m = 0.0
+harmonic_model_csv_file = ""
+maximum_harmonic_degree = 0
+
+[[gravity.bodies]]
+catalog_key = "Venus"
+gravity_enabled = false
+automatic_activation_radius_m = 0.0
+barycenter_resolution_radius_m = 0.0
+harmonic_model_csv_file = ""
+maximum_harmonic_degree = 0
+
+[[gravity.bodies]]
+catalog_key = "EarthMoonBarycenter"
+gravity_enabled = false
+automatic_activation_radius_m = 0.0
+barycenter_resolution_radius_m = 0.0
+harmonic_model_csv_file = ""
+maximum_harmonic_degree = 0
+
+[[gravity.bodies]]
+catalog_key = "Earth"
+gravity_enabled = true
+automatic_activation_radius_m = 0.0
+barycenter_resolution_radius_m = 0.0
+harmonic_model_csv_file = "../../data/earth_j2.csv"
+maximum_harmonic_degree = 2
+
+[[gravity.bodies]]
+catalog_key = "Moon"
+gravity_enabled = true
+automatic_activation_radius_m = 0.0
+barycenter_resolution_radius_m = 0.0
+harmonic_model_csv_file = ""
+maximum_harmonic_degree = 0
+
+[[gravity.bodies]]
+catalog_key = "MarsBarycenter"
+gravity_enabled = true
+automatic_activation_radius_m = 0.0
+barycenter_resolution_radius_m = 0.0
+harmonic_model_csv_file = ""
+maximum_harmonic_degree = 0
+
+[[gravity.bodies]]
+catalog_key = "Mars"
+gravity_enabled = false
+automatic_activation_radius_m = 0.0
+barycenter_resolution_radius_m = 0.0
+harmonic_model_csv_file = ""
+maximum_harmonic_degree = 0
+
+[[gravity.bodies]]
+catalog_key = "JupiterBarycenter"
+gravity_enabled = true
+automatic_activation_radius_m = 0.0
+barycenter_resolution_radius_m = 0.0
+harmonic_model_csv_file = ""
+maximum_harmonic_degree = 0
+
+[[gravity.bodies]]
+catalog_key = "Jupiter"
+gravity_enabled = false
+automatic_activation_radius_m = 0.0
+barycenter_resolution_radius_m = 0.0
+harmonic_model_csv_file = ""
+maximum_harmonic_degree = 0
+
+[[gravity.bodies]]
+catalog_key = "SaturnBarycenter"
+gravity_enabled = true
+automatic_activation_radius_m = 0.0
+barycenter_resolution_radius_m = 0.0
+harmonic_model_csv_file = ""
+maximum_harmonic_degree = 0
+
+[[gravity.bodies]]
+catalog_key = "Saturn"
+gravity_enabled = false
+automatic_activation_radius_m = 0.0
+barycenter_resolution_radius_m = 0.0
+harmonic_model_csv_file = ""
+maximum_harmonic_degree = 0
+
+[[gravity.bodies]]
+catalog_key = "UranusBarycenter"
+gravity_enabled = true
+automatic_activation_radius_m = 0.0
+barycenter_resolution_radius_m = 0.0
+harmonic_model_csv_file = ""
+maximum_harmonic_degree = 0
+
+[[gravity.bodies]]
+catalog_key = "Uranus"
+gravity_enabled = false
+automatic_activation_radius_m = 0.0
+barycenter_resolution_radius_m = 0.0
+harmonic_model_csv_file = ""
+maximum_harmonic_degree = 0
+
+[[gravity.bodies]]
+catalog_key = "NeptuneBarycenter"
+gravity_enabled = true
+automatic_activation_radius_m = 0.0
+barycenter_resolution_radius_m = 0.0
+harmonic_model_csv_file = ""
+maximum_harmonic_degree = 0
+
+[[gravity.bodies]]
+catalog_key = "Neptune"
+gravity_enabled = false
+automatic_activation_radius_m = 0.0
+barycenter_resolution_radius_m = 0.0
+harmonic_model_csv_file = ""
+maximum_harmonic_degree = 0
+
+[[gravity.bodies]]
+catalog_key = "PlutoBarycenter"
+gravity_enabled = true
+automatic_activation_radius_m = 0.0
+barycenter_resolution_radius_m = 0.0
+harmonic_model_csv_file = ""
+maximum_harmonic_degree = 0
+
+[[gravity.bodies]]
+catalog_key = "Pluto"
+gravity_enabled = false
+automatic_activation_radius_m = 0.0
+barycenter_resolution_radius_m = 0.0
+harmonic_model_csv_file = ""
+maximum_harmonic_degree = 0
+
+[srp]
+enabled = true
+sun_body = "Sun"
+pressure_at_one_au_pa = 4.5391e-6
+compute_eclipse = true
+occulting_bodies = ["Earth", "Moon"]
+compute_component_shadows = false
+global_fallback_optics = { absorption = 0.35, specular_reflection = 0.25, diffuse_reflection = 0.40 }
+
+[[srp.facets]]
+name = "Sunshield triangle 0"
+component_id = "31000000-0000-0000-0000-000000000001"
+component_name = "Bus"
+stable_triangle_index = 0
+logical_region = "positive_z"
+vertex0_component_m = [-10.6, -7.0999999999999996, 0]
+vertex1_component_m = [10.6, -7.0999999999999996, 0]
+vertex2_component_m = [10.6, 7.0999999999999996, 0]
+optics = { absorption = 0.35, specular_reflection = 0.25, diffuse_reflection = 0.40 }
+
+[[srp.facets]]
+name = "Sunshield triangle 1"
+component_id = "31000000-0000-0000-0000-000000000001"
+component_name = "Bus"
+stable_triangle_index = 1
+logical_region = "positive_z"
+vertex0_component_m = [-10.6, -7.0999999999999996, 0]
+vertex1_component_m = [10.6, 7.0999999999999996, 0]
+vertex2_component_m = [-10.6, 7.0999999999999996, 0]
+optics = { absorption = 0.35, specular_reflection = 0.25, diffuse_reflection = 0.40 }
+
+[atmosphere]
+enabled = false
+
+[aerodynamics]
+enabled = false

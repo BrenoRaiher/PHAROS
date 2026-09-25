@@ -1,0 +1,19 @@
+{
+  "target": "-82",
+  "observer": "0",
+  "frame": "J2000",
+  "aberration": "NONE",
+  "kernel_load_order": [
+    "00_Runtime\\SPICEKernels\\naif0012.tls",
+    "04_Cassini\\sources\\kernels\\000331R_SK_LP0_V1P32.bsp",
+    "04_Cassini\\sources\\kernels\\000331R_SK_V1P32_V2P12.bsp",
+    "00_Runtime\\SPICEKernels\\jup230-short.bsp",
+    "00_Runtime\\SPICEKernels\\jup348.bsp",
+    "00_Runtime\\SPICEKernels\\sat252s.bsp",
+    "00_Runtime\\SPICEKernels\\de442.bsp"
+  ],
+  "arguments": [
+    "--states",
+    "<recorded-user-directory>\\Documents\\Unreal Projects\\TG\\tmp\\v26\\04_Cassini\\segments\\03\\results\\cassini_03_solution.csv"
+  ]
+}

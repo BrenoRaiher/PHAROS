@@ -1,0 +1,18 @@
+{
+  "reason": "LOI-only trials cannot repair the inherited incoming position error. Adjust the preceding existing MC2; retain original LOI/LOC controls for this comparison.",
+  "initial_vector_mps": [
+    -0.004229904899052933,
+    -0.36454966459972693,
+    -0.553966922298409
+  ],
+  "max_total_vector_change_mps": 0.25,
+  "max_update_vector_change_mps": 0.2,
+  "magnitude_bounds_mps": [
+    0.45,
+    0.85
+  ],
+  "finite_difference_step_mps": 0.01,
+  "max_updates": 2,
+  "stop": "Position error < 1 km or < 5% gain; no sub-kilometer target chasing.",
+  "target": "NASA Table 5-II LOI ignition position, rounded and frame-reconstructed; no velocity-vector fit."
+}

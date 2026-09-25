@@ -1,0 +1,11 @@
+{
+  "continuity": {
+    "position_discontinuity_m": 0.0,
+    "velocity_discontinuity_mps": 0.0,
+    "quaternion_component_max_discontinuity": 0.0,
+    "angular_velocity_discontinuity_radps": 0.0,
+    "mass_discontinuity_kg": 0.0,
+    "inertia_component_max_discontinuity_kgm2": 0.0
+  },
+  "checkpoint_comparisons": []
+}

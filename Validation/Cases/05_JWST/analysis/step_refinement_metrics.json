@@ -1,0 +1,16 @@
+{
+  "scope": "All eight phases; same sole external initial state and frozen controls/physics. Maximum step halved; output epochs and tolerances unchanged.",
+  "nominal_tolerances": {
+    "absolute": 1e-05,
+    "relative": 1e-12
+  },
+  "all_refined_values_finite": true,
+  "all_recorded_refined_articulated_solves_successful": true,
+  "sample_pairs": 3180,
+  "maximum_epoch_difference_s": 0.0,
+  "maximum_position_difference_m": 6.8914846460346615,
+  "maximum_velocity_difference_mps": 4.394973110466629e-06,
+  "final_position_difference_m": 6.8914846460346615,
+  "final_velocity_difference_mps": 4.394973110466629e-06,
+  "interpretation": "A step-bound sensitivity check for this reconstruction, not a rigorous error bound or a general convergence proof."
+}

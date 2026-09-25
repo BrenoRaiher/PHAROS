@@ -1,0 +1,64 @@
+{
+  "data_sources": [
+    {
+      "path": "Cases/01-03_CoreVerification/cases/additional_features/cm_positive_rk4/results/cm_positive_rk4_solution.csv",
+      "sha256": "2849faa50fa47bb43417c6f29fa206a474f1fa25f6b031ba681fec99cc321341"
+    },
+    {
+      "path": "Cases/01-03_CoreVerification/cases/additional_features/cm_positive_dp54/results/cm_positive_dp54_solution.csv",
+      "sha256": "d20cfeae9beec0a20d3ce57114c371f4633804361051177a4c13c68816229a87"
+    },
+    {
+      "path": "Cases/01-03_CoreVerification/cases/additional_features/cm_negative_rk4/results/cm_negative_rk4_solution.csv",
+      "sha256": "48eed9f701022433ab7d3ead0b21b8254ed482c07f7cdb2cd249450f44ec3961"
+    },
+    {
+      "path": "Cases/01-03_CoreVerification/cases/additional_features/cm_negative_dp54/results/cm_negative_dp54_solution.csv",
+      "sha256": "8b5401c93daee8a395d621edd6c6b1f6c5d182a003640db1feb8eae48f3b6b87"
+    },
+    {
+      "path": "Cases/01-03_CoreVerification/cases/additional_features/cm_omitted_rk4/results/cm_omitted_rk4_solution.csv",
+      "sha256": "58a2b3172e332c58e3e4e54bf67341f659e6f412601e7ee1038199f80cf7fe14"
+    },
+    {
+      "path": "Cases/01-03_CoreVerification/cases/additional_features/cm_omitted_dp54/results/cm_omitted_dp54_solution.csv",
+      "sha256": "43a8e592d5b7197343524516114cfbca164e7892d3284e9dd3b960f645902e35"
+    }
+  ],
+  "simulations_rerun": false,
+  "paired_inputs_checked": [
+    "recorded initial state",
+    "discharge history",
+    "thrust history",
+    "mass history",
+    "recording epochs"
+  ],
+  "offset_calculation": "PHAROS assembled CM body-x minus the hub body-x origin; body axes remain aligned with inertial axes.",
+  "offset_reference": "3*(5-Q)/(15-Q), Q is the integral of the prescribed q; does not use PHAROS mass/CM output.",
+  "omission_calculation": "Recorded CM3 velocity minus recorded CM1 velocity at identical epochs, separately for each integrator.",
+  "residual_calculation": "Each recorded velocity minus the independent reference for its own complete or omitted equation.",
+  "comparisons": {
+    "rk4": {
+      "samples": 201,
+      "initial_offset_m": 1.0,
+      "final_offset_positive_m": 0.9166666666666667,
+      "final_offset_negative_m": 0.916666666666667,
+      "final_omission_effect_mps": 0.027652303254829924,
+      "final_independent_omission_effect_mps": 0.0276523032548295,
+      "maximum_omission_comparison_error_mps": 1.412064909445121e-15,
+      "maximum_offset_residual_m": 5.551115123125783e-16,
+      "maximum_own_equation_velocity_residual_mps": 3.9968028886505635e-14
+    },
+    "dp54": {
+      "samples": 201,
+      "initial_offset_m": 1.0,
+      "final_offset_positive_m": 0.9166666666666662,
+      "final_offset_negative_m": 0.9166666666666667,
+      "final_omission_effect_mps": 0.027652303254830812,
+      "final_independent_omission_effect_mps": 0.0276523032548295,
+      "maximum_omission_comparison_error_mps": 3.514549762329011e-15,
+      "maximum_offset_residual_m": 9.992007221626409e-16,
+      "maximum_own_equation_velocity_residual_mps": 5.773159728050814e-15
+    }
+  }
+}

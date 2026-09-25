@@ -1,0 +1,5 @@
+PHAROS_EVENT	PROGRESS	1.000	Loading scenario file
+PHAROS_EVENT	PROGRESS	3.000	Loading SPICE kernels
+PHAROS_EVENT	PROGRESS	5.000	Loading user controller
+PHAROS_EVENT	PROGRESS	7.000	Compiling SimulationRequest
+Scenario is valid and compiles to SimulationRequest.

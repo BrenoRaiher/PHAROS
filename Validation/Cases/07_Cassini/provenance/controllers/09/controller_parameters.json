@@ -1,0 +1,22 @@
+{
+  "burn_id": "TCM-11",
+  "burn_start_elapsed_s": 9.0,
+  "burn_end_elapsed_s": 400.322,
+  "burn_duration_s": 391.322,
+  "commanded_delta_v_icrf_mps": [
+    17.33528947,
+    30.62614478,
+    9.98776428
+  ],
+  "commanded_delta_v_magnitude_mps": 36.581804772414635,
+  "official_reconstructed_delta_v_magnitude_mps": 36.2876,
+  "commanded_throttle": 0.8738761928005442,
+  "initial_fixed_target_end_elapsed_s": 1000.322,
+  "final_fixed_target_start_elapsed_s": 750600.0,
+  "final_target_for_next_maneuver": "TCM-12",
+  "final_target_icrf": [
+    0.09090863324504986,
+    -0.2154513335968128,
+    0.9722738005587068
+  ]
+}

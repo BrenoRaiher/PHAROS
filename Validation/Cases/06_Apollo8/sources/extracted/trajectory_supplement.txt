@@ -1,0 +1,7661 @@
+PDF PAGE 1
+r 
+L 
+..................... ............ . ..... -t 4 1 2&S - P ............ ........... ............ 
+e.->.. 
+........... ............ ........... ............ ........... ............ ........... 
+............ ........... -- MSC-PA-R-69-1 
+SUPPLEMENT 1 @f .. 
+.. NATIONAL AERONAUTICS AND SPACE ADMINISTRATION .. .. .. ... .. ... ... .... ......... ............ ........... ............ ........... ............ ........... ............ ........... ............ ........... ............ ........... ............ ........... ............ ........... ............ ........... ............ ........... ........... 
+.. .. 
+APOLLO 8 MISSION REPORT ... ............... 
+SUPPLEMENT 1 
+........... ............ ........... ............ ............ ........... TRAJECTORY RECONSTRUCTION AND POSTFLIGHT ANALYSIS ........... ............ ........... ............ ........... ............ ........... ............ ........... ............ ........... ............ ........... ............ ........... ............ ........... ............ ........... ............ ........... ............ ........... ............ ........... ............ ........... ............ ........... ............ ........... ............ ........... ............ ........... ............ ........... ............ ........... ............ ........... ............ ........... ............ ........... ............ ........... ............ ........... ............ ........... ............ ........... ............ ........... ............ ........... ............ ........... ............ ........... ............ ........... ............ ........... ............ ........... ............ ........... ............ ........... ............ ........... ............ ........... ............ ........... ............ ........... ............ ........... ............ ........... ............ ........... ............ ........... ............ ........... ............ ........... ............ ........... ............ ........... ............ ........... ............ ........... ............ ........... ............ ........... ............ ........... ............ ........... ............ ........... ............ ........... ............ ........... ............ ........... ............ ........... ............ ........... ............ ........... ............ ........... ............ ........... ............ ........... ............ ........... ............ ........... ............ ........... ............ ........... ............ ........... ............ ........... ............ ........... ............ ........... ............ ........... ............ ........... 
+e L4-9 
+. 
+SPACECRAFT CENTER 
+'I HOUSTON,TEXAS 
+r NOVEMBER 1969 - 
+IC1Cr(NbSB-TI-X-64417) ..... ....... APOLLC 8 BISSION N74-70841 
+.:.:.:.:.:.:.(NASA) ...... 45 F Unclas 
+...... OO/Y9 16274 
+...... :::::.::BEPOET. SUPPLEflEEII 1: TRAJECTORY ....... ...... ....... ....... 
+............. ...... RECOblSTR UCTION ANC POST FLIGHT ANALYSIS 
+....... 
+
+PDF PAGE 2
+MSC-PA-R-69-1 
+S up pl erne n t 1 
+APOLLO 8 MISSION REPORT 
+SUPPLEMENT 1 
+TRAJECTORY RE CONSTRUCTION AND POSTFLIGHT ANALYSIS 
+PREPARED BY 
+TRW Systems Group 
+APPROVED BY 
+James A. McDivitt 
+ager, Apollo Spacecraft Program 
+NATIONAL AERONAUTICS AND SPACE ADMINISTRATION 
+MANNED SPACECRAFT CENTER 
+HOUSTON, TEXAS 
+November 1969 
+
+PDF PAGE 3
+69: 7254.3-79 
+Re: Task A-50 
+12 September 1969 
+National Aeronautics and Space Administration 
+Manned Spacecraft Center 
+Houston, Texas 77058 
+Attention: D. J. Incerto, Monitor MSC/TRW Task A-50 
+Mission Planning and Analysis Division 
+Subject: Transmittal of TRW Report 11 176-H317-RO-00 , "Apoll o 
+Mission 8 Trajectory Reconstruction and Postflight 
+Analysis, Vol. I." 
+Gentlemen : 
+Transmitted herewith is report number 11 176-H317-RO-00, "Apoll o Mission 
+8 Trajectory Reconstruction and Postflight Analysis, Vol. I." 
+This report is submitted as the postflight analysis final report for 
+the Apollo 8 Mission and as such partially fulfills the requirements of 
+MSC/TRW Task A-50 for that mission. 
+Yours very truly, 
+W. P. Girod 
+MSC/TRW Task A-50 
+Mgt 6 
+H. L. Moore 
+MSC/TRW Task A-50 
+W. F. Heugel , Assistant Project Manager (Acting 
+F1 i aht Dvnami cs 
+Misiion trajectory Control Program 
+WPG: jb 
+MSC Distribution: 
+A. P. Bradley(2), BM6 
+M. S. Burton (35) , FM15 
+E. Hillje, EX24 
+
+PDF PAGE 4
+~ ~~ 
+11 176-H317-RO-00 
+TRW NOTE NO. 69-FMT-767 
+PROJECT APOLLO 
+TASK MSC/TRW A-50 
+~~ 
+APOLLO MISSION 8, TRAJECTORY 
+RECONSTRUCTION AND POSTFLIGHT ANALYSIS 
+VOLUME I 
+1 AUGUST 1969 
+Prepared for 
+MISSION PLANNING AND ANALYSIS DIVISION 
+NATIONAL AERONAUTICS AND SPACE ADMINISTRATION 
+MANNED SPACECRAFT CENTER 
+HOUSTON TEXAS 
+NAS 9-8166 
+
+PDF PAGE 5
+1 1 176-H3 17-RO-00 
+TRW NOTE NO. 69-FMT-767 
+J 
+PROJECT APOLLO 
+TASK MSC/TRW A-50 
+APOLLO MISSION 8, TRAJECTORY 
+RECONSTRUCTION AND POSTFLIGHT ANALYSIS 
+VOLUME I 
+1 AUGUST 1969 
+Prepared for 
+MISSION PLANNING AND ANALYSIS DIVISION 
+NATIONAL AERONAUTICS AND SPACE ADMINISTRATION 
+MANNED SPACECRAFT CENTER 
+HOUSTON, TEXAS 
+NAS 9-8166 
+Approved by 7&6?&&4L Approved by 8 ZW‘ 
+W. P. Girod, Manager 
+MSCARW Task A-50 
+J . E. Alexander, Manager 
+Guidance and Control 
+Systems Department 
+Approved by M.qt- Approved by m4 
+H . L. Moore, Manager 
+MSC/TRW Task A-50 
+NW. F. Heugel , Assistant 
+Project Manager (Acting) 
+F I ight Dynm ics 
+Mission Trajectory Control 
+Program 
+Approved by 
+R. P. Parten, Chief L .“J . Ski &ore , Manager 
+S ys tems Eva1 uati on Mission Planning Support 
+De par tmen t Office 
+NASA Manned Spacecraft 
+Center 
+Approved by 
+7RW 
+SYSImu o*ov 
+
+PDF PAGE 6
+FOREWORD 
+This report is submitted to 
+craft Center in accordance with 
+the NASA Manned Space- 
+Task MSC/TRW A-50 con- 
+tract NAS 9-8166. This report contains the postflight 
+analysis performed in conjunction with the flight of 
+Apollo mission 8. 
+The report is issued in two volumes. Volume I con- 
+tains details of the analysis and results obtained, in- 
+cluding appendixes. Volume I1 contains a listing of the 
+45-day best estimated trajectory (BET) for the Apollo 8 
+mission in the NASA Apollo Trajectory (NAT) format. The 
+listing is not generally distributed but is available 
+from NASA/MSC upon request. Requests should be made to: 
+NASA/MSC Computations and Analysis Division 
+Central Metric Data File 
+Code ED-5, Bldg. 12, Room 133 
+Houston , Texas 77058 
+
+PDF PAGE 7
+TABLE OF CONTENTS 
+Page 
+. 
+3.1 INTRODUCTION AND SUMMARY .................................... 3-1 
+3.1.1 Apollo 8 Mission ..................................... 3-1 
+3.1.2 Postflight Analysis .................................. 3-2 
+3.2 TRAJECTORY ANALYSIS ............................... ; ......... 3-5 
+3.2.1 Preliminary Analysis ................................. 3-5 
+3.2.2 CSM Trajectory Reconstruction ........................ 3-6 
+3.2.2.1 Fit Segment Definition ...................... 3-6 
+3.2.2.2 Analysis Techniques ......................... 3-11 
+3.3 RTCC COMPARISONS ............................................ 3-15 
+3.4 ENTRY TRAJECTORY ............................................ 3-17 
+APPENDIXES 
+A APOLLO 8 RTCC COMPARISONS ............................ A-1 
+B SUPPLEMENTARY DATA ................................... 9-1 
+REFERENCES ....................................................... R-1 
+. 
+
+PDF PAGE 8
+LIST OF TABLES 
+Page 
+3.1-1 Apollo 8 Sequence of Events ..............................3-3 
+3.2-1 Fit Segment Descriptions .................................3-7 
+3.2-2 CSM Fit Summary ..........................................3-9 
+3.2-3 Lunar Potential Models ................................... 3-14 
+3.3-1 RTCC Conipari son Summary . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3-16 
+3.4-1 
+3.4-2 
+Apollo IMU Error Parameters . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .3-18 
+CSM Altitude Constraints During Entry .................... 3-19 
+. 
+
+PDF PAGE 9
+3. APOLLO MISSION 8 TRAJECTORY RECONSTRUCTION 
+AND POSTFLIGHT ANALYSIS 
+3.1 INTRODUCTION AND SUMMARY 
+3.1.1 Apollo 8 Mission 
+The Apollo 8 Mission was launched from Launch Complex 39A Kennedy Space 
+Center at 12:51:00 Greenwich Mean Time on 21 December 1968. 
+the Saturn V launch vehicle inserted the S-IVB/CSM payload into earth 
+orbit, and approximately two hours, fifty minutes into the flight, the 
+second burn of the S-IVB stage injected the payload into a free-return 
+circumlunar trajectory. 
+Command and Service Module (CSM) separated from the S-IVB stage of the 
+launch vehicle. 
+The boost of 
+Approximately twenty-five minutes later, the 
+During the translunar coast phase, it was necessary to perform 
+two evasive maneuvers to avoid the possibility of recontact with the 
+S-IVB, and two midcourse corrections were performed. 
+69 hours, 8 minutes Ground Elapsed Time (GET), a Service Propulsion 
+System (SPS) burn was performed to insert the CSM into a 60 by 170 
+nautical mile lunar orbit and two revolutions later the orbit was 
+circularized to approximately 60 nautical miles. 
+At approximately 
+After ten orbits the SPS was again fired to inject the CSM into 
+a transearth trajectory. 
+maneuver was performed. 
+During transearth coast, one midcourse 
+The Command Module (CM) separated from the Service Module (SM) 
+at 146:29:00 (hours:minutes:seconds) GET, and entered the earth's 
+atmosphere approximately seventeen minutes later. 
+at 146:59:49 GET. 
+is given 
+seconds GET and in December days, hours, minutes ana seconas GMT. 
+Splashdown occurred 
+A more detailed summary of major mission events 
+in Table 3.1-1. The times are given in hours, minutes and 
+3- 1 
+
+PDF PAGE 10
+3.1.2 Postflight Analysis 
+The objective of the postflight analysis task was to reconstruct 
+the spacecraft trajectory using available tracking and telemetry data 
+recorded during the period from S-IVB/CSM separation to splashdown. 
+In the Apollo 8 postflight analysis, MSFN (Manned Space Flight Network) 
+and DSN (Deep Space Network) tracking data were used to obtain a best 
+estimate of trajectory (BET over the free-fl ight segments between 
+thrusting maneuvers). The maneuvers between these segments were then 
+modeled by the G&N Trajectory Program, and combined with the free flight 
+BET'S to produce the NAT (NASA Apollo Trajectory). 
+fit segments are discussed in Section 3.3 of this report. 
+These tracking data 
+The postflight analysis was carried out essentially as planned; 
+however, the second evasive maneuver created a very short free-flight 
+segment which was not reconstructed. 
+therefore, began after the second evasive maneuver rather than after 
+CSM/S-IVB separation. 
+The postflight analysis, 
+3-2 
+
+PDF PAGE 11
+f 
+Table 3.1-1 
+APOLLO 8 SEQUENCE OF EVENTS 
+Event 
+Insertion 
+Translunar Injection 
+Ignition 
+Trans1 unar Injection 
+Cutoff 
+S- IVB/CM Separation 
+S-IVB/CM Evasive Maneuver 
+#I (SMRCS) Ignition 
+S-IVB/CM Evasive Maneuver 
+#2 (SMRCS) Ignition 
+Midcourse Correction #1 
+(MCC-1) Ignition 
+MCC-1 Cutoff 
+Water Dump #1 (TL) 
+Water Dump #2 (TL) 
+Midcourse Correction #4 
+(SMRCS) Ignition 
+Lunar Orbit Insertion #1 
+(LOI1) Ignition 
+Lunar Orbit Insertion #1 
+(LOI1) Cutoff 
+Lunar Orbit Iusertion #2 
+(LOI2) Ignition 
+iuilar Orbit inseriivil #2 
+(LOU) Cutoff 
+Water Dump #3 (LUN) 
+GET 
+hr :mi n : sec 
+00:11:35 
+02: 50: 36 
+02: 55:42 
+03:20:59.3 
+03: 40: 01 
+04: 45 : 01 
+10: 59: 59.5 
+11:00:01.9 
+11 :13:00 
+29 :33: 00 
+60: 59: 54 
+69 :08: 20 
+69 : 12: 26.5 
+73 :35: 06 
+73:35: 16 
+80 : 50: 00 
+3-3 
+GMT 
+day:hr:min:sec 
+21:13:02:35.0 
+21 : 15:41: 36 
+21:15:46:42 
+21 : 16: 11 :9.3 
+21:16:31:01 
+21:17:36:00 
+21 : 23: 50.59.5 
+21 :23:51:01.9 
+22:00:04:00 
+22 : 18: 24:OO 
+24:Ol :50:45 
+24:09:59:20 
+24:10:03:26.5 
+24:14:26:06 
+24:14:26:16 
+24:21:41:00 
+
+PDF PAGE 12
+Table 3.1-1 (Continued) 
+Event 
+Transearth Injection 
+(TEI) Ignition 
+Transearth Injection 
+(TEI) Cutoff 
+Water Dump #4 (TE) 
+Midcourse Correction #5 
+Ignition 
+Midcourse Correction #5 
+Cutoff 
+Water Dump #5 (TE) 
+CSM/SM Separation 
+GET GMT 
+hr:min:sec day:hr:min:sec 
+89:19: 16 25 : 06 : 10 : 1 6 
+89 :22 : 39 
+102: 50: 00 
+25:06 : 13: 39 
+25: 19 :41: 00 
+103: 59: 53 25:20:50:53 
+104: 00: 07 
+120 : 58: 00 
+146 : 29: 00 
+25 : 20: 51 :07 
+26: 13 : 49 : 00 
+27 : 1 5 : 20 : 00 
+Entry Interface (400,000 ft) 146:46:13 27 : 15: 37: 13 
+Begin Blackout 146 :46: 38 27:15:37:38 
+End Blackout 146:51:44 27: 15:42 :44 
+Drogue Deployment 146: 54: 26 27 : 15:45 : 26 
+Main Parachute Deployment 146:55:20 27 : 15:46 : 20 
+Landing 146: 59: 49 27 : 15 : 50 :49 
+. 
+3-4 
+
+PDF PAGE 13
+3.2 TRAJECTORY ANALYSIS 
+3.2.1 Preliminary Analysis 
+Low speed tracking data were recorded at the RTCC on a total of 
+fifteen magnetic tapes. 
+from launch to approximately fifteen hours before splashdown, were 
+processed in near real time by Task A-212 personnel. 
+included processing these tapes through the Master Tape Generator 
+(MATAG) and ESPOD Data Generator (EDG) Programs , performing a cursory 
+analysis with the Houston Operations Predictor, Estimator (HOPE) Program 
+and producing preliminary BET's. A complete report on the results of 
+this preliminary analysis is included in Reference 1. 
+The first fourteen tapes, covering the mission 
+The A-212 activity 
+In the course of this preliminary activity, HOPE compatible ob- 
+servation tapes were produced, and copies were made. These copies, 
+together with the preliminary BET's, significant event times, and fit 
+segment definitions, were obtained by Task A-50 in order to begin 
+the postflight analysis. 
+defined by the A-212 real time activities. 
+total reconstruction was not significantly degraded by this omission. 
+Some data were not included in the fit segments 
+It was determined that the 
+The HOPE compatible observation tapes obtained from Task A-212 were 
+for the most part "cleaned" of gross outliers and anomalous data. 
+this reason, no analysis or summary of anomalous data could be compiled 
+by Task A-50, and therefore, no discussion of anomalous data will be 
+presented in this report. 
+For 
+The tracking data were processed and prepared for analysis by the 
+MATAG and EDG Programs. 
+the HOPE Program, is presented in Appendix C. 
+techniques applied during this mission are outlined as follows: 
+A description of these programs, together with 
+Some basic processing 
+3-5 
+
+PDF PAGE 14
+a) Only Unified S-Band System (both MSFN and DSN data) 
+was processed. 
+b) 
+c) 
+Doppler count intervals were compressed to 60 seconds. 
+Only every tenth range/angle observation was retrieved 
+(no range data is available from three-way stations) 
+d) 
+e) 
+Range data refraction errors were corrected. 
+A bias of -191 yards was added to all range observab 
+3.2.2 CSM Trajectory Reconstruction 
+3.2.2.1 Fit Segment Definition 
+es. 
+The spacecraft trajectory from the second evasive maneuver to 
+entry interface (400,000 feet altitude above the earth) was recon- 
+structed from MSFN tracking data. The orbit determination program 
+utilized was an interim, free-flight version of the HOPE Program 
+described in Appendix C. 
+of modeling maneuvers, the definition of fit segments was limited 
+to periods of free-flight between maneuvers. 
+Since this version of HOPE was not capable 
+The basic philosophy of defining fit segments between maneuvers 
+or other trajectory perturbing activities was not the most expedient 
+a1 ternative in several cases. Tab1 e 3.2-1 which describes boundri es 
+chosen for each of the fit segments, shows that the beginning or end 
+of an observation tape was sometimes the determining factor. In 
+these cases, the data span on the tape was relatively close to a 
+maneuver, and it was determined that the additional data contained 
+on the adjacent tape was not necessary to obtain a representative 
+trajectory. 
+free-flight period between the second water dump and the last point 
+on data tape number 6. 
+23:21:51.30 GMT, and Midcourse Correction No. 4 was performed only 
+four. hours later. It was determined that the addition of this four 
+hour data span would not significantly refine a BET obtained from 
+the 27 hours of data on tape number 6; therefore, no merge was per- 
+formed, and the tracking data during this four hours of the mission 
+As an example, Segment 3 was defined as the 27 hour 
+The first point on tape number 7 was 
+3-6 
+
+PDF PAGE 15
+- 
+7 
+=k 
+z 
+I- o 
+W 
+o: o: 
+0 
+V 
+W 
+v, 
+cr: 
+3 
+0 
+0 
+E 
+2 
+n 
+H 
+N 
+=# 
+o: 
+W 
+> 
+3 
+W 
+z 5 E 
+W 
+> 
+v, 
+w 
+H 
+3 
+- 
+- 
+N 
+=?k 
+E 
+3 
+CT 
+W 
+I- 
+Q 
+3 
+n 
+n 
+I-- 
+=# 
+z 
+0 
+I- 
+V 
+W 
+cr: cr: 
+0 
+0 
+W 
+v, o: 
+3 
+0 
+V 
+E 
+H 
+n 
+H 
+c\J 
+~ 
+CD 
+=# 
+W 
+a 5 
+I- 
+< 
+I- 
+;= 
+LL 
+0 
+z 
+W 
+n 
+c\J 
+??= 
+a E 
+2 
+n 
+cr: 
+W 
+I- 
+< 
+3 
+cr) 
+h 
+=# 
+W 
+a 
+2 
+s 
+< 
+I- 
+LL 
+0 
+2 
+W 
+n 
+d * 
+z 
+0 
+I- 
+0 
+W 
+cr: 
+CT 
+0 
+o 
+W 
+v, cr: 
+3 
+0 o 
+z 
+H 
+n 
+U 
+e 
+7 
+7 
+=?k 
+W 
+a 5 
+I- 
+Q 
+I- 
+25 
+LL 
+0 
+z 
+W 
+n 
+z 
+E 
+3 
+m 
+z 
+0 
+I- o: 
+W 
+v, 
+z 
+U 
+U 
+I 
+I- 
+E 
+v, 
+z 
+I- 
+2 
+s 
+m 
+7 
+N 
+=# 
+W 
+a < 
+I- 
+< 
+I- 
+Q 
+LL 
+0 
+z 
+W 
+7 
+n 
+n 
+Ln 
+=#= 
+z 
+0 
+I- 
+V 
+w cr: o: 
+0 
+V 
+W 
+v, o: 
+3 
+0 
+V 
+E 
+w 
+n 
+H 
+CD 
+7 
+I- 
+v, 
+W 
+I- 
+z 
+W 
+-1 
+0 
+o: 
+W 
+I- 
+Q 
+3 
+H 
+m 
+M 
+??= 
+W 
+a 5 
+I- 
+Q 
+c- Q 
+LL 
+0 
+a z 
+z z 
+a 
+W 
+7 
+n 
+H 
+U 
+a 
+h 
+7 
+W 
+0 
+E 
+W 
+I- z 
+2 
+H 
+> cz 
+I- 
+z 
+W 
+m 
+=# 
+W 
+a 
+5 I- 
+5 
+I- 
+5 
+LL 
+0 
+a z 
+z z 
+c3 
+w 
+7 
+n 
+H 
+H 
+m 
+00 
+I-- 
+3-7 
+
+PDF PAGE 16
+was ignored in the Task A-50 postflight analysis. As shown in Table 
+3.2-1, this logic was used in defining the boundries of fit segments 
+3, 4, 15 and 18. The division between segments 16 and 17 was later 
+found to be unnecessary because data tapes 12 and 13 were actually 
+merged. 
+While the spacecraft was in lunar orbit, each orbit was fit 
+independently as a result of the difficulties encountered in pro- 
+pagating a state vector from one revolution into the next. These 
+errors were exemplified by obtaining a BET from the revolution 4 
+data, then propagating that vector at regular intervals through the 
+revolution 5 data span. 
+vectors with the revolution 5 BET, the maximum and minimum differences 
+in the downrange components of position were found to be 11,751 
+feet and 9,468 feet, respectively. Radial differences varied from 
+94 to -540 feet while cross range differences were 1285 to -1185 
+feet. The differences found in this particular case were repre- 
+sentative of the errors experienced in several such comparisons. 
+When comparing these propagated state 
+Table 3.2-2 lists the fit segments, the time intervals over which 
+the tracking data used in obtaining the BET extended, and the time 
+interval over which the BET was used to generate the reference 
+trajectory. 
+given segment and the preceding one is presented in terms of total 
+position difference and velocity difference. This information must 
+be qualified in the sense that several of these comparisons were 
+made between fit segments separated by small thrusting maneuvers. 
+In two of these cases, the delta velocities listed are very close 
+to the actual AV's produced by these burns. Midcourse corrections 
+1 and 5 produced actual nV's of 24.5 fps and 5.0 fps respectively. 
+Comparisons of the BET'S on either side of these maneuvers produced 
+almost identical resultant delta velocities of 24.4 and 4.55 feet 
+per second. The inconsistencies noted between the data spans and 
+trajectory intervals of several segments are attributed to the 
+data gaps created in the definition of fit segments. 
+An indication of the consistency of fit between the 
+3-8 
+i 
+
+PDF PAGE 17
+. 
+0 u, 
+m 
+N 
+N 
+7 
+0 
+2 
+N 
+0 d 
+2 m - 
+0 
+N 
+It! 
+N N 
+N m 
+m 
+? - 
+N 
+m - 
+W 
+N 
+N 
+7 
+N 
+m 
+N 
+N 
+?! 
+c 
+N 
+0 N 
+2 
+N 
+N 
+m d 
+m m 
+m co, 
+0 LD 
+- 
+0 
+d 
+N 
+0 
+W 
+N 
+N 
+N 
+7 
+u, m 
+7 
+c" 
+m N 
+VI 
+N 
+W 
+N 
+N 
+- 
+m 
+z L 
+z CL 3 
+M 
+7 * 
+0 A 
+U 
+0 
+W 
+v) 3 
+w 
+M 
+z 0 
+v) 
+PI 
+9 
+w 
+E u 
+0 z 
+0 
+N 
+U 
+N 
+7 
+.. 
+e .. 
+0 
+0 
+U 
+N 
+0 
+,-- 
+2 .. 
+N 
+U 
+N 
+7 
+.. 
+* 
+N 
+4 
+e 
+h 
+r- 
+e. 
+W 
+LD 
+* 
+d 
+N 
+N 
+e 
+0 
+N 
+d 
+N 
+- 
+7 
+d m 
+m 
+d N 
+NLO 
+m- 
+0- 
+*d 
+NN 
+No: 
+- 
+N m 
+cu 
+d N 
+mu, 
+-0 
+dd 
+NN 
+?!? 
+07 
+e 
+-In W 
+z CT 
+3 
+N 
+0 A 
+LL 
+0 
+W 
+cn 2 
+W 
+z 0 
+cn 
+m 
+z 
+0 0 
+0 z 
+m 
+w 
+5 
+m 
+u 
+d 
+0 
+W 
+* 
+N 
+'u 
+7 
+- OZ 0 
+N 
+2 - 0 N 
+d N 
+m 
+d N d 
+N 
+s 
+m d 
+h 
+0 
+F 
+0 2 - 
+N 
+- 0 m 
+P- 
+O 
+N 
+N 
+d N 
+7 
+0 0 
+W 0 
+d N d N 
+7 
+.. e .. 
+N - 
+ZZ 
+2 N 
+0 N 
+W 
+d N 
+W 
+d 
+d 
+N 
+0 
+d N 
+2 
+- 7 
+d N 
+z W 
+W 
+36 
+Ln mz 
+4 A 
+4m z 
+uz 
+Ut- 02 A WO 
+cn> 
+ow Acf 
+cn2 
+z w 
+W 3m 
++ wo 
+4 A 
+4- z awl 
+-z 
+Ut- 03 A 
+CnO m> 
+ow ACT 
+mz 
+mE 
+z W 
+W 3W 
+LO mz 
+4 A 4m 
+z awl 
+-z 
+U!- 03 A 
+VI0 cn> 
+ow A= 
+mz 
+- 0 03 m 
+7 d m m 
+In h m 7 
+0 In 
+0 
+N 
+d N 
+m m - 7 
+d d 
+W d 
+d N d N 
+W 
+d N 
+7 - 7 
+mZ h W 
+3-9 
+
+PDF PAGE 18
+0 
+N 
+d 
+N 
+7 
+?! 
+W 
+0 
+m 
+- 
+In 
+0 c 
+7 
+c 
+N N 
+d N 
+z w 
+w 
+3r. 
+l- wn mz 
+4 
+Ul- 
+03 
+0 
+0 
+In 
+N 
+- 
+0 
+In 
+m 
+9 
+m 
+7 7 
+0 - 
+0 
+N 
+c 
+F! 
+In 
+N 
+2 
+N 0 
+In 
+N 
+a 
+m 
+a, 
+c 
+In 
+0 
+7 
+7 
+52 
+d 0 
+In 
+N 
+z CT 
+3 m 
+- w 
+I- 
+U 
+0 
+w v, 
+3 
+W 
+z 0 Ln 
+CT 
+4 a 
+z 0 u 
+0 
+z 
+5 
+m 
+I 
+0 In 
+0 N 
+In 
+N 
+00 
+00 
+.. .. 
+lnw 
+NN 
+Inm 
+do 
+mm .. 
+00 
+0.- 
+Wr. 
+NN 
+00 
+TF! 
+0 
+F! 
+c 
+0 
+r. 
+N 
+In 
+m 
+0 
+m 
+m 
+7 c 
+m. 
+d 
+* 
+In 
+7 
+r. 
+N 
+0 0 00 0 
+Ino .. .. 0 
+-7 
+0 
+7 
+0 
+7 
+0 N dW 
+0 
+In 
+N 
+.. .. 
+In In Inm r. 
+N N NN N 
+0 
+In 
+N 
+UI- 
+03 
+m 
+d 
+m 0 
+In 
+N 
+W d 
+d 
+m N 
+d N 
+* 
+7 
+0 
+Ln 
+N 
+- m 
+N 
+0 
+In 
+N 
+m m 
+0 0 
+Ln 
+N 
+In m 
+N N 
+d N 
+m 
+7 
+N 
+7 7 7 
+m m 
+Ln 
+0 
+Ln 
+N 
+0 m 
+d 0 
+m 
+N 
+d 
+7 
+z 
+El 
+L 
+c 
+N 
+7 
+0 N 
+m 
+N 
+0 N 
+W 0 
+In 
+N 
+In 
+7 
+I- Ln W 
+k- 
+0- 
+ON .. .. 
+.. .. ma 
+NCU 
+0 M 
+.. .. 
+WrD 
+NN 
+m 
+7 
+7 
+0 
+r. 
+N 
+m - 
+
+PDF PAGE 19
+3.2.2.2 Analysis Techniques 
+The large tracking distances involved in the 
+made the use of C-Band radars impossible. In add 
+data from S-Band radars was not meaningful due to 
+Apol o 8 mission 
+tion the angle 
+the large position 
+differences caused by small angular errors at 1 unar distances . 
+Therefore, the data upon which the trajectory reconstruction was 
+based included only range and doppler observables from the MSFN 
+and DSN tracking radars. 
+In order to reduce the volume of data to be processed in fitting 
+the long free-flight segments during the translunar and transearth 
+portions of the mission, only range and two-way doppler observables 
+were included in the data sets. 
+problem of accounting for the numerous biases caused by transmitter 
+and receiver frequency differences. 
+(transmitter) is switched, a new set of biases must be considered 
+for the three-way stations. In some segments, several primary 
+station switches were performed, creating a number of receiver-trans- 
+mitter combinations sufficient to exceed the capacity of the HOPE 
+Program to account for the associated biases. 
+This philosophy also eliminated the 
+Each time the primary station 
+The good quality of the two-way doppler, and the practice of 
+varying tracking station geometry by swi tchi ng transmitters , pro- 
+vided primary station fits which were representative of the actual 
+trans1 unar and transearth trajectories. As an example, fits were 
+made to determine the effect of "good" three-way doppler on the fit 
+of segment 2 (MCC #1 to Water Dump #2). 
+ference caused by the addition of three-way doppler to the data set 
+was 875 feet. The difference in resultant velocities was .095 
+The resultant position dif- 
+3-1 1 
+
+PDF PAGE 20
+feet per second. 
+inherent in trajectory reconstruction of this type of mission. 
+These differences are well within the uncertainties 
+The data spans of the lunar orbit fit segments were relatively 
+short, and in most cases there was only one primary station. 
+fore, it was necessary to use the three-way doppler data in order 
+to obtain better tracking station geometry. Since in these cases, 
+the magnitudes of the doppl er residuals were re1 atively 1 arge with 
+respect to the three-way doppler biases, no significant degradation 
+due to these biases was noted in the reconstruction. 
+There- 
+Table B-2 of Appendix B lists the means and standard deviations 
+of the residuals compiled from the BET's for each station and segment. 
+The standard deviations of two-way doppler residuals during the 
+translunar and transearth segments were on the order of .03 to .07 
+cycles per second whereas in lunar orbit (segments 5 through 14) 
+the standard deviations for both two-way and three-way doppler were 
+generally betneen .3 and .6 cycles per second. 
+The lunar potential models used are described in Table 3.2-3. 
+The lunar orbit BET's were made using the Boeing R2 model which has 
+proven more accurate than the triax and has since been adopted for 
+use by the RTCC. The triaxial model was used during the translunar 
+and transearth portions of the mission. 
+Several other parameters used in the orbit determination program 
+are worthy of note. They are the following: 
+a) The difference between ephemeris time and universal 
+time was 38.5 seconds. 
+b) The ratio of the mass of the moon to the mass of the 
+earth was .0122998962376619. 
+c) The value of drag used was zero. 
+d) Two-way doppler data weighting was 0.1 cycle/sec. 
+Three-way doppler data weighting was 0.2 cycle/sec. 
+Range data weighting was 600 feet. 
+3-12 
+
+PDF PAGE 21
+e) The double-precisi on, Eckert corrected ephemeris 
+tape (DE 19.1) was used. 
+3-1 3 
+
+PDF PAGE 22
+Tab1 e 3.2-3 LUNAR POTENTIAL MODELS 
+Tri axial Boeing R2 
+52 2.07108 x 2.07108 x 
+53 
+c22 2 
+C3 1 
+All other harmon 
+0 
+0716 x loe5 
+-2.1 
+2.0716 x 
+0 3.4 x 
+cs are zero in both models. 
+3-14 
+
+PDF PAGE 23
+3.3 RTCC COMPARISONS 
+The Flight Support Division provided a list of important RTCC 
+vectors (Reference 2) determined during the mission. 
+were compared with the BET vectors determined from postflight analysis. 
+Table 3.3-1 presents these comparisons , indicating the anchor time for 
+the RTCC vector, the BET fit segment in which it occurred, and the 
+position and velocity differences between the RTCC and BET vectors. 
+In addition, major trajectory perturbing events are summarized. 
+These vectors 
+The differences shown in Table 3.3-1 could have been caused by 
+combinations of the following major differences between the RTCC 
+and A-50 trajectory reconstruction methods: 
+a) Data sets were not identical (RTCC used three-way 
+doppler data in translunar and transearth fits, 
+and did not use range observations in lunar orbit). 
+b) The RTCC did not use the DE 19.1 ephemeris. 
+c) The RTCC used a triaxial lunar potential model in 
+1 unar orbit. 
+d) The RTCC used a different set of data weights. 
+The output of the RTCC Comparison Program for each vector appearing 
+in Table 3-5 is included in Appendix A. 
+3-1 5 
+
+PDF PAGE 24
+0 
+0 
+c 
+d 
+7 
+N 
+* N 
+c, 
+m 
+- 
+z 3 -1 
+m * 
+v 
+UO 
+Ob 
+00 
+ON 
+r-NN 
+V)NN 
+m+o 
+Nmm --- 
+NJJ 
+t-t- 
++-v 
+m 
+NC4?'9C'I? 
+ooooom 
+V 
+0 
+I- CY 
+wwuumw mmrnrnem . . . . . . . . . . . . 
+P- rn I 
+V 
+2 
+cj '- 
+uo ZJ 
+LL 
+00 
+1C'c 
+ww +c, 
+uu 
+a3 
+mm 
+an 
+w c, 
+uw 
+U 
+m 
+nc, am 
+2% 
+0 u> 
+ww c,c, 
+uu mm 
+an aa 
+m U In WP- m m 
+> 
+0) z 
+c, 
+.r 
+n 
+0 
+L 
+E 
+3 
+m 
+0 - L ow 
+'cc, 
+wu c,n m= 
+U nh 
+3L 0 
+>c, mu 
+zw 
+'3 
+EL vt- 
+om 
+>> aJw 
+ECT 
+> 
+CT 
+> 
+z 
+> w 
+CT 
+55 
+ww CTDL 
+> 
+0, CT 
+c, 
+.r 
+n 
+0 
+c, 
+L 
+0 
+.r 
+n 
+c, .- +c, 
+LL 
+00 
+.r .r 
+nn 
+c, .- c, 
+.r 
+n 
+0 
+L 
+c 
+1 
+m 
+a 
+22 
+00 
+h L 
+0 
+h L 0 >> 
+zz 
+vu 
+mm 
+55 
+L 
+c a 
+m L 
+c a 
+m 
+L 
+c a 
+-1 
+m 
+LL 
+EC 
+mm 
+3a 
+L 
+c a 
+m 
+LL 
+et- J J JJ A 
+3-1 6 
+
+PDF PAGE 25
+3.4 ENTRY TRAJECTORY 
+The entry trajectory, as in all previous Apollo missions, was re- 
+constructed from acceleration measured by the CSM inertial system using 
+an initial state vector derived from MSFN tracking data. 
+The trajectory was initialized at 146:45:52.10 GET (altitude = 
+496428.7 ft). The initial state vector, in ECI (mean NBY) coordinates 
+was : 
+-1 9430.251 2 1 
+J 
+11 270585.0 -23956.4296 
+7948921.5 -18830.7826 
+"1 ECI 
+The "45 Day" BET assumed an inertial platform misalignment of 
+22.5 STC about the Y-axis ($y=22.5). 
+After completion of the Apollo IMU hardware error evaluation, the 
+full set of errors was propagated through the entry trajectory. The 
+results were not significantly different from the "45 Day" BET. 
+error magnitudes used in this second trajectory reconstruction are 
+given in Table 3.4-1. The IMU error analysis is discussed in detail 
+in the Task E-38B final report (Reference 2). 
+The 
+The coordinates of the splashdown point resulting from the trajec- 
+tory reconstructions are shown in Figure 3.4. 
+2 n.m. southeast of the planned SPY and 1 n.m. south of the recovery 
+ship estimate. 
+They lie approximately 
+Table 3.4-2 compares reconstructed CSM altitudes at drogue chute 
+deployment, main chute deployment, and splashdown with the nominal 
+values. The reconstructed altitudes lie within the uncertainty bands 
+determined for closure of the drogue and main baroswitches. The mean 
+descent rate on the main chute is also very near the nominal value. 
+3-17 
+
+PDF PAGE 26
+Table 3.4-1 APOLLO IMU ERROR PARAMETERS 
+Accelerometer Bias 
+Accelerometer Scale Factor 
+Accelerometer Sensing 
+Axis Misalignment 
+Gyro Drift Rate 
+Gyro Drift 
+(Prop. to Acc. along 
+Input axis) 
+Gyro Drift 
+(Prop to Acc. along 
+spin axis) 
+Gyro Drift 
+(Prop to Acc. along 
+output axis) 
+P1 atform Mi sal i gnment 
+Error Magnitude 
+BX 
+BY 
+BZ 
+XSF 
+Y SF 
+ZS F 
+XYMSL 
+XZMSL 
+Y XMSL 
+YZMSL 
+ZXMSL 
+ZYMSL 
+XGCDR 
+YGCDR 
+ZGCDR 
+XADIA 
+YADIA 
+ZAD I A 
+XADSR 
+YADSR 
+ZADSR 
+XADOA 
+YADOA 
+ZADOA 
+PHIY 
+- 18 g x 
+29 
+6 
+-132.0 PPM 
+- 71.4 
+- 52.8 
+- 1.6 STC 
+8.5 
+- 1.0 
+34.2 
+5.8 
+0.4 
+- .0199 deg/hr 
+- ,0025 
+- .0250 
+.lo7 deg/hr . g 
+.012 
+- .142 
+.037 deg/hr.g 
+.155 
+- .043 
+- .001 deg/hr-g 
+.059 
+- .170 
+12.4 sec 
+
+PDF PAGE 27
+> cz 
+I- z 
+W 
+W 
+0 2 
+L 
+I- d 
+e 
+N 
+I 
+e 
+m 
+aJ 
+5 
+I- 
+7 
+n 
+m L 
+0 L L w 
+LD 
+cu 
+M 
+m 
+(u 
+0 
+0 d 
+0 
+7 
+=I m 
+0 
+N 
+LD 
+0 
+7 
+0 
+LD 
+0 
+7 
+h 
+0 
+In 
+cu 
+I 
+7 
+#, 
+0 
+OLD 
+LDco 07 
+e+ 
+NU 
+n 
+0 m 
+N 
+I 
+F 
+n 
+00 
+Inm mm 
+O+ 
+FU 
+co 0 7 
+h m co d m 0 .. .. .. 
+d In 0 
+0 In In 
+10 co h 
+d d d 
+.. .. .. 
+7 7 7 
+- n 
+W W L L 
+V 
+W 
+m 
+\ 
+c, rc 
+co 
+h 
+(u 
+V 
+W 
+v) 
+\ 
+c, rc 
+0 
+co cu 
+V 
+W 
+m 
+\ 
+c, rc 
+co cu 
+S 
+0 
+W 
+c, 
+rrJ 
+cz 
+c, 
+S 
+aJw 
+Vc, 
+v)3 
+W_t 
+nu 
+2 .E 
+aJ5 
+3-19 
+
+PDF PAGE 28
+rft Planned 
+L' '45 Day' BET 
+2 Reconst. W IMU Errurs 
+Ship Estimate 
+8.14 
+8.13 
+8.12 2 
+8.10 
+8.09 
+-1 65.04 -1 65.03 -165.02 -165.01 
+Longitude (deg. E) 
+Figure 3.4 APOLLO 8 SPLASHDOWN COORDINATES 
+3-20 
+
+PDF PAGE 29
+APPENDIX A 
+APOLLO 8 RTCC COMPARISONS 
+The output of the RTCC Comparison Program is listed for each vector 
+appearing in Table 3-5. 
+of occurrence. 
+The vector comparisons are listed in the order 
+The definitions of the symbols used are as follows: 
+SYMBOL 
+TITLE 
+DATE 
+TIME (GET) 
+TIME (GMT) 
+COORDINATE 
+SYSTEM 
+x 
+Y 
+Z 
+XDOT 1 
+Y DOT 
+ZDOT 
+SMA 
+ECC 
+INC 
+DEFINITION OF SYMBOLS FOR RTCC COMPARISON 
+Identification of RTCC state vector. 
+Date of RTCC state vector. 
+Anchor time of the RTCC state vector referenced 
+to lift-off. 
+Anchor time of the RTCC state vector in Universal 
+time. 
+Defines the central body and the equator of the 
+coordi nate sys tem. 
+Components of the position and velocity vector 
+referenced to one of three coordinate systems; 
+ECI, MCI, or ECT. 
+second. 
+The units are feet and feet/ 
+Semimajor axis (ft). 
+Eccentricity of the orbit. 
+Inclination of the orbit plane to the equator 
+measured positive counterclockwise from the 
+equatorial plane of the orbit plane at the 
+ascending node (deg) . 
+A- I 
+
+PDF PAGE 30
+SYMBOL 
+NODE 
+ARG PERIAPSIS 
+TRUE ANOMALY 
+PERIOD 
+APOAPS I S 
+PERIAPSIS 
+V EL -MAG 
+FLIGHT PATH 
+HEADING 
+DEC 
+LONG 
+HEIGHT 
+DEL U 
+DEL V 
+DEL W 
+DEL UDT 
+DEL VDT 
+DEL WDT 
+DEL POS 
+DEL VEL 
+DEFINITION OF SYMBOLS FOR RTCC COMPARISON 
+Right ascension of the ascending node (deg). 
+Argument of periapsis measured positive in the 
+direction of motion from the ascending node (deg). 
+True anomaly measured positive in the direction 
+of motion from periapsis (deg). 
+Osculating period of the orbit (min). 
+Altitude of apoapsis above a reference sphere 
+(nautical miles). 
+Altitude of periapsis above a reference sphere 
+(nautical miles). 
+Magnitude of the inerti a1 velocity vector ( f t/sec) . 
+Flight-path angle measured positive downward 
+from the local vertical (deg) . 
+Azimuth of the velocity vector measured 
+positive east of true North (deg). 
+Declination (deg). 
+Longitude of the vehicle measured positive 
+east of the zero meridian (deg) . 
+Height of the vehicle above a reference sphere 
+(nautical miles). 
+Difference between the RTCC and HOPE-developed 
+components of the position and velocity vector 
+in a vehicle-centered coordinate system where 
+the U-axis is collinear with the earth-centered 
+inertial radius vector and is directed outward. 
+The V-axis lies in the orbit plane and is ortho- 
+gonal to the U-axis in the direction of motion 
+and the W-axis completes the right-handed system. 
+Magnitude of the difference between the RTCC 
+posi tion vector and the HOPE-devel oped position. 
+Magnitude of the difference between the RTCC 
+velocity and the HOPE-developed velocity vector. 
+A- 2 
+
+PDF PAGE 31
+d 
+a 
+L, 
+z 
+I 
+V V 
+Lu 
+mmo 
+000 
+000 
+v) 
+m 
+v) 
+P 
+* 
+I 
+a 
+UJ 
+a 
+add 
+000 
+000 
+m 
+m 
+4 
+0 
+a 
+I 
+a 
+n 0 
+CL 
+u 
+Q 
+I 
+A- 3 
+
+PDF PAGE 32
+3 m 
+* * a a c c 
+I 1 
+a e a c a L 
+0 
+0 
+Q 
+m 
+z 
+r 
+9 
+I 
+9 
+U 
+U 
+US 
+t-w IC 
+U 
+01 ea ac 
+a2 
+rrl 
+. 
+I 
+&&I LLL 
+I1 
+c 
+3. 
+nN 
+v) 
+I a 
+.? 
+N d 
+W 
+0 
+I 
+c L 
+c1 - 
+0.. 
+w * 
+t 
+L N L u 
+E 
+v) 
+I 
+I- 
+X 
+2 
+w 
+I 
+v) II 
+L 0 
+0 
+N 
+.. 
+v) 
+0 
+I 
+acc 
+n w> 0 
+4 
+w 
+I 
+. 
+9 
+9 
+c. 
+c1 
+N 
+I d 
+I-Lu 
+wa U 
+w 
+v) 
+Q. 
+Ly 
+P W 
+LL 
+-* cc 
+W. 
+Lu 
+Y 
+.I 
+00 
+00 II 
+v) 
+0 
+a 
+++ ow dm 
+d* 
+9In 
+I1 
+Wt 
+WO 
+c3 U 
+2-1 
+.A 
+w 
+0 
+mu 
+00 
+r* 
+C 0. 
+- 
+0 
+z 0 L 
+v) 
+u 
+v) 
+a 
+X 
+d 
+d 
+L 
+LL 
+v) 
+a 
+a 
+W 
+c u, u# 
+LL 
+t 
+cy 
+w 
+U 
+L 
+- 
+U 
+U 
+v) 
+Q 
+e 
+a 
+0 z 0 
+> c V 
+0 w 
+Y, 
+v) 
+4 
+C 
+U 
+L( 
+a. 
+0 cl > -1 
+U 
+Lu - 
+CIL. 
+Ut 
+w 
+> 
+Jd 
+tc 
+Q 
+CI 
+z 
+U 
+u I1 
+uw 
+t 
+ma 
+ad 
+U 
+ZC 
+LL 
+Llr 
+I. 
+&E 
+Lu* 
+a9 
+Llr 
+d 
+U\ 
+N 
+x 
+0 
+a 
+.I 
+W 
+I- 
+d 
+I - 
+I- 
+w 
+w z u +* Qr- 
+N.t a 
+Lu 
+LL 
+& 
+c 
+LI 
+c 
+c 
+Q 
+3 
+d 
+r- 
+m 
+N 
+0 
+c: m 
+p: 
+c3 z m 
+9 
+0 
+oc C c 
+c 
+L; 
+Lu 
+> 
+E 
+L u 
+7 
+U 
+a 
+L 
+. 
+c) 
+w 
+C 
+4 
+N 
+... 
+Lu 
+C 
+U 
+ZQ 
+-r Pv) a C 0 
+V 
+LLI 
+C 
+3 
+V z 
+Lu 
+a II 
+W2 
+I& 
+0 
+0 
+z 
+0 
+0 
+u w 
+0 I 
+LL 
+-1 
+c 
+I- 
+I 
+o 
+0 
+X 
+c 
+I 
+c u 
+I 
+c. I 
+Lu 
+c 
+U 
+0 
+0 
+d 
+0 
+0 
+I 
+I LL 
+u-l 
+-Lu 
+cc 
+u n 
+-1 
+u. > u 
+A- 4 
+
+PDF PAGE 33
+u 
+t 
+OOM 
+600 
+000 
+++I 
+mf-9 dam 
+V 
+V 
+w 
+-. 
+(L 
+c 
+t 
+mmo 
+000 
+000 
+m 
+P 
+a 
+m 
+VI 
+6 
+I 
+0 
+d n 
+0 
+0 
+o[ 
+w 
+U 
+n 
+s 
+Q 
+c 
+I 
+mml-r 
+000 
+000 
+ooih 
+"9 
+crdN 
+... 
+uoo 
+++I 
+W 
+r 
+I 
+d 
+I& 
+w 
+a 
+W . 
+II 
+-I 
+Lu 
+> 
+d 
+w 
+0 
+. v 
+H 
+ICI 
+ru 
+d 
+I1 
+VI 
+0 
+a 
+d 
+LL 
+0 
+- 
+0 
+z 0 
+L 
+Lu 
+VI 
+a 
+a 
+LLI 
+c w w 
+U 
+c 
+JI 
+w 
+LL 
+. 
+- 
+Iu 
+V 
+z 
+Lu 
+w 
+U 
+U 
+c 
+CI 
+0 c u 
+JI 
+w 
+U 
+C 
+w 
+0 
+3 c 
+z e a 
+S 
+a 
+I 
+- - 
+
+PDF PAGE 34
+= 
+c a 
+L 
+a 
+I- 
+I 
+s 
+I- 
+a 
+.E 
+L 
+I Vc) VIV tab aca 
+I vu 
+U3V 
+cat aca 
+u ulr +-a ac 
+V u1 ta 
+aLc 
+e* 
+00 
+00 
+Om4 
+000 
+060 
+mmm 
+000 
+000 n 
+d 
+. 
+II 
+t 
+0 
+3 
+n 
+rn 
+* d 
+LU 
+d 
+-9 
+ON 
+2. 
+u 
+V w 
+v) n c 
+II 
+r 
+0 
+1 
+-I 
+LLI 
+> 
+w L 
+c - 
+d 
+Ly 
+0 
+N I- 
+O 
+0 
+N 
+V 
+2 
+c. 
+v) 
+I 
+c 
+ac 
+n w> 0 
+w I 
+a w 
+I 
+U 
+Lu 
+v) 
+Q: 
+W 
+a. 
+0 
+3 
+C 
+we 
+00 
+00 
+44 
+00 
+GO 
+** 
+(DN 
+mu 
+a9M 
+000 
+000 I1 
+v) 
+U 
+a 
+. * 
+rl 
++* *r- 
+Fim 
+*++ 
+"d 
+mr-e 
+II 
+cnt 
+wo t3 
+U 
+2.J 
+-w on 
+CK 
+0 0. 
+vrl 
+0 
+34 
+>m 
+24 
+Nr-9 me- rwa .r 
+d 
+C 
+Z C 
+ci 
+w vi 
+I VI 
+V 
+vi 
+i 
+X 
+9 
+OOr- me+ 
+NN9 
+... 
+0 z 
+0 
+> c V 
+V 
+Lu 
+v) 
+cn 
+4 
+0 
+4 
+- 
+n 
+II 
+m3 a 
+.+* 
+00 
+00 ++ 
+I& 
+t 
+Q 
+0 
+3 
+> 
+t 
+t 
+V 
+Ly 
+7 
+Q 
+ti 
+t 
+n 
+a 
+a 
+v II 
+V> 
+I- 
+ocd 
+I- 
+Lu 
+20 
+Lu 
+w 
+C c 
+U 
+w 
+U 
+0 
+u 
+3. 
+t9 Iym aim L' 
+U 
+0 u. c 
+3 
+t 
+d 
+N 
+I 
+Lu 
+e 
+c a 
+0 
+0 
+I 
+t 
+0 
+0 
+w 
+0 
+0 z 
+CJ 
+a 
+I 
+d 
+Lu 
+w 
+r 
+V 
+w 
+0 
+I 
+Ly 
+d 
+c 
+t 
+I 
+0 
+a 
+0 
+0 
+V 
+z 
+0 
+r. a 
+X a w a. 
+U 
+u.2 -=w 
+no 
+A- 6 
+
+PDF PAGE 35
+N" 
+000 
+000 
+V 
+2 
+I 
+oo* 
+000 
+000 
+++I 
+m*(D (car, 
+u 
+V 
+u1 
+8 
+c a 
+1 
+v) 
+I 
+v) 
+U 
+a 
+... 
+VI 
+v) 
+4 
+0 
+4 
+c. 
+a 
+inlnd 
+-1 
+u 
+0 
+. 
+9 
+ro 
+m 
+9 
+m 
+:1 
+U 
+c 
+LL. 
+C 
+3 c 
+z 
+< 
+S 
+I 
+A- 7 
+
+PDF PAGE 36
+U 
+W 
+m 
+S 
+d c 
+I 
+1( 
+OL 
+t 
+I 
+I: 
+Qz 
+t 
+I 
+vu v3v cat- aca 
+1 1 
+CL 
+c c 
+I I 
+vvuv 
+UIV U'IV 
+cLzc eMc aca 
+C 
+0 
+0 
+V V3 +a ac 
+V 
+V1 
+czc +a accz 
+e* 
+00 
+00 
+mmm 
+009 
+000 
+NNO 
+0 0 CJ 
+000 
+NNd 
+coo 
+00 
+esm *or- 
+++? 
+r. 
+N 
+I 
+. 
+II m cr I 
+c 
+S 
+n N 
+N 
+m 
+I 
+c 
+4 
+w 
+0 
+II 
+d 
+w w 
+d 
+w 
+n 
+U 
+U 
+Lu 
+m II 
+c 
+KC 
+w> 
+Q 
+d 
+cw 
+UO 
+Lu 
+U 
+e0 w. 
+LUI 
+K 
+-4 
+1 
+II 
+mc 
+Lu 
+I 
+c 
+I W 
+0 
+a 
+w 
+I 
+E 
+N + 
+0 
+0 
+w 
+m 
+v) 
+U 
+a a 
+U 
+0 z a V 
+w m 
+d 
+w n 
+oo 
+00 
+00 
+mm NIUN 99rl 
+OCO 
+000 
+NNN mm~ oom ooc 
+000 
+++I 
+00 
+00 
+++ m* -m 
+09 
+0 0 <: 
+000 
+000 
+ooc 
+GOC 
+GOC I( 
+VI 
+0 a 
+n 
+d 
+Lu 
+++I 
+mmm ++ 
+mrl mm 
+dd 
+o* rnm 
+00 
+ON 
+NQ) 
+NO 0 
+2 
+0 
+V 
+W 
+VI 
+L 
+v) 
+V 
+m 
+(r 
+r 
+Ln 
+.-i 
+ddr. 
+CL 
+u a 
+0.. 
+I 
+e.. 
+I 
+t m 
+v) 
+0 
+Q 
+c. 
+a 
+a 
+CI IC oa 
+o z 
+0 
+t 
+0 d 
+V 
+V 
+Lu m'i a 
+02 
+tu vo 
+W 
+> 
+d 
+U 
+0 
+0 
++ 
+0 
+In 
+c) 
+r- m 
+(D 
+0 
+d 
+0 
+9 
+0 
+m r- r- 
+'d 
+m . 
+u 
+V 
+z 
+u1 
+a 
+Lu 
+a 
+0 
+L LL 
+II 
+c 
+C 
+Lj It 
+V> 
+e u-4 
+CY 
+3 Q, 
+9 
+0- 
+r. 
+. 
+V 
+W 
+a 
+4 
+R1 
+I 
+LL 
+c 
+U 
+t 
+c 
+V 
+W 
+> 
+LL 
+e c; t 
+V V 
+z 
+u; 
+Lud 
+at 
+a za 
+om a 
+-L 
+0 
+0 
+w 
+0 
+0 
+z 
+n 
+0 u 
+W 
+n 
+t 0 
+0 
+X 
+0 a 
+I 
+I 
+2 
+Lu 
+> 
+I 
+Lu 
+J 
+I- 
+e 
+I 
+I 
+z c a 
+I 
+Q 
+0 
+D 
+Y 
+LL.J 
+"U 
+En u V 
+A- a 
+
+PDF PAGE 37
+~ 
+U 
+u VI 
+0 
+0 
+0 
+9 
+z 
+. 
+m 
+r 
+I 
+P- 
+In 
+v) 
+a I 
+m 
+P- 
+I 
+t 
+I 
+0 
+W 
+L. 
+- 
+a 
+I 
+c 
+u u 
+ul 
+0 
+0 
+c; 
+9 
+m 
+z 
+L 
+9 
+I 
+m 
+I 
+m 
+a 
+d 
+vl 
+* 
+4 
+0 
+N 
+I 
+c 
+Lu 
+0 
+bu 
+r 
+c 
+- 
+I 
+OD 
+9 
+0 
+r( 
+V 
+Ui 
+0 
+N 
+I 
+W 
+c 
+4 
+0 
+d 
+.L 
+a e 
+I 
+u 
+E 
+V u 
+W 
+LL 
+0 
+0 
+V 
+~ 
+.& 
+a c 
+I uu u=u cac aca 
+mmd 
+988 ernd 
+B;r;f; 
+83: 
+mmm 
+NNN 
+JdO 
+UNO 
+;$! 
+barn em- cy(Y= 
+ddd 
+... 
+I 
+v) 
+m 
+* 
+LI 
+a 
+a 
+a 
+I 
+(Y 
+000 
+000 
+30bJ 
+000 
+000 
+000 
+003 
+000 
+000 
+000 
+000 
+000 
+000 
+000 
+300 
+0 0 0 
+.e. 
+m 
+Ln 
+4 
+0 
+a. 
+I 
+a 
+CGCJ 
+0 0 0 
+100 coo 9 0 0 
+ooc 
+000 
+LICO 
+OOC 
+ooc 
+000 
+000 
+00- 
+oco 
+OOh 
+?3? 
+0 
+0 
+c* 
+w a. 
+I 
+A- 9 
+
+PDF PAGE 38
+I. 
+d 
+> w 
+a. 
+I 
+t 
+E 
+a 
+0 
+a 
+U 
+c 
+3 
+d 
+I 
+I 
+Lu 
+A 
+t 
+c 
+I 
+V 
+Ly 
+v) 
+0 
+0 
+0 
+0 
+n 
+4 
+N 
+v) 
+rr I 
+r 
+- 
+I 
+N 
+m 
+a I 
+d 
+N 
+vl 
+h 
+c3 
+N 
+a 
+I 
+I- 
+W 
+L” 
+w 
+I 
+c 
+- 
+- 
+c( 
+(E 
+9 
+Q. 
+d 
+. u w 
+e 
+rl 
+N 
+I 
+w 
+t 
+c 
+a 
+V 
+VI 
+at +a 
+mro 
+md 
+00 
+00 
+++ 
+=o dm r-m rod 
+-0 
+Ow 
+In6 r-d 
+mm 
+nm 
+% mm mY) 
+0. 
+c 
+0 
+0 
+N 
+NN 
+30 
+00 
+++ 
+l-(v 
+CEO 
+Q)C 
+UaD 
+mm 
+Od 
+9r 
+r-m 
+OlQ 
+Om 
+ON 
+QU 
+NU 
+wm 
+a3Q 
+dd 
+.. 
+k 
+0 
+0 
+> 
+uu 
+00 
+00 
+++ 
+Nd 
+Nr- c)m 
+Q(0 
+f-f- 
+me 
+Nlc 
+Q.N 
+WF 
+mm f-u 
+Ur, 
+WE 
+99 
+mm mm 
+II 
+.. 
+e 0 
+X 
+n 
+J 
+a c 
+I 
+vu v3v tat aca 
+V 
+V 
+Lu 
+.. 
+I 
+A-10 
+s 
+OI 
+e 
+I 
+vu 
+VLV 
+NNN 
+web; 
+... 
+I 
+’;E oa -a 
+d 
+u. 
+. .-.. cm(r 
+Nf-Ul 
+LnNN 
+c3 U 
+S 
+I 
+2 
+w 
+> 
+CP . 
+d 
+II 
+-J 
+w 
+> 
+4 
+w 
+0 
+(0 
+N 
+d 
+(2 
+d 
+I1 
+v) 
+U 
+a 
+-I 
+W 
+0 
+- 
+n z 
+t 
+U 
+W 
+m 
+LY 
+w 
+a 
+t 
+W 
+W 
+u. 
+t w 
+W 
+U 
+. 
+- 
+Ly 
+V 
+L 
+IA 
+a 
+W 
+U 
+U 
+c 
+I 
+a 
+0 
+e 
+U 
+w 
+w 
+U 
+c 
+2 
+t 
+Z 
+(3 
+4 
+t 
+UI 
+- d 
+.I 
+
+PDF PAGE 39
+U 
+Y) 
+r, 
+a a c 
+l 
+0 
+I 
+P 
+I 
+u u c a 
+c 
+I 
+U 
+V c a 
+I 
+OU 
+UIU 
+cab aka 
+m 
+Q 
+u 
+k! 
+V 
+5! 
+V 
+VI 
+ea a+ 
+V 
+u * 
+u 
+V 
+c a 
+N 
+0 
+0 + 
+Q 
+m 
+P 
+0 
+Q 
+U 
+9 
+f- 
+Q 
+9 
+m 
+l- 
+N 
+8 
+? 
+a a c 
+1 
+c a a a c 
+3 
+c a a a 
+4 
+N 
+Y) 
+u 
+0 
+k. I- 
+! rn 
+c 
+0 
+8 
+m 
+0 
+0 
+cr( 
+0 
+0 
+mn 
+00 
+00 
+iff mma 
+n 
+0 
+0 + 
+m 
+0” 
+I- b 
+m 
+rl 
+* 
+c1 
+d 
+0 
+0 I m 9 m 
+9 
+N 
+9 
+0 
+0 Ih 
+9 
+0, 
+CI 
+u! 
+CI 
+N rl 
+0 
+0 0 
+0 
+0 
+0 f- 
+N 
+I 
+II 
+t 
+C 
+1 
+-1 
+W 
+0 
+9 
+2 
++ 0 0 
+nJ m 
+4 
+9 
+l- 
+f- 
+9 
+QL 
+rl 
+l- 
+e 
+s 
+Q 
+IC Q 
+m 
+In 
+ut 
+rl 
+m 
+I- 
+In 
+9 
+m 
+I 
+m . 
+4 
+N 
+0 
+In 
+IC 
+U 
+Q 
+0, 
+U 
+r- 
+N . 
+d 0 
+4 
+l- 
+nA 
+l 
+c 
+S 
+0 
+a 0 
+e 
+d 
+Q 
+N 
+I- 
+. 
+4 
+Q. 
+x 
+I 
+d 
+cy m . 
+I 
+N c 
+0 
+0 
+w 
+V 
+2 
+U 
+rD 
+2 
+0 
+I 
+a 
+e, 
+c c I 
+2 
+v) N 
+c 
+0 w 
+Lu 
+T -1 
+UJ 
+P 
+L.. 
+iAJ 
+UJ 
+U 
+L l- 
+0 
+0 
+4 m 
+In 
+OI 
+N 
+* 
+0 
+ln 
+4 
+0 
+m 
+0 
+U 
+d 
+In 
+I 
+m 
+I- 
+0 
+0 
++ 
+I- 
+9 
+0 * 
+0, 
+f- 
+N 
+In 
+N 
+rl 
+U 
+m 
+d 
+m 
+I 
+4 
+. 
+m 
+0 
+0 
++ 
+rl 
+VI 
+(D 
+f- 
+@ 
+m 
+m 
+m 
+mmo 
+000 
+?22 
+N m d 9 
+0 
+Y 
+d 
+0 
+rl 
+0 0 
++ In 
+h 
+0 
+? 
+OOC 
+224 
+d 
+2 
+0 
+0 
+0 
+0 
+0 
+0 
+c 
+W 
+W 
+U 
+- 
+v) 
+W 
+b 
+00 
+00 II 
+9Q 
+cum 
+90 
+II 
+v) 
+0 
+n 
+& I 
+ln 
+rl 
+m 
+9 
+9 
+d 
+In 
+m 
+4 
+h 
++ N 
+m 
+I- 
+OD 
+Q 
+Q 
+VI 
+m rl, c .* 
+Q 
+m In 
+u 
+d 
+d 
+tA 
+0 
+U 
+N 
+OD 
+f- 
+9 
+Q 
+0 
+0 
+In 
+In 
+OD 
+0 
+OD 
+OD 
+II 
+I- 
+O 
+3 
+z 
+X 
+U 
+05 a m .. 
+4 
+rl 
+d 
+a Z A 
+LLI 
+e x * 
+L 
+0 
+a 
+0 0 
+0 
+z 
+0 u 
+Lu 
+v) 
+I 
+r, 
+U 
+k 
+In 
+h 
+r, 
+I a in m 
+@ 
+I 
+d 
+. 
+. 
+m 
+N 
+.t 
+I 
+U 
+N 
+N 
+. 
+0 
+d 
+U . 
+I 
+m 
+N ... a 
+n 
+W 
+I- 
+UJ 
+W 
+U 
+I- 
+W 
+UJ 
+LL - 
+. . . 
+ul 
+0 
+N 
+a 
+z 
+I > L V 
+V 
+Lu 
+v) 
+v) 
+0 
+Q 
+* 
+U 
+X c 
+a. a 8 > 
+II 
+S ... 
+U 
+ul 
+a 
+0 
+-1 
+x - 
+U 
+a 
+Lu 
+a. 
+cu * U 
+0 
+0 
+* 
+0 
+0 
++ 
+19 
+f-r- uo 
+UO 
+N 
+0 
+0 
+“0 
+OOC, 
+cuo 
+mmcu 
+coo 
+OOG 
+U 
+0 
+0 
++ 
+U 
+F 
+N 
+N 
+.z 
+Q 
+r- 
+0 
+d 
+l- 
+0 
+0 
+0 
+(u 
+u n 
+ry 
+C’ 
+c 
+9 
+0 w 
+u 
+I + + + 
+OD 
+0 
+OI 
++ I 
+(r. 
+m 
+l- 
+P z 
+4 
+d 
+h 
+OI 
+U 
+W 
+In 
+YI 
+w 
+U 
+u. 
+0 
+a 
+c. 
+d 
+d 
+m 
+C‘ 
+0 
+9 
+m 
+N 
+N 
+m * 
+0 
+VI 
+I 
+m 
+OVI 
+mm (Y 
+a0 
+f- 
+OD 
+r- 
+@ 
+f- 
+9 
+0 
+e 
+OI 
+m 
+In 
+I 
+. 
+d 
+In 
+0 
+f- 
+In 
+m 
+ry 
+Q) 
+In 
+0‘ 
+N 
+N 
+I- 
+m 
+0 
+OD 
+P 
+m 
+m . 
+* w I 
+I 
+u 
+V 
+I- 
+K 
+L 
+Ly 
+W 
+1 c w 
+m 
+II 
+> 
+-I 
+W 
+0 
+d 
+m a- m 
+f- 
+9 
+U 
+0 
+N 
+rl 
+b 
+I 
+9 
+rl 
+rl 
+f- 
+N 
+N 
+m .e 
+rl 
+. 
+U 
+0 c 
+Q 
+9 
+0 
+4 
+. 
+OI 
+0 
+U 
+In 
+.II 
+. 
+V 
+y1 
+> 
+U 
+C 
+Lu 
+. 
+m 
+W 
+I 
+r( V 
+YI 
+P u! u 
+Z 
+UJ 
+Lu 
+U 
+LL 
+a 
+.I 
+c 
+0 
+3 c 
+i 
+(Y 
+I 
+w c a 
+0 
+c 
+0 
+X 
+a 
+Ly ’ 
+0 
+0 2 
+O 
+0 
+U 
+0 4 
+I 
+A 
+UJ 
+> 
+r 
+V 
+UJ 
+0 
+II 
+3 d a 0 0 u 
+a 
+Lu 
+Q 
+Z 0 a r 
+d 
+UJ 
+E 0 
+A-11 
+
+PDF PAGE 40
+r- 
+? 
+9 I 
+u 
+c 
+CQ 
+3. 
+9 09- A 
+W 
+C 
+I 9 
+mini 
+mmd ... 
+-m u 
+ON d 
+2. Ly 
+u > 
+Y 
+I 
+t 
+d 
+W 
+0 
+N C 
+0 
+N 
+a 
+u 
+5 
+VI 
+U 
+(3 
+z 
+U 
+L 
+i 
+2 
+L 
+v) 
+0 
+z 
+ab 
+W> 
+P 
+Q 
+w I 
+w S 
+. 
+In 
+Ln 
+Q 
+U 
+-J 
+CW 
+WO 
+W 
+Y 
+-N 
+u w w 
+Id 
+c c 
+U 
+N 
+z 
+I 
+Q) 
+U 
+. 
+CI 
+.. 
+E 
+P 
+Q 
+d 
+“d 
+0088 
+tuNm 
+000 
+000 
+c* 0 3 
+0 c> c 
+I 
+v) 
+u 
+0.. 
+I 
+I 
+z 
+U 
+m3 
+OL 
+Od cw 
+W 
+> 
+U 
+un 
+v) 
+t 
+4 
+0 
+m 
+L3 
+2 0 
+L u 
+0 
+W 
+cn 
+U 
+VI 
+d 
+u a 
+(v l 
+c 
+LLI 
+L“ 
+3fi 
+au U\ 
+X 
+z 
+99 
+a c. 
+GO 
+*U 
+00 
+00 
+CYNO 
+000 
+000 
+005 
+242 Gn 
+d 
+n 
+2 
+m 
+> 
+Lu 
+I 
+I- 
+a 
+CI OLi 
+9 
+0 
+5 
+5 
+0 
+I 
+U 
+L 
+3 
+-1 
+.. 
+II 
+0 
+E 
+c W 
+0 
+0 
+2 
+L3 
+I 
+I 
+V 
+w 
+0 
+I 
+Lu 
+-1 
+t 
+c 
+I 
+0 0 
+X 
+L 
+a 
+I& 
+0 
+a c 0 
+d 
+w w c; 
+A-12 
+
+PDF PAGE 41
+V w m 
+S 
+c a 
+3 
+a c a s 
+t I I ov uuuu 
+US OB uxo UIU ca ea+ cac ac aca sca 
+0 
+0 
+9 
+9 
+I 
+r 9 
+0 
+I 
+. rn m 
+v) 
+r a W 
+c 
+0 
+I 
+d 
+. 
+-8 O 
+Q 
+c L 
+CI 
+n 
+-1 
+lu > 
+d 
+YI 
+0 
+- 
+Y 
+N c 
+0 
+0 
+0 
+z 
+0 
+w I 
+W 
+c I: 
+LD 
+I 
+c rro w> 
+Q 
+~ 
+W 
+u 
+X 
+. 
+9 nA 
+m 
+d cu 
+LUO 
+V 
+w 
+v) 
+0 
+0 
+0 
+9 
+. 
+”f- 
+00 
+00 
+++ dN 
+urn 
+Of- 
+f-N 
+mm 
+9-l 
+9DU 
+mu 
+UP em 
+9P 
+99 
+.. 
+z2 
+zpn 
+II 
+NN mmd 
+00 
+22 
+000 
+222 n 
+v) 
+0 
+Q 
+z 
+L 
+Q 
+U 
+(II 
+a 
+W 
+P 
+L. 
+0 
+2 
+ul 
+Ln 
+8 m e z 
+m .. ... 
+I 
+a u 
+0 
+m * 
+0 
+a 
+m 
+L V 
+V 
+u 
+cr re 
+c3a 
+“Q 
+0 
+z 
+0 
+c 
+IIJ 
+W 
+U 
+I- 
+W 
+u U 
+. 
+- 
+8 > 
+I1 
+WI 
+(L 
+OA 
+tW 
+UP 
+Y 
+w 
+d 
+LL 
+3 m 
+m 
+X 
+0 
+a I 
+* 
+> u a 
+I 
+c 
+.I 
+i2 
+a a 
+2 
+3 A 
+I 
+I- 
+w 
+0 
+Lu 
+s- 
+t 
+L. 
+- 
+L 
+UU 
+30 
+mu 
+OVI 
+UN 
+(DO 
+09 
+N9 
+f-0 
+.,O 
+f-f- 
+Nh) 
+mtn 
+II 
+?? 
+om 
+mu 
++a um 
+mm 
+.. 
+FFN 
+oco oca 
+w 
+V z u a! 
+Lu 
+LL 
+LL 
++++ mNU mwm 
+v II 
+u> e 
+Ud 
+- 
+0 
+8 c 
+V w > 
+UJ 
+ZC 
+w 
+W 
+I. 
+t-fu 
+urn mN 
+m 
+9 
+@ 
+H 
+. 
+V 
+u 
+0 
+N 
+I 
+LLI 
+c 
+0 
+-.1 
+LL 
+0 I 
+Lc 
+..* 
+I u c 
+Z( 
+”I: OW 
+0 
+0 
+V 
+a 
+a 
+Ly 
+0 
+3 c 
+V z w aM 0 
+0 
+n 
+c 
+0 
+0 x 
+w 
+I 
+u 
+.J 
+c 
+c 
+W 
+- 
+0 
+0 1c b a 
+0 0 
+V 
+a 
+UJ 
+Q 
+
+PDF PAGE 42
+V 
+w 
+VY 
+0 
+0 
+u N 
+9 
+I 
+L 
+VY 
+I 
+u e 
+I 
+t 
+f 
+2 
+U 
+I- 
+u w 
+VY 
+c. 
+I2 
+ij 
+.? 
+N 
+. 
+J 
+OL c 
+u 
+2 
+U 
+u u 
+UJ 
+4 
+'I OW 
+za 
+a 
+x - 
+u 
+0 
+0 
+OL 
+w 
+I 
+a 
+A-14 
+
+PDF PAGE 43
+U 
+Ly 
+H 
+0 
+0 
+3 
+om 
+2 
+m 
+r 
+m 
+a0 
+u! 
+!€ 
+N 
+0 
+I 
+c L 0 
+w L 
+e 
+... 
+- 
+U 
+V 
+Ly 
+v) 
+3 
+0 
+G 
+0 
+m 
+2 
+r 
+I+ 
+U 
+v) 
+I 
+rc 
+. 
+c. 
+a 
+v) 
+> a 0 
+0 
+I 
+c 
+Lu 
+11 
+w r 
+I- 
+- 
+- 
+U 
+Q 
+.a 
+(E 
+d 
+w 
+u 
+Lu 
+0 
+nl 
+I 
+w c 
+4 
+0 
+r( 
+I a 
+I 
+01 
+c 
+x J 
+t b. 
+oc a 
+I 
+uu US0 
+3% 
+1 I uuuc) UIU USU ca.c sea 'aca 
+u 
+5 
+NNa "N 
+000 500 
+000 
+I11 
+a Id -w - PO 0 
+0. v 
+UN Ly 
+lnm 
+JOI 
+> cf 
+3Y 
+aL co 2 
+... 
+I 
+Q. 
+z u 
+V 
+Lu 
+CN w 
+IZ 
+c u 
+K 
+Lu 
+0 
+4 
+P 
+0 
+w 
+L( 
+a 
+n 
+A-1 5 
+
+PDF PAGE 44
+U 
+Ly 
+ul 
+1c 3 
+E 
+t oc 
+L a c 
+1 
+0 
+0 
+3 
+m 
+a, 
+I 
+H 
+c 
+0 
+1 
+2 w 
+0 
+-Q 
+0-4 
+2. 
+U 
+v) II 
+c 
+(LO 
+WW 
+Q 
+2 
+CW 
+rub 
+u1 
+LL 
+-a 
++d 
+W. 
+W 
+U 
+. 
+d 
+3 
+-c 
+I1 
+Ulc 
+UO 
+t3 
+a 
+22 
+00 a 
+0 
+0. 
+u L’ 
+9 
+xu 
+>N 
+3 
+z 
+II 
+Ul3 
+a 
+02 
+tu 
+VO 
+w 
+> 
+3U 
+ai 
+Cd 
+I 0 
+z a 
+V> 
+c 
+u1 
+20 
+W 
+w x. cc- 
+WI- 
+mu1 
+CI 
+. 
+ow 
+ad 
+md 
+I 
+w 
+V 
+z 
+yi 
+w3 U 
+LLd 
+mu 
+00 
+a II 
+OD 
+d 
+Y 
+-1 
+Ly 
+w 
+2 
+w 
+0 
+. 
+Q 
+9 
+* 
+N 
+Y 
+La 
+0 
+0 
+-1 
+w 
+0 
+- 
+0 
+u 
+W 
+v) 
+if 
+a 
+n w 
+c 
+W 
+Ly 
+&A 
+c ru 
+YI 
+u. 
+m 
+- 
+U 
+V 
+z 
+& 
+a w 
+LL 
+Y 
+0 
+I 
+a 
+E 
+V 
+Y) 
+> 
+K 
+t 
+a 
+0 
+3 c 
+z 
+0 
+L 
+r 
+NC 
+0 
+0 
+hl 
+c3 
+z 
+0 
+a 
+W 
+I 
+I 
+I- 
+T 
+c3 
+W 
+I 
+I 
+L 
+OCO 
+000 Ill 
+* * 
+v) 
+I 
+* 
+a 
+v) 
+F 
+4 
+0 
+m 
+I 
+I- 
+W 
+0 
+w 
+x 
+c 
+- 
+I 
+Q 
+9 
+e 
+d 
+u AI 
+0 
+d 
+nJ 
+I 
+u c 
+6 
+0 
+L 
+v) 
+V 
+- 
+U 
+V 
+I 
+9 
+Q 
+In 
+X 
+v) 
+c: 
+c3 
+r- 
+> w 
+I 
+t 
+- 
+a 
+m 
+a 
+L 
+OL 
+0 
+a I 
+3 
+d 
+I u 
+t 
+t 
+L 
+.. 
+... 
+I 
+V 
+u 
+W 
+m 
+v) 
+0 
+Q 
+a 
+... 
+a 
+I-x It 
+04 
+-a. 
+d 
+U 
+a z 0 
+2 
+I-+N 
+ocs c; c. 0 
+mmN NNd 
+ooo 
+33- 
++&I 
+A-16 
+0 
+0 
+Ly 
+U 
+a 
+n 
+0 
+6 
+I 
+-1 
+w > 
+a 
+V 
+w 
+0 
+
+PDF PAGE 45
+U 
+W 
+v) 
+0 
+0 
+Q 
+2 
+9 
+d 
+m 
+N 
+* 
+Y, 
+I I 
+rl 
+rl 
+v) 
+6 
+m 
+a 
+1 
+c 
+W 
+c? 
+W 
+n 
+c 
+U 
+r 
+00 
+Q 
+P 
+rl 
+. u 
+W 
+0 
+cu 
+I w 
+t a 
+0 
+d 
+r' 
+u 2' 
+I( 
+V 
+V w 
+hhd 
+Ob0 
+Y?? 
+s 
+c a 
+v) 
+n 
+v) 
+a 
+0 P a 
+mmm 
+000 
+0 
+0 
+cu 
+L. 
+a 
+a 
+3 
+(Y 
+I 
+rl 
+y1 
+W 
+-1 
+W 
+Q 
+. 
+0 
+f- 
+c), 
+cy 
+I 
+u, 
+0 b 
+-1 
+Iu 
+0 
+: W 
+w 
+v) 
+I 
+w n 
+c w w u. 
+c w 
+Y) 
+Y 
+w 
+V 
+z w a w 
+Y 
+P 
+0 c 
+V 
+Iu 
+> 
+* 
+U 
+E 
+a 
+If 
+Y 3 c 
+5 
+X 
+' A-17 
+
+PDF PAGE 46
+U 
+UJ 
+cn 
+u V 
+v1 ua ea CP a+ ac 
+I 1 
+vlLu6 
+UIV u3v cac cac ace aca 
+0 
+I3 aFa . * m 
+ICC mm mmd mf-0 
+000 
+GOO 
+z 
+I 
+W 
+bo 00 
+00 00 
+000 
+090 QD 
+0 . 
+d d 
+m 
+v) 
+a! 
+I 
+Q 
+0 
+I 
+c 
+X 
+W 
+a. 
+c 
+L. 
+E 
+U 
+I1 
+c 090 
+orn bN 
+1. 
+A 
+Lu 
+0 
+d 
+-0 n 
+o> g? ii 0.. 
+V 
+Ly A 
+v, II Iu 
+co 
+KO 
+Iuw 
+N I- 
+0 
+0 
+V 
+2 
+w 
+N 
+0 
+c 
+I cnv) 
+I va 
+*e 
+0 
+0 > 
+V 
+u 
+Lu 
+4 
+-0 
+.. 
+vm I 
+A 
+Y 
+NN 
+02 
+c3 
+0 
+0 
+V 
+m n NNd c 
+Lu 
+V 
+Lu 
+r 
+c 
+I 
+I 
+0 
+0 
+0 0 
+w 
+Ly 
+I 
+c 
+a 
+m 
+U 
+U 
+0 
+a 
+2 
+Lu 
+20 m 
+9 
+Q 
+r( 
+. u w 
+0 
+d 
+N 
+I 
+w 
+c * 
+0 
+w 
+Ly 
+> Q 
+UI 
+I 
+d 
+. 
+a a 
+2 
+U 
+0 
+d 
+. 
+I 
+4 
+. 
+Lu 
+3 c 
+n a zx c 
+0 
+0 
+X 
+Lu 
+0 
+0 z 
+0 
+0 
+II 
+o a I 
+V 
+UJ 
+0 
+I 
+Iu 
+A c 
+c 
+W 
+n 
+0 
+-S 
+Ov, 
+U 
+0 
+s 
+U 
+u1 P 
+d 
+0 0 
+U 
+I 
+A 
+Lu 
+> 
+A-18 
+
+PDF PAGE 47
+LJ 
+Lu 
+v) 
+r. 
+E * 
+L a x 
+Q 
+c 
+J 
+C 
+a 
+I 
+u u u c a 
+0 
+0 
+m in m 
+:Ex2 
+000 
+.. 
+0 
+0 m m + 
+0 
+0 
+0 
+0 
+P 
+. 
+I 
+n cn 
+0, 
+0 * P 
+rl 
+r- r- 
+9 
+rl 
+e 
+c 
+0 
+I m 
+e 
+4 
+d 
+ul 
+0 
+I 
+-1 
+Ly 
+> 
+*e. e 
+rl 
+Lu 
+a 
+L 0 
+2 
+I 
+W 
+0 
+ul 
+X 
+f 
+a 
+II 
+c 0 > 
+c I 0 
+0 
+N 
+W 
+I A 
+w 
+0 
+u 
+Lu 
+ln 
+hh mm 
+3 c. 
+00 
+(u 
+0 
+NNN VI 
+d 
+. 
+4 
+000 
+000 0 
+I m 
+Q 
+Lu 
+w u. 
+n 
+v) 
+0 
+h 
+-1 
+tu c 
+++ OIm 
+Or- 
+9 
+(0 
+1 
+0 In 
+f- 
+9 
+* 
+9 
+m + 
+U 
+w 
+N . 
+II 
+c 
+0 
+a 
+v) 
+ul 
+c 
+a z -1 
+w 
+0 a 
+2 0 u ut 
+ln 
+X 
+ln 
+u 
+ln 
+CL 
+X 
+In 
+d 
+9 
+r- 
+N 
+TJ 
+4 
+S 
+w a a 
+n 
+u 
+c 
+111 
+UJ 
+K 
+c 
+UJ 
+w 
+LL 
+* 
+- 
+e.. e.. 
+I 
+VI 
+% 
+c a 
+m 
+z 
+w c V 
+u w 
+v) 
+v) 
+I 
+a 
+a 2 
+(3 
+2 
+0 
+0 
+C 
+> 
+ln 
+u a 
+L- 
+A 
+CL 
+Lu 
+P 
+v 
+Lu 
+> I - . * 
+d 
+r) 
+ni 
+I 
+c h 
+111 
+c* ln 
+0 
+‘3 
++ In 
+**A 
+w 
+J 
+I 
+t z 
+4 
+- 
+9 
+N 
+* 
+N 
+L-m ac 
+& 
+w u. 
+LL 
+0 
+a 
+C 
+c u 
+Lu 
+w 
+I 
+0 
+r( 
+> 
+UJ 
+a 
+I 
+c 
+Ln 
+0 
+w 
+a 
+V 
+V 
+4- a 
+z 
+Ly 
+Ly 
+1 c 
+LLI 
+m 
+L: 
+a 
+u 
+z 
+Lu 
+Lu 
+LL 
+K 
+L 
+a 
+II 
+> 
+Lu 
+a 
+v a 
+0 
+lr- 
+LuaD 
+c* 
+ro 
+a, 
+9 
+Q 
+c( 
+. u w 
+0 
+d 
+N 
+I 
+w 
+I- 
+4 
+0 
+I 
+w r 
+. u- 
+(D 
+m 
+I 
+v)dd 
+v)** 
+.. 
+Lu 
+c 
+U 
+LX 
+I 
+LL 
+U 
+LLI 
+c 3 c 
+I 
+c 
+4 
+U 
+v) 
+r 
+u1 
+0 
+0 P 
+0 a m 
+c 
+0 
+0 
+X 
+u ru 
+0 I u 
+-1 OL 
+0 
+0 
+V 
+a 
+Lu 
+0 
+i 
+Lu 
+> 
+-I 
+w a 
+A-19 
+
+PDF PAGE 48
+X 
+v) 
+V 
+I 
+V I. - .> 
+(E 
+9 
+X 
+4 
+0 
+cL' 
+In 
+I 
+V 
+V > 
+0 
+LL 
+W 
+c 
+4 
+3 
+w 
+4 
+X 
+V or 
+V 
+I 
+UA 
+A c 
+c 
+a 
+n n 
+- 
+u 
+W 
+v) 
+0 
+0 
+CI 
+9 
+m 
+z 
+. 
+I 
+r 
+al 
+m 
+ul 
+I 
+N 
+a 
+2 
+I 
+c 
+S 
+Lu 
+2 
+a 
+I 
+e 
+u 
+W 
+VJ 
+0 
+0 
+0 
+9 
+m 
+2 
+. 
+U 
+U 
+c 
+(0 
+9 
+Q. 
+w 
+. 
+V 
+UI 
+n 
+r( 
+N 
+1 w c 
+a 
+N c 
+0 
+0 
+N 
+A 
+a c 
+I 
+mmd 
+000 
+777 
+u 
+2 
+I 
+m 
+0 
+rl) 
+A-20 
+-L 
+a + 
+1 
+vu 
+VSrU 
++(*e aca 
+NNO 
+090 
+OCPO 
++++ Con mm.8 
+uoo 
+90@ 
+d99 
+l-Nm 
+049 
+Inme 
+*cDN 
+hQ0, 
+e*+ nncc 
+I 
+mmo 
+!3:$ 
+e.. 
+v) 
+cn 
+* 
+a 
+W 
+0 
+I 
+n 
+Y 
+030 
+000 
+000 
+000 
+000 
+800 
+000 
+000 
+ooa 
+000 
+GOO 
+c. 0 0 
+300 
+300 
+888 
+.e. 
+v) 
+ul 
+0 
+0 
+* 
+I 
+a 
+CJUC 
+COO 
+060 
+000 
+300 
+030 
+000 
+000 
+000 
+aoo 
+Z8Up 
+ggg 
+EZg 
+0.. 
+0 
+2 a ud 
+Q 
+d 
+LL 
+c 
+I 
+vu u3u tat occa 
+0.. 
+I 
+c z 
+C 
+A 
+V 
+UJ 
+0 
+. 
+II 
+A 
+W 
+> 
+A 
+Lu 
+C 
+. 
+4 
+d 
+r- 
+.? 
+II 
+v) 
+0 n 
+-I 
+Lu 
+3 
+- c z 0 
+U 
+LIJ 
+v) 
+a 
+n 
+ru 
+t 
+W 
+W 
+LL 
+I- 
+UJ 
+UJ 
+LA 
+* 
+- 
+Lu 
+u z 
+W 
+c ut 
+U 
+U 
+0 
+o! 
+c? e 
+U 
+W 
+> 
+U 
+CJ 
+0 
+3 
+z 
+c9 
+L 
+c( 
+w 
+c 
+L 
+a 
+
+PDF PAGE 49
+W 
+Lu 
+m 
+I: 3 1 a a 
+I- I- a c 
+t a a a c c 
+0 
+0 
+m 
+d 
+. 
+A 
+UJ 
+P 
+w c 
+0 
+0 
+N 
+u z 
+I 
+o I- 
+z I 
+U L9 
+0 111 
+4 Lu 
+w I I u 
+W 
+m 
+mmrn mmn 
+000 
+flPP 
+> c 
+C. 
+0 
+-1 
+.o 
+0 
+i 
+m 
+CI 
+L 
+I 
+rr 
+r( 
+d 
+I- 
+In 
+Q 
+c 
+0 
+I- 
+lw 
+IIn 
+m 
+9 
+N 
+U N 
+e 
+&* .b* L. 
+c 
+N 
+m 
+N 
+VI 
+d 
+N 
+.* 
+9 
+m 
+9 
+LUr 
+SI- 
+d 
+-4 
+N 
+l- 
+9 
+I- 
+VI 
+d 
+m 
+9 
+d 
+m 
+hl 
+In 
+0 
+d 
+I- 
+In 
+o? 
+Q 
+O 
+r( 
+9 
+(b 
+9 
+m e 
+d 
+e- a ac 
+m 
+d 
+& 
+0 
+I-Q 
+UN 
+wr 
+c( 
+U 
+w 
+I z 
+W 
+b. 
+d 
+m 
+In 
+d 
+e m 
+I 
+. 
+ui I- 
+u, 
+aDQN 
+VImd 
+.a. 
+Wd 
+W 
+. 
+w ii 
+a 
+t 
+En r 
+U 0 
+0 0 
+a x 
+0 0 
+V 
+u 
+UJ 
+n 
+0 z 
+0 
+0 
+111 
+a w 
+Q w > 
+
+PDF PAGE 50
+s 1 3 
+w + a d 
+C I- 
+1 I 
+1 
+a 
+4 
+0 
+0 
+I In 
+N 
+.+ m m 
+9 
+e 
+0 
+N 
+0 
+0 
+0 
+)I 
+r( 
+m 
+In 
+0 
+0 
++ 
+9 
+0 
+m m 
++ 
+I- 
+M 
+m 
+Q' 
+M 
+N 
+m 
+N 
+(P 
+. 
+0 
+0 
+0 
++ 
+(P 
+W 
+(D 
+m r- 
+N 
+d 
+J 
+Pl 
+N 
+9 
+d 
+F 
+d 
+(rl 
+N 
+I 
+m 
+m 
+I 
+W 
+c 
+0 
+x 
+-l 
+Lu 
+0 
+d 
+N 
+I 
+n 
+2 
+0 
+:: 
+c I 
+w I 
+z 
+v) tI UJ 
+cc am 
+tu> n 
+-la 
+cLu (D 
+wo N 
+Lu m 
+9QcU 
+000 
+000 
+nJ 
+It 
+wl 
+0 
+d 
+u1 
+0 
+n 
+- 
+0 
+z 0 
+U 
+Lu 
+wl 
+CL 
+Lu 
+P 
+c 
+Lu 
+Lu 
+U 
+I- 
+W 
+W 
+U 
+. 
+.I 
+W 
+V 
+z u 
+w 
+U 
+Y 
+0 
+CL 
+0 c u 
+UJ 
+w 
+U 
+@ 
+a 
+I 
+'in 
+n 
+in 
+a 
+0 a. a 
+I c 
+4 
+a. 
+U 
+V 
+UJ 
+m 0 z II 
+0 
+c. 
+3 
+U 
+6 r- 
+m 
+.t 
+In n n 
+W 
+U + r- 
+9 
+N 
+- 
+m 
+. 
+V 
+Lu 
+0 
+CL 
+0 
+0 
+u 
+A-22 
+
+PDF PAGE 51
+u w 
+Y) 
+* a 
+t 5 
+3 
+s c 
+0 
+0 
+0 
+0 
+sra at- 
+u 
+US 
+aLt 
+ca . 
+N 
+* 
+z 
+n 
+I 
+m 
+d 
+v) 
+s I 
+U 
+.8 
+I 
+e L 
+(3 
+lu I 
+d 
+- 
+L 
+c 
+aam mm 
+00 
+00 
+++ Nd 
+04 
+mm 
+QN 
+0.8 
+pm 
+N9 
+99 NN rf- 
+(Pd 
+cns 
+*f- 
+(Pm 
+(Po, 
+cp: 
+“d NNd 
+000 
+000 
+00 
+22 
+060 
+000 9 
+d 
+I 
+. 
+H 
+c 
+0 
+1 
+m 
+0 
+d 
+w 
+0 
+Q 
+N 
+I 
+. 
+I1 
+.J 
+w > 
+d 
+Lu 
+0 
+N c 
+0 
+0 
+N 
+u z 
+m 
+(3 
+z 
+0 
+Lu 
+I 
+I 
+a 
+c I 
+(3 
+II 
+c 0 > 
+-J 
+w 
+0 
+I 
+0 
+r . 
+Q 
+d 
+U m 
+N 
+V 
+W 
+v) 
+a 
+aDQ 
+00 
+00 
+++ 
+(VN 
+N 
+0 
+I 
+. II 
+m 
+0 n 
+hl 
+U 
+2 
+I 
+r 
+U 
+N 
+II 
+c 
+0 
+3 
+W 
+0 a z 
+0 
+Qc 
+V 
+L 
+8 
+a w 
+0 
+1 
+0 
+L 
+v) 
+V 
+z 0 u . 
+W 
+N 
+m 
+t: 
+d 
+I 
+w cn 
+cz w n 
+t 
+w 
+W 
+U 
+I- 
+w w u. 
+0 
+- 
+w 
+V 
+z w 
+w 
+Lu 
+K 
+u. 
+0 
+a 
+0 
+I- 
+V 
+W 
+w 
+U 
+0 
+L 
+3 
+> 
+3 
+2 
+I V 
+V 
+w 
+v) 
+v) 
+0 
+a 
+.I 
+a 
+a 
+(3 
+z 0 
+4 
+I- 
+O P v) 
+K 
+0 
+I- 
+V 
+Lu 
+> 
+I 
+t 
+a 
+I - . 
+0 uu 
+‘3 C’ 
+VC 
+++ 
+utn 
+Ichl 
+mr- 
+mru Nrn 
+9N 
+0.8 
+CDN 
+me 
+28 
+Nd 
+.tu 
+00 
+99 
+mm 
+lnlnd c ddN 
+w 
+0 
+6 
+a2 
+N 
+0 
+z 
+u 
+V 
+a 
+c 
+hl 
+I 
+w SI 
+c 
+II 
+> 
+d 
+w 
+0 Q 
+9 
+0- 
+c 
+V 
+Lu 
+7 
+cz c 
+a w 
+V 
+z 
+w z 
+LL’ 
+0 
+3 c w 
+n_ 
+0 
+z 
+s 
+c3 
+I 
+I 
+2 
+0 
+X 
+I 
+w 
+.J 
+c 
+c 
+I 
+I 
+a 
+Lu 
+0 
+a 0 
+0 
+V 
+U 
+u. 
+0 
+I 
+d 
+w 
+0 
+d 
+w > 
+A-2 3 
+
+PDF PAGE 52
+APPENDIX B 
+SUPPLEMENTARY DATA 
+Information which is too detailed for the body of this report 
+is presented in the Appendix. 
+the primary station timeline, a summary of the radar data used in 
+each BET fit segment, and a summary of the MSFN and DSN station 
+1 ocati ons . 
+This information includes a sumnary of 
+Table B-1 lists the start and stop transmission times for the 
+primary stations throughout the mission. 
+Table B-2 lists the stations used in each BET fit, the type and 
+number of observables, and the mean and standard deviations retrieved 
+from the residuals calculated in the final fit. 
+are in feet while the doppler units are cycles per second. 
+The range statistics 
+Table B-3 lists the tracking stations and their locations as used 
+in the Apollo 8 postflight analysis. 
+also listed. 
+The surface refractivity is 
+A summary of all the low speed radar data sent to the RTCC may 
+be found in Reference 2. 
+4 
+B- 1 
+
+PDF PAGE 53
+Table B-1 TWO-WAY STATION TIMELINE 
+Start: Time Stop Time 
+Station (day:hour:min:sec) GM'I' (day : hour : riii n : sec ) GM'T 
+GDS 
+P1 K 
+MAD 
+GDS 
+PI R 
+NBE 
+GWM 
+NBE 
+RI D 
+MAD 
+RID 
+MAD 
+ACN 
+GDS 
+HAW 
+GDS 
+NBE 
+GNM 
+NBE 
+MAD 
+ACN 
+MAD 
+GDS 
+NBE 
+GWM 
+KBE 
+MAD 
+R'I D 
+21:14:21:53 
+21:15:47:00 
+21:17:21:00 
+21:19: 16:OO 
+22:01:31:00 
+22:02:31:00 ' 
+22:07:01:00 
+22:08:41:00 
+22: 11:31:00 
+22: 12:31:00 
+22:14:31:35 
+22:14:51:40 
+22: 18: 01 :00 
+22: 19:36:30 
+22 : 2 1 : 49:30 
+23:00:31:00 
+23:02:47:00 
+23 
+: 06 :30 :00 
+23 :08:31: 24 
+23:12:16:01 
+23:15:01:00 
+23:17:01:00 
+23 : 19: 51 :00 
+24:02:51:00 
+24: 08: 04: 10 
+24:08:18:17 
+24: l2:30:00 
+24: 16: 41 :05 
+21:15:47:00 
+21:17:21:00 
+21:19:16:00 
+22:01:31:00 
+22: 02: 3 1 :00 
+22:07:01:00 
+2 2 : 08 : 41 : 00 
+22 : 11 : 3 1 : 00 
+22: 12 :3 1 : 00 
+22: 14:31:35 
+22: 14:51:4O 
+22: 18:Ol:OO 
+22:19:36:30 
+22: 21 
+: 49 : 30 
+23:00:31:00 
+23:02:47:00 
+23:06:30:00 
+23 :08:31: 24 
+23:12:16:01 
+23:15:01:00 
+23:17:01:00 
+23:19:51:00 
+24:02:51:00 
+24: 
+08: 04: 10 
+24:08: 18:17 
+24: 12 : 30: 00 
+24:16:41:05 
+24: 16: 55:OO 
+L 
+B-2 
+
+PDF PAGE 54
+Tab1 e B-1 TWO-WAY STATION TIMELINE (Continued) 
+Start Time Stop Time 
+Station (day:hour :min: sec) GMT (day : hour : m in : s c c ) GMT 
+MAD 
+GD S 
+NHE 
+MAD 
+GDS 
+NB E 
+C RO 
+NBE 
+MAD 
+GDS 
+NBE 
+c KO 
+NB E 
+C RO 
+RID 
+c KO 
+GWM 
+24:16:55:00 
+24: 20 :3 5: 00 
+25: 02 :30: 00 
+2 5: I 2 :3 1 : 00 
+2 5: 20 : 01 : 00 
+26 :03 :46 :00 
+26 : 07 : 16 : 00 
+26: 09: 16 : 00 
+26: 12:36:00 
+26 : 20: 16 : 00 
+27 : 04: 01: 00 
+2 7 : 05 : 2 7 : 00 
+27:07:15:00 
+27:12:06:00 
+27:13:18:00 
+27 : 13 : 50:OO 
+27: 14:51:00 
+~ ~ .~ -~ __ 
+24': 20 : 3 5 : 00 
+25: 02 :30:0C 
+25: 12:31: 00 
+25: 20: 01 : 00 
+26:03:46:00 
+26:07:16:00 
+26:09:16:00 
+26:12:36:00 
+26:20:16:00 
+27:04:01:00 
+27 : 05 : 27 : 00 
+27:07:15:00 
+27:12:06:00 
+27:13:18:00 
+27: 13: 50:OO 
+27: 14: 51:OO 
+Splashdown 
+c 
+B-3 
+
+PDF PAGE 55
+m 
+z 0 
+H 
+F 
+e u 
+0 cl 
+z 
+2 
+2 E+ cn 
+m m m 
+3 
+m 
+I 
+m 
+w cl 
+m 
+2 
+ul 
+(d 
+X aJ 
+b 
+(d 
+C C aJ 
+U 
+C e 
+v) 
+aJ 
+.rl 
+U 
+*d 
+U 
+C m 7 cr 
+d 
+d 
+c 
+* 
+u3 
+u3 
+m 
+a3 
+0 
+4 
+d 
+m 
+In 
+d 
+r- 
+4 
+N 
+a3 
+m 
+N 
+N 
+m 
+u3 
+0 
+b 
+A 
+d 
+: 
+- 
+0 
+m 
+(d 
+7 bo 
+C c 
+.d 
+U 
+r- 
+In 
+m 
+m 
+a3 
+m 
+4 
+a3 
+d 
+N 
+3 
+N 
+r- 
+u3 
+In 
+3 
+m 
+u3 
+0 
+In 
+In 
+m 
+r- 
+I 
+E 
+4 
+- 
+0 
+m 
+C 
+0 
+.d 
+cn 
+d aJ u cn 
+4 
+a3 
+m m 
+0 
+m 
+a3 
+\D 
+N 
+cn 
+d 
+In 
+m 
+cy 
+d 
+? 
+m 
+N 
+d 
+m m 
+N 
+m 
+2 Fs 
+- 
+0 
+m 
+(d 
+a 
+2 
+aJ 
+a 
+\o 
+m m 
+m m 
+r- 
+\o 
+In 
+m 
+d 
+In 
+u3 
+d 3 
+m 
+? 
+d 
+In 
+d a r- 
+r- 
+N 
+z u 
+- 
+0 
+m 
+a C 
+v) 
+H 
+h k 
+(d 
+e 
+(d 
+u 
+A 
+d 
+0 
+c? 
+In 
+“i 
+In 
+m r- 
+@l 
+m 
+N 
+a3 
+r- m 
+a3 
+4 
+d 
+m 3 
+m a3 
+In 
+In 
+m 
+I 
+M cn 
+X 
+- 
+In 
+a3 
+(d 
+k 
+k 
+aJ P C m V 
+d 
+0 
+m 
+In 
+a3 
+\o 
+m 
+N 
+d 
+u3 
+r- 
+d 
+a3 
+m 
+a3 
+4 
+d 
+m m 
+0 
+0 
+4 
+In 
+m 
+I 
+W 
+F9 
+z 
+- m 
+OD 
+bo 
+C 
+3 
+cd 
+k 
+k aJ 
+P 
+C 
+(d 
+U 
+-4 
+m m m 
+N 
+0 
+N 
+co 
+e 
+0 
+u3 
+w r- 
+m 
+d 
+d 
+m 
+u3 
+a 
+0 m 
+3 
+N 
+I 
+0 p: 
+v 
+- 
+0 
+m 
+C 
+0 
+(d 
+C Ll 
+(d 
+V 
+2 
+m 
+b 
+N 
+In 
+0 
+u3 
+r- m 
+N 
+0 a3 
+u3 
+N 
+d 
+3 
+N 
+m 
+In 
+A 
+d m 
+In 
+m 
+m 
+c3 n 
+- 
+In 
+m 
+aJ 
+C 
+0 
+U 
+ul 
+‘0 
+0 
+c3 
+d 
+8-4 
+m r- 
+N 
+N 
+0 
+\o 
+OD 
+m 
+d 
+m 
+0 
+A 
+m 
+d 
+u3 
+4 
+N 
+r- 
+In 
+m 
+a3 
+m 
+In 
+m 
+lx 
+H 
+ai 
+- 
+In 
+a3 
+bo 
+C 
+3 
+aJ C 
+0 
+U 
+v) 
+Q 
+d 
+0 
+c3 
+.d 
+u3 m m 
+0 
+d 
+u3 
+d 
+d 
+m 
+N 
+u3 
+r- 
+d 
+a3 
+N 
+a 
+a3 
+N 
+m 
+u3 
+a 
+N 
+2 c3 
+- 
+0 
+m 
+(d 
+(d 
+c 
+(d 
+!n 
+Q 
+C 
+(d 
+k 
+c3 
+E 
+d 
+N 
+m 
+4 
+rl 
+N 
+u3 
+m 
+d 
+m r- 
+N 
+m 
+4 
+N 
+d 
+N 
+m 
+u3 
+m 
+r- 
+N 
+5 
+L9 
+- 
+0 
+m 
+v) 
+il 
+(d 
+3 
+U 
+cv 
+0 
+m 
+r- m 
+N 
+r- r- m 
+d 
+0 
+In 
+m m 
+0 
+0 
+N 
+0 
+m 
+4 
+N 
+d 
+. 
+N 
+N 
+5 
+- 
+0 
+m 
+.rl 
+.d 
+(d 
+m 2: 
+3 
+u3 
+m 
+N 
+,4 
+03 
+m 
+In 
+In 
+N 
+d 
+0 
+N 
+m OD 
+rr, 
+In 
+m 
+m m 
+4 
+In 
+3 
+0 
+d 
+2 
+- 
+In 
+a3 
+m 
+Ll 
+-0 
+(d 
+z 
+-rl 
+u3 
+m 
+N 
+u3 
+In 
+r- 
+N 
+In 
+N 
+r- 
+4 
+d 
+In 
+r- 
+In 
+In 
+m 
+m 
+N 
+a3 
+N 
+4 
+0 
+d 
+n 
+H 
+e: 
+- 
+In 
+a3 
+M 
+C 
+.rl 
+3 
+a 
+$4 
+a a z 
+.ri 
+m 
+m m 
+d 
+a3 
+N 
+m 
+cn 
+In 
+u3 
+0 
+m 
+m r- 
+N 
+h 
+N 
+a3 
+0 
+m 
+a3 
+N 
+I4 
+H 
+E: 
+- 
+0 
+m 
+-0 
+C 
+(d 
+d 
+v) 
+H 
+U 
+U 
+Ll 
+k 
+a, 
+c 
+.d 
+4 
+m m 
+d 
+a3 
+N 
+m 
+m 
+In 
+d 
+N 
+u3 
+N 
+u3 
+N 
+r- m CCI 
+In 0 a a r- .rl 
+N 0 
+v) 
+a 
+.rl 
+d 
+d 
+w 
+V 
+(0 
+.rl 
+X zr, 
+w w a, 
+c 
+U 
+0 
+U 
+Q 
+a u e 
+a, 
+Ll - aJ 
+0 lu 
+m GI 
+k 
+
+PDF PAGE 56
+a 
+d 0 
+k k k k k k 
+a a a a a a 
+d d d I4 
+B- 5 
+
+PDF PAGE 57
+VI 
+F9 0 
+cr, 
+0 
+co 
+ul 
+0 
+ul 
+0 . 
+4 
+hl 
+v) 
+0 
+I 
+d 
+m 0 
+@-I 
+h 
+N 
+4 
+cv 
+3 
+3 
+b 
+.--( 
+N ul rn m 
+ul 
+ul 
+d 
+I 
+4 
+m m 
+a 
+M 
+G 
+(d 
+!x 
+w 
+z m 
+?-' 
+2 
+(2 
+0 
+0 
+d 
+0 3 ln 
+rl 
+0 
+N 
+r-4 
+d 
+d 
+d 
+0) 
+M 
+C 
+(d 
+ffi 
+d 
+N 
+UY 
+c) 
+0 
+hl 
+hl 
+4 
+N 
+0 
+d 
+d 
+h 
+9 
+w 
+w 
+ul m 
+0 d 
+I- 
+d m 
+0 m . rJ 
+I I 
+h 
+P C 2: 
+m 
+4 
+\o 
+4 
+0 
+d 
+d 
+N 
+0 
+0 
+1 
+d 
+m m 
+I- 
+In 
+hl 
+b 
+0 
+0 
+m 
+N 
+\D 
+d 
+0 
+d 
+
+PDF PAGE 58
+m 
+b 
+I VI 
+3 c 
+.5 
+.5 
+0 
+0 
+3 
+IC! & 
+6 
+I- 
+0 
+I 
+v) 
+VI 
+In 
+I- 
+d U 
+I 
+\o 
+0 
+v) 
+6 
+m 0 
+I 
+a3 
+\o 
+U 
+0 
+I 
+0' 
+9 
+d r- 
+0 
+0 0 0 
+CJooQJomm 
+I-Q)OoI-Q)r( 
+h 
+< m 
+h 
+s" 
+h 
+II 
+mm 
+aJ 
+M 
+c 
+cdI 
+rS:N 
+h 
+s" 
+h 
+cd 
+mm 5 .I 
+h 
+3" 
+0 
+L1. 
+l- 
+m 
+8-7 
+
+PDF PAGE 59
+m 00 
+In 
+In 
+m 
+In 
+Fl 
+(v 
+0 
+I 
+\D 
+b 
+r- 
+In 
+0 
+00 
+hl 
+In 
+hl 
+m 
+b 
+m 
+hl 
+o\ 
+\o 
+In 
+. 
+0 co m 
+co m r- m 
+b 
+m 
+-. 
+I111111 
+h 
+$ 
+hl 
+2 z 
+8-8 
+.. 
+
+PDF PAGE 60
+. 
+0 
+? 
+!2 
+W 
+5: a 
+W 
+v, 
+0 
+m 0 e 
+m 
+0 
+Q) 
+m 
+0 
+I 
+. 
+03 
+m 
+m 
+Q) 
+3 
+In 
+hl 
+* 
+hl 
+0 
+\D 
+m 
+\o 
+m m 
+@? 
+m 0 
+4 
+m 0 0 . 
+\o 
+m 
+m e 4 
+00 
+4 e 
+. 
+hl 
+m 
+0 
+b 
+d 
+00 
+m 
+I 
+0 * 
+h 
+? m 
+h 
+? 
+Fl 
+0 
+2 
+3r 
+I 
+Fl 
+al 
+cn ra c3 
+h 
+I 
+hl 
+cn 
+f) 
+0 “3 
+B-9 
+
+PDF PAGE 61
+m cv m 
+In 
+d 
+\o 
+* 
+b 
+0 
+I 
+m 
+\o 
+h 
+Q 
+5 
+m 
+m a a 
+N 
+I- 
+UI 
+-3 
+N 
+m 
+a 
+\o 
+I- 
+m 
+0 
+m a 
+I 
+\o 
+m 
+al 
+F 2 
+VI 
+a c3 
+m 
+I- 
+m 
+In 
+. 
+v) 
+I- 
+4 
+4 
+I 
+a3 
+u3 
+h 
+Q 
+3 
+m 
+2 z 
+m a 
+\o 
+4 
+0 
+U 
+r( 
+N 
+m 
+\o 
+cv 
+I- 
+E 8 w 
+VI 
+In 
+b 
+a3 
+b 
+m m a3 
+d 
+N 
+m cv 
+0 
+I- 
+N 
+N 
+I- 
+\o 
+I- 
+N 
+I- 
+In 
+In 
+r- 
+\o 
+0 
+11111* 
+m m 
+N 
+al 
+M 
+C 
+(d 
+& 
+w 
+z a 
+In 
+a3 
+\D 
+h 
+s" 
+N 
+w 
+F4 
+z 
+N 
+a3 
+\o 
+h 
+g 
+I 
+m 
+m 
+v) 
+3: 
+h 
+9 
+m 
+m 
+H 
+r: 
+h 
+9 
+m 
+m a c3 
+m m m 
+h 
+9 
+m 
+2 c 
+n 
+al 
+U 
+3 e 
+r( 
+E 1 
+m 
+9) 
+I- 
+a 
+m 
+0 
+5 
+s-i 
+W 
+la 
+U 
+(d 
+Q 
+Q 
+W 
+10 
+rn 
+al 
+&I 
+0 
+3 
+s 
+U 
+d 
+3 
+2 
+2 
+al 
+5 
+Q 
+rn 
+E 
+s 
+U 
+*r( 
+til 
+* 
+B-10 
+
+PDF PAGE 62
+C 
+t 
+i 
+G 
+: 
+< 
+c 
+: 
+P 
+C 
+P 
+P 
+t e 
+E 
+G 
+F 
+? 
+€ 
+€ 
+C 
+< 
+z 
+5 
+t- 
+€ 
+0 
+I- 
+N 
+m 
+I- 
+I- 
+F) 
+. 
+4 
+m m 
+a3 
+m 
+F) 
+m 
+I 
+. 
+4 
+h( 
+al 
+M 
+C a & 
+w m z 
+a3 
+\D 
+w 
+\o 
+m 
+0 
+m m 
+0 
+I 
+. 
+\D 
+h 
+? 
+N 
+w 
+Pq 
+z 
+m 
+a, 
+%-I 
+\D . 
+m 
+4 
+0 
+r( 
+I 
+. 
+I- 
+h 
+? 
+F) 
+2 z 
+m 
+Fs 
+d 
+\o 
+. 
+N 
+m 
+\D 
+m 
+0 
+I 
+. 
+3 
+\D 
+N 
+0 
+0 . 
+I 
+l-l 
+0 a, m 
+0 a3 
+rn m m 
+%-I 
+0 
+I 
+. 
+\o 
+I- 
+Fs 
+m 
+l-l 
+Q, 
+4 
+I 
+. hl 
+B w 
+VI 
+h 
+? m 
+F) 
+m 
+z 
+8-7 3 
+
+PDF PAGE 63
+0 
+4 
+03 
+4 
+0 
+d 
+03 
+03 
+0 
+0 
+d 
+. 
+0 * m 
+N 
+N 
+0 
+* 
+e 
+F-l 
+rn 
+N 
+m 
+N 
+0 
+Fl 
+d 
+a 
+a, 
+N 
+k 
+r- 
+a ln 
+4 
+I 
+. 
+Fl 
+0 
+p.hl 
+4 
+m 
+o\ 
+rl 
+4. 
+0 
+CJ 
+b 
+d 
+03 
+0 
+I 
+m a, 
+N 
+m 
+002 
+NO 
+r-N 
+0 
+\D 
+0 
+rD 
+o\ 
+b 
+m 
+\o 
+1 
+m rn 
+CJ 
+r- 
+\o 
+d 
+# 
+0 
+N 
+m 
+Fl 
+hh 
+gg 
+I1 
+NN 
+B-12 
+
+PDF PAGE 64
+m 
+\D 
+N 
+0 
+4 
+0 . 
+d 
+m 0 
+hl 
+I 
+0 
+v) 
+l-l 
+h 
+? 
+CJ 
+cI! 
+R 
+c3 
+4 
+0 
+0 
+r- 
+0 . 
+m 
+d 
+N 
+m m 
+0 
+I 
+m m 
+N 
+h 
+f 
+CJ 
+a z 
+0 
+0' 
+W 
+0 
+m 
+v) 
+0' 
+a m 
+hl 
+m 
+0 
+d 
+I 
+l-l 
+d 
+m 
+QI 
+M 
+C 
+(d 
+c-4 
+9 u 
+B-13 
+
+PDF PAGE 65
+REFERENCES 
+1. "Summary of the RTACF/MSFN Processing During the Apollo 8 Mission," 
+05952-H121 -RO-00, TRW Note No. 69-FMT-731, P. Norris , 4 February 
+1969. 
+2. "Apollo VI11 Guidance, Navigation and Control System Performance 
+Analysis Final Report," 11176-H200-RO-00, 15 April 1969. 
+\ 
+R-1 
+NASA - MSC 

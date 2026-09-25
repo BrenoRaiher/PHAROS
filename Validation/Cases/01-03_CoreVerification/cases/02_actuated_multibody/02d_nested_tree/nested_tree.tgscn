@@ -1,0 +1,89 @@
+format = "TGSCN"
+generator = "TGSimCore validation workspace generator"
+
+[scenario]
+name = "Case 2.4 - nested mixed-joint tree"
+start_utc = "2030-01-01T00:00:00Z"
+end_mode = "duration"
+duration_seconds = 10
+integrator = "fixed_step_rk4"
+maximum_integrator_step_seconds = 0.01
+initial_integrator_step_seconds = 0.0025000000000000001
+absolute_tolerance = 1.0000000000000001e-05
+relative_tolerance = 9.9999999999999998e-13
+output_mode = "fixed_interval"
+output_step_seconds = 0.01
+maximum_integration_steps = 5000000
+maximum_output_samples = 1000000
+
+[initial_state]
+position_icrf_m = [20, -10, 5]
+velocity_icrf_mps = [2, -1, 0.5]
+attitude_body_to_icrf = [1, 0, 0, 0]
+angular_velocity_body_radps = [0.050000000000000003, -0.02, 0.029999999999999999]
+
+[[components]]
+id = "11111111-1111-1111-1111-111111111111"
+name = "Bus"
+initial_mass_kg = 8
+minimum_mass_kg = 8
+variable_mass = false
+local_center_of_mass_m = [0, 0, 0]
+origin_body_m = [0, 0, 0]
+component_to_body = [1.0, 0.0, 0.0, 0.0]
+parent_component = ""
+parent_anchor_m = [0, 0, 0]
+child_anchor_m = [0, 0, 0]
+child_to_parent_zero_orientation = [1.0, 0.0, 0.0, 0.0]
+dofs = []
+inertia = { ixx_kgm2 = 3, iyy_kgm2 = 4, izz_kgm2 = 5, ixy_kgm2 = 0, ixz_kgm2 = 0, iyz_kgm2 = 0 }
+
+[[components]]
+id = "22222222-2222-2222-2222-222222222222"
+name = "Arm"
+initial_mass_kg = 2
+minimum_mass_kg = 2
+variable_mass = false
+local_center_of_mass_m = [0.45000000000000001, 0, 0]
+origin_body_m = [0.80000000000000004, 0, 0]
+component_to_body = [1.0, 0.0, 0.0, 0.0]
+parent_component = "Bus"
+parent_anchor_m = [0.80000000000000004, 0, 0]
+child_anchor_m = [0, 0, 0]
+child_to_parent_zero_orientation = [1.0, 0.0, 0.0, 0.0]
+dofs = [{ id = "dddddddd-dddd-dddd-dddd-dddddddddddd", name = "Nested Hinge", motion = "rotation", axis = [0.0, 0.0, 1.0], initial_coordinate = 14.323944878270581, initial_rate = 0, minimum_coordinate = -180, maximum_coordinate = 180, maximum_absolute_rate = 572.95779513082323, maximum_absolute_effort = 10.0 }]
+inertia = { ixx_kgm2 = 0.080000000000000002, iyy_kgm2 = 0.34999999999999998, izz_kgm2 = 0.34999999999999998, ixy_kgm2 = 0, ixz_kgm2 = 0, iyz_kgm2 = 0 }
+
+[[components]]
+id = "33333333-3333-3333-3333-333333333333"
+name = "Payload"
+initial_mass_kg = 1
+minimum_mass_kg = 1
+variable_mass = false
+local_center_of_mass_m = [0.14999999999999999, 0, 0]
+origin_body_m = [1.7, 0, 0]
+component_to_body = [1.0, 0.0, 0.0, 0.0]
+parent_component = "Arm"
+parent_anchor_m = [0.90000000000000002, 0, 0]
+child_anchor_m = [0, 0, 0]
+child_to_parent_zero_orientation = [1.0, 0.0, 0.0, 0.0]
+dofs = [{ id = "eeeeeeee-eeee-eeee-eeee-eeeeeeeeeeee", name = "Nested Slider", motion = "translation", axis = [1.0, 0.0, 0.0], initial_coordinate = 0.15, initial_rate = 0.0, minimum_coordinate = -2.0, maximum_coordinate = 2.0, maximum_absolute_rate = 10.0, maximum_absolute_effort = 10.0 }]
+inertia = { ixx_kgm2 = 0.040000000000000001, iyy_kgm2 = 0.050000000000000003, izz_kgm2 = 0.059999999999999998, ixy_kgm2 = 0, ixz_kgm2 = 0, iyz_kgm2 = 0 }
+
+[control]
+mode = "compiled_user_controller"
+unreal_controller_id = ""
+controller_dll_file = "../controllers/ActuatorValidationController.dll"
+
+[gravity]
+include_first_post_newtonian_correction = false
+bodies = []
+
+[srp]
+enabled = false
+
+[atmosphere]
+enabled = false
+
+[aerodynamics]
+enabled = false

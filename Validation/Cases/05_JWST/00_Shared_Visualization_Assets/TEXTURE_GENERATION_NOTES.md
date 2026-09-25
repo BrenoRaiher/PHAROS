@@ -1,0 +1,27 @@
+# JWST texture-generation notes
+
+The six current base-color source swatches were produced with the built-in OpenAI ImageGen tool in generation mode. The optical-gold and sunshield sources were regenerated after an in-engine visual audit, and a polished-aluminum source was added during the subsequent material-assignment audit. The user-supplied JWST concept artworks were supplied as color and material references, not as edit targets. The checked-in PBR maps were then derived locally and deterministically by the packaged build script.
+
+## `mirror_gold`
+
+Use case: stylized-concept. Asset type: seamless PBR base-color texture for the James Webb Space Telescope primary and secondary optical mirror faces in Unreal Engine. Input images: both images are color/material references only, not edit targets. Create a flat square material swatch filling the canvas: clean, smooth, luminous warm optical gold matching the mirror faces, with only extremely subtle low-amplitude tonal variation. The surface must read as polished vapor-deposited gold rather than rough foil, mustard paint, or olive metal. Even neutral illumination. No hexagons, panel seams, spacecraft parts, objects, labels, text, borders, directional highlights, shadows, reflections, perspective, wrinkles, crumpling, coarse grain, or baked lighting. Opposite edges visually tileable. 1024x1024.
+
+## `graphite_structure`
+
+Create one seamless square PBR base-color texture swatch for the James Webb Space Telescope primary-mirror backplane and black instrument-shield material, using the attached JWST concept artworks only as material and color references. Flat material sample filling the entire canvas: very dark charcoal graphite-black aerospace composite with restrained gunmetal undertones and extremely subtle woven/fine structural grain. No spacecraft parts, no rods, no panels, no objects, no labels, no text, no border, no lighting hotspot, no directional shadow, no perspective, no baked reflections. Tileable edges, evenly illuminated, physically plausible albedo suitable as a base-color texture for a moderately metallic Unreal Engine material. 1024x1024.
+
+## `sunshield_silver`
+
+Use case: stylized-concept. Asset type: seamless PBR base-color texture for the James Webb Space Telescope aluminized-Kapton sunshield in Unreal Engine. Input images: both images are color/material references only, not edit targets. Create a flat square material swatch filling the canvas: smooth bright silver aluminum with a restrained pale lavender and very faint blush-pink cast, matching Webb's sunshield. Include only sparse, broad, extremely shallow membrane undulations; the supplied STL already contains the physical folds. The material must read as thin reflective film, not frosted glass, ice, fabric, hammered metal, or heavily crumpled foil. Even neutral illumination. No spacecraft, shield outline, separate layers, objects, labels, text, borders, directional highlights, shadows, perspective, coarse grain, dense wrinkles, or baked reflections. Opposite edges visually tileable. Opacity will be controlled separately in Unreal. 1024x1024.
+
+## `thermal_blanket_rose_silver`
+
+Create one seamless square PBR base-color texture swatch for the James Webb Space Telescope spacecraft bus, covers, and thermal-blanket hardware, using the attached JWST concept artworks only as material and color references. Flat material sample filling the entire canvas: pale rose-silver and soft champagne metallic multilayer insulation, restrained quilted foil variation, fine shallow irregular wrinkles, clean precision aerospace appearance. No spacecraft parts, no panels, no seams as distinct objects, no labels, no text, no border, no lighting hotspot, no directional shadow, no perspective, no baked reflections. Tileable edges, evenly illuminated, physically plausible albedo suitable as a base-color texture for a metallic Unreal Engine material. 1024x1024.
+
+## `polished_aluminum_structure`
+
+Use case: stylized-concept. Asset type: seamless PBR base-color texture for the James Webb Space Telescope secondary-mirror support arms and precision structural mounts in Unreal Engine. Use the supplied NASA JWST concept art only as a material and color reference, not as an image-editing target. Create a flat square material swatch filling the entire canvas: clean neutral-to-cool polished aerospace aluminum/silver, bright but not white, with extremely subtle fine brushed variation and the smooth specular character of precision structural metal. No rods, parts, spacecraft, objects, labels, text, borders, directional highlights, shadows, reflections, perspective, wrinkles, foil, fabric, hammering, coarse scratches, or baked lighting. Use even neutral illumination, seamless tileable edges, and a 1024-by-1024 square composition.
+
+## `solar_cell_blue`
+
+Create one seamless square PBR base-color texture swatch for the James Webb Space Telescope solar-array cells, using the attached JWST concept artworks only as material and color references. Flat material sample filling the entire canvas: very dark navy-blue photovoltaic surface with subtle cobalt variation and a restrained fine micro-grid, clean aerospace finish. Do not draw a whole solar panel, frame, bus bars, spacecraft parts, objects, labels, text, border, lighting hotspot, directional shadow, perspective, or baked reflections. Tileable edges, evenly illuminated, physically plausible albedo suitable as a base-color texture for a semi-metallic Unreal Engine material. 1024x1024.

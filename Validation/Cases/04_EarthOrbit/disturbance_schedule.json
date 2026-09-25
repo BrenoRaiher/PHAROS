@@ -1,0 +1,43 @@
+{
+  "generator": "Python random.Random",
+  "seed": 202612,
+  "gimbal_lead_s": 60.0,
+  "recovery_holdoff_after_pulse_s": 5.0,
+  "events": [
+    {
+      "start_s": 850.0,
+      "yaw_rad": -0.647258325,
+      "pitch_rad": 0.471389488,
+      "throttle": 0.804061222,
+      "duration_s": 1.518065892
+    },
+    {
+      "start_s": 1850.0,
+      "yaw_rad": -0.011206874,
+      "pitch_rad": 0.510018163,
+      "throttle": 0.653585449,
+      "duration_s": 1.702822175
+    },
+    {
+      "start_s": 2850.0,
+      "yaw_rad": 0.222230751,
+      "pitch_rad": -0.023297373,
+      "throttle": 0.846204807,
+      "duration_s": 1.347288914
+    },
+    {
+      "start_s": 3850.0,
+      "yaw_rad": -0.168840199,
+      "pitch_rad": -0.012544623,
+      "throttle": 0.791735791,
+      "duration_s": 1.052048291
+    },
+    {
+      "start_s": 4850.0,
+      "yaw_rad": 0.942685556,
+      "pitch_rad": 0.135039171,
+      "throttle": 0.706362793,
+      "duration_s": 1.36750157
+    }
+  ]
+}

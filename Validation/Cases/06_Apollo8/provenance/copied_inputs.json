@@ -1,0 +1,462 @@
+[
+  {
+    "legacy_path": "data/earth_j2.csv",
+    "current_path": "data/earth_j2.csv",
+    "legacy_sha256": "f5d345c1797b998f502eea6cbf00df63188a109acaf650aedfbb9c45bf6c7766"
+  },
+  {
+    "legacy_path": "data/moon_boeing_r2.csv",
+    "current_path": "data/moon_boeing_r2.csv",
+    "legacy_sha256": "ea638094966dab492af1154b5a5d5e4fbd619f1222ed696d157749f208c36a87"
+  },
+  {
+    "legacy_path": "data/README.md",
+    "current_path": "data/README.md",
+    "legacy_sha256": "201b90005a6e8621a6b88a1487c05991834cdc9ff72063a7b1edcc52bb6544bf"
+  },
+  {
+    "legacy_path": "expected/apollo8_table5ii_events.csv",
+    "current_path": "expected/apollo8_table5ii_events.csv",
+    "legacy_sha256": "02a159de51ad5cd178bacbeee01696971d9135a8b6d30be4904c9ee0961a0cd1"
+  },
+  {
+    "legacy_path": "expected/apollo8_table5ii_truth_states.csv",
+    "current_path": "expected/apollo8_table5ii_truth_states.csv",
+    "legacy_sha256": "5070115c69735e3358deb24603b22ed252513f66b9717030504feda42cd31e40"
+  },
+  {
+    "legacy_path": "expected/burn_vectors.json",
+    "current_path": "expected/burn_vectors.json",
+    "legacy_sha256": "723caafbdc8c4f13e0950fe270926274364822784c7cfccf8cd1862b940af90c"
+  },
+  {
+    "legacy_path": "expected/burn_vectors.md",
+    "current_path": "expected/burn_vectors.md",
+    "legacy_sha256": "310929d39ffb6a1d54ada7398a49c9d2065325aae5a5911baa76b5c4726ff665"
+  },
+  {
+    "legacy_path": "expected/continuous_chain_end_state.json",
+    "current_path": "provenance/legacy_reference/expected/continuous_chain_end_state.json",
+    "legacy_sha256": "688e4edb44c2156f93a33716d66a0fe6a74dba2c475c96889b1606c9a6db130a"
+  },
+  {
+    "legacy_path": "expected/nby_direct_states_source.csv",
+    "current_path": "expected/nby_direct_states_source.csv",
+    "legacy_sha256": "39cdd187d081abc3eb614481f54301c2c6cf6d37efef2bdd229f9ea6af306fa2"
+  },
+  {
+    "legacy_path": "expected/nby_direct_truth_states.json",
+    "current_path": "expected/nby_direct_truth_states.json",
+    "legacy_sha256": "c53b9b981687eebb2a43f8254c2a7558e29fd0cae9b0b10b5c62abd9d874d66a"
+  },
+  {
+    "legacy_path": "expected/post_first_midcourse_body_query.csv",
+    "current_path": "expected/post_first_midcourse_body_query.csv",
+    "legacy_sha256": "4fec0577c920aa527b614e9133df481133d4d21efe888f3a10f08add147425bc"
+  },
+  {
+    "legacy_path": "expected/post_first_midcourse_body_query_output.csv",
+    "current_path": "expected/post_first_midcourse_body_query_output.csv",
+    "legacy_sha256": "d8148a320bc9118206c6e818cf8e235b1123716d70d2fefe10596068ebfa4992"
+  },
+  {
+    "legacy_path": "expected/post_first_midcourse_nav_update_truth_state.json",
+    "current_path": "expected/post_first_midcourse_nav_update_truth_state.json",
+    "legacy_sha256": "ff40956046ac2e2cddd860960a5a0da3c16c51091c508ffc6d55fa67e94900a6"
+  },
+  {
+    "legacy_path": "expected/post_third_midcourse_body_query_events.csv",
+    "current_path": "expected/post_third_midcourse_body_query_events.csv",
+    "legacy_sha256": "f667eb4237d48cff310bc0214ca989c578375756cf90087a82bf44a3e1790437"
+  },
+  {
+    "legacy_path": "expected/post_third_midcourse_body_query_output.csv",
+    "current_path": "expected/post_third_midcourse_body_query_output.csv",
+    "legacy_sha256": "23e23bf018b2fca9c788abbf8de557519a406cdbf04b1fb7ca7ab230830d99cb"
+  },
+  {
+    "legacy_path": "expected/post_third_midcourse_nav_update_truth_state.json",
+    "current_path": "expected/post_third_midcourse_nav_update_truth_state.json",
+    "legacy_sha256": "c61d64c9eed7bee49bd6629810945c8fef8ebea262570890a84daa1e06e1b366"
+  },
+  {
+    "legacy_path": "expected/SOURCE_CORRECTIONS.md",
+    "current_path": "expected/SOURCE_CORRECTIONS.md",
+    "legacy_sha256": "44d223e936b8fcac5f4cda2062b3d204d72a6d928c3e8e155806f8e62382c253"
+  },
+  {
+    "legacy_path": "sources/Apollo_8_Mission_Report_19700033031.pdf",
+    "current_path": "sources/Apollo_8_Mission_Report_19700033031.pdf",
+    "legacy_sha256": "da1ad9834b9d6906931bc28717be29a01f74a6de99151d86ceb165ef37157d03"
+  },
+  {
+    "legacy_path": "sources/Apollo_8_Trajectory_Reconstruction_Supplement_1.pdf",
+    "current_path": "sources/Apollo_8_Trajectory_Reconstruction_Supplement_1.pdf",
+    "legacy_sha256": "4ee0c8f952ff39352769a9dd3776575d596126b100cf50227d0a9335ba255b72"
+  },
+  {
+    "legacy_path": "BACKEND_FINDINGS.md",
+    "current_path": "provenance/legacy_reference/BACKEND_FINDINGS.md",
+    "legacy_sha256": "6d526763ecb431b7870521c346ad770cf34bb04c061311ae73f5d7e42b9b7463"
+  },
+  {
+    "legacy_path": "FINAL_VALIDATION_REPORT.md",
+    "current_path": "provenance/legacy_reference/FINAL_VALIDATION_REPORT.md",
+    "legacy_sha256": "72e6c50cb4ebeaed97d3bcbbc91ed88d6d267e1389c4ea19a38aaaf7574b3415"
+  },
+  {
+    "legacy_path": "README.md",
+    "current_path": "provenance/legacy_reference/README.md",
+    "legacy_sha256": "a7d54927c43f1cf2227cfa45deb856ca3f12425b4e420186c293f74d7e7d6ab6"
+  },
+  {
+    "legacy_path": "README_VISUAL_APPEARANCE_VARIANTS.md",
+    "current_path": "provenance/legacy_reference/README_VISUAL_APPEARANCE_VARIANTS.md",
+    "legacy_sha256": "653cd8c1614d57f3168a97b672db59d068e1405118283afdb9b1e65f4e7b797f"
+  },
+  {
+    "legacy_path": "final_audit.json",
+    "current_path": "provenance/legacy_reference/final_audit.json",
+    "legacy_sha256": "941badd469eeb646bd1f639b5a02c6b5722aa097eba1fc517d97bf3bd1731ae3"
+  },
+  {
+    "legacy_path": "tools/ApolloBurnController.cpp",
+    "current_path": "provenance/legacy_reference/tools/ApolloBurnController.cpp",
+    "legacy_sha256": "405b4d99ec77ed839b34ccfcb3ebbc050b537a2cf63e23fd58066e39a2253de2"
+  },
+  {
+    "legacy_path": "tools/ApolloBurnController.cpp",
+    "current_path": "tools/ApolloBurnController.cpp",
+    "legacy_sha256": "405b4d99ec77ed839b34ccfcb3ebbc050b537a2cf63e23fd58066e39a2253de2"
+  },
+  {
+    "legacy_path": "tools/ApolloMassTrimController.cpp",
+    "current_path": "provenance/legacy_reference/tools/ApolloMassTrimController.cpp",
+    "legacy_sha256": "c38051b65eb6af526bd209f12f5e35755ab62a7029a018fe07712c53d54a8ff7"
+  },
+  {
+    "legacy_path": "tools/ApolloMassTrimController.cpp",
+    "current_path": "tools/ApolloMassTrimController.cpp",
+    "legacy_sha256": "c38051b65eb6af526bd209f12f5e35755ab62a7029a018fe07712c53d54a8ff7"
+  },
+  {
+    "legacy_path": "tools/apollo_event_converter.cpp",
+    "current_path": "provenance/legacy_reference/tools/apollo_event_converter.cpp",
+    "legacy_sha256": "430fddfa96e1f43ac787e4697670a83a91b82baf10abc387981dbc9f07609f4c"
+  },
+  {
+    "legacy_path": "tools/apollo_event_converter_frames.cpp",
+    "current_path": "provenance/legacy_reference/tools/apollo_event_converter_frames.cpp",
+    "legacy_sha256": "d95bb42afed8e8d58c8b7db75a338be166561a9bed0cf296038896cdeeba3b95"
+  },
+  {
+    "legacy_path": "tools/apollo_event_converter_frames.cpp",
+    "current_path": "tools/apollo_event_converter_frames.cpp",
+    "legacy_sha256": "d95bb42afed8e8d58c8b7db75a338be166561a9bed0cf296038896cdeeba3b95"
+  },
+  {
+    "legacy_path": "tools/continuous_chain.py",
+    "current_path": "provenance/legacy_reference/tools/continuous_chain.py",
+    "legacy_sha256": "da1fe6fec438d4df4edea3ce1c095c1e4af967a251d56e608396638290e47256"
+  },
+  {
+    "legacy_path": "tools/continuous_chain.py",
+    "current_path": "tools/continuous_chain.py",
+    "legacy_sha256": "da1fe6fec438d4df4edea3ce1c095c1e4af967a251d56e608396638290e47256"
+  },
+  {
+    "legacy_path": "tools/convert_nby_state.py",
+    "current_path": "provenance/legacy_reference/tools/convert_nby_state.py",
+    "legacy_sha256": "b7f1f9ad23f4c4b48ec281fc11adb06322ee627274b01a872a294834e20b0574"
+  },
+  {
+    "legacy_path": "tools/convert_nby_state.py",
+    "current_path": "tools/convert_nby_state.py",
+    "legacy_sha256": "b7f1f9ad23f4c4b48ec281fc11adb06322ee627274b01a872a294834e20b0574"
+  },
+  {
+    "legacy_path": "tools/final_audit.py",
+    "current_path": "provenance/legacy_reference/tools/final_audit.py",
+    "legacy_sha256": "a1515ef0e69dc0bf4355f1e73e5f3a826b057a34e04594308e2e4f3d5e9095e9"
+  },
+  {
+    "legacy_path": "tools/optimize_transearth_injection.py",
+    "current_path": "provenance/legacy_reference/tools/optimize_transearth_injection.py",
+    "legacy_sha256": "c338c69035e06165926e05cffd522bbcc7035f4a4588688508f6c54867f6776c"
+  },
+  {
+    "legacy_path": "tools/optimize_transearth_injection_post_midcourse.py",
+    "current_path": "provenance/legacy_reference/tools/optimize_transearth_injection_post_midcourse.py",
+    "legacy_sha256": "33507a8795d9f0e9259d9c961bac3b5f80c8a63653158241349d353b84416ef0"
+  },
+  {
+    "legacy_path": "tools/optimize_water_dump5.py",
+    "current_path": "provenance/legacy_reference/tools/optimize_water_dump5.py",
+    "legacy_sha256": "9d46dfb152974a125c0b844b5fb8af8f7172cd02ad9ea0b8a005a86f9053005e"
+  },
+  {
+    "legacy_path": "segments/01_post_separation_to_first_midcourse/analysis/endpoint_comparison.json",
+    "current_path": "provenance/legacy_reference/segments/01/analysis/endpoint_comparison.json",
+    "legacy_sha256": "749022b4b6bf50dcbdf46a6a59cfe531f1a1adf002cd13102156225b8bf3f98d"
+  },
+  {
+    "legacy_path": "segments/01_post_separation_to_first_midcourse/scenario/apollo8_like_01_post_separation_to_first_midcourse.tgscn",
+    "current_path": "provenance/templates/01.tgscn",
+    "legacy_sha256": "66c582f7e1d05fdd7108ac7ffd40b92b0710aa7770ea34cafe203e00f916bc04"
+  },
+  {
+    "legacy_path": "segments/01_post_separation_to_first_midcourse/scenario/apollo8_like_01_post_separation_to_first_midcourse_with_visual_appearance.tgscn",
+    "current_path": "provenance/templates/01_visual.tgscn",
+    "legacy_sha256": "e4ac7b09c9adeb95372f546ee8fd837101e91418a693f293865afe79192cffc5"
+  },
+  {
+    "legacy_path": "segments/01_post_separation_to_first_midcourse/ASSUMPTIONS.md",
+    "current_path": "provenance/legacy_reference/segments/01/ASSUMPTIONS.md",
+    "legacy_sha256": "fe27869485209b5e2df8d4f4706801b5a861a4b1ad01b6c05a5cb76cd73f6d67"
+  },
+  {
+    "legacy_path": "segments/02_first_midcourse_controlled_maneuver/analysis/analysis.json",
+    "current_path": "provenance/legacy_reference/segments/02/analysis/analysis.json",
+    "legacy_sha256": "58cdebd057f78ad963e69e8d8eb10cbb64eb834a252e5dd7fbf3de15e314f8c4"
+  },
+  {
+    "legacy_path": "segments/02_first_midcourse_controlled_maneuver/controllers/BurnConfig.h",
+    "current_path": "provenance/legacy_reference/segments/02/controllers/BurnConfig.h",
+    "legacy_sha256": "7a4dd2c73b95b899c7ef0d4b9398eef976780969255569cbb196d9a447e2337a"
+  },
+  {
+    "legacy_path": "segments/02_first_midcourse_controlled_maneuver/controllers/controller_parameters.json",
+    "current_path": "provenance/legacy_reference/segments/02/controllers/controller_parameters.json",
+    "legacy_sha256": "271f00f3e1fd3a5ef29deb64dbfee4fa269377450661aaaebb58b9965ba1e17e"
+  },
+  {
+    "legacy_path": "segments/02_first_midcourse_controlled_maneuver/scenario/apollo8_like_02_first_midcourse_controlled_maneuver.tgscn",
+    "current_path": "provenance/templates/02.tgscn",
+    "legacy_sha256": "e1d7f090714b177509ce3c57a536b7e8424031d5f811a8db52b722edb070786c"
+  },
+  {
+    "legacy_path": "segments/02_first_midcourse_controlled_maneuver/scenario/apollo8_like_02_first_midcourse_controlled_maneuver_with_visual_appearance.tgscn",
+    "current_path": "provenance/templates/02_visual.tgscn",
+    "legacy_sha256": "6a7b1644007c724a12be52d15fbc3cefefabcd930cbfc90af8af9bca2c9f1fc8"
+  },
+  {
+    "legacy_path": "segments/03_translunar_coast_to_second_midcourse_attitude_start/analysis/analysis.json",
+    "current_path": "provenance/legacy_reference/segments/03/analysis/analysis.json",
+    "legacy_sha256": "c1805b925e5d2fd9efb3753bafecb9015b2c6468469260bb0b874a982b3bb7d6"
+  },
+  {
+    "legacy_path": "segments/03_translunar_coast_to_second_midcourse_attitude_start/scenario/apollo8_like_03_translunar_coast_to_second_midcourse_attitude_start.tgscn",
+    "current_path": "provenance/templates/03.tgscn",
+    "legacy_sha256": "f5fe6c35e5b261426fadc91686e92d8d5a916bd0bfeca254bc17de9a3263e306"
+  },
+  {
+    "legacy_path": "segments/03_translunar_coast_to_second_midcourse_attitude_start/scenario/apollo8_like_03_translunar_coast_to_second_midcourse_attitude_start_with_visual_appearance.tgscn",
+    "current_path": "provenance/templates/03_visual.tgscn",
+    "legacy_sha256": "31cd722d8e95e057b8afc9677aac942ffd97ad95e1e7eb9a2eb70a537c49de57"
+  },
+  {
+    "legacy_path": "segments/04_second_midcourse_controlled_maneuver/analysis/analysis.json",
+    "current_path": "provenance/legacy_reference/segments/04/analysis/analysis.json",
+    "legacy_sha256": "43cec48db10e0d11de57e8f5d7960482804519827cd905be78d86c3c53f8f881"
+  },
+  {
+    "legacy_path": "segments/04_second_midcourse_controlled_maneuver/controllers/BurnConfig.h",
+    "current_path": "provenance/legacy_reference/segments/04/controllers/BurnConfig.h",
+    "legacy_sha256": "c4144efc3f955382fc9b1afe5a0c14cfd246eaea0b0f1e6eb1809ebd4e93dd20"
+  },
+  {
+    "legacy_path": "segments/04_second_midcourse_controlled_maneuver/controllers/controller_parameters.json",
+    "current_path": "provenance/legacy_reference/segments/04/controllers/controller_parameters.json",
+    "legacy_sha256": "0900a50fd74014e70bcb321e8633f4b44d25723e57e470b35649b3bab285afc6"
+  },
+  {
+    "legacy_path": "segments/04_second_midcourse_controlled_maneuver/scenario/apollo8_like_04_second_midcourse_controlled_maneuver.tgscn",
+    "current_path": "provenance/templates/04.tgscn",
+    "legacy_sha256": "8219777fd6fd176479f053013a90adcfd00e7f0a9a0b077009323e3601ac89a5"
+  },
+  {
+    "legacy_path": "segments/04_second_midcourse_controlled_maneuver/scenario/apollo8_like_04_second_midcourse_controlled_maneuver_with_visual_appearance.tgscn",
+    "current_path": "provenance/templates/04_visual.tgscn",
+    "legacy_sha256": "39f5a06e3e4c198d58754a9378ce6a233456bf4c5c5f913990359d9685795a77"
+  },
+  {
+    "legacy_path": "segments/05_lunar_approach_to_lunar_orbit_insertion_attitude_start/analysis/analysis.json",
+    "current_path": "provenance/legacy_reference/segments/05/analysis/analysis.json",
+    "legacy_sha256": "c1805b925e5d2fd9efb3753bafecb9015b2c6468469260bb0b874a982b3bb7d6"
+  },
+  {
+    "legacy_path": "segments/05_lunar_approach_to_lunar_orbit_insertion_attitude_start/scenario/apollo8_like_05_lunar_approach_to_lunar_orbit_insertion_attitude_start.tgscn",
+    "current_path": "provenance/templates/05.tgscn",
+    "legacy_sha256": "6539b98099402ba4336f4f8ff85f798a9a612bd42b8304a6d9856ab15a763029"
+  },
+  {
+    "legacy_path": "segments/05_lunar_approach_to_lunar_orbit_insertion_attitude_start/scenario/apollo8_like_05_lunar_approach_to_lunar_orbit_insertion_attitude_start_with_visual_appearance.tgscn",
+    "current_path": "provenance/templates/05_visual.tgscn",
+    "legacy_sha256": "d2be00d04cbb7e16c731e27c8ec4dc4c3c3b9ba2295697159c899041d23304ae"
+  },
+  {
+    "legacy_path": "segments/06_lunar_orbit_insertion_controlled_maneuver/analysis/analysis.json",
+    "current_path": "provenance/legacy_reference/segments/06/analysis/analysis.json",
+    "legacy_sha256": "0b92bec5adeee0c83d7d5c31e712456986cdaa78bb96c19cde07305a3e227dca"
+  },
+  {
+    "legacy_path": "segments/06_lunar_orbit_insertion_controlled_maneuver/controllers/BurnConfig.h",
+    "current_path": "provenance/legacy_reference/segments/06/controllers/BurnConfig.h",
+    "legacy_sha256": "25fcb9a6612090f4efc7cc0facb574d4bc0531487a9f87fd2497c6d823d4e4ff"
+  },
+  {
+    "legacy_path": "segments/06_lunar_orbit_insertion_controlled_maneuver/controllers/controller_parameters.json",
+    "current_path": "provenance/legacy_reference/segments/06/controllers/controller_parameters.json",
+    "legacy_sha256": "369e1b6863c861c1fae013bd6ab2b735953b102b7d6dff1bbc543980d481188b"
+  },
+  {
+    "legacy_path": "segments/06_lunar_orbit_insertion_controlled_maneuver/scenario/apollo8_like_06_lunar_orbit_insertion_controlled_maneuver.tgscn",
+    "current_path": "provenance/templates/06.tgscn",
+    "legacy_sha256": "f2b9c4d653260a8355e26e46e086dd77ca9ff5fa99f429a739c29299b91cf365"
+  },
+  {
+    "legacy_path": "segments/06_lunar_orbit_insertion_controlled_maneuver/scenario/apollo8_like_06_lunar_orbit_insertion_controlled_maneuver_with_visual_appearance.tgscn",
+    "current_path": "provenance/templates/06_visual.tgscn",
+    "legacy_sha256": "18e6bedae7bdc0fc02ad246643f60525416817f63348829bfb34ab50e1bb44ca"
+  },
+  {
+    "legacy_path": "segments/07_lunar_orbit_to_lunar_orbit_circularization_attitude_start/analysis/analysis.json",
+    "current_path": "provenance/legacy_reference/segments/07/analysis/analysis.json",
+    "legacy_sha256": "c1805b925e5d2fd9efb3753bafecb9015b2c6468469260bb0b874a982b3bb7d6"
+  },
+  {
+    "legacy_path": "segments/07_lunar_orbit_to_lunar_orbit_circularization_attitude_start/scenario/apollo8_like_07_lunar_orbit_to_lunar_orbit_circularization_attitude_start.tgscn",
+    "current_path": "provenance/templates/07.tgscn",
+    "legacy_sha256": "857abb805ff9407969dc3e7dd0aff2c88c2785b22a9a3a72bed545301f73b2a3"
+  },
+  {
+    "legacy_path": "segments/07_lunar_orbit_to_lunar_orbit_circularization_attitude_start/scenario/apollo8_like_07_lunar_orbit_to_lunar_orbit_circularization_attitude_start_with_visual_appearance.tgscn",
+    "current_path": "provenance/templates/07_visual.tgscn",
+    "legacy_sha256": "e7b01bf8036a47e47150dfd2782877e440fdff763c6cbe0608b5d9ee859999c4"
+  },
+  {
+    "legacy_path": "segments/08_lunar_orbit_circularization_controlled_maneuver/analysis/analysis.json",
+    "current_path": "provenance/legacy_reference/segments/08/analysis/analysis.json",
+    "legacy_sha256": "0a25994961578572d0de370636a8007af5feac77a1d3918d13bde334d120c05f"
+  },
+  {
+    "legacy_path": "segments/08_lunar_orbit_circularization_controlled_maneuver/controllers/BurnConfig.h",
+    "current_path": "provenance/legacy_reference/segments/08/controllers/BurnConfig.h",
+    "legacy_sha256": "fd1e250aa074ef787717ed84f9d2fa8dceffef551cefe7257d79b7710015b1c5"
+  },
+  {
+    "legacy_path": "segments/08_lunar_orbit_circularization_controlled_maneuver/controllers/controller_parameters.json",
+    "current_path": "provenance/legacy_reference/segments/08/controllers/controller_parameters.json",
+    "legacy_sha256": "d9f2cf67717e8f5f6c680eec172b2e8d400e70f5b2d50913df1bfc7ba561da5f"
+  },
+  {
+    "legacy_path": "segments/08_lunar_orbit_circularization_controlled_maneuver/scenario/apollo8_like_08_lunar_orbit_circularization_controlled_maneuver.tgscn",
+    "current_path": "provenance/templates/08.tgscn",
+    "legacy_sha256": "5c689ca0f2cf27b3c8f72f70db2e72eaef35ef1f3b3acabb539646341e913b80"
+  },
+  {
+    "legacy_path": "segments/08_lunar_orbit_circularization_controlled_maneuver/scenario/apollo8_like_08_lunar_orbit_circularization_controlled_maneuver_with_visual_appearance.tgscn",
+    "current_path": "provenance/templates/08_visual.tgscn",
+    "legacy_sha256": "13166f37ade5759259c75c65655eab73c3139055b9890f27b48f0fc658060fdc"
+  },
+  {
+    "legacy_path": "segments/09_lunar_orbit_to_transearth_injection_attitude_start/analysis/analysis.json",
+    "current_path": "provenance/legacy_reference/segments/09/analysis/analysis.json",
+    "legacy_sha256": "c1805b925e5d2fd9efb3753bafecb9015b2c6468469260bb0b874a982b3bb7d6"
+  },
+  {
+    "legacy_path": "segments/09_lunar_orbit_to_transearth_injection_attitude_start/scenario/apollo8_like_09_lunar_orbit_to_transearth_injection_attitude_start.tgscn",
+    "current_path": "provenance/templates/09.tgscn",
+    "legacy_sha256": "1b39550379f44d3d637fd5a3ac1ba622e2018ee4afe1462318191e1c6cc48a4b"
+  },
+  {
+    "legacy_path": "segments/09_lunar_orbit_to_transearth_injection_attitude_start/scenario/apollo8_like_09_lunar_orbit_to_transearth_injection_attitude_start_with_visual_appearance.tgscn",
+    "current_path": "provenance/templates/09_visual.tgscn",
+    "legacy_sha256": "6e36f91ffff8578f2945d09cee8e382d3815b41f5d520da3a4f18d6ddf474e42"
+  },
+  {
+    "legacy_path": "segments/10_transearth_injection_controlled_maneuver/analysis/analysis.json",
+    "current_path": "provenance/legacy_reference/segments/10/analysis/analysis.json",
+    "legacy_sha256": "b18bb2d5f4634fa888cb500791814db88952515343e049a726fafdd211d8bb20"
+  },
+  {
+    "legacy_path": "segments/10_transearth_injection_controlled_maneuver/controllers/BurnConfig.h",
+    "current_path": "provenance/legacy_reference/segments/10/controllers/BurnConfig.h",
+    "legacy_sha256": "c6e104b43105253966a6801227c5b2b52241e561b7ac7aeb50f8ec8ba4540341"
+  },
+  {
+    "legacy_path": "segments/10_transearth_injection_controlled_maneuver/controllers/controller_parameters.json",
+    "current_path": "provenance/legacy_reference/segments/10/controllers/controller_parameters.json",
+    "legacy_sha256": "ce32ec013dbaba9a22f620197d9a06a06040737b23cee866a5b1f8df4f93f424"
+  },
+  {
+    "legacy_path": "segments/10_transearth_injection_controlled_maneuver/scenario/apollo8_like_10_transearth_injection_controlled_maneuver.tgscn",
+    "current_path": "provenance/templates/10.tgscn",
+    "legacy_sha256": "0e9bbb92717104b91b5088e530b49e122b7b8becd8965ebc0c2ce1ec83f2425c"
+  },
+  {
+    "legacy_path": "segments/10_transearth_injection_controlled_maneuver/scenario/apollo8_like_10_transearth_injection_controlled_maneuver_with_visual_appearance.tgscn",
+    "current_path": "provenance/templates/10_visual.tgscn",
+    "legacy_sha256": "77fb414d842ee1f2188c39dc13ce92e9a5695d3f80fdaa575b0a34f31035373f"
+  },
+  {
+    "legacy_path": "segments/11_transearth_coast_to_third_midcourse_attitude_start/analysis/analysis.json",
+    "current_path": "provenance/legacy_reference/segments/11/analysis/analysis.json",
+    "legacy_sha256": "c1805b925e5d2fd9efb3753bafecb9015b2c6468469260bb0b874a982b3bb7d6"
+  },
+  {
+    "legacy_path": "segments/11_transearth_coast_to_third_midcourse_attitude_start/scenario/apollo8_like_11_transearth_coast_to_third_midcourse_attitude_start.tgscn",
+    "current_path": "provenance/templates/11.tgscn",
+    "legacy_sha256": "620470077b656f9857ff2d391176a3ad2e5fa2948c127ad504037e6e4d125b71"
+  },
+  {
+    "legacy_path": "segments/11_transearth_coast_to_third_midcourse_attitude_start/scenario/apollo8_like_11_transearth_coast_to_third_midcourse_attitude_start_with_visual_appearance.tgscn",
+    "current_path": "provenance/templates/11_visual.tgscn",
+    "legacy_sha256": "20e1535d899d5057d7ad8641358faba2f75e7435c5fcd89c561125cc5fabd80b"
+  },
+  {
+    "legacy_path": "segments/12_third_midcourse_controlled_maneuver/analysis/analysis.json",
+    "current_path": "provenance/legacy_reference/segments/12/analysis/analysis.json",
+    "legacy_sha256": "f2eeaf7622046d1588f1c2fd18e7399334e1c8501785267da403452602da267f"
+  },
+  {
+    "legacy_path": "segments/12_third_midcourse_controlled_maneuver/controllers/BurnConfig.h",
+    "current_path": "provenance/legacy_reference/segments/12/controllers/BurnConfig.h",
+    "legacy_sha256": "b6d849aa7729a353b73840bc03d417694cdd50c269876b54a2da89ef77539462"
+  },
+  {
+    "legacy_path": "segments/12_third_midcourse_controlled_maneuver/controllers/controller_parameters.json",
+    "current_path": "provenance/legacy_reference/segments/12/controllers/controller_parameters.json",
+    "legacy_sha256": "025d8fdcde2d03938857d216c41aaf24e48c2e2834da12efcf1f161bd0b42b5f"
+  },
+  {
+    "legacy_path": "segments/12_third_midcourse_controlled_maneuver/scenario/apollo8_like_12_third_midcourse_controlled_maneuver.tgscn",
+    "current_path": "provenance/templates/12.tgscn",
+    "legacy_sha256": "db8a03c4f517d1f3ea19f36e936d151b373d8a46771023b9ee6fdc9a229a75a8"
+  },
+  {
+    "legacy_path": "segments/12_third_midcourse_controlled_maneuver/scenario/apollo8_like_12_third_midcourse_controlled_maneuver_with_visual_appearance.tgscn",
+    "current_path": "provenance/templates/12_visual.tgscn",
+    "legacy_sha256": "f42b588c9a31ac413fc534062e8f90102c23d9b0dda46f2815efbe635543f982"
+  },
+  {
+    "legacy_path": "segments/13_transearth_coast_to_csm_separation/analysis/analysis.json",
+    "current_path": "provenance/legacy_reference/segments/13/analysis/analysis.json",
+    "legacy_sha256": "c1805b925e5d2fd9efb3753bafecb9015b2c6468469260bb0b874a982b3bb7d6"
+  },
+  {
+    "legacy_path": "segments/13_transearth_coast_to_csm_separation/controllers/MassTrimConfig.h",
+    "current_path": "provenance/legacy_reference/segments/13/controllers/MassTrimConfig.h",
+    "legacy_sha256": "9c3c05f603b4d495ac7b78d73cd241fe26f814c38836b2af5adbf94cf9ccf911"
+  },
+  {
+    "legacy_path": "segments/13_transearth_coast_to_csm_separation/scenario/apollo8_like_13_transearth_coast_to_csm_separation.tgscn",
+    "current_path": "provenance/templates/13.tgscn",
+    "legacy_sha256": "12d3607a7e342fad8b6bfea540290b5bd89f17e6c18644f33440e8eac49342fb"
+  },
+  {
+    "legacy_path": "segments/13_transearth_coast_to_csm_separation/scenario/apollo8_like_13_transearth_coast_to_csm_separation_with_visual_appearance.tgscn",
+    "current_path": "provenance/templates/13_visual.tgscn",
+    "legacy_sha256": "a69bc00e87604e4b2012cf49f2f32d97b82eb617e4de133231f2fcf588133175"
+  }
+]

@@ -1,0 +1,42 @@
+MISSION_NAME                 = "CASSINI"
+SPACECRAFT_NAME              = "CASSINI"
+DATA_SET_ID                  = "SPICE_SPK_FILE"
+KERNEL_TYPE_ID               = "SPK"
+PRODUCT_ID                   = "971103_SCEPH_LP0_SP0.xsp"
+PRODUCT_CREATION_TIME        = 1997-11-03T13:15:07
+PRODUCER_ID                  = "CASSINI_NAV_TEAM"
+MISSION_PHASE_NAME           = "LAUNCH"
+PRODUCT_VERSION_TYPE         = "TEST"
+PLATFORM_OR_MOUNTING_NAME    = "N/A"
+START_TIME                   = 1997-10-15T09:34:40
+STOP_TIME                    = 2004-07-31T23:58:57
+SPACECRAFT_CLOCK_START_COUNT = 0
+SPACECRAFT_CLOCK_STOP_COUNT  = 0
+TARGET_NAME                  = "CASSINI"
+INSTRUMENT_NAME              = "N/A"
+INSTRUMENT_ID                = "N/A"
+SOURCE_PRODUCT_ID            = "UNK"
+NOTE                         = "SPICE transfer format SPK file."
+ 
+; 971103_SCEPH_LP0_SP0.SPK LOG FILE
+;
+; Created 1997-11-03/13:14:58.00.
+;
+; BEGIN NIOSPK COMMANDS
+ 
+SPK_FILE            = 971103_SCEPH_LP0_SP0.SPK
+  SOURCE_NIO_FILE   = 971103_SCEPH_LP0_SP0.NIO
+    BODIES          = -82
+    BEGIN_TIME      = CAL-ET 1997 OCT 15 09:35:42.881
+    END_TIME        = CAL-ET 2004 AUG 01 00:00:00.000
+ 
+; END NIOSPK COMMANDS
+ 
+Brief.  Version: 2.1        (SPICE Toolkit N0051)
+ 
+ 
+Summary for: 971103_SCEPH_LP0_SP0.bsp
+ 
+Bodies       Start of Interval (ET)          End of Interval (ET)
+-------      -----------------------------   -----------------------------
+-82 CASSINI  1997 OCT 15 09:35:42.882        2004 AUG 01 00:00:00.000

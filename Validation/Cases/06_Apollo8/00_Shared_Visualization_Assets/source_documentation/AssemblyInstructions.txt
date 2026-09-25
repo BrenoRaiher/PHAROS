@@ -1,0 +1,418 @@
+APOLLO 8 COMMAND AND SERVICE MODULE
+ASSEMBLY INSTRUCTIONS
+=====================================
+
+PACKAGE PURPOSE
+---------------
+This package is a simulator-oriented reconstruction made from the Pinshape
+"Apollo Command and Service Module" STL set by lowracer.
+
+The original downloaded STLs were separated and placed individually for
+3D printing, so their original assembly transforms were not preserved.
+
+This package:
+  * rescales the exterior Apollo 8 parts to FULL-SIZE CENTIMETERS;
+  * removes the print-bed translations;
+  * rotates parts into a single Apollo spacecraft body-axis convention;
+  * supplies four individually oriented SM RCS quad files;
+  * supplies a deployed Apollo 8 high-gain antenna reconstruction.
+
+SOURCE MODEL LICENSE
+--------------------
+Original model: "Apollo Command and Service Module" by lowracer, Pinshape.
+The Pinshape page identifies it as Creative Commons Attribution-ShareAlike.
+These transformed meshes are therefore derivative/adapted files and must
+retain attribution and ShareAlike terms.
+
+MODEL SCALE
+-----------
+The source STL headers identify the source coordinates as millimeters.
+
+Calibration used here:
+    Pinshape CM heat-shield diameter = 133.49 source mm
+    Apollo CM diameter               = 154 in = 391.16 cm
+
+Therefore:
+    1 source STL coordinate unit = 2.930256948 cm in this package.
+
+ALL STLs IN THIS ZIP USE CENTIMETERS.
+
+COMMON APOLLO BODY FRAME
+------------------------
+Package origin:
+    Center of the Command Module aft heat-shield / CM-SM mating plane.
+
+Axes:
+    +X = forward, toward the Command Module nose
+    +Y = spacecraft starboard / crew right
+    +Z = crew-feet direction
+
+This is a right-handed coordinate system.
+
+IMPORTANT: TWO WAYS TO ASSEMBLE
+-------------------------------
+
+A) EASIEST: CommonFrame_Baked/
+   Every STL already has its rotation AND translation baked into its vertices.
+
+   Import every STL with:
+       Position = (0, 0, 0) cm
+       Rotation = identity
+       Scale    = 1
+
+   The CSM assembles automatically.
+
+B) COMPONENT ORIGINS: ComponentLocal/
+   Every STL is centered on its OWN bounding-box center and already rotated
+   into Apollo body axes.
+
+   Import each file with:
+       Rotation = identity
+       Scale    = 1
+
+   Then apply ONLY the Position listed below.
+
+   This is the recommended folder if your simulator needs an independent
+   component origin for articulated/dynamic components.
+
+
+COMPONENT PLACEMENT TABLE
+-------------------------
+
+CM_Upper_Shell.stl
+    Position [cm] = (104.815, 0.000, 0.000)
+    Rotation      = Identity  (orientation already baked into ComponentLocal STL)
+    Confidence    = HIGH
+
+CM_Heat_Shield.stl
+    Position [cm] = (24.043, 0.000, 0.000)
+    Rotation      = Identity  (orientation already baked into ComponentLocal STL)
+    Confidence    = HIGH
+
+SM_Body.stl
+    Position [cm] = (-229.293, 0.000, 0.000)
+    Rotation      = Identity  (orientation already baked into ComponentLocal STL)
+    Confidence    = HIGH
+
+SM_Lower_End.stl
+    Position [cm] = (-428.594, 0.000, 0.000)
+    Rotation      = Identity  (orientation already baked into ComponentLocal STL)
+    Confidence    = HIGH
+
+SM_Engine.stl
+    Position [cm] = (-598.095, 0.000, 0.000)
+    Rotation      = Identity  (orientation already baked into ComponentLocal STL)
+    Confidence    = HIGH
+
+CM_Hatch.stl
+    Position [cm] = (92.723, 76.399, -114.323)
+    Rotation      = Identity  (orientation already baked into ComponentLocal STL)
+    Confidence    = HIGH visual fit / aperture-geometry aligned
+
+SM_RCS_Quad_A.stl
+    Position [cm] = (-104.394, -26.503, -208.328)
+    Rotation      = Identity  (orientation already baked into ComponentLocal STL)
+    Confidence    = HIGH for quad clocking/placement reference
+
+SM_RCS_Quad_B.stl
+    Position [cm] = (-104.394, 208.328, -26.503)
+    Rotation      = Identity  (orientation already baked into ComponentLocal STL)
+    Confidence    = HIGH for quad clocking/placement reference
+
+SM_RCS_Quad_C.stl
+    Position [cm] = (-104.394, 26.503, 208.328)
+    Rotation      = Identity  (orientation already baked into ComponentLocal STL)
+    Confidence    = HIGH for quad clocking/placement reference
+
+SM_RCS_Quad_D.stl
+    Position [cm] = (-104.394, -208.328, 26.503)
+    Rotation      = Identity  (orientation already baked into ComponentLocal STL)
+    Confidence    = HIGH for quad clocking/placement reference
+
+SM_High_Gain_Antenna_DEPLOYED.stl
+    Position [cm] = (-434.350, -123.409, 242.864)
+    Rotation      = Identity  (orientation already baked into ComponentLocal STL)
+    Confidence    = MEDIUM: deployed angle exact; hinge Y/Z reconstructed
+
+SM_CM_Umbilical.stl
+    Position [cm] = (0.000, 0.000, 190.000)
+    Rotation      = Identity  (orientation already baked into ComponentLocal STL)
+    Confidence    = MEDIUM/LOW: cosmetic placement
+
+
+PRIMARY AXIAL STACK
+-------------------
+The five main axial meshes are reconstructed directly from their scaled source
+mesh extents, with all mating planes coincident:
+
+1. SM_Engine
+   attaches to the aft end of SM_Lower_End / SM_Body.
+
+2. SM_Lower_End
+   overlaps the aft portion of SM_Body. It is an aft structure, NOT an extra
+   cylinder to place behind the body.
+
+3. SM_Body
+   extends from X = -458.585 cm to X = 0 cm.
+
+4. CM_Heat_Shield
+   starts at X = 0 and occupies the aft/base portion of the CM.
+
+5. CM_Upper_Shell
+   also starts at X = 0 and contains the conical Command Module exterior.
+
+The CM heat shield and upper shell intentionally overlap because the heat shield
+is part of the CM base structure.
+
+
+SERVICE MODULE RCS QUADS
+------------------------
+Four copies are supplied as separate already-oriented files:
+
+    SM_RCS_Quad_A.stl = quad near -Z
+    SM_RCS_Quad_B.stl = quad near +Y
+    SM_RCS_Quad_C.stl = quad near +Z
+    SM_RCS_Quad_D.stl = quad near -Y
+
+NASA reference geometry used:
+    common RCS X station relative to CM aft heat-shield OML = -41.1 in
+    distance from spacecraft X axis = 6.89 ft
+    clocking offset = 7.25 deg
+
+Component-center placement used in this package:
+    A = (-104.394, -26.503, -208.328) cm
+    B = (-104.394, 208.328, -26.503) cm
+    C = (-104.394, 26.503, 208.328) cm
+    D = (-104.394, -208.328, 26.503) cm
+
+The Pinshape quad already models the four thrusters, so do NOT duplicate
+thrusters inside each quad.
+
+
+HIGH-GAIN ANTENNA
+-----------------
+Use:
+    SM_High_Gain_Antenna_DEPLOYED.stl
+
+Apollo 8 was the first Apollo mission to use the deployable four-dish
+S-band high-gain antenna.
+
+The deployed boom direction is constrained by the Apollo 8 Mission Report:
+    90 deg to the spacecraft longitudinal X axis
+    azimuth = 52.25 deg from -Y toward +Z
+
+Direction from hinge toward dishes:
+    (0.000, -0.612, 0.791)
+
+The Pinshape download does NOT preserve the HGA hinge's original Y/Z
+translation. Therefore:
+    * deployed BOOM ORIENTATION is engineering-document constrained;
+    * aft-bulkhead mounting is correct in topology;
+    * exact hinge Y/Z in this package is a reconstruction, not a recovered
+      original CAD transform.
+
+If your simulation requires millimeter-accurate HGA hinge kinematics, treat the
+HGA position as an adjustable calibration parameter.
+
+
+CM HATCH
+--------
+CM_Hatch.stl was refitted directly to the hatch aperture geometry present in
+CM_Upper_Shell. This V2 correction fixes the previous hatch position and
+orientation.
+
+Position:
+    (92.723, 76.399, -114.323) cm
+
+The orientation is already baked. This is a mesh-fit transform rather than an
+Apollo engineering installation-coordinate datum.
+
+
+CM/SM UMBILICAL
+---------------
+SM_CM_Umbilical.stl is retained because it is a useful major exterior block.
+
+The Pinshape export does not preserve its assembly transform. In this package it
+is mounted across the CM/SM interface on the +Z side as a visual reconstruction.
+
+For pure rigid-body dynamics it may be omitted without affecting the major
+spacecraft silhouette.
+
+
+APOLLO 8 DOCKING PROBE
+----------------------
+The Pinshape ZIP contains a detailed docking-probe assembly and its subparts.
+They are intentionally NOT included in this Apollo 8 exterior package.
+
+The package is focused on the exterior major blocks needed for the Apollo 8
+CSM configuration and simulator visualization.
+
+
+FILES
+-----
+CommonFrame_Baked/
+    Import all files at common origin with identity rotation.
+
+ComponentLocal/
+    Same parts, centered on each component origin, correct Apollo orientation.
+    Use the placement table above.
+
+Apollo8_CSM_Assembled_Reference.stl
+    One merged visual reference mesh containing all included components.
+    It is intended only as an assembly check.
+
+AssemblyInstructions.txt
+    This file.
+
+SOURCE_LICENSE.txt
+    Attribution and derivative-model licensing note.
+
+
+ACCURACY NOTES
+--------------
+HIGH:
+    Main CM/SM axial stack orientation and mating
+    CM/SM full-size scale
+    Apollo body-axis convention
+    RCS quad clocking and radius reference
+    HGA deployed boom direction
+
+GOOD / MESH-FIT:
+    CM hatch placement/orientation
+
+RECONSTRUCTED:
+    HGA exact hinge Y/Z translation
+    CM/SM umbilical exact local placement
+
+The source Pinshape package itself does not include the original combined STL
+or the referenced "CM Assembly.jpg", so those two lost assembly transforms
+cannot be recovered exactly from the separated STL files alone.
+
+
+REVISION V3 - HATCH ALIGNMENT
+-----------------------------
+The residual hatch roll seen in V2 was measured directly from the source mesh.
+
+Actual inner hatch-aperture minimum rectangle:
+    38.614124 x 28.429561 source units
+
+Standalone hatch minimum rectangle:
+    38.249498 x 28.503627 source units
+
+Residual in-plane correction:
+    5.472811 deg about the local hatch/aperture surface normal.
+
+The hatch center was also shifted slightly in the aperture tangent plane to
+match the aperture center, while preserving its V2 surface-normal seating depth.
+
+Corrected ComponentLocal placement:
+    (92.723, 76.399, -114.323) cm
+
+No apex-cover geometry was added or changed.
+
+
+REVISION - V3 COUPLED COMMAND-MODULE SHELL + HATCH
+==================================================
+
+THIS PACKAGE IS BASED STRICTLY ON V3.
+
+Every STL other than the Command Module upper shell/hatch pair is copied
+UNCHANGED from Apollo8_CSM_Assembly_V3.
+
+The following V3 files were removed:
+    CM_Upper_Shell.stl
+    CM_Hatch.stl
+
+They were replaced by the user-verified coupled mesh:
+    CM_Upper_Shell_With_Hatch.stl
+
+The coupled STL was exported directly from MeshLab after the hatch had been
+manually aligned and visually verified by the user.
+
+ComponentLocal/
+---------------
+CM_Upper_Shell_With_Hatch.stl is copied BYTE-FOR-BYTE from the user's
+MeshLab export.
+
+Place it using the ORIGINAL V3 upper-shell transform:
+    Position = (104.815291, 0.000000, 0.000000) cm
+    Rotation = Identity
+    Scale    = 1
+
+Do NOT add a separate CM_Hatch component.
+
+CommonFrame_Baked/
+------------------
+CM_Upper_Shell_With_Hatch.stl has ONLY the original V3 upper-shell translation
+baked into it.
+
+Import it with:
+    Position = (0, 0, 0)
+    Rotation = Identity
+    Scale    = 1
+
+All other CommonFrame_Baked STLs are exactly the V3 files, unchanged.
+
+IMPORTANT
+---------
+No Service Module component was recalculated, rescaled, recentered, rotated,
+or re-exported in this revision.
+
+In particular, the following remain exactly V3:
+    CM_Heat_Shield.stl
+    SM_Body.stl
+    SM_Lower_End.stl
+    SM_Engine.stl
+    SM_RCS_Quad_A.stl
+    SM_RCS_Quad_B.stl
+    SM_RCS_Quad_C.stl
+    SM_RCS_Quad_D.stl
+    SM_High_Gain_Antenna_DEPLOYED.stl
+    SM_CM_Umbilical.stl
+
+
+REVISION - SERVICE MODULE BODY AXIS ALIGNMENT
+=============================================
+
+This revision starts from:
+    Apollo8_CSM_Assembly_V3_CoupledHatch
+
+The coupled Command Module shell+hatch is UNCHANGED.
+
+Only the placement of SM_Body.stl was corrected.
+
+WHY V3 WAS WRONG
+----------------
+The printable SM_Body mesh contains protruding exterior hardware. Because of
+that, its geometric bounding-box center is NOT the center of the cylindrical
+Service Module wall.
+
+Original Pinshape SM_Body:
+    bounding-box XY center = (68.460052, 70.764999) source mm
+    fitted cylinder axis   = (69.118621, 73.679578) source mm
+
+At the package full-size scale, the cylinder therefore sat:
+    +1.929776 cm in Apollo +Y
+    +8.540465 cm in Apollo +Z
+
+away from the common CM/SPS spacecraft axis.
+
+CORRECTED COMPONENTLOCAL PLACEMENT
+----------------------------------
+SM_Body.stl:
+    Position = (-229.292606, -1.929776, -8.540465) cm
+    Rotation = Identity
+    Scale    = 1
+
+ComponentLocal/SM_Body.stl itself is unchanged from V3.
+Only its placement vector changed.
+
+COMMONFRAME_BAKED
+-----------------
+CommonFrame_Baked/SM_Body.stl contains the corrected translation and should
+be imported at:
+    Position = (0, 0, 0)
+    Rotation = Identity
+    Scale    = 1
+
+All other individual STL files are unchanged from the coupled-hatch baseline.

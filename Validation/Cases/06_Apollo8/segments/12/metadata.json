@@ -1,0 +1,13 @@
+{
+  "segment_id": "12",
+  "slug": "12",
+  "start_get_seconds": 374334.0,
+  "end_get_seconds": 374415.0,
+  "start_utc": "1968-12-25T20:49:54.000Z",
+  "end_utc": "1968-12-25T20:51:15.000Z",
+  "previous_solution": "segments\\11\\results\\apollo8_like_11_solution.csv",
+  "solution": "segments\\12\\results\\apollo8_like_12_solution.csv",
+  "scenario_sha256": "10d780d8e5d7f949bc0f7fd755cf76d3794f270ec7dccddfeaac55e9bc834a79",
+  "runner_sha256": "bb682d5eace254cbe4d8a140cf8015c379e8f1d2d351558f04a2670ad1b4fac7",
+  "controller_sha256": "2ba8362ab91c52bf5085eca94d4a5c46652fc9e9437c398ff70eeb8d1e5322de"
+}

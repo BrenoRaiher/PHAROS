@@ -1,0 +1,100 @@
+MISSION_NAME             = CASSINI
+SPACECRAFT_NAME          = CASSINI
+DATA_SET_ID              = SPICE_SPK_FILE
+KERNEL_TYPE_ID           = SPK
+PRODUCT_ID               = 000331R_SK_V1P32_V2P12.XSP
+PRODUCT_CREATION_TIME    = 1999-10-08T16:18:02
+PRODUCER_ID              = CASSINI_NAV_TEAM
+MISSION_PHASE_NAME       = 'VENUS 1 VENUS 2'
+PRODUCT_VERSION_TYPE     = 'FINAL RECONST TRAJ'
+PLATFORM_OR_MOUNTING_NAME = N/A
+START_TIME               = 1998-05-28T21:22:00
+STOP_TIME                = 1999-07-06T16:00:00
+SPACECRAFT_CLOCK_START_COUNT = N/A
+SPACECRAFT_CLOCK_STOP_COUNT = N/A
+TARGET_NAME              = CASSINI
+INSTRUMENT_NAME          = N/A
+INSTRUMENT_ID            = N/A
+SOURCE_PRODUCT_ID        = UNK
+NOTE                     = 'SPICE transfer format SPK file.'
+ 
+; 000331R_SK_V1P32_V2P12.BSP LOG FILE
+ 
+; Created 2000-03-30/18:20:06.00.
+;
+; BEGIN SPKMERGE COMMANDS
+ 
+LEAPSECONDS_KERNEL   = /cnav/software/internal/leapseconds.dat
+ 
+SPK_KERNEL           = 000331R_SK_V1P32_V2P12.BSP
+  SOURCE_SPK_KERNEL  = 000331R_1_SK_V1P32_V2P12.BSP
+    INCLUDE_COMMENTS = NO
+    BODIES           = -82
+    BEGIN_TIME       = 1998 MAY 28 21:22:00.000
+    END_TIME         = 1999 JUL 06 15:59:59.816
+  SOURCE_SPK_KERNEL  = EP51D_peph.upd.bsp
+    INCLUDE_COMMENTS = NO
+    BODIES           = 499, 299, 199, 399, 301, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1
+    BEGIN_TIME       = 1998 MAY 28 21:22:00.000
+    END_TIME         = 1999 JUL 06 16:00:00.000
+ 
+; END SPKMERGE COMMANDS
+ 
+FILENAME: 000331R_SK_V1P32_V2P12.XSP
+ 
+PURPOSE OF DELIVERY: Final, archival trajectory reconstruction for Cassini
+                     for the period from Venus 1 to Venus 2.
+ 
+ 
+DELIVERED BY: Fernando Peralta 3-0528. The original nio file was produced
+              by Duane Roth.
+ 
+DELIVERY DATE: March 31, 2000
+ 
+FILE USAGE RESTRICTIONS:  A special planetary ephemeris file was merged with
+the spacecraft kernel. This planetary ephemerides is to be used only in
+conjunction with this spacecraft kernel.
+ 
+PLANETARY EPHEMERIS USED: Customized planetary ephemeris.
+ 
+SATELLITE/ASTEROID/ROCK EPHEMERIS USED: N/A
+ 
+START EPOCH OF PROPAGATED DATA ARC: N/A
+ 
+END EPOCH OF PROPAGATED DATA ARC: N/A
+ 
+START EPOCH OF RECONSTRUCTED DATA ARC: 28 MAY 1998 21:22:00 UTC.
+ 
+END EPOCH OF RECONSTRUCTED DATA ARC: 6 JULY 1999 16:00:00 UTC.
+ 
+COMMENTS:
+ 
+This delivery replaces the previously released reconstructed trajectory
+000202R_SK_V1P32_V2P12.XSP. The difference between these two trajectories
+resides in the inclusion of the planetary ephemeris specified previously.
+This customized planetary ephemeris provides a better trajectory fit for
+the Venus swingby portion.
+ 
+Brief.  Version: 2.1        (SPICE Toolkit N0051)
+ 
+ 
+Summary for: 000331R_SK_V1P32_V2P12.bsp
+ 
+Bodies                Start of Interval (ET)          End of Interval (ET)
+-------               -----------------------------   -----------------------------
+-82 CASSINI           1998 MAY 28 21:23:03.184        1999 JUL 06 16:01:04.000
+1 MERCURY BARYCENTER  1998 MAY 28 21:23:03.184        1999 JUL 06 16:01:04.183
+2 VENUS BARYCENTER                Same coverage as previous object
+3 EARTH BARYCENTER                Same coverage as previous object
+4 MARS BARYCENTER                 Same coverage as previous object
+5 JUPITER BARYCENTER              Same coverage as previous object
+6 SATURN BARYCENTER               Same coverage as previous object
+7 URANUS BARYCENTER               Same coverage as previous object
+8 NEPTUNE BARYCENTER              Same coverage as previous object
+9 PLUTO BARYCENTER                Same coverage as previous object
+10 SUN                            Same coverage as previous object
+199 MERCURY                       Same coverage as previous object
+299 VENUS                         Same coverage as previous object
+301 MOON                          Same coverage as previous object
+399 EARTH                         Same coverage as previous object
+499 MARS                          Same coverage as previous object

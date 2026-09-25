@@ -1,0 +1,33 @@
+{
+  "purpose": "Original seven fit epochs used by the residual sampling exclusions. Extracted from the archived baseline terminal records; the numerical values are unchanged.",
+  "epochs": [
+    {
+      "phase": "B",
+      "ephemeris_time_tdb_seconds_past_j2000": 693755763.9117504
+    },
+    {
+      "phase": "C",
+      "ephemeris_time_tdb_seconds_past_j2000": 693922869.1838061
+    },
+    {
+      "phase": "D",
+      "ephemeris_time_tdb_seconds_past_j2000": 693923436.4238063
+    },
+    {
+      "phase": "E",
+      "ephemeris_time_tdb_seconds_past_j2000": 694584069.1840274
+    },
+    {
+      "phase": "F",
+      "ephemeris_time_tdb_seconds_past_j2000": 696322869.1845967
+    },
+    {
+      "phase": "G",
+      "ephemeris_time_tdb_seconds_past_j2000": 696323165.8325968
+    },
+    {
+      "phase": "H",
+      "ephemeris_time_tdb_seconds_past_j2000": 696945669.1847861
+    }
+  ]
+}

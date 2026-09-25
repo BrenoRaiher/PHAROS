@@ -1,0 +1,34 @@
+{
+  "scope": "Largest sharp coast-F reference change visible at the stored comparison epochs; same frozen JWST SPK queried directly.",
+  "coarse_interval_utc": [
+    "2022-01-09T22:59:59.999848Z",
+    "2022-01-09T23:59:59.999847Z"
+  ],
+  "reference_hourly_position_minus_trapezoidal_velocity_m": 16415.73709335206,
+  "simulation_same_interval_position_minus_trapezoidal_velocity_m": 5.154946620927803,
+  "fine_interval_utc": [
+    "2022-01-09T23:59:38.999847Z",
+    "2022-01-09T23:59:39.999847Z"
+  ],
+  "fine_interval_seconds": 1.0,
+  "reference_fine_position_minus_trapezoidal_velocity_m": 0.07630864880002161,
+  "reference_velocity_change_mps": 8.694392306732864,
+  "dense_sample_count": 3961,
+  "maximum_dense_velocity_departure_from_pretransition_state_mps": 420.87915440335064,
+  "maximum_one_second_reference_velocity_change_mps": 27.006461505106977,
+  "spk_segment": {
+    "start_et": "694909149.18413627",
+    "end_et": "695509089.18433523",
+    "target": "-170",
+    "center": "399",
+    "frame": "1",
+    "type": "13",
+    "first_address": "16944936",
+    "last_address": "17015036",
+    "segment_id": "JWST_DEFINITIVE_EPHEMERIS_2021359130000_"
+  },
+  "interpolation_degree": 3,
+  "largest_neighboring_node_position_minus_trapezoidal_velocity_m": 16479.254759269475,
+  "largest_node_interval_s": 60.0,
+  "interpretation": "The retained type-13 ephemeris contains a sharp change between neighboring tabulated positions; Hermite interpolation produces a brief large velocity excursion. The PHAROS trajectory remains smooth over the same hourly interval. Stored-grid mission residuals include the position change but do not resolve the entire brief velocity excursion. No reference samples were edited or excluded to improve the mission scores; no claim is made about the source orbit-determination cause or a reference uncertainty bound."
+}

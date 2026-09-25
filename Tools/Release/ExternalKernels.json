@@ -1,0 +1,10 @@
+{
+  "kernels": [
+    {
+      "file": "ura111.bsp",
+      "url": "https://ssd.jpl.nasa.gov/ftp/eph/satellites/bsp/ura111.bsp",
+      "sha256": "df9479a905e6d426732cd6d4b5b9c61c3fadf02831502761f6b2d8d0bb0e62ad",
+      "sizeBytes": 160854016
+    }
+  ]
+}

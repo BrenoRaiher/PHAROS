@@ -1,0 +1,20 @@
+Apollo 8 CSM - V3 with User-Verified Coupled Hatch
+==================================================
+
+Baseline: Apollo8_CSM_Assembly_V3
+
+ONLY structural change:
+  Removed CM_Upper_Shell.stl + CM_Hatch.stl
+  Added CM_Upper_Shell_With_Hatch.stl
+
+ComponentLocal coupled STL:
+  Exact byte-for-byte copy of the user's MeshLab export.
+  Position = (104.815291, 0, 0) cm
+  Rotation = Identity
+  Scale = 1
+
+CommonFrame_Baked coupled STL:
+  Same user mesh with only V3's original shell translation baked.
+  Import at (0,0,0), Identity, Scale=1.
+
+Every other STL is unchanged from V3.

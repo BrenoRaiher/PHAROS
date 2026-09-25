@@ -1,0 +1,310 @@
+format = "TGSCN"
+format_version = 1
+generator = "Cassini TCM-17 through Saturn orbit insertion continuous reconstruction, 2026-08-27"
+
+[scenario]
+name = "Cassini-like mission: TCM-18 to immediately before TCM-19"
+start_utc = "2002-04-03T18:00:00.000Z"
+end_mode = "final_utc"
+final_utc = "2003-05-01T20:00:00.000Z"
+integrator = "adaptive_dormand_prince_54"
+maximum_integrator_step_seconds = 3600
+initial_integrator_step_seconds = 10.0
+absolute_tolerance = 1.0e-5
+relative_tolerance = 1.0e-12
+output_mode = "fixed_interval"
+output_step_seconds = 3600
+maximum_integration_steps = 5000000
+maximum_output_samples = 1000000
+mass_flow_convention = "thrust_includes_exhaust_momentum"
+
+[initial_state]
+position_icrf_m = [43946480370.976028, 983360303907.21289, 415703566332.71228]
+velocity_icrf_mps = [-6341.0938129151145, 5988.7062262914469, 2612.9006242267892]
+attitude_body_to_icrf = [0.11828116608955953, 0.50629205036610681, -0.3143389583736671, 0.79427258843116044]
+angular_velocity_body_radps = [-3.6989762416699144e-10, 3.7718815399662582e-08, 1.4673801966777087e-08]
+
+[[components]]
+id = "ca550001-0000-0000-0000-000000000001"
+name = "Cassini-Huygens dry spacecraft"
+initial_mass_kg = 2523
+minimum_mass_kg = 2523
+variable_mass = false
+local_center_of_mass_m = [0.0, 0.0, 0.0]
+origin_body_m = [0.0, 0.0, 0.0]
+component_to_body = [1.0, 0.0, 0.0, 0.0]
+parent_component = ""
+parent_anchor_m = [0.0, 0.0, 0.0]
+child_anchor_m = [0.0, 0.0, 0.0]
+child_to_parent_zero_orientation = [1.0, 0.0, 0.0, 0.0]
+dofs = []
+inertia = { ixx_kgm2 = 5046, iyy_kgm2 = 12249, izz_kgm2 = 12249, ixy_kgm2 = 0.0, ixz_kgm2 = 0.0, iyz_kgm2 = 0.0 }
+
+[[components]]
+id = "ca550002-0000-0000-0000-000000000002"
+name = "Cassini propellant inventory"
+initial_mass_kg = 2090.2756409698295
+minimum_mass_kg = 0.0
+variable_mass = true
+local_center_of_mass_m = [0.0, 0.0, 0.0]
+origin_body_m = [0.0, 0.0, 0.0]
+component_to_body = [1.0, 0.0, 0.0, 0.0]
+parent_component = "Cassini-Huygens dry spacecraft"
+parent_anchor_m = [0.0, 0.0, 0.0]
+child_anchor_m = [0.0, 0.0, 0.0]
+child_to_parent_zero_orientation = [1.0, 0.0, 0.0, 0.0]
+dofs = []
+inertia = { ixx_kgm2 = 4180.8253445646733, iyy_kgm2 = 10140.317125460031, izz_kgm2 = 10140.317125460031, ixy_kgm2 = 0, ixz_kgm2 = 0, iyz_kgm2 = 0 }
+
+[[thrusters]]
+name = "TCM-18 Effective Main Engine"
+mode = "commanded"
+mount_component = "Cassini-Huygens dry spacecraft"
+propellant_component = "Cassini propellant inventory"
+application_point_component_m = [0.0, 0.0, 0.0]
+direction_component = [1.0, 0.0, 0.0]
+ignition_time_mode = "elapsed"
+ignition_elapsed_seconds = 0.0
+never_shuts_down = false
+shutdown_time_mode = "elapsed"
+shutdown_elapsed_seconds = 33962400
+maximum_thrust_n = 500
+
+[[thrusters]]
+name = "Effective Accumulated Cruise RCS Correction"
+mode = "commanded"
+mount_component = "Cassini-Huygens dry spacecraft"
+propellant_component = "Cassini propellant inventory"
+application_point_component_m = [0.0, 0.0, 0.0]
+direction_component = [1.0, 0.0, 0.0]
+ignition_time_mode = "elapsed"
+ignition_elapsed_seconds = 0.0
+never_shuts_down = false
+shutdown_time_mode = "elapsed"
+shutdown_elapsed_seconds = 33962400
+maximum_thrust_n = 4
+
+[[reaction_wheels]]
+name = "X Reaction Wheel"
+mount_component = "Cassini-Huygens dry spacecraft"
+axis_component = [1, 0, 0]
+initial_momentum_nms = -0.0007347969510978652
+maximum_absolute_momentum_nms = 36.0
+
+[[reaction_wheels]]
+name = "Y Reaction Wheel"
+mount_component = "Cassini-Huygens dry spacecraft"
+axis_component = [0, 1, 0]
+initial_momentum_nms = -0.0015546330306659578
+maximum_absolute_momentum_nms = 36.0
+
+[[reaction_wheels]]
+name = "Z Reaction Wheel"
+mount_component = "Cassini-Huygens dry spacecraft"
+axis_component = [0, 0, 1]
+initial_momentum_nms = -0.0003706514479123229
+maximum_absolute_momentum_nms = 36.0
+
+[control]
+mode = "compiled_user_controller"
+unreal_controller_id = ""
+controller_dll_file = "../controllers/CassiniSaturnArrivalController14.dll"
+    
+[gravity]
+include_first_post_newtonian_correction = true
+
+[[gravity.bodies]]
+catalog_key = "Sun"
+gravity_enabled = true
+automatic_activation_radius_m = 0
+barycenter_resolution_radius_m = 0
+harmonic_model_csv_file = ""
+maximum_harmonic_degree = 0
+
+[[gravity.bodies]]
+catalog_key = "MercuryBarycenter"
+gravity_enabled = true
+automatic_activation_radius_m = 0
+barycenter_resolution_radius_m = 0
+harmonic_model_csv_file = ""
+maximum_harmonic_degree = 0
+
+[[gravity.bodies]]
+catalog_key = "Mercury"
+gravity_enabled = false
+automatic_activation_radius_m = 0
+barycenter_resolution_radius_m = 0
+harmonic_model_csv_file = ""
+maximum_harmonic_degree = 0
+
+[[gravity.bodies]]
+catalog_key = "VenusBarycenter"
+gravity_enabled = false
+automatic_activation_radius_m = 0
+barycenter_resolution_radius_m = 0
+harmonic_model_csv_file = ""
+maximum_harmonic_degree = 0
+
+[[gravity.bodies]]
+catalog_key = "Venus"
+gravity_enabled = true
+automatic_activation_radius_m = 0
+barycenter_resolution_radius_m = 0
+harmonic_model_csv_file = ""
+maximum_harmonic_degree = 0
+
+[[gravity.bodies]]
+catalog_key = "EarthMoonBarycenter"
+gravity_enabled = false
+automatic_activation_radius_m = 0
+barycenter_resolution_radius_m = 0
+harmonic_model_csv_file = ""
+maximum_harmonic_degree = 0
+
+[[gravity.bodies]]
+catalog_key = "Earth"
+gravity_enabled = true
+automatic_activation_radius_m = 0
+barycenter_resolution_radius_m = 0
+harmonic_model_csv_file = "../../data/earth_egm2008_degree18_de442_gm.csv"
+maximum_harmonic_degree = 18
+
+[[gravity.bodies]]
+catalog_key = "Moon"
+gravity_enabled = true
+automatic_activation_radius_m = 0
+barycenter_resolution_radius_m = 0
+harmonic_model_csv_file = ""
+maximum_harmonic_degree = 0
+
+[[gravity.bodies]]
+catalog_key = "MarsBarycenter"
+gravity_enabled = true
+automatic_activation_radius_m = 0
+barycenter_resolution_radius_m = 0
+harmonic_model_csv_file = ""
+maximum_harmonic_degree = 0
+
+[[gravity.bodies]]
+catalog_key = "Mars"
+gravity_enabled = false
+automatic_activation_radius_m = 0
+barycenter_resolution_radius_m = 0
+harmonic_model_csv_file = ""
+maximum_harmonic_degree = 0
+
+[[gravity.bodies]]
+catalog_key = "JupiterBarycenter"
+gravity_enabled = true
+automatic_activation_radius_m = 0
+barycenter_resolution_radius_m = 0
+harmonic_model_csv_file = ""
+maximum_harmonic_degree = 0
+
+[[gravity.bodies]]
+catalog_key = "Jupiter"
+gravity_enabled = false
+automatic_activation_radius_m = 0
+barycenter_resolution_radius_m = 0
+harmonic_model_csv_file = ""
+maximum_harmonic_degree = 0
+
+[[gravity.bodies]]
+catalog_key = "SaturnBarycenter"
+gravity_enabled = true
+automatic_activation_radius_m = 0
+barycenter_resolution_radius_m = 0
+harmonic_model_csv_file = ""
+maximum_harmonic_degree = 0
+
+[[gravity.bodies]]
+catalog_key = "Saturn"
+gravity_enabled = false
+automatic_activation_radius_m = 0
+barycenter_resolution_radius_m = 0
+harmonic_model_csv_file = ""
+maximum_harmonic_degree = 0
+
+[[gravity.bodies]]
+catalog_key = "UranusBarycenter"
+gravity_enabled = true
+automatic_activation_radius_m = 0
+barycenter_resolution_radius_m = 0
+harmonic_model_csv_file = ""
+maximum_harmonic_degree = 0
+
+[[gravity.bodies]]
+catalog_key = "Uranus"
+gravity_enabled = false
+automatic_activation_radius_m = 0
+barycenter_resolution_radius_m = 0
+harmonic_model_csv_file = ""
+maximum_harmonic_degree = 0
+
+[[gravity.bodies]]
+catalog_key = "NeptuneBarycenter"
+gravity_enabled = true
+automatic_activation_radius_m = 0
+barycenter_resolution_radius_m = 0
+harmonic_model_csv_file = ""
+maximum_harmonic_degree = 0
+
+[[gravity.bodies]]
+catalog_key = "Neptune"
+gravity_enabled = false
+automatic_activation_radius_m = 0
+barycenter_resolution_radius_m = 0
+harmonic_model_csv_file = ""
+maximum_harmonic_degree = 0
+
+[[gravity.bodies]]
+catalog_key = "PlutoBarycenter"
+gravity_enabled = true
+automatic_activation_radius_m = 0
+barycenter_resolution_radius_m = 0
+harmonic_model_csv_file = ""
+maximum_harmonic_degree = 0
+
+[[gravity.bodies]]
+catalog_key = "Pluto"
+gravity_enabled = false
+automatic_activation_radius_m = 0
+barycenter_resolution_radius_m = 0
+harmonic_model_csv_file = ""
+maximum_harmonic_degree = 0
+
+
+[srp]
+enabled = true
+sun_body = "Sun"
+pressure_at_one_au_pa = 4.5391e-6
+compute_eclipse = true
+occulting_bodies = ["Earth", "Moon", "Venus", "Jupiter", "Saturn"]
+compute_component_shadows = false
+global_fallback_optics = { absorption = 1, specular_reflection = 0, diffuse_reflection = 0.0 }
+
+[[srp.facets]]
+name = "HGA effective square triangle 0"
+component_id = "ca550001-0000-0000-0000-000000000001"
+component_name = "Cassini-Huygens dry spacecraft"
+stable_triangle_index = 0
+logical_region = "positive_x"
+vertex0_component_m = [0.0, -1.7724538509055159, -1.7724538509055159]
+vertex1_component_m = [0.0, 1.7724538509055159, -1.7724538509055159]
+vertex2_component_m = [0.0, 1.7724538509055159, 1.7724538509055159]
+optics = { absorption = 1, specular_reflection = 0, diffuse_reflection = 0.0 }
+
+[[srp.facets]]
+name = "HGA effective square triangle 1"
+component_id = "ca550001-0000-0000-0000-000000000001"
+component_name = "Cassini-Huygens dry spacecraft"
+stable_triangle_index = 1
+logical_region = "positive_x"
+vertex0_component_m = [0.0, -1.7724538509055159, -1.7724538509055159]
+vertex1_component_m = [0.0, 1.7724538509055159, 1.7724538509055159]
+vertex2_component_m = [0.0, -1.7724538509055159, 1.7724538509055159]
+optics = { absorption = 1, specular_reflection = 0, diffuse_reflection = 0.0 }
+
+[atmosphere]
+enabled = false
+

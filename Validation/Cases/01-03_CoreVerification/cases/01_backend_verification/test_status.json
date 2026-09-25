@@ -1,0 +1,17 @@
+[
+  {
+    "executable": "TGSimCoreValidation",
+    "exit_code": 0,
+    "log": "backend_validation_log.txt"
+  },
+  {
+    "executable": "TGScenarioRoundTripTest",
+    "exit_code": 0,
+    "log": "scenario_roundtrip_log.txt"
+  },
+  {
+    "executable": "ControllerContractChecks",
+    "exit_code": 0,
+    "log": "controller_contract_log.txt"
+  }
+]

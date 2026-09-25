@@ -1,0 +1,45 @@
+name: Bug report
+description: Report a reproducible PHAROS defect
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: "Do not attach confidential scenarios, credentials, or private filesystem paths."
+  - type: input
+    id: version
+    attributes:
+      label: PHAROS version or commit
+    validations:
+      required: true
+  - type: dropdown
+    id: environment
+    attributes:
+      label: Execution environment
+      options:
+        - Packaged Windows application
+        - Unreal Editor
+        - Standalone scenario runner
+        - TGSimCore test executable
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Reproduction steps
+      description: Include a minimal shareable TGSCN when possible.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: observed
+    attributes:
+      label: Observed behavior and relevant logs
+    validations:
+      required: true
+

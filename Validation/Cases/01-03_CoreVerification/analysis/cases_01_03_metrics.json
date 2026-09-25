@@ -1,0 +1,873 @@
+{
+  "schema": "PHAROS validation Cases 1-3 quantitative metrics v3",
+  "validation_root": "<recorded-user-directory>\\Documents\\Unreal Projects\\TG\\tmp\\v26\\05_to_07_Backend_Feature_Verification",
+  "integrity": {
+    "02a_revolute": {
+      "solution_csv": "cases/02_actuated_multibody/02a_revolute/results/revolute_reaction_solution.csv",
+      "rows_actual": 11,
+      "rows_nominal": 11,
+      "row_count_matches_nominal": true,
+      "columns": 113,
+      "malformed_rows": 0,
+      "nonfinite_numeric_cells": 0,
+      "strictly_increasing_absolute_et": true,
+      "last_absolute_et_gap_s": 0.009999990463256836,
+      "terminal_pair_different_state_cell_count": 11,
+      "terminal_pair_maximum_absolute_state_cell_difference": 0.010000000000000009,
+      "maximum_quaternion_norm_error": 0.0,
+      "multibody_solve_failures": 0,
+      "bytes": 8571
+    },
+    "02b_prismatic": {
+      "solution_csv": "cases/02_actuated_multibody/02b_prismatic/results/prismatic_reaction_solution.csv",
+      "rows_actual": 11,
+      "rows_nominal": 11,
+      "row_count_matches_nominal": true,
+      "columns": 113,
+      "malformed_rows": 0,
+      "nonfinite_numeric_cells": 0,
+      "strictly_increasing_absolute_et": true,
+      "last_absolute_et_gap_s": 0.009999990463256836,
+      "terminal_pair_different_state_cell_count": 7,
+      "terminal_pair_maximum_absolute_state_cell_difference": 0.020000000000000018,
+      "maximum_quaternion_norm_error": 0.0,
+      "multibody_solve_failures": 0,
+      "bytes": 8020
+    },
+    "02c_coordinate_stop": {
+      "solution_csv": "cases/02_actuated_multibody/02c_coordinate_stop/results/coordinate_stop_solution.csv",
+      "rows_actual": 11,
+      "rows_nominal": 11,
+      "row_count_matches_nominal": true,
+      "columns": 113,
+      "malformed_rows": 0,
+      "nonfinite_numeric_cells": 0,
+      "strictly_increasing_absolute_et": true,
+      "last_absolute_et_gap_s": 0.009999990463256836,
+      "terminal_pair_different_state_cell_count": 1,
+      "terminal_pair_maximum_absolute_state_cell_difference": 0.010000000000000009,
+      "maximum_quaternion_norm_error": 0.0,
+      "multibody_solve_failures": 0,
+      "bytes": 7557
+    },
+    "02d_nested_tree": {
+      "solution_csv": "cases/02_actuated_multibody/02d_nested_tree/results/nested_tree_solution.csv",
+      "rows_actual": 1001,
+      "rows_nominal": 1001,
+      "row_count_matches_nominal": true,
+      "columns": 129,
+      "malformed_rows": 0,
+      "nonfinite_numeric_cells": 0,
+      "strictly_increasing_absolute_et": true,
+      "last_absolute_et_gap_s": 0.009999990463256836,
+      "terminal_pair_different_state_cell_count": 40,
+      "terminal_pair_maximum_absolute_state_cell_difference": 0.01999999999999602,
+      "maximum_quaternion_norm_error": 2.220446049250313e-16,
+      "multibody_solve_failures": 0,
+      "bytes": 1039195
+    },
+    "02e_reaction_wheel": {
+      "solution_csv": "cases/02_actuated_multibody/02e_reaction_wheel/results/reaction_wheel_solution.csv",
+      "rows_actual": 301,
+      "rows_nominal": 301,
+      "row_count_matches_nominal": true,
+      "columns": 98,
+      "malformed_rows": 0,
+      "nonfinite_numeric_cells": 0,
+      "strictly_increasing_absolute_et": true,
+      "last_absolute_et_gap_s": 0.10000002384185791,
+      "terminal_pair_different_state_cell_count": 3,
+      "terminal_pair_maximum_absolute_state_cell_difference": 0.09999999999999787,
+      "maximum_quaternion_norm_error": 1.1102230246251565e-16,
+      "multibody_solve_failures": 0,
+      "bytes": 94005
+    },
+    "02f_commanded_thrust": {
+      "solution_csv": "cases/02_actuated_multibody/02f_commanded_thrust/results/commanded_thrust_solution.csv",
+      "rows_actual": 151,
+      "rows_nominal": 151,
+      "row_count_matches_nominal": true,
+      "columns": 111,
+      "malformed_rows": 0,
+      "nonfinite_numeric_cells": 0,
+      "strictly_increasing_absolute_et": true,
+      "last_absolute_et_gap_s": 0.10000002384185791,
+      "terminal_pair_different_state_cell_count": 5,
+      "terminal_pair_maximum_absolute_state_cell_difference": 0.2432705117204783,
+      "maximum_quaternion_norm_error": 1.1102230246251565e-16,
+      "multibody_solve_failures": 0,
+      "bytes": 90756
+    },
+    "02g_direct_torque": {
+      "solution_csv": "cases/02_actuated_multibody/02g_direct_torque/results/direct_torque_solution.csv",
+      "rows_actual": 201,
+      "rows_nominal": 201,
+      "row_count_matches_nominal": true,
+      "columns": 97,
+      "malformed_rows": 0,
+      "nonfinite_numeric_cells": 0,
+      "strictly_increasing_absolute_et": true,
+      "last_absolute_et_gap_s": 0.009999990463256836,
+      "terminal_pair_different_state_cell_count": 3,
+      "terminal_pair_maximum_absolute_state_cell_difference": 0.010000000000000009,
+      "maximum_quaternion_norm_error": 1.1102230246251565e-16,
+      "multibody_solve_failures": 0,
+      "bytes": 58445
+    },
+    "02h_prescribed_thrust": {
+      "solution_csv": "cases/02_actuated_multibody/02h_prescribed_thrust/results/prescribed_thrust_solution.csv",
+      "rows_actual": 301,
+      "rows_nominal": 301,
+      "row_count_matches_nominal": true,
+      "columns": 111,
+      "malformed_rows": 0,
+      "nonfinite_numeric_cells": 0,
+      "strictly_increasing_absolute_et": true,
+      "last_absolute_et_gap_s": 0.009999990463256836,
+      "terminal_pair_different_state_cell_count": 2,
+      "terminal_pair_maximum_absolute_state_cell_difference": 0.009999999999999787,
+      "maximum_quaternion_norm_error": 0.0,
+      "multibody_solve_failures": 0,
+      "bytes": 138197
+    },
+    "03a_srp_one_au": {
+      "solution_csv": "cases/03_srp_rarefied_aero/03a_srp_one_au/results/srp_one_au_solution.csv",
+      "rows_actual": 11,
+      "rows_nominal": 11,
+      "row_count_matches_nominal": true,
+      "columns": 113,
+      "malformed_rows": 0,
+      "nonfinite_numeric_cells": 0,
+      "strictly_increasing_absolute_et": true,
+      "last_absolute_et_gap_s": 0.10000002384185791,
+      "terminal_pair_different_state_cell_count": 27,
+      "terminal_pair_maximum_absolute_state_cell_difference": 0.6108721271157265,
+      "maximum_quaternion_norm_error": 0.0,
+      "multibody_solve_failures": 0,
+      "bytes": 13019
+    },
+    "03b_umbra_off": {
+      "solution_csv": "cases/03_srp_rarefied_aero/03b_earth_umbra_off/results/earth_umbra_off_solution.csv",
+      "rows_actual": 11,
+      "rows_nominal": 11,
+      "row_count_matches_nominal": true,
+      "columns": 145,
+      "malformed_rows": 0,
+      "nonfinite_numeric_cells": 0,
+      "strictly_increasing_absolute_et": true,
+      "last_absolute_et_gap_s": 0.10000002384185791,
+      "terminal_pair_different_state_cell_count": 52,
+      "terminal_pair_maximum_absolute_state_cell_difference": 2982.033805847168,
+      "maximum_quaternion_norm_error": 0.0,
+      "multibody_solve_failures": 0,
+      "bytes": 20409
+    },
+    "03b_umbra_on": {
+      "solution_csv": "cases/03_srp_rarefied_aero/03b_earth_umbra_on/results/earth_umbra_on_solution.csv",
+      "rows_actual": 11,
+      "rows_nominal": 11,
+      "row_count_matches_nominal": true,
+      "columns": 145,
+      "malformed_rows": 0,
+      "nonfinite_numeric_cells": 0,
+      "strictly_increasing_absolute_et": true,
+      "last_absolute_et_gap_s": 0.10000002384185791,
+      "terminal_pair_different_state_cell_count": 37,
+      "terminal_pair_maximum_absolute_state_cell_difference": 2982.033805847168,
+      "maximum_quaternion_norm_error": 0.0,
+      "multibody_solve_failures": 0,
+      "bytes": 18302
+    },
+    "03c_shadow_off": {
+      "solution_csv": "cases/03_srp_rarefied_aero/03c_component_shadow_off/results/component_shadow_off_solution.csv",
+      "rows_actual": 11,
+      "rows_nominal": 11,
+      "row_count_matches_nominal": true,
+      "columns": 125,
+      "malformed_rows": 0,
+      "nonfinite_numeric_cells": 0,
+      "strictly_increasing_absolute_et": true,
+      "last_absolute_et_gap_s": 0.10000002384185791,
+      "terminal_pair_different_state_cell_count": 40,
+      "terminal_pair_maximum_absolute_state_cell_difference": 0.6108721271157265,
+      "maximum_quaternion_norm_error": 0.0,
+      "multibody_solve_failures": 0,
+      "bytes": 17269
+    },
+    "03c_shadow_on": {
+      "solution_csv": "cases/03_srp_rarefied_aero/03c_component_shadow_on/results/component_shadow_on_solution.csv",
+      "rows_actual": 11,
+      "rows_nominal": 11,
+      "row_count_matches_nominal": true,
+      "columns": 125,
+      "malformed_rows": 0,
+      "nonfinite_numeric_cells": 0,
+      "strictly_increasing_absolute_et": true,
+      "last_absolute_et_gap_s": 0.10000002384185791,
+      "terminal_pair_different_state_cell_count": 43,
+      "terminal_pair_maximum_absolute_state_cell_difference": 0.6108721271157265,
+      "maximum_quaternion_norm_error": 0.0,
+      "multibody_solve_failures": 0,
+      "bytes": 17901
+    },
+    "03d_rarefied_fallback": {
+      "solution_csv": "cases/03_srp_rarefied_aero/03d_rarefied_fallback/results/rarefied_fallback_solution.csv",
+      "rows_actual": 101,
+      "rows_nominal": 101,
+      "row_count_matches_nominal": true,
+      "columns": 145,
+      "malformed_rows": 0,
+      "nonfinite_numeric_cells": 0,
+      "strictly_increasing_absolute_et": true,
+      "last_absolute_et_gap_s": 0.009999990463256836,
+      "terminal_pair_different_state_cell_count": 56,
+      "terminal_pair_maximum_absolute_state_cell_difference": 312.38826751708984,
+      "maximum_quaternion_norm_error": 0.0,
+      "multibody_solve_failures": 0,
+      "bytes": 159996
+    },
+    "03e_aero_database": {
+      "solution_csv": "cases/03_srp_rarefied_aero/03e_aero_database/results/aero_database_solution.csv",
+      "rows_actual": 101,
+      "rows_nominal": 101,
+      "row_count_matches_nominal": true,
+      "columns": 145,
+      "malformed_rows": 0,
+      "nonfinite_numeric_cells": 0,
+      "strictly_increasing_absolute_et": true,
+      "last_absolute_et_gap_s": 0.009999990463256836,
+      "terminal_pair_different_state_cell_count": 64,
+      "terminal_pair_maximum_absolute_state_cell_difference": 312.38826751708984,
+      "maximum_quaternion_norm_error": 2.220446049250313e-16,
+      "multibody_solve_failures": 0,
+      "bytes": 166928
+    },
+    "03f_articulated_aero_database": {
+      "solution_csv": "cases/03_srp_rarefied_aero/03f_articulated_aero_database/results/articulated_aero_database_solution.csv",
+      "rows_actual": 2,
+      "rows_nominal": 2,
+      "row_count_matches_nominal": true,
+      "columns": 193,
+      "malformed_rows": 0,
+      "nonfinite_numeric_cells": 0,
+      "strictly_increasing_absolute_et": true,
+      "last_absolute_et_gap_s": 0.001000046730041504,
+      "terminal_pair_different_state_cell_count": 99,
+      "terminal_pair_maximum_absolute_state_cell_difference": 31.23882293701172,
+      "maximum_quaternion_norm_error": 0.0,
+      "multibody_solve_failures": 0,
+      "bytes": 11909
+    }
+  },
+  "case_2": {
+    "02a_revolute_internal_reaction": {
+      "checks": [
+        {
+          "metric": "final joint coordinate",
+          "unit": "rad",
+          "actual": 0.005,
+          "expected": 0.005,
+          "absolute_error": 0.0,
+          "tolerance": 1e-10,
+          "pass": true
+        },
+        {
+          "metric": "final joint rate",
+          "unit": "rad/s",
+          "actual": 0.1,
+          "expected": 0.1,
+          "absolute_error": 0.0,
+          "tolerance": 1e-10,
+          "pass": true
+        },
+        {
+          "metric": "final bus angular velocity z",
+          "unit": "rad/s",
+          "actual": -0.019999999999999993,
+          "expected": -0.02,
+          "absolute_error": 6.938893903907228e-18,
+          "tolerance": 1e-10,
+          "pass": true
+        },
+        {
+          "metric": "maximum total angular momentum",
+          "unit": "kg m^2/s",
+          "actual": 4.163336342344337e-17,
+          "expected": 0.0,
+          "absolute_error": 4.163336342344337e-17,
+          "tolerance": 1e-12,
+          "pass": true
+        }
+      ]
+    },
+    "02b_prismatic_internal_reaction": {
+      "checks": [
+        {
+          "metric": "final slider coordinate",
+          "unit": "m",
+          "actual": 0.01,
+          "expected": 0.01,
+          "absolute_error": 0.0,
+          "tolerance": 1e-10,
+          "pass": true
+        },
+        {
+          "metric": "final slider rate",
+          "unit": "m/s",
+          "actual": 0.2,
+          "expected": 0.2,
+          "absolute_error": 0.0,
+          "tolerance": 1e-10,
+          "pass": true
+        },
+        {
+          "metric": "base-origin acceleration x",
+          "unit": "m/s^2",
+          "actual": -0.4,
+          "expected": -0.4,
+          "absolute_error": 0.0,
+          "tolerance": 1e-12,
+          "pass": true
+        },
+        {
+          "metric": "maximum total linear momentum",
+          "unit": "kg m/s",
+          "actual": 0.0,
+          "expected": 0.0,
+          "absolute_error": 0.0,
+          "tolerance": 1e-12,
+          "pass": true
+        }
+      ]
+    },
+    "02c_coordinate_stop": {
+      "checks": [
+        {
+          "metric": "maximum coordinate error at upper stop",
+          "unit": "rad",
+          "actual": 0.0,
+          "expected": 0.0,
+          "absolute_error": 0.0,
+          "tolerance": 1e-12,
+          "pass": true
+        },
+        {
+          "metric": "maximum joint-rate magnitude",
+          "unit": "rad/s",
+          "actual": 0.0,
+          "expected": 0.0,
+          "absolute_error": 0.0,
+          "tolerance": 1e-12,
+          "pass": true
+        },
+        {
+          "metric": "constraint reaction effort",
+          "unit": "N m",
+          "actual": -0.4,
+          "expected": -0.4,
+          "absolute_error": 0.0,
+          "tolerance": 1e-12,
+          "pass": true
+        }
+      ]
+    },
+    "02d_nested_mixed_joint_tree": {
+      "checks": [
+        {
+          "metric": "maximum linear-momentum norm",
+          "unit": "kg m/s",
+          "actual": 25.20416632225712,
+          "expected": 25.20416632225712,
+          "absolute_error": 0.0,
+          "tolerance": 1e-10,
+          "pass": true
+        },
+        {
+          "metric": "maximum angular-momentum vector drift",
+          "unit": "kg m^2/s",
+          "actual": 1.3915747287107594e-10,
+          "expected": 0.0,
+          "absolute_error": 1.3915747287107594e-10,
+          "tolerance": 2e-07,
+          "pass": true
+        }
+      ]
+    },
+    "02e_reaction_wheel_exchange_and_saturation": {
+      "checks": [
+        {
+          "metric": "final wheel momentum",
+          "unit": "N m s",
+          "actual": 0.2,
+          "expected": 0.2,
+          "absolute_error": 0.0,
+          "tolerance": 1e-12,
+          "pass": true
+        },
+        {
+          "metric": "final bus angular velocity z",
+          "unit": "rad/s",
+          "actual": -0.05,
+          "expected": -0.05,
+          "absolute_error": 0.0,
+          "tolerance": 1e-10,
+          "pass": true
+        },
+        {
+          "metric": "maximum total angular-momentum magnitude",
+          "unit": "N m s",
+          "actual": 0.0,
+          "expected": 0.0,
+          "absolute_error": 0.0,
+          "tolerance": 1e-10,
+          "pass": true
+        }
+      ]
+    },
+    "02f_commanded_variable_mass_thrust": {
+      "checks": [
+        {
+          "metric": "thrust magnitude while firing",
+          "unit": "N",
+          "actual_range": [
+            39.99999999999999,
+            40.000000000000014
+          ],
+          "expected": 40.0,
+          "maximum_absolute_error": 1.4210854715202004e-14,
+          "tolerance": 1e-10,
+          "pass": true
+        },
+        {
+          "metric": "propellant loss",
+          "unit": "kg",
+          "actual": 0.16315459407678645,
+          "expected": 0.1631545940764685,
+          "absolute_error": 3.179401186770292e-13,
+          "tolerance": 1e-10,
+          "pass": true
+        },
+        {
+          "metric": "final inertial angular momentum z with inertia rate and nozzle carrier flux",
+          "unit": "kg m^2/s",
+          "actual": -399.9674352732722,
+          "expected": -399.9674352732724,
+          "absolute_error": 1.7053025658242404e-13,
+          "tolerance": 1e-08,
+          "pass": true
+        }
+      ],
+      "implied_total_thrust_impulse_from_propellant_loss_Ns": 400.00000000077944,
+      "angular_momentum_reference": {
+        "effective_thrust_convention": "Current fixed backend convention; relative exhaust momentum is included in thrust",
+        "equation": "I(t)*omega_dot + (I_dot + q*ell^2)*omega = tau; H_dot = tau - q*ell^2*omega",
+        "nozzle_radius_m": 1.0,
+        "discharge_rate_kgps": 0.01631545940764685,
+        "initial_inertia_z_kgm2": 1002.0,
+        "inertia_rate_z_kgm2ps": -0.0032630918815293704,
+        "burn_duration_s": 10.0,
+        "expected_final_angular_velocity_z_radps": -0.3991820967583475,
+        "expected_final_angular_momentum_z_kgm2ps": -399.9674352732724
+      }
+    },
+    "02g_direct_external_torque": {
+      "checks": [
+        {
+          "metric": "final angular velocity x",
+          "unit": "rad/s",
+          "actual": 0.5,
+          "expected": 0.5,
+          "absolute_error": 0.0,
+          "tolerance": 1e-11,
+          "pass": true
+        },
+        {
+          "metric": "final angular momentum x",
+          "unit": "kg m^2/s",
+          "actual": 1.0,
+          "expected": 1.0,
+          "absolute_error": 0.0,
+          "tolerance": 1e-11,
+          "pass": true
+        },
+        {
+          "metric": "final rotation about x",
+          "unit": "rad",
+          "actual": 0.7500000000000057,
+          "expected": 0.75,
+          "absolute_error": 5.662137425588298e-15,
+          "tolerance": 1e-10,
+          "pass": true
+        }
+      ]
+    },
+    "02h_prescribed_thrust_profile": {
+      "checks": [
+        {
+          "metric": "sampled peak thrust",
+          "unit": "N",
+          "actual": 10.0,
+          "expected": 10.0,
+          "absolute_error": 0.0,
+          "tolerance": 1e-10,
+          "pass": true
+        },
+        {
+          "metric": "final tank mass",
+          "unit": "kg",
+          "actual": 0.9949014189351102,
+          "expected": 0.9949014189351103,
+          "absolute_error": 1.1102230246251565e-16,
+          "tolerance": 1e-10,
+          "pass": true
+        },
+        {
+          "metric": "profile impulse inferred from propellant loss",
+          "unit": "N s",
+          "actual": 10.000000000000323,
+          "expected": 10.0,
+          "absolute_error": 3.232969447708456e-13,
+          "tolerance": 1e-10,
+          "pass": true
+        }
+      ]
+    }
+  },
+  "case_3": {
+    "03a_absorbing_plate_at_one_au": {
+      "checks": [
+        {
+          "metric": "Sun-spacecraft distance",
+          "unit": "m",
+          "actual": 149597870700.0,
+          "expected": 149597870700.0,
+          "absolute_error": 0.0,
+          "tolerance": 0.001,
+          "pass": true
+        },
+        {
+          "metric": "absorbing 2 m^2 plate SRP force",
+          "unit": "N",
+          "actual": 9.0782e-06,
+          "expected": 9.0782e-06,
+          "absolute_error": 0.0,
+          "tolerance": 1e-15,
+          "pass": true
+        },
+        {
+          "metric": "visible Sun fraction",
+          "unit": "",
+          "actual": 1.0,
+          "expected": 1.0,
+          "absolute_error": 0.0,
+          "tolerance": 1e-12,
+          "pass": true
+        }
+      ]
+    },
+    "03b_earth_umbra_on_off": {
+      "checks": [
+        {
+          "metric": "spacecraft-Earth center distance",
+          "unit": "m",
+          "actual": 42164000.00000293,
+          "expected": 42164000.0,
+          "absolute_error": 2.9280781745910645e-06,
+          "tolerance": 0.001,
+          "pass": true
+        },
+        {
+          "metric": "maximum SRP force in full umbra",
+          "unit": "N",
+          "actual": 0.0,
+          "expected": 0.0,
+          "absolute_error": 0.0,
+          "tolerance": 1e-15,
+          "pass": true
+        },
+        {
+          "metric": "off-run visible Sun fraction",
+          "unit": "",
+          "actual": 1.0,
+          "expected": 1.0,
+          "absolute_error": 0.0,
+          "tolerance": 1e-12,
+          "pass": true
+        },
+        {
+          "metric": "on-run visible Sun fraction",
+          "unit": "",
+          "actual": 0.0,
+          "expected": 0.0,
+          "absolute_error": 0.0,
+          "tolerance": 1e-12,
+          "pass": true
+        }
+      ]
+    },
+    "03c_component_shadow_on_off": {
+      "checks": [
+        {
+          "metric": "unshadowed SRP force",
+          "unit": "N",
+          "actual": 9.0782e-06,
+          "expected": 9.0782e-06,
+          "absolute_error": 0.0,
+          "tolerance": 1e-15,
+          "pass": true
+        },
+        {
+          "metric": "shadowed SRP force",
+          "unit": "N",
+          "actual": 6.0521333333333334e-06,
+          "expected": 6.0521333333333334e-06,
+          "absolute_error": 0.0,
+          "tolerance": 1e-15,
+          "pass": true
+        },
+        {
+          "metric": "shadowed/unshadowed force ratio",
+          "unit": "",
+          "actual": 0.6666666666666666,
+          "expected": 0.6666666666666666,
+          "absolute_error": 0.0,
+          "tolerance": 1e-12,
+          "pass": true
+        }
+      ]
+    },
+    "03d_rarefied_constant_drag_fallback": {
+      "checks": [
+        {
+          "metric": "initial dynamic pressure",
+          "unit": "Pa",
+          "actual": 0.03200000002981552,
+          "expected": 0.032,
+          "absolute_error": 2.981551810998795e-11,
+          "tolerance": 1e-09,
+          "pass": true
+        },
+        {
+          "metric": "initial molecular speed ratio",
+          "unit": "",
+          "actual": 10.547607654346578,
+          "expected": 10.547607649432795,
+          "absolute_error": 4.9137831581447244e-09,
+          "tolerance": 1e-08,
+          "pass": true
+        },
+        {
+          "metric": "initial drag-force magnitude",
+          "unit": "N",
+          "actual": 0.1408000001311883,
+          "expected": 0.1408,
+          "absolute_error": 1.3118828245950453e-10,
+          "tolerance": 1e-09,
+          "pass": true
+        },
+        {
+          "metric": "fallback-used flag",
+          "unit": "",
+          "actual": 1.0,
+          "expected": 1.0,
+          "absolute_error": 0.0,
+          "tolerance": 0.0,
+          "pass": true
+        }
+      ]
+    },
+    "03e_aerodynamic_database_and_moment_transport": {
+      "checks": [
+        {
+          "metric": "initial dynamic pressure",
+          "unit": "Pa",
+          "actual": 0.03200000002981552,
+          "expected": 0.032,
+          "absolute_error": 2.981551810998795e-11,
+          "tolerance": 1e-09,
+          "pass": true
+        },
+        {
+          "metric": "initial aerodynamic force",
+          "unit": "N",
+          "actual": 0.06400000005963104,
+          "expected": 0.064,
+          "absolute_error": 5.96310362199759e-11,
+          "tolerance": 1e-09,
+          "pass": true
+        },
+        {
+          "metric": "moment coefficient about CM z",
+          "unit": "",
+          "actual": 0.8333333333333334,
+          "expected": 0.8333333333333334,
+          "absolute_error": 0.0,
+          "tolerance": 1e-12,
+          "pass": true
+        },
+        {
+          "metric": "initial aerodynamic torque z",
+          "unit": "N m",
+          "actual": 0.16000000014907761,
+          "expected": 0.16,
+          "absolute_error": 1.4907761136662145e-10,
+          "tolerance": 1e-09,
+          "pass": true
+        },
+        {
+          "metric": "database-used flag",
+          "unit": "",
+          "actual": 1.0,
+          "expected": 1.0,
+          "absolute_error": 0.0,
+          "tolerance": 0.0,
+          "pass": true
+        }
+      ]
+    },
+    "03f_three_dof_aerodynamic_database_interpolation": {
+      "checks": [
+        {
+          "metric": "maximum initial articulation-coordinate error",
+          "unit": "rad",
+          "actual": 5.551115123125783e-17,
+          "expected": 0.0,
+          "absolute_error": 5.551115123125783e-17,
+          "tolerance": 1e-14,
+          "pass": true
+        },
+        {
+          "metric": "initial dynamic pressure",
+          "unit": "Pa",
+          "actual": 0.03200000002981552,
+          "expected": 0.032,
+          "absolute_error": 2.981551810998795e-11,
+          "tolerance": 1e-09,
+          "pass": true
+        },
+        {
+          "metric": "initial molecular speed ratio",
+          "unit": "",
+          "actual": 10.547607654346578,
+          "expected": 10.547607654346578,
+          "absolute_error": 0.0,
+          "tolerance": 1e-08,
+          "pass": true
+        },
+        {
+          "metric": "initial Knudsen number",
+          "unit": "",
+          "actual": 11.31370849898475,
+          "expected": 11.31370849898475,
+          "absolute_error": 0.0,
+          "tolerance": 1e-08,
+          "pass": true
+        },
+        {
+          "metric": "aerodynamic_force_coefficient_body_x",
+          "unit": "",
+          "actual": 1.2098821020657975,
+          "expected": 1.2098821020657973,
+          "absolute_error": 2.220446049250313e-16,
+          "tolerance": 1e-12,
+          "pass": true
+        },
+        {
+          "metric": "aerodynamic_force_coefficient_body_y",
+          "unit": "",
+          "actual": -0.7432321954633568,
+          "expected": -0.7432321954633567,
+          "absolute_error": 1.1102230246251565e-16,
+          "tolerance": 1e-12,
+          "pass": true
+        },
+        {
+          "metric": "aerodynamic_force_coefficient_body_z",
+          "unit": "",
+          "actual": 0.19911738359062411,
+          "expected": 0.19911738359062411,
+          "absolute_error": 0.0,
+          "tolerance": 1e-12,
+          "pass": true
+        },
+        {
+          "metric": "aerodynamic_moment_coefficient_about_cm_body_x",
+          "unit": "",
+          "actual": 0.019412943961867594,
+          "expected": 0.01941294396186759,
+          "absolute_error": 3.469446951953614e-18,
+          "tolerance": 1e-12,
+          "pass": true
+        },
+        {
+          "metric": "aerodynamic_moment_coefficient_about_cm_body_y",
+          "unit": "",
+          "actual": -0.028999485656421714,
+          "expected": -0.02899948565642174,
+          "absolute_error": 2.42861286636753e-17,
+          "tolerance": 1e-12,
+          "pass": true
+        },
+        {
+          "metric": "aerodynamic_moment_coefficient_about_cm_body_z",
+          "unit": "",
+          "actual": 0.2840869619734907,
+          "expected": 0.2840869619734907,
+          "absolute_error": 0.0,
+          "tolerance": 1e-12,
+          "pass": true
+        },
+        {
+          "metric": "database-used flag",
+          "unit": "",
+          "actual": 1.0,
+          "expected": 1.0,
+          "absolute_error": 0.0,
+          "tolerance": 0.0,
+          "pass": true
+        },
+        {
+          "metric": "fallback-used flag",
+          "unit": "",
+          "actual": 0.0,
+          "expected": 0.0,
+          "absolute_error": 0.0,
+          "tolerance": 0.0,
+          "pass": true
+        },
+        {
+          "metric": "outside-validity flag",
+          "unit": "",
+          "actual": 0.0,
+          "expected": 0.0,
+          "absolute_error": 0.0,
+          "tolerance": 0.0,
+          "pass": true
+        }
+      ]
+    }
+  },
+  "case_1": {
+    "backend_checks_passed": 111,
+    "backend_checks_failed": 0,
+    "round_trip_passed": true
+  },
+  "runner_logs": {
+    "runner_log_count": 44,
+    "matches": {
+      "kernel_variable_not_found": [],
+      "severe_error_block": [],
+      "spice_error": []
+    }
+  },
+  "summary": {
+    "quantitative_checks_passed": 57,
+    "quantitative_checks_failed": 0,
+    "all_nominal_row_counts": true,
+    "series_with_nonstrict_absolute_et": [],
+    "total_nonfinite_numeric_cells": 0,
+    "total_multibody_solve_failures": 0,
+    "maximum_quaternion_norm_error": 2.220446049250313e-16
+  },
+  "baseline_metrics_path": "../Support/Provenance/legacy_reference/05_to_07_Backend_Feature_Verification/analysis/cases_05_07_metrics.json"
+}

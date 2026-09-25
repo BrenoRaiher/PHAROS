@@ -1,0 +1,12 @@
+file,x_cm,y_cm,z_cm,confidence
+CM_Upper_Shell_With_Hatch.stl,104.815291,0.000000,0.000000,USER-VERIFIED coupled shell+hatch; V3 shell transform preserved
+CM_Heat_Shield.stl,24.042758,0.000000,0.000000,HIGH
+SM_Body.stl,-229.292606,-1.929776,-8.540465,CORRECTED: true SM cylindrical axis aligned to CSM axis
+SM_Lower_End.stl,-428.594033,0.000000,0.000000,HIGH
+SM_Engine.stl,-598.094892,0.000000,0.000000,HIGH
+SM_RCS_Quad_A.stl,-104.394000,-26.502692,-208.328182,HIGH for quad clocking/placement reference
+SM_RCS_Quad_B.stl,-104.394000,208.328182,-26.502692,HIGH for quad clocking/placement reference
+SM_RCS_Quad_C.stl,-104.394000,26.502692,208.328182,HIGH for quad clocking/placement reference
+SM_RCS_Quad_D.stl,-104.394000,-208.328182,26.502692,HIGH for quad clocking/placement reference
+SM_High_Gain_Antenna_DEPLOYED.stl,-434.349647,-123.409244,242.864334,MEDIUM: deployed angle exact; hinge Y/Z reconstructed
+SM_CM_Umbilical.stl,0.000000,0.000000,190.000000,MEDIUM/LOW: cosmetic placement

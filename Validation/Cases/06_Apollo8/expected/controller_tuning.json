@@ -1,0 +1,25 @@
+{
+  "status": "Retained current Apollo 8 reconstruction",
+  "approach_trial": "A2a",
+  "period_trial": "P1a",
+  "rejected_alternative": "L3a: limited improvement from normal-direction changes; original direction laws retained",
+  "burn_overrides": {
+    "second_midcourse": {
+      "actual_dv_fps": 2.4161308763160854
+    },
+    "lunar_orbit_insertion": {
+      "actual_dv_fps": 2971.7847769028867,
+      "radial_bias": 0.02,
+      "normal_bias": 0.0
+    },
+    "lunar_orbit_circularization": {
+      "actual_dv_fps": 134.94094488188978
+    },
+    "transearth_injection": {
+      "actual_dv_fps": 3506.638149262409
+    }
+  },
+  "tei_trial": "T1a",
+  "third_midcourse": "Inherited 4.850164945648756 ft/s magnitude and direction retained.",
+  "stop_reason": "Lunar scalar second update worsened the objective; TEI reached 1.201 km after one rounded update. No further tuning."
+}

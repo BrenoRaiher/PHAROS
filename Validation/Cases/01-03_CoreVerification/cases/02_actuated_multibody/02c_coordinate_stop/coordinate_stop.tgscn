@@ -1,0 +1,73 @@
+format = "TGSCN"
+generator = "TGSimCore validation workspace generator"
+
+[scenario]
+name = "Case 2.3 - revolute coordinate stop"
+start_utc = "2030-01-01T00:00:00Z"
+end_mode = "duration"
+duration_seconds = 0.10000000000000001
+integrator = "fixed_step_rk4"
+maximum_integrator_step_seconds = 0.001
+initial_integrator_step_seconds = 0.00025000000000000001
+absolute_tolerance = 1.0000000000000001e-05
+relative_tolerance = 9.9999999999999998e-13
+output_mode = "fixed_interval"
+output_step_seconds = 0.01
+maximum_integration_steps = 5000000
+maximum_output_samples = 1000000
+
+[initial_state]
+position_icrf_m = [0, 0, 0]
+velocity_icrf_mps = [0, 0, 0]
+attitude_body_to_icrf = [1, 0, 0, 0]
+angular_velocity_body_radps = [0, 0, 0]
+
+[[components]]
+id = "11111111-1111-1111-1111-111111111111"
+name = "Bus"
+initial_mass_kg = 1
+minimum_mass_kg = 1
+variable_mass = false
+local_center_of_mass_m = [0, 0, 0]
+origin_body_m = [0, 0, 0]
+component_to_body = [1.0, 0.0, 0.0, 0.0]
+parent_component = ""
+parent_anchor_m = [0, 0, 0]
+child_anchor_m = [0, 0, 0]
+child_to_parent_zero_orientation = [1.0, 0.0, 0.0, 0.0]
+dofs = []
+inertia = { ixx_kgm2 = 2, iyy_kgm2 = 2, izz_kgm2 = 2, ixy_kgm2 = 0, ixz_kgm2 = 0, iyz_kgm2 = 0 }
+
+[[components]]
+id = "22222222-2222-2222-2222-222222222222"
+name = "Rotor"
+initial_mass_kg = 1
+minimum_mass_kg = 1
+variable_mass = false
+local_center_of_mass_m = [0, 0, 0]
+origin_body_m = [0, 0, 0]
+component_to_body = [1.0, 0.0, 0.0, 0.0]
+parent_component = "Bus"
+parent_anchor_m = [0, 0, 0]
+child_anchor_m = [0, 0, 0]
+child_to_parent_zero_orientation = [1.0, 0.0, 0.0, 0.0]
+dofs = [{ id = "cccccccc-cccc-cccc-cccc-cccccccccccc", name = "Hinge", motion = "rotation", axis = [0.0, 0.0, 1.0], initial_coordinate = 180, initial_rate = 0, minimum_coordinate = -180, maximum_coordinate = 180, maximum_absolute_rate = 572.95779513082323, maximum_absolute_effort = 0.4 }]
+inertia = { ixx_kgm2 = 0.5, iyy_kgm2 = 0.5, izz_kgm2 = 0.5, ixy_kgm2 = 0, ixz_kgm2 = 0, iyz_kgm2 = 0 }
+
+[control]
+mode = "compiled_user_controller"
+unreal_controller_id = ""
+controller_dll_file = "../controllers/ActuatorValidationController.dll"
+
+[gravity]
+include_first_post_newtonian_correction = false
+bodies = []
+
+[srp]
+enabled = false
+
+[atmosphere]
+enabled = false
+
+[aerodynamics]
+enabled = false

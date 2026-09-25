@@ -1,0 +1,10 @@
+{
+  "id": "03",
+  "external_initial_state": false,
+  "previous_segment": "02",
+  "runner_sha256": "bb682d5eace254cbe4d8a140cf8015c379e8f1d2d351558f04a2670ad1b4fac7",
+  "scenario_sha256": "d6770f4e9579a50e8fe632fc8f6858352c29484b8d383120ace6fac73896dc24",
+  "controller_sha256": "a2698df3a7f09d9df2f0f731e01ff3de26d7a2312cc2e85448ca79fe9e09dd1e",
+  "maximum_step_factor": 1,
+  "wall_seconds": 850.1100000000006
+}

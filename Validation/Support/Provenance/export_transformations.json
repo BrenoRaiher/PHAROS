@@ -1,0 +1,98 @@
+[
+  {
+    "path": "Cases/01-03_CoreVerification/diagnostics/reaction_wheel_output_boundary/reaction_wheel_every_step.tgscn",
+    "original_sha256": "af96f0fa75ae57195b3ea4fdbded664a7ee92c341b4e977c7cfd340b6f544725",
+    "export_sha256": "094a763cda70dc9bf935ba330f24689c7245978474b9e48895a11fedc86573e5",
+    "change": "Resource-path repair only; physical values and recorded solution unchanged."
+  },
+  {
+    "path": "Cases/01-03_CoreVerification/diagnostics/commanded_thruster_step_convergence/h_0p001/commanded_thrust.tgscn",
+    "original_sha256": "cafe42726a1126098860e44ee4d610efb56e7652f9fc3e105a4563e693567636",
+    "export_sha256": "964365a1bb304f2f2ca93d191414370d10d9c65bcd0f19b677001f66f1b2095a",
+    "change": "Resource-path repair only; physical values and recorded solution unchanged."
+  },
+  {
+    "path": "Cases/01-03_CoreVerification/diagnostics/commanded_thruster_step_convergence/h_0p002/commanded_thrust.tgscn",
+    "original_sha256": "986e5f2574365f48575d20ece1e4dc5acd92646610b92a485fd2c28ec8a584c9",
+    "export_sha256": "917a7f532e6452879017ff4ef2e41ad18cd8500541a59dac12e2252721827791",
+    "change": "Resource-path repair only; physical values and recorded solution unchanged."
+  },
+  {
+    "path": "Cases/01-03_CoreVerification/diagnostics/commanded_thruster_step_convergence/h_0p005/commanded_thrust.tgscn",
+    "original_sha256": "4c9d4f955e2b56df1abbaa0530ce6c9cd4444adfcf91be73ed7c3bfd31d2a1c6",
+    "export_sha256": "18bc409484a220060c2911e5a225b3018138bc95d01f36f91ef0d48c3fa3fabe",
+    "change": "Resource-path repair only; physical values and recorded solution unchanged."
+  },
+  {
+    "path": "Cases/07_Cassini/checks/encounters/earth/scenario/earth.tgscn",
+    "original_sha256": "696f100d1bd801fc562b3c3f6862eacb4eecd577bd0c4b1e8e0102e868a48799",
+    "export_sha256": "c29f1de43db79b2484d76ee34f30dd7266bbbbd4db46190105e81beb9a743da7",
+    "change": "Resource-path repair only; physical values and recorded solution unchanged."
+  },
+  {
+    "path": "Cases/07_Cassini/checks/encounters/jupiter/scenario/jupiter.tgscn",
+    "original_sha256": "2653aa8fd561f88c7b95e9bfaab82b69487fc20f68322c4344f8c0d15708f3ea",
+    "export_sha256": "82a9885ef22df67517a3adc5178d6083a246eb5943726dfb0855d9293f6e4e04",
+    "change": "Resource-path repair only; physical values and recorded solution unchanged."
+  },
+  {
+    "path": "Cases/07_Cassini/checks/encounters/phoebe/scenario/phoebe.tgscn",
+    "original_sha256": "f79592909dbf8217b0a52409d9c2b135c4755a278feb58c931e49bf445ab9f2e",
+    "export_sha256": "67ec98b9deae8fc47a9ec991c0609f6b2f63efe3e5fb2c059382cc62184fa27c",
+    "change": "Resource-path repair only; physical values and recorded solution unchanged."
+  },
+  {
+    "path": "Cases/07_Cassini/checks/encounters/venus_1/scenario/venus_1.tgscn",
+    "original_sha256": "dda9c819baaad45d51134cac360a7f027f7b218e62a17369817f2ec6e8d5d76d",
+    "export_sha256": "3f8880dfa20ad15631b0505798825e50d2a2909278f6af77d6d0fa7dbe91fb20",
+    "change": "Resource-path repair only; physical values and recorded solution unchanged."
+  },
+  {
+    "path": "Cases/07_Cassini/checks/encounters/venus_2/scenario/venus_2.tgscn",
+    "original_sha256": "0b3e104459b99e003f48d7a53b38380128a5cd3925e6bbfff5e9e50eccb8fa12",
+    "export_sha256": "77f889546d92092ce6d92bae23cea7e3418493f57a63dc08ed36a21d1b650a4c",
+    "change": "Resource-path repair only; physical values and recorded solution unchanged."
+  },
+  {
+    "path": "Cases/07_Cassini/checks/half_step/01/scenario/cassini_01.tgscn",
+    "original_sha256": "923ec82cc73fb013e03a79d80152a9128b39f54da674a2a02719ebcbf2b29c86",
+    "export_sha256": "eda9349a20309b8483ff029b58b054b95798305262d935c205a0a5bacda43f0e",
+    "change": "Resource-path repair only; physical values and recorded solution unchanged."
+  },
+  {
+    "path": "Cases/07_Cassini/checks/half_step/02/scenario/cassini_02.tgscn",
+    "original_sha256": "3e419ef8b3e341ece333d3c9d74120e966dce989f002aaa3be9547bbb1d50cab",
+    "export_sha256": "e9f2efc28009e443b887da82a242607772810b0de27ba942f1f839f870e321d6",
+    "change": "Resource-path repair only; physical values and recorded solution unchanged."
+  },
+  {
+    "path": "Cases/07_Cassini/checks/half_step/03/scenario/cassini_03.tgscn",
+    "original_sha256": "828a10e8d3b922af6619e8bd51c98e70550193065de8b012238c44799ca00145",
+    "export_sha256": "7555e82673e191c5dbd4c9284fa708406cdb1e6cae89b79bc75317524b5af9e8",
+    "change": "Resource-path repair only; physical values and recorded solution unchanged."
+  },
+  {
+    "path": "Cases/07_Cassini/checks/half_step/04/scenario/cassini_04.tgscn",
+    "original_sha256": "469f5f6772bf37fa7a20671dff84f3e99900aa2fbf4047639875ee2319fcd571",
+    "export_sha256": "cb02bae1ccd5ffaa4f5e3635849d9cb778390d23f74b935b7bef348a99208cf7",
+    "change": "Resource-path repair only; physical values and recorded solution unchanged."
+  },
+  {
+    "path": "Cases/07_Cassini/checks/half_step/05/scenario/cassini_05.tgscn",
+    "original_sha256": "8af7ee3cd24640e23271f5fb9f4cc2a75b26fc20217e0370263d7b39e92ff780",
+    "export_sha256": "21b4595fffa5de3da94c81bcc06ec6051822563dfb414cd00517f810dc4f5460",
+    "change": "Resource-path repair only; physical values and recorded solution unchanged."
+  },
+  {
+    "path": "Cases/07_Cassini/checks/half_step/06/scenario/cassini_06.tgscn",
+    "original_sha256": "c217d4fa56d85b3b5118da09097b0560555c8230116288abc76520ddeaecc2fc",
+    "export_sha256": "28d1117159eedf29dc1da461c42ac0bb875146052f261397a3549eb22fa2a2ce",
+    "change": "Resource-path repair only; physical values and recorded solution unchanged."
+  },
+  {
+    "path": "Cases/07_Cassini/checks/local_half_step/20/scenario/cassini_20.tgscn",
+    "original_sha256": "94a96d6d156ea1f50a121822dc4871537f33cb575305a90feb5ff9baea2036a5",
+    "export_sha256": "dd0ff1c73d1eff595458f72cfe80be88381d1ea5698db09e108228e962ebb72d",
+    "change": "Resource-path repair only; physical values and recorded solution unchanged."
+  }
+]

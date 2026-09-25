@@ -1,0 +1,15 @@
+{
+  "burn": "transearth_injection",
+  "initial_vector_mps": [
+    -583.9931297704322,
+    -783.5273841722302,
+    -443.03649192700954
+  ],
+  "finite_difference_step_mps": 0.1,
+  "max_updates": 3,
+  "maximum_update_vector_change_mps": 20.0,
+  "maximum_total_vector_change_mps": 40.0,
+  "rounding_decimal_places_mps": 2,
+  "target": "Direct post-MC3 position",
+  "stop": "Below 5 km for post-MC3 / 10 km for entry, less than 5% improvement, or update count limit. No source-state reset."
+}

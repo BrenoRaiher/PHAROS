@@ -1,0 +1,21 @@
+SOURCE / LICENSE
+
+Original downloadable model:
+"Apollo Command and Service Module"
+by lowracer
+Pinshape item 14583
+
+The Pinshape model page states:
+Creative Commons Attribution-ShareAlike.
+
+This package contains transformed/adapted versions of selected STL files:
+rescaled, recentered, reoriented, duplicated for the four RCS quads, and
+assembled into a simulator-oriented Apollo 8 configuration.
+
+Attribution:
+Original 3D model by lowracer / Pinshape.
+Apollo engineering geometry references used for reconstruction are from NASA
+Apollo documentation.
+
+Derivative meshes should be distributed under the applicable ShareAlike terms
+of the original model license.

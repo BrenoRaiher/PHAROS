@@ -1,0 +1,97 @@
+format = "TGSCN"
+generator = "TGSimCore validation workspace generator"
+
+[scenario]
+name = "Case 3.7 - aerodynamic database and moment transport"
+start_utc = "2030-01-01T00:00:00Z"
+end_mode = "duration"
+duration_seconds = 1
+integrator = "fixed_step_rk4"
+maximum_integrator_step_seconds = 0.001
+initial_integrator_step_seconds = 0.00025000000000000001
+absolute_tolerance = 1.0000000000000001e-05
+relative_tolerance = 9.9999999999999998e-13
+output_mode = "fixed_interval"
+output_step_seconds = 0.01
+maximum_integration_steps = 5000000
+maximum_output_samples = 1000000
+
+[initial_state]
+position_icrf_m = [-25928411291.503281, 132886411414.21767, 57615760894.690384]
+velocity_icrf_mps = [-31238.825475460482, 2950.971463387179, -2130.3713465340547]
+attitude_body_to_icrf = [0.64136019408612943, 0.0011219380751209239, 0.00093148638276311247, 0.76723853854578805]
+angular_velocity_body_radps = [0, 0, 0]
+
+[[components]]
+id = "11111111-1111-1111-1111-111111111111"
+name = "Bus"
+initial_mass_kg = 100
+minimum_mass_kg = 100
+variable_mass = false
+local_center_of_mass_m = [0, 0, 0]
+origin_body_m = [0, 0, 0]
+component_to_body = [1.0, 0.0, 0.0, 0.0]
+parent_component = ""
+parent_anchor_m = [0, 0, 0]
+child_anchor_m = [0, 0, 0]
+child_to_parent_zero_orientation = [1.0, 0.0, 0.0, 0.0]
+dofs = []
+inertia = { ixx_kgm2 = 10, iyy_kgm2 = 10, izz_kgm2 = 10, ixy_kgm2 = 0, ixz_kgm2 = 0, iyz_kgm2 = 0 }
+
+[control]
+mode = "none"
+
+[gravity]
+include_first_post_newtonian_correction = false
+
+[[gravity.bodies]]
+catalog_key = "Sun"
+gravity_enabled = false
+automatic_activation_radius_m = 0.0
+barycenter_resolution_radius_m = 0.0
+harmonic_model_csv_file = ""
+maximum_harmonic_degree = 0
+
+[[gravity.bodies]]
+catalog_key = "EarthMoonBarycenter"
+gravity_enabled = false
+automatic_activation_radius_m = 0.0
+barycenter_resolution_radius_m = 0.0
+harmonic_model_csv_file = ""
+maximum_harmonic_degree = 0
+
+[[gravity.bodies]]
+catalog_key = "Earth"
+gravity_enabled = false
+automatic_activation_radius_m = 0.0
+barycenter_resolution_radius_m = 0.0
+harmonic_model_csv_file = ""
+maximum_harmonic_degree = 0
+
+[srp]
+enabled = false
+
+[atmosphere]
+enabled = true
+central_body = "Earth"
+model = "uploaded_profile"
+general_profile_csv_file = "data/atmosphere.csv"
+
+[aerodynamics]
+enabled = true
+reference_area_m2 = 2.0
+reference_length_m = 3.0
+minimum_dynamic_pressure_pa = 1.0e-12
+maximum_valid_dynamic_pressure_pa = 1.0
+constant_drag_fallback_enabled = false
+fallback_drag_coefficient = 2.2
+
+[aerodynamics.database]
+enabled = true
+csv_file = "data/aerodynamics.csv"
+interpolation = "nearest_row"
+extrapolation = "nearest_row"
+neighbor_count = 1
+inverse_distance_power = 2.0
+maximum_normalized_neighbor_distance = 3.0
+moment_reference_center_body_m = [1.0, 0.0, 0.0]

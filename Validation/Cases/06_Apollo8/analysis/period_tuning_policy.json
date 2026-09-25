@@ -1,0 +1,24 @@
+{
+  "reason": "The LOI-only direction trials hit their small normal-bias bound. Keep the inherited direction laws and adjust only scalar impulses to recover lunar phase after the bounded MC2 change.",
+  "mc2_trial": "A2a",
+  "parameters": [
+    "LOI delta-v m/s",
+    "LOC delta-v m/s"
+  ],
+  "max_updates": 2,
+  "per_update_limits_mps": [
+    3,
+    2
+  ],
+  "total_delta_bounds_mps": [
+    [
+      -5,
+      4
+    ],
+    [
+      -3,
+      0.25
+    ]
+  ],
+  "stop": "Stop after two updates or <5% improvement. The two direct lunar marks also expose the inherited orbit-plane mismatch; no attempt to force it away with a large normal burn."
+}

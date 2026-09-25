@@ -1,0 +1,91 @@
+{
+  "segment": "11",
+  "target_role": "Accepted legacy outgoing position and velocity, compared separately with NAIF afterward.",
+  "iterations": 1,
+  "main_update_mps": [
+    -0.0001554009709750373,
+    -0.016627864268183024,
+    0.01997920427632715
+  ],
+  "trim_update_mps": [
+    -5.4862041595523376e-05,
+    0.0018335946466639607,
+    -0.0022796077619024395
+  ],
+  "main_update_norm_mps": 0.025993818940242445,
+  "trim_update_norm_mps": 0.002926036691500743,
+  "bounds_mps": [
+    0.05,
+    0.1
+  ],
+  "common_bound_scale": 1.0,
+  "main_candidate_vector_mps": [
+    1.4359728501525562,
+    5.892642390096047,
+    2.7924536914452434
+  ],
+  "trim_candidate_vector_mps": [
+    -0.20318495204159553,
+    -0.03026604535333604,
+    -0.00613959776190244
+  ],
+  "normalized_sensitivity_matrix": [
+    [
+      1.6087578574995882,
+      0.26861232426841375,
+      0.10593895577522015,
+      0.5064491122148421,
+      0.02193605876414719,
+      0.009068130903842156
+    ],
+    [
+      0.39191757066359617,
+      0.8548456587896056,
+      0.07195758148388597,
+      0.022062223347369375,
+      0.5063554982794278,
+      0.009164257845883674
+    ],
+    [
+      0.15789966561598262,
+      0.07291636784577894,
+      0.7063540205722615,
+      0.009121182647562655,
+      0.009165135115689236,
+      0.4879886448505999
+    ],
+    [
+      1.9589041076878821,
+      0.6120861760175418,
+      0.24604355640862627,
+      1.023293093146091,
+      0.1103884635608928,
+      0.04568819103073596
+    ],
+    [
+      0.97435115108714,
+      0.9450064695984975,
+      0.20689092224824676,
+      0.11158435900696963,
+      1.0426684865774665,
+      0.050642340840125914
+    ],
+    [
+      0.3986378946649532,
+      0.20968872418090007,
+      0.5212613656214646,
+      0.04619059726730692,
+      0.05065020786644243,
+      0.9413696047511007
+    ]
+  ],
+  "matrix_condition_number": 16.897053002437197,
+  "predictor_steps": 27654,
+  "original_position_residual_m": 422274.4210199267,
+  "original_velocity_residual_mps": 0.012348262258672709,
+  "predictor": "Offline central-gravity variational equations along the previously computed PHAROS path, with cubic Hermite interpolation and RK4 steps <=900s. Burns represented at their centers only for this one parameter estimate. Full PHAROS physics and finite burns verify the retained candidate. No online feedback or additional impulse is introduced.",
+  "retained": false,
+  "candidate_position_residual_m": 628924.8490445352,
+  "candidate_velocity_residual_mps": 0.030974848658036316,
+  "preceding_preparation_segment": "10"
+}

@@ -1,0 +1,332 @@
+format = "TGSCN"
+generator = "Apollo 8 current PHAROS reconstruction, 2026-09-09"
+
+[scenario]
+name = "Apollo 8 third midcourse controlled maneuver"
+start_utc = "1968-12-25T20:49:54.000Z"
+end_mode = "final_utc"
+final_utc = "1968-12-25T20:51:15.000Z"
+integrator = "adaptive_dormand_prince_54"
+maximum_integrator_step_seconds = 0.25
+initial_integrator_step_seconds = 0.10000000000000001
+absolute_tolerance = 1.0e-5
+relative_tolerance = 1.0e-12
+output_mode = "fixed_interval"
+output_step_seconds = 0.10000000000000001
+maximum_integration_steps = 5000000
+maximum_output_samples = 1000000
+mass_flow_convention = "thrust_includes_exhaust_momentum"
+
+[initial_state]
+position_icrf_m = [-10812184011.738287, 134459799953.39128, 58290566743.24221]
+velocity_icrf_mps = [-31405.194822321359, -1907.5392215726763, -740.41278870585654]
+attitude_body_to_icrf = [0.27457400385915209, -0.39065808333288909, 0.87514114574404755, -0.078251858490542447]
+angular_velocity_body_radps = [1.9769822877505405e-40, -6.1247288921104902e-39, -7.5605847366169809e-39]
+
+[[components]]
+id = "a8000001-0000-0000-0000-000000000001"
+name = "Apollo 8 CSM dry structure"
+initial_mass_kg = 13000
+minimum_mass_kg = 13000
+variable_mass = false
+local_center_of_mass_m = [0.0, 0.0, 0.0]
+origin_body_m = [0.0, 0.0, 0.0]
+component_to_body = [1.0, 0.0, 0.0, 0.0]
+parent_component = ""
+parent_anchor_m = [0.0, 0.0, 0.0]
+child_anchor_m = [0.0, 0.0, 0.0]
+child_to_parent_zero_orientation = [1.0, 0.0, 0.0, 0.0]
+dofs = []
+inertia = { ixx_kgm2 = 22215.393185514, iyy_kgm2 = 70663.24265724, izz_kgm2 = 72245.988780387997, ixy_kgm2 = -1592.9336260196501, ixz_kgm2 = -148.99889359027301, iyz_kgm2 = 4293.8772061924201 }
+
+[[components]]
+id = "a8000002-0000-0000-0000-000000000002"
+name = "Propellant and consumables pool"
+initial_mass_kg = 1704.3737467890423
+minimum_mass_kg = 100.0
+variable_mass = true
+local_center_of_mass_m = [0.0, 0.0, 0.0]
+origin_body_m = [0.0, 0.0, 0.0]
+component_to_body = [1.0, 0.0, 0.0, 0.0]
+parent_component = "Apollo 8 CSM dry structure"
+parent_anchor_m = [0.0, 0.0, 0.0]
+child_anchor_m = [0.0, 0.0, 0.0]
+child_to_parent_zero_orientation = [1.0, 0.0, 0.0, 0.0]
+dofs = []
+inertia = { ixx_kgm2 = 2591.0959181639155, iyy_kgm2 = 3778.6815473223833, izz_kgm2 = 3994.6062071693741, ixy_kgm2 = 0.0, ixz_kgm2 = 0.0, iyz_kgm2 = 0.0 }
+
+
+[[thrusters]]
+name = "SPS Main Engine"
+mode = "commanded"
+mount_component = "Apollo 8 CSM dry structure"
+propellant_component = "Propellant and consumables pool"
+application_point_component_m = [0, 0, 0]
+direction_component = [1, 0, 0]
+ignition_time_mode = "elapsed"
+ignition_elapsed_seconds = 0.0
+never_shuts_down = false
+shutdown_time_mode = "elapsed"
+shutdown_elapsed_seconds = 82
+maximum_thrust_n = 91180.362687353307
+
+[[thrusters]]
+name = "SM RCS Translation Cluster"
+mode = "commanded"
+mount_component = "Apollo 8 CSM dry structure"
+propellant_component = "Propellant and consumables pool"
+application_point_component_m = [0, 0, 0]
+direction_component = [1, 0, 0]
+ignition_time_mode = "elapsed"
+ignition_elapsed_seconds = 0.0
+never_shuts_down = false
+shutdown_time_mode = "elapsed"
+shutdown_elapsed_seconds = 82
+maximum_thrust_n = 1780
+
+[[thrusters]]
+name = "Balanced Vent Plus"
+mode = "commanded"
+mount_component = "Apollo 8 CSM dry structure"
+propellant_component = "Propellant and consumables pool"
+application_point_component_m = [0, 0, 0]
+direction_component = [0, 1, 0]
+ignition_time_mode = "elapsed"
+ignition_elapsed_seconds = 0.0
+never_shuts_down = false
+shutdown_time_mode = "elapsed"
+shutdown_elapsed_seconds = 82
+maximum_thrust_n = 100
+
+[[thrusters]]
+name = "Balanced Vent Minus"
+mode = "commanded"
+mount_component = "Apollo 8 CSM dry structure"
+propellant_component = "Propellant and consumables pool"
+application_point_component_m = [0, 0, 0]
+direction_component = [0, -1, 0]
+ignition_time_mode = "elapsed"
+ignition_elapsed_seconds = 0.0
+never_shuts_down = false
+shutdown_time_mode = "elapsed"
+shutdown_elapsed_seconds = 82
+maximum_thrust_n = 100
+
+[[thrusters]]
+name = "Pitch Plus A"
+mode = "commanded"
+mount_component = "Apollo 8 CSM dry structure"
+propellant_component = "Propellant and consumables pool"
+application_point_component_m = [2, 0, 0]
+direction_component = [0, 0, -1]
+ignition_time_mode = "elapsed"
+ignition_elapsed_seconds = 0.0
+never_shuts_down = false
+shutdown_time_mode = "elapsed"
+shutdown_elapsed_seconds = 82
+maximum_thrust_n = 445
+
+[[thrusters]]
+name = "Pitch Plus B"
+mode = "commanded"
+mount_component = "Apollo 8 CSM dry structure"
+propellant_component = "Propellant and consumables pool"
+application_point_component_m = [-2, 0, 0]
+direction_component = [0, 0, 1]
+ignition_time_mode = "elapsed"
+ignition_elapsed_seconds = 0.0
+never_shuts_down = false
+shutdown_time_mode = "elapsed"
+shutdown_elapsed_seconds = 82
+maximum_thrust_n = 445
+
+[[thrusters]]
+name = "Pitch Minus A"
+mode = "commanded"
+mount_component = "Apollo 8 CSM dry structure"
+propellant_component = "Propellant and consumables pool"
+application_point_component_m = [2, 0, 0]
+direction_component = [0, 0, 1]
+ignition_time_mode = "elapsed"
+ignition_elapsed_seconds = 0.0
+never_shuts_down = false
+shutdown_time_mode = "elapsed"
+shutdown_elapsed_seconds = 82
+maximum_thrust_n = 445
+
+[[thrusters]]
+name = "Pitch Minus B"
+mode = "commanded"
+mount_component = "Apollo 8 CSM dry structure"
+propellant_component = "Propellant and consumables pool"
+application_point_component_m = [-2, 0, 0]
+direction_component = [0, 0, -1]
+ignition_time_mode = "elapsed"
+ignition_elapsed_seconds = 0.0
+never_shuts_down = false
+shutdown_time_mode = "elapsed"
+shutdown_elapsed_seconds = 82
+maximum_thrust_n = 445
+
+[[thrusters]]
+name = "Yaw Plus A"
+mode = "commanded"
+mount_component = "Apollo 8 CSM dry structure"
+propellant_component = "Propellant and consumables pool"
+application_point_component_m = [2, 0, 0]
+direction_component = [0, 1, 0]
+ignition_time_mode = "elapsed"
+ignition_elapsed_seconds = 0.0
+never_shuts_down = false
+shutdown_time_mode = "elapsed"
+shutdown_elapsed_seconds = 82
+maximum_thrust_n = 445
+
+[[thrusters]]
+name = "Yaw Plus B"
+mode = "commanded"
+mount_component = "Apollo 8 CSM dry structure"
+propellant_component = "Propellant and consumables pool"
+application_point_component_m = [-2, 0, 0]
+direction_component = [0, -1, 0]
+ignition_time_mode = "elapsed"
+ignition_elapsed_seconds = 0.0
+never_shuts_down = false
+shutdown_time_mode = "elapsed"
+shutdown_elapsed_seconds = 82
+maximum_thrust_n = 445
+
+[[thrusters]]
+name = "Yaw Minus A"
+mode = "commanded"
+mount_component = "Apollo 8 CSM dry structure"
+propellant_component = "Propellant and consumables pool"
+application_point_component_m = [2, 0, 0]
+direction_component = [0, -1, 0]
+ignition_time_mode = "elapsed"
+ignition_elapsed_seconds = 0.0
+never_shuts_down = false
+shutdown_time_mode = "elapsed"
+shutdown_elapsed_seconds = 82
+maximum_thrust_n = 445
+
+[[thrusters]]
+name = "Yaw Minus B"
+mode = "commanded"
+mount_component = "Apollo 8 CSM dry structure"
+propellant_component = "Propellant and consumables pool"
+application_point_component_m = [-2, 0, 0]
+direction_component = [0, 1, 0]
+ignition_time_mode = "elapsed"
+ignition_elapsed_seconds = 0.0
+never_shuts_down = false
+shutdown_time_mode = "elapsed"
+shutdown_elapsed_seconds = 82
+maximum_thrust_n = 445
+
+[[thrusters]]
+name = "Roll Plus A"
+mode = "commanded"
+mount_component = "Apollo 8 CSM dry structure"
+propellant_component = "Propellant and consumables pool"
+application_point_component_m = [0, 2, 0]
+direction_component = [0, 0, 1]
+ignition_time_mode = "elapsed"
+ignition_elapsed_seconds = 0.0
+never_shuts_down = false
+shutdown_time_mode = "elapsed"
+shutdown_elapsed_seconds = 82
+maximum_thrust_n = 445
+
+[[thrusters]]
+name = "Roll Plus B"
+mode = "commanded"
+mount_component = "Apollo 8 CSM dry structure"
+propellant_component = "Propellant and consumables pool"
+application_point_component_m = [0, -2, 0]
+direction_component = [0, 0, -1]
+ignition_time_mode = "elapsed"
+ignition_elapsed_seconds = 0.0
+never_shuts_down = false
+shutdown_time_mode = "elapsed"
+shutdown_elapsed_seconds = 82
+maximum_thrust_n = 445
+
+[[thrusters]]
+name = "Roll Minus A"
+mode = "commanded"
+mount_component = "Apollo 8 CSM dry structure"
+propellant_component = "Propellant and consumables pool"
+application_point_component_m = [0, 2, 0]
+direction_component = [0, 0, -1]
+ignition_time_mode = "elapsed"
+ignition_elapsed_seconds = 0.0
+never_shuts_down = false
+shutdown_time_mode = "elapsed"
+shutdown_elapsed_seconds = 82
+maximum_thrust_n = 445
+
+[[thrusters]]
+name = "Roll Minus B"
+mode = "commanded"
+mount_component = "Apollo 8 CSM dry structure"
+propellant_component = "Propellant and consumables pool"
+application_point_component_m = [0, -2, 0]
+direction_component = [0, 0, 1]
+ignition_time_mode = "elapsed"
+ignition_elapsed_seconds = 0.0
+never_shuts_down = false
+shutdown_time_mode = "elapsed"
+shutdown_elapsed_seconds = 82
+maximum_thrust_n = 445
+
+[control]
+mode = "compiled_user_controller"
+unreal_controller_id = ""
+controller_dll_file = "../controllers/ApolloThirdMidcourseController.dll"
+
+
+[gravity]
+include_first_post_newtonian_correction = true
+
+[[gravity.bodies]]
+catalog_key = "Sun"
+gravity_enabled = true
+automatic_activation_radius_m = 0.0
+barycenter_resolution_radius_m = 0.0
+harmonic_model_csv_file = ""
+maximum_harmonic_degree = 0
+
+[[gravity.bodies]]
+catalog_key = "EarthMoonBarycenter"
+gravity_enabled = false
+automatic_activation_radius_m = 0.0
+barycenter_resolution_radius_m = 0.0
+harmonic_model_csv_file = ""
+maximum_harmonic_degree = 0
+
+[[gravity.bodies]]
+catalog_key = "Earth"
+gravity_enabled = true
+automatic_activation_radius_m = 0.0
+barycenter_resolution_radius_m = 0.0
+harmonic_model_csv_file = "../../../data/earth_j2.csv"
+maximum_harmonic_degree = 2
+
+[[gravity.bodies]]
+catalog_key = "Moon"
+gravity_enabled = true
+automatic_activation_radius_m = 0.0
+barycenter_resolution_radius_m = 0.0
+harmonic_model_csv_file = "../../../data/moon_boeing_r2.csv"
+maximum_harmonic_degree = 3
+
+[srp]
+enabled = false
+
+[atmosphere]
+enabled = false
+
+[aerodynamics]
+enabled = false
+

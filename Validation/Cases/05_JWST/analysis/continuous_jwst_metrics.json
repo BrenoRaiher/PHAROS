@@ -1,0 +1,361 @@
+{
+  "campaign": "JWST continuous transfer to Sun-Earth L2",
+  "phase_count": 8,
+  "recorded_articulated_solves_all_successful": true,
+  "maximum_quaternion_norm_error": 2.220446049250313e-16,
+  "current_calibration_note": "Bounded joint refinement of MCC-1b and MCC-2 from six PHAROS finite-difference response columns, evaluated against D/E/F/G/H state marks; components rounded to 0.001 m/s and stopped at diminishing returns. See provenance/calibration_decision.json. No later reference-state reset is used.",
+  "total_output_rows": 3180,
+  "calibration_and_evaluation_separation": {
+    "controller_calibration_inputs": [
+      "NAIF reconstructed barycentric state at 2021-12-25T13:00:00Z",
+      "published MCC epochs, durations, and reconstructed delta-v values",
+      "Inherited legacy calibration: NAIF B-H terminal states as weighted objectives for sequential finite-difference burn-vector tuning",
+      "Current calibration: D/E/F/G/H terminal position and velocity marks with fixed weights and scales recorded before the response trials.",
+      "published physical mass, propellant, thrust type, and attitude strategy"
+    ],
+    "held_out_evaluation": "Unique exact-epoch samples excluding A[0], inherited B-H fit epochs and current B-H endpoints; duplicate boundaries count once. These are correlated samples of the same reconstructed mission, not a statistically independent validation mission.",
+    "legacy_calibration_endpoint_count": 7,
+    "current_correction_endpoint_count": 5,
+    "excluded_noninitial_epoch_count": 8,
+    "held_out_sample_count": 3165,
+    "held_out_rms_position_error_m": 15613.784340731052,
+    "held_out_maximum_position_error_m": 53097.248078311066,
+    "held_out_rms_velocity_error_mps": 0.10893278645044888,
+    "held_out_maximum_velocity_error_mps": 0.27911230882491184
+  },
+  "truth_injection_audit": {
+    "external_initial_state_count": 1,
+    "phase_a_source": "NAIF jwst_rec.bsp state at 2021-12-25T13:00:00Z",
+    "later_phase_sources": [
+      "phases\\A_coast_to_mcc1a\\results\\jwst_a_coast_to_mcc1a_solution.csv",
+      "phases\\B_mcc1a_burn\\results\\jwst_b_mcc1a_burn_solution.csv",
+      "phases\\C_coast_to_mcc1b\\results\\jwst_c_coast_to_mcc1b_solution.csv",
+      "phases\\D_mcc1b_burn\\results\\jwst_d_mcc1b_burn_solution.csv",
+      "phases\\E_coast_to_deployed_configuration\\results\\jwst_e_coast_to_deployed_configuration_solution.csv",
+      "phases\\F_deployed_coast_to_mcc2\\results\\jwst_f_deployed_coast_to_mcc2_solution.csv",
+      "phases\\G_mcc2_burn\\results\\jwst_g_mcc2_burn_solution.csv"
+    ],
+    "all_later_complete_state_handoffs_continuous_to_1e_12": true,
+    "tgscn_truth_reference_detected": false,
+    "joint_state_count": 0,
+    "note": "No joint states exist in this rigid JWST abstraction; the audit records the zero-length group for every handoff."
+  },
+  "per_phase_ephemeris_residuals": [
+    {
+      "phase": "A",
+      "label": "COAST_TO_MCC1A",
+      "sample_count": 144,
+      "maximum_truth_time_mismatch_s": 0.0,
+      "start_position_error_m": 0.0,
+      "final_position_error_m": 1377.9476732900416,
+      "rms_position_error_m": 691.6697531639264,
+      "maximum_position_error_m": 1377.9476732900416,
+      "final_position_error_fraction_of_earth_range": 9.825614954229938e-06,
+      "maximum_position_error_fraction_of_earth_range": 9.825614954229938e-06,
+      "start_velocity_error_mps": 0.0,
+      "final_velocity_error_mps": 0.050932851670898185,
+      "rms_velocity_error_mps": 0.036910264041384366,
+      "maximum_velocity_error_mps": 0.05093285248590768
+    },
+    {
+      "phase": "B",
+      "label": "MCC1A_BURN",
+      "sample_count": 780,
+      "maximum_truth_time_mismatch_s": 0.0,
+      "start_position_error_m": 1377.9476732900416,
+      "final_position_error_m": 2043.1496644034785,
+      "rms_position_error_m": 1749.2949658306118,
+      "maximum_position_error_m": 2043.7420376417226,
+      "final_position_error_fraction_of_earth_range": 1.3755666858231514e-05,
+      "maximum_position_error_fraction_of_earth_range": 1.3786471376576708e-05,
+      "start_velocity_error_mps": 0.050932851670898185,
+      "final_velocity_error_mps": 0.0346270015547494,
+      "rms_velocity_error_mps": 0.20792571616854028,
+      "maximum_velocity_error_mps": 0.27911230882491184
+    },
+    {
+      "phase": "C",
+      "label": "COAST_TO_MCC1B",
+      "sample_count": 187,
+      "maximum_truth_time_mismatch_s": 0.0,
+      "start_position_error_m": 2043.1496644034785,
+      "final_position_error_m": 1018.3998281777425,
+      "rms_position_error_m": 1424.295875738784,
+      "maximum_position_error_m": 2043.1496644034785,
+      "final_position_error_fraction_of_earth_range": 2.5784185709850235e-06,
+      "maximum_position_error_fraction_of_earth_range": 1.3755666858231514e-05,
+      "start_velocity_error_mps": 0.0346270015547494,
+      "final_velocity_error_mps": 0.007064830662128446,
+      "rms_velocity_error_mps": 0.007848384035808887,
+      "maximum_velocity_error_mps": 0.0346270015547494
+    },
+    {
+      "phase": "D",
+      "label": "MCC1B_BURN",
+      "sample_count": 569,
+      "maximum_truth_time_mismatch_s": 0.0,
+      "start_position_error_m": 1018.3998281777425,
+      "final_position_error_m": 1018.6309318794989,
+      "rms_position_error_m": 1020.239536635793,
+      "maximum_position_error_m": 1021.1838971311993,
+      "final_position_error_fraction_of_earth_range": 2.5747887130416295e-06,
+      "maximum_position_error_fraction_of_earth_range": 2.583187065051549e-06,
+      "start_velocity_error_mps": 0.007064830662128446,
+      "final_velocity_error_mps": 0.03747260526149596,
+      "rms_velocity_error_mps": 0.013529777087636162,
+      "maximum_velocity_error_mps": 0.03747260526149596
+    },
+    {
+      "phase": "E",
+      "label": "COAST_TO_DEPLOYED_CONFIGURATION",
+      "sample_count": 371,
+      "maximum_truth_time_mismatch_s": 0.0,
+      "start_position_error_m": 1018.6309318794989,
+      "final_position_error_m": 21808.564940536442,
+      "rms_position_error_m": 9144.129542731209,
+      "maximum_position_error_m": 21808.564940536442,
+      "final_position_error_fraction_of_earth_range": 2.455632948455406e-05,
+      "maximum_position_error_fraction_of_earth_range": 2.455632948455406e-05,
+      "start_velocity_error_mps": 0.03747260526149596,
+      "final_velocity_error_mps": 0.09660555148356771,
+      "rms_velocity_error_mps": 0.045629257489865654,
+      "maximum_velocity_error_mps": 0.09660555148356771
+    },
+    {
+      "phase": "F",
+      "label": "DEPLOYED_COAST_TO_MCC2",
+      "sample_count": 484,
+      "maximum_truth_time_mismatch_s": 0.0,
+      "start_position_error_m": 21808.564940536442,
+      "final_position_error_m": 8907.45509489261,
+      "rms_position_error_m": 37789.3841596302,
+      "maximum_position_error_m": 53097.248078311066,
+      "final_position_error_fraction_of_earth_range": 6.427137097915787e-06,
+      "maximum_position_error_fraction_of_earth_range": 4.8827882309755745e-05,
+      "start_velocity_error_mps": 0.09660555148356771,
+      "final_velocity_error_mps": 0.10774851022814388,
+      "rms_velocity_error_mps": 0.05977532771437707,
+      "maximum_velocity_error_mps": 0.1077485113649838
+    },
+    {
+      "phase": "G",
+      "label": "MCC2_BURN",
+      "sample_count": 298,
+      "maximum_truth_time_mismatch_s": 0.0,
+      "start_position_error_m": 8907.45509489261,
+      "final_position_error_m": 8911.138640812955,
+      "rms_position_error_m": 8911.13893422785,
+      "maximum_position_error_m": 8912.314011296934,
+      "final_position_error_fraction_of_earth_range": 6.429617325932404e-06,
+      "maximum_position_error_fraction_of_earth_range": 6.430529094091804e-06,
+      "start_velocity_error_mps": 0.10774851022814388,
+      "final_velocity_error_mps": 0.042659482291718794,
+      "rms_velocity_error_mps": 0.05092555015670748,
+      "maximum_velocity_error_mps": 0.10774851022814388
+    },
+    {
+      "phase": "H",
+      "label": "POST_INSERTION_L2_COAST",
+      "sample_count": 347,
+      "maximum_truth_time_mismatch_s": 0.0,
+      "start_position_error_m": 8911.138640812955,
+      "final_position_error_m": 6848.008396874489,
+      "rms_position_error_m": 8254.556416411082,
+      "maximum_position_error_m": 9334.250664664009,
+      "final_position_error_fraction_of_earth_range": 4.72287923943151e-06,
+      "maximum_position_error_fraction_of_earth_range": 6.517381430905297e-06,
+      "start_velocity_error_mps": 0.042659482291718794,
+      "final_velocity_error_mps": 0.025028830828084974,
+      "rms_velocity_error_mps": 0.029536857047999503,
+      "maximum_velocity_error_mps": 0.05622925456856701
+    }
+  ],
+  "burn_performance": [
+    {
+      "phase": "B",
+      "maneuver": "mcc1a",
+      "published_reconstructed_delta_v_mps": 20.033,
+      "retuned_command_delta_v_vector_icrf_mps": [
+        -0.30765878994689955,
+        20.101342865417173,
+        0.2592813788163473
+      ],
+      "retuned_command_delta_v_mps": 20.105369077872965,
+      "retuned_minus_published_delta_v_mps": 0.07236907787296332,
+      "rocket_equation_delta_v_mps": 20.105369064661915,
+      "fractional_command_tracking_error": -6.570906497933149e-10,
+      "propellant_used_kg": 42.671756162922065,
+      "maximum_thrust_n": 31.736861401681406,
+      "first_order_time_constant_s": 5.0,
+      "measured_thrust_fraction_at_one_time_constant": 0.6321205588285576,
+      "expected_first_order_fraction_at_one_time_constant": 0.6321205588285577,
+      "initial_pointing_error_deg": 0.4226376401151927,
+      "settled_maximum_pointing_error_deg": 0.37915209296224445,
+      "settled_rms_pointing_error_deg": 0.10147043967679205
+    },
+    {
+      "phase": "D",
+      "maneuver": "mcc1b",
+      "published_reconstructed_delta_v_mps": 2.773,
+      "retuned_command_delta_v_vector_icrf_mps": [
+        -0.384,
+        2.75,
+        0.062
+      ],
+      "retuned_command_delta_v_mps": 2.7773728593762845,
+      "retuned_minus_published_delta_v_mps": 0.004372859376284399,
+      "rocket_equation_delta_v_mps": 2.777372859361778,
+      "fractional_command_tracking_error": -5.2231439073758004e-12,
+      "propellant_used_kg": 5.87143430861579,
+      "maximum_thrust_n": 30.211003957490476,
+      "first_order_time_constant_s": 5.0,
+      "measured_thrust_fraction_at_one_time_constant": 0.6321205588285573,
+      "expected_first_order_fraction_at_one_time_constant": 0.6321205588285577,
+      "initial_pointing_error_deg": 0.43386649175687164,
+      "settled_maximum_pointing_error_deg": 0.3894461916651988,
+      "settled_rms_pointing_error_deg": 0.26323477252627114
+    },
+    {
+      "phase": "G",
+      "maneuver": "mcc2",
+      "published_reconstructed_delta_v_mps": 1.484,
+      "retuned_command_delta_v_vector_icrf_mps": [
+        -1.292,
+        0.321,
+        0.043
+      ],
+      "retuned_command_delta_v_mps": 1.3319737234645435,
+      "retuned_minus_published_delta_v_mps": -0.15202627653545653,
+      "rocket_equation_delta_v_mps": 1.3319737234515578,
+      "fractional_command_tracking_error": -9.749150720067753e-12,
+      "propellant_used_kg": 2.8138258415165183,
+      "maximum_thrust_n": 27.911353849056475,
+      "first_order_time_constant_s": 5.0,
+      "measured_thrust_fraction_at_one_time_constant": 0.6321205588285572,
+      "expected_first_order_fraction_at_one_time_constant": 0.6321205588285577,
+      "initial_pointing_error_deg": 0.39798949552829116,
+      "settled_maximum_pointing_error_deg": 0.3572524473841364,
+      "settled_rms_pointing_error_deg": 0.29280342898968614
+    }
+  ],
+  "burn_vector_tuning": {
+    "method": "Bounded joint refinement of MCC-1b and MCC-2 from six PHAROS finite-difference response columns, evaluated against D/E/F/G/H state marks; components rounded to 0.001 m/s and stopped at diminishing returns.",
+    "truth_use": "Inherited legacy B-H targeting, followed by the earlier final-H correction and the current joint D/E/F/G/H targeting. Reference states enter only the offline target comparison; no later state is inserted into propagation.",
+    "retuned_delta_v_vectors_icrf_mps": {
+      "mcc1a": [
+        -0.30765878994689955,
+        20.101342865417173,
+        0.2592813788163473
+      ],
+      "mcc1b": [
+        -0.384,
+        2.75,
+        0.062
+      ],
+      "mcc2": [
+        -1.292,
+        0.321,
+        0.043
+      ]
+    },
+    "retuned_delta_v_magnitudes_mps": {
+      "mcc1a": 20.105369077872965,
+      "mcc1b": 2.7773728593762845,
+      "mcc2": 1.3319737234645435
+    }
+  },
+  "attitude_and_actuator_summary": {
+    "sun_pointing_assessment_scope": "designated Sun-point modes after 3600 s; burns and explicit pre-burn slews excluded",
+    "sun_pointing_per_phase": [
+      {
+        "phase": "A",
+        "label": "COAST_TO_MCC1A",
+        "settling_interval_s": 3600.0,
+        "assessed_sample_count": 119,
+        "maximum_error_deg": 0.8859147479147749,
+        "rms_error_deg": 0.10015741415609564,
+        "95th_percentile_error_deg": 0.030511310249620567
+      },
+      {
+        "phase": "C",
+        "label": "COAST_TO_MCC1B",
+        "settling_interval_s": 3600.0,
+        "assessed_sample_count": 178,
+        "maximum_error_deg": 0.4260941738912662,
+        "rms_error_deg": 0.034582194791638314,
+        "95th_percentile_error_deg": 0.011787688197741605
+      },
+      {
+        "phase": "E",
+        "label": "COAST_TO_DEPLOYED_CONFIGURATION",
+        "settling_interval_s": 3600.0,
+        "assessed_sample_count": 369,
+        "maximum_error_deg": 0.43582112454215427,
+        "rms_error_deg": 0.025563509461091535,
+        "95th_percentile_error_deg": 0.011784242386267522
+      },
+      {
+        "phase": "F",
+        "label": "DEPLOYED_COAST_TO_MCC2",
+        "settling_interval_s": 3600.0,
+        "assessed_sample_count": 481,
+        "maximum_error_deg": 0.011742274826039782,
+        "rms_error_deg": 0.011710954422982811,
+        "95th_percentile_error_deg": 0.01173786436337756
+      },
+      {
+        "phase": "H",
+        "label": "POST_INSERTION_L2_COAST",
+        "settling_interval_s": 3600.0,
+        "assessed_sample_count": 345,
+        "maximum_error_deg": 0.3215336843159951,
+        "rms_error_deg": 0.020901386968716316,
+        "95th_percentile_error_deg": 0.011689147781466588
+      }
+    ],
+    "settled_sun_pointing_maximum_error_deg": 0.8859147479147749,
+    "settled_sun_pointing_median_error_deg": 0.011716780906174343,
+    "settled_sun_pointing_95th_percentile_error_deg": 0.011787197993026997,
+    "maximum_reaction_wheel_capacity_fraction": 0.019194639155482213
+  },
+  "acceptance_criteria": {
+    "all_eight_phases_propagated": true,
+    "all_state_values_finite": true,
+    "all_recorded_articulated_solves_successful": true,
+    "quaternion_norm_within_1e_10": true,
+    "truth_queried_at_exact_recorded_ephemeris_times": true,
+    "strictly_increasing_ephemeris_time_within_each_phase": true,
+    "all_seven_handoffs_continuous_to_1e_12": true,
+    "only_one_external_initial_state": true,
+    "no_truth_file_referenced_by_any_tgscn": true,
+    "retuned_burn_command_delta_v_within_0_1_percent": true,
+    "settled_burn_pointing_within_1_degree": true,
+    "settled_designated_sun_pointing_within_1_degree": true,
+    "final_position_error_below_1_percent_of_earth_range": true,
+    "final_velocity_error_below_5_mps": true,
+    "reaction_wheels_below_80_percent_capacity": true
+  },
+  "reference_quality": {
+    "statistics_scope": "Reported RMS and maxima concern the retained output grid, not continuous-time extrema. A separate dense audit resolves a brief velocity excursion in the reference near 10 January 2022 that is not resolved by the hourly coast grid.",
+    "audit": "analysis/reference_continuity_audit.json",
+    "report": "REFERENCE_QUALITY.md",
+    "reference_samples_modified_or_filtered_to_reduce_error": false
+  },
+  "overall_pass": true,
+  "source_urls": {
+    "executed_mcc_history": "https://ntrs.nasa.gov/api/citations/20220010207/downloads/MCC%20Paper.pdf",
+    "propulsion_description": "https://jwst-docs.stsci.edu/jwst-observatory-hardware/jwst-spacecraft-bus/jwst-propulsion",
+    "attitude_control_description": "https://jwst-docs.stsci.edu/jwst-observatory-hardware/jwst-attitude-control-subsystem",
+    "propellant_loading": "https://science.nasa.gov/blogs/webb/2021/12/06/nasas-james-webb-space-telescope-fully-fueled-for-launch/",
+    "naif_spk_archive": "https://naif.jpl.nasa.gov/pub/naif/JWST/kernels/spk/",
+    "naif_kernel_selection": "https://naif.jpl.nasa.gov/naif/kernel_selection.html",
+    "earth_gravity_model": "https://earth-info.nga.mil/index.php?action=wgs84&dir=wgs84",
+    "sunshield_dimensions": "https://science.nasa.gov/mission/webb/webbs-sunshield/",
+    "sunshield_completion": "https://science.nasa.gov/blogs/webb/2022/01/04/webb-team-tensions-fifth-layer-sunshield-fully-deployed/"
+  },
+  "file_hashes_sha256": {
+    "runner": "bb682d5eace254cbe4d8a140cf8015c379e8f1d2d351558f04a2670ad1b4fac7",
+    "jwst_reconstructed_spk": "d2c8279c44d9161599b073dca40d5849c10f7b4df1ea5c6ff6288ccfe868d402",
+    "de442": "8d5001fab315eeff222cc51f7cf7ffcdb43fb38fb9ac73ff09e09a5b361fd388"
+  }
+}

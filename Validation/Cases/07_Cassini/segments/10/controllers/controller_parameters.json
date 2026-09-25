@@ -1,0 +1,99 @@
+{
+  "burn_id": "TCM-12",
+  "burn_start_elapsed_s": 10.0,
+  "burn_end_elapsed_s": 143.268,
+  "burn_duration_s": 133.268,
+  "commanded_delta_v_icrf_mps": [
+    1.0642348091525846,
+    -2.6190265433089213,
+    11.922861077926894
+  ],
+  "commanded_delta_v_magnitude_mps": 12.253428583344043,
+  "official_reconstructed_delta_v_magnitude_mps": 12.2471,
+  "commanded_throttle": 0.8525847304341635,
+  "initial_fixed_target_end_elapsed_s": 743.268,
+  "final_fixed_target_start_elapsed_s": 1724400.0,
+  "final_target_for_next_maneuver": "TCM-13",
+  "final_target_icrf": [
+    0.21279957774383434,
+    0.8821053941764397,
+    0.42024565824868854
+  ],
+  "initial_target_icrf": [
+    0.08685200243458291,
+    -0.21373826317223055,
+    0.9730224481116668
+  ],
+  "current_local_delivery_recalibration": {
+    "segment": "10",
+    "velocity_difference_before_mps": 2.227472749566144e-06,
+    "velocity_difference_after_mps": 2.851291854780676e-09,
+    "correction_vector_mps": [
+      5.7241525346718516e-05,
+      1.7398814428587384e-05,
+      -1.164134135106163e-06
+    ],
+    "correction_norm_mps": 5.983866789814057e-05,
+    "maximum_correction_mps": 0.05,
+    "retained": true,
+    "purpose": "Match the previously delivered inertial-velocity increment in a local maneuver experiment under the current core and tighter tolerances. Auxiliary initial conditions are not injected into the continuous reconstruction."
+  },
+  "current_trajectory_targeting": {
+    "segment": "10",
+    "target_role": "legacy",
+    "original_position_residual_m": 751842.6827901503,
+    "finite_difference_step_mps": 0.0002,
+    "jacobian": [
+      [
+        1419595.6420898438,
+        998661.6516113281,
+        4332286.224365234
+      ],
+      [
+        26398241.119384766,
+        -43050674.057006836,
+        238321145.6680298
+      ],
+      [
+        -22426403.50341797,
+        74143545.26519775,
+        -294303681.86950684
+      ],
+      [
+        1.0143640429305378,
+        1.006680558930384,
+        2.4183675850508735
+      ],
+      [
+        22.3451767124061,
+        -36.42894924269058,
+        201.69367335256538
+      ],
+      [
+        -18.934867666757782,
+        62.63282079999044,
+        -248.57002092176117
+      ]
+    ],
+    "unbounded_update_norm_mps": 0.04359304876595785,
+    "bound_mps": 0.1,
+    "update_mps": [
+      0.013986637627237699,
+      0.04072707787665017,
+      0.006784762061029836
+    ],
+    "update_norm_mps": 0.04359304876595785,
+    "candidate_vector_mps": [
+      1.0642348091525846,
+      -2.6190265433089213,
+      11.922861077926894
+    ],
+    "candidate_throttle": 0.8525847304341635,
+    "iterations": 1,
+    "direction_change_degrees": 0.20377866852118579
+  },
+  "current_following_maneuver_preparation": {
+    "following_segment": "11",
+    "rule": "Rotate preparation and burn targets together; retain the original angular offset."
+  }
+}

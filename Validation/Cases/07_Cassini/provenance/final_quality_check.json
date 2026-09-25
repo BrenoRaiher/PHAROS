@@ -1,0 +1,887 @@
+{
+  "generated_utc": "2026-09-10T03:35:31.311582+00:00",
+  "pass": true,
+  "checks_passed": 219,
+  "checks_total": 219,
+  "checks": [
+    {
+      "name": "Frozen runner identity",
+      "passed": true
+    },
+    {
+      "name": "Frozen runner matches current authoritative PHAROS runner",
+      "passed": true
+    },
+    {
+      "name": "Frozen SDK matches current authoritative controller contract",
+      "passed": true
+    },
+    {
+      "name": "01 scenario matches execution and audit",
+      "passed": true
+    },
+    {
+      "name": "01 audit matches controller used for execution",
+      "passed": true
+    },
+    {
+      "name": "01 execution uses frozen runner and current binary",
+      "passed": true
+    },
+    {
+      "name": "01 all recorded invariants pass",
+      "passed": true
+    },
+    {
+      "name": "01 recorded endpoint matches terminal-state artifact",
+      "passed": true
+    },
+    {
+      "name": "01 single external state seed",
+      "passed": true
+    },
+    {
+      "name": "01 appearance additions are fixed and massless",
+      "passed": true
+    },
+    {
+      "name": "01 appearance preserves physical configuration",
+      "passed": true
+    },
+    {
+      "name": "01 physical and appearance preflights passed",
+      "passed": true
+    },
+    {
+      "name": "01 sensitivity record matches both scenarios",
+      "passed": true
+    },
+    {
+      "name": "01 sensitivity replay uses identical controller",
+      "passed": true
+    },
+    {
+      "name": "02 scenario matches execution and audit",
+      "passed": true
+    },
+    {
+      "name": "02 audit matches controller used for execution",
+      "passed": true
+    },
+    {
+      "name": "02 execution uses frozen runner and current binary",
+      "passed": true
+    },
+    {
+      "name": "02 all recorded invariants pass",
+      "passed": true
+    },
+    {
+      "name": "02 recorded endpoint matches terminal-state artifact",
+      "passed": true
+    },
+    {
+      "name": "02 single external state seed",
+      "passed": true
+    },
+    {
+      "name": "02 appearance additions are fixed and massless",
+      "passed": true
+    },
+    {
+      "name": "02 appearance preserves physical configuration",
+      "passed": true
+    },
+    {
+      "name": "02 physical and appearance preflights passed",
+      "passed": true
+    },
+    {
+      "name": "02 sensitivity record matches both scenarios",
+      "passed": true
+    },
+    {
+      "name": "02 sensitivity replay uses identical controller",
+      "passed": true
+    },
+    {
+      "name": "03 scenario matches execution and audit",
+      "passed": true
+    },
+    {
+      "name": "03 audit matches controller used for execution",
+      "passed": true
+    },
+    {
+      "name": "03 execution uses frozen runner and current binary",
+      "passed": true
+    },
+    {
+      "name": "03 all recorded invariants pass",
+      "passed": true
+    },
+    {
+      "name": "03 recorded endpoint matches terminal-state artifact",
+      "passed": true
+    },
+    {
+      "name": "03 single external state seed",
+      "passed": true
+    },
+    {
+      "name": "03 appearance additions are fixed and massless",
+      "passed": true
+    },
+    {
+      "name": "03 appearance preserves physical configuration",
+      "passed": true
+    },
+    {
+      "name": "03 physical and appearance preflights passed",
+      "passed": true
+    },
+    {
+      "name": "03 sensitivity record matches both scenarios",
+      "passed": true
+    },
+    {
+      "name": "03 sensitivity replay uses identical controller",
+      "passed": true
+    },
+    {
+      "name": "04 scenario matches execution and audit",
+      "passed": true
+    },
+    {
+      "name": "04 audit matches controller used for execution",
+      "passed": true
+    },
+    {
+      "name": "04 execution uses frozen runner and current binary",
+      "passed": true
+    },
+    {
+      "name": "04 all recorded invariants pass",
+      "passed": true
+    },
+    {
+      "name": "04 recorded endpoint matches terminal-state artifact",
+      "passed": true
+    },
+    {
+      "name": "04 single external state seed",
+      "passed": true
+    },
+    {
+      "name": "04 appearance additions are fixed and massless",
+      "passed": true
+    },
+    {
+      "name": "04 appearance preserves physical configuration",
+      "passed": true
+    },
+    {
+      "name": "04 physical and appearance preflights passed",
+      "passed": true
+    },
+    {
+      "name": "04 sensitivity record matches both scenarios",
+      "passed": true
+    },
+    {
+      "name": "04 sensitivity replay uses identical controller",
+      "passed": true
+    },
+    {
+      "name": "05 scenario matches execution and audit",
+      "passed": true
+    },
+    {
+      "name": "05 audit matches controller used for execution",
+      "passed": true
+    },
+    {
+      "name": "05 execution uses frozen runner and current binary",
+      "passed": true
+    },
+    {
+      "name": "05 all recorded invariants pass",
+      "passed": true
+    },
+    {
+      "name": "05 recorded endpoint matches terminal-state artifact",
+      "passed": true
+    },
+    {
+      "name": "05 single external state seed",
+      "passed": true
+    },
+    {
+      "name": "05 appearance additions are fixed and massless",
+      "passed": true
+    },
+    {
+      "name": "05 appearance preserves physical configuration",
+      "passed": true
+    },
+    {
+      "name": "05 physical and appearance preflights passed",
+      "passed": true
+    },
+    {
+      "name": "05 sensitivity record matches both scenarios",
+      "passed": true
+    },
+    {
+      "name": "05 sensitivity replay uses identical controller",
+      "passed": true
+    },
+    {
+      "name": "06 scenario matches execution and audit",
+      "passed": true
+    },
+    {
+      "name": "06 audit matches controller used for execution",
+      "passed": true
+    },
+    {
+      "name": "06 execution uses frozen runner and current binary",
+      "passed": true
+    },
+    {
+      "name": "06 all recorded invariants pass",
+      "passed": true
+    },
+    {
+      "name": "06 recorded endpoint matches terminal-state artifact",
+      "passed": true
+    },
+    {
+      "name": "06 single external state seed",
+      "passed": true
+    },
+    {
+      "name": "06 appearance additions are fixed and massless",
+      "passed": true
+    },
+    {
+      "name": "06 appearance preserves physical configuration",
+      "passed": true
+    },
+    {
+      "name": "06 physical and appearance preflights passed",
+      "passed": true
+    },
+    {
+      "name": "06 sensitivity record matches both scenarios",
+      "passed": true
+    },
+    {
+      "name": "06 sensitivity replay uses identical controller",
+      "passed": true
+    },
+    {
+      "name": "07 scenario matches execution and audit",
+      "passed": true
+    },
+    {
+      "name": "07 audit matches controller used for execution",
+      "passed": true
+    },
+    {
+      "name": "07 execution uses frozen runner and current binary",
+      "passed": true
+    },
+    {
+      "name": "07 all recorded invariants pass",
+      "passed": true
+    },
+    {
+      "name": "07 recorded endpoint matches terminal-state artifact",
+      "passed": true
+    },
+    {
+      "name": "07 single external state seed",
+      "passed": true
+    },
+    {
+      "name": "07 appearance additions are fixed and massless",
+      "passed": true
+    },
+    {
+      "name": "07 appearance preserves physical configuration",
+      "passed": true
+    },
+    {
+      "name": "07 physical and appearance preflights passed",
+      "passed": true
+    },
+    {
+      "name": "08 scenario matches execution and audit",
+      "passed": true
+    },
+    {
+      "name": "08 audit matches controller used for execution",
+      "passed": true
+    },
+    {
+      "name": "08 execution uses frozen runner and current binary",
+      "passed": true
+    },
+    {
+      "name": "08 all recorded invariants pass",
+      "passed": true
+    },
+    {
+      "name": "08 recorded endpoint matches terminal-state artifact",
+      "passed": true
+    },
+    {
+      "name": "08 single external state seed",
+      "passed": true
+    },
+    {
+      "name": "08 appearance additions are fixed and massless",
+      "passed": true
+    },
+    {
+      "name": "08 appearance preserves physical configuration",
+      "passed": true
+    },
+    {
+      "name": "08 physical and appearance preflights passed",
+      "passed": true
+    },
+    {
+      "name": "09 scenario matches execution and audit",
+      "passed": true
+    },
+    {
+      "name": "09 audit matches controller used for execution",
+      "passed": true
+    },
+    {
+      "name": "09 execution uses frozen runner and current binary",
+      "passed": true
+    },
+    {
+      "name": "09 all recorded invariants pass",
+      "passed": true
+    },
+    {
+      "name": "09 recorded endpoint matches terminal-state artifact",
+      "passed": true
+    },
+    {
+      "name": "09 single external state seed",
+      "passed": true
+    },
+    {
+      "name": "09 appearance additions are fixed and massless",
+      "passed": true
+    },
+    {
+      "name": "09 appearance preserves physical configuration",
+      "passed": true
+    },
+    {
+      "name": "09 physical and appearance preflights passed",
+      "passed": true
+    },
+    {
+      "name": "10 scenario matches execution and audit",
+      "passed": true
+    },
+    {
+      "name": "10 audit matches controller used for execution",
+      "passed": true
+    },
+    {
+      "name": "10 execution uses frozen runner and current binary",
+      "passed": true
+    },
+    {
+      "name": "10 all recorded invariants pass",
+      "passed": true
+    },
+    {
+      "name": "10 recorded endpoint matches terminal-state artifact",
+      "passed": true
+    },
+    {
+      "name": "10 single external state seed",
+      "passed": true
+    },
+    {
+      "name": "10 appearance additions are fixed and massless",
+      "passed": true
+    },
+    {
+      "name": "10 appearance preserves physical configuration",
+      "passed": true
+    },
+    {
+      "name": "10 physical and appearance preflights passed",
+      "passed": true
+    },
+    {
+      "name": "11 scenario matches execution and audit",
+      "passed": true
+    },
+    {
+      "name": "11 audit matches controller used for execution",
+      "passed": true
+    },
+    {
+      "name": "11 execution uses frozen runner and current binary",
+      "passed": true
+    },
+    {
+      "name": "11 all recorded invariants pass",
+      "passed": true
+    },
+    {
+      "name": "11 recorded endpoint matches terminal-state artifact",
+      "passed": true
+    },
+    {
+      "name": "11 single external state seed",
+      "passed": true
+    },
+    {
+      "name": "11 appearance additions are fixed and massless",
+      "passed": true
+    },
+    {
+      "name": "11 appearance preserves physical configuration",
+      "passed": true
+    },
+    {
+      "name": "11 physical and appearance preflights passed",
+      "passed": true
+    },
+    {
+      "name": "12 scenario matches execution and audit",
+      "passed": true
+    },
+    {
+      "name": "12 audit matches controller used for execution",
+      "passed": true
+    },
+    {
+      "name": "12 execution uses frozen runner and current binary",
+      "passed": true
+    },
+    {
+      "name": "12 all recorded invariants pass",
+      "passed": true
+    },
+    {
+      "name": "12 recorded endpoint matches terminal-state artifact",
+      "passed": true
+    },
+    {
+      "name": "12 single external state seed",
+      "passed": true
+    },
+    {
+      "name": "12 appearance additions are fixed and massless",
+      "passed": true
+    },
+    {
+      "name": "12 appearance preserves physical configuration",
+      "passed": true
+    },
+    {
+      "name": "12 physical and appearance preflights passed",
+      "passed": true
+    },
+    {
+      "name": "13 scenario matches execution and audit",
+      "passed": true
+    },
+    {
+      "name": "13 audit matches controller used for execution",
+      "passed": true
+    },
+    {
+      "name": "13 execution uses frozen runner and current binary",
+      "passed": true
+    },
+    {
+      "name": "13 all recorded invariants pass",
+      "passed": true
+    },
+    {
+      "name": "13 recorded endpoint matches terminal-state artifact",
+      "passed": true
+    },
+    {
+      "name": "13 single external state seed",
+      "passed": true
+    },
+    {
+      "name": "13 appearance additions are fixed and massless",
+      "passed": true
+    },
+    {
+      "name": "13 appearance preserves physical configuration",
+      "passed": true
+    },
+    {
+      "name": "13 physical and appearance preflights passed",
+      "passed": true
+    },
+    {
+      "name": "14 scenario matches execution and audit",
+      "passed": true
+    },
+    {
+      "name": "14 audit matches controller used for execution",
+      "passed": true
+    },
+    {
+      "name": "14 execution uses frozen runner and current binary",
+      "passed": true
+    },
+    {
+      "name": "14 all recorded invariants pass",
+      "passed": true
+    },
+    {
+      "name": "14 recorded endpoint matches terminal-state artifact",
+      "passed": true
+    },
+    {
+      "name": "14 single external state seed",
+      "passed": true
+    },
+    {
+      "name": "14 appearance additions are fixed and massless",
+      "passed": true
+    },
+    {
+      "name": "14 appearance preserves physical configuration",
+      "passed": true
+    },
+    {
+      "name": "14 physical and appearance preflights passed",
+      "passed": true
+    },
+    {
+      "name": "15 scenario matches execution and audit",
+      "passed": true
+    },
+    {
+      "name": "15 audit matches controller used for execution",
+      "passed": true
+    },
+    {
+      "name": "15 execution uses frozen runner and current binary",
+      "passed": true
+    },
+    {
+      "name": "15 all recorded invariants pass",
+      "passed": true
+    },
+    {
+      "name": "15 recorded endpoint matches terminal-state artifact",
+      "passed": true
+    },
+    {
+      "name": "15 single external state seed",
+      "passed": true
+    },
+    {
+      "name": "15 appearance additions are fixed and massless",
+      "passed": true
+    },
+    {
+      "name": "15 appearance preserves physical configuration",
+      "passed": true
+    },
+    {
+      "name": "15 physical and appearance preflights passed",
+      "passed": true
+    },
+    {
+      "name": "16 scenario matches execution and audit",
+      "passed": true
+    },
+    {
+      "name": "16 audit matches controller used for execution",
+      "passed": true
+    },
+    {
+      "name": "16 execution uses frozen runner and current binary",
+      "passed": true
+    },
+    {
+      "name": "16 all recorded invariants pass",
+      "passed": true
+    },
+    {
+      "name": "16 recorded endpoint matches terminal-state artifact",
+      "passed": true
+    },
+    {
+      "name": "16 single external state seed",
+      "passed": true
+    },
+    {
+      "name": "16 appearance additions are fixed and massless",
+      "passed": true
+    },
+    {
+      "name": "16 appearance preserves physical configuration",
+      "passed": true
+    },
+    {
+      "name": "16 physical and appearance preflights passed",
+      "passed": true
+    },
+    {
+      "name": "17 scenario matches execution and audit",
+      "passed": true
+    },
+    {
+      "name": "17 audit matches controller used for execution",
+      "passed": true
+    },
+    {
+      "name": "17 execution uses frozen runner and current binary",
+      "passed": true
+    },
+    {
+      "name": "17 all recorded invariants pass",
+      "passed": true
+    },
+    {
+      "name": "17 recorded endpoint matches terminal-state artifact",
+      "passed": true
+    },
+    {
+      "name": "17 single external state seed",
+      "passed": true
+    },
+    {
+      "name": "17 appearance additions are fixed and massless",
+      "passed": true
+    },
+    {
+      "name": "17 appearance preserves physical configuration",
+      "passed": true
+    },
+    {
+      "name": "17 physical and appearance preflights passed",
+      "passed": true
+    },
+    {
+      "name": "18 scenario matches execution and audit",
+      "passed": true
+    },
+    {
+      "name": "18 audit matches controller used for execution",
+      "passed": true
+    },
+    {
+      "name": "18 execution uses frozen runner and current binary",
+      "passed": true
+    },
+    {
+      "name": "18 all recorded invariants pass",
+      "passed": true
+    },
+    {
+      "name": "18 recorded endpoint matches terminal-state artifact",
+      "passed": true
+    },
+    {
+      "name": "18 single external state seed",
+      "passed": true
+    },
+    {
+      "name": "18 appearance additions are fixed and massless",
+      "passed": true
+    },
+    {
+      "name": "18 appearance preserves physical configuration",
+      "passed": true
+    },
+    {
+      "name": "18 physical and appearance preflights passed",
+      "passed": true
+    },
+    {
+      "name": "19 scenario matches execution and audit",
+      "passed": true
+    },
+    {
+      "name": "19 audit matches controller used for execution",
+      "passed": true
+    },
+    {
+      "name": "19 execution uses frozen runner and current binary",
+      "passed": true
+    },
+    {
+      "name": "19 all recorded invariants pass",
+      "passed": true
+    },
+    {
+      "name": "19 recorded endpoint matches terminal-state artifact",
+      "passed": true
+    },
+    {
+      "name": "19 single external state seed",
+      "passed": true
+    },
+    {
+      "name": "19 appearance additions are fixed and massless",
+      "passed": true
+    },
+    {
+      "name": "19 appearance preserves physical configuration",
+      "passed": true
+    },
+    {
+      "name": "19 physical and appearance preflights passed",
+      "passed": true
+    },
+    {
+      "name": "20 scenario matches execution and audit",
+      "passed": true
+    },
+    {
+      "name": "20 audit matches controller used for execution",
+      "passed": true
+    },
+    {
+      "name": "20 execution uses frozen runner and current binary",
+      "passed": true
+    },
+    {
+      "name": "20 all recorded invariants pass",
+      "passed": true
+    },
+    {
+      "name": "20 recorded endpoint matches terminal-state artifact",
+      "passed": true
+    },
+    {
+      "name": "20 single external state seed",
+      "passed": true
+    },
+    {
+      "name": "20 appearance additions are fixed and massless",
+      "passed": true
+    },
+    {
+      "name": "20 appearance preserves physical configuration",
+      "passed": true
+    },
+    {
+      "name": "20 physical and appearance preflights passed",
+      "passed": true
+    },
+    {
+      "name": "venus_1 dense continuation uses retained source scenario",
+      "passed": true
+    },
+    {
+      "name": "venus_1 dense continuation uses retained controller",
+      "passed": true
+    },
+    {
+      "name": "venus_1 encounter record exists",
+      "passed": true
+    },
+    {
+      "name": "venus_2 dense continuation uses retained source scenario",
+      "passed": true
+    },
+    {
+      "name": "venus_2 dense continuation uses retained controller",
+      "passed": true
+    },
+    {
+      "name": "venus_2 encounter record exists",
+      "passed": true
+    },
+    {
+      "name": "earth dense continuation uses retained source scenario",
+      "passed": true
+    },
+    {
+      "name": "earth dense continuation uses retained controller",
+      "passed": true
+    },
+    {
+      "name": "earth encounter record exists",
+      "passed": true
+    },
+    {
+      "name": "jupiter dense continuation uses retained source scenario",
+      "passed": true
+    },
+    {
+      "name": "jupiter dense continuation uses retained controller",
+      "passed": true
+    },
+    {
+      "name": "jupiter encounter record exists",
+      "passed": true
+    },
+    {
+      "name": "phoebe dense continuation uses retained source scenario",
+      "passed": true
+    },
+    {
+      "name": "phoebe dense continuation uses retained controller",
+      "passed": true
+    },
+    {
+      "name": "phoebe encounter record exists",
+      "passed": true
+    },
+    {
+      "name": "Legacy inventory paths, sizes and modification times unchanged",
+      "passed": true
+    },
+    {
+      "name": "Immutable imported evidence matches original hashes",
+      "passed": true
+    },
+    {
+      "name": "Saturn insertion analysis exists",
+      "passed": true
+    },
+    {
+      "name": "Local insertion replay matches retained scenario and controller",
+      "passed": true
+    },
+    {
+      "name": "Local insertion replay has equal initial translation and successful solves",
+      "passed": true
+    },
+    {
+      "name": "Summary reports all recorded checks",
+      "passed": true
+    },
+    {
+      "name": "Summary cutoff agrees with final audit",
+      "passed": true
+    },
+    {
+      "name": "Required documents exist",
+      "passed": true
+    },
+    {
+      "name": "Standalone scientific figures exist",
+      "passed": true
+    }
+  ],
+  "interpretation": "These gates verify completion, recorded invariants and evidence provenance. Historical fit and numerical step sensitivity are measured separately; this is not a claim of independent mission-prediction accuracy.",
+  "legacy_inventory_files": 674,
+  "immutable_import_records_checked": 1195
+}

@@ -1,0 +1,83 @@
+{
+  "post_first_midcourse_nav_update": {
+    "event_id": "post_first_midcourse_nav_update",
+    "get_seconds": 42936.0,
+    "source_frame": "ECI_mean_NBY_1969",
+    "position_earth_relative_j2000_m": [
+      92759192.59653218,
+      -62471069.38484997,
+      -4229677.961730914
+    ],
+    "velocity_earth_relative_j2000_mps": [
+      2201.2904912581316,
+      -808.4110719963685,
+      -414.56034625049153
+    ],
+    "position_icrf_m": [
+      -1008167749.4293016,
+      134900759612.93742,
+      58512281771.416916
+    ],
+    "velocity_icrf_mps": [
+      -28080.124581102526,
+      -1232.434997622116,
+      -599.1929246777486
+    ],
+    "source": "Trajectory reconstruction supplement Appendix A page A-4 TRW row",
+    "conversion": "Pure mean-NBY-1969 to J2000 precession rotation, then DE442 Earth barycentric translation"
+  },
+  "pre_second_midcourse_nav_update": {
+    "event_id": "pre_second_midcourse_nav_update",
+    "get_seconds": 143808.0,
+    "source_frame": "ECI_mean_NBY_1969",
+    "position_earth_relative_j2000_m": [
+      247618213.1435048,
+      -105740347.01373573,
+      -40120531.26260209
+    ],
+    "velocity_earth_relative_j2000_mps": [
+      1154.542796228655,
+      -247.75448436205252,
+      -310.237020359127
+    ],
+    "position_icrf_m": [
+      -3907151884.2865953,
+      134785987235.92554,
+      58445292798.358696
+    ],
+    "velocity_icrf_mps": [
+      -29110.656395202917,
+      -1241.2807131341963,
+      -742.1136677962733
+    ],
+    "source": "Trajectory reconstruction supplement Appendix A page A-8 TRW row",
+    "conversion": "Pure mean-NBY-1969 to J2000 precession rotation, then DE442 Earth barycentric translation"
+  },
+  "post_third_midcourse_nav_update": {
+    "event_id": "post_third_midcourse_nav_update",
+    "get_seconds": 374784.0,
+    "source_frame": "ECI_mean_NBY_1969",
+    "position_earth_relative_j2000_m": [
+      310240916.4714307,
+      -53086493.89965585,
+      -30238267.081088103
+    ],
+    "velocity_earth_relative_j2000_mps": [
+      -1228.406551225036,
+      383.1348021935277,
+      253.39354586433953
+    ],
+    "position_icrf_m": [
+      -10826316456.552345,
+      134458942002.91968,
+      58290232666.850266
+    ],
+    "velocity_icrf_mps": [
+      -31406.450291803078,
+      -1909.8809413211434,
+      -742.337985643798
+    ],
+    "source": "Trajectory reconstruction supplement Appendix A page A-21 TRW row (GWMX777)",
+    "conversion": "Pure mean-NBY-1969 to J2000 precession rotation, then DE442 Earth barycentric translation"
+  }
+}

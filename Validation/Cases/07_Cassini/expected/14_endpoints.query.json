@@ -1,0 +1,20 @@
+{
+  "target": "-82",
+  "observer": "0",
+  "frame": "J2000",
+  "aberration": "NONE",
+  "kernel_load_order": [
+    "00_Runtime\\SPICEKernels\\naif0012.tls",
+    "04_Cassini\\sources\\kernels\\040909R_SCPSE_01066_04199.bsp",
+    "00_Runtime\\SPICEKernels\\jup230-short.bsp",
+    "00_Runtime\\SPICEKernels\\jup348.bsp",
+    "00_Runtime\\SPICEKernels\\sat252s.bsp",
+    "00_Runtime\\SPICEKernels\\de442.bsp"
+  ],
+  "arguments": [
+    "--utc",
+    "2002-04-03T18:00:00.000Z",
+    "--utc",
+    "2003-05-01T20:00:00.000Z"
+  ]
+}

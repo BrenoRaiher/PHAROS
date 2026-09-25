@@ -1,0 +1,416 @@
+[
+  {
+    "name": "03_before_retuning",
+    "x": [
+      -0.004229904899052933,
+      -0.36454966459972693,
+      -0.553966922298409
+    ],
+    "metrics": {
+      "objective_norm": 26212.52459248349,
+      "residual": [
+        -21479.908995628357,
+        -15017.158462524414,
+        -441.48246002197266
+      ],
+      "lunar": {
+        "objective_norm": 60.29870114657589,
+        "weighted_residual": [
+          -6.100429975700378,
+          6.064158973693847,
+          -4.7260246765136715,
+          -58.85765249938965,
+          6.561435362243652,
+          1.77951900100708,
+          -3.7678593848985154,
+          0.6751259259546408,
+          -3.716140192548858,
+          0.8391328003984075
+        ],
+        "direct": {
+          "post_first_midcourse_nav_update": {
+            "get_seconds": 42936.0,
+            "position_error_m": 5686.362066907992,
+            "position_delta_m": [
+              2587.4722497463226,
+              4503.57048034668,
+              2314.639030456543
+            ],
+            "interpolation_interval_s": 60.0,
+            "center": "Earth",
+            "source": "Trajectory reconstruction supplement Appendix A page A-4 TRW row",
+            "velocity_error_mps": 0.10861718674798615,
+            "velocity_delta_mps": [
+              -0.07243041715992149,
+              0.07862178319442137,
+              -0.019239104303892418
+            ]
+          },
+          "pre_second_midcourse_nav_update": {
+            "get_seconds": 143808.0,
+            "position_error_m": 15422.649344643181,
+            "position_delta_m": [
+              -7418.94100856781,
+              12826.417709350586,
+              -4277.9008712768555
+            ],
+            "interpolation_interval_s": 60.0,
+            "center": "Earth",
+            "source": "Trajectory reconstruction supplement Appendix A page A-8 TRW row",
+            "velocity_error_mps": 0.2312929892987126,
+            "velocity_delta_mps": [
+              -0.11635012427723268,
+              0.12308859747827228,
+              -0.15750648447044568
+            ]
+          },
+          "post_third_midcourse_nav_update": {
+            "get_seconds": 374784.0,
+            "position_error_m": 13325436.046872469,
+            "position_delta_m": [
+              -2113376.5712165833,
+              10479978.519744873,
+              7954302.957092285
+            ],
+            "interpolation_interval_s": 60.0,
+            "center": "Earth",
+            "source": "Trajectory reconstruction supplement Appendix A page A-21 TRW row (GWMX777)",
+            "velocity_error_mps": 239.40157308813053,
+            "velocity_delta_mps": [
+              -19.840123110989225,
+              191.0732815640522,
+              142.86526444295941
+            ]
+          },
+          "lunar_rev1": {
+            "get_seconds": 250380.0,
+            "position_error_m": 98145.08606632911,
+            "position_delta_m": [
+              -61004.299757003784,
+              60641.58973693848,
+              -47260.24676513672
+            ],
+            "interpolation_interval_s": 60.0,
+            "center": "Moon",
+            "source": "Trajectory supplement Appendix A, page A-10 (PDF 38), TRW MCI row at GET 2 d 21 h 32 min 60 s; positions transcribed to the nearest foot. Velocity not transcribed."
+          },
+          "lunar_rev9": {
+            "get_seconds": 315564.0,
+            "position_error_m": 592489.8631729285,
+            "position_delta_m": [
+              -588576.5249938965,
+              65614.35362243652,
+              17795.1900100708
+            ],
+            "interpolation_interval_s": 60.0,
+            "center": "Moon",
+            "source": "Trajectory supplement Appendix A, page A-19 (PDF 47), TRW MCI row at GET 3 d 15 h 39 min 24 s; positions transcribed to the nearest foot. Velocity not transcribed."
+          }
+        },
+        "lunar_orbits": {
+          "06": {
+            "radius_m": 1834552.9684685906,
+            "altitude_m": 97152.96846859064,
+            "speed_mps": 1679.752982241222,
+            "flight_path_angle_deg": -0.9706636519620466,
+            "semimajor_axis_m": 1942946.981167527,
+            "eccentricity": 0.058296123975527726,
+            "periapsis_altitude_m": 92280.70307550742,
+            "apoapsis_altitude_m": 318813.2592595464,
+            "period_s": 7685.094268495687
+          },
+          "08": {
+            "radius_m": 1829405.4572388548,
+            "altitude_m": 92005.45723885484,
+            "speed_mps": 1643.4454624178834,
+            "flight_path_angle_deg": 0.024600726622313582,
+            "semimajor_axis_m": 1843795.7135206198,
+            "eccentricity": 0.007816492021149788,
+            "periapsis_altitude_m": 91983.69903725572,
+            "apoapsis_altitude_m": 120807.72800398408,
+            "period_s": 7104.392970441684
+          },
+          "09": {
+            "radius_m": 1828406.653297583,
+            "altitude_m": 91006.6532975831,
+            "speed_mps": 1644.3510669430527,
+            "flight_path_angle_deg": -0.1742778543875239,
+            "semimajor_axis_m": 1843829.9952472898,
+            "eccentricity": 0.00890067068893011,
+            "periapsis_altitude_m": 90018.67165322206,
+            "apoapsis_altitude_m": 122841.31884135748,
+            "period_s": 7104.591109520975
+          }
+        }
+      }
+    }
+  },
+  {
+    "name": "A1a",
+    "x": [
+      0.1408620015875572,
+      -0.2652158115381233,
+      -0.6492618555740902
+    ],
+    "metrics": {
+      "objective_norm": 19475.522511250037,
+      "residual": [
+        -15960.97428035736,
+        -11154.981063842773,
+        -331.17151641845703
+      ],
+      "lunar": {
+        "objective_norm": 34.371624409125864,
+        "weighted_residual": [
+          -5.282343375587463,
+          6.003043809509277,
+          -4.762133404541015,
+          -32.4095149553299,
+          3.9346703735351563,
+          -2.1822269874572755,
+          -3.2955721356300636,
+          1.1156365047391503,
+          -3.2627651405337006,
+          1.191419890645951
+        ],
+        "direct": {
+          "post_first_midcourse_nav_update": {
+            "get_seconds": 42936.0,
+            "position_error_m": 5686.362066907992,
+            "position_delta_m": [
+              2587.4722497463226,
+              4503.57048034668,
+              2314.639030456543
+            ],
+            "interpolation_interval_s": 60.0,
+            "center": "Earth",
+            "source": "Trajectory reconstruction supplement Appendix A page A-4 TRW row",
+            "velocity_error_mps": 0.10861718674798615,
+            "velocity_delta_mps": [
+              -0.07243041715992149,
+              0.07862178319442137,
+              -0.019239104303892418
+            ]
+          },
+          "pre_second_midcourse_nav_update": {
+            "get_seconds": 143808.0,
+            "position_error_m": 15422.649344643181,
+            "position_delta_m": [
+              -7418.94100856781,
+              12826.417709350586,
+              -4277.9008712768555
+            ],
+            "interpolation_interval_s": 60.0,
+            "center": "Earth",
+            "source": "Trajectory reconstruction supplement Appendix A page A-8 TRW row",
+            "velocity_error_mps": 0.2312929892987126,
+            "velocity_delta_mps": [
+              -0.11635012427723268,
+              0.12308859747827228,
+              -0.15750648447044568
+            ]
+          },
+          "lunar_rev1": {
+            "get_seconds": 250380.0,
+            "position_error_m": 93068.57744649684,
+            "position_delta_m": [
+              -52823.433755874634,
+              60030.43809509277,
+              -47621.334045410156
+            ],
+            "interpolation_interval_s": 60.0,
+            "center": "Moon",
+            "source": "Trajectory supplement Appendix A, page A-10 (PDF 38), TRW MCI row at GET 2 d 21 h 32 min 60 s; positions transcribed to the nearest foot. Velocity not transcribed."
+          },
+          "lunar_rev9": {
+            "get_seconds": 315564.0,
+            "position_error_m": 327203.3626375063,
+            "position_delta_m": [
+              -324095.14955329895,
+              39346.70373535156,
+              -21822.269874572754
+            ],
+            "interpolation_interval_s": 60.0,
+            "center": "Moon",
+            "source": "Trajectory supplement Appendix A, page A-19 (PDF 47), TRW MCI row at GET 3 d 15 h 39 min 24 s; positions transcribed to the nearest foot. Velocity not transcribed."
+          }
+        },
+        "lunar_orbits": {
+          "06": {
+            "radius_m": 1838251.84812908,
+            "altitude_m": 100851.84812907991,
+            "speed_mps": 1677.8562112315506,
+            "flight_path_angle_deg": -1.0956541602974947,
+            "semimajor_axis_m": 1946330.2521846206,
+            "eccentricity": 0.05871979471854295,
+            "periapsis_altitude_m": 94642.13932184968,
+            "apoapsis_altitude_m": 323218.3650473915,
+            "period_s": 7705.176189805939
+          },
+          "08": {
+            "radius_m": 1831653.5791910382,
+            "altitude_m": 94253.57919103815,
+            "speed_mps": 1642.7119811267996,
+            "flight_path_angle_deg": -0.00932770611097448,
+            "semimajor_axis_m": 1846690.5866018955,
+            "eccentricity": 0.00814430550178913,
+            "periapsis_altitude_m": 94250.5742973315,
+            "apoapsis_altitude_m": 124330.59890645952,
+            "period_s": 7121.131039336694
+          },
+          "09": {
+            "radius_m": 1831946.8969928552,
+            "altitude_m": 94546.89699285524,
+            "speed_mps": 1642.4859375061162,
+            "flight_path_angle_deg": -0.2644356243350337,
+            "semimajor_axis_m": 1846770.2689375249,
+            "eccentricity": 0.009258848061134377,
+            "periapsis_altitude_m": 92271.30361361196,
+            "apoapsis_altitude_m": 126469.23426143778,
+            "period_s": 7121.591945845799
+          }
+        }
+      }
+    },
+    "fractional_gain": 0.25701462129158303,
+    "probe_names": [
+      "A1d0",
+      "A1d1",
+      "A1d2"
+    ]
+  },
+  {
+    "name": "A2a",
+    "x": [
+      0.17741595229735746,
+      -0.24056150568524465,
+      -0.672843829275241
+    ],
+    "metrics": {
+      "objective_norm": 17784.483594637353,
+      "residual": [
+        -14573.572506904602,
+        -10188.673919677734,
+        -299.6078643798828
+      ],
+      "lunar": {
+        "objective_norm": 26.186741101964937,
+        "weighted_residual": [
+          -5.076205398654937,
+          5.988047668457031,
+          -4.771556322479248,
+          -23.552807031440736,
+          3.7800536483764646,
+          -3.011783603668213,
+          -3.1809451924034393,
+          1.228500290427124,
+          -3.136888548952734,
+          1.338291262873322
+        ],
+        "direct": {
+          "post_first_midcourse_nav_update": {
+            "get_seconds": 42936.0,
+            "position_error_m": 5686.362066907992,
+            "position_delta_m": [
+              2587.4722497463226,
+              4503.57048034668,
+              2314.639030456543
+            ],
+            "interpolation_interval_s": 60.0,
+            "center": "Earth",
+            "source": "Trajectory reconstruction supplement Appendix A page A-4 TRW row",
+            "velocity_error_mps": 0.10861718674798615,
+            "velocity_delta_mps": [
+              -0.07243041715992149,
+              0.07862178319442137,
+              -0.019239104303892418
+            ]
+          },
+          "pre_second_midcourse_nav_update": {
+            "get_seconds": 143808.0,
+            "position_error_m": 15422.649344643181,
+            "position_delta_m": [
+              -7418.94100856781,
+              12826.417709350586,
+              -4277.9008712768555
+            ],
+            "interpolation_interval_s": 60.0,
+            "center": "Earth",
+            "source": "Trajectory reconstruction supplement Appendix A page A-8 TRW row",
+            "velocity_error_mps": 0.2312929892987126,
+            "velocity_delta_mps": [
+              -0.11635012427723268,
+              0.12308859747827228,
+              -0.15750648447044568
+            ]
+          },
+          "lunar_rev1": {
+            "get_seconds": 250380.0,
+            "position_error_m": 91865.29587806208,
+            "position_delta_m": [
+              -50762.05398654938,
+              59880.47668457031,
+              -47715.56322479248
+            ],
+            "interpolation_interval_s": 60.0,
+            "center": "Moon",
+            "source": "Trajectory supplement Appendix A, page A-10 (PDF 38), TRW MCI row at GET 2 d 21 h 32 min 60 s; positions transcribed to the nearest foot. Velocity not transcribed."
+          },
+          "lunar_rev9": {
+            "get_seconds": 315564.0,
+            "position_error_m": 240435.9301602431,
+            "position_delta_m": [
+              -235528.07031440735,
+              37800.53648376465,
+              -30117.83603668213
+            ],
+            "interpolation_interval_s": 60.0,
+            "center": "Moon",
+            "source": "Trajectory supplement Appendix A, page A-19 (PDF 47), TRW MCI row at GET 3 d 15 h 39 min 24 s; positions transcribed to the nearest foot. Velocity not transcribed."
+          }
+        },
+        "lunar_orbits": {
+          "06": {
+            "radius_m": 1839185.0353785073,
+            "altitude_m": 101785.03537850734,
+            "speed_mps": 1677.3776253178937,
+            "flight_path_angle_deg": -1.1269731151506706,
+            "semimajor_axis_m": 1947181.138471127,
+            "eccentricity": 0.05883677803242185,
+            "periapsis_altitude_m": 95215.2740379828,
+            "apoapsis_altitude_m": 324347.00290427124,
+            "period_s": 7710.229503792411
+          },
+          "08": {
+            "radius_m": 1832291.5795160353,
+            "altitude_m": 94891.57951603527,
+            "speed_mps": 1642.6033977432974,
+            "flight_path_angle_deg": -0.01858557188545118,
+            "semimajor_axis_m": 1847739.634941985,
+            "eccentricity": 0.008366805254590975,
+            "periapsis_altitude_m": 94879.95725523634,
+            "apoapsis_altitude_m": 125799.31262873323,
+            "period_s": 7127.199845539001
+          },
+          "09": {
+            "radius_m": 1833133.5887029476,
+            "altitude_m": 95733.5887029476,
+            "speed_mps": 1641.8951265125766,
+            "flight_path_angle_deg": -0.2955179440226378,
+            "semimajor_axis_m": 1847831.4203889002,
+            "eccentricity": 0.009479886674089293,
+            "periapsis_altitude_m": 92914.1879307921,
+            "apoapsis_altitude_m": 127948.65284700831,
+            "period_s": 7127.730911714041
+          }
+        }
+      }
+    },
+    "fractional_gain": 0.08682893697131133,
+    "probe_names": [
+      "A2d0",
+      "A2d1",
+      "A2d2"
+    ]
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "python": "3.12.14",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "analysis_numpy": "2.3.5",
+  "plot_numpy": "2.5.3",
+  "matplotlib": "3.10.5",
+  "native_compiler": "MSVC, Visual Studio 18 Community, x64",
+  "native_flags": [
+    "/std:c++17",
+    "/O2",
+    "/MT",
+    "assertions enabled"
+  ],
+  "unreal_dependencies": "UE_5.7: Eigen, Boost 1.85.0, nanoflann 1.4.2"
+}

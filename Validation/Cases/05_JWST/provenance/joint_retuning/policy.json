@@ -1,0 +1,190 @@
+{
+  "parameters": [
+    "mcc1b_x",
+    "mcc1b_y",
+    "mcc1b_z",
+    "mcc2_x",
+    "mcc2_y",
+    "mcc2_z"
+  ],
+  "baseline_vector_mps": [
+    -0.344,
+    2.778,
+    0.013,
+    -1.269,
+    0.505,
+    -0.024
+  ],
+  "frozen_mcc1a_vector_mps": [
+    -0.30765878994689955,
+    20.101342865417173,
+    0.2592813788163473
+  ],
+  "objective_targets": [
+    {
+      "phase": "D",
+      "weight": 0.5,
+      "position_scale_m": 10000.0,
+      "velocity_scale_mps": 0.1
+    },
+    {
+      "phase": "E",
+      "weight": 1.0,
+      "position_scale_m": 50000.0,
+      "velocity_scale_mps": 0.1
+    },
+    {
+      "phase": "F",
+      "weight": 1.0,
+      "position_scale_m": 50000.0,
+      "velocity_scale_mps": 0.1
+    },
+    {
+      "phase": "G",
+      "weight": 0.5,
+      "position_scale_m": 50000.0,
+      "velocity_scale_mps": 0.1
+    },
+    {
+      "phase": "H",
+      "weight": 2.0,
+      "position_scale_m": 50000.0,
+      "velocity_scale_mps": 0.1
+    }
+  ],
+  "finite_difference_step_mps": 0.01,
+  "parameter_rounding_mps": 0.001,
+  "maximum_update_norm_per_burn_mps": 0.35,
+  "maximum_total_change_per_burn_mps": 0.5,
+  "magnitude_range_relative_to_published": [
+    0.75,
+    1.25
+  ],
+  "maximum_candidate_updates": 3,
+  "continuation_requires_fractional_objective_gain": 0.05,
+  "continuation_requires_position_rms_gain_m_or_velocity_rms_gain_mps": [
+    2000.0,
+    0.005
+  ],
+  "baseline_guard_position_error_allowance_m": 5000.0,
+  "baseline_guard_velocity_error_allowance_mps": 0.03,
+  "scope": "Only two fixed inertial burn vectors. Gains, force model, spacecraft, burn epochs/durations, output cadence, and integration tolerances are fixed. No extra trims or later truth-state injection.",
+  "sample_separation": "D/E/F/G/H terminal marks supply this fit and were already excluded from the trajectory-evaluation subset. No new dense reference samples are tuning targets.",
+  "runner_sha256": "bb682d5eace254cbe4d8a140cf8015c379e8f1d2d351558f04a2670ad1b4fac7",
+  "baseline": {
+    "milestones": {
+      "D": {
+        "utc": "2021-12-28T00:29:27.240000Z",
+        "dr_m": [
+          -257.79244232177734,
+          -966.7345123291016,
+          -138.16358184814453
+        ],
+        "dv_mps": [
+          0.04563488004350802,
+          0.06414959314406588,
+          -0.04165927120061497
+        ],
+        "position_error_m": 1010.0107603365033,
+        "velocity_error_mps": 0.08906855479966505
+      },
+      "E": {
+        "utc": "2022-01-04T17:00:00.000000Z",
+        "dr_m": [
+          30534.26927947998,
+          12031.049453735352,
+          -46690.87673950195
+        ],
+        "dv_mps": [
+          0.06876136635764851,
+          -0.027639117338367214,
+          -0.09339489603326001
+        ],
+        "position_error_m": 57071.233753033455,
+        "velocity_error_mps": 0.11922521929389869
+      },
+      "F": {
+        "utc": "2022-01-24T19:00:00.000000Z",
+        "dr_m": [
+          41713.284576416016,
+          120358.09783935547,
+          -59747.079261779785
+        ],
+        "dv_mps": [
+          -0.05044828152676928,
+          0.15885614546459692,
+          0.043668608839652734
+        ],
+        "position_error_m": 140697.48862710496,
+        "velocity_error_mps": 0.17229988815685268
+      },
+      "G": {
+        "utc": "2022-01-24T19:04:56.648000Z",
+        "dr_m": [
+          41712.478591918945,
+          120413.8720703125,
+          -59755.149169921875
+        ],
+        "dv_mps": [
+          0.028288935256568948,
+          0.2257863807335525,
+          -0.09892414492060198
+        ],
+        "position_error_m": 140748.3900780627,
+        "velocity_error_mps": 0.24812444464618827
+      },
+      "H": {
+        "utc": "2022-02-01T00:00:00.000000Z",
+        "dr_m": [
+          54477.08576965332,
+          283068.79385375977,
+          -108121.35431671143
+        ],
+        "dv_mps": [
+          -0.01299814079538919,
+          0.305953078186576,
+          -0.051223852559814986
+        ],
+        "position_error_m": 307873.224212591,
+        "velocity_error_mps": 0.31048368843958213
+      }
+    },
+    "weighted_residual": [
+      -0.018228678410437068,
+      -0.06835845292749777,
+      -0.009769640563784559,
+      0.3226873313739917,
+      0.4536061232252704,
+      -0.2945755316524429,
+      0.6106853855895996,
+      0.24062098907470703,
+      -0.933817534790039,
+      0.6876136635764851,
+      -0.27639117338367214,
+      -0.9339489603326001,
+      0.8342656915283203,
+      2.4071619567871094,
+      -1.1949415852355958,
+      -0.5044828152676928,
+      1.5885614546459692,
+      0.43668608839652734,
+      0.5899035294488916,
+      1.7029093097969479,
+      -0.8450654237773092,
+      0.20003297952467108,
+      1.5965508091626261,
+      -0.6994993369643843,
+      1.5408446706801213,
+      8.006394547051617,
+      -3.058133713136802,
+      -0.18382146998474402,
+      4.326829926212517,
+      -0.7244146700709014
+    ],
+    "objective_norm": 10.77785627110434,
+    "milestone_position_rms_m": 165921.6445473143,
+    "milestone_velocity_rms_mps": 0.2048418768937006,
+    "final_position_error_m": 307873.224212591,
+    "final_velocity_error_mps": 0.31048368843958213
+  }
+}

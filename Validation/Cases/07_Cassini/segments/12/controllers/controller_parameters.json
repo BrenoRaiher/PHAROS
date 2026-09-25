@@ -1,0 +1,36 @@
+{
+  "burn_id": "TCM-14",
+  "burn_start_elapsed_s": 46.0,
+  "burn_end_elapsed_s": 51.909,
+  "burn_duration_s": 5.909,
+  "commanded_delta_v_icrf_mps": [
+    0.35209429467062137,
+    0.10805028900858815,
+    0.39298291682348463
+  ],
+  "commanded_delta_v_magnitude_mps": 0.5385915244501491,
+  "official_reconstructed_delta_v_magnitude_mps": 0.5386,
+  "commanded_throttle": 0.8414508843282827,
+  "effective_cruise_trim": {
+    "enabled": true,
+    "interpretation": "One lumped controller command representing the accumulated translational effect of omitted small reconstructed spacecraft impulses; it is not an additional historical TCM.",
+    "burn_start_elapsed_s": 11189695.0,
+    "burn_end_elapsed_s": 11191495.0,
+    "burn_duration_s": 1800.0,
+    "commanded_delta_v_icrf_mps": [
+      -0.08528016,
+      -0.22612666,
+      -0.07746642
+    ],
+    "commanded_delta_v_magnitude_mps": 0.25378537838102017,
+    "commanded_throttle": 0.162704860997669
+  },
+  "initial_fixed_target_end_elapsed_s": 651.909,
+  "final_fixed_target_start_elapsed_s": 22373990.0,
+  "final_target_for_next_maneuver": "TCM-17",
+  "final_target_icrf": [
+    -0.0761303060511152,
+    -0.4794646414016534,
+    -0.8742527289898199
+  ]
+}

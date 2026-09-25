@@ -1,0 +1,152 @@
+[
+  {
+    "name": "T0",
+    "x": [
+      -583.9931297704322,
+      -783.5273841722302,
+      -443.03649192700954
+    ],
+    "metrics": {
+      "objective_norm": 434510.14839319716,
+      "residual": [
+        -229016.36394309998,
+        -369159.06927490234,
+        8494.449661254883
+      ],
+      "direct": {
+        "post_first_midcourse_nav_update": {
+          "get_seconds": 42936.0,
+          "position_error_m": 5686.362066907992,
+          "position_delta_m": [
+            2587.4722497463226,
+            4503.57048034668,
+            2314.639030456543
+          ],
+          "interpolation_interval_s": 60.0,
+          "center": "Earth",
+          "source": "Trajectory reconstruction supplement Appendix A page A-4 TRW row",
+          "velocity_error_mps": 0.10861718674798615,
+          "velocity_delta_mps": [
+            -0.07243041715992149,
+            0.07862178319442137,
+            -0.019239104303892418
+          ]
+        },
+        "pre_second_midcourse_nav_update": {
+          "get_seconds": 143808.0,
+          "position_error_m": 15422.649344643181,
+          "position_delta_m": [
+            -7418.94100856781,
+            12826.417709350586,
+            -4277.9008712768555
+          ],
+          "interpolation_interval_s": 60.0,
+          "center": "Earth",
+          "source": "Trajectory reconstruction supplement Appendix A page A-8 TRW row",
+          "velocity_error_mps": 0.2312929892987126,
+          "velocity_delta_mps": [
+            -0.11635012427723268,
+            0.12308859747827228,
+            -0.15750648447044568
+          ]
+        },
+        "post_third_midcourse_nav_update": {
+          "get_seconds": 374784.0,
+          "position_error_m": 434510.14839319716,
+          "position_delta_m": [
+            -229016.36394309998,
+            -369159.06927490234,
+            8494.449661254883
+          ],
+          "interpolation_interval_s": 60.0,
+          "center": "Earth",
+          "source": "Trajectory reconstruction supplement Appendix A page A-21 TRW row (GWMX777)",
+          "velocity_error_mps": 8.842797635166361,
+          "velocity_delta_mps": [
+            -4.875159736504429,
+            -7.363980800675563,
+            -0.44684933406188065
+          ]
+        },
+        "lunar_rev1": {
+          "get_seconds": 250380.0,
+          "position_error_m": 91591.74047629179,
+          "position_delta_m": [
+            -51058.397713661194,
+            58288.87072753906,
+            -48831.28603363037
+          ],
+          "interpolation_interval_s": 60.0,
+          "center": "Moon",
+          "source": "Trajectory supplement Appendix A, page A-10 (PDF 38), TRW MCI row at GET 2 d 21 h 32 min 60 s; positions transcribed to the nearest foot. Velocity not transcribed."
+        },
+        "lunar_rev9": {
+          "get_seconds": 315564.0,
+          "position_error_m": 70772.90893267296,
+          "position_delta_m": [
+            22117.37477874756,
+            54127.04962158203,
+            -39873.4105758667
+          ],
+          "interpolation_interval_s": 60.0,
+          "center": "Moon",
+          "source": "Trajectory supplement Appendix A, page A-19 (PDF 47), TRW MCI row at GET 3 d 15 h 39 min 24 s; positions transcribed to the nearest foot. Velocity not transcribed."
+        }
+      }
+    }
+  },
+  {
+    "name": "T1a",
+    "x": [
+      -581.43,
+      -776.75,
+      -448.31
+    ],
+    "metrics": {
+      "objective_norm": 1201.0872829624561,
+      "residual": [
+        -144.31286430358887,
+        -1174.6432647705078,
+        204.9333038330078
+      ],
+      "direct": {
+        "post_third_midcourse_nav_update": {
+          "get_seconds": 374784.0,
+          "position_error_m": 1201.0872829624561,
+          "position_delta_m": [
+            -144.31286430358887,
+            -1174.6432647705078,
+            204.9333038330078
+          ],
+          "interpolation_interval_s": 60.0,
+          "center": "Earth",
+          "source": "Trajectory reconstruction supplement Appendix A page A-21 TRW row (GWMX777)",
+          "velocity_error_mps": 0.5173687216295509,
+          "velocity_delta_mps": [
+            0.07729407401347999,
+            -0.44943745812906855,
+            -0.2443399097026031
+          ]
+        },
+        "lunar_rev9": {
+          "get_seconds": 315564.0,
+          "position_error_m": 70772.90893267296,
+          "position_delta_m": [
+            22117.37477874756,
+            54127.04962158203,
+            -39873.4105758667
+          ],
+          "interpolation_interval_s": 60.0,
+          "center": "Moon",
+          "source": "Trajectory supplement Appendix A, page A-19 (PDF 47), TRW MCI row at GET 3 d 15 h 39 min 24 s; positions transcribed to the nearest foot. Velocity not transcribed."
+        }
+      }
+    },
+    "fractional_gain": 0.9972357670185518,
+    "probe_names": [
+      "T1d0",
+      "T1d1",
+      "T1d2"
+    ]
+  }
+]

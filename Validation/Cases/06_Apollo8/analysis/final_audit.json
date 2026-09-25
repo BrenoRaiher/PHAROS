@@ -1,0 +1,2001 @@
+{
+  "checks": [
+    {
+      "name": "01 finite numeric outputs",
+      "pass": true,
+      "detail": 65250
+    },
+    {
+      "name": "01 articulated solve",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "01 time ordering and endpoints",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "01 normalized attitude",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "01 nonincreasing mass and positive pool",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "01 nonpositive mass rate",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "01 current format and source provenance",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "01 actuator thrust bounds",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "01 recorded moon clearance",
+      "pass": true,
+      "detail": 274952590.3897097
+    },
+    {
+      "name": "01 recorded earth clearance",
+      "pass": true,
+      "detail": 30821133.07985355
+    },
+    {
+      "name": "01 positive physical inertia",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "02 finite numeric outputs",
+      "pass": true,
+      "detail": 119320
+    },
+    {
+      "name": "02 articulated solve",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "02 time ordering and endpoints",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "02 normalized attitude",
+      "pass": true,
+      "detail": 2.220446049250313e-16
+    },
+    {
+      "name": "02 nonincreasing mass and positive pool",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "02 nonpositive mass rate",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "02 current format and source provenance",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "02 actuator thrust bounds",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "02 recorded moon clearance",
+      "pass": true,
+      "detail": 274833610.29803455
+    },
+    {
+      "name": "02 recorded earth clearance",
+      "pass": true,
+      "detail": 97582652.27781247
+    },
+    {
+      "name": "02 positive physical inertia",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "02 complete state continuity",
+      "pass": true,
+      "detail": {
+        "position_discontinuity_m": 0.0,
+        "velocity_discontinuity_mps": 0.0,
+        "quaternion_component_max_discontinuity": 0.0,
+        "angular_velocity_discontinuity_radps": 0.0,
+        "mass_discontinuity_kg": 0.0,
+        "inertia_component_max_discontinuity_kgm2": 0.0
+      }
+    },
+    {
+      "name": "02 powered pointing gate",
+      "pass": true,
+      "detail": 0.10283156193314583
+    },
+    {
+      "name": "02 main thrust within scheduled window",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "03 finite numeric outputs",
+      "pass": true,
+      "detail": 522000
+    },
+    {
+      "name": "03 articulated solve",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "03 time ordering and endpoints",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "03 normalized attitude",
+      "pass": true,
+      "detail": 2.220446049250313e-16
+    },
+    {
+      "name": "03 nonincreasing mass and positive pool",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "03 nonpositive mass rate",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "03 current format and source provenance",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "03 actuator thrust bounds",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "03 recorded moon clearance",
+      "pass": true,
+      "detail": 39095770.047512405
+    },
+    {
+      "name": "03 recorded earth clearance",
+      "pass": true,
+      "detail": 97733033.67352659
+    },
+    {
+      "name": "03 positive physical inertia",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "03 complete state continuity",
+      "pass": true,
+      "detail": {
+        "position_discontinuity_m": 0.0,
+        "velocity_discontinuity_mps": 0.0,
+        "quaternion_component_max_discontinuity": 0.0,
+        "angular_velocity_discontinuity_radps": 0.0,
+        "mass_discontinuity_kg": 0.0,
+        "inertia_component_max_discontinuity_kgm2": 0.0
+      }
+    },
+    {
+      "name": "04 finite numeric outputs",
+      "pass": true,
+      "detail": 138510
+    },
+    {
+      "name": "04 articulated solve",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "04 time ordering and endpoints",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "04 normalized attitude",
+      "pass": true,
+      "detail": 2.220446049250313e-16
+    },
+    {
+      "name": "04 nonincreasing mass and positive pool",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "04 nonpositive mass rate",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "04 current format and source provenance",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "04 actuator thrust bounds",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "04 recorded moon clearance",
+      "pass": true,
+      "detail": 39005209.44740914
+    },
+    {
+      "name": "04 recorded earth clearance",
+      "pass": true,
+      "detail": 344647561.734331
+    },
+    {
+      "name": "04 positive physical inertia",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "04 complete state continuity",
+      "pass": true,
+      "detail": {
+        "position_discontinuity_m": 0.0,
+        "velocity_discontinuity_mps": 0.0,
+        "quaternion_component_max_discontinuity": 0.0,
+        "angular_velocity_discontinuity_radps": 0.0,
+        "mass_discontinuity_kg": 0.0,
+        "inertia_component_max_discontinuity_kgm2": 0.0
+      }
+    },
+    {
+      "name": "04 powered pointing gate",
+      "pass": true,
+      "detail": 0.015783924978341392
+    },
+    {
+      "name": "04 main thrust within scheduled window",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "05 finite numeric outputs",
+      "pass": true,
+      "detail": 85086
+    },
+    {
+      "name": "05 articulated solve",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "05 time ordering and endpoints",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "05 normalized attitude",
+      "pass": true,
+      "detail": 2.220446049250313e-16
+    },
+    {
+      "name": "05 nonincreasing mass and positive pool",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "05 nonpositive mass rate",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "05 current format and source provenance",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "05 actuator thrust bounds",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "05 recorded moon clearance",
+      "pass": true,
+      "detail": 150329.68201307417
+    },
+    {
+      "name": "05 recorded earth clearance",
+      "pass": true,
+      "detail": 344715084.9402022
+    },
+    {
+      "name": "05 positive physical inertia",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "05 complete state continuity",
+      "pass": true,
+      "detail": {
+        "position_discontinuity_m": 0.0,
+        "velocity_discontinuity_mps": 0.0,
+        "quaternion_component_max_discontinuity": 0.0,
+        "angular_velocity_discontinuity_radps": 0.0,
+        "mass_discontinuity_kg": 0.0,
+        "inertia_component_max_discontinuity_kgm2": 0.0
+      }
+    },
+    {
+      "name": "06 finite numeric outputs",
+      "pass": true,
+      "detail": 583490
+    },
+    {
+      "name": "06 articulated solve",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "06 time ordering and endpoints",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "06 normalized attitude",
+      "pass": true,
+      "detail": 2.220446049250313e-16
+    },
+    {
+      "name": "06 nonincreasing mass and positive pool",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "06 nonpositive mass rate",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "06 current format and source provenance",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "06 actuator thrust bounds",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "06 recorded moon clearance",
+      "pass": true,
+      "detail": 101804.33436004957
+    },
+    {
+      "name": "06 recorded earth clearance",
+      "pass": true,
+      "detail": 371817938.1916372
+    },
+    {
+      "name": "06 positive physical inertia",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "06 complete state continuity",
+      "pass": true,
+      "detail": {
+        "position_discontinuity_m": 0.0,
+        "velocity_discontinuity_mps": 0.0,
+        "quaternion_component_max_discontinuity": 0.0,
+        "angular_velocity_discontinuity_radps": 0.0,
+        "mass_discontinuity_kg": 0.0,
+        "inertia_component_max_discontinuity_kgm2": 0.0
+      }
+    },
+    {
+      "name": "06 powered pointing gate",
+      "pass": true,
+      "detail": 0.19513497752577286
+    },
+    {
+      "name": "06 main thrust within scheduled window",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "07 finite numeric outputs",
+      "pass": true,
+      "detail": 45762
+    },
+    {
+      "name": "07 articulated solve",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "07 time ordering and endpoints",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "07 normalized attitude",
+      "pass": true,
+      "detail": 2.220446049250313e-16
+    },
+    {
+      "name": "07 nonincreasing mass and positive pool",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "07 nonpositive mass rate",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "07 current format and source provenance",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "07 actuator thrust bounds",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "07 recorded moon clearance",
+      "pass": true,
+      "detail": 95315.94294403284
+    },
+    {
+      "name": "07 recorded earth clearance",
+      "pass": true,
+      "detail": 368232811.79103243
+    },
+    {
+      "name": "07 positive physical inertia",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "07 complete state continuity",
+      "pass": true,
+      "detail": {
+        "position_discontinuity_m": 0.0,
+        "velocity_discontinuity_mps": 0.0,
+        "quaternion_component_max_discontinuity": 0.0,
+        "angular_velocity_discontinuity_radps": 0.0,
+        "mass_discontinuity_kg": 0.0,
+        "inertia_component_max_discontinuity_kgm2": 0.0
+      }
+    },
+    {
+      "name": "08 finite numeric outputs",
+      "pass": true,
+      "detail": 134140
+    },
+    {
+      "name": "08 articulated solve",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "08 time ordering and endpoints",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "08 normalized attitude",
+      "pass": true,
+      "detail": 2.220446049250313e-16
+    },
+    {
+      "name": "08 nonincreasing mass and positive pool",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "08 nonpositive mass rate",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "08 current format and source provenance",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "08 actuator thrust bounds",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "08 recorded moon clearance",
+      "pass": true,
+      "detail": 95383.46837267163
+    },
+    {
+      "name": "08 recorded earth clearance",
+      "pass": true,
+      "detail": 372768929.6103869
+    },
+    {
+      "name": "08 positive physical inertia",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "08 complete state continuity",
+      "pass": true,
+      "detail": {
+        "position_discontinuity_m": 0.0,
+        "velocity_discontinuity_mps": 0.0,
+        "quaternion_component_max_discontinuity": 0.0,
+        "angular_velocity_discontinuity_radps": 0.0,
+        "mass_discontinuity_kg": 0.0,
+        "inertia_component_max_discontinuity_kgm2": 0.0
+      }
+    },
+    {
+      "name": "08 powered pointing gate",
+      "pass": true,
+      "detail": 0.35313190707659364
+    },
+    {
+      "name": "08 main thrust within scheduled window",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "09 finite numeric outputs",
+      "pass": true,
+      "detail": 164256
+    },
+    {
+      "name": "09 articulated solve",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "09 time ordering and endpoints",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "09 normalized attitude",
+      "pass": true,
+      "detail": 2.220446049250313e-16
+    },
+    {
+      "name": "09 nonincreasing mass and positive pool",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "09 nonpositive mass rate",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "09 current format and source provenance",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "09 actuator thrust bounds",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "09 recorded moon clearance",
+      "pass": true,
+      "detail": 93605.41824304964
+    },
+    {
+      "name": "09 recorded earth clearance",
+      "pass": true,
+      "detail": 369532021.74760985
+    },
+    {
+      "name": "09 positive physical inertia",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "09 complete state continuity",
+      "pass": true,
+      "detail": {
+        "position_discontinuity_m": 0.0,
+        "velocity_discontinuity_mps": 0.0,
+        "quaternion_component_max_discontinuity": 0.0,
+        "angular_velocity_discontinuity_radps": 0.0,
+        "mass_discontinuity_kg": 0.0,
+        "inertia_component_max_discontinuity_kgm2": 0.0
+      }
+    },
+    {
+      "name": "10 finite numeric outputs",
+      "pass": true,
+      "detail": 501220
+    },
+    {
+      "name": "10 articulated solve",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "10 time ordering and endpoints",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "10 normalized attitude",
+      "pass": true,
+      "detail": 2.220446049250313e-16
+    },
+    {
+      "name": "10 nonincreasing mass and positive pool",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "10 nonpositive mass rate",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "10 current format and source provenance",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "10 actuator thrust bounds",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "10 recorded moon clearance",
+      "pass": true,
+      "detail": 95407.36074348493
+    },
+    {
+      "name": "10 recorded earth clearance",
+      "pass": true,
+      "detail": 376965418.4831892
+    },
+    {
+      "name": "10 positive physical inertia",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "10 complete state continuity",
+      "pass": true,
+      "detail": {
+        "position_discontinuity_m": 0.0,
+        "velocity_discontinuity_mps": 0.0,
+        "quaternion_component_max_discontinuity": 0.0,
+        "angular_velocity_discontinuity_radps": 0.0,
+        "mass_discontinuity_kg": 0.0,
+        "inertia_component_max_discontinuity_kgm2": 0.0
+      }
+    },
+    {
+      "name": "10 powered pointing gate",
+      "pass": true,
+      "detail": 0.0015755016594916223
+    },
+    {
+      "name": "10 main thrust within scheduled window",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "11 finite numeric outputs",
+      "pass": true,
+      "detail": 152772
+    },
+    {
+      "name": "11 articulated solve",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "11 time ordering and endpoints",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "11 normalized attitude",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "11 nonincreasing mass and positive pool",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "11 nonpositive mass rate",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "11 current format and source provenance",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "11 actuator thrust bounds",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "11 recorded moon clearance",
+      "pass": true,
+      "detail": 102809.84484748798
+    },
+    {
+      "name": "11 recorded earth clearance",
+      "pass": true,
+      "detail": 310402960.40477705
+    },
+    {
+      "name": "11 positive physical inertia",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "11 complete state continuity",
+      "pass": true,
+      "detail": {
+        "position_discontinuity_m": 0.0,
+        "velocity_discontinuity_mps": 0.0,
+        "quaternion_component_max_discontinuity": 0.0,
+        "angular_velocity_discontinuity_radps": 0.0,
+        "mass_discontinuity_kg": 0.0,
+        "inertia_component_max_discontinuity_kgm2": 0.0
+      }
+    },
+    {
+      "name": "12 finite numeric outputs",
+      "pass": true,
+      "detail": 154090
+    },
+    {
+      "name": "12 articulated solve",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "12 time ordering and endpoints",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "12 normalized attitude",
+      "pass": true,
+      "detail": 2.220446049250313e-16
+    },
+    {
+      "name": "12 nonincreasing mass and positive pool",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "12 nonpositive mass rate",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "12 current format and source provenance",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "12 actuator thrust bounds",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "12 recorded moon clearance",
+      "pass": true,
+      "detail": 79531780.1789243
+    },
+    {
+      "name": "12 recorded earth clearance",
+      "pass": true,
+      "detail": 310298262.12048584
+    },
+    {
+      "name": "12 positive physical inertia",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "12 complete state continuity",
+      "pass": true,
+      "detail": {
+        "position_discontinuity_m": 0.0,
+        "velocity_discontinuity_mps": 0.0,
+        "quaternion_component_max_discontinuity": 0.0,
+        "angular_velocity_discontinuity_radps": 0.0,
+        "mass_discontinuity_kg": 0.0,
+        "inertia_component_max_discontinuity_kgm2": 0.0
+      }
+    },
+    {
+      "name": "12 powered pointing gate",
+      "pass": true,
+      "detail": 4.618246960357542e-06
+    },
+    {
+      "name": "12 main thrust within scheduled window",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "13 finite numeric outputs",
+      "pass": true,
+      "detail": 448800
+    },
+    {
+      "name": "13 articulated solve",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "13 time ordering and endpoints",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "13 normalized attitude",
+      "pass": true,
+      "detail": 2.220446049250313e-16
+    },
+    {
+      "name": "13 nonincreasing mass and positive pool",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "13 nonpositive mass rate",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "13 current format and source provenance",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "13 actuator thrust bounds",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "13 recorded moon clearance",
+      "pass": true,
+      "detail": 79651007.09427564
+    },
+    {
+      "name": "13 recorded earth clearance",
+      "pass": true,
+      "detail": 4419942.66104383
+    },
+    {
+      "name": "13 positive physical inertia",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "13 complete state continuity",
+      "pass": true,
+      "detail": {
+        "position_discontinuity_m": 0.0,
+        "velocity_discontinuity_mps": 0.0,
+        "quaternion_component_max_discontinuity": 0.0,
+        "angular_velocity_discontinuity_radps": 0.0,
+        "mass_discontinuity_kg": 0.0,
+        "inertia_component_max_discontinuity_kgm2": 0.0
+      }
+    },
+    {
+      "name": "single external translational seed",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "final consumables mass target",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "preserved legacy mission inventory unchanged",
+      "pass": true,
+      "detail": 211
+    },
+    {
+      "name": "consulted legacy physical-input hashes unchanged",
+      "pass": true,
+      "detail": 56
+    }
+  ],
+  "passed": 171,
+  "total": 171,
+  "samples": 17082,
+  "numeric_cells": 3114696,
+  "segments": [
+    {
+      "id": "01",
+      "sample_count": 375,
+      "start_get_s": 17154.0,
+      "end_get_s": 39539.2,
+      "initial_mass_kg": 28786.7447654824,
+      "final_mass_kg": 28786.7447654824,
+      "minimum_recorded_altitudes_m": {
+        "moon": 274952590.3897097,
+        "earth": 30821133.07985355
+      }
+    },
+    {
+      "id": "02",
+      "sample_count": 628,
+      "start_get_s": 39539.2,
+      "end_get_s": 39601.9,
+      "initial_mass_kg": 28786.7447654824,
+      "final_mass_kg": 28642.161093004914,
+      "minimum_recorded_altitudes_m": {
+        "moon": 274833610.29803455,
+        "earth": 97582652.27781247
+      }
+    },
+    {
+      "id": "03",
+      "sample_count": 3000,
+      "start_get_s": 39601.9,
+      "end_get_s": 219535.0,
+      "initial_mass_kg": 28642.161093004914,
+      "final_mass_kg": 28642.161093004914,
+      "minimum_recorded_altitudes_m": {
+        "moon": 39095770.047512405,
+        "earth": 97733033.67352659
+      }
+    },
+    {
+      "id": "04",
+      "sample_count": 729,
+      "start_get_s": 219535.0,
+      "end_get_s": 219607.8,
+      "initial_mass_kg": 28642.161093004914,
+      "final_mass_kg": 28498.60973220176,
+      "minimum_recorded_altitudes_m": {
+        "moon": 39005209.44740914,
+        "earth": 344647561.734331
+      }
+    },
+    {
+      "id": "05",
+      "sample_count": 489,
+      "start_get_s": 219607.8,
+      "end_get_s": 248840.4,
+      "initial_mass_kg": 28498.60973220176,
+      "final_mass_kg": 28498.60973220176,
+      "minimum_recorded_altitudes_m": {
+        "moon": 150329.68201307417,
+        "earth": 344715084.9402022
+      }
+    },
+    {
+      "id": "06",
+      "sample_count": 3071,
+      "start_get_s": 248840.4,
+      "end_get_s": 249147.3,
+      "initial_mass_kg": 28498.60973220176,
+      "final_mass_kg": 21211.86705359289,
+      "minimum_recorded_altitudes_m": {
+        "moon": 101804.33436004957,
+        "earth": 371817938.1916372
+      }
+    },
+    {
+      "id": "07",
+      "sample_count": 263,
+      "start_get_s": 249147.3,
+      "end_get_s": 264846.6,
+      "initial_mass_kg": 21211.86705359289,
+      "final_mass_kg": 21211.86705359289,
+      "minimum_recorded_altitudes_m": {
+        "moon": 95315.94294403284,
+        "earth": 368232811.79103243
+      }
+    },
+    {
+      "id": "08",
+      "sample_count": 706,
+      "start_get_s": 264846.6,
+      "end_get_s": 264917.02,
+      "initial_mass_kg": 21211.86705359289,
+      "final_mass_kg": 20906.108446797196,
+      "minimum_recorded_altitudes_m": {
+        "moon": 95383.46837267163,
+        "earth": 372768929.6103869
+      }
+    },
+    {
+      "id": "09",
+      "sample_count": 944,
+      "start_get_s": 264917.02,
+      "end_get_s": 321496.6,
+      "initial_mass_kg": 20906.108446797196,
+      "final_mass_kg": 20906.108446797196,
+      "minimum_recorded_altitudes_m": {
+        "moon": 93605.41824304964,
+        "earth": 369532021.74760985
+      }
+    },
+    {
+      "id": "10",
+      "sample_count": 2638,
+      "start_get_s": 321496.6,
+      "end_get_s": 321760.3,
+      "initial_mass_kg": 20906.108446797196,
+      "final_mass_kg": 14704.373746789042,
+      "minimum_recorded_altitudes_m": {
+        "moon": 95407.36074348493,
+        "earth": 376965418.4831892
+      }
+    },
+    {
+      "id": "11",
+      "sample_count": 878,
+      "start_get_s": 321760.3,
+      "end_get_s": 374334.0,
+      "initial_mass_kg": 14704.373746789042,
+      "final_mass_kg": 14704.373746789042,
+      "minimum_recorded_altitudes_m": {
+        "moon": 102809.84484748798,
+        "earth": 310402960.40477705
+      }
+    },
+    {
+      "id": "12",
+      "sample_count": 811,
+      "start_get_s": 374334.0,
+      "end_get_s": 374415.0,
+      "initial_mass_kg": 14704.373746789042,
+      "final_mass_kg": 14511.123207456261,
+      "minimum_recorded_altitudes_m": {
+        "moon": 79531780.1789243,
+        "earth": 310298262.12048584
+      }
+    },
+    {
+      "id": "13",
+      "sample_count": 2550,
+      "start_get_s": 374415.0,
+      "end_get_s": 527328.0,
+      "initial_mass_kg": 14511.123207456261,
+      "final_mass_kg": 14409.722410126826,
+      "minimum_recorded_altitudes_m": {
+        "moon": 79651007.09427564,
+        "earth": 4419942.66104383
+      }
+    }
+  ],
+  "boundaries": [
+    {
+      "from": "01",
+      "to": "02",
+      "position_discontinuity_m": 0.0,
+      "velocity_discontinuity_mps": 0.0,
+      "quaternion_component_max_discontinuity": 0.0,
+      "angular_velocity_discontinuity_radps": 0.0,
+      "mass_discontinuity_kg": 0.0,
+      "inertia_component_max_discontinuity_kgm2": 0.0
+    },
+    {
+      "from": "02",
+      "to": "03",
+      "position_discontinuity_m": 0.0,
+      "velocity_discontinuity_mps": 0.0,
+      "quaternion_component_max_discontinuity": 0.0,
+      "angular_velocity_discontinuity_radps": 0.0,
+      "mass_discontinuity_kg": 0.0,
+      "inertia_component_max_discontinuity_kgm2": 0.0
+    },
+    {
+      "from": "03",
+      "to": "04",
+      "position_discontinuity_m": 0.0,
+      "velocity_discontinuity_mps": 0.0,
+      "quaternion_component_max_discontinuity": 0.0,
+      "angular_velocity_discontinuity_radps": 0.0,
+      "mass_discontinuity_kg": 0.0,
+      "inertia_component_max_discontinuity_kgm2": 0.0
+    },
+    {
+      "from": "04",
+      "to": "05",
+      "position_discontinuity_m": 0.0,
+      "velocity_discontinuity_mps": 0.0,
+      "quaternion_component_max_discontinuity": 0.0,
+      "angular_velocity_discontinuity_radps": 0.0,
+      "mass_discontinuity_kg": 0.0,
+      "inertia_component_max_discontinuity_kgm2": 0.0
+    },
+    {
+      "from": "05",
+      "to": "06",
+      "position_discontinuity_m": 0.0,
+      "velocity_discontinuity_mps": 0.0,
+      "quaternion_component_max_discontinuity": 0.0,
+      "angular_velocity_discontinuity_radps": 0.0,
+      "mass_discontinuity_kg": 0.0,
+      "inertia_component_max_discontinuity_kgm2": 0.0
+    },
+    {
+      "from": "06",
+      "to": "07",
+      "position_discontinuity_m": 0.0,
+      "velocity_discontinuity_mps": 0.0,
+      "quaternion_component_max_discontinuity": 0.0,
+      "angular_velocity_discontinuity_radps": 0.0,
+      "mass_discontinuity_kg": 0.0,
+      "inertia_component_max_discontinuity_kgm2": 0.0
+    },
+    {
+      "from": "07",
+      "to": "08",
+      "position_discontinuity_m": 0.0,
+      "velocity_discontinuity_mps": 0.0,
+      "quaternion_component_max_discontinuity": 0.0,
+      "angular_velocity_discontinuity_radps": 0.0,
+      "mass_discontinuity_kg": 0.0,
+      "inertia_component_max_discontinuity_kgm2": 0.0
+    },
+    {
+      "from": "08",
+      "to": "09",
+      "position_discontinuity_m": 0.0,
+      "velocity_discontinuity_mps": 0.0,
+      "quaternion_component_max_discontinuity": 0.0,
+      "angular_velocity_discontinuity_radps": 0.0,
+      "mass_discontinuity_kg": 0.0,
+      "inertia_component_max_discontinuity_kgm2": 0.0
+    },
+    {
+      "from": "09",
+      "to": "10",
+      "position_discontinuity_m": 0.0,
+      "velocity_discontinuity_mps": 0.0,
+      "quaternion_component_max_discontinuity": 0.0,
+      "angular_velocity_discontinuity_radps": 0.0,
+      "mass_discontinuity_kg": 0.0,
+      "inertia_component_max_discontinuity_kgm2": 0.0
+    },
+    {
+      "from": "10",
+      "to": "11",
+      "position_discontinuity_m": 0.0,
+      "velocity_discontinuity_mps": 0.0,
+      "quaternion_component_max_discontinuity": 0.0,
+      "angular_velocity_discontinuity_radps": 0.0,
+      "mass_discontinuity_kg": 0.0,
+      "inertia_component_max_discontinuity_kgm2": 0.0
+    },
+    {
+      "from": "11",
+      "to": "12",
+      "position_discontinuity_m": 0.0,
+      "velocity_discontinuity_mps": 0.0,
+      "quaternion_component_max_discontinuity": 0.0,
+      "angular_velocity_discontinuity_radps": 0.0,
+      "mass_discontinuity_kg": 0.0,
+      "inertia_component_max_discontinuity_kgm2": 0.0
+    },
+    {
+      "from": "12",
+      "to": "13",
+      "position_discontinuity_m": 0.0,
+      "velocity_discontinuity_mps": 0.0,
+      "quaternion_component_max_discontinuity": 0.0,
+      "angular_velocity_discontinuity_radps": 0.0,
+      "mass_discontinuity_kg": 0.0,
+      "inertia_component_max_discontinuity_kgm2": 0.0
+    }
+  ],
+  "burns": [
+    {
+      "segment": "02",
+      "burn": "first_midcourse",
+      "scheduled_ignition_get": 39599.2,
+      "scheduled_cutoff_get": 39601.6,
+      "scalar_integrated_thrust_acceleration_mps": 7.5593837972573645,
+      "vector_integral_norm_mps": 7.559383753300935,
+      "integration_note": "0.1 s output left-rule quadrature; scalar and vector integrals differ for a curved thrust direction. Both include ullage if present.",
+      "maximum_recorded_powered_misalignment_deg": 0.10283156193314583,
+      "parameters": {
+        "direction": [
+          -0.3556811307328395,
+          0.9286997601292293,
+          -0.10491753321785983
+        ],
+        "target_mode": "fixed_icrf",
+        "target_mode_id": 0,
+        "target_body_naif_id": 0,
+        "radial_bias": 0.0,
+        "normal_bias": 0.0,
+        "circularization_stop_mps": 0.0,
+        "target_mass": 28715.572167590002,
+        "burn_start": 60.0,
+        "burn_end": 62.4,
+        "throttle": 0.9906880262017674,
+        "use_sps": true,
+        "sps_maximum_thrust_n": 91180.3626873533,
+        "main_required_thrust_n": 90331.29353909534,
+        "main_target_delta_v_mps": 7.55904,
+        "ullage_enabled": false,
+        "ullage_start": -1.0,
+        "ullage_end": -1.0,
+        "ullage_throttle": 0.0,
+        "ullage_target_delta_v_mps": 0.0,
+        "total_target_delta_v_mps": 7.55904
+      }
+    },
+    {
+      "segment": "04",
+      "burn": "second_midcourse",
+      "scheduled_ignition_get": 219595.9,
+      "scheduled_cutoff_get": 219607.7,
+      "scalar_integrated_thrust_acceleration_mps": 0.7364357582600313,
+      "vector_integral_norm_mps": 0.7364357548567277,
+      "integration_note": "0.1 s output left-rule quadrature; scalar and vector integrals differ for a curved thrust direction. Both include ullage if present.",
+      "maximum_recorded_powered_misalignment_deg": 0.015783924978341392,
+      "parameters": {
+        "direction": [
+          0.240346525558557,
+          -0.32725148395261155,
+          -0.9138599531124796
+        ],
+        "target_mode": "fixed_icrf",
+        "target_mode_id": 0,
+        "target_body_naif_id": 0,
+        "radial_bias": 0.0,
+        "normal_bias": 0.0,
+        "circularization_stop_mps": 0.0,
+        "target_mass": 28506.012492650003,
+        "burn_start": 60.9,
+        "burn_end": 72.7,
+        "throttle": 0.999340425169594,
+        "use_sps": false,
+        "sps_maximum_thrust_n": 91180.3626873533,
+        "main_required_thrust_n": 1778.8259568018773,
+        "main_target_delta_v_mps": 0.7364366911011428,
+        "ullage_enabled": false,
+        "ullage_start": -1.0,
+        "ullage_end": -1.0,
+        "ullage_throttle": 0.0,
+        "ullage_target_delta_v_mps": 0.0,
+        "total_target_delta_v_mps": 0.7364366911011428
+      }
+    },
+    {
+      "segment": "06",
+      "burn": "lunar_orbit_insertion",
+      "scheduled_ignition_get": 248900.4,
+      "scheduled_cutoff_get": 249147.3,
+      "scalar_integrated_thrust_acceleration_mps": 905.8778199983714,
+      "vector_integral_norm_mps": 902.7646122983447,
+      "integration_note": "0.1 s output left-rule quadrature; scalar and vector integrals differ for a curved thrust direction. Both include ullage if present.",
+      "maximum_recorded_powered_misalignment_deg": 0.19513497752577286,
+      "parameters": {
+        "direction": [
+          0.44539360538651157,
+          0.39189638252813414,
+          0.8050104108905467
+        ],
+        "target_mode": "retrograde_tangential_moon",
+        "target_mode_id": 3,
+        "target_body_naif_id": 301,
+        "radial_bias": 0.02,
+        "normal_bias": 0.0,
+        "circularization_stop_mps": 0.0,
+        "target_mass": 28497.84782999,
+        "burn_start": 60.0,
+        "burn_end": 306.9,
+        "throttle": 0.992925779597439,
+        "use_sps": true,
+        "sps_maximum_thrust_n": 91180.3626873533,
+        "main_required_thrust_n": 90535.33270531752,
+        "main_target_delta_v_mps": 905.8,
+        "ullage_enabled": false,
+        "ullage_start": -1.0,
+        "ullage_end": -1.0,
+        "ullage_throttle": 0.0,
+        "ullage_target_delta_v_mps": 0.0,
+        "total_target_delta_v_mps": 905.8
+      }
+    },
+    {
+      "segment": "08",
+      "burn": "lunar_orbit_circularization",
+      "scheduled_ignition_get": 264906.6,
+      "scheduled_cutoff_get": 264916.19999999995,
+      "scalar_integrated_thrust_acceleration_mps": 41.130742852385026,
+      "vector_integral_norm_mps": 41.13055007654386,
+      "integration_note": "0.1 s output left-rule quadrature; scalar and vector integrals differ for a curved thrust direction. Both include ullage if present.",
+      "maximum_recorded_powered_misalignment_deg": 0.35313190707659364,
+      "parameters": {
+        "direction": [
+          0.7483245310663217,
+          0.45707015319364197,
+          0.4807257755351907
+        ],
+        "target_mode": "circularize_moon",
+        "target_mode_id": 5,
+        "target_body_naif_id": 301,
+        "radial_bias": 0.0,
+        "normal_bias": 0.0,
+        "circularization_stop_mps": 0.25,
+        "target_mass": 21190.02115692,
+        "burn_start": 60.0,
+        "burn_end": 69.6,
+        "throttle": 0.9890337273605411,
+        "use_sps": true,
+        "sps_maximum_thrust_n": 91180.3626873533,
+        "main_required_thrust_n": 90180.45397075904,
+        "main_target_delta_v_mps": 41.13000000000001,
+        "ullage_enabled": false,
+        "ullage_start": -1.0,
+        "ullage_end": -1.0,
+        "ullage_throttle": 0.0,
+        "ullage_target_delta_v_mps": 0.0,
+        "total_target_delta_v_mps": 41.13000000000001
+      }
+    },
+    {
+      "segment": "10",
+      "burn": "transearth_injection",
+      "scheduled_ignition_get": 321556.6,
+      "scheduled_cutoff_get": 321760.3,
+      "scalar_integrated_thrust_acceleration_mps": 1069.2514015318943,
+      "vector_integral_norm_mps": 1069.2514014282337,
+      "integration_note": "0.1 s output left-rule quadrature; scalar and vector integrals differ for a curved thrust direction. Both include ullage if present.",
+      "maximum_recorded_powered_misalignment_deg": 0.0015755016594916223,
+      "parameters": {
+        "direction": [
+          -0.5439907566621103,
+          -0.7267337774750086,
+          -0.41944257454756495
+        ],
+        "target_mode": "fixed_icrf",
+        "target_mode_id": 0,
+        "target_body_naif_id": 0,
+        "radial_bias": 0.0,
+        "normal_bias": 0.0,
+        "circularization_stop_mps": 0.0,
+        "target_mass": 20833.95114647,
+        "burn_start": 60.0,
+        "burn_end": 263.7,
+        "throttle": 1.0,
+        "use_sps": true,
+        "sps_maximum_thrust_n": 92236.54730454282,
+        "main_required_thrust_n": 92236.54730454282,
+        "main_target_delta_v_mps": 1067.7565078951823,
+        "ullage_enabled": true,
+        "ullage_start": 45.0,
+        "ullage_end": 60.0,
+        "ullage_throttle": 0.8322650410318492,
+        "ullage_target_delta_v_mps": 1.0668,
+        "total_target_delta_v_mps": 1068.8233078951823
+      }
+    },
+    {
+      "segment": "12",
+      "burn": "third_midcourse",
+      "scheduled_ignition_get": 374400.0,
+      "scheduled_cutoff_get": 374415.0,
+      "scalar_integrated_thrust_acceleration_mps": 1.4783165204352837,
+      "vector_integral_norm_mps": 1.4783165204352837,
+      "integration_note": "0.1 s output left-rule quadrature; scalar and vector integrals differ for a curved thrust direction. Both include ullage if present.",
+      "maximum_recorded_powered_misalignment_deg": 4.618246960357542e-06,
+      "parameters": {
+        "direction": [
+          0.04236717432479,
+          -0.4678977950373229,
+          -0.8827664900407947
+        ],
+        "target_mode": "fixed_icrf",
+        "target_mode_id": 0,
+        "target_body_naif_id": 0,
+        "radial_bias": 0.0,
+        "normal_bias": 0.0,
+        "circularization_stop_mps": 0.0,
+        "target_mass": 14518.58457896,
+        "burn_start": 66.0,
+        "burn_end": 81.0,
+        "throttle": 0.8036579136917186,
+        "use_sps": false,
+        "sps_maximum_thrust_n": 91180.3626873533,
+        "main_required_thrust_n": 1430.5110863712591,
+        "main_target_delta_v_mps": 1.4783302754337408,
+        "ullage_enabled": false,
+        "ullage_start": -1.0,
+        "ullage_end": -1.0,
+        "ullage_throttle": 0.0,
+        "ullage_target_delta_v_mps": 0.0,
+        "total_target_delta_v_mps": 1.4783302754337408
+      }
+    }
+  ],
+  "direct_comparisons": {
+    "post_first_midcourse_nav_update": {
+      "get_seconds": 42936,
+      "get_hms": "11:55:36",
+      "label": "After MC1",
+      "position_error_m": 5686.362066907992,
+      "position_delta_m": [
+        2587.4722497463226,
+        4503.57048034668,
+        2314.639030456543
+      ],
+      "velocity_error_mps": 0.10861718674815074,
+      "velocity_delta_mps": [
+        -0.07243041715992149,
+        0.07862178319464874,
+        -0.019239104303892418
+      ],
+      "interpolation_interval_s": 60.0,
+      "center": "Earth",
+      "source": "Trajectory Reconstruction Supplement 1, Appendix A, A-4 (PDF 32), TRW postflight row.",
+      "position_informed_calibration": false
+    },
+    "outbound_update": {
+      "get_seconds": 108894,
+      "get_hms": "30:14:54",
+      "label": "Outbound Transfer",
+      "position_error_m": 9335.481242491278,
+      "position_delta_m": [
+        -3520.6474781036377,
+        8543.435501098633,
+        1328.8947296142578
+      ],
+      "velocity_error_mps": 0.22980194990100625,
+      "velocity_delta_mps": [
+        -0.10663495521293953,
+        0.12231394420109609,
+        -0.162718227494679
+      ],
+      "interpolation_interval_s": 60.0,
+      "center": "Earth",
+      "source": "Trajectory Reconstruction Supplement 1, Appendix A, A-6 (PDF 34), TRW postflight row.",
+      "position_informed_calibration": false
+    },
+    "pre_second_midcourse_nav_update": {
+      "get_seconds": 143808,
+      "get_hms": "39:56:48",
+      "label": "Before MC2",
+      "position_error_m": 15422.649344643181,
+      "position_delta_m": [
+        -7418.94100856781,
+        12826.417709350586,
+        -4277.9008712768555
+      ],
+      "velocity_error_mps": 0.2312929892987126,
+      "velocity_delta_mps": [
+        -0.11635012427723268,
+        0.12308859747827228,
+        -0.15750648447044568
+      ],
+      "interpolation_interval_s": 60.0,
+      "center": "Earth",
+      "source": "Trajectory Reconstruction Supplement 1, Appendix A, A-8 (PDF 36), TRW postflight row.",
+      "position_informed_calibration": false
+    },
+    "post_second_midcourse_update": {
+      "get_seconds": 219996,
+      "get_hms": "61:06:36",
+      "label": "After MC2",
+      "position_error_m": 27668.824927681857,
+      "position_delta_m": [
+        -20163.48746395111,
+        12664.831329345703,
+        -14092.540351867676
+      ],
+      "velocity_error_mps": 0.9963717410691191,
+      "velocity_delta_mps": [
+        0.2821308417405817,
+        -0.6845530854898243,
+        0.6667427597553797
+      ],
+      "interpolation_interval_s": 60.0,
+      "center": "Moon",
+      "source": "Trajectory Reconstruction Supplement 1, Appendix A, A-9 (PDF 37), TRW postflight row.",
+      "position_informed_calibration": false
+    },
+    "lunar_rev1": {
+      "get_seconds": 250380,
+      "get_hms": "69:33:00",
+      "label": "Lunar Revolution 1",
+      "position_error_m": 91604.05320165616,
+      "position_delta_m": [
+        -51058.395493507385,
+        58288.951583862305,
+        -48854.28267669678
+      ],
+      "velocity_error_mps": 42.01598236131668,
+      "velocity_delta_mps": [
+        -11.774603125701105,
+        39.86526850733924,
+        6.120609598434669
+      ],
+      "interpolation_interval_s": 60.0,
+      "center": "Moon",
+      "source": "Trajectory Reconstruction Supplement 1, Appendix A, A-10 (PDF 38), TRW postflight row.",
+      "position_informed_calibration": true
+    },
+    "lunar_rev2": {
+      "get_seconds": 258024,
+      "get_hms": "71:40:24",
+      "label": "Lunar Revolution 2",
+      "position_error_m": 81208.82663821374,
+      "position_delta_m": [
+        -39698.36360836029,
+        53226.585189819336,
+        -46753.01145172119
+      ],
+      "velocity_error_mps": 36.44539511847291,
+      "velocity_delta_mps": [
+        -15.068787302749115,
+        33.125254180697084,
+        -1.9788911112859466
+      ],
+      "interpolation_interval_s": 60.0,
+      "center": "Moon",
+      "source": "Trajectory Reconstruction Supplement 1, Appendix A, A-11 (PDF 39), TRW postflight row.",
+      "position_informed_calibration": false
+    },
+    "lunar_rev3": {
+      "get_seconds": 265764,
+      "get_hms": "73:49:24",
+      "label": "Lunar Revolution 3",
+      "position_error_m": 73965.76553071644,
+      "position_delta_m": [
+        -26021.73362350464,
+        49172.559814453125,
+        -48742.82727813721
+      ],
+      "velocity_error_mps": 23.207348175897486,
+      "velocity_delta_mps": [
+        -11.469117453387298,
+        18.21552723924742,
+        -8.673806638032374
+      ],
+      "interpolation_interval_s": 60.0,
+      "center": "Moon",
+      "source": "Trajectory Reconstruction Supplement 1, Appendix A, A-12 (PDF 40), TRW postflight row.",
+      "position_informed_calibration": false
+    },
+    "lunar_rev4": {
+      "get_seconds": 272886,
+      "get_hms": "75:48:06",
+      "label": "Lunar Revolution 4",
+      "position_error_m": 73887.31237329292,
+      "position_delta_m": [
+        -20132.494627952576,
+        49925.19609069824,
+        -50611.1883392334
+      ],
+      "velocity_error_mps": 22.772899291266963,
+      "velocity_delta_mps": [
+        -11.996302537594602,
+        14.360505665806159,
+        -12.979581833750956
+      ],
+      "interpolation_interval_s": 60.0,
+      "center": "Moon",
+      "source": "Trajectory Reconstruction Supplement 1, Appendix A, A-13 (PDF 41), TRW postflight row.",
+      "position_informed_calibration": false
+    },
+    "lunar_rev5": {
+      "get_seconds": 279984,
+      "get_hms": "77:46:24",
+      "label": "Lunar Revolution 5",
+      "position_error_m": 72415.6511968737,
+      "position_delta_m": [
+        -13979.714913368225,
+        49733.64126586914,
+        -50746.024826049805
+      ],
+      "velocity_error_mps": 24.531818562946974,
+      "velocity_delta_mps": [
+        -12.608385239320341,
+        10.722358112750157,
+        -18.107174825581694
+      ],
+      "interpolation_interval_s": 60.0,
+      "center": "Moon",
+      "source": "Trajectory Reconstruction Supplement 1, Appendix A, A-14 (PDF 42), TRW postflight row.",
+      "position_informed_calibration": false
+    },
+    "lunar_rev6": {
+      "get_seconds": 287250,
+      "get_hms": "79:47:30",
+      "label": "Lunar Revolution 6",
+      "position_error_m": 74191.00987602325,
+      "position_delta_m": [
+        -9380.667863845825,
+        50807.25810241699,
+        -53244.07517242432
+      ],
+      "velocity_error_mps": 18.764005355275437,
+      "velocity_delta_mps": [
+        -11.713151925447164,
+        3.926001015418592,
+        -14.123614444296152
+      ],
+      "interpolation_interval_s": 60.0,
+      "center": "Moon",
+      "source": "Trajectory Reconstruction Supplement 1, Appendix A, A-15 (PDF 43), TRW postflight row.",
+      "position_informed_calibration": false
+    },
+    "lunar_rev7": {
+      "get_seconds": 294258,
+      "get_hms": "81:44:18",
+      "label": "Lunar Revolution 7",
+      "position_error_m": 72629.86280786271,
+      "position_delta_m": [
+        -1412.2235469818115,
+        50523.35885620117,
+        -52158.343589782715
+      ],
+      "velocity_error_mps": 27.677058348428886,
+      "velocity_delta_mps": [
+        -12.56228411936172,
+        1.3446696389835324,
+        -24.625199290336013
+      ],
+      "interpolation_interval_s": 60.0,
+      "center": "Moon",
+      "source": "Trajectory Reconstruction Supplement 1, Appendix A, A-16 (PDF 44), TRW postflight row.",
+      "position_informed_calibration": false
+    },
+    "lunar_rev8": {
+      "get_seconds": 301338,
+      "get_hms": "83:42:18",
+      "label": "Lunar Revolution 8",
+      "position_error_m": 73572.28527319129,
+      "position_delta_m": [
+        6387.553654670715,
+        51336.178649902344,
+        -52313.25912475586
+      ],
+      "velocity_error_mps": 33.91529402814125,
+      "velocity_delta_mps": [
+        -12.278088047729398,
+        -3.1683804817191685,
+        -31.455636824431622
+      ],
+      "interpolation_interval_s": 60.0,
+      "center": "Moon",
+      "source": "Trajectory Reconstruction Supplement 1, Appendix A, A-17 (PDF 45), TRW postflight row.",
+      "position_informed_calibration": false
+    },
+    "lunar_rev9": {
+      "get_seconds": 308454,
+      "get_hms": "85:40:54",
+      "label": "Lunar Revolution 9",
+      "position_error_m": 74405.83469058896,
+      "position_delta_m": [
+        14045.199125289917,
+        52186.566665649414,
+        -51142.18295288086
+      ],
+      "velocity_error_mps": 39.2540454135998,
+      "velocity_delta_mps": [
+        -11.664584345046023,
+        -7.689250322591306,
+        -36.6836882396903
+      ],
+      "interpolation_interval_s": 60.0,
+      "center": "Moon",
+      "source": "Trajectory Reconstruction Supplement 1, Appendix A, A-18 (PDF 46), TRW postflight row.",
+      "position_informed_calibration": false
+    },
+    "lunar_rev10": {
+      "get_seconds": 315564,
+      "get_hms": "87:39:24",
+      "label": "Lunar Revolution 10",
+      "position_error_m": 77646.93951031835,
+      "position_delta_m": [
+        22170.591188430786,
+        54124.33708190918,
+        -51069.24942779541
+      ],
+      "velocity_error_mps": 45.60847424193855,
+      "velocity_delta_mps": [
+        -10.70415864824463,
+        -13.786908845406515,
+        -42.136386351931435
+      ],
+      "interpolation_interval_s": 60.0,
+      "center": "Moon",
+      "source": "Trajectory Reconstruction Supplement 1, Appendix A, A-19 (PDF 47), TRW postflight row.",
+      "position_informed_calibration": true
+    },
+    "post_transearth_injection_update": {
+      "get_seconds": 323256,
+      "get_hms": "89:47:36",
+      "label": "After TEI",
+      "position_error_m": 46237.659350042726,
+      "position_delta_m": [
+        23011.017337799072,
+        40078.008224487305,
+        -1472.2363967895508
+      ],
+      "velocity_error_mps": 7.662807273102279,
+      "velocity_delta_mps": [
+        -4.192767443069897,
+        -4.3805253575096685,
+        -4.6851162275078195
+      ],
+      "interpolation_interval_s": 60.0,
+      "center": "Moon",
+      "source": "Trajectory Reconstruction Supplement 1, Appendix A, A-20 (PDF 48), TRW postflight row.",
+      "position_informed_calibration": false
+    },
+    "post_third_midcourse_nav_update": {
+      "get_seconds": 374784,
+      "get_hms": "104:06:24",
+      "label": "After MC3",
+      "position_error_m": 1201.0872829624561,
+      "position_delta_m": [
+        -144.31286430358887,
+        -1174.6432647705078,
+        204.9333038330078
+      ],
+      "velocity_error_mps": 0.5173687216295509,
+      "velocity_delta_mps": [
+        0.07729407401347999,
+        -0.44943745812906855,
+        -0.2443399097026031
+      ],
+      "interpolation_interval_s": 60.0,
+      "center": "Earth",
+      "source": "Trajectory Reconstruction Supplement 1, Appendix A, A-21 (PDF 49), TRW postflight row.",
+      "position_informed_calibration": true
+    },
+    "return_update_129h": {
+      "get_seconds": 465924,
+      "get_hms": "129:25:24",
+      "label": "Return (129 h)",
+      "position_error_m": 45634.05853046521,
+      "position_delta_m": [
+        9087.192613601685,
+        -35780.94970703125,
+        -26825.619590759277
+      ],
+      "velocity_error_mps": 0.48371546224316264,
+      "velocity_delta_mps": [
+        0.17711563544435194,
+        -0.3258604383445345,
+        -0.31052483767996364
+      ],
+      "interpolation_interval_s": 60.0,
+      "center": "Earth",
+      "source": "Trajectory Reconstruction Supplement 1, Appendix A, A-22 (PDF 50), TRW postflight row.",
+      "position_informed_calibration": false
+    },
+    "return_update_131h": {
+      "get_seconds": 473082,
+      "get_hms": "131:24:42",
+      "label": "Return (131 h)",
+      "position_error_m": 48914.9315684352,
+      "position_delta_m": [
+        10211.946338653564,
+        -38047.64025878906,
+        -28995.92649078369
+      ],
+      "velocity_error_mps": 0.456716278743169,
+      "velocity_delta_mps": [
+        0.16685310115281027,
+        -0.3062236184241556,
+        -0.2949184589406286
+      ],
+      "interpolation_interval_s": 60.0,
+      "center": "Earth",
+      "source": "Trajectory Reconstruction Supplement 1, Appendix A, A-23 (PDF 51), TRW postflight row.",
+      "position_informed_calibration": false
+    }
+  },
+  "table_comparisons": [
+    {
+      "event_id": "first_midcourse_ignition",
+      "get_seconds": 39599.5,
+      "position_error_m": 14002.549886404837,
+      "radius_error_m": 230.59655965864658,
+      "speed_error_mps": -0.2604070399634111,
+      "flight_path_angle_error_deg": 0.04633121338304136,
+      "interpolation_interval_s": 0.0,
+      "note": "Rounded report coordinates. Lunar Cartesian velocity reconstructed from heading is excluded; use radius, speed and flight-path angle. Epoch is the table epoch, which may differ from the detailed actual firing schedule."
+    },
+    {
+      "event_id": "first_midcourse_cutoff",
+      "get_seconds": 39601.9,
+      "position_error_m": 11220.771130281852,
+      "radius_error_m": -135.72378008067608,
+      "speed_error_mps": 0.010475184519236791,
+      "flight_path_angle_error_deg": 0.002459832828179742,
+      "interpolation_interval_s": 0.0,
+      "note": "Rounded report coordinates. Lunar Cartesian velocity reconstructed from heading is excluded; use radius, speed and flight-path angle. Epoch is the table epoch, which may differ from the detailed actual firing schedule."
+    },
+    {
+      "event_id": "second_midcourse_ignition",
+      "get_seconds": 219595.0,
+      "position_error_m": 23617.838174006487,
+      "radius_error_m": 9682.217162929475,
+      "speed_error_mps": -0.1101696553560032,
+      "flight_path_angle_error_deg": -0.0208889101581633,
+      "interpolation_interval_s": 0.0,
+      "note": "Rounded report coordinates. Lunar Cartesian velocity reconstructed from heading is excluded; use radius, speed and flight-path angle. Epoch is the table epoch, which may differ from the detailed actual firing schedule."
+    },
+    {
+      "event_id": "second_midcourse_cutoff",
+      "get_seconds": 219607.8,
+      "position_error_m": 25503.184183219775,
+      "radius_error_m": 3571.047409147024,
+      "speed_error_mps": -0.06297910276816765,
+      "flight_path_angle_error_deg": -0.017262962488615585,
+      "interpolation_interval_s": 0.0,
+      "note": "Rounded report coordinates. Lunar Cartesian velocity reconstructed from heading is excluded; use radius, speed and flight-path angle. Epoch is the table epoch, which may differ from the detailed actual firing schedule."
+    },
+    {
+      "event_id": "lunar_orbit_insertion_ignition",
+      "get_seconds": 248900.4,
+      "position_error_m": 17819.109740401804,
+      "radius_error_m": -11946.47050756216,
+      "speed_error_mps": 6.802141219397527,
+      "flight_path_angle_error_deg": 0.18913598474786486,
+      "interpolation_interval_s": 0.0,
+      "note": "Rounded report coordinates. Lunar Cartesian velocity reconstructed from heading is excluded; use radius, speed and flight-path angle. Epoch is the table epoch, which may differ from the detailed actual firing schedule."
+    },
+    {
+      "event_id": "lunar_orbit_insertion_cutoff",
+      "get_seconds": 249147.3,
+      "position_error_m": 25241.756594507937,
+      "radius_error_m": -13019.665045805508,
+      "speed_error_mps": 15.051107334929611,
+      "flight_path_angle_error_deg": -0.323645178973172,
+      "interpolation_interval_s": 0.0,
+      "note": "Rounded report coordinates. Lunar Cartesian velocity reconstructed from heading is excluded; use radius, speed and flight-path angle. Epoch is the table epoch, which may differ from the detailed actual firing schedule."
+    },
+    {
+      "event_id": "lunar_orbit_circularization_ignition",
+      "get_seconds": 264907.0,
+      "position_error_m": 39844.170492162404,
+      "radius_error_m": -14403.534912256757,
+      "speed_error_mps": 12.452081659688929,
+      "flight_path_angle_error_deg": -0.2086147224804003,
+      "interpolation_interval_s": 0.0,
+      "note": "Rounded report coordinates. Lunar Cartesian velocity reconstructed from heading is excluded; use radius, speed and flight-path angle. Epoch is the table epoch, which may differ from the detailed actual firing schedule."
+    },
+    {
+      "event_id": "lunar_orbit_circularization_cutoff",
+      "get_seconds": 264916.0,
+      "position_error_m": 40944.39120243236,
+      "radius_error_m": -17031.913798108697,
+      "speed_error_mps": 15.131930635169283,
+      "flight_path_angle_error_deg": -0.018595250230278585,
+      "interpolation_interval_s": 0.0,
+      "note": "Rounded report coordinates. Lunar Cartesian velocity reconstructed from heading is excluded; use radius, speed and flight-path angle. Epoch is the table epoch, which may differ from the detailed actual firing schedule."
+    },
+    {
+      "event_id": "transearth_injection_ignition",
+      "get_seconds": 321556.6,
+      "position_error_m": 37154.79458976262,
+      "radius_error_m": -14054.651211117394,
+      "speed_error_mps": 14.4694687809274,
+      "flight_path_angle_error_deg": -0.21165822741045345,
+      "interpolation_interval_s": 0.0,
+      "note": "Rounded report coordinates. Lunar Cartesian velocity reconstructed from heading is excluded; use radius, speed and flight-path angle. Epoch is the table epoch, which may differ from the detailed actual firing schedule."
+    },
+    {
+      "event_id": "transearth_injection_cutoff",
+      "get_seconds": 321760.3,
+      "position_error_m": 64989.64324652577,
+      "radius_error_m": -19607.355152511736,
+      "speed_error_mps": 10.908187688120961,
+      "flight_path_angle_error_deg": -1.1026477444395866,
+      "interpolation_interval_s": 0.0,
+      "note": "Rounded report coordinates. Lunar Cartesian velocity reconstructed from heading is excluded; use radius, speed and flight-path angle. Epoch is the table epoch, which may differ from the detailed actual firing schedule."
+    },
+    {
+      "event_id": "third_midcourse_ignition",
+      "get_seconds": 374394.0,
+      "position_error_m": 59910.100592550334,
+      "radius_error_m": 1716.8655157089233,
+      "speed_error_mps": 0.06323894477668546,
+      "flight_path_angle_error_deg": 0.02724431091873214,
+      "interpolation_interval_s": 0.0,
+      "note": "Rounded report coordinates. Lunar Cartesian velocity reconstructed from heading is excluded; use radius, speed and flight-path angle. Epoch is the table epoch, which may differ from the detailed actual firing schedule."
+    },
+    {
+      "event_id": "third_midcourse_cutoff",
+      "get_seconds": 374408.0,
+      "position_error_m": 49813.49854631917,
+      "radius_error_m": 1213.9053179621696,
+      "speed_error_mps": 0.14229111284475948,
+      "flight_path_angle_error_deg": 0.008640899460942819,
+      "interpolation_interval_s": 0.0,
+      "note": "Rounded report coordinates. Lunar Cartesian velocity reconstructed from heading is excluded; use radius, speed and flight-path angle. Epoch is the table epoch, which may differ from the detailed actual firing schedule."
+    }
+  ],
+  "lunar_orbits": {
+    "06": {
+      "radius_m": 1839204.3349541945,
+      "altitude_m": 101804.33495419449,
+      "speed_mps": 1678.6495073349297,
+      "flight_path_angle_deg": -1.113645178973172,
+      "semimajor_axis_m": 1950531.120979001,
+      "eccentricity": 0.06028332083685985,
+      "periapsis_altitude_m": 95546.62761074398,
+      "apoapsis_altitude_m": 330715.6143472581,
+      "period_s": 7730.135386885684
+    },
+    "08": {
+      "radius_m": 1832783.4683726716,
+      "altitude_m": 95383.46837267163,
+      "speed_mps": 1643.4334894556096,
+      "flight_path_angle_deg": -0.0341787318635639,
+      "semimajor_axis_m": 1850643.8451410984,
+      "eccentricity": 0.009669315764374733,
+      "periapsis_altitude_m": 95349.38543503266,
+      "apoapsis_altitude_m": 131138.3048471643,
+      "period_s": 7144.009858217317
+    },
+    "09": {
+      "radius_m": 1835488.3789263975,
+      "altitude_m": 98088.37892639753,
+      "speed_mps": 1641.0804025195812,
+      "flight_path_angle_deg": -0.3909343139961152,
+      "semimajor_axis_m": 1850752.5288844232,
+      "eccentricity": 0.010703856659370485,
+      "periapsis_altitude_m": 93542.33910327684,
+      "apoapsis_altitude_m": 133162.71866556956,
+      "period_s": 7144.639192544855
+    }
+  },
+  "separation_earth_state": {
+    "radius_m": 10798079.26104383,
+    "altitude_m": 4419942.66104383,
+    "speed_mps": 8542.641571881466,
+    "flight_path_angle_deg": -39.53876688795405,
+    "semimajor_axis_m": 468225319.30333275,
+    "eccentricity": 0.9863492524571285,
+    "periapsis_altitude_m": 13489.026990214363,
+    "apoapsis_altitude_m": 923680876.3796753,
+    "period_s": 3188550.6905669784
+  },
+  "runner_sha256": "bb682d5eace254cbe4d8a140cf8015c379e8f1d2d351558f04a2670ad1b4fac7",
+  "historical_reference_catalog": "expected/historical_states.json"
+}

@@ -1,0 +1,6789 @@
+{
+  "run_count": 77,
+  "rows": 33393,
+  "numeric_cells": 6151739,
+  "absolute_et_collisions": 3,
+  "checks_passed": 817,
+  "checks_failed": 12,
+  "integrity": [
+    {
+      "scenario": "Cases/04_EarthOrbit/scenarios/04a_four_wheel_recovery.tgscn",
+      "repeat": false,
+      "rows": 11854,
+      "columns": 211,
+      "solution": "Cases/04_EarthOrbit/results/04a_four_wheel_recovery/04a_four_wheel_recovery_solution.csv",
+      "solution_sha256": "c8f7b74d7c61420175a4e768bbb26e42f2b7e04fc5fabb21b725d067a4e28d6d",
+      "absolute_et_collisions": 0,
+      "final_elapsed_seconds": 5926.378615548634,
+      "expected_duration_seconds": 5926.378615548634,
+      "maximum_quaternion_norm_error": 2.220446049250313e-16
+    },
+    {
+      "scenario": "Cases/04_EarthOrbit/scenarios/04b_thruster_recovery.tgscn",
+      "repeat": false,
+      "rows": 11854,
+      "columns": 219,
+      "solution": "Cases/04_EarthOrbit/results/04b_thruster_recovery/04b_thruster_recovery_solution.csv",
+      "solution_sha256": "438193743c5aa2d56762600444deb607bd4294edb81d0806d22b94099be1ef33",
+      "absolute_et_collisions": 0,
+      "final_elapsed_seconds": 5926.378615548634,
+      "expected_duration_seconds": 5926.378615548634,
+      "maximum_quaternion_norm_error": 2.220446049250313e-16
+    },
+    {
+      "scenario": "Cases/01-03_CoreVerification/cases/02_actuated_multibody/02a_revolute/revolute_reaction.tgscn",
+      "repeat": false,
+      "rows": 11,
+      "columns": 113,
+      "solution": "Cases/01-03_CoreVerification/cases/02_actuated_multibody/02a_revolute/results/revolute_reaction_solution.csv",
+      "solution_sha256": "728a03f1752c2b529799395c0541ed7cf51409e95df35e93824568e77f606fa8",
+      "absolute_et_collisions": 0,
+      "final_elapsed_seconds": 0.1,
+      "expected_duration_seconds": 0.1,
+      "maximum_quaternion_norm_error": 0.0
+    },
+    {
+      "scenario": "Cases/01-03_CoreVerification/cases/02_actuated_multibody/02b_prismatic/prismatic_reaction.tgscn",
+      "repeat": false,
+      "rows": 11,
+      "columns": 113,
+      "solution": "Cases/01-03_CoreVerification/cases/02_actuated_multibody/02b_prismatic/results/prismatic_reaction_solution.csv",
+      "solution_sha256": "8c57708bd3e373b3909059df832a252d1dda6a74c9876c6b27d76d5548624b98",
+      "absolute_et_collisions": 0,
+      "final_elapsed_seconds": 0.1,
+      "expected_duration_seconds": 0.1,
+      "maximum_quaternion_norm_error": 0.0
+    },
+    {
+      "scenario": "Cases/01-03_CoreVerification/cases/02_actuated_multibody/02c_coordinate_stop/coordinate_stop.tgscn",
+      "repeat": false,
+      "rows": 11,
+      "columns": 113,
+      "solution": "Cases/01-03_CoreVerification/cases/02_actuated_multibody/02c_coordinate_stop/results/coordinate_stop_solution.csv",
+      "solution_sha256": "193fa39144653fbc99aba7eb0e481860519d8bb6efc30d5029db90390d3c59b7",
+      "absolute_et_collisions": 0,
+      "final_elapsed_seconds": 0.1,
+      "expected_duration_seconds": 0.1,
+      "maximum_quaternion_norm_error": 0.0
+    },
+    {
+      "scenario": "Cases/01-03_CoreVerification/cases/02_actuated_multibody/02d_nested_tree/nested_tree.tgscn",
+      "repeat": false,
+      "rows": 1001,
+      "columns": 129,
+      "solution": "Cases/01-03_CoreVerification/cases/02_actuated_multibody/02d_nested_tree/results/nested_tree_solution.csv",
+      "solution_sha256": "7cbe6a5c0bba8dbd4ceede5d589d50d35b1105e552fcd3b76365a95f93478a30",
+      "absolute_et_collisions": 0,
+      "final_elapsed_seconds": 10.0,
+      "expected_duration_seconds": 10.0,
+      "maximum_quaternion_norm_error": 2.220446049250313e-16
+    },
+    {
+      "scenario": "Cases/01-03_CoreVerification/cases/02_actuated_multibody/02e_reaction_wheel/reaction_wheel.tgscn",
+      "repeat": false,
+      "rows": 301,
+      "columns": 98,
+      "solution": "Cases/01-03_CoreVerification/cases/02_actuated_multibody/02e_reaction_wheel/results/reaction_wheel_solution.csv",
+      "solution_sha256": "e0945554f62a9bc87fd637279b9560a6f52d4cf1c178b296ac24a39e5b9334cc",
+      "absolute_et_collisions": 0,
+      "final_elapsed_seconds": 30.0,
+      "expected_duration_seconds": 30.0,
+      "maximum_quaternion_norm_error": 1.1102230246251565e-16
+    },
+    {
+      "scenario": "Cases/01-03_CoreVerification/cases/02_actuated_multibody/02e_reaction_wheel/reaction_wheel.tgscn",
+      "repeat": true,
+      "rows": 301,
+      "columns": 98,
+      "solution": "Cases/01-03_CoreVerification/diagnostics/reaction_wheel_output_boundary/results/reaction_wheel_solution.csv",
+      "solution_sha256": "e0945554f62a9bc87fd637279b9560a6f52d4cf1c178b296ac24a39e5b9334cc",
+      "absolute_et_collisions": 0,
+      "final_elapsed_seconds": 30.0,
+      "expected_duration_seconds": 30.0,
+      "maximum_quaternion_norm_error": 1.1102230246251565e-16
+    },
+    {
+      "scenario": "Cases/01-03_CoreVerification/cases/02_actuated_multibody/02f_commanded_thrust/commanded_thrust.tgscn",
+      "repeat": false,
+      "rows": 151,
+      "columns": 111,
+      "solution": "Cases/01-03_CoreVerification/cases/02_actuated_multibody/02f_commanded_thrust/results/commanded_thrust_solution.csv",
+      "solution_sha256": "f2619f033a3f3628a9b43712f23fd7416a87a539e65cfdf65cb546a9230c1857",
+      "absolute_et_collisions": 0,
+      "final_elapsed_seconds": 15.0,
+      "expected_duration_seconds": 15.0,
+      "maximum_quaternion_norm_error": 1.1102230246251565e-16
+    },
+    {
+      "scenario": "Cases/01-03_CoreVerification/cases/02_actuated_multibody/02g_direct_torque/direct_torque.tgscn",
+      "repeat": false,
+      "rows": 201,
+      "columns": 97,
+      "solution": "Cases/01-03_CoreVerification/cases/02_actuated_multibody/02g_direct_torque/results/direct_torque_solution.csv",
+      "solution_sha256": "ba7fd6084dada57b2bd2a73177fee9a0d1201ba3f243430d4cc5acb5a8f5f287",
+      "absolute_et_collisions": 0,
+      "final_elapsed_seconds": 2.0,
+      "expected_duration_seconds": 2.0,
+      "maximum_quaternion_norm_error": 1.1102230246251565e-16
+    },
+    {
+      "scenario": "Cases/01-03_CoreVerification/cases/02_actuated_multibody/02h_prescribed_thrust/prescribed_thrust.tgscn",
+      "repeat": false,
+      "rows": 301,
+      "columns": 111,
+      "solution": "Cases/01-03_CoreVerification/cases/02_actuated_multibody/02h_prescribed_thrust/results/prescribed_thrust_solution.csv",
+      "solution_sha256": "083214df7bbccc4edeb3d18159485ac999ee3763f11d99575d136b61543b16ba",
+      "absolute_et_collisions": 0,
+      "final_elapsed_seconds": 3.0,
+      "expected_duration_seconds": 3.0,
+      "maximum_quaternion_norm_error": 0.0
+    },
+    {
+      "scenario": "Cases/01-03_CoreVerification/cases/03_srp_rarefied_aero/03a_srp_one_au/srp_one_au.tgscn",
+      "repeat": false,
+      "rows": 11,
+      "columns": 113,
+      "solution": "Cases/01-03_CoreVerification/cases/03_srp_rarefied_aero/03a_srp_one_au/results/srp_one_au_solution.csv",
+      "solution_sha256": "c67914f9b5dc2565acf05a34f84a0ed29a02ecd23e518fe49de7780804f58417",
+      "absolute_et_collisions": 0,
+      "final_elapsed_seconds": 1.0,
+      "expected_duration_seconds": 1.0,
+      "maximum_quaternion_norm_error": 0.0
+    },
+    {
+      "scenario": "Cases/01-03_CoreVerification/cases/03_srp_rarefied_aero/03b_earth_umbra_off/earth_umbra_off.tgscn",
+      "repeat": false,
+      "rows": 11,
+      "columns": 145,
+      "solution": "Cases/01-03_CoreVerification/cases/03_srp_rarefied_aero/03b_earth_umbra_off/results/earth_umbra_off_solution.csv",
+      "solution_sha256": "efaba49108a1d2a067542e39a1e157eba410da270e376f5fe49910e16b4f25a8",
+      "absolute_et_collisions": 0,
+      "final_elapsed_seconds": 1.0,
+      "expected_duration_seconds": 1.0,
+      "maximum_quaternion_norm_error": 0.0
+    },
+    {
+      "scenario": "Cases/01-03_CoreVerification/cases/03_srp_rarefied_aero/03b_earth_umbra_on/earth_umbra_on.tgscn",
+      "repeat": false,
+      "rows": 11,
+      "columns": 145,
+      "solution": "Cases/01-03_CoreVerification/cases/03_srp_rarefied_aero/03b_earth_umbra_on/results/earth_umbra_on_solution.csv",
+      "solution_sha256": "144283cdee0f99368488f6864fc6b614439440d819e7ad2ab1c42bb1eceea854",
+      "absolute_et_collisions": 0,
+      "final_elapsed_seconds": 1.0,
+      "expected_duration_seconds": 1.0,
+      "maximum_quaternion_norm_error": 0.0
+    },
+    {
+      "scenario": "Cases/01-03_CoreVerification/cases/03_srp_rarefied_aero/03c_component_shadow_off/component_shadow_off.tgscn",
+      "repeat": false,
+      "rows": 11,
+      "columns": 125,
+      "solution": "Cases/01-03_CoreVerification/cases/03_srp_rarefied_aero/03c_component_shadow_off/results/component_shadow_off_solution.csv",
+      "solution_sha256": "fea904bf6773dabc6154f9b4644da2159f597bdd4b317a1b27e9bd1940d4e428",
+      "absolute_et_collisions": 0,
+      "final_elapsed_seconds": 1.0,
+      "expected_duration_seconds": 1.0,
+      "maximum_quaternion_norm_error": 0.0
+    },
+    {
+      "scenario": "Cases/01-03_CoreVerification/cases/03_srp_rarefied_aero/03c_component_shadow_on/component_shadow_on.tgscn",
+      "repeat": false,
+      "rows": 11,
+      "columns": 125,
+      "solution": "Cases/01-03_CoreVerification/cases/03_srp_rarefied_aero/03c_component_shadow_on/results/component_shadow_on_solution.csv",
+      "solution_sha256": "1960d4881a308b9a99b60c695aec7541164c4316b558fc5302e7df55336827c9",
+      "absolute_et_collisions": 0,
+      "final_elapsed_seconds": 1.0,
+      "expected_duration_seconds": 1.0,
+      "maximum_quaternion_norm_error": 0.0
+    },
+    {
+      "scenario": "Cases/01-03_CoreVerification/cases/03_srp_rarefied_aero/03d_rarefied_fallback/rarefied_fallback.tgscn",
+      "repeat": false,
+      "rows": 101,
+      "columns": 145,
+      "solution": "Cases/01-03_CoreVerification/cases/03_srp_rarefied_aero/03d_rarefied_fallback/results/rarefied_fallback_solution.csv",
+      "solution_sha256": "b89e24021540d9b6e636be2f20888f0e130d9f4e6152eb32b84bd768e8eef6e6",
+      "absolute_et_collisions": 0,
+      "final_elapsed_seconds": 1.0,
+      "expected_duration_seconds": 1.0,
+      "maximum_quaternion_norm_error": 0.0
+    },
+    {
+      "scenario": "Cases/01-03_CoreVerification/cases/03_srp_rarefied_aero/03e_aero_database/aero_database.tgscn",
+      "repeat": false,
+      "rows": 101,
+      "columns": 145,
+      "solution": "Cases/01-03_CoreVerification/cases/03_srp_rarefied_aero/03e_aero_database/results/aero_database_solution.csv",
+      "solution_sha256": "63d1f03d252a7c70ec1b373fa29a644f87d0ed009ac0845fd216fc1422f06930",
+      "absolute_et_collisions": 0,
+      "final_elapsed_seconds": 1.0,
+      "expected_duration_seconds": 1.0,
+      "maximum_quaternion_norm_error": 2.220446049250313e-16
+    },
+    {
+      "scenario": "Cases/01-03_CoreVerification/cases/03_srp_rarefied_aero/03f_articulated_aero_database/articulated_aero_database.tgscn",
+      "repeat": false,
+      "rows": 2,
+      "columns": 193,
+      "solution": "Cases/01-03_CoreVerification/cases/03_srp_rarefied_aero/03f_articulated_aero_database/results/articulated_aero_database_solution.csv",
+      "solution_sha256": "1b21c8075a294c03f5ab9ee5dab51dc34ba57a5150a3ecd9c529c9613ce69c77",
+      "absolute_et_collisions": 0,
+      "final_elapsed_seconds": 0.001,
+      "expected_duration_seconds": 0.001,
+      "maximum_quaternion_norm_error": 0.0
+    },
+    {
+      "scenario": "Cases/01-03_CoreVerification/cases/additional_features/cm_constant_dp54/cm_constant_dp54.tgscn",
+      "repeat": false,
+      "rows": 201,
+      "columns": 111,
+      "solution": "Cases/01-03_CoreVerification/cases/additional_features/cm_constant_dp54/results/cm_constant_dp54_solution.csv",
+      "solution_sha256": "c235f528bce5e6f6fe2fe7798370de365409bfc2567e083c3abe8397d056dc25",
+      "absolute_et_collisions": 0,
+      "final_elapsed_seconds": 2.0,
+      "expected_duration_seconds": 2.0,
+      "maximum_quaternion_norm_error": 0.0
+    },
+    {
+      "scenario": "Cases/01-03_CoreVerification/cases/additional_features/cm_constant_rk4/cm_constant_rk4.tgscn",
+      "repeat": false,
+      "rows": 201,
+      "columns": 111,
+      "solution": "Cases/01-03_CoreVerification/cases/additional_features/cm_constant_rk4/results/cm_constant_rk4_solution.csv",
+      "solution_sha256": "5ba44abe316f9fed7ce1f26031ae703f1fc52a2e3a48f1793ebf1bbd8110c325",
+      "absolute_et_collisions": 0,
+      "final_elapsed_seconds": 2.0,
+      "expected_duration_seconds": 2.0,
+      "maximum_quaternion_norm_error": 0.0
+    },
+    {
+      "scenario": "Cases/01-03_CoreVerification/cases/additional_features/cm_negative_dp54/cm_negative_dp54.tgscn",
+      "repeat": false,
+      "rows": 201,
+      "columns": 111,
+      "solution": "Cases/01-03_CoreVerification/cases/additional_features/cm_negative_dp54/results/cm_negative_dp54_solution.csv",
+      "solution_sha256": "8b5401c93daee8a395d621edd6c6b1f6c5d182a003640db1feb8eae48f3b6b87",
+      "absolute_et_collisions": 0,
+      "final_elapsed_seconds": 2.0,
+      "expected_duration_seconds": 2.0,
+      "maximum_quaternion_norm_error": 0.0
+    },
+    {
+      "scenario": "Cases/01-03_CoreVerification/cases/additional_features/cm_negative_rk4/cm_negative_rk4.tgscn",
+      "repeat": false,
+      "rows": 201,
+      "columns": 111,
+      "solution": "Cases/01-03_CoreVerification/cases/additional_features/cm_negative_rk4/results/cm_negative_rk4_solution.csv",
+      "solution_sha256": "48eed9f701022433ab7d3ead0b21b8254ed482c07f7cdb2cd249450f44ec3961",
+      "absolute_et_collisions": 0,
+      "final_elapsed_seconds": 2.0,
+      "expected_duration_seconds": 2.0,
+      "maximum_quaternion_norm_error": 0.0
+    },
+    {
+      "scenario": "Cases/01-03_CoreVerification/cases/additional_features/cm_omitted_dp54/cm_omitted_dp54.tgscn",
+      "repeat": false,
+      "rows": 201,
+      "columns": 111,
+      "solution": "Cases/01-03_CoreVerification/cases/additional_features/cm_omitted_dp54/results/cm_omitted_dp54_solution.csv",
+      "solution_sha256": "43a8e592d5b7197343524516114cfbca164e7892d3284e9dd3b960f645902e35",
+      "absolute_et_collisions": 0,
+      "final_elapsed_seconds": 2.0,
+      "expected_duration_seconds": 2.0,
+      "maximum_quaternion_norm_error": 0.0
+    },
+    {
+      "scenario": "Cases/01-03_CoreVerification/cases/additional_features/cm_omitted_rk4/cm_omitted_rk4.tgscn",
+      "repeat": false,
+      "rows": 201,
+      "columns": 111,
+      "solution": "Cases/01-03_CoreVerification/cases/additional_features/cm_omitted_rk4/results/cm_omitted_rk4_solution.csv",
+      "solution_sha256": "58a2b3172e332c58e3e4e54bf67341f659e6f412601e7ee1038199f80cf7fe14",
+      "absolute_et_collisions": 0,
+      "final_elapsed_seconds": 2.0,
+      "expected_duration_seconds": 2.0,
+      "maximum_quaternion_norm_error": 0.0
+    },
+    {
+      "scenario": "Cases/01-03_CoreVerification/cases/additional_features/cm_positive_dp54/cm_positive_dp54.tgscn",
+      "repeat": false,
+      "rows": 201,
+      "columns": 111,
+      "solution": "Cases/01-03_CoreVerification/cases/additional_features/cm_positive_dp54/results/cm_positive_dp54_solution.csv",
+      "solution_sha256": "d20cfeae9beec0a20d3ce57114c371f4633804361051177a4c13c68816229a87",
+      "absolute_et_collisions": 0,
+      "final_elapsed_seconds": 2.0,
+      "expected_duration_seconds": 2.0,
+      "maximum_quaternion_norm_error": 0.0
+    },
+    {
+      "scenario": "Cases/01-03_CoreVerification/cases/additional_features/cm_positive_rk4/cm_positive_rk4.tgscn",
+      "repeat": false,
+      "rows": 201,
+      "columns": 111,
+      "solution": "Cases/01-03_CoreVerification/cases/additional_features/cm_positive_rk4/results/cm_positive_rk4_solution.csv",
+      "solution_sha256": "2849faa50fa47bb43417c6f29fa206a474f1fa25f6b031ba681fec99cc321341",
+      "absolute_et_collisions": 0,
+      "final_elapsed_seconds": 2.0,
+      "expected_duration_seconds": 2.0,
+      "maximum_quaternion_norm_error": 0.0
+    },
+    {
+      "scenario": "Cases/01-03_CoreVerification/cases/additional_features/cm_prescribed_dp54/cm_prescribed_dp54.tgscn",
+      "repeat": false,
+      "rows": 201,
+      "columns": 111,
+      "solution": "Cases/01-03_CoreVerification/cases/additional_features/cm_prescribed_dp54/results/cm_prescribed_dp54_solution.csv",
+      "solution_sha256": "834ebe0885cc8b6db47dc2da8045a2e9f3f8ada80dbe769b7b47cefb70406800",
+      "absolute_et_collisions": 0,
+      "final_elapsed_seconds": 2.0,
+      "expected_duration_seconds": 2.0,
+      "maximum_quaternion_norm_error": 0.0
+    },
+    {
+      "scenario": "Cases/01-03_CoreVerification/cases/additional_features/cm_prescribed_rk4/cm_prescribed_rk4.tgscn",
+      "repeat": false,
+      "rows": 201,
+      "columns": 111,
+      "solution": "Cases/01-03_CoreVerification/cases/additional_features/cm_prescribed_rk4/results/cm_prescribed_rk4_solution.csv",
+      "solution_sha256": "d71e208d677a60afd40562d9466988ada10f743476cd8e1ab809490bd800abe4",
+      "absolute_et_collisions": 0,
+      "final_elapsed_seconds": 2.0,
+      "expected_duration_seconds": 2.0,
+      "maximum_quaternion_norm_error": 0.0
+    },
+    {
+      "scenario": "Cases/01-03_CoreVerification/cases/additional_features/cm_shared_dp54/cm_shared_dp54.tgscn",
+      "repeat": false,
+      "rows": 201,
+      "columns": 112,
+      "solution": "Cases/01-03_CoreVerification/cases/additional_features/cm_shared_dp54/results/cm_shared_dp54_solution.csv",
+      "solution_sha256": "17ebe05a68f4bc0db0c050141e6cff52c2f4cc5a39ed66458f2b4d49eafb113c",
+      "absolute_et_collisions": 0,
+      "final_elapsed_seconds": 2.0,
+      "expected_duration_seconds": 2.0,
+      "maximum_quaternion_norm_error": 0.0
+    },
+    {
+      "scenario": "Cases/01-03_CoreVerification/cases/additional_features/cm_shared_rk4/cm_shared_rk4.tgscn",
+      "repeat": false,
+      "rows": 201,
+      "columns": 112,
+      "solution": "Cases/01-03_CoreVerification/cases/additional_features/cm_shared_rk4/results/cm_shared_rk4_solution.csv",
+      "solution_sha256": "1ea07594bc8a9760f83c59a6200bc5812f7f571c11bec833f6ebce1d584cf643",
+      "absolute_et_collisions": 0,
+      "final_elapsed_seconds": 2.0,
+      "expected_duration_seconds": 2.0,
+      "maximum_quaternion_norm_error": 0.0
+    },
+    {
+      "scenario": "Cases/01-03_CoreVerification/cases/additional_features/cm_variable_isp_dp54/cm_variable_isp_dp54.tgscn",
+      "repeat": false,
+      "rows": 201,
+      "columns": 111,
+      "solution": "Cases/01-03_CoreVerification/cases/additional_features/cm_variable_isp_dp54/results/cm_variable_isp_dp54_solution.csv",
+      "solution_sha256": "d3b8e5d6fb029c33da4a5e82f027f0124499b3583d095c0ba15c23c3de04bcaa",
+      "absolute_et_collisions": 0,
+      "final_elapsed_seconds": 2.0,
+      "expected_duration_seconds": 2.0,
+      "maximum_quaternion_norm_error": 0.0
+    },
+    {
+      "scenario": "Cases/01-03_CoreVerification/cases/additional_features/cm_variable_isp_rk4/cm_variable_isp_rk4.tgscn",
+      "repeat": false,
+      "rows": 201,
+      "columns": 111,
+      "solution": "Cases/01-03_CoreVerification/cases/additional_features/cm_variable_isp_rk4/results/cm_variable_isp_rk4_solution.csv",
+      "solution_sha256": "a47d7dfc52adaddcc4afe503653bcfb172c6734478d34920ee2d0f44412a9a7b",
+      "absolute_et_collisions": 0,
+      "final_elapsed_seconds": 2.0,
+      "expected_duration_seconds": 2.0,
+      "maximum_quaternion_norm_error": 0.0
+    },
+    {
+      "scenario": "Cases/01-03_CoreVerification/cases/additional_features/cm_zero_start_dp54/cm_zero_start_dp54.tgscn",
+      "repeat": false,
+      "rows": 201,
+      "columns": 111,
+      "solution": "Cases/01-03_CoreVerification/cases/additional_features/cm_zero_start_dp54/results/cm_zero_start_dp54_solution.csv",
+      "solution_sha256": "9a4f98e20057d8b360cc7ecc48667833711cb59e7ffaf4f7a99d09614fd46bf2",
+      "absolute_et_collisions": 0,
+      "final_elapsed_seconds": 2.0,
+      "expected_duration_seconds": 2.0,
+      "maximum_quaternion_norm_error": 0.0
+    },
+    {
+      "scenario": "Cases/01-03_CoreVerification/cases/additional_features/cm_zero_start_rk4/cm_zero_start_rk4.tgscn",
+      "repeat": false,
+      "rows": 201,
+      "columns": 111,
+      "solution": "Cases/01-03_CoreVerification/cases/additional_features/cm_zero_start_rk4/results/cm_zero_start_rk4_solution.csv",
+      "solution_sha256": "a02d2cf69ed4f9e1da8854f20c0fb389e204e2707470d3006b70b1ee315f9023",
+      "absolute_et_collisions": 0,
+      "final_elapsed_seconds": 2.0,
+      "expected_duration_seconds": 2.0,
+      "maximum_quaternion_norm_error": 0.0
+    },
+    {
+      "scenario": "Cases/01-03_CoreVerification/cases/additional_features/stop_both_lock_dp54/stop_both_lock_dp54.tgscn",
+      "repeat": false,
+      "rows": 21,
+      "columns": 129,
+      "solution": "Cases/01-03_CoreVerification/cases/additional_features/stop_both_lock_dp54/results/stop_both_lock_dp54_solution.csv",
+      "solution_sha256": "abd658a82b6ef1afb8ad05605cca86b1f159a432b54cfe81ac546bc85c3b0394",
+      "absolute_et_collisions": 0,
+      "final_elapsed_seconds": 0.2,
+      "expected_duration_seconds": 0.2,
+      "maximum_quaternion_norm_error": 1.1102230246251565e-16
+    },
+    {
+      "scenario": "Cases/01-03_CoreVerification/cases/additional_features/stop_both_lock_rk4/stop_both_lock_rk4.tgscn",
+      "repeat": false,
+      "rows": 21,
+      "columns": 129,
+      "solution": "Cases/01-03_CoreVerification/cases/additional_features/stop_both_lock_rk4/results/stop_both_lock_rk4_solution.csv",
+      "solution_sha256": "f8eb81d8e6625a0f9a348083a13e2b2ed4a8261d3ffcc9a769aae5c51ca772f9",
+      "absolute_et_collisions": 0,
+      "final_elapsed_seconds": 0.2,
+      "expected_duration_seconds": 0.2,
+      "maximum_quaternion_norm_error": 0.0
+    },
+    {
+      "scenario": "Cases/01-03_CoreVerification/cases/additional_features/stop_near_dp54/stop_near_dp54.tgscn",
+      "repeat": false,
+      "rows": 21,
+      "columns": 129,
+      "solution": "Cases/01-03_CoreVerification/cases/additional_features/stop_near_dp54/results/stop_near_dp54_solution.csv",
+      "solution_sha256": "e19ebffe169a78e72e605ffe54b1fedde3f3a7c995d45f6bd40225afdd9d9ed8",
+      "absolute_et_collisions": 0,
+      "final_elapsed_seconds": 0.2,
+      "expected_duration_seconds": 0.2,
+      "maximum_quaternion_norm_error": 0.0
+    },
+    {
+      "scenario": "Cases/01-03_CoreVerification/cases/additional_features/stop_near_rk4/stop_near_rk4.tgscn",
+      "repeat": false,
+      "rows": 21,
+      "columns": 129,
+      "solution": "Cases/01-03_CoreVerification/cases/additional_features/stop_near_rk4/results/stop_near_rk4_solution.csv",
+      "solution_sha256": "5db5d948f38402e609d48a39c5d4c7eb2b81ca25b1511086b5a835c38137bc30",
+      "absolute_et_collisions": 0,
+      "final_elapsed_seconds": 0.2,
+      "expected_duration_seconds": 0.2,
+      "maximum_quaternion_norm_error": 0.0
+    },
+    {
+      "scenario": "Cases/01-03_CoreVerification/cases/additional_features/stop_release_dp54/stop_release_dp54.tgscn",
+      "repeat": false,
+      "rows": 21,
+      "columns": 129,
+      "solution": "Cases/01-03_CoreVerification/cases/additional_features/stop_release_dp54/results/stop_release_dp54_solution.csv",
+      "solution_sha256": "837ea1840f81e9b7484213aee646d93a39b1025d07127b9df469679a5d54cb3e",
+      "absolute_et_collisions": 0,
+      "final_elapsed_seconds": 0.2,
+      "expected_duration_seconds": 0.2,
+      "maximum_quaternion_norm_error": 0.0
+    },
+    {
+      "scenario": "Cases/01-03_CoreVerification/cases/additional_features/stop_release_rk4/stop_release_rk4.tgscn",
+      "repeat": false,
+      "rows": 21,
+      "columns": 129,
+      "solution": "Cases/01-03_CoreVerification/cases/additional_features/stop_release_rk4/results/stop_release_rk4_solution.csv",
+      "solution_sha256": "d55f3d6f0f8cd2eb8ab4894acd4c9e3ff2e57a91fb7aa8cd210d851d51b9e5cd",
+      "absolute_et_collisions": 0,
+      "final_elapsed_seconds": 0.2,
+      "expected_duration_seconds": 0.2,
+      "maximum_quaternion_norm_error": 0.0
+    },
+    {
+      "scenario": "Cases/01-03_CoreVerification/cases/additional_features/stop_resting_dp54/stop_resting_dp54.tgscn",
+      "repeat": false,
+      "rows": 21,
+      "columns": 129,
+      "solution": "Cases/01-03_CoreVerification/cases/additional_features/stop_resting_dp54/results/stop_resting_dp54_solution.csv",
+      "solution_sha256": "c850195bafeaf4db865bad0d22ac99055390ccbf3ae7b4b145f6b2ec123ee9a9",
+      "absolute_et_collisions": 0,
+      "final_elapsed_seconds": 0.2,
+      "expected_duration_seconds": 0.2,
+      "maximum_quaternion_norm_error": 0.0
+    },
+    {
+      "scenario": "Cases/01-03_CoreVerification/cases/additional_features/stop_resting_rk4/stop_resting_rk4.tgscn",
+      "repeat": false,
+      "rows": 21,
+      "columns": 129,
+      "solution": "Cases/01-03_CoreVerification/cases/additional_features/stop_resting_rk4/results/stop_resting_rk4_solution.csv",
+      "solution_sha256": "3432344c6f1764e2a32d6df5892bdbcb9ae3e9252b67a1bcb5a6f61784076d9e",
+      "absolute_et_collisions": 0,
+      "final_elapsed_seconds": 0.2,
+      "expected_duration_seconds": 0.2,
+      "maximum_quaternion_norm_error": 0.0
+    },
+    {
+      "scenario": "Cases/01-03_CoreVerification/cases/additional_features/stop_sequential_dp54/stop_sequential_dp54.tgscn",
+      "repeat": false,
+      "rows": 41,
+      "columns": 129,
+      "solution": "Cases/01-03_CoreVerification/cases/additional_features/stop_sequential_dp54/results/stop_sequential_dp54_solution.csv",
+      "solution_sha256": "0a5731b44a0ce7d46047380d6635ccb87f2ad683555b0f1d790477a53b1e3a31",
+      "absolute_et_collisions": 0,
+      "final_elapsed_seconds": 0.4,
+      "expected_duration_seconds": 0.4,
+      "maximum_quaternion_norm_error": 1.1102230246251565e-16
+    },
+    {
+      "scenario": "Cases/01-03_CoreVerification/cases/additional_features/stop_sequential_rk4/stop_sequential_rk4.tgscn",
+      "repeat": false,
+      "rows": 41,
+      "columns": 129,
+      "solution": "Cases/01-03_CoreVerification/cases/additional_features/stop_sequential_rk4/results/stop_sequential_rk4_solution.csv",
+      "solution_sha256": "695adfd5a9a036102b13adf8888d153c3c586bd1ff00ee8b46e5715428aae3f7",
+      "absolute_et_collisions": 0,
+      "final_elapsed_seconds": 0.4,
+      "expected_duration_seconds": 0.4,
+      "maximum_quaternion_norm_error": 1.1102230246251565e-16
+    },
+    {
+      "scenario": "Cases/01-03_CoreVerification/cases/additional_features/stop_single_dp54/stop_single_dp54.tgscn",
+      "repeat": false,
+      "rows": 21,
+      "columns": 113,
+      "solution": "Cases/01-03_CoreVerification/cases/additional_features/stop_single_dp54/results/stop_single_dp54_solution.csv",
+      "solution_sha256": "bbf6b6cbd4753c7b002403fa8918d760d94af29f7d586bde4afc3895948b8c7e",
+      "absolute_et_collisions": 0,
+      "final_elapsed_seconds": 0.2,
+      "expected_duration_seconds": 0.2,
+      "maximum_quaternion_norm_error": 0.0
+    },
+    {
+      "scenario": "Cases/01-03_CoreVerification/cases/additional_features/stop_single_rk4/stop_single_rk4.tgscn",
+      "repeat": false,
+      "rows": 21,
+      "columns": 113,
+      "solution": "Cases/01-03_CoreVerification/cases/additional_features/stop_single_rk4/results/stop_single_rk4_solution.csv",
+      "solution_sha256": "86ba1d5cd3f938f26e0755ef868be820baae055b21c758bbacde194f709bb58a",
+      "absolute_et_collisions": 0,
+      "final_elapsed_seconds": 0.2,
+      "expected_duration_seconds": 0.2,
+      "maximum_quaternion_norm_error": 0.0
+    },
+    {
+      "scenario": "Cases/01-03_CoreVerification/diagnostics/adaptive_subpicosecond_tail/adaptive_subpicosecond_tail.tgscn",
+      "repeat": false,
+      "rows": 2,
+      "columns": 97,
+      "solution": "Cases/01-03_CoreVerification/diagnostics/adaptive_subpicosecond_tail/results/adaptive_subpicosecond_tail_solution.csv",
+      "solution_sha256": "0657a9fa6bdb79843d849a51536162ee9524fa9c06f4e401fd315f086390112f",
+      "absolute_et_collisions": 1,
+      "final_elapsed_seconds": 5e-13,
+      "expected_duration_seconds": 5e-13,
+      "maximum_quaternion_norm_error": 0.0
+    },
+    {
+      "scenario": "Cases/01-03_CoreVerification/diagnostics/commanded_thruster_step_convergence/h_0p001/commanded_thrust.tgscn",
+      "repeat": false,
+      "rows": 151,
+      "columns": 111,
+      "solution": "Cases/01-03_CoreVerification/diagnostics/commanded_thruster_step_convergence/h_0p001/results/commanded_thrust_solution.csv",
+      "solution_sha256": "14b665e8ade84f0143831efaf5cee81b0c5b174e0c798e19758d0da65ff98a17",
+      "absolute_et_collisions": 0,
+      "final_elapsed_seconds": 15.0,
+      "expected_duration_seconds": 15.0,
+      "maximum_quaternion_norm_error": 1.1102230246251565e-16
+    },
+    {
+      "scenario": "Cases/01-03_CoreVerification/diagnostics/commanded_thruster_step_convergence/h_0p002/commanded_thrust.tgscn",
+      "repeat": false,
+      "rows": 151,
+      "columns": 111,
+      "solution": "Cases/01-03_CoreVerification/diagnostics/commanded_thruster_step_convergence/h_0p002/results/commanded_thrust_solution.csv",
+      "solution_sha256": "b0ab7492bc2c517541271f148ba0d938c36dcab2808e2ff1ad8af0aa93f78ccd",
+      "absolute_et_collisions": 0,
+      "final_elapsed_seconds": 15.0,
+      "expected_duration_seconds": 15.0,
+      "maximum_quaternion_norm_error": 1.1102230246251565e-16
+    },
+    {
+      "scenario": "Cases/01-03_CoreVerification/diagnostics/commanded_thruster_step_convergence/h_0p005/commanded_thrust.tgscn",
+      "repeat": false,
+      "rows": 151,
+      "columns": 111,
+      "solution": "Cases/01-03_CoreVerification/diagnostics/commanded_thruster_step_convergence/h_0p005/results/commanded_thrust_solution.csv",
+      "solution_sha256": "7b97d5d4bd8fbe4f8bce20f0868968052f002c0c2a54a737199a96c65a2e79e6",
+      "absolute_et_collisions": 0,
+      "final_elapsed_seconds": 15.0,
+      "expected_duration_seconds": 15.0,
+      "maximum_quaternion_norm_error": 1.1102230246251565e-16
+    },
+    {
+      "scenario": "Cases/01-03_CoreVerification/diagnostics/large_elapsed_event_above_tolerance_control/large_elapsed_event_above_tolerance_control.tgscn",
+      "repeat": false,
+      "rows": 3,
+      "columns": 111,
+      "solution": "Cases/01-03_CoreVerification/diagnostics/large_elapsed_event_above_tolerance_control/results/large_elapsed_event_above_tolerance_control_solution.csv",
+      "solution_sha256": "7f39b2ecd9660c5be3305823b4c9c62849c916f688454ceaa16fef4b4b9e304e",
+      "absolute_et_collisions": 0,
+      "final_elapsed_seconds": 1000000000.20002,
+      "expected_duration_seconds": 1000000000.20002,
+      "maximum_quaternion_norm_error": 0.0
+    },
+    {
+      "scenario": "Cases/01-03_CoreVerification/diagnostics/large_elapsed_event_near_output/large_elapsed_event_near_output.tgscn",
+      "repeat": false,
+      "rows": 3,
+      "columns": 111,
+      "solution": "Cases/01-03_CoreVerification/diagnostics/large_elapsed_event_near_output/results/large_elapsed_event_near_output_solution.csv",
+      "solution_sha256": "6674eb527835b52d4d4c84e6d31d7bd6d51220168a1bdf6a39b29a66d9fcb7fd",
+      "absolute_et_collisions": 0,
+      "final_elapsed_seconds": 1000000000.20001,
+      "expected_duration_seconds": 1000000000.20001,
+      "maximum_quaternion_norm_error": 0.0
+    },
+    {
+      "scenario": "Cases/01-03_CoreVerification/diagnostics/large_elapsed_final_before_boundary/large_elapsed_final_before_boundary.tgscn",
+      "repeat": false,
+      "rows": 2,
+      "columns": 111,
+      "solution": "Cases/01-03_CoreVerification/diagnostics/large_elapsed_final_before_boundary/results/large_elapsed_final_before_boundary_solution.csv",
+      "solution_sha256": "f06997a0f9e85531de0c2af64cda3e485a8ae946afd494c4094e99ed4460e1f6",
+      "absolute_et_collisions": 0,
+      "final_elapsed_seconds": 999999999.99999,
+      "expected_duration_seconds": 999999999.99999,
+      "maximum_quaternion_norm_error": 0.0
+    },
+    {
+      "scenario": "Cases/01-03_CoreVerification/diagnostics/large_elapsed_thruster_boundary/large_elapsed_thruster_boundary.tgscn",
+      "repeat": false,
+      "rows": 3,
+      "columns": 111,
+      "solution": "Cases/01-03_CoreVerification/diagnostics/large_elapsed_thruster_boundary/results/large_elapsed_thruster_boundary_solution.csv",
+      "solution_sha256": "50ce566f63061bc484d2052bf03beb828b7fd6191a33865a24b42f0749cc22cf",
+      "absolute_et_collisions": 0,
+      "final_elapsed_seconds": 1000000000.2,
+      "expected_duration_seconds": 1000000000.2,
+      "maximum_quaternion_norm_error": 0.0
+    },
+    {
+      "scenario": "Cases/01-03_CoreVerification/diagnostics/reaction_wheel_output_boundary/reaction_wheel_every_step.tgscn",
+      "repeat": false,
+      "rows": 3002,
+      "columns": 98,
+      "solution": "Cases/01-03_CoreVerification/diagnostics/reaction_wheel_output_boundary/results/reaction_wheel_every_step_solution.csv",
+      "solution_sha256": "a6d12ec40a9796aaa5d79fc855c8a5fb7bef120730845ca76459a54125b8dc9b",
+      "absolute_et_collisions": 1,
+      "final_elapsed_seconds": 30.0,
+      "expected_duration_seconds": 30.0,
+      "maximum_quaternion_norm_error": 1.1102230246251565e-16
+    },
+    {
+      "scenario": "Cases/01-03_CoreVerification/diagnostics/scheduler_edge_audit/prescribed_one_ulp_window/prescribed_one_ulp_window.tgscn",
+      "repeat": false,
+      "rows": 3,
+      "columns": 111,
+      "solution": "Cases/01-03_CoreVerification/diagnostics/scheduler_edge_audit/prescribed_one_ulp_window/results/prescribed_one_ulp_window_solution.csv",
+      "solution_sha256": "7e680ff0958a5bb2abd1cd830aacb2d00552713c9c9520e5bd8d1874a5f86f7f",
+      "absolute_et_collisions": 0,
+      "final_elapsed_seconds": 1000000000.001,
+      "expected_duration_seconds": 1000000000.001,
+      "maximum_quaternion_norm_error": 0.0
+    },
+    {
+      "scenario": "Cases/01-03_CoreVerification/diagnostics/scheduler_edge_audit/prescribed_spans_output/prescribed_spans_output.tgscn",
+      "repeat": false,
+      "rows": 3,
+      "columns": 111,
+      "solution": "Cases/01-03_CoreVerification/diagnostics/scheduler_edge_audit/prescribed_spans_output/results/prescribed_spans_output_solution.csv",
+      "solution_sha256": "e87d438c26d8fa2336d4c3d18e9edfb0824848ed8dd9e9db55e5fe3a8538c37a",
+      "absolute_et_collisions": 0,
+      "final_elapsed_seconds": 1000000000.001,
+      "expected_duration_seconds": 1000000000.001,
+      "maximum_quaternion_norm_error": 0.0
+    },
+    {
+      "scenario": "Cases/01-03_CoreVerification/diagnostics/scheduler_edge_audit/shutdown_at_output_and_final/shutdown_at_output_and_final.tgscn",
+      "repeat": false,
+      "rows": 2,
+      "columns": 111,
+      "solution": "Cases/01-03_CoreVerification/diagnostics/scheduler_edge_audit/shutdown_at_output_and_final/results/shutdown_at_output_and_final_solution.csv",
+      "solution_sha256": "61515aa93ac8946b2385ea3c88775b99dead22f655a8cbeda19f731363aaca3f",
+      "absolute_et_collisions": 0,
+      "final_elapsed_seconds": 1000000000.0,
+      "expected_duration_seconds": 1000000000.0,
+      "maximum_quaternion_norm_error": 0.0
+    },
+    {
+      "scenario": "Cases/01-03_CoreVerification/diagnostics/short_elapsed_thruster_window/short_elapsed_thruster_window.tgscn",
+      "repeat": false,
+      "rows": 10,
+      "columns": 111,
+      "solution": "Cases/01-03_CoreVerification/diagnostics/short_elapsed_thruster_window/results/short_elapsed_thruster_window_solution.csv",
+      "solution_sha256": "52a664c00ceb580fc647114b57b03fc15aae00c281cb91831fd4d3567137191f",
+      "absolute_et_collisions": 1,
+      "final_elapsed_seconds": 1e-06,
+      "expected_duration_seconds": 1e-06,
+      "maximum_quaternion_norm_error": 0.0
+    },
+    {
+      "scenario": "Cases/01-03_CoreVerification/diagnostics/timekeeping_edge_cases/duration_boundary_decimal_0p3s.tgscn",
+      "repeat": false,
+      "rows": 4,
+      "columns": 97,
+      "solution": "Cases/01-03_CoreVerification/diagnostics/timekeeping_edge_cases/results/duration_boundary_decimal_0p3s/duration_boundary_decimal_0p3s_solution.csv",
+      "solution_sha256": "8e1306d6fac6f75cb8c283b1e7b2a52c48af780e840d59f7d0121b54c138a9e7",
+      "absolute_et_collisions": 0,
+      "final_elapsed_seconds": 0.3,
+      "expected_duration_seconds": 0.3,
+      "maximum_quaternion_norm_error": 0.0
+    },
+    {
+      "scenario": "Cases/01-03_CoreVerification/diagnostics/timekeeping_edge_cases/duration_integral_1s.tgscn",
+      "repeat": false,
+      "rows": 11,
+      "columns": 97,
+      "solution": "Cases/01-03_CoreVerification/diagnostics/timekeeping_edge_cases/results/duration_integral_1s/duration_integral_1s_solution.csv",
+      "solution_sha256": "f8877807e62c1017675136101b0b87526d2962ced06f59248d9e0f6e24ba626b",
+      "absolute_et_collisions": 0,
+      "final_elapsed_seconds": 1.0,
+      "expected_duration_seconds": 1.0,
+      "maximum_quaternion_norm_error": 0.0
+    },
+    {
+      "scenario": "Cases/01-03_CoreVerification/diagnostics/timekeeping_edge_cases/duration_nonintegral_1p05s.tgscn",
+      "repeat": false,
+      "rows": 12,
+      "columns": 97,
+      "solution": "Cases/01-03_CoreVerification/diagnostics/timekeeping_edge_cases/results/duration_nonintegral_1p05s/duration_nonintegral_1p05s_solution.csv",
+      "solution_sha256": "e5aa5b7979b87f865dc17f9136353e958fb6635baf8e7a01eeec17c12ed5156f",
+      "absolute_et_collisions": 0,
+      "final_elapsed_seconds": 1.05,
+      "expected_duration_seconds": 1.05,
+      "maximum_quaternion_norm_error": 0.0
+    },
+    {
+      "scenario": "Cases/01-03_CoreVerification/diagnostics/timekeeping_edge_cases/duration_offgrid_minus_1e8s.tgscn",
+      "repeat": false,
+      "rows": 11,
+      "columns": 97,
+      "solution": "Cases/01-03_CoreVerification/diagnostics/timekeeping_edge_cases/results/duration_offgrid_minus_1e8s/duration_offgrid_minus_1e8s_solution.csv",
+      "solution_sha256": "a40fb1c2f7cbbc4779cb651aa5332d75f200b15d4b45770b0d9229c02a6bc343",
+      "absolute_et_collisions": 0,
+      "final_elapsed_seconds": 0.99999999,
+      "expected_duration_seconds": 0.99999999,
+      "maximum_quaternion_norm_error": 0.0
+    },
+    {
+      "scenario": "Cases/01-03_CoreVerification/diagnostics/timekeeping_edge_cases/duration_offgrid_plus_1e12s.tgscn",
+      "repeat": false,
+      "rows": 11,
+      "columns": 97,
+      "solution": "Cases/01-03_CoreVerification/diagnostics/timekeeping_edge_cases/results/duration_offgrid_plus_1e12s/duration_offgrid_plus_1e12s_solution.csv",
+      "solution_sha256": "f61580597159b4135d3ecd82c472b466c497f91b72d5f64a3c363cccfbeb12aa",
+      "absolute_et_collisions": 0,
+      "final_elapsed_seconds": 1.000000000001,
+      "expected_duration_seconds": 1.000000000001,
+      "maximum_quaternion_norm_error": 0.0
+    },
+    {
+      "scenario": "Cases/01-03_CoreVerification/diagnostics/timekeeping_edge_cases/duration_offgrid_plus_1e14s.tgscn",
+      "repeat": false,
+      "rows": 11,
+      "columns": 97,
+      "solution": "Cases/01-03_CoreVerification/diagnostics/timekeeping_edge_cases/results/duration_offgrid_plus_1e14s/duration_offgrid_plus_1e14s_solution.csv",
+      "solution_sha256": "7352dda09308b8a24e3ab5bae6aa41284ecfa2211c908376685a4a57562a6fa9",
+      "absolute_et_collisions": 0,
+      "final_elapsed_seconds": 1.00000000000001,
+      "expected_duration_seconds": 1.00000000000001,
+      "maximum_quaternion_norm_error": 0.0
+    },
+    {
+      "scenario": "Cases/01-03_CoreVerification/diagnostics/timekeeping_edge_cases/duration_offgrid_plus_1e6s.tgscn",
+      "repeat": false,
+      "rows": 12,
+      "columns": 97,
+      "solution": "Cases/01-03_CoreVerification/diagnostics/timekeeping_edge_cases/results/duration_offgrid_plus_1e6s/duration_offgrid_plus_1e6s_solution.csv",
+      "solution_sha256": "35346e11539b1f8752e13116e00ca9c18a1c94499e1267be98829bfe1b0baf3e",
+      "absolute_et_collisions": 0,
+      "final_elapsed_seconds": 1.000001,
+      "expected_duration_seconds": 1.000001,
+      "maximum_quaternion_norm_error": 0.0
+    },
+    {
+      "scenario": "Cases/01-03_CoreVerification/diagnostics/timekeeping_edge_cases/duration_offgrid_plus_1e7s.tgscn",
+      "repeat": false,
+      "rows": 12,
+      "columns": 97,
+      "solution": "Cases/01-03_CoreVerification/diagnostics/timekeeping_edge_cases/results/duration_offgrid_plus_1e7s/duration_offgrid_plus_1e7s_solution.csv",
+      "solution_sha256": "a4b6f0349bdfacb42d578874e2e660f21776a1c57a69af0940b02f9c630798a4",
+      "absolute_et_collisions": 0,
+      "final_elapsed_seconds": 1.0000001,
+      "expected_duration_seconds": 1.0000001,
+      "maximum_quaternion_norm_error": 0.0
+    },
+    {
+      "scenario": "Cases/01-03_CoreVerification/diagnostics/timekeeping_edge_cases/duration_offgrid_plus_1e8s.tgscn",
+      "repeat": false,
+      "rows": 11,
+      "columns": 97,
+      "solution": "Cases/01-03_CoreVerification/diagnostics/timekeeping_edge_cases/results/duration_offgrid_plus_1e8s/duration_offgrid_plus_1e8s_solution.csv",
+      "solution_sha256": "4f1063a676bc699b8805bebb297cabd5f9358e8c55c0de6ac031c7779849983c",
+      "absolute_et_collisions": 0,
+      "final_elapsed_seconds": 1.00000001,
+      "expected_duration_seconds": 1.00000001,
+      "maximum_quaternion_norm_error": 0.0
+    },
+    {
+      "scenario": "Cases/01-03_CoreVerification/diagnostics/timekeeping_edge_cases/duration_offgrid_plus_2e14s.tgscn",
+      "repeat": false,
+      "rows": 11,
+      "columns": 97,
+      "solution": "Cases/01-03_CoreVerification/diagnostics/timekeeping_edge_cases/results/duration_offgrid_plus_2e14s/duration_offgrid_plus_2e14s_solution.csv",
+      "solution_sha256": "3702274e4453819d441db7b689f02963a00ae080ff6699173fd81274f2f5811f",
+      "absolute_et_collisions": 0,
+      "final_elapsed_seconds": 1.00000000000002,
+      "expected_duration_seconds": 1.00000000000002,
+      "maximum_quaternion_norm_error": 0.0
+    },
+    {
+      "scenario": "Cases/01-03_CoreVerification/diagnostics/timekeeping_edge_cases/final_utc_integral_1s.tgscn",
+      "repeat": false,
+      "rows": 11,
+      "columns": 97,
+      "solution": "Cases/01-03_CoreVerification/diagnostics/timekeeping_edge_cases/results/final_utc_integral_1s/final_utc_integral_1s_solution.csv",
+      "solution_sha256": "f8877807e62c1017675136101b0b87526d2962ced06f59248d9e0f6e24ba626b",
+      "absolute_et_collisions": 0,
+      "final_elapsed_seconds": 1.0,
+      "expected_duration_seconds": 1.0,
+      "maximum_quaternion_norm_error": 0.0
+    },
+    {
+      "scenario": "Cases/01-03_CoreVerification/diagnostics/timekeeping_edge_cases/final_utc_nonintegral_1p05s.tgscn",
+      "repeat": false,
+      "rows": 12,
+      "columns": 97,
+      "solution": "Cases/01-03_CoreVerification/diagnostics/timekeeping_edge_cases/results/final_utc_nonintegral_1p05s/final_utc_nonintegral_1p05s_solution.csv",
+      "solution_sha256": "00da5890098a27bc576db4700c9f22a6208f94e4f05de78acc12184dae961023",
+      "absolute_et_collisions": 0,
+      "final_elapsed_seconds": 1.0499999523162842,
+      "expected_duration_seconds": 1.0499999523162842,
+      "maximum_quaternion_norm_error": 0.0
+    },
+    {
+      "scenario": "Cases/01-03_CoreVerification/diagnostics/timekeeping_edge_cases/large_elapsed_integral.tgscn",
+      "repeat": false,
+      "rows": 2,
+      "columns": 97,
+      "solution": "Cases/01-03_CoreVerification/diagnostics/timekeeping_edge_cases/results/large_elapsed_integral/large_elapsed_integral_solution.csv",
+      "solution_sha256": "19681e8426635cad741d161cb121b4de5f5b5afd1f0d8130aeb6c689ff192db9",
+      "absolute_et_collisions": 0,
+      "final_elapsed_seconds": 1000000000.0,
+      "expected_duration_seconds": 1000000000.0,
+      "maximum_quaternion_norm_error": 0.0
+    },
+    {
+      "scenario": "Cases/01-03_CoreVerification/diagnostics/timekeeping_edge_cases/large_elapsed_tail_1e4s.tgscn",
+      "repeat": false,
+      "rows": 3,
+      "columns": 97,
+      "solution": "Cases/01-03_CoreVerification/diagnostics/timekeeping_edge_cases/results/large_elapsed_tail_1e4s/large_elapsed_tail_1e4s_solution.csv",
+      "solution_sha256": "a6c78779a000669d39a96a698efcaf1c97e8c538a0763b23a26e9d533b060543",
+      "absolute_et_collisions": 0,
+      "final_elapsed_seconds": 1000000000.0001,
+      "expected_duration_seconds": 1000000000.0001,
+      "maximum_quaternion_norm_error": 0.0
+    },
+    {
+      "scenario": "Cases/01-03_CoreVerification/diagnostics/timekeeping_edge_cases/large_elapsed_tail_1e5s.tgscn",
+      "repeat": false,
+      "rows": 3,
+      "columns": 97,
+      "solution": "Cases/01-03_CoreVerification/diagnostics/timekeeping_edge_cases/results/large_elapsed_tail_1e5s/large_elapsed_tail_1e5s_solution.csv",
+      "solution_sha256": "04faf9c14f376f011bb2bdd70b6186802f86763f586ada683ecdadeead1d6d47",
+      "absolute_et_collisions": 0,
+      "final_elapsed_seconds": 1000000000.00001,
+      "expected_duration_seconds": 1000000000.00001,
+      "maximum_quaternion_norm_error": 0.0
+    },
+    {
+      "scenario": "Cases/01-03_CoreVerification/diagnostics/timekeeping_edge_cases/large_elapsed_tail_1e6s.tgscn",
+      "repeat": false,
+      "rows": 3,
+      "columns": 97,
+      "solution": "Cases/01-03_CoreVerification/diagnostics/timekeeping_edge_cases/results/large_elapsed_tail_1e6s/large_elapsed_tail_1e6s_solution.csv",
+      "solution_sha256": "29389712f1d9380de9f0755fa1e32ab5f467eff3cc5322d71299d07b0fda3697",
+      "absolute_et_collisions": 0,
+      "final_elapsed_seconds": 1000000000.000001,
+      "expected_duration_seconds": 1000000000.000001,
+      "maximum_quaternion_norm_error": 0.0
+    },
+    {
+      "scenario": "Cases/01-03_CoreVerification/diagnostics/timekeeping_edge_cases/large_elapsed_tail_2e5s.tgscn",
+      "repeat": false,
+      "rows": 3,
+      "columns": 97,
+      "solution": "Cases/01-03_CoreVerification/diagnostics/timekeeping_edge_cases/results/large_elapsed_tail_2e5s/large_elapsed_tail_2e5s_solution.csv",
+      "solution_sha256": "e0df5ac82d5448fdf9303daf11cc200e7cc94ad468fd26cd8bb4a6d42505b5cb",
+      "absolute_et_collisions": 0,
+      "final_elapsed_seconds": 1000000000.00002,
+      "expected_duration_seconds": 1000000000.00002,
+      "maximum_quaternion_norm_error": 0.0
+    }
+  ],
+  "checks": [
+    {
+      "case": "04a_four_wheel_recovery",
+      "metric": "runner exit status",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "04a_four_wheel_recovery",
+      "metric": "runner summary success",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "04a_four_wheel_recovery",
+      "metric": "CSV rectangularity and unique headers",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "04a_four_wheel_recovery",
+      "metric": "all numeric cells finite",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "04a_four_wheel_recovery",
+      "metric": "elapsed epochs strictly increasing",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "04a_four_wheel_recovery",
+      "metric": "requested terminal elapsed epoch",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "04a_four_wheel_recovery",
+      "metric": "all recorded articulated solves successful",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "04a_four_wheel_recovery",
+      "metric": "quaternion normalization",
+      "error": 2.220446049250313e-16,
+      "tolerance": 1e-10,
+      "pass": true
+    },
+    {
+      "case": "04a_four_wheel_recovery",
+      "metric": "fixed output grid length",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "04a_four_wheel_recovery",
+      "metric": "fixed output epochs",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "04b_thruster_recovery",
+      "metric": "runner exit status",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "04b_thruster_recovery",
+      "metric": "runner summary success",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "04b_thruster_recovery",
+      "metric": "CSV rectangularity and unique headers",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "04b_thruster_recovery",
+      "metric": "all numeric cells finite",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "04b_thruster_recovery",
+      "metric": "elapsed epochs strictly increasing",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "04b_thruster_recovery",
+      "metric": "requested terminal elapsed epoch",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "04b_thruster_recovery",
+      "metric": "all recorded articulated solves successful",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "04b_thruster_recovery",
+      "metric": "quaternion normalization",
+      "error": 2.220446049250313e-16,
+      "tolerance": 1e-10,
+      "pass": true
+    },
+    {
+      "case": "04b_thruster_recovery",
+      "metric": "fixed output grid length",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "04b_thruster_recovery",
+      "metric": "fixed output epochs",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "revolute_reaction",
+      "metric": "runner exit status",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "revolute_reaction",
+      "metric": "runner summary success",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "revolute_reaction",
+      "metric": "CSV rectangularity and unique headers",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "revolute_reaction",
+      "metric": "all numeric cells finite",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "revolute_reaction",
+      "metric": "elapsed epochs strictly increasing",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "revolute_reaction",
+      "metric": "requested terminal elapsed epoch",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "revolute_reaction",
+      "metric": "all recorded articulated solves successful",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "revolute_reaction",
+      "metric": "quaternion normalization",
+      "error": 0.0,
+      "tolerance": 1e-10,
+      "pass": true
+    },
+    {
+      "case": "revolute_reaction",
+      "metric": "fixed output grid length",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "revolute_reaction",
+      "metric": "fixed output epochs",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "prismatic_reaction",
+      "metric": "runner exit status",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "prismatic_reaction",
+      "metric": "runner summary success",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "prismatic_reaction",
+      "metric": "CSV rectangularity and unique headers",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "prismatic_reaction",
+      "metric": "all numeric cells finite",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "prismatic_reaction",
+      "metric": "elapsed epochs strictly increasing",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "prismatic_reaction",
+      "metric": "requested terminal elapsed epoch",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "prismatic_reaction",
+      "metric": "all recorded articulated solves successful",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "prismatic_reaction",
+      "metric": "quaternion normalization",
+      "error": 0.0,
+      "tolerance": 1e-10,
+      "pass": true
+    },
+    {
+      "case": "prismatic_reaction",
+      "metric": "fixed output grid length",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "prismatic_reaction",
+      "metric": "fixed output epochs",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "coordinate_stop",
+      "metric": "runner exit status",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "coordinate_stop",
+      "metric": "runner summary success",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "coordinate_stop",
+      "metric": "CSV rectangularity and unique headers",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "coordinate_stop",
+      "metric": "all numeric cells finite",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "coordinate_stop",
+      "metric": "elapsed epochs strictly increasing",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "coordinate_stop",
+      "metric": "requested terminal elapsed epoch",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "coordinate_stop",
+      "metric": "all recorded articulated solves successful",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "coordinate_stop",
+      "metric": "quaternion normalization",
+      "error": 0.0,
+      "tolerance": 1e-10,
+      "pass": true
+    },
+    {
+      "case": "coordinate_stop",
+      "metric": "fixed output grid length",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "coordinate_stop",
+      "metric": "fixed output epochs",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "nested_tree",
+      "metric": "runner exit status",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "nested_tree",
+      "metric": "runner summary success",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "nested_tree",
+      "metric": "CSV rectangularity and unique headers",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "nested_tree",
+      "metric": "all numeric cells finite",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "nested_tree",
+      "metric": "elapsed epochs strictly increasing",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "nested_tree",
+      "metric": "requested terminal elapsed epoch",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "nested_tree",
+      "metric": "all recorded articulated solves successful",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "nested_tree",
+      "metric": "quaternion normalization",
+      "error": 2.220446049250313e-16,
+      "tolerance": 1e-10,
+      "pass": true
+    },
+    {
+      "case": "nested_tree",
+      "metric": "fixed output grid length",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "nested_tree",
+      "metric": "fixed output epochs",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "reaction_wheel",
+      "metric": "runner exit status",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "reaction_wheel",
+      "metric": "runner summary success",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "reaction_wheel",
+      "metric": "CSV rectangularity and unique headers",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "reaction_wheel",
+      "metric": "all numeric cells finite",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "reaction_wheel",
+      "metric": "elapsed epochs strictly increasing",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "reaction_wheel",
+      "metric": "requested terminal elapsed epoch",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "reaction_wheel",
+      "metric": "all recorded articulated solves successful",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "reaction_wheel",
+      "metric": "quaternion normalization",
+      "error": 1.1102230246251565e-16,
+      "tolerance": 1e-10,
+      "pass": true
+    },
+    {
+      "case": "reaction_wheel",
+      "metric": "fixed output grid length",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "reaction_wheel",
+      "metric": "fixed output epochs",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "reaction_wheel [repeat]",
+      "metric": "runner exit status",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "reaction_wheel [repeat]",
+      "metric": "runner summary success",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "reaction_wheel [repeat]",
+      "metric": "CSV rectangularity and unique headers",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "reaction_wheel [repeat]",
+      "metric": "all numeric cells finite",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "reaction_wheel [repeat]",
+      "metric": "elapsed epochs strictly increasing",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "reaction_wheel [repeat]",
+      "metric": "requested terminal elapsed epoch",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "reaction_wheel [repeat]",
+      "metric": "all recorded articulated solves successful",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "reaction_wheel [repeat]",
+      "metric": "quaternion normalization",
+      "error": 1.1102230246251565e-16,
+      "tolerance": 1e-10,
+      "pass": true
+    },
+    {
+      "case": "reaction_wheel [repeat]",
+      "metric": "fixed output grid length",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "reaction_wheel [repeat]",
+      "metric": "fixed output epochs",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "commanded_thrust",
+      "metric": "runner exit status",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "commanded_thrust",
+      "metric": "runner summary success",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "commanded_thrust",
+      "metric": "CSV rectangularity and unique headers",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "commanded_thrust",
+      "metric": "all numeric cells finite",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "commanded_thrust",
+      "metric": "elapsed epochs strictly increasing",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "commanded_thrust",
+      "metric": "requested terminal elapsed epoch",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "commanded_thrust",
+      "metric": "all recorded articulated solves successful",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "commanded_thrust",
+      "metric": "quaternion normalization",
+      "error": 1.1102230246251565e-16,
+      "tolerance": 1e-10,
+      "pass": true
+    },
+    {
+      "case": "commanded_thrust",
+      "metric": "fixed output grid length",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "commanded_thrust",
+      "metric": "fixed output epochs",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "direct_torque",
+      "metric": "runner exit status",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "direct_torque",
+      "metric": "runner summary success",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "direct_torque",
+      "metric": "CSV rectangularity and unique headers",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "direct_torque",
+      "metric": "all numeric cells finite",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "direct_torque",
+      "metric": "elapsed epochs strictly increasing",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "direct_torque",
+      "metric": "requested terminal elapsed epoch",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "direct_torque",
+      "metric": "all recorded articulated solves successful",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "direct_torque",
+      "metric": "quaternion normalization",
+      "error": 1.1102230246251565e-16,
+      "tolerance": 1e-10,
+      "pass": true
+    },
+    {
+      "case": "direct_torque",
+      "metric": "fixed output grid length",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "direct_torque",
+      "metric": "fixed output epochs",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "prescribed_thrust",
+      "metric": "runner exit status",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "prescribed_thrust",
+      "metric": "runner summary success",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "prescribed_thrust",
+      "metric": "CSV rectangularity and unique headers",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "prescribed_thrust",
+      "metric": "all numeric cells finite",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "prescribed_thrust",
+      "metric": "elapsed epochs strictly increasing",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "prescribed_thrust",
+      "metric": "requested terminal elapsed epoch",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "prescribed_thrust",
+      "metric": "all recorded articulated solves successful",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "prescribed_thrust",
+      "metric": "quaternion normalization",
+      "error": 0.0,
+      "tolerance": 1e-10,
+      "pass": true
+    },
+    {
+      "case": "prescribed_thrust",
+      "metric": "fixed output grid length",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "prescribed_thrust",
+      "metric": "fixed output epochs",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "srp_one_au",
+      "metric": "runner exit status",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "srp_one_au",
+      "metric": "runner summary success",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "srp_one_au",
+      "metric": "CSV rectangularity and unique headers",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "srp_one_au",
+      "metric": "all numeric cells finite",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "srp_one_au",
+      "metric": "elapsed epochs strictly increasing",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "srp_one_au",
+      "metric": "requested terminal elapsed epoch",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "srp_one_au",
+      "metric": "all recorded articulated solves successful",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "srp_one_au",
+      "metric": "quaternion normalization",
+      "error": 0.0,
+      "tolerance": 1e-10,
+      "pass": true
+    },
+    {
+      "case": "srp_one_au",
+      "metric": "fixed output grid length",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "srp_one_au",
+      "metric": "fixed output epochs",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "earth_umbra_off",
+      "metric": "runner exit status",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "earth_umbra_off",
+      "metric": "runner summary success",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "earth_umbra_off",
+      "metric": "CSV rectangularity and unique headers",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "earth_umbra_off",
+      "metric": "all numeric cells finite",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "earth_umbra_off",
+      "metric": "elapsed epochs strictly increasing",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "earth_umbra_off",
+      "metric": "requested terminal elapsed epoch",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "earth_umbra_off",
+      "metric": "all recorded articulated solves successful",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "earth_umbra_off",
+      "metric": "quaternion normalization",
+      "error": 0.0,
+      "tolerance": 1e-10,
+      "pass": true
+    },
+    {
+      "case": "earth_umbra_off",
+      "metric": "fixed output grid length",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "earth_umbra_off",
+      "metric": "fixed output epochs",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "earth_umbra_on",
+      "metric": "runner exit status",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "earth_umbra_on",
+      "metric": "runner summary success",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "earth_umbra_on",
+      "metric": "CSV rectangularity and unique headers",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "earth_umbra_on",
+      "metric": "all numeric cells finite",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "earth_umbra_on",
+      "metric": "elapsed epochs strictly increasing",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "earth_umbra_on",
+      "metric": "requested terminal elapsed epoch",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "earth_umbra_on",
+      "metric": "all recorded articulated solves successful",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "earth_umbra_on",
+      "metric": "quaternion normalization",
+      "error": 0.0,
+      "tolerance": 1e-10,
+      "pass": true
+    },
+    {
+      "case": "earth_umbra_on",
+      "metric": "fixed output grid length",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "earth_umbra_on",
+      "metric": "fixed output epochs",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "component_shadow_off",
+      "metric": "runner exit status",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "component_shadow_off",
+      "metric": "runner summary success",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "component_shadow_off",
+      "metric": "CSV rectangularity and unique headers",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "component_shadow_off",
+      "metric": "all numeric cells finite",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "component_shadow_off",
+      "metric": "elapsed epochs strictly increasing",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "component_shadow_off",
+      "metric": "requested terminal elapsed epoch",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "component_shadow_off",
+      "metric": "all recorded articulated solves successful",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "component_shadow_off",
+      "metric": "quaternion normalization",
+      "error": 0.0,
+      "tolerance": 1e-10,
+      "pass": true
+    },
+    {
+      "case": "component_shadow_off",
+      "metric": "fixed output grid length",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "component_shadow_off",
+      "metric": "fixed output epochs",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "component_shadow_on",
+      "metric": "runner exit status",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "component_shadow_on",
+      "metric": "runner summary success",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "component_shadow_on",
+      "metric": "CSV rectangularity and unique headers",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "component_shadow_on",
+      "metric": "all numeric cells finite",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "component_shadow_on",
+      "metric": "elapsed epochs strictly increasing",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "component_shadow_on",
+      "metric": "requested terminal elapsed epoch",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "component_shadow_on",
+      "metric": "all recorded articulated solves successful",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "component_shadow_on",
+      "metric": "quaternion normalization",
+      "error": 0.0,
+      "tolerance": 1e-10,
+      "pass": true
+    },
+    {
+      "case": "component_shadow_on",
+      "metric": "fixed output grid length",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "component_shadow_on",
+      "metric": "fixed output epochs",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "rarefied_fallback",
+      "metric": "runner exit status",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "rarefied_fallback",
+      "metric": "runner summary success",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "rarefied_fallback",
+      "metric": "CSV rectangularity and unique headers",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "rarefied_fallback",
+      "metric": "all numeric cells finite",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "rarefied_fallback",
+      "metric": "elapsed epochs strictly increasing",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "rarefied_fallback",
+      "metric": "requested terminal elapsed epoch",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "rarefied_fallback",
+      "metric": "all recorded articulated solves successful",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "rarefied_fallback",
+      "metric": "quaternion normalization",
+      "error": 0.0,
+      "tolerance": 1e-10,
+      "pass": true
+    },
+    {
+      "case": "rarefied_fallback",
+      "metric": "fixed output grid length",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "rarefied_fallback",
+      "metric": "fixed output epochs",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "aero_database",
+      "metric": "runner exit status",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "aero_database",
+      "metric": "runner summary success",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "aero_database",
+      "metric": "CSV rectangularity and unique headers",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "aero_database",
+      "metric": "all numeric cells finite",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "aero_database",
+      "metric": "elapsed epochs strictly increasing",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "aero_database",
+      "metric": "requested terminal elapsed epoch",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "aero_database",
+      "metric": "all recorded articulated solves successful",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "aero_database",
+      "metric": "quaternion normalization",
+      "error": 2.220446049250313e-16,
+      "tolerance": 1e-10,
+      "pass": true
+    },
+    {
+      "case": "aero_database",
+      "metric": "fixed output grid length",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "aero_database",
+      "metric": "fixed output epochs",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "articulated_aero_database",
+      "metric": "runner exit status",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "articulated_aero_database",
+      "metric": "runner summary success",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "articulated_aero_database",
+      "metric": "CSV rectangularity and unique headers",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "articulated_aero_database",
+      "metric": "all numeric cells finite",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "articulated_aero_database",
+      "metric": "elapsed epochs strictly increasing",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "articulated_aero_database",
+      "metric": "requested terminal elapsed epoch",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "articulated_aero_database",
+      "metric": "all recorded articulated solves successful",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "articulated_aero_database",
+      "metric": "quaternion normalization",
+      "error": 0.0,
+      "tolerance": 1e-10,
+      "pass": true
+    },
+    {
+      "case": "articulated_aero_database",
+      "metric": "fixed output grid length",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "articulated_aero_database",
+      "metric": "fixed output epochs",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_constant_dp54",
+      "metric": "runner exit status",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_constant_dp54",
+      "metric": "runner summary success",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_constant_dp54",
+      "metric": "CSV rectangularity and unique headers",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_constant_dp54",
+      "metric": "all numeric cells finite",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_constant_dp54",
+      "metric": "elapsed epochs strictly increasing",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_constant_dp54",
+      "metric": "requested terminal elapsed epoch",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_constant_dp54",
+      "metric": "all recorded articulated solves successful",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_constant_dp54",
+      "metric": "quaternion normalization",
+      "error": 0.0,
+      "tolerance": 1e-10,
+      "pass": true
+    },
+    {
+      "case": "cm_constant_dp54",
+      "metric": "fixed output grid length",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_constant_dp54",
+      "metric": "fixed output epochs",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_constant_rk4",
+      "metric": "runner exit status",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_constant_rk4",
+      "metric": "runner summary success",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_constant_rk4",
+      "metric": "CSV rectangularity and unique headers",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_constant_rk4",
+      "metric": "all numeric cells finite",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_constant_rk4",
+      "metric": "elapsed epochs strictly increasing",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_constant_rk4",
+      "metric": "requested terminal elapsed epoch",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_constant_rk4",
+      "metric": "all recorded articulated solves successful",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_constant_rk4",
+      "metric": "quaternion normalization",
+      "error": 0.0,
+      "tolerance": 1e-10,
+      "pass": true
+    },
+    {
+      "case": "cm_constant_rk4",
+      "metric": "fixed output grid length",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_constant_rk4",
+      "metric": "fixed output epochs",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_negative_dp54",
+      "metric": "runner exit status",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_negative_dp54",
+      "metric": "runner summary success",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_negative_dp54",
+      "metric": "CSV rectangularity and unique headers",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_negative_dp54",
+      "metric": "all numeric cells finite",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_negative_dp54",
+      "metric": "elapsed epochs strictly increasing",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_negative_dp54",
+      "metric": "requested terminal elapsed epoch",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_negative_dp54",
+      "metric": "all recorded articulated solves successful",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_negative_dp54",
+      "metric": "quaternion normalization",
+      "error": 0.0,
+      "tolerance": 1e-10,
+      "pass": true
+    },
+    {
+      "case": "cm_negative_dp54",
+      "metric": "fixed output grid length",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_negative_dp54",
+      "metric": "fixed output epochs",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_negative_rk4",
+      "metric": "runner exit status",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_negative_rk4",
+      "metric": "runner summary success",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_negative_rk4",
+      "metric": "CSV rectangularity and unique headers",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_negative_rk4",
+      "metric": "all numeric cells finite",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_negative_rk4",
+      "metric": "elapsed epochs strictly increasing",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_negative_rk4",
+      "metric": "requested terminal elapsed epoch",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_negative_rk4",
+      "metric": "all recorded articulated solves successful",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_negative_rk4",
+      "metric": "quaternion normalization",
+      "error": 0.0,
+      "tolerance": 1e-10,
+      "pass": true
+    },
+    {
+      "case": "cm_negative_rk4",
+      "metric": "fixed output grid length",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_negative_rk4",
+      "metric": "fixed output epochs",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_omitted_dp54",
+      "metric": "runner exit status",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_omitted_dp54",
+      "metric": "runner summary success",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_omitted_dp54",
+      "metric": "CSV rectangularity and unique headers",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_omitted_dp54",
+      "metric": "all numeric cells finite",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_omitted_dp54",
+      "metric": "elapsed epochs strictly increasing",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_omitted_dp54",
+      "metric": "requested terminal elapsed epoch",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_omitted_dp54",
+      "metric": "all recorded articulated solves successful",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_omitted_dp54",
+      "metric": "quaternion normalization",
+      "error": 0.0,
+      "tolerance": 1e-10,
+      "pass": true
+    },
+    {
+      "case": "cm_omitted_dp54",
+      "metric": "fixed output grid length",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_omitted_dp54",
+      "metric": "fixed output epochs",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_omitted_rk4",
+      "metric": "runner exit status",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_omitted_rk4",
+      "metric": "runner summary success",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_omitted_rk4",
+      "metric": "CSV rectangularity and unique headers",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_omitted_rk4",
+      "metric": "all numeric cells finite",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_omitted_rk4",
+      "metric": "elapsed epochs strictly increasing",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_omitted_rk4",
+      "metric": "requested terminal elapsed epoch",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_omitted_rk4",
+      "metric": "all recorded articulated solves successful",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_omitted_rk4",
+      "metric": "quaternion normalization",
+      "error": 0.0,
+      "tolerance": 1e-10,
+      "pass": true
+    },
+    {
+      "case": "cm_omitted_rk4",
+      "metric": "fixed output grid length",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_omitted_rk4",
+      "metric": "fixed output epochs",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_positive_dp54",
+      "metric": "runner exit status",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_positive_dp54",
+      "metric": "runner summary success",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_positive_dp54",
+      "metric": "CSV rectangularity and unique headers",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_positive_dp54",
+      "metric": "all numeric cells finite",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_positive_dp54",
+      "metric": "elapsed epochs strictly increasing",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_positive_dp54",
+      "metric": "requested terminal elapsed epoch",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_positive_dp54",
+      "metric": "all recorded articulated solves successful",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_positive_dp54",
+      "metric": "quaternion normalization",
+      "error": 0.0,
+      "tolerance": 1e-10,
+      "pass": true
+    },
+    {
+      "case": "cm_positive_dp54",
+      "metric": "fixed output grid length",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_positive_dp54",
+      "metric": "fixed output epochs",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_positive_rk4",
+      "metric": "runner exit status",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_positive_rk4",
+      "metric": "runner summary success",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_positive_rk4",
+      "metric": "CSV rectangularity and unique headers",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_positive_rk4",
+      "metric": "all numeric cells finite",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_positive_rk4",
+      "metric": "elapsed epochs strictly increasing",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_positive_rk4",
+      "metric": "requested terminal elapsed epoch",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_positive_rk4",
+      "metric": "all recorded articulated solves successful",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_positive_rk4",
+      "metric": "quaternion normalization",
+      "error": 0.0,
+      "tolerance": 1e-10,
+      "pass": true
+    },
+    {
+      "case": "cm_positive_rk4",
+      "metric": "fixed output grid length",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_positive_rk4",
+      "metric": "fixed output epochs",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_prescribed_dp54",
+      "metric": "runner exit status",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_prescribed_dp54",
+      "metric": "runner summary success",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_prescribed_dp54",
+      "metric": "CSV rectangularity and unique headers",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_prescribed_dp54",
+      "metric": "all numeric cells finite",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_prescribed_dp54",
+      "metric": "elapsed epochs strictly increasing",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_prescribed_dp54",
+      "metric": "requested terminal elapsed epoch",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_prescribed_dp54",
+      "metric": "all recorded articulated solves successful",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_prescribed_dp54",
+      "metric": "quaternion normalization",
+      "error": 0.0,
+      "tolerance": 1e-10,
+      "pass": true
+    },
+    {
+      "case": "cm_prescribed_dp54",
+      "metric": "fixed output grid length",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_prescribed_dp54",
+      "metric": "fixed output epochs",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_prescribed_rk4",
+      "metric": "runner exit status",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_prescribed_rk4",
+      "metric": "runner summary success",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_prescribed_rk4",
+      "metric": "CSV rectangularity and unique headers",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_prescribed_rk4",
+      "metric": "all numeric cells finite",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_prescribed_rk4",
+      "metric": "elapsed epochs strictly increasing",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_prescribed_rk4",
+      "metric": "requested terminal elapsed epoch",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_prescribed_rk4",
+      "metric": "all recorded articulated solves successful",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_prescribed_rk4",
+      "metric": "quaternion normalization",
+      "error": 0.0,
+      "tolerance": 1e-10,
+      "pass": true
+    },
+    {
+      "case": "cm_prescribed_rk4",
+      "metric": "fixed output grid length",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_prescribed_rk4",
+      "metric": "fixed output epochs",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_shared_dp54",
+      "metric": "runner exit status",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_shared_dp54",
+      "metric": "runner summary success",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_shared_dp54",
+      "metric": "CSV rectangularity and unique headers",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_shared_dp54",
+      "metric": "all numeric cells finite",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_shared_dp54",
+      "metric": "elapsed epochs strictly increasing",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_shared_dp54",
+      "metric": "requested terminal elapsed epoch",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_shared_dp54",
+      "metric": "all recorded articulated solves successful",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_shared_dp54",
+      "metric": "quaternion normalization",
+      "error": 0.0,
+      "tolerance": 1e-10,
+      "pass": true
+    },
+    {
+      "case": "cm_shared_dp54",
+      "metric": "fixed output grid length",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_shared_dp54",
+      "metric": "fixed output epochs",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_shared_rk4",
+      "metric": "runner exit status",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_shared_rk4",
+      "metric": "runner summary success",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_shared_rk4",
+      "metric": "CSV rectangularity and unique headers",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_shared_rk4",
+      "metric": "all numeric cells finite",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_shared_rk4",
+      "metric": "elapsed epochs strictly increasing",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_shared_rk4",
+      "metric": "requested terminal elapsed epoch",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_shared_rk4",
+      "metric": "all recorded articulated solves successful",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_shared_rk4",
+      "metric": "quaternion normalization",
+      "error": 0.0,
+      "tolerance": 1e-10,
+      "pass": true
+    },
+    {
+      "case": "cm_shared_rk4",
+      "metric": "fixed output grid length",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_shared_rk4",
+      "metric": "fixed output epochs",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_variable_isp_dp54",
+      "metric": "runner exit status",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_variable_isp_dp54",
+      "metric": "runner summary success",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_variable_isp_dp54",
+      "metric": "CSV rectangularity and unique headers",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_variable_isp_dp54",
+      "metric": "all numeric cells finite",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_variable_isp_dp54",
+      "metric": "elapsed epochs strictly increasing",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_variable_isp_dp54",
+      "metric": "requested terminal elapsed epoch",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_variable_isp_dp54",
+      "metric": "all recorded articulated solves successful",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_variable_isp_dp54",
+      "metric": "quaternion normalization",
+      "error": 0.0,
+      "tolerance": 1e-10,
+      "pass": true
+    },
+    {
+      "case": "cm_variable_isp_dp54",
+      "metric": "fixed output grid length",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_variable_isp_dp54",
+      "metric": "fixed output epochs",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_variable_isp_rk4",
+      "metric": "runner exit status",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_variable_isp_rk4",
+      "metric": "runner summary success",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_variable_isp_rk4",
+      "metric": "CSV rectangularity and unique headers",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_variable_isp_rk4",
+      "metric": "all numeric cells finite",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_variable_isp_rk4",
+      "metric": "elapsed epochs strictly increasing",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_variable_isp_rk4",
+      "metric": "requested terminal elapsed epoch",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_variable_isp_rk4",
+      "metric": "all recorded articulated solves successful",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_variable_isp_rk4",
+      "metric": "quaternion normalization",
+      "error": 0.0,
+      "tolerance": 1e-10,
+      "pass": true
+    },
+    {
+      "case": "cm_variable_isp_rk4",
+      "metric": "fixed output grid length",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_variable_isp_rk4",
+      "metric": "fixed output epochs",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_zero_start_dp54",
+      "metric": "runner exit status",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_zero_start_dp54",
+      "metric": "runner summary success",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_zero_start_dp54",
+      "metric": "CSV rectangularity and unique headers",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_zero_start_dp54",
+      "metric": "all numeric cells finite",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_zero_start_dp54",
+      "metric": "elapsed epochs strictly increasing",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_zero_start_dp54",
+      "metric": "requested terminal elapsed epoch",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_zero_start_dp54",
+      "metric": "all recorded articulated solves successful",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_zero_start_dp54",
+      "metric": "quaternion normalization",
+      "error": 0.0,
+      "tolerance": 1e-10,
+      "pass": true
+    },
+    {
+      "case": "cm_zero_start_dp54",
+      "metric": "fixed output grid length",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_zero_start_dp54",
+      "metric": "fixed output epochs",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_zero_start_rk4",
+      "metric": "runner exit status",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_zero_start_rk4",
+      "metric": "runner summary success",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_zero_start_rk4",
+      "metric": "CSV rectangularity and unique headers",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_zero_start_rk4",
+      "metric": "all numeric cells finite",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_zero_start_rk4",
+      "metric": "elapsed epochs strictly increasing",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_zero_start_rk4",
+      "metric": "requested terminal elapsed epoch",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_zero_start_rk4",
+      "metric": "all recorded articulated solves successful",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_zero_start_rk4",
+      "metric": "quaternion normalization",
+      "error": 0.0,
+      "tolerance": 1e-10,
+      "pass": true
+    },
+    {
+      "case": "cm_zero_start_rk4",
+      "metric": "fixed output grid length",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "cm_zero_start_rk4",
+      "metric": "fixed output epochs",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "stop_both_lock_dp54",
+      "metric": "runner exit status",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "stop_both_lock_dp54",
+      "metric": "runner summary success",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "stop_both_lock_dp54",
+      "metric": "CSV rectangularity and unique headers",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "stop_both_lock_dp54",
+      "metric": "all numeric cells finite",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "stop_both_lock_dp54",
+      "metric": "elapsed epochs strictly increasing",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "stop_both_lock_dp54",
+      "metric": "requested terminal elapsed epoch",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "stop_both_lock_dp54",
+      "metric": "all recorded articulated solves successful",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "stop_both_lock_dp54",
+      "metric": "quaternion normalization",
+      "error": 1.1102230246251565e-16,
+      "tolerance": 1e-10,
+      "pass": true
+    },
+    {
+      "case": "stop_both_lock_dp54",
+      "metric": "fixed output grid length",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "stop_both_lock_dp54",
+      "metric": "fixed output epochs",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "stop_both_lock_rk4",
+      "metric": "runner exit status",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "stop_both_lock_rk4",
+      "metric": "runner summary success",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "stop_both_lock_rk4",
+      "metric": "CSV rectangularity and unique headers",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "stop_both_lock_rk4",
+      "metric": "all numeric cells finite",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "stop_both_lock_rk4",
+      "metric": "elapsed epochs strictly increasing",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "stop_both_lock_rk4",
+      "metric": "requested terminal elapsed epoch",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "stop_both_lock_rk4",
+      "metric": "all recorded articulated solves successful",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "stop_both_lock_rk4",
+      "metric": "quaternion normalization",
+      "error": 0.0,
+      "tolerance": 1e-10,
+      "pass": true
+    },
+    {
+      "case": "stop_both_lock_rk4",
+      "metric": "fixed output grid length",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "stop_both_lock_rk4",
+      "metric": "fixed output epochs",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "stop_near_dp54",
+      "metric": "runner exit status",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "stop_near_dp54",
+      "metric": "runner summary success",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "stop_near_dp54",
+      "metric": "CSV rectangularity and unique headers",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "stop_near_dp54",
+      "metric": "all numeric cells finite",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "stop_near_dp54",
+      "metric": "elapsed epochs strictly increasing",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "stop_near_dp54",
+      "metric": "requested terminal elapsed epoch",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "stop_near_dp54",
+      "metric": "all recorded articulated solves successful",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "stop_near_dp54",
+      "metric": "quaternion normalization",
+      "error": 0.0,
+      "tolerance": 1e-10,
+      "pass": true
+    },
+    {
+      "case": "stop_near_dp54",
+      "metric": "fixed output grid length",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "stop_near_dp54",
+      "metric": "fixed output epochs",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "stop_near_rk4",
+      "metric": "runner exit status",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "stop_near_rk4",
+      "metric": "runner summary success",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "stop_near_rk4",
+      "metric": "CSV rectangularity and unique headers",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "stop_near_rk4",
+      "metric": "all numeric cells finite",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "stop_near_rk4",
+      "metric": "elapsed epochs strictly increasing",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "stop_near_rk4",
+      "metric": "requested terminal elapsed epoch",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "stop_near_rk4",
+      "metric": "all recorded articulated solves successful",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "stop_near_rk4",
+      "metric": "quaternion normalization",
+      "error": 0.0,
+      "tolerance": 1e-10,
+      "pass": true
+    },
+    {
+      "case": "stop_near_rk4",
+      "metric": "fixed output grid length",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "stop_near_rk4",
+      "metric": "fixed output epochs",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "stop_release_dp54",
+      "metric": "runner exit status",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "stop_release_dp54",
+      "metric": "runner summary success",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "stop_release_dp54",
+      "metric": "CSV rectangularity and unique headers",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "stop_release_dp54",
+      "metric": "all numeric cells finite",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "stop_release_dp54",
+      "metric": "elapsed epochs strictly increasing",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "stop_release_dp54",
+      "metric": "requested terminal elapsed epoch",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "stop_release_dp54",
+      "metric": "all recorded articulated solves successful",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "stop_release_dp54",
+      "metric": "quaternion normalization",
+      "error": 0.0,
+      "tolerance": 1e-10,
+      "pass": true
+    },
+    {
+      "case": "stop_release_dp54",
+      "metric": "fixed output grid length",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "stop_release_dp54",
+      "metric": "fixed output epochs",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "stop_release_rk4",
+      "metric": "runner exit status",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "stop_release_rk4",
+      "metric": "runner summary success",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "stop_release_rk4",
+      "metric": "CSV rectangularity and unique headers",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "stop_release_rk4",
+      "metric": "all numeric cells finite",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "stop_release_rk4",
+      "metric": "elapsed epochs strictly increasing",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "stop_release_rk4",
+      "metric": "requested terminal elapsed epoch",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "stop_release_rk4",
+      "metric": "all recorded articulated solves successful",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "stop_release_rk4",
+      "metric": "quaternion normalization",
+      "error": 0.0,
+      "tolerance": 1e-10,
+      "pass": true
+    },
+    {
+      "case": "stop_release_rk4",
+      "metric": "fixed output grid length",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "stop_release_rk4",
+      "metric": "fixed output epochs",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "stop_resting_dp54",
+      "metric": "runner exit status",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "stop_resting_dp54",
+      "metric": "runner summary success",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "stop_resting_dp54",
+      "metric": "CSV rectangularity and unique headers",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "stop_resting_dp54",
+      "metric": "all numeric cells finite",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "stop_resting_dp54",
+      "metric": "elapsed epochs strictly increasing",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "stop_resting_dp54",
+      "metric": "requested terminal elapsed epoch",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "stop_resting_dp54",
+      "metric": "all recorded articulated solves successful",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "stop_resting_dp54",
+      "metric": "quaternion normalization",
+      "error": 0.0,
+      "tolerance": 1e-10,
+      "pass": true
+    },
+    {
+      "case": "stop_resting_dp54",
+      "metric": "fixed output grid length",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "stop_resting_dp54",
+      "metric": "fixed output epochs",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "stop_resting_rk4",
+      "metric": "runner exit status",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "stop_resting_rk4",
+      "metric": "runner summary success",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "stop_resting_rk4",
+      "metric": "CSV rectangularity and unique headers",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "stop_resting_rk4",
+      "metric": "all numeric cells finite",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "stop_resting_rk4",
+      "metric": "elapsed epochs strictly increasing",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "stop_resting_rk4",
+      "metric": "requested terminal elapsed epoch",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "stop_resting_rk4",
+      "metric": "all recorded articulated solves successful",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "stop_resting_rk4",
+      "metric": "quaternion normalization",
+      "error": 0.0,
+      "tolerance": 1e-10,
+      "pass": true
+    },
+    {
+      "case": "stop_resting_rk4",
+      "metric": "fixed output grid length",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "stop_resting_rk4",
+      "metric": "fixed output epochs",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "stop_sequential_dp54",
+      "metric": "runner exit status",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "stop_sequential_dp54",
+      "metric": "runner summary success",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "stop_sequential_dp54",
+      "metric": "CSV rectangularity and unique headers",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "stop_sequential_dp54",
+      "metric": "all numeric cells finite",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "stop_sequential_dp54",
+      "metric": "elapsed epochs strictly increasing",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "stop_sequential_dp54",
+      "metric": "requested terminal elapsed epoch",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "stop_sequential_dp54",
+      "metric": "all recorded articulated solves successful",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "stop_sequential_dp54",
+      "metric": "quaternion normalization",
+      "error": 1.1102230246251565e-16,
+      "tolerance": 1e-10,
+      "pass": true
+    },
+    {
+      "case": "stop_sequential_dp54",
+      "metric": "fixed output grid length",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "stop_sequential_dp54",
+      "metric": "fixed output epochs",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "stop_sequential_rk4",
+      "metric": "runner exit status",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "stop_sequential_rk4",
+      "metric": "runner summary success",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "stop_sequential_rk4",
+      "metric": "CSV rectangularity and unique headers",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "stop_sequential_rk4",
+      "metric": "all numeric cells finite",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "stop_sequential_rk4",
+      "metric": "elapsed epochs strictly increasing",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "stop_sequential_rk4",
+      "metric": "requested terminal elapsed epoch",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "stop_sequential_rk4",
+      "metric": "all recorded articulated solves successful",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "stop_sequential_rk4",
+      "metric": "quaternion normalization",
+      "error": 1.1102230246251565e-16,
+      "tolerance": 1e-10,
+      "pass": true
+    },
+    {
+      "case": "stop_sequential_rk4",
+      "metric": "fixed output grid length",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "stop_sequential_rk4",
+      "metric": "fixed output epochs",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "stop_single_dp54",
+      "metric": "runner exit status",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "stop_single_dp54",
+      "metric": "runner summary success",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "stop_single_dp54",
+      "metric": "CSV rectangularity and unique headers",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "stop_single_dp54",
+      "metric": "all numeric cells finite",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "stop_single_dp54",
+      "metric": "elapsed epochs strictly increasing",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "stop_single_dp54",
+      "metric": "requested terminal elapsed epoch",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "stop_single_dp54",
+      "metric": "all recorded articulated solves successful",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "stop_single_dp54",
+      "metric": "quaternion normalization",
+      "error": 0.0,
+      "tolerance": 1e-10,
+      "pass": true
+    },
+    {
+      "case": "stop_single_dp54",
+      "metric": "fixed output grid length",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "stop_single_dp54",
+      "metric": "fixed output epochs",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "stop_single_rk4",
+      "metric": "runner exit status",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "stop_single_rk4",
+      "metric": "runner summary success",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "stop_single_rk4",
+      "metric": "CSV rectangularity and unique headers",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "stop_single_rk4",
+      "metric": "all numeric cells finite",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "stop_single_rk4",
+      "metric": "elapsed epochs strictly increasing",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "stop_single_rk4",
+      "metric": "requested terminal elapsed epoch",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "stop_single_rk4",
+      "metric": "all recorded articulated solves successful",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "stop_single_rk4",
+      "metric": "quaternion normalization",
+      "error": 0.0,
+      "tolerance": 1e-10,
+      "pass": true
+    },
+    {
+      "case": "stop_single_rk4",
+      "metric": "fixed output grid length",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "stop_single_rk4",
+      "metric": "fixed output epochs",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "adaptive_subpicosecond_tail",
+      "metric": "runner exit status",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "adaptive_subpicosecond_tail",
+      "metric": "runner summary success",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "adaptive_subpicosecond_tail",
+      "metric": "CSV rectangularity and unique headers",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "adaptive_subpicosecond_tail",
+      "metric": "all numeric cells finite",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "adaptive_subpicosecond_tail",
+      "metric": "elapsed epochs strictly increasing",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "adaptive_subpicosecond_tail",
+      "metric": "requested terminal elapsed epoch",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "adaptive_subpicosecond_tail",
+      "metric": "all recorded articulated solves successful",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "adaptive_subpicosecond_tail",
+      "metric": "quaternion normalization",
+      "error": 0.0,
+      "tolerance": 1e-10,
+      "pass": true
+    },
+    {
+      "case": "adaptive_subpicosecond_tail",
+      "metric": "force-free position follows elapsed time",
+      "error": 1.5e-12,
+      "tolerance": 1e-15,
+      "pass": false
+    },
+    {
+      "case": "adaptive_subpicosecond_tail",
+      "metric": "last interval advances physical state",
+      "error": 1.5e-12,
+      "tolerance": 1e-15,
+      "pass": false
+    },
+    {
+      "case": "commanded_thrust",
+      "metric": "runner exit status",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "commanded_thrust",
+      "metric": "runner summary success",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "commanded_thrust",
+      "metric": "CSV rectangularity and unique headers",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "commanded_thrust",
+      "metric": "all numeric cells finite",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "commanded_thrust",
+      "metric": "elapsed epochs strictly increasing",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "commanded_thrust",
+      "metric": "requested terminal elapsed epoch",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "commanded_thrust",
+      "metric": "all recorded articulated solves successful",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "commanded_thrust",
+      "metric": "quaternion normalization",
+      "error": 1.1102230246251565e-16,
+      "tolerance": 1e-10,
+      "pass": true
+    },
+    {
+      "case": "commanded_thrust",
+      "metric": "fixed output grid length",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "commanded_thrust",
+      "metric": "fixed output epochs",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "commanded_thrust h_0p001",
+      "metric": "commanded angular-momentum reference",
+      "error": 5.684341886080801e-13,
+      "tolerance": 1e-08,
+      "pass": true
+    },
+    {
+      "case": "commanded_thrust h_0p001",
+      "metric": "commanded finite impulse",
+      "error": 1.8164712400903227e-08,
+      "tolerance": 1e-06,
+      "pass": true
+    },
+    {
+      "case": "commanded_thrust",
+      "metric": "runner exit status",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "commanded_thrust",
+      "metric": "runner summary success",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "commanded_thrust",
+      "metric": "CSV rectangularity and unique headers",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "commanded_thrust",
+      "metric": "all numeric cells finite",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "commanded_thrust",
+      "metric": "elapsed epochs strictly increasing",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "commanded_thrust",
+      "metric": "requested terminal elapsed epoch",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "commanded_thrust",
+      "metric": "all recorded articulated solves successful",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "commanded_thrust",
+      "metric": "quaternion normalization",
+      "error": 1.1102230246251565e-16,
+      "tolerance": 1e-10,
+      "pass": true
+    },
+    {
+      "case": "commanded_thrust",
+      "metric": "fixed output grid length",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "commanded_thrust",
+      "metric": "fixed output epochs",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "commanded_thrust h_0p002",
+      "metric": "commanded angular-momentum reference",
+      "error": 5.115907697472721e-13,
+      "tolerance": 1e-08,
+      "pass": true
+    },
+    {
+      "case": "commanded_thrust h_0p002",
+      "metric": "commanded finite impulse",
+      "error": 3.5755647331825458e-09,
+      "tolerance": 1e-06,
+      "pass": true
+    },
+    {
+      "case": "commanded_thrust",
+      "metric": "runner exit status",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "commanded_thrust",
+      "metric": "runner summary success",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "commanded_thrust",
+      "metric": "CSV rectangularity and unique headers",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "commanded_thrust",
+      "metric": "all numeric cells finite",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "commanded_thrust",
+      "metric": "elapsed epochs strictly increasing",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "commanded_thrust",
+      "metric": "requested terminal elapsed epoch",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "commanded_thrust",
+      "metric": "all recorded articulated solves successful",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "commanded_thrust",
+      "metric": "quaternion normalization",
+      "error": 1.1102230246251565e-16,
+      "tolerance": 1e-10,
+      "pass": true
+    },
+    {
+      "case": "commanded_thrust",
+      "metric": "fixed output grid length",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "commanded_thrust",
+      "metric": "fixed output epochs",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "commanded_thrust h_0p005",
+      "metric": "commanded angular-momentum reference",
+      "error": 1.1368683772161603e-13,
+      "tolerance": 1e-08,
+      "pass": true
+    },
+    {
+      "case": "commanded_thrust h_0p005",
+      "metric": "commanded finite impulse",
+      "error": 7.794369594193995e-10,
+      "tolerance": 1e-06,
+      "pass": true
+    },
+    {
+      "case": "large_elapsed_event_above_tolerance_control",
+      "metric": "runner exit status",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "large_elapsed_event_above_tolerance_control",
+      "metric": "runner summary success",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "large_elapsed_event_above_tolerance_control",
+      "metric": "CSV rectangularity and unique headers",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "large_elapsed_event_above_tolerance_control",
+      "metric": "all numeric cells finite",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "large_elapsed_event_above_tolerance_control",
+      "metric": "elapsed epochs strictly increasing",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "large_elapsed_event_above_tolerance_control",
+      "metric": "requested terminal elapsed epoch",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "large_elapsed_event_above_tolerance_control",
+      "metric": "all recorded articulated solves successful",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "large_elapsed_event_above_tolerance_control",
+      "metric": "quaternion normalization",
+      "error": 0.0,
+      "tolerance": 1e-10,
+      "pass": true
+    },
+    {
+      "case": "large_elapsed_event_above_tolerance_control",
+      "metric": "fixed output grid length",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "large_elapsed_event_above_tolerance_control",
+      "metric": "fixed output epochs",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "large_elapsed_event_above_tolerance_control",
+      "metric": "finite-window propellant loss",
+      "error": 0.0,
+      "tolerance": 1e-12,
+      "pass": true
+    },
+    {
+      "case": "large_elapsed_event_above_tolerance_control",
+      "metric": "finite-window rocket-equation velocity",
+      "error": 4.440892098500626e-14,
+      "tolerance": 1e-09,
+      "pass": true
+    },
+    {
+      "case": "large_elapsed_event_near_output",
+      "metric": "runner exit status",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "large_elapsed_event_near_output",
+      "metric": "runner summary success",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "large_elapsed_event_near_output",
+      "metric": "CSV rectangularity and unique headers",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "large_elapsed_event_near_output",
+      "metric": "all numeric cells finite",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "large_elapsed_event_near_output",
+      "metric": "elapsed epochs strictly increasing",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "large_elapsed_event_near_output",
+      "metric": "requested terminal elapsed epoch",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "large_elapsed_event_near_output",
+      "metric": "all recorded articulated solves successful",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "large_elapsed_event_near_output",
+      "metric": "quaternion normalization",
+      "error": 0.0,
+      "tolerance": 1e-10,
+      "pass": true
+    },
+    {
+      "case": "large_elapsed_event_near_output",
+      "metric": "fixed output grid length",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "large_elapsed_event_near_output",
+      "metric": "fixed output epochs",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "large_elapsed_event_near_output",
+      "metric": "finite-window propellant loss",
+      "error": 0.0,
+      "tolerance": 1e-12,
+      "pass": true
+    },
+    {
+      "case": "large_elapsed_event_near_output",
+      "metric": "finite-window rocket-equation velocity",
+      "error": 4.440892098500626e-14,
+      "tolerance": 1e-09,
+      "pass": true
+    },
+    {
+      "case": "large_elapsed_final_before_boundary",
+      "metric": "runner exit status",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "large_elapsed_final_before_boundary",
+      "metric": "runner summary success",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "large_elapsed_final_before_boundary",
+      "metric": "CSV rectangularity and unique headers",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "large_elapsed_final_before_boundary",
+      "metric": "all numeric cells finite",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "large_elapsed_final_before_boundary",
+      "metric": "elapsed epochs strictly increasing",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "large_elapsed_final_before_boundary",
+      "metric": "requested terminal elapsed epoch",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "large_elapsed_final_before_boundary",
+      "metric": "all recorded articulated solves successful",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "large_elapsed_final_before_boundary",
+      "metric": "quaternion normalization",
+      "error": 0.0,
+      "tolerance": 1e-10,
+      "pass": true
+    },
+    {
+      "case": "large_elapsed_final_before_boundary",
+      "metric": "fixed output grid length",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "large_elapsed_final_before_boundary",
+      "metric": "fixed output epochs",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "large_elapsed_final_before_boundary",
+      "metric": "finite-window propellant loss",
+      "error": 0.0,
+      "tolerance": 1e-12,
+      "pass": true
+    },
+    {
+      "case": "large_elapsed_final_before_boundary",
+      "metric": "finite-window rocket-equation velocity",
+      "error": 0.0,
+      "tolerance": 1e-09,
+      "pass": true
+    },
+    {
+      "case": "large_elapsed_final_before_boundary",
+      "metric": "shutdown boundary has zero thrust",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "large_elapsed_thruster_boundary",
+      "metric": "runner exit status",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "large_elapsed_thruster_boundary",
+      "metric": "runner summary success",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "large_elapsed_thruster_boundary",
+      "metric": "CSV rectangularity and unique headers",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "large_elapsed_thruster_boundary",
+      "metric": "all numeric cells finite",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "large_elapsed_thruster_boundary",
+      "metric": "elapsed epochs strictly increasing",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "large_elapsed_thruster_boundary",
+      "metric": "requested terminal elapsed epoch",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "large_elapsed_thruster_boundary",
+      "metric": "all recorded articulated solves successful",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "large_elapsed_thruster_boundary",
+      "metric": "quaternion normalization",
+      "error": 0.0,
+      "tolerance": 1e-10,
+      "pass": true
+    },
+    {
+      "case": "large_elapsed_thruster_boundary",
+      "metric": "fixed output grid length",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "large_elapsed_thruster_boundary",
+      "metric": "fixed output epochs",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "large_elapsed_thruster_boundary",
+      "metric": "finite-window propellant loss",
+      "error": 4.718447854656915e-16,
+      "tolerance": 1e-12,
+      "pass": true
+    },
+    {
+      "case": "large_elapsed_thruster_boundary",
+      "metric": "finite-window rocket-equation velocity",
+      "error": 2.220446049250313e-16,
+      "tolerance": 1e-09,
+      "pass": true
+    },
+    {
+      "case": "reaction_wheel_every_step",
+      "metric": "runner exit status",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "reaction_wheel_every_step",
+      "metric": "runner summary success",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "reaction_wheel_every_step",
+      "metric": "CSV rectangularity and unique headers",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "reaction_wheel_every_step",
+      "metric": "all numeric cells finite",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "reaction_wheel_every_step",
+      "metric": "elapsed epochs strictly increasing",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "reaction_wheel_every_step",
+      "metric": "requested terminal elapsed epoch",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "reaction_wheel_every_step",
+      "metric": "all recorded articulated solves successful",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "reaction_wheel_every_step",
+      "metric": "quaternion normalization",
+      "error": 1.1102230246251565e-16,
+      "tolerance": 1e-10,
+      "pass": true
+    },
+    {
+      "case": "prescribed_one_ulp_window",
+      "metric": "runner exit status",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "prescribed_one_ulp_window",
+      "metric": "runner summary success",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "prescribed_one_ulp_window",
+      "metric": "CSV rectangularity and unique headers",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "prescribed_one_ulp_window",
+      "metric": "all numeric cells finite",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "prescribed_one_ulp_window",
+      "metric": "elapsed epochs strictly increasing",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "prescribed_one_ulp_window",
+      "metric": "requested terminal elapsed epoch",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "prescribed_one_ulp_window",
+      "metric": "all recorded articulated solves successful",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "prescribed_one_ulp_window",
+      "metric": "quaternion normalization",
+      "error": 0.0,
+      "tolerance": 1e-10,
+      "pass": true
+    },
+    {
+      "case": "prescribed_one_ulp_window",
+      "metric": "fixed output grid length",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "prescribed_one_ulp_window",
+      "metric": "fixed output epochs",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "prescribed_one_ulp_window",
+      "metric": "finite-window propellant loss",
+      "error": 0.0,
+      "tolerance": 1e-12,
+      "pass": true
+    },
+    {
+      "case": "prescribed_one_ulp_window",
+      "metric": "finite-window rocket-equation velocity",
+      "error": 5.758714428168339e-15,
+      "tolerance": 1e-09,
+      "pass": true
+    },
+    {
+      "case": "prescribed_spans_output",
+      "metric": "runner exit status",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "prescribed_spans_output",
+      "metric": "runner summary success",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "prescribed_spans_output",
+      "metric": "CSV rectangularity and unique headers",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "prescribed_spans_output",
+      "metric": "all numeric cells finite",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "prescribed_spans_output",
+      "metric": "elapsed epochs strictly increasing",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "prescribed_spans_output",
+      "metric": "requested terminal elapsed epoch",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "prescribed_spans_output",
+      "metric": "all recorded articulated solves successful",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "prescribed_spans_output",
+      "metric": "quaternion normalization",
+      "error": 0.0,
+      "tolerance": 1e-10,
+      "pass": true
+    },
+    {
+      "case": "prescribed_spans_output",
+      "metric": "fixed output grid length",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "prescribed_spans_output",
+      "metric": "fixed output epochs",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "prescribed_spans_output",
+      "metric": "finite-window propellant loss",
+      "error": 0.0,
+      "tolerance": 1e-12,
+      "pass": true
+    },
+    {
+      "case": "prescribed_spans_output",
+      "metric": "finite-window rocket-equation velocity",
+      "error": 5.758848259374005e-15,
+      "tolerance": 1e-09,
+      "pass": true
+    },
+    {
+      "case": "shutdown_at_output_and_final",
+      "metric": "runner exit status",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "shutdown_at_output_and_final",
+      "metric": "runner summary success",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "shutdown_at_output_and_final",
+      "metric": "CSV rectangularity and unique headers",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "shutdown_at_output_and_final",
+      "metric": "all numeric cells finite",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "shutdown_at_output_and_final",
+      "metric": "elapsed epochs strictly increasing",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "shutdown_at_output_and_final",
+      "metric": "requested terminal elapsed epoch",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "shutdown_at_output_and_final",
+      "metric": "all recorded articulated solves successful",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "shutdown_at_output_and_final",
+      "metric": "quaternion normalization",
+      "error": 0.0,
+      "tolerance": 1e-10,
+      "pass": true
+    },
+    {
+      "case": "shutdown_at_output_and_final",
+      "metric": "fixed output grid length",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "shutdown_at_output_and_final",
+      "metric": "fixed output epochs",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "shutdown_at_output_and_final",
+      "metric": "finite-window propellant loss",
+      "error": 0.0,
+      "tolerance": 1e-12,
+      "pass": true
+    },
+    {
+      "case": "shutdown_at_output_and_final",
+      "metric": "finite-window rocket-equation velocity",
+      "error": 5.758739839156757e-15,
+      "tolerance": 1e-09,
+      "pass": true
+    },
+    {
+      "case": "shutdown_at_output_and_final",
+      "metric": "shutdown boundary has zero thrust",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "short_elapsed_thruster_window",
+      "metric": "runner exit status",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "short_elapsed_thruster_window",
+      "metric": "runner summary success",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "short_elapsed_thruster_window",
+      "metric": "CSV rectangularity and unique headers",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "short_elapsed_thruster_window",
+      "metric": "all numeric cells finite",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "short_elapsed_thruster_window",
+      "metric": "elapsed epochs strictly increasing",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "short_elapsed_thruster_window",
+      "metric": "requested terminal elapsed epoch",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "short_elapsed_thruster_window",
+      "metric": "all recorded articulated solves successful",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "short_elapsed_thruster_window",
+      "metric": "quaternion normalization",
+      "error": 0.0,
+      "tolerance": 1e-10,
+      "pass": true
+    },
+    {
+      "case": "short_elapsed_thruster_window",
+      "metric": "fixed output grid length",
+      "error": 1.0,
+      "tolerance": 0.0,
+      "pass": false
+    },
+    {
+      "case": "short_elapsed_thruster_window",
+      "metric": "fixed output epochs",
+      "error": 2.0,
+      "tolerance": 0.0,
+      "pass": false
+    },
+    {
+      "case": "short_elapsed_thruster_window",
+      "metric": "clipped piecewise-linear profile impulse",
+      "error": 5.732678221015419e-12,
+      "tolerance": 1e-09,
+      "pass": true
+    },
+    {
+      "case": "short_elapsed_thruster_window",
+      "metric": "clipped profile propellant loss",
+      "error": 2.922846426695047e-15,
+      "tolerance": 1e-12,
+      "pass": true
+    },
+    {
+      "case": "duration_boundary_decimal_0p3s",
+      "metric": "runner exit status",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "duration_boundary_decimal_0p3s",
+      "metric": "runner summary success",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "duration_boundary_decimal_0p3s",
+      "metric": "CSV rectangularity and unique headers",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "duration_boundary_decimal_0p3s",
+      "metric": "all numeric cells finite",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "duration_boundary_decimal_0p3s",
+      "metric": "elapsed epochs strictly increasing",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "duration_boundary_decimal_0p3s",
+      "metric": "requested terminal elapsed epoch",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "duration_boundary_decimal_0p3s",
+      "metric": "all recorded articulated solves successful",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "duration_boundary_decimal_0p3s",
+      "metric": "quaternion normalization",
+      "error": 0.0,
+      "tolerance": 1e-10,
+      "pass": true
+    },
+    {
+      "case": "duration_boundary_decimal_0p3s",
+      "metric": "fixed output grid length",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "duration_boundary_decimal_0p3s",
+      "metric": "fixed output epochs",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "duration_boundary_decimal_0p3s",
+      "metric": "force-free position follows elapsed time",
+      "error": 2.220446049250313e-16,
+      "tolerance": 1e-09,
+      "pass": true
+    },
+    {
+      "case": "duration_boundary_decimal_0p3s",
+      "metric": "last interval advances physical state",
+      "error": 0.0,
+      "tolerance": 1e-09,
+      "pass": true
+    },
+    {
+      "case": "duration_integral_1s",
+      "metric": "runner exit status",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "duration_integral_1s",
+      "metric": "runner summary success",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "duration_integral_1s",
+      "metric": "CSV rectangularity and unique headers",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "duration_integral_1s",
+      "metric": "all numeric cells finite",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "duration_integral_1s",
+      "metric": "elapsed epochs strictly increasing",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "duration_integral_1s",
+      "metric": "requested terminal elapsed epoch",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "duration_integral_1s",
+      "metric": "all recorded articulated solves successful",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "duration_integral_1s",
+      "metric": "quaternion normalization",
+      "error": 0.0,
+      "tolerance": 1e-10,
+      "pass": true
+    },
+    {
+      "case": "duration_integral_1s",
+      "metric": "fixed output grid length",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "duration_integral_1s",
+      "metric": "fixed output epochs",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "duration_integral_1s",
+      "metric": "force-free position follows elapsed time",
+      "error": 4.884981308350689e-15,
+      "tolerance": 1e-09,
+      "pass": true
+    },
+    {
+      "case": "duration_integral_1s",
+      "metric": "last interval advances physical state",
+      "error": 1.6653345369377348e-15,
+      "tolerance": 1e-09,
+      "pass": true
+    },
+    {
+      "case": "duration_nonintegral_1p05s",
+      "metric": "runner exit status",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "duration_nonintegral_1p05s",
+      "metric": "runner summary success",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "duration_nonintegral_1p05s",
+      "metric": "CSV rectangularity and unique headers",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "duration_nonintegral_1p05s",
+      "metric": "all numeric cells finite",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "duration_nonintegral_1p05s",
+      "metric": "elapsed epochs strictly increasing",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "duration_nonintegral_1p05s",
+      "metric": "requested terminal elapsed epoch",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "duration_nonintegral_1p05s",
+      "metric": "all recorded articulated solves successful",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "duration_nonintegral_1p05s",
+      "metric": "quaternion normalization",
+      "error": 0.0,
+      "tolerance": 1e-10,
+      "pass": true
+    },
+    {
+      "case": "duration_nonintegral_1p05s",
+      "metric": "fixed output grid length",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "duration_nonintegral_1p05s",
+      "metric": "fixed output epochs",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "duration_nonintegral_1p05s",
+      "metric": "force-free position follows elapsed time",
+      "error": 5.329070518200751e-15,
+      "tolerance": 1e-09,
+      "pass": true
+    },
+    {
+      "case": "duration_nonintegral_1p05s",
+      "metric": "last interval advances physical state",
+      "error": 6.661338147750939e-16,
+      "tolerance": 1e-09,
+      "pass": true
+    },
+    {
+      "case": "duration_offgrid_minus_1e8s",
+      "metric": "runner exit status",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "duration_offgrid_minus_1e8s",
+      "metric": "runner summary success",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "duration_offgrid_minus_1e8s",
+      "metric": "CSV rectangularity and unique headers",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "duration_offgrid_minus_1e8s",
+      "metric": "all numeric cells finite",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "duration_offgrid_minus_1e8s",
+      "metric": "elapsed epochs strictly increasing",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "duration_offgrid_minus_1e8s",
+      "metric": "requested terminal elapsed epoch",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "duration_offgrid_minus_1e8s",
+      "metric": "all recorded articulated solves successful",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "duration_offgrid_minus_1e8s",
+      "metric": "quaternion normalization",
+      "error": 0.0,
+      "tolerance": 1e-10,
+      "pass": true
+    },
+    {
+      "case": "duration_offgrid_minus_1e8s",
+      "metric": "fixed output grid length",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "duration_offgrid_minus_1e8s",
+      "metric": "fixed output epochs",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "duration_offgrid_minus_1e8s",
+      "metric": "force-free position follows elapsed time",
+      "error": 4.884981308350689e-15,
+      "tolerance": 1e-09,
+      "pass": true
+    },
+    {
+      "case": "duration_offgrid_minus_1e8s",
+      "metric": "last interval advances physical state",
+      "error": 1.5543122344752192e-15,
+      "tolerance": 1e-09,
+      "pass": true
+    },
+    {
+      "case": "duration_offgrid_plus_1e12s",
+      "metric": "runner exit status",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "duration_offgrid_plus_1e12s",
+      "metric": "runner summary success",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "duration_offgrid_plus_1e12s",
+      "metric": "CSV rectangularity and unique headers",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "duration_offgrid_plus_1e12s",
+      "metric": "all numeric cells finite",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "duration_offgrid_plus_1e12s",
+      "metric": "elapsed epochs strictly increasing",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "duration_offgrid_plus_1e12s",
+      "metric": "requested terminal elapsed epoch",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "duration_offgrid_plus_1e12s",
+      "metric": "all recorded articulated solves successful",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "duration_offgrid_plus_1e12s",
+      "metric": "quaternion normalization",
+      "error": 0.0,
+      "tolerance": 1e-10,
+      "pass": true
+    },
+    {
+      "case": "duration_offgrid_plus_1e12s",
+      "metric": "fixed output grid length",
+      "error": 1.0,
+      "tolerance": 0.0,
+      "pass": false
+    },
+    {
+      "case": "duration_offgrid_plus_1e12s",
+      "metric": "fixed output epochs",
+      "error": 2.0,
+      "tolerance": 0.0,
+      "pass": false
+    },
+    {
+      "case": "duration_offgrid_plus_1e12s",
+      "metric": "force-free position follows elapsed time",
+      "error": 4.884981308350689e-15,
+      "tolerance": 1e-09,
+      "pass": true
+    },
+    {
+      "case": "duration_offgrid_plus_1e12s",
+      "metric": "last interval advances physical state",
+      "error": 1.6653345369377348e-15,
+      "tolerance": 1e-09,
+      "pass": true
+    },
+    {
+      "case": "duration_offgrid_plus_1e14s",
+      "metric": "runner exit status",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "duration_offgrid_plus_1e14s",
+      "metric": "runner summary success",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "duration_offgrid_plus_1e14s",
+      "metric": "CSV rectangularity and unique headers",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "duration_offgrid_plus_1e14s",
+      "metric": "all numeric cells finite",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "duration_offgrid_plus_1e14s",
+      "metric": "elapsed epochs strictly increasing",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "duration_offgrid_plus_1e14s",
+      "metric": "requested terminal elapsed epoch",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "duration_offgrid_plus_1e14s",
+      "metric": "all recorded articulated solves successful",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "duration_offgrid_plus_1e14s",
+      "metric": "quaternion normalization",
+      "error": 0.0,
+      "tolerance": 1e-10,
+      "pass": true
+    },
+    {
+      "case": "duration_offgrid_plus_1e14s",
+      "metric": "fixed output grid length",
+      "error": 1.0,
+      "tolerance": 0.0,
+      "pass": false
+    },
+    {
+      "case": "duration_offgrid_plus_1e14s",
+      "metric": "fixed output epochs",
+      "error": 2.0,
+      "tolerance": 0.0,
+      "pass": false
+    },
+    {
+      "case": "duration_offgrid_plus_1e14s",
+      "metric": "force-free position follows elapsed time",
+      "error": 4.440892098500626e-15,
+      "tolerance": 1e-09,
+      "pass": true
+    },
+    {
+      "case": "duration_offgrid_plus_1e14s",
+      "metric": "last interval advances physical state",
+      "error": 1.4432899320127035e-15,
+      "tolerance": 1e-09,
+      "pass": true
+    },
+    {
+      "case": "duration_offgrid_plus_1e6s",
+      "metric": "runner exit status",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "duration_offgrid_plus_1e6s",
+      "metric": "runner summary success",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "duration_offgrid_plus_1e6s",
+      "metric": "CSV rectangularity and unique headers",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "duration_offgrid_plus_1e6s",
+      "metric": "all numeric cells finite",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "duration_offgrid_plus_1e6s",
+      "metric": "elapsed epochs strictly increasing",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "duration_offgrid_plus_1e6s",
+      "metric": "requested terminal elapsed epoch",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "duration_offgrid_plus_1e6s",
+      "metric": "all recorded articulated solves successful",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "duration_offgrid_plus_1e6s",
+      "metric": "quaternion normalization",
+      "error": 0.0,
+      "tolerance": 1e-10,
+      "pass": true
+    },
+    {
+      "case": "duration_offgrid_plus_1e6s",
+      "metric": "fixed output grid length",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "duration_offgrid_plus_1e6s",
+      "metric": "fixed output epochs",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "duration_offgrid_plus_1e6s",
+      "metric": "force-free position follows elapsed time",
+      "error": 5.329070518200751e-15,
+      "tolerance": 1e-09,
+      "pass": true
+    },
+    {
+      "case": "duration_offgrid_plus_1e6s",
+      "metric": "last interval advances physical state",
+      "error": 2.220446049250313e-16,
+      "tolerance": 1e-09,
+      "pass": true
+    },
+    {
+      "case": "duration_offgrid_plus_1e7s",
+      "metric": "runner exit status",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "duration_offgrid_plus_1e7s",
+      "metric": "runner summary success",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "duration_offgrid_plus_1e7s",
+      "metric": "CSV rectangularity and unique headers",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "duration_offgrid_plus_1e7s",
+      "metric": "all numeric cells finite",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "duration_offgrid_plus_1e7s",
+      "metric": "elapsed epochs strictly increasing",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "duration_offgrid_plus_1e7s",
+      "metric": "requested terminal elapsed epoch",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "duration_offgrid_plus_1e7s",
+      "metric": "all recorded articulated solves successful",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "duration_offgrid_plus_1e7s",
+      "metric": "quaternion normalization",
+      "error": 0.0,
+      "tolerance": 1e-10,
+      "pass": true
+    },
+    {
+      "case": "duration_offgrid_plus_1e7s",
+      "metric": "fixed output grid length",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "duration_offgrid_plus_1e7s",
+      "metric": "fixed output epochs",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "duration_offgrid_plus_1e7s",
+      "metric": "force-free position follows elapsed time",
+      "error": 5.329070518200751e-15,
+      "tolerance": 1e-09,
+      "pass": true
+    },
+    {
+      "case": "duration_offgrid_plus_1e7s",
+      "metric": "last interval advances physical state",
+      "error": 2.220446049250313e-16,
+      "tolerance": 1e-09,
+      "pass": true
+    },
+    {
+      "case": "duration_offgrid_plus_1e8s",
+      "metric": "runner exit status",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "duration_offgrid_plus_1e8s",
+      "metric": "runner summary success",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "duration_offgrid_plus_1e8s",
+      "metric": "CSV rectangularity and unique headers",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "duration_offgrid_plus_1e8s",
+      "metric": "all numeric cells finite",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "duration_offgrid_plus_1e8s",
+      "metric": "elapsed epochs strictly increasing",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "duration_offgrid_plus_1e8s",
+      "metric": "requested terminal elapsed epoch",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "duration_offgrid_plus_1e8s",
+      "metric": "all recorded articulated solves successful",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "duration_offgrid_plus_1e8s",
+      "metric": "quaternion normalization",
+      "error": 0.0,
+      "tolerance": 1e-10,
+      "pass": true
+    },
+    {
+      "case": "duration_offgrid_plus_1e8s",
+      "metric": "fixed output grid length",
+      "error": 1.0,
+      "tolerance": 0.0,
+      "pass": false
+    },
+    {
+      "case": "duration_offgrid_plus_1e8s",
+      "metric": "fixed output epochs",
+      "error": 2.0,
+      "tolerance": 0.0,
+      "pass": false
+    },
+    {
+      "case": "duration_offgrid_plus_1e8s",
+      "metric": "force-free position follows elapsed time",
+      "error": 4.884981308350689e-15,
+      "tolerance": 1e-09,
+      "pass": true
+    },
+    {
+      "case": "duration_offgrid_plus_1e8s",
+      "metric": "last interval advances physical state",
+      "error": 1.6653345369377348e-15,
+      "tolerance": 1e-09,
+      "pass": true
+    },
+    {
+      "case": "duration_offgrid_plus_2e14s",
+      "metric": "runner exit status",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "duration_offgrid_plus_2e14s",
+      "metric": "runner summary success",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "duration_offgrid_plus_2e14s",
+      "metric": "CSV rectangularity and unique headers",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "duration_offgrid_plus_2e14s",
+      "metric": "all numeric cells finite",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "duration_offgrid_plus_2e14s",
+      "metric": "elapsed epochs strictly increasing",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "duration_offgrid_plus_2e14s",
+      "metric": "requested terminal elapsed epoch",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "duration_offgrid_plus_2e14s",
+      "metric": "all recorded articulated solves successful",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "duration_offgrid_plus_2e14s",
+      "metric": "quaternion normalization",
+      "error": 0.0,
+      "tolerance": 1e-10,
+      "pass": true
+    },
+    {
+      "case": "duration_offgrid_plus_2e14s",
+      "metric": "fixed output grid length",
+      "error": 1.0,
+      "tolerance": 0.0,
+      "pass": false
+    },
+    {
+      "case": "duration_offgrid_plus_2e14s",
+      "metric": "fixed output epochs",
+      "error": 2.0,
+      "tolerance": 0.0,
+      "pass": false
+    },
+    {
+      "case": "duration_offgrid_plus_2e14s",
+      "metric": "force-free position follows elapsed time",
+      "error": 4.884981308350689e-15,
+      "tolerance": 1e-09,
+      "pass": true
+    },
+    {
+      "case": "duration_offgrid_plus_2e14s",
+      "metric": "last interval advances physical state",
+      "error": 1.6653345369377348e-15,
+      "tolerance": 1e-09,
+      "pass": true
+    },
+    {
+      "case": "final_utc_integral_1s",
+      "metric": "runner exit status",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "final_utc_integral_1s",
+      "metric": "runner summary success",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "final_utc_integral_1s",
+      "metric": "CSV rectangularity and unique headers",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "final_utc_integral_1s",
+      "metric": "all numeric cells finite",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "final_utc_integral_1s",
+      "metric": "elapsed epochs strictly increasing",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "final_utc_integral_1s",
+      "metric": "requested terminal elapsed epoch",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "final_utc_integral_1s",
+      "metric": "all recorded articulated solves successful",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "final_utc_integral_1s",
+      "metric": "quaternion normalization",
+      "error": 0.0,
+      "tolerance": 1e-10,
+      "pass": true
+    },
+    {
+      "case": "final_utc_integral_1s",
+      "metric": "fixed output grid length",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "final_utc_integral_1s",
+      "metric": "fixed output epochs",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "final_utc_integral_1s",
+      "metric": "force-free position follows elapsed time",
+      "error": 4.884981308350689e-15,
+      "tolerance": 1e-09,
+      "pass": true
+    },
+    {
+      "case": "final_utc_integral_1s",
+      "metric": "last interval advances physical state",
+      "error": 1.6653345369377348e-15,
+      "tolerance": 1e-09,
+      "pass": true
+    },
+    {
+      "case": "final_utc_nonintegral_1p05s",
+      "metric": "runner exit status",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "final_utc_nonintegral_1p05s",
+      "metric": "runner summary success",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "final_utc_nonintegral_1p05s",
+      "metric": "CSV rectangularity and unique headers",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "final_utc_nonintegral_1p05s",
+      "metric": "all numeric cells finite",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "final_utc_nonintegral_1p05s",
+      "metric": "elapsed epochs strictly increasing",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "final_utc_nonintegral_1p05s",
+      "metric": "requested terminal elapsed epoch",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "final_utc_nonintegral_1p05s",
+      "metric": "all recorded articulated solves successful",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "final_utc_nonintegral_1p05s",
+      "metric": "quaternion normalization",
+      "error": 0.0,
+      "tolerance": 1e-10,
+      "pass": true
+    },
+    {
+      "case": "final_utc_nonintegral_1p05s",
+      "metric": "fixed output grid length",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "final_utc_nonintegral_1p05s",
+      "metric": "fixed output epochs",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "final_utc_nonintegral_1p05s",
+      "metric": "force-free position follows elapsed time",
+      "error": 5.329070518200751e-15,
+      "tolerance": 1e-09,
+      "pass": true
+    },
+    {
+      "case": "final_utc_nonintegral_1p05s",
+      "metric": "last interval advances physical state",
+      "error": 4.440892098500626e-16,
+      "tolerance": 1e-09,
+      "pass": true
+    },
+    {
+      "case": "large_elapsed_integral",
+      "metric": "runner exit status",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "large_elapsed_integral",
+      "metric": "runner summary success",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "large_elapsed_integral",
+      "metric": "CSV rectangularity and unique headers",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "large_elapsed_integral",
+      "metric": "all numeric cells finite",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "large_elapsed_integral",
+      "metric": "elapsed epochs strictly increasing",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "large_elapsed_integral",
+      "metric": "requested terminal elapsed epoch",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "large_elapsed_integral",
+      "metric": "all recorded articulated solves successful",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "large_elapsed_integral",
+      "metric": "quaternion normalization",
+      "error": 0.0,
+      "tolerance": 1e-10,
+      "pass": true
+    },
+    {
+      "case": "large_elapsed_integral",
+      "metric": "fixed output grid length",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "large_elapsed_integral",
+      "metric": "fixed output epochs",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "large_elapsed_integral",
+      "metric": "force-free position follows elapsed time",
+      "error": 0.0,
+      "tolerance": 3.814697265625e-06,
+      "pass": true
+    },
+    {
+      "case": "large_elapsed_integral",
+      "metric": "last interval advances physical state",
+      "error": 0.0,
+      "tolerance": 3.814697265625e-06,
+      "pass": true
+    },
+    {
+      "case": "large_elapsed_tail_1e4s",
+      "metric": "runner exit status",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "large_elapsed_tail_1e4s",
+      "metric": "runner summary success",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "large_elapsed_tail_1e4s",
+      "metric": "CSV rectangularity and unique headers",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "large_elapsed_tail_1e4s",
+      "metric": "all numeric cells finite",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "large_elapsed_tail_1e4s",
+      "metric": "elapsed epochs strictly increasing",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "large_elapsed_tail_1e4s",
+      "metric": "requested terminal elapsed epoch",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "large_elapsed_tail_1e4s",
+      "metric": "all recorded articulated solves successful",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "large_elapsed_tail_1e4s",
+      "metric": "quaternion normalization",
+      "error": 0.0,
+      "tolerance": 1e-10,
+      "pass": true
+    },
+    {
+      "case": "large_elapsed_tail_1e4s",
+      "metric": "fixed output grid length",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "large_elapsed_tail_1e4s",
+      "metric": "fixed output epochs",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "large_elapsed_tail_1e4s",
+      "metric": "force-free position follows elapsed time",
+      "error": 0.0,
+      "tolerance": 3.814697265625e-06,
+      "pass": true
+    },
+    {
+      "case": "large_elapsed_tail_1e4s",
+      "metric": "last interval advances physical state",
+      "error": 1.1920928955078125e-07,
+      "tolerance": 3.814697265625e-06,
+      "pass": true
+    },
+    {
+      "case": "large_elapsed_tail_1e5s",
+      "metric": "runner exit status",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "large_elapsed_tail_1e5s",
+      "metric": "runner summary success",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "large_elapsed_tail_1e5s",
+      "metric": "CSV rectangularity and unique headers",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "large_elapsed_tail_1e5s",
+      "metric": "all numeric cells finite",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "large_elapsed_tail_1e5s",
+      "metric": "elapsed epochs strictly increasing",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "large_elapsed_tail_1e5s",
+      "metric": "requested terminal elapsed epoch",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "large_elapsed_tail_1e5s",
+      "metric": "all recorded articulated solves successful",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "large_elapsed_tail_1e5s",
+      "metric": "quaternion normalization",
+      "error": 0.0,
+      "tolerance": 1e-10,
+      "pass": true
+    },
+    {
+      "case": "large_elapsed_tail_1e5s",
+      "metric": "fixed output grid length",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "large_elapsed_tail_1e5s",
+      "metric": "fixed output epochs",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "large_elapsed_tail_1e5s",
+      "metric": "force-free position follows elapsed time",
+      "error": 0.0,
+      "tolerance": 3.814697265625e-06,
+      "pass": true
+    },
+    {
+      "case": "large_elapsed_tail_1e5s",
+      "metric": "last interval advances physical state",
+      "error": 0.0,
+      "tolerance": 3.814697265625e-06,
+      "pass": true
+    },
+    {
+      "case": "large_elapsed_tail_1e6s",
+      "metric": "runner exit status",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "large_elapsed_tail_1e6s",
+      "metric": "runner summary success",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "large_elapsed_tail_1e6s",
+      "metric": "CSV rectangularity and unique headers",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "large_elapsed_tail_1e6s",
+      "metric": "all numeric cells finite",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "large_elapsed_tail_1e6s",
+      "metric": "elapsed epochs strictly increasing",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "large_elapsed_tail_1e6s",
+      "metric": "requested terminal elapsed epoch",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "large_elapsed_tail_1e6s",
+      "metric": "all recorded articulated solves successful",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "large_elapsed_tail_1e6s",
+      "metric": "quaternion normalization",
+      "error": 0.0,
+      "tolerance": 1e-10,
+      "pass": true
+    },
+    {
+      "case": "large_elapsed_tail_1e6s",
+      "metric": "fixed output grid length",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "large_elapsed_tail_1e6s",
+      "metric": "fixed output epochs",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "large_elapsed_tail_1e6s",
+      "metric": "force-free position follows elapsed time",
+      "error": 0.0,
+      "tolerance": 3.814697265625e-06,
+      "pass": true
+    },
+    {
+      "case": "large_elapsed_tail_1e6s",
+      "metric": "last interval advances physical state",
+      "error": 0.0,
+      "tolerance": 3.814697265625e-06,
+      "pass": true
+    },
+    {
+      "case": "large_elapsed_tail_2e5s",
+      "metric": "runner exit status",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "large_elapsed_tail_2e5s",
+      "metric": "runner summary success",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "large_elapsed_tail_2e5s",
+      "metric": "CSV rectangularity and unique headers",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "large_elapsed_tail_2e5s",
+      "metric": "all numeric cells finite",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "large_elapsed_tail_2e5s",
+      "metric": "elapsed epochs strictly increasing",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "large_elapsed_tail_2e5s",
+      "metric": "requested terminal elapsed epoch",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "large_elapsed_tail_2e5s",
+      "metric": "all recorded articulated solves successful",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "large_elapsed_tail_2e5s",
+      "metric": "quaternion normalization",
+      "error": 0.0,
+      "tolerance": 1e-10,
+      "pass": true
+    },
+    {
+      "case": "large_elapsed_tail_2e5s",
+      "metric": "fixed output grid length",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "large_elapsed_tail_2e5s",
+      "metric": "fixed output epochs",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "large_elapsed_tail_2e5s",
+      "metric": "force-free position follows elapsed time",
+      "error": 0.0,
+      "tolerance": 3.814697265625e-06,
+      "pass": true
+    },
+    {
+      "case": "large_elapsed_tail_2e5s",
+      "metric": "last interval advances physical state",
+      "error": 0.0,
+      "tolerance": 3.814697265625e-06,
+      "pass": true
+    },
+    {
+      "case": "reaction_wheel_repeat",
+      "metric": "byte-identical deterministic repeat",
+      "error": 0.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "case": "reaction_wheel_every_step",
+      "metric": "wheel capacity",
+      "error": 0.0,
+      "tolerance": 1e-12,
+      "pass": true
+    },
+    {
+      "case": "reaction_wheel_every_step",
+      "metric": "total angular-momentum conservation",
+      "error": 2.7755575615628914e-17,
+      "tolerance": 1e-10,
+      "pass": true
+    }
+  ],
+  "burn_references": [
+    {
+      "case": "large_elapsed_event_above_tolerance_control",
+      "expected_propellant_loss_kg": 0.10000002384185791,
+      "actual_propellant_loss_kg": 0.10000002384185791,
+      "velocity_error_mps": 4.440892098500626e-14
+    },
+    {
+      "case": "large_elapsed_event_near_output",
+      "expected_propellant_loss_kg": 0.10000002384185791,
+      "actual_propellant_loss_kg": 0.10000002384185791,
+      "velocity_error_mps": 4.440892098500626e-14
+    },
+    {
+      "case": "large_elapsed_final_before_boundary",
+      "expected_propellant_loss_kg": 0.0,
+      "actual_propellant_loss_kg": 0.0,
+      "velocity_error_mps": 0.0
+    },
+    {
+      "case": "large_elapsed_thruster_boundary",
+      "expected_propellant_loss_kg": 0.05098582280486094,
+      "actual_propellant_loss_kg": 0.050985822804861414,
+      "velocity_error_mps": 2.220446049250313e-16
+    },
+    {
+      "case": "prescribed_one_ulp_window",
+      "expected_propellant_loss_kg": 1.1920928955078125e-07,
+      "actual_propellant_loss_kg": 1.1920928955078125e-07,
+      "velocity_error_mps": -5.758714428168339e-15
+    },
+    {
+      "case": "prescribed_spans_output",
+      "expected_propellant_loss_kg": 2.002716064453125e-05,
+      "actual_propellant_loss_kg": 2.002716064453125e-05,
+      "velocity_error_mps": -5.758848259374005e-15
+    },
+    {
+      "case": "shutdown_at_output_and_final",
+      "expected_propellant_loss_kg": 1.0013580322265625e-05,
+      "actual_propellant_loss_kg": 1.0013580322265625e-05,
+      "velocity_error_mps": -5.758739839156757e-15
+    },
+    {
+      "case": "short_elapsed_thruster_window",
+      "expected_impulse_ns": 0.09999949999999999,
+      "mass_derived_impulse_ns": 0.09999949999426731
+    }
+  ],
+  "time_note": "Elapsed time orders samples. Absolute ET may collide in binary64 for sub-ULP intervals; those collisions are reported separately."
+}

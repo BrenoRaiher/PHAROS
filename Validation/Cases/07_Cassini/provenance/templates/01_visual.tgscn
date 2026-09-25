@@ -1,0 +1,625 @@
+format = "TGSCN"
+format_version = 1
+generator = "Cassini three-TGSCN continuous reconstruction, 2026-08-26"
+
+[scenario]
+name = "Cassini-like mission: separation to immediately before TCM-1 (visual-appearance variant)"
+start_utc = "1997-10-15T09:26:08.390Z"
+end_mode = "final_utc"
+final_utc = "1997-11-09T20:00:00.000Z"
+integrator = "adaptive_dormand_prince_54"
+maximum_integrator_step_seconds = 300
+initial_integrator_step_seconds = 10.0
+absolute_tolerance = 1.0e-5
+relative_tolerance = 1.0e-12
+output_mode = "fixed_interval"
+output_step_seconds = 1800
+maximum_integration_steps = 5000000
+maximum_output_samples = 1000000
+mass_flow_convention = "thrust_includes_exhaust_momentum"
+
+[initial_state]
+position_icrf_m = [137043961757.15411, 52036201906.802483, 22590723804.27713]
+velocity_icrf_mps = [-5724.0722932263707, 16951.607792508021, 8023.475198623325]
+attitude_body_to_icrf = [0.51358668697985888, 0.52577555528675068, 0.46817247596867073, -0.49051331599185533]
+angular_velocity_body_radps = [0, 0, 0]
+
+[[components]]
+id = "ca550001-0000-0000-0000-000000000001"
+name = "Cassini-Huygens dry spacecraft"
+initial_mass_kg = 2523
+minimum_mass_kg = 2523
+variable_mass = false
+local_center_of_mass_m = [0.0, 0.0, 0.0]
+origin_body_m = [0.0, 0.0, 0.0]
+component_to_body = [1.0, 0.0, 0.0, 0.0]
+parent_component = ""
+parent_anchor_m = [0.0, 0.0, 0.0]
+child_anchor_m = [0.0, 0.0, 0.0]
+child_to_parent_zero_orientation = [1.0, 0.0, 0.0, 0.0]
+dofs = []
+inertia = { ixx_kgm2 = 5046, iyy_kgm2 = 12249, izz_kgm2 = 12249, ixy_kgm2 = 0.0, ixz_kgm2 = 0.0, iyz_kgm2 = 0.0 }
+
+[[components]]
+id = "ca550002-0000-0000-0000-000000000002"
+name = "Cassini propellant inventory"
+initial_mass_kg = 3050.8000000000002
+minimum_mass_kg = 0.0
+variable_mass = true
+local_center_of_mass_m = [0.0, 0.0, 0.0]
+origin_body_m = [0.0, 0.0, 0.0]
+component_to_body = [1.0, 0.0, 0.0, 0.0]
+parent_component = "Cassini-Huygens dry spacecraft"
+parent_anchor_m = [0.0, 0.0, 0.0]
+child_anchor_m = [0.0, 0.0, 0.0]
+child_to_parent_zero_orientation = [1.0, 0.0, 0.0, 0.0]
+dofs = []
+inertia = { ixx_kgm2 = 6102, iyy_kgm2 = 14800, izz_kgm2 = 14800, ixy_kgm2 = 0, ixz_kgm2 = 0, iyz_kgm2 = 0 }
+
+
+
+# The following fixed, massless children are presentation-only. Every derived
+# STL retains the common Cassini origin and bakes in the same source-to-body
+# rotation: source -Z (main-engine thrust) maps to scenario body +X, while
+# source +Y remains body +Y. Huygens is already part of sci_assy.stl.
+# These massless presentation components are explicitly excluded from the SRP
+# proxy so their high-resolution display meshes never become optical facets.
+
+[[components]]
+id = "ca55a001-0000-0000-0000-000000000101"
+name = "Cassini visual - high-gain antenna assembly"
+srp = { included_in_proxy = false }
+initial_mass_kg = 0.0
+minimum_mass_kg = 0.0
+variable_mass = false
+local_center_of_mass_m = [0.0, 0.0, 0.0]
+origin_body_m = [0.0, 0.0, 0.0]
+component_to_body = [1.0, 0.0, 0.0, 0.0]
+parent_component = "Cassini-Huygens dry spacecraft"
+parent_anchor_m = [0.0, 0.0, 0.0]
+child_anchor_m = [0.0, 0.0, 0.0]
+child_to_parent_zero_orientation = [1.0, 0.0, 0.0, 0.0]
+dofs = []
+inertia = { ixx_kgm2 = 0.0, iyy_kgm2 = 0.0, izz_kgm2 = 0.0, ixy_kgm2 = 0.0, ixz_kgm2 = 0.0, iyz_kgm2 = 0.0 }
+
+[components.visual]
+geometry_source = "custom_stl"
+stl_file = "../../../00_Shared_Visualization_Assets/cassini_body_aligned/ant_assy_body_aligned.stl"
+stl_length_unit = "centimeters"
+stl_recenter_mode = "keep_imported_origin"
+visual_offset_m = [0.0, 0.0, 0.0]
+visual_orientation = [1.0, 0.0, 0.0, 0.0]
+visual_scale = [1.0, 1.0, 1.0]
+surface_appearance = "textured"
+base_color_tint = [1.0, 1.0, 1.0, 1.0]
+base_color_texture_file = "../../../00_Shared_Visualization_Assets/textures/white_antenna_base_color.png"
+normal_texture_file = "../../../00_Shared_Visualization_Assets/textures/white_antenna_normal.png"
+roughness_texture_file = "../../../00_Shared_Visualization_Assets/textures/white_antenna_roughness.png"
+metallic_texture_file = "../../../00_Shared_Visualization_Assets/textures/white_antenna_metallic.png"
+visible = true
+
+[[components]]
+id = "ca55a002-0000-0000-0000-000000000102"
+name = "Cassini visual - electronics bus assembly"
+srp = { included_in_proxy = false }
+initial_mass_kg = 0.0
+minimum_mass_kg = 0.0
+variable_mass = false
+local_center_of_mass_m = [0.0, 0.0, 0.0]
+origin_body_m = [0.0, 0.0, 0.0]
+component_to_body = [1.0, 0.0, 0.0, 0.0]
+parent_component = "Cassini-Huygens dry spacecraft"
+parent_anchor_m = [0.0, 0.0, 0.0]
+child_anchor_m = [0.0, 0.0, 0.0]
+child_to_parent_zero_orientation = [1.0, 0.0, 0.0, 0.0]
+dofs = []
+inertia = { ixx_kgm2 = 0.0, iyy_kgm2 = 0.0, izz_kgm2 = 0.0, ixy_kgm2 = 0.0, ixz_kgm2 = 0.0, iyz_kgm2 = 0.0 }
+
+[components.visual]
+geometry_source = "custom_stl"
+stl_file = "../../../00_Shared_Visualization_Assets/cassini_body_aligned/bus_assy_body_aligned.stl"
+stl_length_unit = "centimeters"
+stl_recenter_mode = "keep_imported_origin"
+visual_offset_m = [0.0, 0.0, 0.0]
+visual_orientation = [1.0, 0.0, 0.0, 0.0]
+visual_scale = [1.0, 1.0, 1.0]
+surface_appearance = "textured"
+base_color_tint = [1.0, 1.0, 1.0, 1.0]
+base_color_texture_file = "../../../00_Shared_Visualization_Assets/textures/gold_mli_base_color.png"
+normal_texture_file = "../../../00_Shared_Visualization_Assets/textures/gold_mli_normal.png"
+roughness_texture_file = "../../../00_Shared_Visualization_Assets/textures/gold_mli_roughness.png"
+metallic_texture_file = "../../../00_Shared_Visualization_Assets/textures/gold_mli_metallic.png"
+visible = true
+
+[[components]]
+id = "ca55a003-0000-0000-0000-000000000103"
+name = "Cassini visual - louver assembly"
+srp = { included_in_proxy = false }
+initial_mass_kg = 0.0
+minimum_mass_kg = 0.0
+variable_mass = false
+local_center_of_mass_m = [0.0, 0.0, 0.0]
+origin_body_m = [0.0, 0.0, 0.0]
+component_to_body = [1.0, 0.0, 0.0, 0.0]
+parent_component = "Cassini-Huygens dry spacecraft"
+parent_anchor_m = [0.0, 0.0, 0.0]
+child_anchor_m = [0.0, 0.0, 0.0]
+child_to_parent_zero_orientation = [1.0, 0.0, 0.0, 0.0]
+dofs = []
+inertia = { ixx_kgm2 = 0.0, iyy_kgm2 = 0.0, izz_kgm2 = 0.0, ixy_kgm2 = 0.0, ixz_kgm2 = 0.0, iyz_kgm2 = 0.0 }
+
+[components.visual]
+geometry_source = "custom_stl"
+stl_file = "../../../00_Shared_Visualization_Assets/cassini_body_aligned/lvr_assy_body_aligned.stl"
+stl_length_unit = "centimeters"
+stl_recenter_mode = "keep_imported_origin"
+visual_offset_m = [0.0, 0.0, 0.0]
+visual_orientation = [1.0, 0.0, 0.0, 0.0]
+visual_scale = [1.0, 1.0, 1.0]
+surface_appearance = "textured"
+base_color_tint = [1.0, 1.0, 1.0, 1.0]
+base_color_texture_file = "../../../00_Shared_Visualization_Assets/textures/black_mli_base_color.png"
+normal_texture_file = "../../../00_Shared_Visualization_Assets/textures/black_mli_normal.png"
+roughness_texture_file = "../../../00_Shared_Visualization_Assets/textures/black_mli_roughness.png"
+metallic_texture_file = "../../../00_Shared_Visualization_Assets/textures/black_mli_metallic.png"
+visible = true
+
+[[components]]
+id = "ca55a004-0000-0000-0000-000000000104"
+name = "Cassini visual - propulsion module assembly"
+srp = { included_in_proxy = false }
+initial_mass_kg = 0.0
+minimum_mass_kg = 0.0
+variable_mass = false
+local_center_of_mass_m = [0.0, 0.0, 0.0]
+origin_body_m = [0.0, 0.0, 0.0]
+component_to_body = [1.0, 0.0, 0.0, 0.0]
+parent_component = "Cassini-Huygens dry spacecraft"
+parent_anchor_m = [0.0, 0.0, 0.0]
+child_anchor_m = [0.0, 0.0, 0.0]
+child_to_parent_zero_orientation = [1.0, 0.0, 0.0, 0.0]
+dofs = []
+inertia = { ixx_kgm2 = 0.0, iyy_kgm2 = 0.0, izz_kgm2 = 0.0, ixy_kgm2 = 0.0, ixz_kgm2 = 0.0, iyz_kgm2 = 0.0 }
+
+[components.visual]
+geometry_source = "custom_stl"
+stl_file = "../../../00_Shared_Visualization_Assets/cassini_body_aligned/pm_assy_body_aligned.stl"
+stl_length_unit = "centimeters"
+stl_recenter_mode = "keep_imported_origin"
+visual_offset_m = [0.0, 0.0, 0.0]
+visual_orientation = [1.0, 0.0, 0.0, 0.0]
+visual_scale = [1.0, 1.0, 1.0]
+surface_appearance = "textured"
+base_color_tint = [1.0, 1.0, 1.0, 1.0]
+base_color_texture_file = "../../../00_Shared_Visualization_Assets/textures/gold_mli_base_color.png"
+normal_texture_file = "../../../00_Shared_Visualization_Assets/textures/gold_mli_normal.png"
+roughness_texture_file = "../../../00_Shared_Visualization_Assets/textures/gold_mli_roughness.png"
+metallic_texture_file = "../../../00_Shared_Visualization_Assets/textures/gold_mli_metallic.png"
+visible = true
+
+[[components]]
+id = "ca55a006-0000-0000-0000-000000000106"
+name = "Cassini visual - main-engine assembly"
+srp = { included_in_proxy = false }
+initial_mass_kg = 0.0
+minimum_mass_kg = 0.0
+variable_mass = false
+local_center_of_mass_m = [0.0, 0.0, 0.0]
+origin_body_m = [0.0, 0.0, 0.0]
+component_to_body = [1.0, 0.0, 0.0, 0.0]
+parent_component = "Cassini-Huygens dry spacecraft"
+parent_anchor_m = [0.0, 0.0, 0.0]
+child_anchor_m = [0.0, 0.0, 0.0]
+child_to_parent_zero_orientation = [1.0, 0.0, 0.0, 0.0]
+dofs = []
+inertia = { ixx_kgm2 = 0.0, iyy_kgm2 = 0.0, izz_kgm2 = 0.0, ixy_kgm2 = 0.0, ixz_kgm2 = 0.0, iyz_kgm2 = 0.0 }
+
+[components.visual]
+geometry_source = "custom_stl"
+stl_file = "../../../00_Shared_Visualization_Assets/cassini_body_aligned/rocket_assy_body_aligned.stl"
+stl_length_unit = "centimeters"
+stl_recenter_mode = "keep_imported_origin"
+visual_offset_m = [0.0, 0.0, 0.0]
+visual_orientation = [1.0, 0.0, 0.0, 0.0]
+# The companion-OBJ scale and source-frame corrections are baked into this STL.
+visual_scale = [1.0, 1.0, 1.0]
+surface_appearance = "textured"
+base_color_tint = [1.0, 1.0, 1.0, 1.0]
+base_color_texture_file = "../../../00_Shared_Visualization_Assets/textures/dark_metal_base_color.png"
+normal_texture_file = "../../../00_Shared_Visualization_Assets/textures/dark_metal_normal.png"
+roughness_texture_file = "../../../00_Shared_Visualization_Assets/textures/dark_metal_roughness.png"
+metallic_texture_file = "../../../00_Shared_Visualization_Assets/textures/dark_metal_metallic.png"
+visible = true
+
+[[components]]
+id = "ca55a007-0000-0000-0000-000000000107"
+name = "Cassini visual - remote-sensing pallet assembly"
+srp = { included_in_proxy = false }
+initial_mass_kg = 0.0
+minimum_mass_kg = 0.0
+variable_mass = false
+local_center_of_mass_m = [0.0, 0.0, 0.0]
+origin_body_m = [0.0, 0.0, 0.0]
+component_to_body = [1.0, 0.0, 0.0, 0.0]
+parent_component = "Cassini-Huygens dry spacecraft"
+parent_anchor_m = [0.0, 0.0, 0.0]
+child_anchor_m = [0.0, 0.0, 0.0]
+child_to_parent_zero_orientation = [1.0, 0.0, 0.0, 0.0]
+dofs = []
+inertia = { ixx_kgm2 = 0.0, iyy_kgm2 = 0.0, izz_kgm2 = 0.0, ixy_kgm2 = 0.0, ixz_kgm2 = 0.0, iyz_kgm2 = 0.0 }
+
+[components.visual]
+geometry_source = "custom_stl"
+stl_file = "../../../00_Shared_Visualization_Assets/cassini_body_aligned/rsp_assy_body_aligned.stl"
+stl_length_unit = "centimeters"
+stl_recenter_mode = "keep_imported_origin"
+visual_offset_m = [0.0, 0.0, 0.0]
+visual_orientation = [1.0, 0.0, 0.0, 0.0]
+visual_scale = [1.0, 1.0, 1.0]
+surface_appearance = "textured"
+base_color_tint = [1.0, 1.0, 1.0, 1.0]
+base_color_texture_file = "../../../00_Shared_Visualization_Assets/textures/aluminum_base_color.png"
+normal_texture_file = "../../../00_Shared_Visualization_Assets/textures/aluminum_normal.png"
+roughness_texture_file = "../../../00_Shared_Visualization_Assets/textures/aluminum_roughness.png"
+metallic_texture_file = "../../../00_Shared_Visualization_Assets/textures/aluminum_metallic.png"
+visible = true
+
+[[components]]
+id = "ca55a008-0000-0000-0000-000000000108"
+name = "Cassini visual - RTG assembly"
+srp = { included_in_proxy = false }
+initial_mass_kg = 0.0
+minimum_mass_kg = 0.0
+variable_mass = false
+local_center_of_mass_m = [0.0, 0.0, 0.0]
+origin_body_m = [0.0, 0.0, 0.0]
+component_to_body = [1.0, 0.0, 0.0, 0.0]
+parent_component = "Cassini-Huygens dry spacecraft"
+parent_anchor_m = [0.0, 0.0, 0.0]
+child_anchor_m = [0.0, 0.0, 0.0]
+child_to_parent_zero_orientation = [1.0, 0.0, 0.0, 0.0]
+dofs = []
+inertia = { ixx_kgm2 = 0.0, iyy_kgm2 = 0.0, izz_kgm2 = 0.0, ixy_kgm2 = 0.0, ixz_kgm2 = 0.0, iyz_kgm2 = 0.0 }
+
+[components.visual]
+geometry_source = "custom_stl"
+stl_file = "../../../00_Shared_Visualization_Assets/cassini_body_aligned/rtg_assy_body_aligned.stl"
+stl_length_unit = "centimeters"
+stl_recenter_mode = "keep_imported_origin"
+visual_offset_m = [0.0, 0.0, 0.0]
+visual_orientation = [1.0, 0.0, 0.0, 0.0]
+visual_scale = [1.0, 1.0, 1.0]
+surface_appearance = "textured"
+base_color_tint = [1.0, 1.0, 1.0, 1.0]
+base_color_texture_file = "../../../00_Shared_Visualization_Assets/textures/dark_metal_base_color.png"
+normal_texture_file = "../../../00_Shared_Visualization_Assets/textures/dark_metal_normal.png"
+roughness_texture_file = "../../../00_Shared_Visualization_Assets/textures/dark_metal_roughness.png"
+metallic_texture_file = "../../../00_Shared_Visualization_Assets/textures/dark_metal_metallic.png"
+visible = true
+
+[[components]]
+id = "ca55a009-0000-0000-0000-000000000109"
+name = "Cassini visual - science instruments and booms assembly"
+srp = { included_in_proxy = false }
+initial_mass_kg = 0.0
+minimum_mass_kg = 0.0
+variable_mass = false
+local_center_of_mass_m = [0.0, 0.0, 0.0]
+origin_body_m = [0.0, 0.0, 0.0]
+component_to_body = [1.0, 0.0, 0.0, 0.0]
+parent_component = "Cassini-Huygens dry spacecraft"
+parent_anchor_m = [0.0, 0.0, 0.0]
+child_anchor_m = [0.0, 0.0, 0.0]
+child_to_parent_zero_orientation = [1.0, 0.0, 0.0, 0.0]
+dofs = []
+inertia = { ixx_kgm2 = 0.0, iyy_kgm2 = 0.0, izz_kgm2 = 0.0, ixy_kgm2 = 0.0, ixz_kgm2 = 0.0, iyz_kgm2 = 0.0 }
+
+[components.visual]
+geometry_source = "custom_stl"
+stl_file = "../../../00_Shared_Visualization_Assets/cassini_body_aligned/sci_assy_body_aligned.stl"
+stl_length_unit = "centimeters"
+stl_recenter_mode = "keep_imported_origin"
+visual_offset_m = [0.0, 0.0, 0.0]
+visual_orientation = [1.0, 0.0, 0.0, 0.0]
+visual_scale = [1.0, 1.0, 1.0]
+surface_appearance = "textured"
+base_color_tint = [1.0, 1.0, 1.0, 1.0]
+base_color_texture_file = "../../../00_Shared_Visualization_Assets/textures/gold_mli_base_color.png"
+normal_texture_file = "../../../00_Shared_Visualization_Assets/textures/gold_mli_normal.png"
+roughness_texture_file = "../../../00_Shared_Visualization_Assets/textures/gold_mli_roughness.png"
+metallic_texture_file = "../../../00_Shared_Visualization_Assets/textures/gold_mli_metallic.png"
+visible = true
+
+[[components]]
+id = "ca55a00a-0000-0000-0000-00000000010a"
+name = "Cassini visual - propellant tank assembly"
+srp = { included_in_proxy = false }
+initial_mass_kg = 0.0
+minimum_mass_kg = 0.0
+variable_mass = false
+local_center_of_mass_m = [0.0, 0.0, 0.0]
+origin_body_m = [0.0, 0.0, 0.0]
+component_to_body = [1.0, 0.0, 0.0, 0.0]
+parent_component = "Cassini-Huygens dry spacecraft"
+parent_anchor_m = [0.0, 0.0, 0.0]
+child_anchor_m = [0.0, 0.0, 0.0]
+child_to_parent_zero_orientation = [1.0, 0.0, 0.0, 0.0]
+dofs = []
+inertia = { ixx_kgm2 = 0.0, iyy_kgm2 = 0.0, izz_kgm2 = 0.0, ixy_kgm2 = 0.0, ixz_kgm2 = 0.0, iyz_kgm2 = 0.0 }
+
+[components.visual]
+geometry_source = "custom_stl"
+stl_file = "../../../00_Shared_Visualization_Assets/cassini_body_aligned/tank_assy_body_aligned.stl"
+stl_length_unit = "centimeters"
+stl_recenter_mode = "keep_imported_origin"
+visual_offset_m = [0.0, 0.0, 0.0]
+visual_orientation = [1.0, 0.0, 0.0, 0.0]
+visual_scale = [1.0, 1.0, 1.0]
+surface_appearance = "textured"
+base_color_tint = [1.0, 1.0, 1.0, 1.0]
+base_color_texture_file = "../../../00_Shared_Visualization_Assets/textures/aluminum_base_color.png"
+normal_texture_file = "../../../00_Shared_Visualization_Assets/textures/aluminum_normal.png"
+roughness_texture_file = "../../../00_Shared_Visualization_Assets/textures/aluminum_roughness.png"
+metallic_texture_file = "../../../00_Shared_Visualization_Assets/textures/aluminum_metallic.png"
+visible = true
+
+[[components]]
+id = "ca55a00b-0000-0000-0000-00000000010b"
+name = "Cassini visual - upper spacecraft structure assembly"
+srp = { included_in_proxy = false }
+initial_mass_kg = 0.0
+minimum_mass_kg = 0.0
+variable_mass = false
+local_center_of_mass_m = [0.0, 0.0, 0.0]
+origin_body_m = [0.0, 0.0, 0.0]
+component_to_body = [1.0, 0.0, 0.0, 0.0]
+parent_component = "Cassini-Huygens dry spacecraft"
+parent_anchor_m = [0.0, 0.0, 0.0]
+child_anchor_m = [0.0, 0.0, 0.0]
+child_to_parent_zero_orientation = [1.0, 0.0, 0.0, 0.0]
+dofs = []
+inertia = { ixx_kgm2 = 0.0, iyy_kgm2 = 0.0, izz_kgm2 = 0.0, ixy_kgm2 = 0.0, ixz_kgm2 = 0.0, iyz_kgm2 = 0.0 }
+
+[components.visual]
+geometry_source = "custom_stl"
+stl_file = "../../../00_Shared_Visualization_Assets/cassini_body_aligned/uss_assy_body_aligned.stl"
+stl_length_unit = "centimeters"
+stl_recenter_mode = "keep_imported_origin"
+visual_offset_m = [0.0, 0.0, 0.0]
+visual_orientation = [1.0, 0.0, 0.0, 0.0]
+visual_scale = [1.0, 1.0, 1.0]
+surface_appearance = "textured"
+base_color_tint = [1.0, 1.0, 1.0, 1.0]
+base_color_texture_file = "../../../00_Shared_Visualization_Assets/textures/gold_mli_base_color.png"
+normal_texture_file = "../../../00_Shared_Visualization_Assets/textures/gold_mli_normal.png"
+roughness_texture_file = "../../../00_Shared_Visualization_Assets/textures/gold_mli_roughness.png"
+metallic_texture_file = "../../../00_Shared_Visualization_Assets/textures/gold_mli_metallic.png"
+visible = true
+
+[[reaction_wheels]]
+name = "X Reaction Wheel"
+mount_component = "Cassini-Huygens dry spacecraft"
+axis_component = [1, 0, 0]
+initial_momentum_nms = 0
+maximum_absolute_momentum_nms = 36.0
+
+[[reaction_wheels]]
+name = "Y Reaction Wheel"
+mount_component = "Cassini-Huygens dry spacecraft"
+axis_component = [0, 1, 0]
+initial_momentum_nms = 0
+maximum_absolute_momentum_nms = 36.0
+
+[[reaction_wheels]]
+name = "Z Reaction Wheel"
+mount_component = "Cassini-Huygens dry spacecraft"
+axis_component = [0, 0, 1]
+initial_momentum_nms = 0
+maximum_absolute_momentum_nms = 36.0
+
+[control]
+mode = "compiled_user_controller"
+unreal_controller_id = ""
+controller_dll_file = "../controllers/CassiniThreeSegmentController1.dll"
+
+[gravity]
+include_first_post_newtonian_correction = true
+
+[[gravity.bodies]]
+catalog_key = "Sun"
+gravity_enabled = true
+automatic_activation_radius_m = 0.0
+barycenter_resolution_radius_m = 0.0
+harmonic_model_csv_file = ""
+maximum_harmonic_degree = 0
+
+[[gravity.bodies]]
+catalog_key = "MercuryBarycenter"
+gravity_enabled = true
+automatic_activation_radius_m = 0.0
+barycenter_resolution_radius_m = 0.0
+harmonic_model_csv_file = ""
+maximum_harmonic_degree = 0
+
+[[gravity.bodies]]
+catalog_key = "Mercury"
+gravity_enabled = false
+automatic_activation_radius_m = 0.0
+barycenter_resolution_radius_m = 0.0
+harmonic_model_csv_file = ""
+maximum_harmonic_degree = 0
+
+[[gravity.bodies]]
+catalog_key = "VenusBarycenter"
+gravity_enabled = false
+automatic_activation_radius_m = 0.0
+barycenter_resolution_radius_m = 0.0
+harmonic_model_csv_file = ""
+maximum_harmonic_degree = 0
+
+[[gravity.bodies]]
+catalog_key = "Venus"
+gravity_enabled = true
+automatic_activation_radius_m = 0.0
+barycenter_resolution_radius_m = 0.0
+harmonic_model_csv_file = ""
+maximum_harmonic_degree = 0
+
+[[gravity.bodies]]
+catalog_key = "EarthMoonBarycenter"
+gravity_enabled = false
+automatic_activation_radius_m = 0.0
+barycenter_resolution_radius_m = 0.0
+harmonic_model_csv_file = ""
+maximum_harmonic_degree = 0
+
+[[gravity.bodies]]
+catalog_key = "Earth"
+gravity_enabled = true
+automatic_activation_radius_m = 0.0
+barycenter_resolution_radius_m = 0.0
+harmonic_model_csv_file = "../../data/earth_egm2008_degree18_de442_gm.csv"
+maximum_harmonic_degree = 18
+
+[[gravity.bodies]]
+catalog_key = "Moon"
+gravity_enabled = true
+automatic_activation_radius_m = 0.0
+barycenter_resolution_radius_m = 0.0
+harmonic_model_csv_file = ""
+maximum_harmonic_degree = 0
+
+[[gravity.bodies]]
+catalog_key = "MarsBarycenter"
+gravity_enabled = true
+automatic_activation_radius_m = 0.0
+barycenter_resolution_radius_m = 0.0
+harmonic_model_csv_file = ""
+maximum_harmonic_degree = 0
+
+[[gravity.bodies]]
+catalog_key = "Mars"
+gravity_enabled = false
+automatic_activation_radius_m = 0.0
+barycenter_resolution_radius_m = 0.0
+harmonic_model_csv_file = ""
+maximum_harmonic_degree = 0
+
+[[gravity.bodies]]
+catalog_key = "JupiterBarycenter"
+gravity_enabled = true
+automatic_activation_radius_m = 0.0
+barycenter_resolution_radius_m = 0.0
+harmonic_model_csv_file = ""
+maximum_harmonic_degree = 0
+
+[[gravity.bodies]]
+catalog_key = "Jupiter"
+gravity_enabled = false
+automatic_activation_radius_m = 0.0
+barycenter_resolution_radius_m = 0.0
+harmonic_model_csv_file = ""
+maximum_harmonic_degree = 0
+
+[[gravity.bodies]]
+catalog_key = "SaturnBarycenter"
+gravity_enabled = true
+automatic_activation_radius_m = 0.0
+barycenter_resolution_radius_m = 0.0
+harmonic_model_csv_file = ""
+maximum_harmonic_degree = 0
+
+[[gravity.bodies]]
+catalog_key = "Saturn"
+gravity_enabled = false
+automatic_activation_radius_m = 0.0
+barycenter_resolution_radius_m = 0.0
+harmonic_model_csv_file = ""
+maximum_harmonic_degree = 0
+
+[[gravity.bodies]]
+catalog_key = "UranusBarycenter"
+gravity_enabled = true
+automatic_activation_radius_m = 0.0
+barycenter_resolution_radius_m = 0.0
+harmonic_model_csv_file = ""
+maximum_harmonic_degree = 0
+
+[[gravity.bodies]]
+catalog_key = "Uranus"
+gravity_enabled = false
+automatic_activation_radius_m = 0.0
+barycenter_resolution_radius_m = 0.0
+harmonic_model_csv_file = ""
+maximum_harmonic_degree = 0
+
+[[gravity.bodies]]
+catalog_key = "NeptuneBarycenter"
+gravity_enabled = true
+automatic_activation_radius_m = 0.0
+barycenter_resolution_radius_m = 0.0
+harmonic_model_csv_file = ""
+maximum_harmonic_degree = 0
+
+[[gravity.bodies]]
+catalog_key = "Neptune"
+gravity_enabled = false
+automatic_activation_radius_m = 0.0
+barycenter_resolution_radius_m = 0.0
+harmonic_model_csv_file = ""
+maximum_harmonic_degree = 0
+
+[[gravity.bodies]]
+catalog_key = "PlutoBarycenter"
+gravity_enabled = true
+automatic_activation_radius_m = 0.0
+barycenter_resolution_radius_m = 0.0
+harmonic_model_csv_file = ""
+maximum_harmonic_degree = 0
+
+[[gravity.bodies]]
+catalog_key = "Pluto"
+gravity_enabled = false
+automatic_activation_radius_m = 0.0
+barycenter_resolution_radius_m = 0.0
+harmonic_model_csv_file = ""
+maximum_harmonic_degree = 0
+
+
+[srp]
+enabled = true
+sun_body = "Sun"
+pressure_at_one_au_pa = 4.5391e-6
+compute_eclipse = true
+occulting_bodies = ["Earth", "Moon", "Venus"]
+compute_component_shadows = false
+global_fallback_optics = { absorption = 1, specular_reflection = 0, diffuse_reflection = 0.0 }
+
+[[srp.facets]]
+name = "HGA effective square triangle 0"
+component_id = "ca550001-0000-0000-0000-000000000001"
+component_name = "Cassini-Huygens dry spacecraft"
+stable_triangle_index = 0
+logical_region = "positive_x"
+vertex0_component_m = [0.0, -1.7724538509055159, -1.7724538509055159]
+vertex1_component_m = [0.0, 1.7724538509055159, -1.7724538509055159]
+vertex2_component_m = [0.0, 1.7724538509055159, 1.7724538509055159]
+optics = { absorption = 1, specular_reflection = 0, diffuse_reflection = 0.0 }
+
+[[srp.facets]]
+name = "HGA effective square triangle 1"
+component_id = "ca550001-0000-0000-0000-000000000001"
+component_name = "Cassini-Huygens dry spacecraft"
+stable_triangle_index = 1
+logical_region = "positive_x"
+vertex0_component_m = [0.0, -1.7724538509055159, -1.7724538509055159]
+vertex1_component_m = [0.0, 1.7724538509055159, 1.7724538509055159]
+vertex2_component_m = [0.0, -1.7724538509055159, 1.7724538509055159]
+optics = { absorption = 1, specular_reflection = 0, diffuse_reflection = 0.0 }
+
+[atmosphere]
+enabled = false
+
+[aerodynamics]
+enabled = false
+

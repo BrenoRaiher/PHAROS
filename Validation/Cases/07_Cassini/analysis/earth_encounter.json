@@ -1,0 +1,19 @@
+{
+  "name": "Earth",
+  "segment": "10",
+  "reference_radius_km": 6378.1366,
+  "reference_closest_utc": "1999-08-18T03:28:25.613655Z",
+  "simulated_closest_utc": "1999-08-18T03:28:25.768707Z",
+  "reference_closest_et": -11781030.20346381,
+  "simulated_closest_et": -11781030.048411693,
+  "closest_time_difference_s": 0.15505211614072323,
+  "reference_range_km": 7549.628593524864,
+  "simulated_range_km": 7549.617747641379,
+  "range_difference_km": -0.0108458834849298,
+  "reference_altitude_km": 1171.4919935248643,
+  "simulated_altitude_km": 1171.4811476413795,
+  "minimum_playback_chord_altitude_km": 1168.3899553601611,
+  "position_error_at_reference_closest_km": 2.9486179739465928,
+  "velocity_error_at_reference_closest_mps": 1.0806257363709275,
+  "estimation": "Nominal-state continuation with original controller elapsed-time offset and 1 s integration/output; cubic Hermite closest approach. Direct-SPICE 1 s reference."
+}

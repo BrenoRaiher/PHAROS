@@ -1,0 +1,45 @@
+{
+  "direct_state_closure_against_inherited_conversions": {
+    "post_first_midcourse_nav_update": {
+      "position_difference_m": 0.426011623995291,
+      "velocity_difference_mps": 8.665378056919297e-08
+    },
+    "pre_second_midcourse_nav_update": {
+      "position_difference_m": 1.433250078796652,
+      "velocity_difference_mps": 2.9123312530807134e-07
+    },
+    "post_third_midcourse_nav_update": {
+      "position_difference_m": 3.74338815267406,
+      "velocity_difference_mps": 7.585726342113154e-07
+    }
+  },
+  "table_bytes_identical_to_inherited": true,
+  "body_reference_tool_sha256": "6c129ee382cc2fa0ee90345d5184df2dc17128367ad803f89aa88bbdbfc2b997",
+  "table_converter_sha256": "4c962c4bc50347f378ba3bbd230967102731b4391f8f129277cf27f04d8502fc",
+  "NBY1969_to_J2000": [
+    [
+      0.999971430793093,
+      -0.006932510238740845,
+      -0.003012955260858825
+    ],
+    [
+      0.006932510237296334,
+      0.9999759698076381,
+      -1.044430021552792e-05
+    ],
+    [
+      0.00301295526418251,
+      -1.044334136026557e-05,
+      0.999995460985455
+    ]
+  ],
+  "kernel_sha256": {
+    "naif0012.tls": "678e32bdb5a744117a467cd9601cd6b373f0e9bc9bbde1371d5eee39600a039b",
+    "pck00011.tpc": "3dff7b1dbeceaa01f25467767d3fa25816051c85d162d1edf04acb310ee28bb1",
+    "de442.bsp": "8d5001fab315eeff222cc51f7cf7ffcdb43fb38fb9ac73ff09e09a5b361fd388",
+    "earth_620120_260806.bpc": "652b02c0b3a5a283d393497f7f96e1fe4aa47ee6dcc035a089eb9e6b5df86643",
+    "moon_080317.tf": "78732477b96f9863e7b0d65bcee3c22b8707ca5ed0db56d1173319cb2e8c7993",
+    "moon_pa_de421_1900-2050.bpc": "656f90616403d75a75f0cd6c8830fc5b44f8cb4facb5ccb8915e752b397520cf"
+  },
+  "new_lunar_marks": "Position only; transcribed to nearest foot, not a precision or uncertainty claim."
+}

@@ -1,0 +1,81 @@
+{
+  "continuity": {
+    "position_discontinuity_m": 0.0,
+    "velocity_discontinuity_mps": 0.0,
+    "quaternion_component_max_discontinuity": 0.0,
+    "angular_velocity_discontinuity_radps": 0.0,
+    "mass_discontinuity_kg": 0.0,
+    "inertia_component_max_discontinuity_kgm2": 0.0
+  },
+  "checkpoint_comparisons": [
+    {
+      "event_id": "lunar_orbit_insertion_ignition",
+      "event_get_seconds": 248900.4,
+      "actual_sample_get_seconds": 248900.4,
+      "sample_time_error_seconds": 0.0,
+      "position_delta_icrf_m": [
+        -14598.7178440094,
+        -10212.742462158203,
+        -313.0505599975586
+      ],
+      "position_error_m": 17819.109740401804,
+      "velocity_delta_icrf_mps": [
+        2.1648997339434572,
+        -688.3148990186983,
+        660.6267042878458
+      ],
+      "velocity_error_mps": 954.0491231693469,
+      "relative_radius_error_m": -11946.47050756216,
+      "relative_speed_error_mps": 6.802141219397981,
+      "table_position_quantization_half_step_m": 248.81961290972285,
+      "table_velocity_quantization_half_step_mps": 0.35050523451631455,
+      "position_error_over_quantization": 71.61457062015027,
+      "velocity_error_over_quantization": 2721.925464211405,
+      "source_note": "NASA Table 5-II converted with ITRF93 or MOON_ME_DE421"
+    },
+    {
+      "event_id": "lunar_orbit_insertion_cutoff",
+      "event_get_seconds": 249147.3,
+      "actual_sample_get_seconds": 249147.3,
+      "sample_time_error_seconds": 5.8548721426632255e-12,
+      "position_delta_icrf_m": [
+        -18536.827860832214,
+        7204.96272277832,
+        -15544.15298461914
+      ],
+      "position_error_m": 25241.754435617084,
+      "velocity_delta_icrf_mps": [
+        -38.706637781851896,
+        -345.2774752850157,
+        373.34358655576114
+      ],
+      "velocity_error_mps": 510.0001689900595,
+      "relative_radius_error_m": -13019.665639950428,
+      "relative_speed_error_mps": 15.051107332369384,
+      "table_position_quantization_half_step_m": 245.06545398146284,
+      "table_velocity_quantization_half_step_mps": 0.25569142296635206,
+      "position_error_over_quantization": 103.00005172302421,
+      "velocity_error_over_quantization": 1994.5923999850922,
+      "source_note": "NASA Table 5-II converted with ITRF93 or MOON_ME_DE421"
+    }
+  ],
+  "burn_execution": {
+    "burn_start_alignment_error_deg": 0.18913899676264648,
+    "target_mode": "retrograde_tangential_moon",
+    "burn_start_mass_kg": 28494.282373178517,
+    "burn_end_mass_kg": 21211.867053592898,
+    "target_preburn_mass_kg": 28497.84782999,
+    "integrated_thrust_acceleration_delta_v_icrf_mps": [
+      371.4190786827216,
+      682.8486859439748,
+      459.0745966760148
+    ],
+    "integrated_thrust_delta_v_mps": 902.7646122983447,
+    "target_total_delta_v_mps": 905.8,
+    "delta_v_error_mps": -3.0353877016552815,
+    "main_command_throttle": 0.992925779597439,
+    "main_required_thrust_n": 90535.33270531752,
+    "sps_maximum_thrust_n": 91180.3626873533,
+    "ullage_command_throttle": 0.0
+  }
+}

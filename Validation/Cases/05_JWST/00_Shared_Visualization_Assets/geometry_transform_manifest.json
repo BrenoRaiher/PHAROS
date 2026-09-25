@@ -1,0 +1,553 @@
+{
+  "description": "Full-scale, assembled, body-aligned JWST display meshes for PHAROS",
+  "source_mesh_count": 16,
+  "output_material_region_mesh_count": 18,
+  "source_triangle_counts": {
+    "1": 3116,
+    "2": 3492,
+    "3": 4786,
+    "4": 7572,
+    "5": 11138,
+    "6": 21888,
+    "7": 188928,
+    "8": 406510,
+    "9": 445804,
+    "10": 292728,
+    "11": 100062,
+    "12": 117138,
+    "13": 65886,
+    "14": 79476,
+    "15": 243568,
+    "16": 28472
+  },
+  "output_triangle_counts_by_source": {
+    "1": 3116,
+    "2": 3492,
+    "3": 4786,
+    "4": 7572,
+    "5": 11138,
+    "6": 21888,
+    "7": 188928,
+    "8": 406510,
+    "9": 445804,
+    "10": 292728,
+    "11": 100062,
+    "12": 117138,
+    "13": 65886,
+    "14": 79476,
+    "15": 243568,
+    "16": 28472
+  },
+  "source_units": "STScI 3D-print-model coordinate units",
+  "output_units": "meters",
+  "scale_m_per_source_unit": 0.05545089109154343,
+  "scale_calibration": {
+    "target_overall_long_axis_m": 21.197,
+    "source_combined_y_extent": 382.26617431640625,
+    "reference": "https://science.nasa.gov/mission/webb/webbs-sunshield/"
+  },
+  "source_origin_mapped_to_body_origin": [
+    324.870033,
+    386.280258,
+    281.136108
+  ],
+  "source_to_body_rotation_matrix": [
+    [
+      0.0,
+      0.0,
+      1.0
+    ],
+    [
+      0.0,
+      -1.0,
+      0.0
+    ],
+    [
+      1.0,
+      0.0,
+      0.0
+    ]
+  ],
+  "axis_mapping": {
+    "body_x": "+source_z (primary-mirror side; physical thrust direction)",
+    "body_y": "-source_y",
+    "body_z": "+source_x"
+  },
+  "alignment_note": "The display assembly is rotated -90 degrees about body +Y relative to the former mapping so the primary-mirror side lies along physical +X and the main-nozzle side lies along -X.",
+  "source_combined_bounds": {
+    "min": [
+      191.9097442626953,
+      184.4813232421875,
+      210.19166564941406
+    ],
+    "max": [
+      457.8302917480469,
+      566.7474975585938,
+      425.7962951660156
+    ]
+  },
+  "output_combined_bounds_body_m": {
+    "min": [
+      -3.933932546332621,
+      -10.00706924635506,
+      -7.372766490272449
+    ],
+    "max": [
+      8.021536283825021,
+      11.189930753644939,
+      7.372764827341383
+    ]
+  },
+  "parts": [
+    {
+      "index": 1,
+      "source_part_index": 1,
+      "triangle_selection": "all",
+      "display_name": "port sunshield boom",
+      "source_file": "STScI-01G2ZGC3XJ31A395Z6WBVYKEEH.stl",
+      "source_sha256": "79ef7505e82073fa12e436f5210febde683dcf7c0b7afbfd7450e2277da563fa",
+      "output_file": "jwst_deployed_body_frame/01_port_boom.stl",
+      "output_sha256": "10728e25c4ddf86bd4648966a8a995b2b5a55312788e270dda9cf77e8df382cf",
+      "triangle_count": 3116,
+      "material": "thermal_blanket_rose_silver",
+      "opacity": 1.0,
+      "bounds_body_m": {
+        "min": [
+          -2.4797799713647417,
+          -0.43945187548665426,
+          -7.372766490272449
+        ],
+        "max": [
+          -1.503164520607451,
+          0.12543038633183057,
+          -1.1370668911235369
+        ]
+      }
+    },
+    {
+      "index": 2,
+      "source_part_index": 2,
+      "triangle_selection": "all",
+      "display_name": "starboard sunshield boom",
+      "source_file": "STScI-01G2ZGC3XJ31A395Z6WBVYKEEH.2 Starboard boom.stl",
+      "source_sha256": "1dbc2c0d320335e908eee716b72a4042bd003d2a8fb0affd0b29612b5e254570",
+      "output_file": "jwst_deployed_body_frame/02_starboard_boom.stl",
+      "output_sha256": "2e8fdbebeff1c0bf99c4f5adfad10f33a41411007c23e53e25c3d813ca3b2bb8",
+      "triangle_count": 3492,
+      "material": "thermal_blanket_rose_silver",
+      "opacity": 1.0,
+      "bounds_body_m": {
+        "min": [
+          -2.4797799713647417,
+          -0.43945187548665426,
+          1.13588151547523
+        ],
+        "max": [
+          -1.50316282838055,
+          0.12543038633183057,
+          7.372764827341383
+        ]
+      }
+    },
+    {
+      "index": 3,
+      "source_part_index": 3,
+      "triangle_selection": "all",
+      "display_name": "extended solar array",
+      "source_file": "STScI-01G2ZGC3XJ31A395Z6WBVYKEEH.3 Solar array extended.stl",
+      "source_sha256": "9ba7bb46b9cbf93489f1cd08a26c35ebdd8cc7abb6bfe45d28527b337b50cd2e",
+      "output_file": "jwst_deployed_body_frame/03_solar_array.stl",
+      "output_sha256": "0088c0fba68880293762c7308238f312d10eb37df72498748003c0cd750bf6ca",
+      "triangle_count": 4786,
+      "material": "solar_cell_blue",
+      "opacity": 1.0,
+      "bounds_body_m": {
+        "min": [
+          -2.792741260546736,
+          1.121632517354596,
+          -1.1089166966256172
+        ],
+        "max": [
+          -0.8045591046191681,
+          6.57440049569869,
+          1.1076230184556473
+        ]
+      }
+    },
+    {
+      "index": 4,
+      "source_part_index": 4,
+      "triangle_selection": "all",
+      "display_name": "aft momentum flap",
+      "source_file": "STScI-01G2ZGC3XJ31A395Z6WBVYKEEH.4 Flap mechanism.stl",
+      "source_sha256": "47cdc02fb4d93117e90feefa0823cae40b6dc1b00f1a49da16b29a49642a1670",
+      "output_file": "jwst_deployed_body_frame/04_momentum_flap.stl",
+      "output_sha256": "b7bdee56235ad5106b408b6bd0a4f5074c3aaad0ad01a813a65e6e94cfa08d05",
+      "triangle_count": 7572,
+      "material": "solar_cell_blue",
+      "opacity": 1.0,
+      "bounds_body_m": {
+        "min": [
+          -1.140100623454483,
+          10.137320777218122,
+          -1.238925412747749
+        ],
+        "max": [
+          1.2799124542014637,
+          11.189930753644939,
+          1.1592714757006728
+        ]
+      }
+    },
+    {
+      "index": 5,
+      "source_part_index": 5,
+      "triangle_selection": "all",
+      "display_name": "aft deployed cover",
+      "source_file": "STScI-01G2ZGC3XJ31A395Z6WBVYKEEH.5 Aft cover.stl",
+      "source_sha256": "b9157147c3e2adc14ba9d8570679d9e5131ce99daa3b75fc8f1fcef8e1b402a7",
+      "output_file": "jwst_deployed_body_frame/05_aft_cover.stl",
+      "output_sha256": "074ddc9cdffb40587ad6e76ecf088b42d86497e63d4400a063d6d70b6d6733b9",
+      "triangle_count": 11138,
+      "material": "thermal_blanket_rose_silver",
+      "opacity": 1.0,
+      "bounds_body_m": {
+        "min": [
+          -1.8975786133281052,
+          1.5057443327020408,
+          -1.2510840630313407
+        ],
+        "max": [
+          1.6540232085640751,
+          10.244962484276456,
+          1.2510798617599228
+        ]
+      }
+    },
+    {
+      "index": 6,
+      "source_part_index": 6,
+      "triangle_selection": "all",
+      "display_name": "forward deployed cover",
+      "source_file": "STScI-01G2ZGC3XJ31A395Z6WBVYKEEH.6 Forward cover.stl",
+      "source_sha256": "0efc8108fce507607c1718ac7ac38000bcb462a858d0354ec159633b031f07ba",
+      "output_file": "jwst_deployed_body_frame/06_forward_cover.stl",
+      "output_sha256": "59cc9576df9ae5a9cadb928a72142788f9de1fdda3948b10c4a81b5211b82042",
+      "triangle_count": 21888,
+      "material": "thermal_blanket_rose_silver",
+      "opacity": 1.0,
+      "bounds_body_m": {
+        "min": [
+          -2.6751915649831215,
+          -10.003806632889956,
+          -1.2418783486899712
+        ],
+        "max": [
+          -1.7140379914201496,
+          -2.1084005032237196,
+          1.2418741474185533
+        ]
+      }
+    },
+    {
+      "index": 7,
+      "source_part_index": 7,
+      "triangle_selection": "all",
+      "display_name": "spacecraft bus and lower mount",
+      "source_file": "STScI-01G2ZGC3XJ31A395Z6WBVYKEEH.7 Lower Bus mount.stl",
+      "source_sha256": "e342a5173bddb0cacf7c3a3ebd2c030d73df1b671d839f8c39a78745d29e214d",
+      "output_file": "jwst_deployed_body_frame/07_spacecraft_bus.stl",
+      "output_sha256": "fb9589e0f6859cfdb0c89eba4f4a313d113186dc2471ef525a14a899290ed5b5",
+      "triangle_count": 188928,
+      "material": "thermal_blanket_rose_silver",
+      "opacity": 1.0,
+      "bounds_body_m": {
+        "min": [
+          -3.933932546332621,
+          -2.582570942014794,
+          -3.2156918060012583
+        ],
+        "max": [
+          -0.5483457984483239,
+          1.505710488164021,
+          3.2144996614453474
+        ]
+      }
+    },
+    {
+      "index": 8,
+      "source_part_index": 8,
+      "triangle_selection": "all",
+      "display_name": "forward five-layer sunshield",
+      "source_file": "STScI-01G2ZGC3XJ31A395Z6WBVYKEEH.8 Sunshield forward section.stl",
+      "source_sha256": "33d2cbee661e867f9da8ef0615ad444605c1a7be79068d7011d9f2311394737a",
+      "output_file": "jwst_deployed_body_frame/08_sunshield_forward.stl",
+      "output_sha256": "1ad72e13ec7f4a6797604a7f627ca667666545c2a157108102d193a82a9876ab",
+      "triangle_count": 406510,
+      "material": "sunshield_silver",
+      "opacity": 0.92,
+      "bounds_body_m": {
+        "min": [
+          -2.433056740515039,
+          -10.00706924635506,
+          -7.304161919479533
+        ],
+        "max": [
+          -0.21606520085121106,
+          -0.17954443799095532,
+          7.304161948775368
+        ]
+      }
+    },
+    {
+      "index": 9,
+      "source_part_index": 9,
+      "triangle_selection": "all",
+      "display_name": "aft five-layer sunshield",
+      "source_file": "STScI-01G2ZGC3XJ31A395Z6WBVYKEEH.9 Sunshield Aft section.stl",
+      "source_sha256": "4a4e090df8df19d8bec5479fc06a38e791299a129a89968bec31282d70ee2da1",
+      "output_file": "jwst_deployed_body_frame/09_sunshield_aft.stl",
+      "output_sha256": "f0c2e8ce0f86b270d947f7d8d82bc62e4828938f8582c313958eee73aa0a7067",
+      "triangle_count": 445804,
+      "material": "sunshield_silver",
+      "opacity": 0.92,
+      "bounds_body_m": {
+        "min": [
+          -1.359777058606116,
+          -0.5394167952086619,
+          -7.105413254412407
+        ],
+        "max": [
+          2.43305678470247,
+          10.007069226535698,
+          7.127623761783696
+        ]
+      }
+    },
+    {
+      "index": 10,
+      "source_part_index": 10,
+      "triangle_selection": "all",
+      "display_name": "supplied sunshield joining pin",
+      "source_file": "STScI-01G2ZGC3XJ31A395Z6WBVYKEEH.10 Sunshield pin connection (print 4).stl",
+      "source_sha256": "c485aee8267c5c02f9a8d6a6b23f22a4fdfda93d58dde816e5979e44d806d745",
+      "output_file": "jwst_deployed_body_frame/10_sunshield_pin.stl",
+      "output_sha256": "2c30cea3e796a79b8ea3b59b3729dc1724e4b0c390a82381b97e7a00d62fd030",
+      "triangle_count": 292728,
+      "material": "polished_aluminum_structure",
+      "opacity": 1.0,
+      "bounds_body_m": {
+        "min": [
+          -0.7906354616778467,
+          -0.9026516072786297,
+          4.773407850491928
+        ],
+        "max": [
+          -0.2823243451593587,
+          -0.029521754310850003,
+          5.10611488926809
+        ]
+      }
+    },
+    {
+      "index": 11,
+      "source_part_index": 11,
+      "triangle_selection": "primary_remainder",
+      "display_name": "primary-mirror backplane and instruments",
+      "source_file": "STScI-01G2ZGC3XJ31A395Z6WBVYKEEH.11 Primary mirror and instruments.stl",
+      "source_sha256": "6ffdeb36483ed1a004b8417518a24c31a26d1a2295b55ccc889ae4699f481b06",
+      "output_file": "jwst_deployed_body_frame/11_primary_mirror_and_instruments.stl",
+      "output_sha256": "15cd8186b56f47c44f5d145a72b1199def95648c459b72ce0e936e6608ad45ea",
+      "triangle_count": 95437,
+      "material": "graphite_structure",
+      "opacity": 1.0,
+      "bounds_body_m": {
+        "min": [
+          -1.7764109366501803,
+          -2.428359996754746,
+          -3.291968933563249
+        ],
+        "max": [
+          8.021536283825021,
+          1.4652865719532426,
+          3.2757430452189698
+        ]
+      }
+    },
+    {
+      "index": 12,
+      "source_part_index": 12,
+      "triangle_selection": "secondary_remainder",
+      "display_name": "secondary-mirror arm and housing",
+      "source_file": "STScI-01G2ZGC3XJ31A395Z6WBVYKEEH.12 Arm with secondary mirror.stl",
+      "source_sha256": "941b5015422e60ff30a999592d327e5a817aa72ddf52aeea0c72a89e3cce717a",
+      "output_file": "jwst_deployed_body_frame/12_secondary_mirror_arm.stl",
+      "output_sha256": "91ee10036df89e6e9b09d6c6e7c72ede32174010eb9d71fd1afa396ceb9074e3",
+      "triangle_count": 114375,
+      "material": "polished_aluminum_structure",
+      "opacity": 1.0,
+      "bounds_body_m": {
+        "min": [
+          2.5775069651976255,
+          -8.746830644198187,
+          -0.3860768991882989
+        ],
+        "max": [
+          7.190925323971443,
+          -1.2569836136225048,
+          0.3856411800571293
+        ]
+      }
+    },
+    {
+      "index": 13,
+      "source_part_index": 13,
+      "triangle_selection": "all",
+      "display_name": "starboard secondary-mirror arm",
+      "source_file": "STScI-01G2ZGC3XJ31A395Z6WBVYKEEH.13 Starboard arm to secondary mirror.stl",
+      "source_sha256": "c0e64627660ef7d85218ca9092f406dfbc0648336212078a19a36bff3fc77f0c",
+      "output_file": "jwst_deployed_body_frame/13_starboard_secondary_arm.stl",
+      "output_sha256": "697cc0fe5c407b17d5772084c0dbb31bc960d7f479852293285d3b33e11b6be9",
+      "triangle_count": 65886,
+      "material": "polished_aluminum_structure",
+      "opacity": 1.0,
+      "bounds_body_m": {
+        "min": [
+          0.14425390426835608,
+          -8.746827259744386,
+          0.10814981283327395
+        ],
+        "max": [
+          2.8466421159844066,
+          -1.347563442951638,
+          1.6731246353198934
+        ]
+      }
+    },
+    {
+      "index": 14,
+      "source_part_index": 14,
+      "triangle_selection": "all",
+      "display_name": "port secondary-mirror arm",
+      "source_file": "STScI-01G2ZGC3XJ31A395Z6WBVYKEEH.14 Port arm to secondary mirror.stl",
+      "source_sha256": "fd0d3235a4e4789f7de275c8ac3a524dba43f6a98f9b17f2698637203557f971",
+      "output_file": "jwst_deployed_body_frame/14_port_secondary_arm.stl",
+      "output_sha256": "ea3dd76bea0b75f2979dc07f714bb5905fb6c863ffb97eda0168b620b4d387d9",
+      "triangle_count": 79476,
+      "material": "polished_aluminum_structure",
+      "opacity": 1.0,
+      "bounds_body_m": {
+        "min": [
+          0.14425390426835608,
+          -8.746823875290582,
+          -1.6750410529894266
+        ],
+        "max": [
+          2.846713189514248,
+          -1.347563442951638,
+          -0.10813539960878102
+        ]
+      }
+    },
+    {
+      "index": 15,
+      "source_part_index": 15,
+      "triangle_selection": "all",
+      "display_name": "primary-to-secondary mirror mount",
+      "source_file": "STScI-01G2ZGC3XJ31A395Z6WBVYKEEH.15 Primary mirror and instruments mount to secondary mirror.stl",
+      "source_sha256": "424631c5462526c6f7c1146c20d2a1ca3e6dc4c64a947e67c8f4fcf58b5cd3ce",
+      "output_file": "jwst_deployed_body_frame/15_primary_to_secondary_mount.stl",
+      "output_sha256": "7919a5257a591d676892424f76d6d67385ac0613fabe3ead5034fc43ea2c24c4",
+      "triangle_count": 243568,
+      "material": "polished_aluminum_structure",
+      "opacity": 1.0,
+      "bounds_body_m": {
+        "min": [
+          6.914863888478921,
+          -1.3481134166944588,
+          -0.17708518468949808
+        ],
+        "max": [
+          7.053568958645226,
+          -1.1700471488111963,
+          0.17722482270466405
+        ]
+      }
+    },
+    {
+      "index": 16,
+      "source_part_index": 16,
+      "triangle_selection": "all",
+      "display_name": "secondary-arm mount",
+      "source_file": "STScI-01G2ZGC3XJ31A395Z6WBVYKEEH.16 Arms mount to primary mirror and instruments.stl",
+      "source_sha256": "98c7cbf76798ededad6e739996953e9a2a5f8ca5759e21338a1714113e37f4b3",
+      "output_file": "jwst_deployed_body_frame/16_arm_mount.stl",
+      "output_sha256": "6b48360e6cf8db683078ef8740102bef324f2db73469ff2d57c2e238436733bc",
+      "triangle_count": 28472,
+      "material": "polished_aluminum_structure",
+      "opacity": 1.0,
+      "bounds_body_m": {
+        "min": [
+          0.12895448085653222,
+          -1.7936006095138028,
+          -1.6671282000004113
+        ],
+        "max": [
+          0.4389315278986358,
+          -1.2751716683543135,
+          1.667154458813211
+        ]
+      }
+    },
+    {
+      "index": 17,
+      "source_part_index": 11,
+      "triangle_selection": "primary_front",
+      "display_name": "gold-coated primary-mirror faces",
+      "source_file": "STScI-01G2ZGC3XJ31A395Z6WBVYKEEH.11 Primary mirror and instruments.stl",
+      "source_sha256": "6ffdeb36483ed1a004b8417518a24c31a26d1a2295b55ccc889ae4699f481b06",
+      "output_file": "jwst_deployed_body_frame/17_primary_mirror_gold_surfaces.stl",
+      "output_sha256": "8f840589c92af70064e47766809f96dac8fedb831400e624c7001bf4230d0405",
+      "triangle_count": 4625,
+      "material": "mirror_gold",
+      "opacity": 1.0,
+      "bounds_body_m": {
+        "min": [
+          -0.21743759686791156,
+          -2.428359996754746,
+          -3.2795310658409944
+        ],
+        "max": [
+          7.983794547252308,
+          -1.073569908732123,
+          3.263812845567011
+        ]
+      }
+    },
+    {
+      "index": 18,
+      "source_part_index": 12,
+      "triangle_selection": "secondary_front",
+      "display_name": "gold-coated secondary-mirror face",
+      "source_file": "STScI-01G2ZGC3XJ31A395Z6WBVYKEEH.12 Arm with secondary mirror.stl",
+      "source_sha256": "941b5015422e60ff30a999592d327e5a817aa72ddf52aeea0c72a89e3cce717a",
+      "output_file": "jwst_deployed_body_frame/18_secondary_mirror_gold_surface.stl",
+      "output_sha256": "b1c697814793a3b0cfc66b3ffae4e9f7c98c7b4e8f90ddd5b6d868ea26aca551",
+      "triangle_count": 2763,
+      "material": "mirror_gold",
+      "opacity": 1.0,
+      "bounds_body_m": {
+        "min": [
+          2.702420386120885,
+          -8.447320020538688,
+          -0.3844472846826484
+        ],
+        "max": [
+          3.471534128165694,
+          -8.368898841493147,
+          0.3840301800473896
+        ]
+      }
+    }
+  ]
+}

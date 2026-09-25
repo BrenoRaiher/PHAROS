@@ -1,0 +1,16 @@
+{
+  "selected_trial": "candidate_01",
+  "final_vector_mps": [
+    -0.384,
+    2.75,
+    0.062,
+    -1.292,
+    0.321,
+    0.043
+  ],
+  "prefix_A_B_reexecuted_with_final_dlls": true,
+  "prefix_terminal_matches_cached_seed_exactly": true,
+  "suffix_source": "Accepted PHAROS trial C-H",
+  "no_historical_state_reset": true,
+  "physical_acceptance_status": "All 15 nominal criteria passed"
+}

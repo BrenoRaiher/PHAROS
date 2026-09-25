@@ -1,0 +1,64 @@
+format = "TGSCN"
+generator = "Third-update backend-only reaction-wheel output-boundary diagnostic"
+
+[scenario]
+name = "Diagnostic - reaction-wheel saturation with every-step output"
+start_utc = "2030-01-01T00:00:00Z"
+end_mode = "duration"
+duration_seconds = 30
+integrator = "fixed_step_rk4"
+maximum_integrator_step_seconds = 0.01
+initial_integrator_step_seconds = 0.0025000000000000001
+absolute_tolerance = 1.0000000000000001e-05
+relative_tolerance = 9.9999999999999998e-13
+output_mode = "every_integrator_step"
+output_step_seconds = 0.10000000000000001
+maximum_integration_steps = 5000000
+maximum_output_samples = 1000000
+
+[initial_state]
+position_icrf_m = [0, 0, 0]
+velocity_icrf_mps = [0, 0, 0]
+attitude_body_to_icrf = [1, 0, 0, 0]
+angular_velocity_body_radps = [0, 0, 0]
+
+[[components]]
+id = "11111111-1111-1111-1111-111111111111"
+name = "Bus"
+initial_mass_kg = 10
+minimum_mass_kg = 10
+variable_mass = false
+local_center_of_mass_m = [0, 0, 0]
+origin_body_m = [0, 0, 0]
+component_to_body = [1.0, 0.0, 0.0, 0.0]
+parent_component = ""
+parent_anchor_m = [0, 0, 0]
+child_anchor_m = [0, 0, 0]
+child_to_parent_zero_orientation = [1.0, 0.0, 0.0, 0.0]
+dofs = []
+inertia = { ixx_kgm2 = 4, iyy_kgm2 = 4, izz_kgm2 = 4, ixy_kgm2 = 0, ixz_kgm2 = 0, iyz_kgm2 = 0 }
+
+[[reaction_wheels]]
+name = "Z Wheel"
+mount_component = "Bus"
+axis_component = [0.0, 0.0, 1.0]
+initial_momentum_nms = 0.0
+maximum_absolute_momentum_nms = 0.2
+
+[control]
+mode = "compiled_user_controller"
+unreal_controller_id = ""
+controller_dll_file = "../../cases/02_actuated_multibody/controllers/ActuatorValidationController.dll"
+
+[gravity]
+include_first_post_newtonian_correction = false
+bodies = []
+
+[srp]
+enabled = false
+
+[atmosphere]
+enabled = false
+
+[aerodynamics]
+enabled = false

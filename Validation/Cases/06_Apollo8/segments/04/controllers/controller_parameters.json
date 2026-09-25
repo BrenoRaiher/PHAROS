@@ -1,0 +1,27 @@
+{
+  "direction": [
+    0.240346525558557,
+    -0.32725148395261155,
+    -0.9138599531124796
+  ],
+  "target_mode": "fixed_icrf",
+  "target_mode_id": 0,
+  "target_body_naif_id": 0,
+  "radial_bias": 0.0,
+  "normal_bias": 0.0,
+  "circularization_stop_mps": 0.0,
+  "target_mass": 28506.012492650003,
+  "burn_start": 60.9,
+  "burn_end": 72.7,
+  "throttle": 0.999340425169594,
+  "use_sps": false,
+  "sps_maximum_thrust_n": 91180.3626873533,
+  "main_required_thrust_n": 1778.8259568018773,
+  "main_target_delta_v_mps": 0.7364366911011428,
+  "ullage_enabled": false,
+  "ullage_start": -1.0,
+  "ullage_end": -1.0,
+  "ullage_throttle": 0.0,
+  "ullage_target_delta_v_mps": 0.0,
+  "total_target_delta_v_mps": 0.7364366911011428
+}

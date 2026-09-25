@@ -1,0 +1,93 @@
+[
+  {
+    "canonical": "segments\\01\\scenario\\apollo8_like_01.tgscn",
+    "visual": "segments\\01\\scenario\\apollo8_like_01_with_visual_appearance.tgscn",
+    "equal_physical_configuration": true,
+    "fixed_massless_display_children": 11,
+    "preflights_pass": true
+  },
+  {
+    "canonical": "segments\\02\\scenario\\apollo8_like_02.tgscn",
+    "visual": "segments\\02\\scenario\\apollo8_like_02_with_visual_appearance.tgscn",
+    "equal_physical_configuration": true,
+    "fixed_massless_display_children": 11,
+    "preflights_pass": true
+  },
+  {
+    "canonical": "segments\\03\\scenario\\apollo8_like_03.tgscn",
+    "visual": "segments\\03\\scenario\\apollo8_like_03_with_visual_appearance.tgscn",
+    "equal_physical_configuration": true,
+    "fixed_massless_display_children": 11,
+    "preflights_pass": true
+  },
+  {
+    "canonical": "segments\\04\\scenario\\apollo8_like_04.tgscn",
+    "visual": "segments\\04\\scenario\\apollo8_like_04_with_visual_appearance.tgscn",
+    "equal_physical_configuration": true,
+    "fixed_massless_display_children": 11,
+    "preflights_pass": true
+  },
+  {
+    "canonical": "segments\\05\\scenario\\apollo8_like_05.tgscn",
+    "visual": "segments\\05\\scenario\\apollo8_like_05_with_visual_appearance.tgscn",
+    "equal_physical_configuration": true,
+    "fixed_massless_display_children": 11,
+    "preflights_pass": true
+  },
+  {
+    "canonical": "segments\\06\\scenario\\apollo8_like_06.tgscn",
+    "visual": "segments\\06\\scenario\\apollo8_like_06_with_visual_appearance.tgscn",
+    "equal_physical_configuration": true,
+    "fixed_massless_display_children": 11,
+    "preflights_pass": true
+  },
+  {
+    "canonical": "segments\\07\\scenario\\apollo8_like_07.tgscn",
+    "visual": "segments\\07\\scenario\\apollo8_like_07_with_visual_appearance.tgscn",
+    "equal_physical_configuration": true,
+    "fixed_massless_display_children": 11,
+    "preflights_pass": true
+  },
+  {
+    "canonical": "segments\\08\\scenario\\apollo8_like_08.tgscn",
+    "visual": "segments\\08\\scenario\\apollo8_like_08_with_visual_appearance.tgscn",
+    "equal_physical_configuration": true,
+    "fixed_massless_display_children": 11,
+    "preflights_pass": true
+  },
+  {
+    "canonical": "segments\\09\\scenario\\apollo8_like_09.tgscn",
+    "visual": "segments\\09\\scenario\\apollo8_like_09_with_visual_appearance.tgscn",
+    "equal_physical_configuration": true,
+    "fixed_massless_display_children": 11,
+    "preflights_pass": true
+  },
+  {
+    "canonical": "segments\\10\\scenario\\apollo8_like_10.tgscn",
+    "visual": "segments\\10\\scenario\\apollo8_like_10_with_visual_appearance.tgscn",
+    "equal_physical_configuration": true,
+    "fixed_massless_display_children": 11,
+    "preflights_pass": true
+  },
+  {
+    "canonical": "segments\\11\\scenario\\apollo8_like_11.tgscn",
+    "visual": "segments\\11\\scenario\\apollo8_like_11_with_visual_appearance.tgscn",
+    "equal_physical_configuration": true,
+    "fixed_massless_display_children": 11,
+    "preflights_pass": true
+  },
+  {
+    "canonical": "segments\\12\\scenario\\apollo8_like_12.tgscn",
+    "visual": "segments\\12\\scenario\\apollo8_like_12_with_visual_appearance.tgscn",
+    "equal_physical_configuration": true,
+    "fixed_massless_display_children": 11,
+    "preflights_pass": true
+  },
+  {
+    "canonical": "segments\\13\\scenario\\apollo8_like_13.tgscn",
+    "visual": "segments\\13\\scenario\\apollo8_like_13_with_visual_appearance.tgscn",
+    "equal_physical_configuration": true,
+    "fixed_massless_display_children": 11,
+    "preflights_pass": true
+  }
+]

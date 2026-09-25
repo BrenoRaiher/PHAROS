@@ -1,0 +1,47 @@
+{
+  "burn_id": "TCM-20",
+  "burn_start_elapsed_s": 0.0,
+  "burn_end_elapsed_s": 361.896,
+  "burn_duration_s": 361.896,
+  "commanded_delta_v_icrf_mps": [
+    -15.795347358783525,
+    -26.188030980700024,
+    16.41536631358759
+  ],
+  "commanded_delta_v_magnitude_mps": 34.7098,
+  "burn_target_start_unit_icrf": [
+    -0.4550688093501986,
+    -0.75448521687535,
+    0.4729317458927332
+  ],
+  "burn_target_end_unit_icrf": [
+    -0.4550688093501986,
+    -0.75448521687535,
+    0.4729317458927332
+  ],
+  "burn_target_linearly_interpolated": false,
+  "official_reconstructed_delta_v_magnitude_mps": 34.7098,
+  "commanded_throttle": 0.8780156653508718,
+  "effective_cruise_trim": {
+    "enabled": true,
+    "interpretation": "One lumped controller command representing the accumulated translational effect of omitted small reconstructed spacecraft impulses; it is not an additional historical TCM.",
+    "burn_start_elapsed_s": 861630.0,
+    "burn_end_elapsed_s": 863430.0,
+    "burn_duration_s": 1800.0,
+    "commanded_delta_v_icrf_mps": [
+      0.03301389398536422,
+      0.037213839238111925,
+      0.16777105136066145
+    ],
+    "commanded_delta_v_magnitude_mps": 0.17499117892504928,
+    "commanded_throttle": 0.11188270797871261
+  },
+  "initial_fixed_target_end_elapsed_s": 961.896,
+  "final_fixed_target_start_elapsed_s": 1716060.0,
+  "final_target_for_next_maneuver": "TCM-21",
+  "final_target_icrf": [
+    0.0916509819674117,
+    -0.9602411655415239,
+    -0.26369869454334555
+  ]
+}

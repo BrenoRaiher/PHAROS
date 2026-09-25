@@ -1,0 +1,65 @@
+{
+  "size_px": 1024,
+  "materials": {
+    "mirror_gold": {
+      "source_imagegen_file": "source_imagegen/mirror_gold_source.png",
+      "source_imagegen_sha256": "462b9e45298df0360bca6e649e6a554047f03eff41c7a4d7c8b87d4f6fc5d8fd",
+      "base_color": "mirror_gold_base_color.png",
+      "normal": "mirror_gold_normal.png",
+      "roughness": "mirror_gold_roughness.png",
+      "metallic": "mirror_gold_metallic.png",
+      "mean_roughness": 0.12,
+      "mean_metallic": 0.72
+    },
+    "graphite_structure": {
+      "source_imagegen_file": "source_imagegen/graphite_structure_source.png",
+      "source_imagegen_sha256": "baa8f7400c9d11c08bdadaf4f94d536fbfe74d10ccc49e7d83254a231c1c516c",
+      "base_color": "graphite_structure_base_color.png",
+      "normal": "graphite_structure_normal.png",
+      "roughness": "graphite_structure_roughness.png",
+      "metallic": "graphite_structure_metallic.png",
+      "mean_roughness": 0.24,
+      "mean_metallic": 0.2
+    },
+    "sunshield_silver": {
+      "source_imagegen_file": "source_imagegen/sunshield_silver_source.png",
+      "source_imagegen_sha256": "79e21f20ae5a5327524e73dae494fca82e7dea3c2d550e76017b2964e399e262",
+      "base_color": "sunshield_silver_base_color.png",
+      "normal": "sunshield_silver_normal.png",
+      "roughness": "sunshield_silver_roughness.png",
+      "metallic": "sunshield_silver_metallic.png",
+      "mean_roughness": 0.16,
+      "mean_metallic": 0.74
+    },
+    "thermal_blanket_rose_silver": {
+      "source_imagegen_file": "source_imagegen/thermal_blanket_rose_silver_source.png",
+      "source_imagegen_sha256": "0c441ac1318e4bbc15d97c05f91be20520cb3a80789f806e476f079caef5f8cc",
+      "base_color": "thermal_blanket_rose_silver_base_color.png",
+      "normal": "thermal_blanket_rose_silver_normal.png",
+      "roughness": "thermal_blanket_rose_silver_roughness.png",
+      "metallic": "thermal_blanket_rose_silver_metallic.png",
+      "mean_roughness": 0.09,
+      "mean_metallic": 0.93
+    },
+    "polished_aluminum_structure": {
+      "source_imagegen_file": "source_imagegen/polished_aluminum_structure_source.png",
+      "source_imagegen_sha256": "25bf739088647de73b42a46acad90e634374ef4490a364b8429b7e65c7d66ae6",
+      "base_color": "polished_aluminum_structure_base_color.png",
+      "normal": "polished_aluminum_structure_normal.png",
+      "roughness": "polished_aluminum_structure_roughness.png",
+      "metallic": "polished_aluminum_structure_metallic.png",
+      "mean_roughness": 0.1,
+      "mean_metallic": 0.95
+    },
+    "solar_cell_blue": {
+      "source_imagegen_file": "source_imagegen/solar_cell_blue_source.png",
+      "source_imagegen_sha256": "387dfc7e5b752d90a0916f6857257b514764452fa91cbcb4996b1819b337fae8",
+      "base_color": "solar_cell_blue_base_color.png",
+      "normal": "solar_cell_blue_normal.png",
+      "roughness": "solar_cell_blue_roughness.png",
+      "metallic": "solar_cell_blue_metallic.png",
+      "mean_roughness": 0.2,
+      "mean_metallic": 0.3
+    }
+  }
+}

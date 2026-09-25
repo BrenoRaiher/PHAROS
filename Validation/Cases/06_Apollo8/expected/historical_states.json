@@ -1,0 +1,1049 @@
+{
+  "initial_state": {
+    "event_id": "initial_state",
+    "get_seconds": 17154,
+    "get_hms": "04:45:54",
+    "center": "Earth",
+    "label": "Initial State",
+    "position_ft": [
+      70090239.57641882,
+      -97916761.70088618,
+      19864818.77708617
+    ],
+    "velocity_ftps": [
+      12398.09975833132,
+      -7792.260382112903,
+      -923.3343697822593
+    ],
+    "source_pdf_page": 31,
+    "source_printed_page": "A-3",
+    "source": "Trajectory Reconstruction Supplement 1, Appendix A, A-3 (PDF 31), TRW postflight row.",
+    "transcription_significant_digits": "Existing complete transcription, checked against source.",
+    "position_informed_calibration": false,
+    "utc": "1968-12-21T17:36:54.000Z",
+    "et": -979150944.8163517,
+    "position_relative_j2000_m": [
+      21551552.821621213,
+      -29696272.305482406,
+      6119448.247190806
+    ],
+    "velocity_relative_j2000_mps": [
+      3796.1460610784097,
+      -2348.82340562588,
+      -270.0204551074927
+    ],
+    "position_icrf_m": [
+      -298632826.09281206,
+      134942588641.47067,
+      58526575674.23046
+    ],
+    "velocity_icrf_mps": [
+      -26487.222938884777,
+      -2627.1612161096427,
+      -391.39450934054736
+    ],
+    "conversion": "Mean NBY B1969.0 to J2000 rotation, followed by DE442 translation of the stated center.",
+    "position_earth_relative_j2000_m": [
+      21551552.82162124,
+      -29696272.305480957,
+      6119448.247192383
+    ],
+    "position_moon_relative_j2000_m": [
+      -149492041.47097918,
+      249664859.39187622,
+      159028301.54515076
+    ]
+  },
+  "post_first_midcourse_nav_update": {
+    "event_id": "post_first_midcourse_nav_update",
+    "get_seconds": 42936,
+    "get_hms": "11:55:36",
+    "center": "Earth",
+    "label": "After MC1",
+    "position_ft": [
+      302856684.3223112,
+      -207062264.0205958,
+      -14791619.40250795
+    ],
+    "velocity_ftps": [
+      7199.390525999047,
+      -2702.256513112469,
+      -1381.832057196297
+    ],
+    "source_pdf_page": 32,
+    "source_printed_page": "A-4",
+    "source": "Trajectory Reconstruction Supplement 1, Appendix A, A-4 (PDF 32), TRW postflight row.",
+    "transcription_significant_digits": "Existing complete transcription, checked against source.",
+    "duplicate_trw_pdf_page": 33,
+    "position_informed_calibration": false,
+    "utc": "1968-12-22T00:46:36.000Z",
+    "et": -979125162.8163432,
+    "position_relative_j2000_m": [
+      92759192.59653218,
+      -62471069.38484997,
+      -4229677.961730914
+    ],
+    "velocity_relative_j2000_mps": [
+      2201.2904912581316,
+      -808.4110719963686,
+      -414.56034625049153
+    ],
+    "position_icrf_m": [
+      -1008167749.8552629,
+      134900759612.93141,
+      58512281771.414314
+    ],
+    "velocity_icrf_mps": [
+      -28080.124581101216,
+      -1232.4349977015918,
+      -599.1929247122566
+    ],
+    "conversion": "Mean NBY B1969.0 to J2000 rotation, followed by DE442 translation of the stated center.",
+    "position_earth_relative_j2000_m": [
+      92759192.59653223,
+      -62471069.38485718,
+      -4229677.961730957
+    ],
+    "position_moon_relative_j2000_m": [
+      -103051100.27784646,
+      205301173.83299255,
+      142654500.2749176
+    ]
+  },
+  "outbound_update": {
+    "event_id": "outbound_update",
+    "get_seconds": 108894,
+    "get_hms": "30:14:54",
+    "center": "Earth",
+    "label": "Outbound Transfer",
+    "position_ft": [
+      666792613.3,
+      -318693885.4,
+      -96657054.94
+    ],
+    "velocity_ftps": [
+      4438.57567,
+      -1123.784938,
+      -1119.101345
+    ],
+    "source_pdf_page": 34,
+    "source_printed_page": "A-6",
+    "source": "Trajectory Reconstruction Supplement 1, Appendix A, A-6 (PDF 34), TRW postflight row.",
+    "transcription_significant_digits": 10,
+    "duplicate_trw_pdf_page": 35,
+    "position_informed_calibration": false,
+    "utc": "1968-12-22T19:05:54.000Z",
+    "et": -979059204.8163215,
+    "position_relative_j2000_m": [
+      203994756.52161616,
+      -95726302.11820118,
+      -28847574.004658423
+    ],
+    "velocity_relative_j2000_mps": [
+      1356.241529204275,
+      -333.13901583292176,
+      -337.0208040518152
+    ],
+    "position_icrf_m": [
+      -2893966714.590088,
+      134827250353.82231,
+      58470151496.765274
+    ],
+    "velocity_icrf_mps": [
+      -28916.10476829559,
+      -1129.6520051626976,
+      -683.3740348276145
+    ],
+    "conversion": "Mean NBY B1969.0 to J2000 rotation, followed by DE442 translation of the stated center.",
+    "position_earth_relative_j2000_m": [
+      203994756.52161598,
+      -95726302.11819458,
+      -28847574.00466156
+    ],
+    "position_moon_relative_j2000_m": [
+      -49872437.90505457,
+      135841451.9270935,
+      99010816.44766235
+    ]
+  },
+  "pre_second_midcourse_nav_update": {
+    "event_id": "pre_second_midcourse_nav_update",
+    "get_seconds": 143808,
+    "get_hms": "39:56:48",
+    "center": "Earth",
+    "label": "Before MC2",
+    "position_ft": [
+      809570903.8172642,
+      -352539379.4565915,
+      -134072530.7381011
+    ],
+    "velocity_ftps": [
+      3779.06010857551,
+      -839.0720820831634,
+      -1029.237566792482
+    ],
+    "source_pdf_page": 36,
+    "source_printed_page": "A-8",
+    "source": "Trajectory Reconstruction Supplement 1, Appendix A, A-8 (PDF 36), TRW postflight row.",
+    "transcription_significant_digits": "Existing complete transcription, checked against source.",
+    "position_informed_calibration": false,
+    "utc": "1968-12-23T04:47:48.000Z",
+    "et": -979024290.8163099,
+    "position_relative_j2000_m": [
+      247618213.14350477,
+      -105740347.01373573,
+      -40120531.26260209
+    ],
+    "velocity_relative_j2000_mps": [
+      1154.542796228655,
+      -247.75448436205252,
+      -310.237020359127
+    ],
+    "position_icrf_m": [
+      -3907151885.718928,
+      134785987235.87851,
+      58445292798.33826
+    ],
+    "velocity_icrf_mps": [
+      -29110.656395192134,
+      -1241.2807134011632,
+      -742.1136679121573
+    ],
+    "conversion": "Mean NBY B1969.0 to J2000 rotation, followed by DE442 translation of the stated center.",
+    "position_earth_relative_j2000_m": [
+      247618213.14350462,
+      -105740347.01373291,
+      -40120531.26260376
+    ],
+    "position_moon_relative_j2000_m": [
+      -33418074.572045803,
+      103259121.62957764,
+      75783002.40184784
+    ]
+  },
+  "post_second_midcourse_update": {
+    "event_id": "post_second_midcourse_update",
+    "get_seconds": 219996,
+    "get_hms": "61:06:36",
+    "center": "Moon",
+    "label": "After MC2",
+    "position_ft": [
+      -20404652.93,
+      105320326.2,
+      77026255.89
+    ],
+    "velocity_ftps": [
+      1029.513805,
+      -3193.549511,
+      -2366.227803
+    ],
+    "source_pdf_page": 37,
+    "source_printed_page": "A-9",
+    "source": "Trajectory Reconstruction Supplement 1, Appendix A, A-9 (PDF 37), TRW postflight row.",
+    "transcription_significant_digits": 10,
+    "position_informed_calibration": false,
+    "utc": "1968-12-24T01:57:36.000Z",
+    "et": -978948102.8162849,
+    "position_relative_j2000_m": [
+      -6512442.414627542,
+      32057503.18432238,
+      23458422.393945675
+    ],
+    "velocity_relative_j2000_mps": [
+      322.707928359067,
+      -971.1875747572972,
+      -720.2673424824699
+    ],
+    "position_icrf_m": [
+      -6135887098.519842,
+      134678623210.38342,
+      58382757471.63391
+    ],
+    "velocity_icrf_mps": [
+      -29366.531032405557,
+      -1609.80151741373,
+      -918.9868691586585
+    ],
+    "conversion": "Mean NBY B1969.0 to J2000 rotation, followed by DE442 translation of the stated center.",
+    "position_earth_relative_j2000_m": [
+      323970150.5535221,
+      -121046011.57920837,
+      -62649584.24925232
+    ],
+    "position_moon_relative_j2000_m": [
+      -6512442.414627075,
+      32057503.184326172,
+      23458422.393943787
+    ]
+  },
+  "lunar_rev1": {
+    "event_id": "lunar_rev1",
+    "get_seconds": 250380,
+    "get_hms": "69:33:00",
+    "center": "Moon",
+    "label": "Lunar Revolution 1",
+    "position_ft": [
+      -650478.7818,
+      -5146879.266,
+      -3323419.552
+    ],
+    "velocity_ftps": [
+      -5368.043728,
+      88.44288311,
+      554.0431938
+    ],
+    "source_pdf_page": 38,
+    "source_printed_page": "A-10",
+    "source": "Trajectory Reconstruction Supplement 1, Appendix A, A-10 (PDF 38), TRW postflight row.",
+    "transcription_significant_digits": 10,
+    "position_informed_calibration": true,
+    "utc": "1968-12-24T10:24:00.000Z",
+    "et": -978917718.8162748,
+    "position_relative_j2000_m": [
+      -184332.7043858468,
+      -1570095.0032195945,
+      -1013554.6647239737
+    ],
+    "velocity_relative_j2000_mps": [
+      -1636.8286712066986,
+      15.612146510501441,
+      163.94158110536958
+    ],
+    "position_icrf_m": [
+      -7032671979.804462,
+      134623498549.57297,
+      58351406133.70214
+    ],
+    "velocity_icrf_mps": [
+      -31394.38414000913,
+      -761.8061183890461,
+      -90.71112575791054
+    ],
+    "conversion": "Mean NBY B1969.0 to J2000 rotation, followed by DE442 translation of the stated center.",
+    "position_earth_relative_j2000_m": [
+      345963081.55426407,
+      -130336145.05386353,
+      -74087729.75971222
+    ],
+    "position_moon_relative_j2000_m": [
+      -184332.70438575745,
+      -1570095.0032196045,
+      -1013554.6647262573
+    ]
+  },
+  "lunar_rev2": {
+    "event_id": "lunar_rev2",
+    "get_seconds": 258024,
+    "get_hms": "71:40:24",
+    "center": "Moon",
+    "label": "Lunar Revolution 2",
+    "position_ft": [
+      -251629.8244,
+      -5134912.528,
+      -3365781.554
+    ],
+    "velocity_ftps": [
+      -5394.92236,
+      -193.3742011,
+      368.3200101
+    ],
+    "source_pdf_page": 39,
+    "source_printed_page": "A-11",
+    "source": "Trajectory Reconstruction Supplement 1, Appendix A, A-11 (PDF 39), TRW postflight row.",
+    "transcription_significant_digits": 10,
+    "position_informed_calibration": false,
+    "utc": "1968-12-24T12:31:24.000Z",
+    "et": -978910074.8162723,
+    "position_relative_j2000_m": [
+      -62753.398278593755,
+      -1565604.7148086443,
+      -1026100.2999705268
+    ],
+    "velocity_relative_j2000_mps": [
+      -1644.2549978222414,
+      -70.33984071164387,
+      107.30962476213217
+    ],
+    "position_icrf_m": [
+      -7260083362.166682,
+      134617423596.68475,
+      58349391406.09593
+    ],
+    "velocity_icrf_mps": [
+      -31419.140218063956,
+      -883.6297542826147,
+      -161.9292928357932
+    ],
+    "conversion": "Mean NBY B1969.0 to J2000 rotation, followed by DE442 translation of the stated center.",
+    "position_earth_relative_j2000_m": [
+      349645765.13078976,
+      -124061939.48214722,
+      -70737693.98715973
+    ],
+    "position_moon_relative_j2000_m": [
+      -62753.39827823639,
+      -1565604.7148132324,
+      -1026100.2999725342
+    ]
+  },
+  "lunar_rev3": {
+    "event_id": "lunar_rev3",
+    "get_seconds": 265764,
+    "get_hms": "73:49:24",
+    "center": "Moon",
+    "label": "Lunar Revolution 3",
+    "position_ft": [
+      -294751.2562,
+      -5067299.26,
+      -3319039.402
+    ],
+    "velocity_ftps": [
+      -5323.247356,
+      -7.281166457,
+      484.2708615
+    ],
+    "source_pdf_page": 40,
+    "source_printed_page": "A-12",
+    "source": "Trajectory Reconstruction Supplement 1, Appendix A, A-12 (PDF 40), TRW postflight row.",
+    "transcription_significant_digits": 10,
+    "position_informed_calibration": false,
+    "utc": "1968-12-24T14:40:24.000Z",
+    "et": -978902334.8162698,
+    "position_relative_j2000_m": [
+      -76082.22959609237,
+      -1545087.9515901739,
+      -1011893.1724437729
+    ],
+    "velocity_relative_j2000_mps": [
+      -1622.908784063782,
+      -13.468964522691664,
+      142.7165141447855
+    ],
+    "position_icrf_m": [
+      -7490622335.31911,
+      134611007428.88771,
+      58347263867.43976
+    ],
+    "velocity_icrf_mps": [
+      -31415.378924116754,
+      -863.4702691718755,
+      -141.502588798469
+    ],
+    "conversion": "Mean NBY B1969.0 to J2000 rotation, followed by DE442 translation of the stated center.",
+    "position_earth_relative_j2000_m": [
+      353080729.7874441,
+      -117638860.92015076,
+      -67287736.40244293
+    ],
+    "position_moon_relative_j2000_m": [
+      -76082.229596138,
+      -1545087.9515838623,
+      -1011893.1724472046
+    ]
+  },
+  "lunar_rev4": {
+    "event_id": "lunar_rev4",
+    "get_seconds": 272886,
+    "get_hms": "75:48:06",
+    "center": "Moon",
+    "label": "Lunar Revolution 4",
+    "position_ft": [
+      -222057.6482,
+      -5069563.904,
+      -3318399.787
+    ],
+    "velocity_ftps": [
+      -5327.003865,
+      -61.77114089,
+      453.2294756
+    ],
+    "source_pdf_page": 41,
+    "source_printed_page": "A-13",
+    "source": "Trajectory Reconstruction Supplement 1, Appendix A, A-13 (PDF 41), TRW postflight row.",
+    "transcription_significant_digits": 10,
+    "position_informed_calibration": false,
+    "utc": "1968-12-24T16:39:06.000Z",
+    "et": -978895212.8162674,
+    "position_relative_j2000_m": [
+      -53921.65301686879,
+      -1545624.5968198087,
+      -1011631.4533829222
+    ],
+    "velocity_relative_j2000_mps": [
+      -1623.910089574573,
+      -30.084948418413003,
+      133.25186633126074
+    ],
+    "position_icrf_m": [
+      -7702839842.743934,
+      134604831857.79823,
+      58345190275.327156
+    ],
+    "velocity_icrf_mps": [
+      -31432.58549352349,
+      -914.2119196271519,
+      -164.93853735144128
+    ],
+    "conversion": "Mean NBY B1969.0 to J2000 rotation, followed by DE442 translation of the stated center.",
+    "position_earth_relative_j2000_m": [
+      356135091.51319313,
+      -111702601.29598999,
+      -64099981.857925415
+    ],
+    "position_moon_relative_j2000_m": [
+      -53921.65301704407,
+      -1545624.5968170166,
+      -1011631.4533843994
+    ]
+  },
+  "lunar_rev5": {
+    "event_id": "lunar_rev5",
+    "get_seconds": 279984,
+    "get_hms": "77:46:24",
+    "center": "Moon",
+    "label": "Lunar Revolution 5",
+    "position_ft": [
+      -21247.22194,
+      -5064474.71,
+      -3330672.193
+    ],
+    "velocity_ftps": [
+      -5331.749045,
+      -210.340986,
+      358.2654993
+    ],
+    "source_pdf_page": 42,
+    "source_printed_page": "A-14",
+    "source": "Trajectory Reconstruction Supplement 1, Appendix A, A-14 (PDF 42), TRW postflight row.",
+    "transcription_significant_digits": 10,
+    "position_informed_calibration": false,
+    "utc": "1968-12-24T18:37:24.000Z",
+    "et": -978888114.816265,
+    "position_relative_j2000_m": [
+      7284.13300497214,
+      -1543649.090417306,
+      -1015187.6679456604
+    ],
+    "velocity_relative_j2000_mps": [
+      -1624.9552366586486,
+      -75.37767341561926,
+      104.3030929238944
+    ],
+    "position_icrf_m": [
+      -7914417980.621155,
+      134598436623.15474,
+      58343020219.06229
+    ],
+    "velocity_icrf_mps": [
+      -31449.796358462256,
+      -993.8441406656,
+      -207.98980457488955
+    ],
+    "conversion": "Mean NBY B1969.0 to J2000 rotation, followed by DE442 translation of the stated center.",
+    "position_earth_relative_j2000_m": [
+      359083437.80086994,
+      -105742960.58189392,
+      -60903259.00868988
+    ],
+    "position_moon_relative_j2000_m": [
+      7284.133005142212,
+      -1543649.090423584,
+      -1015187.6679458618
+    ]
+  },
+  "lunar_rev6": {
+    "event_id": "lunar_rev6",
+    "get_seconds": 287250,
+    "get_hms": "79:47:30",
+    "center": "Moon",
+    "label": "Lunar Revolution 6",
+    "position_ft": [
+      -716194.9589,
+      -5058401.566,
+      -3260232.017
+    ],
+    "velocity_ftps": [
+      -5294.682897,
+      304.5200685,
+      696.3954035
+    ],
+    "source_pdf_page": 43,
+    "source_printed_page": "A-15",
+    "source": "Trajectory Reconstruction Supplement 1, Appendix A, A-15 (PDF 43), TRW postflight row.",
+    "transcription_significant_digits": 10,
+    "position_informed_calibration": false,
+    "utc": "1968-12-24T20:38:30.000Z",
+    "et": -978880848.8162626,
+    "position_relative_j2000_m": [
+      -204607.40706768018,
+      -1543266.7096544157,
+      -994355.8234815092
+    ],
+    "velocity_relative_j2000_mps": [
+      -1615.056235097082,
+      81.62545038600597,
+      207.39702070548407
+    ],
+    "position_icrf_m": [
+      -8131397312.70452,
+      134591634695.1088,
+      58340718927.79269
+    ],
+    "velocity_icrf_mps": [
+      -31456.45307203834,
+      -872.332515231833,
+      -119.51617063393297
+    ],
+    "conversion": "Mean NBY B1969.0 to J2000 rotation, followed by DE442 translation of the stated center.",
+    "position_earth_relative_j2000_m": [
+      361687029.77127934,
+      -99604123.32546997,
+      -57583419.238960266
+    ],
+    "position_moon_relative_j2000_m": [
+      -204607.4070672989,
+      -1543266.7096557617,
+      -994355.8234786987
+    ]
+  },
+  "lunar_rev7": {
+    "event_id": "lunar_rev7",
+    "get_seconds": 294258,
+    "get_hms": "81:44:18",
+    "center": "Moon",
+    "label": "Lunar Revolution 7",
+    "position_ft": [
+      -39475.29717,
+      -5065076.308,
+      -3323600.638
+    ],
+    "velocity_ftps": [
+      -5334.029888,
+      -197.367298,
+      371.9660595
+    ],
+    "source_pdf_page": 44,
+    "source_printed_page": "A-16",
+    "source": "Trajectory Reconstruction Supplement 1, Appendix A, A-16 (PDF 44), TRW postflight row.",
+    "transcription_significant_digits": 10,
+    "position_informed_calibration": false,
+    "utc": "1968-12-24T22:35:18.000Z",
+    "et": -978873840.8162603,
+    "position_relative_j2000_m": [
+      1723.1514433225575,
+      -1543870.9920468773,
+      -1013049.0055804997
+    ],
+    "velocity_relative_j2000_mps": [
+      -1625.6904134167758,
+      -71.42825144008613,
+      108.47686881195159
+    ],
+    "position_icrf_m": [
+      -8340375442.951852,
+      134584827856.49883,
+      58338359300.659676
+    ],
+    "velocity_icrf_mps": [
+      -31483.054467719594,
+      -1059.9417437656361,
+      -232.71346156141908
+    ],
+    "conversion": "Mean NBY B1969.0 to J2000 rotation, followed by DE442 translation of the stated center.",
+    "position_earth_relative_j2000_m": [
+      364474219.62100315,
+      -93648474.20625305,
+      -54399498.21154785
+    ],
+    "position_moon_relative_j2000_m": [
+      1723.1514434814453,
+      -1543870.992050171,
+      -1013049.0055770874
+    ]
+  },
+  "lunar_rev8": {
+    "event_id": "lunar_rev8",
+    "get_seconds": 301338,
+    "get_hms": "83:42:18",
+    "center": "Moon",
+    "label": "Lunar Revolution 8",
+    "position_ft": [
+      252725.6417,
+      -5048858.306,
+      -3333708.924
+    ],
+    "velocity_ftps": [
+      -5330.521327,
+      -413.1138691,
+      231.8188631
+    ],
+    "source_pdf_page": 45,
+    "source_printed_page": "A-17",
+    "source": "Trajectory Reconstruction Supplement 1, Appendix A, A-17 (PDF 45), TRW postflight row.",
+    "transcription_significant_digits": 10,
+    "position_informed_calibration": false,
+    "utc": "1968-12-25T00:33:18.000Z",
+    "et": -978866760.816258,
+    "position_relative_j2000_m": [
+      90758.4669774613,
+      -1538310.4025526873,
+      -1015861.706421383
+    ],
+    "velocity_relative_j2000_mps": [
+      -1624.0364517841908,
+      -137.17836625728233,
+      65.76410607384406
+    ],
+    "position_icrf_m": [
+      -8551733627.884666,
+      134577710208.05325,
+      58335889284.174614
+    ],
+    "velocity_icrf_mps": [
+      -31497.52355820025,
+      -1160.924718534654,
+      -290.0250618543551
+    ],
+    "conversion": "Mean NBY B1969.0 to J2000 rotation, followed by DE442 translation of the stated center.",
+    "position_earth_relative_j2000_m": [
+      367035945.81253433,
+      -87592157.504776,
+      -51147379.33628845
+    ],
+    "position_moon_relative_j2000_m": [
+      90758.46697711945,
+      -1538310.402557373,
+      -1015861.7064208984
+    ]
+  },
+  "lunar_rev9": {
+    "event_id": "lunar_rev9",
+    "get_seconds": 308454,
+    "get_hms": "85:40:54",
+    "center": "Moon",
+    "label": "Lunar Revolution 9",
+    "position_ft": [
+      351753.8247,
+      -5040106.092,
+      -3338081.539
+    ],
+    "velocity_ftps": [
+      -5327.330389,
+      -488.7178404,
+      186.4533754
+    ],
+    "source_pdf_page": 46,
+    "source_printed_page": "A-18",
+    "source": "Trajectory Reconstruction Supplement 1, Appendix A, A-18 (PDF 46), TRW postflight row.",
+    "transcription_significant_digits": 10,
+    "position_informed_calibration": false,
+    "utc": "1968-12-25T02:31:54.000Z",
+    "et": -978859644.8162556,
+    "position_relative_j2000_m": [
+      120926.91673143981,
+      -1535433.528475932,
+      -1017103.5588738344
+    ],
+    "velocity_relative_j2000_mps": [
+      -1622.862466935603,
+      -160.21501599315718,
+      51.93993923692964
+    ],
+    "position_icrf_m": [
+      -8764340806.58932,
+      134570301145.57187,
+      58333303515.92318
+    ],
+    "velocity_icrf_mps": [
+      -31512.53878307148,
+      -1219.6986755992484,
+      -318.6990248071984
+    ],
+    "conversion": "Mean NBY B1969.0 to J2000 rotation, followed by DE442 translation of the stated center.",
+    "position_earth_relative_j2000_m": [
+      369414602.74443245,
+      -81476379.98719788,
+      -47858754.14577484
+    ],
+    "position_moon_relative_j2000_m": [
+      120926.91673088074,
+      -1535433.5284729004,
+      -1017103.5588760376
+    ]
+  },
+  "lunar_rev10": {
+    "event_id": "lunar_rev10",
+    "get_seconds": 315564,
+    "get_hms": "87:39:24",
+    "center": "Moon",
+    "label": "Lunar Revolution 10",
+    "position_ft": [
+      481207.1433,
+      -5029102.274,
+      -3337414.886
+    ],
+    "velocity_ftps": [
+      -5320.383292,
+      -582.21861,
+      124.9980326
+    ],
+    "source_pdf_page": 47,
+    "source_printed_page": "A-19",
+    "source": "Trajectory Reconstruction Supplement 1, Appendix A, A-19 (PDF 47), TRW postflight row.",
+    "transcription_significant_digits": 10,
+    "position_informed_calibration": true,
+    "utc": "1968-12-25T04:30:24.000Z",
+    "et": -978852534.8162532,
+    "position_relative_j2000_m": [
+      160359.2973670773,
+      -1531806.1088362394,
+      -1016781.5156931317
+    ],
+    "velocity_relative_j2000_mps": [
+      -1620.491044977539,
+      -188.6984906733579,
+      33.21511325753569
+    ],
+    "position_icrf_m": [
+      -8976874410.198473,
+      134562643943.50603,
+      58330615325.730865
+    ],
+    "velocity_icrf_mps": [
+      -31526.319634996726,
+      -1284.2137740833468,
+      -352.4374818421862
+    ],
+    "conversion": "Mean NBY B1969.0 to J2000 rotation, followed by DE442 translation of the stated center.",
+    "position_earth_relative_j2000_m": [
+      371663277.3502655,
+      -75335951.08226013,
+      -44554211.83081055
+    ],
+    "position_moon_relative_j2000_m": [
+      160359.29736709595,
+      -1531806.1088409424,
+      -1016781.5156936646
+    ]
+  },
+  "post_transearth_injection_update": {
+    "event_id": "post_transearth_injection_update",
+    "get_seconds": 323256,
+    "get_hms": "89:47:36",
+    "center": "Moon",
+    "label": "After TEI",
+    "position_ft": [
+      -4511502.608,
+      -9671049.646,
+      -6184736.296
+    ],
+    "velocity_ftps": [
+      -6064.666424,
+      -3172.193519,
+      -1632.447371
+    ],
+    "source_pdf_page": 48,
+    "source_printed_page": "A-20",
+    "source": "Trajectory Reconstruction Supplement 1, Appendix A, A-20 (PDF 48), TRW postflight row.",
+    "transcription_significant_digits": 10,
+    "position_informed_calibration": false,
+    "utc": "1968-12-25T06:38:36.000Z",
+    "et": -978844842.8162507,
+    "position_relative_j2000_m": [
+      -1348951.7547702533,
+      -2957178.3451965055,
+      -1889211.4151234997
+    ],
+    "velocity_relative_j2000_mps": [
+      -1840.255422254214,
+      -979.6709701576009,
+      -503.127081615471
+    ],
+    "position_icrf_m": [
+      -9208486454.019833,
+      134552640789.78339,
+      58326713357.96551
+    ],
+    "velocity_icrf_mps": [
+      -31763.52375962748,
+      -2114.5309270019898,
+      -905.2200244671014
+    ],
+    "conversion": "Mean NBY B1969.0 to J2000 rotation, followed by DE442 translation of the stated center.",
+    "position_earth_relative_j2000_m": [
+      372389229.9605503,
+      -70092203.92042542,
+      -41834148.61011505
+    ],
+    "position_moon_relative_j2000_m": [
+      -1348951.754770279,
+      -2957178.345199585,
+      -1889211.4151229858
+    ]
+  },
+  "post_third_midcourse_nav_update": {
+    "event_id": "post_third_midcourse_nav_update",
+    "get_seconds": 374784,
+    "get_hms": "104:06:24",
+    "center": "Earth",
+    "label": "After MC3",
+    "position_ft": [
+      1016315367.211594,
+      -181219326.64817876,
+      -102271382.47798748
+    ],
+    "velocity_ftps": [
+      -4018.871086836336,
+      1284.904495108059,
+      843.4695804246686
+    ],
+    "source_pdf_page": 49,
+    "source_printed_page": "A-21",
+    "source": "Trajectory Reconstruction Supplement 1, Appendix A, A-21 (PDF 49), TRW postflight row.",
+    "transcription_significant_digits": "Existing complete transcription, checked against source.",
+    "position_informed_calibration": true,
+    "utc": "1968-12-25T20:57:24.000Z",
+    "et": -978793314.8162336,
+    "position_relative_j2000_m": [
+      310240916.4714308,
+      -53086493.89965585,
+      -30238267.081088103
+    ],
+    "velocity_relative_j2000_mps": [
+      -1228.4065512250359,
+      383.1348021935278,
+      253.39354586433953
+    ],
+    "position_icrf_m": [
+      -10826316460.282955,
+      134458942002.63622,
+      58290232666.727165
+    ],
+    "velocity_icrf_mps": [
+      -31406.45029173826,
+      -1909.8809420145303,
+      -742.3379859445398
+    ],
+    "conversion": "Mean NBY B1969.0 to J2000 rotation, followed by DE442 translation of the stated center.",
+    "position_earth_relative_j2000_m": [
+      310240916.4714298,
+      -53086493.8996582,
+      -30238267.081085205
+    ],
+    "position_moon_relative_j2000_m": [
+      -74309513.25030708,
+      -31212303.307907104,
+      -14717533.72177887
+    ]
+  },
+  "return_update_129h": {
+    "event_id": "return_update_129h",
+    "get_seconds": 465924,
+    "get_hms": "129:25:24",
+    "center": "Earth",
+    "label": "Return (129 h)",
+    "position_ft": [
+      579344492.9,
+      -51136318.6,
+      -18605153.11
+    ],
+    "velocity_ftps": [
+      -5984.327752,
+      1582.027185,
+      990.9381772
+    ],
+    "source_pdf_page": 50,
+    "source_printed_page": "A-22",
+    "source": "Trajectory Reconstruction Supplement 1, Appendix A, A-22 (PDF 50), TRW postflight row.",
+    "transcription_significant_digits": 10,
+    "position_informed_calibration": false,
+    "utc": "1968-12-26T22:16:24.000Z",
+    "et": -978702174.8162032,
+    "position_relative_j2000_m": [
+      176704295.11501685,
+      -14361744.354027294,
+      -5138621.854993853
+    ],
+    "velocity_relative_j2000_mps": [
+      -1828.2238842777854,
+      469.5420852032667,
+      296.5358496594339
+    ],
+    "position_icrf_m": [
+      -13707944892.239883,
+      134265406749.03477,
+      58214487538.25549
+    ],
+    "velocity_icrf_mps": [
+      -31953.305424204667,
+      -2333.979842524413,
+      -920.5828726666908
+    ],
+    "conversion": "Mean NBY B1969.0 to J2000 rotation, followed by DE442 translation of the stated center.",
+    "position_earth_relative_j2000_m": [
+      176704295.11501694,
+      -14361744.354034424,
+      -5138621.854995728
+    ],
+    "position_moon_relative_j2000_m": [
+      -209357774.25826263,
+      -72992791.01257324,
+      -33233651.475151062
+    ]
+  },
+  "return_update_131h": {
+    "event_id": "return_update_131h",
+    "get_seconds": 473082,
+    "get_hms": "131:24:42",
+    "center": "Earth",
+    "label": "Return (131 h)",
+    "position_ft": [
+      535395410.0,
+      -39716795.9,
+      -11479199.75
+    ],
+    "velocity_ftps": [
+      -6304.180924,
+      1608.610633,
+      999.7617266
+    ],
+    "source_pdf_page": 51,
+    "source_printed_page": "A-23",
+    "source": "Trajectory Reconstruction Supplement 1, Appendix A, A-23 (PDF 51), TRW postflight row.",
+    "transcription_significant_digits": 10,
+    "position_informed_calibration": false,
+    "utc": "1968-12-27T00:15:42.000Z",
+    "et": -978695016.8162009,
+    "position_relative_j2000_m": [
+      163278323.45659643,
+      -10974045.853150543,
+      -3007038.0653762245
+    ],
+    "velocity_relative_j2000_mps": [
+      -1925.7766205512191,
+      476.96863829003746,
+      298.93143392532954
+    ],
+    "position_icrf_m": [
+      -13936989788.270462,
+      134248583552.94691,
+      58207844858.930565
+    ],
+    "velocity_icrf_mps": [
+      -32046.26273406348,
+      -2366.586585234737,
+      -935.5454035786651
+    ],
+    "conversion": "Mean NBY B1969.0 to J2000 rotation, followed by DE442 translation of the stated center.",
+    "position_earth_relative_j2000_m": [
+      163278323.45659637,
+      -10974045.853149414,
+      -3007038.0653762817
+    ],
+    "position_moon_relative_j2000_m": [
+      -221967779.07001114,
+      -75846396.75448608,
+      -34492343.435783386
+    ]
+  }
+}

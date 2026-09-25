@@ -1,0 +1,15 @@
+Apollo 8 CSM - Service Module Body Axis Correction
+==================================================
+
+Baseline: V3 CoupledHatch package.
+
+Only SM_Body placement changed.
+The CM shell+hatch coupled STL remains untouched.
+
+Corrected SM_Body ComponentLocal position [cm]:
+    X = -229.292606
+    Y = -1.929776
+    Z = -8.540465
+
+Cause: V3 used the mesh bounding-box center, but exterior SM hardware
+shifts that box away from the actual cylindrical spacecraft axis.

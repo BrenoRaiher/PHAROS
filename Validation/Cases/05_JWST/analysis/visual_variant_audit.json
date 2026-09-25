@@ -1,0 +1,58 @@
+[
+  {
+    "canonical": "phases\\A_coast_to_mcc1a\\jwst_a_coast_to_mcc1a.tgscn",
+    "visual": "phases\\A_coast_to_mcc1a\\jwst_a_coast_to_mcc1a_with_visual_appearance.tgscn",
+    "physical_configuration_equal": true,
+    "massless_fixed_display_children": 18,
+    "both_current_contract_preflights_pass": true
+  },
+  {
+    "canonical": "phases\\B_mcc1a_burn\\jwst_b_mcc1a_burn.tgscn",
+    "visual": "phases\\B_mcc1a_burn\\jwst_b_mcc1a_burn_with_visual_appearance.tgscn",
+    "physical_configuration_equal": true,
+    "massless_fixed_display_children": 18,
+    "both_current_contract_preflights_pass": true
+  },
+  {
+    "canonical": "phases\\C_coast_to_mcc1b\\jwst_c_coast_to_mcc1b.tgscn",
+    "visual": "phases\\C_coast_to_mcc1b\\jwst_c_coast_to_mcc1b_with_visual_appearance.tgscn",
+    "physical_configuration_equal": true,
+    "massless_fixed_display_children": 18,
+    "both_current_contract_preflights_pass": true
+  },
+  {
+    "canonical": "phases\\D_mcc1b_burn\\jwst_d_mcc1b_burn.tgscn",
+    "visual": "phases\\D_mcc1b_burn\\jwst_d_mcc1b_burn_with_visual_appearance.tgscn",
+    "physical_configuration_equal": true,
+    "massless_fixed_display_children": 18,
+    "both_current_contract_preflights_pass": true
+  },
+  {
+    "canonical": "phases\\E_coast_to_deployed_configuration\\jwst_e_coast_to_deployed_configuration.tgscn",
+    "visual": "phases\\E_coast_to_deployed_configuration\\jwst_e_coast_to_deployed_configuration_with_visual_appearance.tgscn",
+    "physical_configuration_equal": true,
+    "massless_fixed_display_children": 18,
+    "both_current_contract_preflights_pass": true
+  },
+  {
+    "canonical": "phases\\F_deployed_coast_to_mcc2\\jwst_f_deployed_coast_to_mcc2.tgscn",
+    "visual": "phases\\F_deployed_coast_to_mcc2\\jwst_f_deployed_coast_to_mcc2_with_visual_appearance.tgscn",
+    "physical_configuration_equal": true,
+    "massless_fixed_display_children": 18,
+    "both_current_contract_preflights_pass": true
+  },
+  {
+    "canonical": "phases\\G_mcc2_burn\\jwst_g_mcc2_burn.tgscn",
+    "visual": "phases\\G_mcc2_burn\\jwst_g_mcc2_burn_with_visual_appearance.tgscn",
+    "physical_configuration_equal": true,
+    "massless_fixed_display_children": 18,
+    "both_current_contract_preflights_pass": true
+  },
+  {
+    "canonical": "phases\\H_post_insertion_l2_coast\\jwst_h_post_insertion_l2_coast.tgscn",
+    "visual": "phases\\H_post_insertion_l2_coast\\jwst_h_post_insertion_l2_coast_with_visual_appearance.tgscn",
+    "physical_configuration_equal": true,
+    "massless_fixed_display_children": 18,
+    "both_current_contract_preflights_pass": true
+  }
+]

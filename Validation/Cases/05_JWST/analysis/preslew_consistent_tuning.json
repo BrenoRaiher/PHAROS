@@ -1,0 +1,350 @@
+{
+  "method": "Bounded joint refinement of MCC-1b and MCC-2 from six PHAROS finite-difference response columns, evaluated against D/E/F/G/H state marks; components rounded to 0.001 m/s and stopped at diminishing returns.",
+  "truth_use": "Inherited legacy B-H targeting, followed by the earlier final-H correction and the current joint D/E/F/G/H targeting. Reference states enter only the offline target comparison; no later state is inserted into propagation.",
+  "critical_boundary_rule": "each trial begins with the preceding attitude-acquisition phase: A for MCC-1a, C for MCC-1b, and F for MCC-2",
+  "retuned_delta_v_vectors_icrf_mps": {
+    "mcc1a": [
+      -0.30765878994689955,
+      20.101342865417173,
+      0.2592813788163473
+    ],
+    "mcc1b": [
+      -0.384,
+      2.75,
+      0.062
+    ],
+    "mcc2": [
+      -1.292,
+      0.321,
+      0.043
+    ]
+  },
+  "retuned_delta_v_magnitudes_mps": {
+    "mcc1a": 20.105369077872965,
+    "mcc1b": 2.7773728593762845,
+    "mcc2": 1.3319737234645435
+  },
+  "history": [
+    {
+      "stage": "mcc1a",
+      "kind": "baseline",
+      "objective_norm": 0.16555423369365374,
+      "vector_mps": [
+        -0.3072034956569855,
+        20.100593652232693,
+        0.3320963725902155
+      ],
+      "residuals": {
+        "B": {
+          "position_error_m": 2016.0133036588143,
+          "velocity_error_mps": 0.0812539519632435,
+          "position_residual_m": [
+            -930.7459774017334,
+            -1757.8843536376953,
+            -328.4268035888672
+          ],
+          "velocity_residual_mps": [
+            0.003039547813386889,
+            0.03383742782718713,
+            0.07381052998573523
+          ]
+        },
+        "C": {
+          "position_error_m": 10947.110481705473,
+          "velocity_error_mps": 0.060329270140209564,
+          "position_residual_m": [
+            -207.408109664917,
+            -1134.848876953125,
+            10886.153030395508
+          ],
+          "velocity_residual_mps": [
+            0.005841052701725857,
+            -0.0050530165758573276,
+            0.05983285019510731
+          ]
+        }
+      },
+      "accepted": true
+    },
+    {
+      "stage": "mcc1a",
+      "kind": "proposal",
+      "damping": 1.0,
+      "objective_norm": 0.037383211752923695,
+      "vector_mps": [
+        -0.30765878994689955,
+        20.101342865417173,
+        0.2592813788163473
+      ],
+      "residuals": {
+        "B": {
+          "position_error_m": 2043.151668100207,
+          "velocity_error_mps": 0.034626973432257936,
+          "position_residual_m": [
+            -931.681282043457,
+            -1756.6749725341797,
+            -469.6081008911133
+          ],
+          "velocity_residual_mps": [
+            0.0025694463183754124,
+            0.034514224237902624,
+            0.0010925016938472254
+          ]
+        },
+        "C": {
+          "position_error_m": 1018.4443582483773,
+          "velocity_error_mps": 0.007063943839289499,
+          "position_residual_m": [
+            -271.3613872528076,
+            -973.21240234375,
+            -128.2557144165039
+          ],
+          "velocity_residual_mps": [
+            0.005531092054297915,
+            -0.003883620503529528,
+            0.002055192213902046
+          ]
+        }
+      },
+      "accepted": true,
+      "raw_least_squares_step_mps": [
+        -0.0004552942899140503,
+        0.0007492131844813657,
+        -0.07281499377386821
+      ],
+      "raw_step_norm_mps": 0.07282027143299245,
+      "limited_step_mps": [
+        -0.0004552942899140503,
+        0.0007492131844813657,
+        -0.07281499377386821
+      ]
+    },
+    {
+      "stage": "mcc1b",
+      "kind": "baseline",
+      "objective_norm": 0.8140133576077423,
+      "vector_mps": [
+        -0.39190308326547,
+        2.74491732290374,
+        0.0370116704562148
+      ],
+      "residuals": {
+        "D": {
+          "position_error_m": 1021.5447532001403,
+          "velocity_error_mps": 0.03587035632409893,
+          "position_residual_m": [
+            -271.15529441833496,
+            -975.980712890625,
+            -132.25028228759766
+          ],
+          "velocity_residual_mps": [
+            -0.002382456663326593,
+            0.031151195091752015,
+            -0.017624114372665645
+          ]
+        },
+        "E": {
+          "position_error_m": 35428.638331671034,
+          "velocity_error_mps": 0.11160640968333647,
+          "position_residual_m": [
+            2400.305206298828,
+            -14324.143020629883,
+            -32314.793449401855
+          ],
+          "velocity_residual_mps": [
+            0.03347806830788613,
+            -0.07525212006385118,
+            -0.07531485942809013
+          ]
+        },
+        "F": {
+          "position_error_m": 471717.2642278985,
+          "velocity_error_mps": 0.7085071292419718,
+          "position_residual_m": [
+            -182648.28437805176,
+            413684.61083984375,
+            134245.3885192871
+          ],
+          "velocity_residual_mps": [
+            -0.28049737843321054,
+            0.6095751252014452,
+            0.22742414035110414
+          ]
+        }
+      },
+      "accepted": true
+    },
+    {
+      "stage": "mcc1b",
+      "kind": "proposal",
+      "damping": 1.0,
+      "objective_norm": 0.39460006072712,
+      "vector_mps": [
+        -0.30236765340196253,
+        2.6431334050814685,
+        -0.02111708188237
+      ],
+      "residuals": {
+        "D": {
+          "position_error_m": 1044.9018601770777,
+          "velocity_error_mps": 0.13518931125722258,
+          "position_residual_m": [
+            -245.92059326171875,
+            -1004.6583709716797,
+            -148.33919525146484
+          ],
+          "velocity_residual_mps": [
+            0.08736221133585786,
+            -0.07085458909841691,
+            -0.07499080685261106
+          ]
+        },
+        "E": {
+          "position_error_m": 132217.15860855943,
+          "velocity_error_mps": 0.2886546813637509,
+          "position_residual_m": [
+            56528.29783630371,
+            -99272.79916381836,
+            -66564.55453491211
+          ],
+          "velocity_residual_mps": [
+            0.10831142700772034,
+            -0.23837169875696418,
+            -0.12152815757872304
+          ]
+        },
+        "F": {
+          "position_error_m": 169447.83126523343,
+          "velocity_error_mps": 0.2961475220371063,
+          "position_residual_m": [
+            14516.501968383789,
+            -167392.3757171631,
+            21946.09857940674
+          ],
+          "velocity_residual_mps": [
+            -0.16740983086128836,
+            0.1730944473783893,
+            0.17238217897011054
+          ]
+        }
+      },
+      "accepted": true,
+      "raw_least_squares_step_mps": [
+        0.08953542986350749,
+        -0.10178391782227135,
+        -0.0581287523385848
+      ],
+      "raw_step_norm_mps": 0.1474974948144357,
+      "limited_step_mps": [
+        0.08953542986350749,
+        -0.10178391782227135,
+        -0.0581287523385848
+      ]
+    },
+    {
+      "stage": "mcc2",
+      "kind": "baseline",
+      "objective_norm": 0.6767695850877167,
+      "vector_mps": [
+        -1.4089028396043575,
+        0.4488263257982529,
+        0.1257034042718651
+      ],
+      "residuals": {
+        "G": {
+          "position_error_m": 169398.6062896151,
+          "velocity_error_mps": 0.343490247203977,
+          "position_residual_m": [
+            14460.735092163086,
+            -167340.54959106445,
+            21998.07755279541
+          ],
+          "velocity_residual_mps": [
+            -0.22769347276334884,
+            0.18399133365528542,
+            0.1796897924896257
+          ]
+        },
+        "H": {
+          "position_error_m": 221787.20743713708,
+          "velocity_error_mps": 0.5689512940412309,
+          "position_residual_m": [
+            -156465.7949066162,
+            322.7100830078125,
+            157187.51943206787
+          ],
+          "velocity_residual_mps": [
+            -0.3495036038621038,
+            0.3681664643190743,
+            0.2569168356285445
+          ]
+        }
+      },
+      "accepted": true
+    },
+    {
+      "stage": "mcc2",
+      "kind": "proposal",
+      "damping": 1.0,
+      "objective_norm": 0.2603738175239653,
+      "vector_mps": [
+        -1.1108310611336951,
+        0.2735915849617486,
+        -0.1298461763082321
+      ],
+      "residuals": {
+        "G": {
+          "position_error_m": 169422.3082355112,
+          "velocity_error_mps": 0.10405528468236432,
+          "position_residual_m": [
+            14504.079147338867,
+            -167365.65368652344,
+            21961.060585021973
+          ],
+          "velocity_residual_mps": [
+            0.070747667869,
+            0.010523424296479789,
+            -0.0755746472204919
+          ]
+        },
+        "H": {
+          "position_error_m": 116080.26781182147,
+          "velocity_error_mps": 0.17984856479069625,
+          "position_residual_m": [
+            29584.6710357666,
+            -112242.66864013672,
+            -979.3628082275391
+          ],
+          "velocity_residual_mps": [
+            -0.049353362432157155,
+            0.1728714169912564,
+            0.005022455708967755
+          ]
+        }
+      },
+      "accepted": true,
+      "raw_least_squares_step_mps": [
+        0.29807177847066224,
+        -0.17523474083650425,
+        -0.2555495805800972
+      ],
+      "raw_step_norm_mps": 0.4299530063290219,
+      "limited_step_mps": [
+        0.29807177847066224,
+        -0.17523474083650425,
+        -0.2555495805800972
+      ]
+    }
+  ],
+  "legacy_history_note": "The history entries below describe inherited legacy calibration, not additional current optimization trials.",
+  "prior_current_method": "Inherited three legacy burn vectors; one bounded ballistic two-burn correction of MCC-1b and MCC-2, rounded to 0.001 m/s per component.",
+  "current_fit_phases": [
+    "D",
+    "E",
+    "F",
+    "G",
+    "H"
+  ],
+  "current_fit_description": "D/E/F/G/H terminal position and velocity marks with fixed weights and scales recorded before the response trials.",
+  "joint_retuning_record": "provenance/joint_retuning/selection.json"
+}

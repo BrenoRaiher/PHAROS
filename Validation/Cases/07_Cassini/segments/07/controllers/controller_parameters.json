@@ -1,0 +1,41 @@
+{
+  "burn_id": "TCM-9",
+  "burn_start_elapsed_s": 12.0,
+  "burn_end_elapsed_s": 471.326,
+  "burn_duration_s": 459.326,
+  "commanded_delta_v_icrf_mps": [
+    -2.981421581605372,
+    -31.089733982405154,
+    30.26683705111341
+  ],
+  "commanded_delta_v_magnitude_mps": 43.49185968457352,
+  "official_reconstructed_delta_v_magnitude_mps": 43.4996,
+  "commanded_throttle": 0.8983371092316107,
+  "initial_fixed_target_end_elapsed_s": 1071.326,
+  "final_fixed_target_start_elapsed_s": 1114200.0,
+  "final_target_for_next_maneuver": "TCM-10",
+  "final_target_icrf": [
+    -0.18922350041779418,
+    -0.34806431376805264,
+    0.9181752013482022
+  ],
+  "initial_target_icrf": [
+    -0.06855125541258188,
+    -0.714840299032617,
+    0.6959195874957952
+  ],
+  "current_local_delivery_recalibration": {
+    "segment": "07",
+    "velocity_difference_before_mps": 0.00015294681066234145,
+    "velocity_difference_after_mps": 5.485663115105969e-10,
+    "correction_vector_mps": [
+      0.0006729127265198565,
+      -0.0001615300391823568,
+      -9.958947424062253e-05
+    ],
+    "correction_norm_mps": 0.0006991577464708265,
+    "maximum_correction_mps": 0.05,
+    "retained": true,
+    "purpose": "Match the previously delivered inertial-velocity increment in a local maneuver experiment under the current core and tighter tolerances. Auxiliary initial conditions are not injected into the continuous reconstruction."
+  }
+}

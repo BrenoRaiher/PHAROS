@@ -1,0 +1,25 @@
+name: Public repository check
+
+on:
+  push:
+  pull_request:
+
+# Contribution checks need no permission to change the repository.
+permissions:
+  contents: read
+
+jobs:
+  public-readiness:
+    runs-on: windows-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          lfs: false
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Check Python syntax and scenario resource paths
+        shell: powershell
+        run: ./Tools/Repository/Test-PublicRepository.ps1

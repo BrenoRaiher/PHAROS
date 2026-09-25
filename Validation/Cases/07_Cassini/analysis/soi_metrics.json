@@ -1,0 +1,32 @@
+{
+  "physical_saturn_gm_m3ps2": 3.793120623436167e+16,
+  "initial_simulated": {
+    "radius_km": 134209.9731804375,
+    "speed_kmps": 24.356515577295905,
+    "specific_energy_km2ps2": 13.994086816123307,
+    "semimajor_axis_km": -1355258.3577893479,
+    "eccentricity": 1.0597292765171795,
+    "periapsis_radius_km": 80948.60120461858
+  },
+  "final_simulated": {
+    "radius_km": 81299.94662721801,
+    "speed_kmps": 30.464164581270953,
+    "specific_energy_km2ps2": -2.526146742313683,
+    "semimajor_axis_km": 7507720.27590541,
+    "eccentricity": 0.9893106489806077,
+    "periapsis_radius_km": 80252.65738456156
+  },
+  "final_reference": {
+    "radius_km": 81301.26954378586,
+    "speed_kmps": 30.463636066580907,
+    "specific_energy_km2ps2": -2.534655617735565,
+    "semimajor_axis_km": 7482516.750786251,
+    "eccentricity": 0.9892744220858477,
+    "periapsis_radius_km": 80254.31640450761
+  },
+  "initial_mass_kg": 4544.640648318699,
+  "final_mass_kg": 3693.071089267246,
+  "initial_to_final_mass_loss_kg": 851.5695590514533,
+  "capture_succeeded": true,
+  "orbit_definition": "Instantaneous two-body Saturn-centered osculating elements; the propagated model also includes harmonics, moons, other bodies, SRP and finite thrust."
+}

@@ -1,0 +1,15 @@
+{
+  "id": "02",
+  "rows": 2594,
+  "same_recorded_epochs": true,
+  "both_chains_all_recorded_solves_succeeded": true,
+  "maximum_recorded_position_difference_m": 1.6965602255619805,
+  "final_position_difference_m": 1.6965602255619805,
+  "maximum_recorded_velocity_difference_mps": 5.195631359879046e-07,
+  "final_velocity_difference_mps": 5.195631359879046e-07,
+  "method": "Same separation state, current controller binaries, output epochs and tolerances; initial and maximum integrator steps halved throughout a separate continuous chain. No intermediate state resets or controller refits. This record describes the completed prefix through Segment 02.",
+  "nominal_scenario_sha256": "add7350148026cab992410be55e29aed22bafab68252e06bc24d39548605ade8",
+  "refined_scenario_sha256": "3e419ef8b3e341ece333d3c9d74120e966dce989f002aaa3be9547bbb1d50cab",
+  "nominal_controller_sha256": "8ad4bd9333178e961d0c521f2d05c03cf8a6f69bb8a8672d2dbc7cae3fc5c22e",
+  "refined_controller_sha256": "8ad4bd9333178e961d0c521f2d05c03cf8a6f69bb8a8672d2dbc7cae3fc5c22e"
+}

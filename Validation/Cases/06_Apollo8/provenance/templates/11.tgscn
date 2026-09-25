@@ -1,0 +1,107 @@
+format = "TGSCN"
+format_version = 1
+generator = "Apollo 8-like continuous validation, 2026-08-25"
+
+[scenario]
+name = "Apollo 8-like 11_transearth_coast_to_third_midcourse_attitude_start"
+start_utc = "1968-12-25T06:13:40.300Z"
+end_mode = "final_utc"
+final_utc = "1968-12-25T20:49:54.000Z"
+integrator = "adaptive_dormand_prince_54"
+maximum_integrator_step_seconds = 20
+initial_integrator_step_seconds = 0.10000000000000001
+absolute_tolerance = 1.0e-5
+relative_tolerance = 1.0e-12
+output_mode = "fixed_interval"
+output_step_seconds = 300
+maximum_integration_steps = 5000000
+maximum_output_samples = 1000000
+mass_flow_convention = "thrust_includes_exhaust_momentum"
+
+[initial_state]
+position_icrf_m = [-9160956633.5125828, 134556380503.74622, 58328446824.800026]
+velocity_icrf_mps = [-31469.264437494963, -3012.6775458051047, -1552.1306727645986]
+attitude_body_to_icrf = [0.43868007720493213, 0.1881988250745551, 0.095900752641084178, -0.87346667809762812]
+angular_velocity_body_radps = [2.4087837376612489e-39, -7.4548666696681354e-38, -9.1923247220982777e-38]
+
+[[components]]
+id = "a8000001-0000-0000-0000-000000000001"
+name = "Apollo 8 CSM dry structure"
+initial_mass_kg = 13000
+minimum_mass_kg = 13000
+variable_mass = false
+local_center_of_mass_m = [0.0, 0.0, 0.0]
+origin_body_m = [0.0, 0.0, 0.0]
+component_to_body = [1.0, 0.0, 0.0, 0.0]
+parent_component = ""
+parent_anchor_m = [0.0, 0.0, 0.0]
+child_anchor_m = [0.0, 0.0, 0.0]
+child_to_parent_zero_orientation = [1.0, 0.0, 0.0, 0.0]
+dofs = []
+inertia = { ixx_kgm2 = 22215.393185514, iyy_kgm2 = 70663.24265724, izz_kgm2 = 72245.988780387997, ixy_kgm2 = -1592.9336260196501, ixz_kgm2 = -148.99889359027301, iyz_kgm2 = 4293.8772061924201 }
+
+[[components]]
+id = "a8000002-0000-0000-0000-000000000002"
+name = "Propellant and consumables pool"
+initial_mass_kg = 1683.3765187204408
+minimum_mass_kg = 100.0
+variable_mass = true
+local_center_of_mass_m = [0.0, 0.0, 0.0]
+origin_body_m = [0.0, 0.0, 0.0]
+component_to_body = [1.0, 0.0, 0.0, 0.0]
+parent_component = "Apollo 8 CSM dry structure"
+parent_anchor_m = [0.0, 0.0, 0.0]
+child_anchor_m = [0.0, 0.0, 0.0]
+child_to_parent_zero_orientation = [1.0, 0.0, 0.0, 0.0]
+dofs = []
+inertia = { ixx_kgm2 = 2559.1746144922254, iyy_kgm2 = 3732.12964613449, izz_kgm2 = 3945.3941973421752, ixy_kgm2 = 0.0, ixz_kgm2 = 0.0, iyz_kgm2 = 0.0 }
+
+
+[control]
+mode = "none"
+
+
+[gravity]
+include_first_post_newtonian_correction = true
+
+[[gravity.bodies]]
+catalog_key = "Sun"
+gravity_enabled = true
+automatic_activation_radius_m = 0.0
+barycenter_resolution_radius_m = 0.0
+harmonic_model_csv_file = ""
+maximum_harmonic_degree = 0
+
+[[gravity.bodies]]
+catalog_key = "EarthMoonBarycenter"
+gravity_enabled = false
+automatic_activation_radius_m = 0.0
+barycenter_resolution_radius_m = 0.0
+harmonic_model_csv_file = ""
+maximum_harmonic_degree = 0
+
+[[gravity.bodies]]
+catalog_key = "Earth"
+gravity_enabled = true
+automatic_activation_radius_m = 0.0
+barycenter_resolution_radius_m = 0.0
+harmonic_model_csv_file = "../../../data/earth_j2.csv"
+maximum_harmonic_degree = 2
+
+[[gravity.bodies]]
+catalog_key = "Moon"
+gravity_enabled = true
+automatic_activation_radius_m = 0.0
+barycenter_resolution_radius_m = 0.0
+harmonic_model_csv_file = "../../../data/moon_boeing_r2.csv"
+maximum_harmonic_degree = 3
+
+[srp]
+enabled = false
+
+[atmosphere]
+enabled = false
+
+[aerodynamics]
+enabled = false
+

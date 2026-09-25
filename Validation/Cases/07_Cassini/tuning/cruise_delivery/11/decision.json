@@ -1,0 +1,55 @@
+{
+  "segment": "11",
+  "same_offline_state_update_as": "tuning/linear_cruise/11/design.json",
+  "additional_targeting_iterations": 0,
+  "main_effective_increment_change_mps": [
+    -0.0001554009709750373,
+    -0.016627864268183024,
+    0.01997920427632715
+  ],
+  "trim_effective_increment_change_mps": [
+    -5.4862041595523376e-05,
+    0.0018335946466639607,
+    -0.0022796077619024395
+  ],
+  "main_command_vector_mps": [
+    1.4359687631867777,
+    5.892681415621984,
+    2.7924859917710045
+  ],
+  "trim_command_vector_mps": [
+    -0.20318425817764574,
+    -0.03027010218481151,
+    -0.006134576631428687
+  ],
+  "original_position_residual_m": 422274.4210199267,
+  "original_velocity_residual_mps": 0.012348262258672709,
+  "main_delivery": {
+    "kind": "main",
+    "delivered_velocity_increment_mps": [
+      1.4213015943585106,
+      5.906566644684998,
+      2.785840879944023
+    ],
+    "norm_mps": 6.683452487943542,
+    "mass_at_burn_start_kg": 4626.947022391059,
+    "integrated_mass_loss_kg": 10.226890364670908,
+    "method": "Full nominal-state PHAROS continuation sampled at 1s. Integrate configured thrust times the sampled inertial body-X axis divided by mass only over the known active burn interval, with 128-point Gauss quadrature. This avoids quadrature across a sampled thrust discontinuity."
+  },
+  "trim_delivery": {
+    "kind": "trim",
+    "delivered_velocity_increment_mps": [
+      -0.20356183431269623,
+      -0.032280945747549146,
+      -0.003906463980739405
+    ],
+    "norm_mps": 0.2061425242591606,
+    "mass_at_burn_start_kg": 4616.7201320028535,
+    "integrated_mass_loss_kg": 0.4411000625586894,
+    "method": "Full nominal-state PHAROS continuation sampled at 1s. Integrate configured thrust times the sampled inertial body-X axis divided by mass only over the known active burn interval, with 128-point Gauss quadrature. This avoids quadrature across a sampled thrust discontinuity."
+  },
+  "pointing_mapping": "Apply the same inertial rotation to the preceding preparation target and the main-burn target, preserving their existing offset. The existing trim target includes its own preparation. Scale throttles for the desired effective increments and changed propellant mass.",
+  "retained": true,
+  "candidate_position_residual_m": 3.8631633054936834,
+  "candidate_velocity_residual_mps": 5.356442206592258e-07
+}

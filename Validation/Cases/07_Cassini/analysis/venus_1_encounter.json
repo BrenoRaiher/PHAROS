@@ -1,0 +1,19 @@
+{
+  "name": "Venus 1",
+  "segment": "03",
+  "reference_radius_km": 6051.8,
+  "reference_closest_utc": "1998-04-26T13:44:41.119991Z",
+  "simulated_closest_utc": "1998-04-26T13:43:59.065761Z",
+  "reference_closest_et": -53129655.694476664,
+  "simulated_closest_et": -53129697.74870601,
+  "closest_time_difference_s": -42.054229348897934,
+  "reference_range_km": 6335.551390322558,
+  "simulated_range_km": 6335.323228923205,
+  "range_difference_km": -0.22816139935422688,
+  "reference_altitude_km": 283.75139032255856,
+  "simulated_altitude_km": 283.52322892320433,
+  "minimum_playback_chord_altitude_km": 214.8129723588992,
+  "position_error_at_reference_closest_km": 495.5085999687159,
+  "velocity_error_at_reference_closest_mps": 339.81736012458634,
+  "estimation": "Nominal-state continuation with original controller elapsed-time offset and 1 s integration/output; cubic Hermite closest approach. Direct-SPICE 1 s reference."
+}

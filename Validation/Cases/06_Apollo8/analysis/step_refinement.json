@@ -1,0 +1,112 @@
+{
+  "method": "Same output epochs, tolerances and controller settings; half the maximum internal step (10 s coasts / 0.125 s burns). Full chain rerun from the one original seed.",
+  "segments": [
+    {
+      "segment": "01",
+      "maximum_position_difference_m": 0.0010313176437546487,
+      "endpoint_position_difference_m": 0.0005320177973001009,
+      "maximum_velocity_difference_mps": 1.1316575387408303e-08,
+      "maximum_mass_difference_kg": 0.0,
+      "maximum_quaternion_difference": 0.0
+    },
+    {
+      "segment": "02",
+      "maximum_position_difference_m": 0.0005321083006366807,
+      "endpoint_position_difference_m": 0.0005321083006366807,
+      "maximum_velocity_difference_mps": 1.1266997465284672e-08,
+      "maximum_mass_difference_kg": 0.0,
+      "maximum_quaternion_difference": 0.0
+    },
+    {
+      "segment": "03",
+      "maximum_position_difference_m": 0.005536992098859974,
+      "endpoint_position_difference_m": 0.005533346344297627,
+      "maximum_velocity_difference_mps": 3.2472430371899635e-08,
+      "maximum_mass_difference_kg": 0.0,
+      "maximum_quaternion_difference": 6.002757642653517e-12
+    },
+    {
+      "segment": "04",
+      "maximum_position_difference_m": 0.005535190882256664,
+      "endpoint_position_difference_m": 0.005535190882256664,
+      "maximum_velocity_difference_mps": 3.1698805298434925e-08,
+      "maximum_mass_difference_kg": 1.0913936421275139e-11,
+      "maximum_quaternion_difference": 7.636229862349665e-12
+    },
+    {
+      "segment": "05",
+      "maximum_position_difference_m": 0.006029081736629271,
+      "endpoint_position_difference_m": 0.005323277881503214,
+      "maximum_velocity_difference_mps": 3.2142037097718955e-06,
+      "maximum_mass_difference_kg": 0.0,
+      "maximum_quaternion_difference": 7.670166852455964e-12
+    },
+    {
+      "segment": "06",
+      "maximum_position_difference_m": 0.006329022004840612,
+      "endpoint_position_difference_m": 0.006329022004840612,
+      "maximum_velocity_difference_mps": 3.4975943142018913e-06,
+      "maximum_mass_difference_kg": 4.71482053399086e-09,
+      "maximum_quaternion_difference": 1.553945777358983e-09
+    },
+    {
+      "segment": "07",
+      "maximum_position_difference_m": 0.09447244921823968,
+      "endpoint_position_difference_m": 0.09447244921823968,
+      "maximum_velocity_difference_mps": 8.017228385712786e-05,
+      "maximum_mass_difference_kg": 3.259629011154175e-09,
+      "maximum_quaternion_difference": 1.897410675099323e-08
+    },
+    {
+      "segment": "08",
+      "maximum_position_difference_m": 0.09496663521719306,
+      "endpoint_position_difference_m": 0.09493478438569726,
+      "maximum_velocity_difference_mps": 8.386339547109511e-05,
+      "maximum_mass_difference_kg": 4.101893864572048e-07,
+      "maximum_quaternion_difference": 4.6128822826007484e-08
+    },
+    {
+      "segment": "09",
+      "maximum_position_difference_m": 0.4851281255880166,
+      "endpoint_position_difference_m": 0.4851281255880166,
+      "maximum_velocity_difference_mps": 0.00043009608228399736,
+      "maximum_mass_difference_kg": 2.1250161807984114e-07,
+      "maximum_quaternion_difference": 2.9822291135434432e-05
+    },
+    {
+      "segment": "10",
+      "maximum_position_difference_m": 0.48615011468768793,
+      "endpoint_position_difference_m": 0.4855655976957176,
+      "maximum_velocity_difference_mps": 0.00043098061168785523,
+      "maximum_mass_difference_kg": 0.00021585864669759758,
+      "maximum_quaternion_difference": 2.9823890418661098e-05
+    },
+    {
+      "segment": "11",
+      "maximum_position_difference_m": 8.202559121235792,
+      "endpoint_position_difference_m": 8.202559121235792,
+      "maximum_velocity_difference_mps": 0.0004287100456111329,
+      "maximum_mass_difference_kg": 0.00016962904919637367,
+      "maximum_quaternion_difference": 2.560020747885129e-06
+    },
+    {
+      "segment": "12",
+      "maximum_position_difference_m": 8.21478930211115,
+      "endpoint_position_difference_m": 8.21478930211115,
+      "maximum_velocity_difference_mps": 0.00014775151687078378,
+      "maximum_mass_difference_kg": 0.00016962904919637367,
+      "maximum_quaternion_difference": 2.5893880739840507e-06
+    },
+    {
+      "segment": "13",
+      "maximum_position_difference_m": 33.583309163902804,
+      "endpoint_position_difference_m": 33.583309163902804,
+      "maximum_velocity_difference_mps": 0.012807254070289726,
+      "maximum_mass_difference_kg": 8.448041626252234e-07,
+      "maximum_quaternion_difference": 2.589077794327479e-06
+    }
+  ],
+  "maximum_position_difference_m": 33.583309163902804,
+  "pass": true,
+  "criterion": "Under 100 m throughout the thirteen-phase mission to the pre-separation endpoint; much smaller than kilometer-scale historical reconstruction residuals."
+}

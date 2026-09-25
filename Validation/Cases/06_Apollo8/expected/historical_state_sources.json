@@ -1,0 +1,422 @@
+[
+  {
+    "event_id": "initial_state",
+    "get_seconds": 17154,
+    "get_hms": "04:45:54",
+    "center": "Earth",
+    "label": "Initial State",
+    "position_ft": [
+      70090239.57641882,
+      -97916761.70088618,
+      19864818.77708617
+    ],
+    "velocity_ftps": [
+      12398.09975833132,
+      -7792.260382112903,
+      -923.3343697822593
+    ],
+    "source_pdf_page": 31,
+    "source_printed_page": "A-3",
+    "source": "Trajectory Reconstruction Supplement 1, Appendix A, A-3 (PDF 31), TRW postflight row.",
+    "transcription_significant_digits": "Existing complete transcription, checked against source.",
+    "position_informed_calibration": false
+  },
+  {
+    "event_id": "post_first_midcourse_nav_update",
+    "get_seconds": 42936,
+    "get_hms": "11:55:36",
+    "center": "Earth",
+    "label": "After MC1",
+    "position_ft": [
+      302856684.3223112,
+      -207062264.0205958,
+      -14791619.40250795
+    ],
+    "velocity_ftps": [
+      7199.390525999047,
+      -2702.256513112469,
+      -1381.832057196297
+    ],
+    "source_pdf_page": 32,
+    "source_printed_page": "A-4",
+    "source": "Trajectory Reconstruction Supplement 1, Appendix A, A-4 (PDF 32), TRW postflight row.",
+    "transcription_significant_digits": "Existing complete transcription, checked against source.",
+    "duplicate_trw_pdf_page": 33,
+    "position_informed_calibration": false
+  },
+  {
+    "event_id": "outbound_update",
+    "get_seconds": 108894,
+    "get_hms": "30:14:54",
+    "center": "Earth",
+    "label": "Outbound Transfer",
+    "position_ft": [
+      666792613.3,
+      -318693885.4,
+      -96657054.94
+    ],
+    "velocity_ftps": [
+      4438.57567,
+      -1123.784938,
+      -1119.101345
+    ],
+    "source_pdf_page": 34,
+    "source_printed_page": "A-6",
+    "source": "Trajectory Reconstruction Supplement 1, Appendix A, A-6 (PDF 34), TRW postflight row.",
+    "transcription_significant_digits": 10,
+    "duplicate_trw_pdf_page": 35,
+    "position_informed_calibration": false
+  },
+  {
+    "event_id": "pre_second_midcourse_nav_update",
+    "get_seconds": 143808,
+    "get_hms": "39:56:48",
+    "center": "Earth",
+    "label": "Before MC2",
+    "position_ft": [
+      809570903.8172642,
+      -352539379.4565915,
+      -134072530.7381011
+    ],
+    "velocity_ftps": [
+      3779.06010857551,
+      -839.0720820831634,
+      -1029.237566792482
+    ],
+    "source_pdf_page": 36,
+    "source_printed_page": "A-8",
+    "source": "Trajectory Reconstruction Supplement 1, Appendix A, A-8 (PDF 36), TRW postflight row.",
+    "transcription_significant_digits": "Existing complete transcription, checked against source.",
+    "position_informed_calibration": false
+  },
+  {
+    "event_id": "post_second_midcourse_update",
+    "get_seconds": 219996,
+    "get_hms": "61:06:36",
+    "center": "Moon",
+    "label": "After MC2",
+    "position_ft": [
+      -20404652.93,
+      105320326.2,
+      77026255.89
+    ],
+    "velocity_ftps": [
+      1029.513805,
+      -3193.549511,
+      -2366.227803
+    ],
+    "source_pdf_page": 37,
+    "source_printed_page": "A-9",
+    "source": "Trajectory Reconstruction Supplement 1, Appendix A, A-9 (PDF 37), TRW postflight row.",
+    "transcription_significant_digits": 10,
+    "position_informed_calibration": false
+  },
+  {
+    "event_id": "lunar_rev1",
+    "get_seconds": 250380,
+    "get_hms": "69:33:00",
+    "center": "Moon",
+    "label": "Lunar Revolution 1",
+    "position_ft": [
+      -650478.7818,
+      -5146879.266,
+      -3323419.552
+    ],
+    "velocity_ftps": [
+      -5368.043728,
+      88.44288311,
+      554.0431938
+    ],
+    "source_pdf_page": 38,
+    "source_printed_page": "A-10",
+    "source": "Trajectory Reconstruction Supplement 1, Appendix A, A-10 (PDF 38), TRW postflight row.",
+    "transcription_significant_digits": 10,
+    "position_informed_calibration": true
+  },
+  {
+    "event_id": "lunar_rev2",
+    "get_seconds": 258024,
+    "get_hms": "71:40:24",
+    "center": "Moon",
+    "label": "Lunar Revolution 2",
+    "position_ft": [
+      -251629.8244,
+      -5134912.528,
+      -3365781.554
+    ],
+    "velocity_ftps": [
+      -5394.92236,
+      -193.3742011,
+      368.3200101
+    ],
+    "source_pdf_page": 39,
+    "source_printed_page": "A-11",
+    "source": "Trajectory Reconstruction Supplement 1, Appendix A, A-11 (PDF 39), TRW postflight row.",
+    "transcription_significant_digits": 10,
+    "position_informed_calibration": false
+  },
+  {
+    "event_id": "lunar_rev3",
+    "get_seconds": 265764,
+    "get_hms": "73:49:24",
+    "center": "Moon",
+    "label": "Lunar Revolution 3",
+    "position_ft": [
+      -294751.2562,
+      -5067299.26,
+      -3319039.402
+    ],
+    "velocity_ftps": [
+      -5323.247356,
+      -7.281166457,
+      484.2708615
+    ],
+    "source_pdf_page": 40,
+    "source_printed_page": "A-12",
+    "source": "Trajectory Reconstruction Supplement 1, Appendix A, A-12 (PDF 40), TRW postflight row.",
+    "transcription_significant_digits": 10,
+    "position_informed_calibration": false
+  },
+  {
+    "event_id": "lunar_rev4",
+    "get_seconds": 272886,
+    "get_hms": "75:48:06",
+    "center": "Moon",
+    "label": "Lunar Revolution 4",
+    "position_ft": [
+      -222057.6482,
+      -5069563.904,
+      -3318399.787
+    ],
+    "velocity_ftps": [
+      -5327.003865,
+      -61.77114089,
+      453.2294756
+    ],
+    "source_pdf_page": 41,
+    "source_printed_page": "A-13",
+    "source": "Trajectory Reconstruction Supplement 1, Appendix A, A-13 (PDF 41), TRW postflight row.",
+    "transcription_significant_digits": 10,
+    "position_informed_calibration": false
+  },
+  {
+    "event_id": "lunar_rev5",
+    "get_seconds": 279984,
+    "get_hms": "77:46:24",
+    "center": "Moon",
+    "label": "Lunar Revolution 5",
+    "position_ft": [
+      -21247.22194,
+      -5064474.71,
+      -3330672.193
+    ],
+    "velocity_ftps": [
+      -5331.749045,
+      -210.340986,
+      358.2654993
+    ],
+    "source_pdf_page": 42,
+    "source_printed_page": "A-14",
+    "source": "Trajectory Reconstruction Supplement 1, Appendix A, A-14 (PDF 42), TRW postflight row.",
+    "transcription_significant_digits": 10,
+    "position_informed_calibration": false
+  },
+  {
+    "event_id": "lunar_rev6",
+    "get_seconds": 287250,
+    "get_hms": "79:47:30",
+    "center": "Moon",
+    "label": "Lunar Revolution 6",
+    "position_ft": [
+      -716194.9589,
+      -5058401.566,
+      -3260232.017
+    ],
+    "velocity_ftps": [
+      -5294.682897,
+      304.5200685,
+      696.3954035
+    ],
+    "source_pdf_page": 43,
+    "source_printed_page": "A-15",
+    "source": "Trajectory Reconstruction Supplement 1, Appendix A, A-15 (PDF 43), TRW postflight row.",
+    "transcription_significant_digits": 10,
+    "position_informed_calibration": false
+  },
+  {
+    "event_id": "lunar_rev7",
+    "get_seconds": 294258,
+    "get_hms": "81:44:18",
+    "center": "Moon",
+    "label": "Lunar Revolution 7",
+    "position_ft": [
+      -39475.29717,
+      -5065076.308,
+      -3323600.638
+    ],
+    "velocity_ftps": [
+      -5334.029888,
+      -197.367298,
+      371.9660595
+    ],
+    "source_pdf_page": 44,
+    "source_printed_page": "A-16",
+    "source": "Trajectory Reconstruction Supplement 1, Appendix A, A-16 (PDF 44), TRW postflight row.",
+    "transcription_significant_digits": 10,
+    "position_informed_calibration": false
+  },
+  {
+    "event_id": "lunar_rev8",
+    "get_seconds": 301338,
+    "get_hms": "83:42:18",
+    "center": "Moon",
+    "label": "Lunar Revolution 8",
+    "position_ft": [
+      252725.6417,
+      -5048858.306,
+      -3333708.924
+    ],
+    "velocity_ftps": [
+      -5330.521327,
+      -413.1138691,
+      231.8188631
+    ],
+    "source_pdf_page": 45,
+    "source_printed_page": "A-17",
+    "source": "Trajectory Reconstruction Supplement 1, Appendix A, A-17 (PDF 45), TRW postflight row.",
+    "transcription_significant_digits": 10,
+    "position_informed_calibration": false
+  },
+  {
+    "event_id": "lunar_rev9",
+    "get_seconds": 308454,
+    "get_hms": "85:40:54",
+    "center": "Moon",
+    "label": "Lunar Revolution 9",
+    "position_ft": [
+      351753.8247,
+      -5040106.092,
+      -3338081.539
+    ],
+    "velocity_ftps": [
+      -5327.330389,
+      -488.7178404,
+      186.4533754
+    ],
+    "source_pdf_page": 46,
+    "source_printed_page": "A-18",
+    "source": "Trajectory Reconstruction Supplement 1, Appendix A, A-18 (PDF 46), TRW postflight row.",
+    "transcription_significant_digits": 10,
+    "position_informed_calibration": false
+  },
+  {
+    "event_id": "lunar_rev10",
+    "get_seconds": 315564,
+    "get_hms": "87:39:24",
+    "center": "Moon",
+    "label": "Lunar Revolution 10",
+    "position_ft": [
+      481207.1433,
+      -5029102.274,
+      -3337414.886
+    ],
+    "velocity_ftps": [
+      -5320.383292,
+      -582.21861,
+      124.9980326
+    ],
+    "source_pdf_page": 47,
+    "source_printed_page": "A-19",
+    "source": "Trajectory Reconstruction Supplement 1, Appendix A, A-19 (PDF 47), TRW postflight row.",
+    "transcription_significant_digits": 10,
+    "position_informed_calibration": true
+  },
+  {
+    "event_id": "post_transearth_injection_update",
+    "get_seconds": 323256,
+    "get_hms": "89:47:36",
+    "center": "Moon",
+    "label": "After TEI",
+    "position_ft": [
+      -4511502.608,
+      -9671049.646,
+      -6184736.296
+    ],
+    "velocity_ftps": [
+      -6064.666424,
+      -3172.193519,
+      -1632.447371
+    ],
+    "source_pdf_page": 48,
+    "source_printed_page": "A-20",
+    "source": "Trajectory Reconstruction Supplement 1, Appendix A, A-20 (PDF 48), TRW postflight row.",
+    "transcription_significant_digits": 10,
+    "position_informed_calibration": false
+  },
+  {
+    "event_id": "post_third_midcourse_nav_update",
+    "get_seconds": 374784,
+    "get_hms": "104:06:24",
+    "center": "Earth",
+    "label": "After MC3",
+    "position_ft": [
+      1016315367.211594,
+      -181219326.64817876,
+      -102271382.47798748
+    ],
+    "velocity_ftps": [
+      -4018.871086836336,
+      1284.904495108059,
+      843.4695804246686
+    ],
+    "source_pdf_page": 49,
+    "source_printed_page": "A-21",
+    "source": "Trajectory Reconstruction Supplement 1, Appendix A, A-21 (PDF 49), TRW postflight row.",
+    "transcription_significant_digits": "Existing complete transcription, checked against source.",
+    "position_informed_calibration": true
+  },
+  {
+    "event_id": "return_update_129h",
+    "get_seconds": 465924,
+    "get_hms": "129:25:24",
+    "center": "Earth",
+    "label": "Return (129 h)",
+    "position_ft": [
+      579344492.9,
+      -51136318.6,
+      -18605153.11
+    ],
+    "velocity_ftps": [
+      -5984.327752,
+      1582.027185,
+      990.9381772
+    ],
+    "source_pdf_page": 50,
+    "source_printed_page": "A-22",
+    "source": "Trajectory Reconstruction Supplement 1, Appendix A, A-22 (PDF 50), TRW postflight row.",
+    "transcription_significant_digits": 10,
+    "position_informed_calibration": false
+  },
+  {
+    "event_id": "return_update_131h",
+    "get_seconds": 473082,
+    "get_hms": "131:24:42",
+    "center": "Earth",
+    "label": "Return (131 h)",
+    "position_ft": [
+      535395410.0,
+      -39716795.9,
+      -11479199.75
+    ],
+    "velocity_ftps": [
+      -6304.180924,
+      1608.610633,
+      999.7617266
+    ],
+    "source_pdf_page": 51,
+    "source_printed_page": "A-23",
+    "source": "Trajectory Reconstruction Supplement 1, Appendix A, A-23 (PDF 51), TRW postflight row.",
+    "transcription_significant_digits": 10,
+    "position_informed_calibration": false
+  }
+]

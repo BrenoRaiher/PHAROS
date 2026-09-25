@@ -1,0 +1,9 @@
+quantity,frame,x,y,z,units,source_or_method
+source_position,Earth-centered mean NBY B1969.0,70090239.57641881,-97916761.70088617,19864818.77708617,ft,TRW postflight vector at GET 04:45:54 in trajectory supplement Appendix A page A-3
+source_velocity,Earth-centered mean NBY B1969.0,12398.09975833132,-7792.260382112903,-923.3343697822593,ft/s,TRW postflight vector at GET 04:45:54 in trajectory supplement Appendix A page A-3
+converted_position,Earth-centered J2000/ICRF,21551552.821621209,-29696272.305482406,6119448.247190805,m,B1969.0-to-J2000 mean-equator/equinox rotation
+converted_velocity,Earth-centered J2000/ICRF,3796.146061078410,-2348.823405625879,-270.020455107493,m/s,B1969.0-to-J2000 mean-equator/equinox rotation
+earth_position,Solar-System-barycentric J2000/ICRF,-320184378.9144333,134972284913.77616,58520456225.98327,m,DE442 at 1968-12-21T17:36:54Z
+earth_velocity,Solar-System-barycentric J2000/ICRF,-30283.368999963187,-278.33781048376272,-121.37405423305467,m/s,DE442 at 1968-12-21T17:36:54Z
+spacecraft_position,Solar-System-barycentric J2000/ICRF,-298632826.092812061,134942588641.470672607,58526575674.230461121,m,Earth barycentric position plus converted geocentric position
+spacecraft_velocity,Solar-System-barycentric J2000/ICRF,-26487.222938884777,-2627.161216109642,-391.394509340547,m/s,Earth barycentric velocity plus converted geocentric velocity

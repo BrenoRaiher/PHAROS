@@ -1,0 +1,41 @@
+{
+  "parameters": [
+    "LOI scalar delta-v",
+    "LOI radial direction bias",
+    "LOI orbit-normal direction bias",
+    "LOC scalar delta-v"
+  ],
+  "initial": [
+    907.1000400000001,
+    0.02,
+    0.0,
+    40.881498133723035
+  ],
+  "finite_difference_steps": [
+    0.3,
+    0.001,
+    0.001,
+    0.1
+  ],
+  "per_update_limits": [
+    5.0,
+    0.01,
+    0.005,
+    1.0
+  ],
+  "lower_bounds": [
+    892.1000400000001,
+    -0.009999999999999998,
+    -0.015,
+    37.881498133723035
+  ],
+  "upper_bounds": [
+    922.1000400000001,
+    0.05,
+    0.015,
+    41.131498133723035
+  ],
+  "max_updates": 3,
+  "objective": "Two direct lunar position vectors / 10 km, plus post-LOI and post-LOC periapsis / 5 km and apoapsis / 10 km relative to published rounded apsides. No fitted state resets.",
+  "stop": "At most three updates; stop at less than 5% improvement or both direct position errors below 5 km. Reject worsening candidates."
+}

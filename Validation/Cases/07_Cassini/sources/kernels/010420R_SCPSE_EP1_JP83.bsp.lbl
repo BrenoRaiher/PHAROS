@@ -1,0 +1,262 @@
+MISSION_NAME             = CASSINI
+SPACECRAFT_NAME          = CASSINI
+DATA_SET_ID              = SPICE_SPK_FILE
+KERNEL_TYPE_ID           = SPK
+PRODUCT_ID               = 010420R_SCPSE_EP1_JP83.xsp
+PRODUCT_CREATION_TIME    = 2001-04-20T11:46:29
+PRODUCER_ID              = CASSINI_NAV_TEAM
+MISSION_PHASE_NAME       = EARTH_TO_JUPITER_P83D
+PRODUCT_VERSION_TYPE     = RECONSTRUCTION
+PLATFORM_OR_MOUNTING_NAME = N/A
+START_TIME               = 1999-08-19T01:58:56
+STOP_TIME                = 2001-03-23T23:58:56
+SPACECRAFT_CLOCK_START_COUNT = N/A
+SPACECRAFT_CLOCK_STOP_COUNT = N/A
+TARGET_NAME              = { CASSINI, 'EARTH BARYCENTER',
+                           'JUPITER BARYCENTER', 'SATURN BARYCENTER', SUN,
+                           MOON, EARTH, IO, EUROPA, GANYMEDE, CALLISTO,
+                           AMALTHEA, HIMALIA, ELARA, PASIPHAE, SINOPE,
+                           LYSITHEA, CARME, ANANKE, LEDA, THEBE, ADRASTEA,
+                           METIS, JUPITER }
+INSTRUMENT_NAME          = N/A
+INSTRUMENT_ID            = N/A
+SOURCE_PRODUCT_ID        = UNK
+NOTE                     = 'SPICE transfer format SPK file.'
+ 
+; 010420R_SCPSE_EP1_JP83.BSP LOG FILE
+;
+; Created 2001-04-20/11:46:02.00.
+;
+; BEGIN NIOSPK COMMANDS
+ 
+LEAPSECONDS_FILE    = /cnav/software/internal/leapseconds.dat
+SPK_FILE            = 010420R_SCPSE_EP1_JP83.BSP
+  SPK_LOG_FILE      = 010420R_SCPSE_EP1_JP83.log
+  INCLUDE_TEXT_FILE = 010420R_COMMENT_EP1_JP83.TXT
+  SOURCE_NIO_FILE   = 010420R_SK_EP1_JP83.NIO
+    BODIES          = -82
+    BEGIN_TIME      = CAL-ET 1999 AUG 19 02:00:00.000
+    END_TIME        = CAL-ET 2001 MAR 24 00:00:00.000
+  SOURCE_NIO_FILE   = /cnav/OD/deliveries/JP83D/peph.upd.nio
+    BODIES          = 3 5 6 10 301 399
+    BEGIN_TIME      = CAL-ET 1999 AUG 19 02:00:00.000
+    END_TIME        = CAL-ET 2001 MAR 24 00:00:00.000
+  SOURCE_NIO_FILE   = /cnav/inputs/ephem/jup171s.nio
+    BODIES          = 501 502 503 504 505 506 507 508 509 510 511 512 513 514
+                      515 516 599
+    BEGIN_TIME      = CAL-ET 2000 JAN 01 00:00:00.000
+    END_TIME        = CAL-ET 2001 MAR 24 00:00:00.000
+ 
+; END NIOSPK COMMANDS
+ 
+FILENAME: 010419R_SK_EP1_JP83.XSP
+ 
+PURPOSE OF DELIVERY: Final, archival trajectory reconstruction for Cassini
+                     for the period from Earth flyby plus one day to Jupiter
+                     plus 83 days.
+ 
+DELIVERED BY: Joan Pojman 3-5177. The original nio file was produced
+              by Duane Roth.
+ 
+DELIVERY DATE: April 20, 2001.
+ 
+FILE USAGE RESTRICTIONS: None
+ 
+PLANETARY EPHEMERIS USED: A version of DE405 updated by OD:  peph.upd
+ 
+SATELLITE/ASTEROID/ROCK EPHEMERIS USED:  Jupiter (and 16 satellites): jup171s
+ 
+FILE START EPOCH: 19-AUG-1999 02:00:00.0000 ET
+ 
+FILE END EPOCH: 24-MAR-2001 00:00:00.0000 ET
+ 
+START EPOCH OF RECONSTRUCTED DATA ARC: 19 AUGUST 1999 02:04:30 UTC.
+ 
+END EPOCH OF RECONSTRUCTED DATA ARC: 23 MARCH 2001 04:10:30 UTC.
+ 
+COMMENTS:
+ 
+2 and 3-way Doppler (0.2 mm/s), range (50 m) solution with data through
+23 March 2001 04:10 UTC (JP83D). Estimate s/c state, solar pressure, solar
+torque, RTG radiation, two finite burns (TCM's 13 and 17), 80 impulsive
+delta-V's  (which include TCM 14), Jupiter planet ephemeris, and stochastic
+non-gravitational accelerations.  Consider Earth-Moon barycenter ephemeris,
+station locations, troposphere dry and wet calibrations, and ionosphere
+night and day calibrations.
+ 
+Since the updated planetary ephemeris is applicable only to this
+reconstruction, the planetary, satellite, and spacecraft ephemerides have
+been merged in file 010420R_SCPSE_EP1_JP83.BSP.  The following bodies and
+timeframes can be found in file 010419_SK_EP1_JP83.BSP:
+ 
+ 
+Summary for: 010420R_SCPSE_EP1_JP83.BSP
+ 
+Body: CASSINI (-82)
+      Start of Interval (ET)              End of Interval (ET)
+      --------------------------------    --------------------------------
+      1999 AUG 19 02:00:00.000            2001 MAR 24 00:00:00.000
+ 
+Bodies: EARTH BARYCENTER (3)    SATURN BARYCENTER (6)   MOON (301)
+        JUPITER BARYCENTER (5)  SUN (10)                EARTH (399)
+        Start of Interval (ET)              End of Interval (ET)
+        --------------------------------    --------------------------------
+        1999 AUG 19 02:00:00.000            2001 MAR 24 00:00:00.000
+ 
+Bodies: IO (501)                ELARA (507)             LEDA (513)
+        EUROPA (502)            PASIPHAE (508)          THEBE (514)
+        GANYMEDE (503)          SINOPE (509)            ADRASTEA (515)
+        CALLISTO (504)          LYSITHEA (510)          METIS (516)
+        AMALTHEA (505)          CARME (511)             JUPITER (599)
+        HIMALIA (506)           ANANKE (512)
+        Start of Interval (ET)              End of Interval (ET)
+        --------------------------------    --------------------------------
+        2000 JAN 01 00:00:00.000            2001 MAR 24 00:00:00.000
+ 
+ 
+\beginlabel
+ 
+MISSION_NAME                 = "CASSINI"
+SPACECRAFT_NAME              = "CASSINI"
+DATA_SET_ID                  = "SPICE_SPK_FILE"
+KERNEL_TYPE_ID               = "SPK"
+PRODUCT_ID                   = "010420R_SCPSE_EP1_JP83.xsp"
+PRODUCT_CREATION_TIME        = 2001-04-20T11:46:29
+PRODUCER_ID                  = "CASSINI_NAV_TEAM"
+MISSION_PHASE_NAME           = "EARTH_TO_JUPITER_p83D"
+PRODUCT_VERSION_TYPE         = "RECONSTRUCTION"
+PLATFORM_OR_MOUNTING_NAME    = "N/A"
+START_TIME                   = 1999-08-19T01:58:56
+STOP_TIME                    = 2001-03-23T23:58:56
+SPACECRAFT_CLOCK_START_COUNT = "N/A"
+SPACECRAFT_CLOCK_STOP_COUNT  = "N/A"
+TARGET_NAME                  = {
+                               "CASSINI",
+                               "EARTH BARYCENTER",
+                               "JUPITER BARYCENTER",
+                               "SATURN BARYCENTER",
+                               "SUN",
+                               "MOON",
+                               "EARTH",
+                               "IO",
+                               "EUROPA",
+                               "GANYMEDE",
+                               "CALLISTO",
+                               "AMALTHEA",
+                               "HIMALIA",
+                               "ELARA",
+                               "PASIPHAE",
+                               "SINOPE",
+                               "LYSITHEA",
+                               "CARME",
+                               "ANANKE",
+                               "LEDA",
+                               "THEBE",
+                               "ADRASTEA",
+                               "METIS",
+                               "JUPITER"
+                               }
+INSTRUMENT_NAME              = "N/A"
+INSTRUMENT_ID                = "N/A"
+SOURCE_PRODUCT_ID            = "UNK"
+NOTE                         = "SPICE transfer format SPK file."
+ 
+\endlabel
+ 
+ 
+FILENAME: 010419R_SK_EP1_JP83.XSP
+ 
+PURPOSE OF DELIVERY: Final, archival trajectory reconstruction for Cassini
+                     for the period from Earth flyby plus one day to Jupiter
+                     plus 83 days.
+ 
+DELIVERED BY: Joan Pojman 3-5177. The original nio file was produced
+              by Duane Roth.
+ 
+DELIVERY DATE: April 20, 2001.
+ 
+FILE USAGE RESTRICTIONS: None
+ 
+PLANETARY EPHEMERIS USED: A version of DE405 updated by OD:  peph.upd
+ 
+SATELLITE/ASTEROID/ROCK EPHEMERIS USED:  Jupiter (and 16 satellites): jup171s
+ 
+FILE START EPOCH: 19-AUG-1999 02:00:00.0000 ET
+ 
+FILE END EPOCH: 24-MAR-2001 00:00:00.0000 ET
+ 
+START EPOCH OF RECONSTRUCTED DATA ARC: 19 AUGUST 1999 02:04:30 UTC.
+ 
+END EPOCH OF RECONSTRUCTED DATA ARC: 23 MARCH 2001 04:10:30 UTC.
+ 
+COMMENTS:
+ 
+2 and 3-way Doppler (0.2 mm/s), range (50 m) solution with data through
+23 March 2001 04:10 UTC (JP83D). Estimate s/c state, solar pressure, solar
+torque, RTG radiation, two finite burns (TCM's 13 and 17), 80 impulsive
+delta-V's  (which include TCM 14), Jupiter planet ephemeris, and stochastic
+non-gravitational accelerations.  Consider Earth-Moon barycenter ephemeris,
+station locations, troposphere dry and wet calibrations, and ionosphere
+night and day calibrations.
+ 
+Since the updated planetary ephemeris is applicable only to this
+reconstruction, the planetary, satellite, and spacecraft ephemerides have
+been merged in file 010420R_SCPSE_EP1_JP83.BSP.  The following bodies and
+timeframes can be found in file 010419_SK_EP1_JP83.BSP:
+ 
+ 
+Summary for: 010420R_SCPSE_EP1_JP83.BSP
+ 
+Body: CASSINI (-82)
+      Start of Interval (ET)              End of Interval (ET)
+      --------------------------------    --------------------------------
+      1999 AUG 19 02:00:00.000            2001 MAR 24 00:00:00.000
+ 
+Bodies: EARTH BARYCENTER (3)    SATURN BARYCENTER (6)   MOON (301)
+        JUPITER BARYCENTER (5)  SUN (10)                EARTH (399)
+        Start of Interval (ET)              End of Interval (ET)
+        --------------------------------    --------------------------------
+        1999 AUG 19 02:00:00.000            2001 MAR 24 00:00:00.000
+ 
+Bodies: IO (501)                ELARA (507)             LEDA (513)
+        EUROPA (502)            PASIPHAE (508)          THEBE (514)
+        GANYMEDE (503)          SINOPE (509)            ADRASTEA (515)
+        CALLISTO (504)          LYSITHEA (510)          METIS (516)
+        AMALTHEA (505)          CARME (511)             JUPITER (599)
+        HIMALIA (506)           ANANKE (512)
+        Start of Interval (ET)              End of Interval (ET)
+        --------------------------------    --------------------------------
+        2000 JAN 01 00:00:00.000            2001 MAR 24 00:00:00.000
+ 
+ 
+Brief.  Version: 2.1        (SPICE Toolkit N0051)
+ 
+ 
+Summary for: 010420R_SCPSE_EP1_JP83.bsp
+ 
+Bodies                Start of Interval (ET)          End of Interval (ET)
+-------               -----------------------------   -----------------------------
+-82 CASSINI           1999 AUG 19 02:00:00.000        2001 MAR 24 00:00:00.000
+3 EARTH BARYCENTER    1999 AUG 19 02:00:00.000        2001 MAR 24 00:00:00.000
+5 JUPITER BARYCENTER              Same coverage as previous object
+6 SATURN BARYCENTER               Same coverage as previous object
+10 SUN                            Same coverage as previous object
+301 MOON                          Same coverage as previous object
+399 EARTH                         Same coverage as previous object
+501 IO                2000 JAN 01 00:00:00.000        2001 MAR 24 00:00:00.000
+502 EUROPA                        Same coverage as previous object
+503 GANYMEDE                      Same coverage as previous object
+504 CALLISTO                      Same coverage as previous object
+505 AMALTHEA                      Same coverage as previous object
+506 HIMALIA                       Same coverage as previous object
+507 ELARA                         Same coverage as previous object
+508 PASIPHAE                      Same coverage as previous object
+509 SINOPE                        Same coverage as previous object
+510 LYSITHEA                      Same coverage as previous object
+511 CARME                         Same coverage as previous object
+512 ANANKE                        Same coverage as previous object
+513 LEDA                          Same coverage as previous object
+514 THEBE                         Same coverage as previous object
+515 ADRASTEA                      Same coverage as previous object
+516 METIS                         Same coverage as previous object
+599 JUPITER                       Same coverage as previous object

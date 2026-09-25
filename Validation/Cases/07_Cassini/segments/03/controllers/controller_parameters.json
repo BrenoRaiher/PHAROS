@@ -1,0 +1,27 @@
+{
+  "initial_fixed_target_active": true,
+  "initial_fixed_target_end_elapsed_s": 1038.875,
+  "initial_target_icrf": [
+    -0.8216680162808313,
+    0.010205198531713072,
+    0.5698750081763999
+  ],
+  "final_fixed_target_active": false,
+  "final_fixed_target_start_elapsed_s": 24228000.0,
+  "final_target_icrf": [
+    1.0,
+    0.0,
+    0.0
+  ],
+  "burn_enabled": true,
+  "burn_start_elapsed_s": 146.875,
+  "burn_end_elapsed_s": 438.875,
+  "commanded_delta_v_icrf_mps": [
+    -0.1308704118972295,
+    0.0016254235395257513,
+    0.09076631385453912
+  ],
+  "commanded_delta_v_magnitude_mps": 0.15927407335336802,
+  "commanded_throttle": 0.7593377709815349,
+  "current_reconstruction_adjustment": "One bounded targeting update after tightening the integration tolerances; no added maneuver."
+}

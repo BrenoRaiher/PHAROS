@@ -1,0 +1,88 @@
+format = "TGSCN"
+format_version = 1
+generator = "Apollo 8-like validation, segment 01, 2026-08-25"
+
+[scenario]
+name = "Apollo 8-like 01 - post-separation coast to first midcourse correction ignition"
+start_utc = "1968-12-21T17:36:54.000Z"
+end_mode = "final_utc"
+final_utc = "1968-12-21T23:50:59.500Z"
+integrator = "adaptive_dormand_prince_54"
+maximum_integrator_step_seconds = 20.0
+initial_integrator_step_seconds = 1.0
+absolute_tolerance = 1.0e-5
+relative_tolerance = 1.0e-12
+output_mode = "fixed_interval"
+output_step_seconds = 60.0
+maximum_integration_steps = 1000000
+maximum_output_samples = 100000
+mass_flow_convention = "thrust_includes_exhaust_momentum"
+
+[initial_state]
+position_icrf_m = [-298632826.092812061, 134942588641.470672607, 58526575674.230461121]
+velocity_icrf_mps = [-26487.222938884777, -2627.161216109642, -391.394509340547]
+attitude_body_to_icrf = [0.8497381976141662, -0.26004248003897784, 0.04293324360192611, -0.4565957081318479]
+angular_velocity_body_radps = [0.0, 0.0, 0.0]
+
+[[components]]
+id = "a8000001-0000-0000-0000-000000000001"
+name = "Apollo 8 CSM equivalent"
+initial_mass_kg = 28786.7447654824
+minimum_mass_kg = 28786.7447654824
+variable_mass = false
+local_center_of_mass_m = [0.0, 0.0, 0.0]
+origin_body_m = [0.0, 0.0, 0.0]
+component_to_body = [1.0, 0.0, 0.0, 0.0]
+parent_component = ""
+parent_anchor_m = [0.0, 0.0, 0.0]
+child_anchor_m = [0.0, 0.0, 0.0]
+child_to_parent_zero_orientation = [1.0, 0.0, 0.0, 0.0]
+dofs = []
+inertia = { ixx_kgm2 = 46215.3931855140, iyy_kgm2 = 105663.242657240, izz_kgm2 = 109245.988780388, ixy_kgm2 = -1592.93362601965, ixz_kgm2 = -148.998893590273, iyz_kgm2 = 4293.87720619242 }
+
+[control]
+mode = "none"
+
+[gravity]
+include_first_post_newtonian_correction = true
+
+[[gravity.bodies]]
+catalog_key = "Sun"
+gravity_enabled = true
+automatic_activation_radius_m = 0.0
+barycenter_resolution_radius_m = 0.0
+harmonic_model_csv_file = ""
+maximum_harmonic_degree = 0
+
+[[gravity.bodies]]
+catalog_key = "EarthMoonBarycenter"
+gravity_enabled = false
+automatic_activation_radius_m = 0.0
+barycenter_resolution_radius_m = 0.0
+harmonic_model_csv_file = ""
+maximum_harmonic_degree = 0
+
+[[gravity.bodies]]
+catalog_key = "Earth"
+gravity_enabled = true
+automatic_activation_radius_m = 0.0
+barycenter_resolution_radius_m = 0.0
+harmonic_model_csv_file = ""
+maximum_harmonic_degree = 0
+
+[[gravity.bodies]]
+catalog_key = "Moon"
+gravity_enabled = true
+automatic_activation_radius_m = 0.0
+barycenter_resolution_radius_m = 0.0
+harmonic_model_csv_file = ""
+maximum_harmonic_degree = 0
+
+[srp]
+enabled = false
+
+[atmosphere]
+enabled = false
+
+[aerodynamics]
+enabled = false

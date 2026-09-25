@@ -1,0 +1,275 @@
+PHAROS 1.0 - THIRD-PARTY NOTICES
+=================================
+
+Copyright (c) 2026 Breno Raiher.
+
+PHAROS includes or uses third-party software, data, fonts, and visual
+materials identified below. Full license texts supplied with the PHAROS
+distribution are in the accompanying Licenses directory. Those materials
+remain governed by their respective terms. Nothing in these acknowledgments
+implies endorsement of PHAROS by any named organization or contributor.
+
+The source repository contains vendored CSPICE and toml++ files, kernel data,
+assets, and the corresponding notices. Unreal Engine supplies additional
+build and runtime dependencies. The controller compiler is installed by the
+build tools and included in application packages. The notices below cover
+both the source tree and packaged distributions; each component's terms apply
+where that component is included.
+
+
+UNREAL ENGINE
+-------------
+
+PHAROS uses Unreal® Engine. Unreal® is a trademark or registered trademark
+of Epic Games, Inc. in the United States of America and elsewhere.
+
+Unreal® Engine, Copyright 1998 – 2026, Epic Games, Inc. All rights reserved.
+
+PHAROS was built with Unreal Engine 5.7.4. Unreal Engine is licensed under
+the Unreal Engine End User License Agreement:
+https://www.unrealengine.com/eula/unreal
+
+Unreal Engine incorporates third-party software governed by additional or
+alternative terms. Applicable license texts for runtime components used by
+PHAROS are included in the Licenses directory.
+
+
+SPICE AND EPHEMERIS DATA
+------------------------
+
+PHAROS incorporates CSPICE Toolkit N0067 and uses SPICE kernels supplied by
+NASA's Navigation and Ancillary Information Facility (NAIF), the Planetary
+Data System, and the Jet Propulsion Laboratory Solar System Dynamics group.
+The SPICE system is implemented and maintained by the California Institute
+of Technology's Jet Propulsion Laboratory under contract with the National
+Aeronautics and Space Administration and is sponsored by NASA's Planetary
+Science Division.
+
+PHAROS is independent third-party software. NAIF, JPL, Caltech, and NASA do
+not develop, support, certify, or endorse PHAROS. Questions concerning
+PHAROS should be directed to the PHAROS project, not to NAIF.
+
+Use and redistribution of SPICE components are subject to NAIF's Rules
+Regarding Use of SPICE:
+https://naif.jpl.nasa.gov/naif/rules.html
+
+Kernels obtained from another provider remain subject to that provider's
+terms. The source repository includes the original JPL SSD ura111.bsp file,
+with its embedded provenance. Its source URL and checksum are recorded in
+Tools/Release/ExternalKernels.json. No separate explicit SSD redistribution
+grant is recorded; the PHAROS MIT License does not relicense these data:
+https://ssd.jpl.nasa.gov/ftp/eph/satellites/bsp/ura111.bsp
+https://ssd.jpl.nasa.gov/faq.html
+
+The complete disclaimer reproduced from the CSPICE N0067 distribution is in:
+Licenses/CSPICE_NAIF_NOTICE.txt
+
+The distributed kernels are retained under their original filenames and
+preserve their embedded provenance. Modified kernels, if ever distributed,
+must be renamed and attributed according to the provider's rules.
+
+
+DIRECT SOFTWARE DEPENDENCIES
+----------------------------
+
+toml++ 3.4.0
+Copyright (c) Mark Gillard.
+License: MIT.
+Full text: Licenses/tomlplusplus_LICENSE.txt
+
+Boost 1.85.0
+License: Boost Software License 1.0.
+Full text: Licenses/Boost_LICENSE.txt
+
+Eigen 3.4.0
+License: Mozilla Public License 2.0 and the component-specific notices
+included in the Unreal Engine distribution.
+Full text: Licenses/Eigen_v3.4.0_LICENSE.txt
+The exact Eigen header sources used by this build, including the Unreal
+distribution's platform patches, are supplied in Sources/Eigen-3.4.0.zip.
+See Sources/README.md for source availability and upstream links.
+
+nanoflann 1.4.2
+Copyright (c) Marius Muja, David G. Lowe, Jose Luis Blanco, and contributors.
+License: BSD 2-Clause.
+Full text: Licenses/nanoflann_v1.4.2_LICENSE.txt
+
+
+CONTROLLER COMPILER TOOLCHAIN
+-----------------------------
+
+PHAROS includes an llvm-mingw controller compiler toolchain based on the
+20260616 llvm-mingw release and LLVM/Clang 22.1.8. The distribution contains
+LLVM, Clang, LLD, libc++, libunwind, compiler runtime components, mingw-w64
+headers and libraries, and related notices.
+
+LLVM components are principally licensed under Apache License 2.0 with the
+LLVM Exceptions. llvm-mingw and mingw-w64 files have additional file-specific
+ISC, public-domain, ZPL 2.1, BSD, LGPL, and other terms described in the
+upstream notices. PHAROS preserves the license files supplied with the
+toolchain distribution:
+
+Licenses/LLVM_Toolchain_LICENSE.txt
+Licenses/llvm-mingw_ISC_LICENSE.txt
+Licenses/mingw-w64_COPYING.txt
+Licenses/mingw-w64_NOTICES.txt
+Licenses/mingw-w64_RUNTIME_NOTICES.txt
+Licenses/mingw-w64_LGPL-2.1.txt
+Licenses/winpthreads_LICENSE.txt
+Licenses/mingw-w64_widl_COPYING.txt
+Licenses/mingw-w64_make_COPYING.txt
+Licenses/mingw-w64_gendef_COPYING.txt
+
+The presence of an upstream license text does not place first-party PHAROS
+code under that license.
+
+The corresponding upstream source revisions and download locations are
+listed in Sources/README.md. No GNU Make, gendef, or widl executable is
+included in the trimmed PHAROS compiler bundle.
+
+
+UNREAL-SUPPLIED RUNTIME COMPONENTS
+----------------------------------
+
+The Windows distribution may contain the following components supplied by
+Unreal Engine. Their complete available terms are included as indicated.
+
+oneTBB 2021.13.0
+License: Apache License 2.0.
+Full text and notices: Licenses/oneTBB_LICENSE.txt
+
+ONNX Runtime 1.20
+License: MIT.
+Full text: Licenses/ONNXRuntime_v1.20_LICENSE.txt
+
+DirectML 1.15.2
+License: Microsoft Software License Terms.
+Full terms: Licenses/DirectML_v1.15.2_LICENSE.txt
+
+Direct3D 12 Headers
+License: MIT.
+Full text: Licenses/D3D12-Headers_LICENSE.txt
+
+DirectX 12 Agility SDK 1.616.1
+License: Microsoft Software License Terms.
+Full terms: Licenses/AgilitySDK_v1.616.1_LICENSE.txt
+
+MsQuic 2.1.8
+License: MIT.
+Full text: Licenses/MsQuic_LICENSE.txt
+
+NVIDIA Nsight Aftermath / NVAPI components
+License: NVIDIA SDK terms supplied with Unreal Engine.
+Full terms: Licenses/NVIDIA_Aftermath_NVAPI_LICENSE.txt
+
+Ogg 1.3.5
+Copyright (c) 2002, Xiph.org Foundation.
+License: BSD-style Xiph license.
+Full text: Licenses/libOgg_v1.3.5_LICENSE.txt
+
+Vorbis 1.3.7
+Copyright (c) 2002-2020, Xiph.org Foundation.
+License: BSD-style Xiph license.
+Full text: Licenses/libvorbis_v1.3.7_LICENSE.txt
+
+The Windows package may also include Microsoft XAudio 2.9 Redistributable,
+Microsoft Debugging Tools components, and Microsoft Visual C++ runtime
+redistributables supplied through Unreal Engine. Those components remain
+subject to the applicable Microsoft redistributable terms.
+
+
+FONTS
+-----
+
+Roboto
+Font data copyright Google 2012.
+License: Apache License 2.0.
+Full text: Licenses/Roboto_LICENSE.txt
+
+Droid Sans
+Copyright The Android Open Source Project and respective contributors.
+License: applicable Android Open Source Project terms.
+Full text: Licenses/AndroidOpenSourceProject_LICENSE.txt
+
+Noto
+Copyright Google LLC and respective contributors.
+License: SIL Open Font License 1.1.
+Full text: Licenses/Noto_LICENSE.txt
+
+Last Resort Font
+Copyright Unicode, Inc.
+License: Unicode Last Resort Font license.
+Full text: Licenses/LastResortFont_LICENSE.txt
+
+
+VISUAL ASSETS AND ASTRONOMICAL DATA
+-----------------------------------
+
+Solar System Scope textures
+
+The active Sun, Moon, Mercury, Venus, Mars, Jupiter, Saturn, Uranus, and
+Neptune texture maps identified in the PHAROS provenance inventory were
+obtained from Solar System Scope by INOVE:
+https://www.solarsystemscope.com/textures/
+
+They are licensed under Creative Commons Attribution 4.0 International:
+https://creativecommons.org/licenses/by/4.0/
+
+PHAROS imported and technically processed these textures for real-time use,
+including format conversion, compression, and engine material integration.
+Full license text: Licenses/CC-BY-4.0.txt
+
+NASA imagery and data
+
+- Earth day and night surface imagery has recorded NASA attribution;
+  the exact source products have not been identified or independently verified.
+- The Moon texture distributed through Solar System Scope uses NASA source
+  imagery.
+- The celestial background uses NASA Scientific Visualization Studio's
+  "Deep Star Maps 2020," visualized by Ernie Wright:
+  https://svs.gsfc.nasa.gov/4851
+- The Orion celestial-sphere illustration is from NASA's Universe of
+  Learning / Space Telescope Science Institute constellation materials,
+  surfaced through the NOIRLab 88 Constellations project:
+  https://noirlab.edu/public/education/constellations/
+  https://universe-of-learning.org/copyright
+
+NASA material is used in accordance with NASA's media guidelines. NASA does
+not endorse PHAROS:
+https://www.nasa.gov/nasa-brand-center/images-and-media/
+
+AI-generated small-body texture maps
+
+Texture maps for Pluto and the represented moons, dwarf planets, and
+asteroids other than Earth's Moon were generated with OpenAI image tools
+using real observations as scientific reference. They are artistic simulation assets, not official cartographic
+products or authoritative scientific maps.
+
+Constellation data
+
+Constellation names, star identifiers, positions, and astronomical
+measurements used by PHAROS are factual data. The NOIRLab 88 Constellations
+project was consulted as an educational reference:
+https://noirlab.edu/public/education/constellations/
+
+The retained line tables include first-party edits and Western line
+definitions attributed to Fabien Chereau / Stellarium under the author's
+MIT permission. This does not cover Stellarium artwork or other sky cultures.
+Permission record and license: Licenses/Stellarium_Western_Lines_MIT.txt
+
+
+PHAROS LICENSE
+--------------
+
+The first-party PHAROS software and documentation are distributed under the
+MIT License unless a file or directory states otherwise.
+Full text: Licenses/PHAROS_MIT_LICENSE.txt
+
+
+NO ENDORSEMENT; THIRD-PARTY TERMS CONTROL
+-----------------------------------------
+
+All trademarks are the property of their respective owners. Third-party
+materials are provided under their respective licenses and disclaimers. If
+this notice conflicts with an included third-party license, that license
+controls for the corresponding material.

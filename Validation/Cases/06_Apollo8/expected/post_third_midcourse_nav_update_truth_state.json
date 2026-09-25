@@ -1,0 +1,27 @@
+{
+  "event_id": "post_third_midcourse_nav_update",
+  "get_seconds": 374784.0,
+  "source_frame": "ECI_mean_NBY_1969",
+  "position_earth_relative_j2000_m": [
+    310240916.4714307,
+    -53086493.89965585,
+    -30238267.081088103
+  ],
+  "velocity_earth_relative_j2000_mps": [
+    -1228.406551225036,
+    383.1348021935277,
+    253.39354586433953
+  ],
+  "position_icrf_m": [
+    -10826316456.552345,
+    134458942002.91968,
+    58290232666.850266
+  ],
+  "velocity_icrf_mps": [
+    -31406.450291803078,
+    -1909.8809413211434,
+    -742.337985643798
+  ],
+  "source": "Trajectory reconstruction supplement Appendix A page A-21 TRW row (GWMX777)",
+  "conversion": "Pure mean-NBY-1969 to J2000 precession rotation, then DE442 Earth barycentric translation"
+}

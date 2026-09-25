@@ -1,0 +1,398 @@
+[
+  {
+    "name": "cm_positive_rk4",
+    "kind": "positive",
+    "group": "cm",
+    "solver": "fixed_step_rk4"
+  },
+  {
+    "name": "cm_negative_rk4",
+    "kind": "negative",
+    "group": "cm",
+    "solver": "fixed_step_rk4"
+  },
+  {
+    "name": "cm_omitted_rk4",
+    "kind": "omitted",
+    "group": "cm",
+    "solver": "fixed_step_rk4"
+  },
+  {
+    "name": "cm_constant_rk4",
+    "kind": "constant",
+    "group": "cm",
+    "solver": "fixed_step_rk4"
+  },
+  {
+    "name": "cm_zero_start_rk4",
+    "kind": "zero_start",
+    "group": "cm",
+    "solver": "fixed_step_rk4"
+  },
+  {
+    "name": "cm_prescribed_rk4",
+    "kind": "prescribed",
+    "group": "cm",
+    "solver": "fixed_step_rk4"
+  },
+  {
+    "name": "cm_variable_isp_rk4",
+    "kind": "variable_isp",
+    "group": "cm",
+    "solver": "fixed_step_rk4"
+  },
+  {
+    "name": "cm_shared_rk4",
+    "kind": "shared",
+    "group": "cm",
+    "solver": "fixed_step_rk4"
+  },
+  {
+    "name": "stop_single_rk4",
+    "kind": "single",
+    "group": "stop",
+    "solver": "fixed_step_rk4",
+    "initial": [
+      [
+        0.0,
+        1.0
+      ]
+    ],
+    "duration": 0.2,
+    "omega": 0.2,
+    "coordinates": [
+      0.1
+    ],
+    "rates": [
+      0.0
+    ]
+  },
+  {
+    "name": "stop_both_lock_rk4",
+    "kind": "both_lock",
+    "group": "stop",
+    "solver": "fixed_step_rk4",
+    "initial": [
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ]
+    ],
+    "duration": 0.2,
+    "omega": 0.3333333333333333,
+    "coordinates": [
+      0.1,
+      0.1
+    ],
+    "rates": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "name": "stop_release_rk4",
+    "kind": "release",
+    "group": "stop",
+    "solver": "fixed_step_rk4",
+    "initial": [
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.09,
+        0.1
+      ]
+    ],
+    "duration": 0.2,
+    "omega": 0.2,
+    "coordinates": [
+      0.1,
+      0.09
+    ],
+    "rates": [
+      0.0,
+      -0.1
+    ]
+  },
+  {
+    "name": "stop_resting_rk4",
+    "kind": "resting",
+    "group": "stop",
+    "solver": "fixed_step_rk4",
+    "initial": [
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.1,
+        0.0
+      ]
+    ],
+    "duration": 0.2,
+    "omega": 0.2,
+    "coordinates": [
+      0.1,
+      0.08
+    ],
+    "rates": [
+      0.0,
+      -0.2
+    ]
+  },
+  {
+    "name": "stop_sequential_rk4",
+    "kind": "sequential",
+    "group": "stop",
+    "solver": "fixed_step_rk4",
+    "initial": [
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        0.5
+      ]
+    ],
+    "duration": 0.4,
+    "omega": 0.26,
+    "coordinates": [
+      0.092,
+      0.1
+    ],
+    "rates": [
+      -0.06,
+      0.0
+    ]
+  },
+  {
+    "name": "stop_near_rk4",
+    "kind": "near",
+    "group": "stop",
+    "solver": "fixed_step_rk4",
+    "initial": [
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.08999999,
+        0.1
+      ]
+    ],
+    "duration": 0.2,
+    "omega": 0.2,
+    "coordinates": [
+      0.1,
+      0.08999999
+    ],
+    "rates": [
+      0.0,
+      -0.1
+    ]
+  },
+  {
+    "name": "cm_positive_dp54",
+    "kind": "positive",
+    "group": "cm",
+    "solver": "adaptive_dormand_prince_54"
+  },
+  {
+    "name": "cm_negative_dp54",
+    "kind": "negative",
+    "group": "cm",
+    "solver": "adaptive_dormand_prince_54"
+  },
+  {
+    "name": "cm_omitted_dp54",
+    "kind": "omitted",
+    "group": "cm",
+    "solver": "adaptive_dormand_prince_54"
+  },
+  {
+    "name": "cm_constant_dp54",
+    "kind": "constant",
+    "group": "cm",
+    "solver": "adaptive_dormand_prince_54"
+  },
+  {
+    "name": "cm_zero_start_dp54",
+    "kind": "zero_start",
+    "group": "cm",
+    "solver": "adaptive_dormand_prince_54"
+  },
+  {
+    "name": "cm_prescribed_dp54",
+    "kind": "prescribed",
+    "group": "cm",
+    "solver": "adaptive_dormand_prince_54"
+  },
+  {
+    "name": "cm_variable_isp_dp54",
+    "kind": "variable_isp",
+    "group": "cm",
+    "solver": "adaptive_dormand_prince_54"
+  },
+  {
+    "name": "cm_shared_dp54",
+    "kind": "shared",
+    "group": "cm",
+    "solver": "adaptive_dormand_prince_54"
+  },
+  {
+    "name": "stop_single_dp54",
+    "kind": "single",
+    "group": "stop",
+    "solver": "adaptive_dormand_prince_54",
+    "initial": [
+      [
+        0.0,
+        1.0
+      ]
+    ],
+    "duration": 0.2,
+    "omega": 0.2,
+    "coordinates": [
+      0.1
+    ],
+    "rates": [
+      0.0
+    ]
+  },
+  {
+    "name": "stop_both_lock_dp54",
+    "kind": "both_lock",
+    "group": "stop",
+    "solver": "adaptive_dormand_prince_54",
+    "initial": [
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ]
+    ],
+    "duration": 0.2,
+    "omega": 0.3333333333333333,
+    "coordinates": [
+      0.1,
+      0.1
+    ],
+    "rates": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "name": "stop_release_dp54",
+    "kind": "release",
+    "group": "stop",
+    "solver": "adaptive_dormand_prince_54",
+    "initial": [
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.09,
+        0.1
+      ]
+    ],
+    "duration": 0.2,
+    "omega": 0.2,
+    "coordinates": [
+      0.1,
+      0.09
+    ],
+    "rates": [
+      0.0,
+      -0.1
+    ]
+  },
+  {
+    "name": "stop_resting_dp54",
+    "kind": "resting",
+    "group": "stop",
+    "solver": "adaptive_dormand_prince_54",
+    "initial": [
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.1,
+        0.0
+      ]
+    ],
+    "duration": 0.2,
+    "omega": 0.2,
+    "coordinates": [
+      0.1,
+      0.08
+    ],
+    "rates": [
+      0.0,
+      -0.2
+    ]
+  },
+  {
+    "name": "stop_sequential_dp54",
+    "kind": "sequential",
+    "group": "stop",
+    "solver": "adaptive_dormand_prince_54",
+    "initial": [
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        0.5
+      ]
+    ],
+    "duration": 0.4,
+    "omega": 0.26,
+    "coordinates": [
+      0.092,
+      0.1
+    ],
+    "rates": [
+      -0.06,
+      0.0
+    ]
+  },
+  {
+    "name": "stop_near_dp54",
+    "kind": "near",
+    "group": "stop",
+    "solver": "adaptive_dormand_prince_54",
+    "initial": [
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.08999999,
+        0.1
+      ]
+    ],
+    "duration": 0.2,
+    "omega": 0.2,
+    "coordinates": [
+      0.1,
+      0.08999999
+    ],
+    "rates": [
+      0.0,
+      -0.1
+    ]
+  }
+]

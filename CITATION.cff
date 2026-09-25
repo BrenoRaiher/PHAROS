@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "Please cite PHAROS when you use it in your work, and identify the release or commit used."
+title: "PHAROS: Platform for Hierarchical Articulated Rigid-Body and Orbital Simulation"
+type: software
+authors:
+  - family-names: "Raiher"
+    given-names: "Breno"
+version: "1.0"
+license: MIT
+repository-code: "https://github.com/BrenoRaiher/PHAROS"
+keywords:
+  - spacecraft dynamics
+  - astrodynamics
+  - multibody dynamics
+  - numerical simulation

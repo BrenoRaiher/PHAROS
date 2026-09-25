@@ -1,0 +1,14 @@
+{
+  "segment": "18",
+  "velocity_difference_before_mps": 6.502055905697047e-09,
+  "velocity_difference_after_mps": 2.787067085621689e-12,
+  "correction_vector_mps": [
+    3.726081086453973e-08,
+    -1.1353820380600215e-08,
+    1.7706963690089378e-08
+  ],
+  "correction_norm_mps": 4.2788010314106434e-08,
+  "maximum_correction_mps": 0.05,
+  "retained": false,
+  "purpose": "Match the previously delivered inertial-velocity increment in a local maneuver experiment under the current core and tighter tolerances. Auxiliary initial conditions are not injected into the continuous reconstruction."
+}

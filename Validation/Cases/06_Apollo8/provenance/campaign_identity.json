@@ -1,0 +1,8 @@
+{
+  "started_utc": "2026-09-09T21:59:07.771175+00:00",
+  "legacy_root": "<recorded-user-directory>\\Desktop\\TG ITA\\04_Validation\\02_Apollo_8_Like",
+  "authoritative_project": "<recorded-user-directory>\\Documents\\Unreal Projects\\PHAROS",
+  "runner_relative": "../Support/Runtime/PHAROSScenarioRunner.exe",
+  "runner_sha256": "bb682d5eace254cbe4d8a140cf8015c379e8f1d2d351558f04a2670ad1b4fac7",
+  "scope": "Continuous Apollo 8 reconstruction with bounded controller tuning; JWST and other accepted cases remain unchanged."
+}

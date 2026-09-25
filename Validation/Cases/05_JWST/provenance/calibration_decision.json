@@ -1,0 +1,61 @@
+{
+  "method": "Bounded joint refinement of MCC-1b and MCC-2 from six PHAROS finite-difference response columns, evaluated against D/E/F/G/H state marks; components rounded to 0.001 m/s and stopped at diminishing returns.",
+  "current_stage": "Bounded joint PHAROS-response targeting",
+  "previous_stage_record": "provenance/trials/04_before_joint_retuning/provenance/calibration_decision.json",
+  "policy_record": "provenance/joint_retuning/policy.json",
+  "selection_record": "provenance/joint_retuning/selection.json",
+  "fitted_marks": [
+    "D",
+    "E",
+    "F",
+    "G",
+    "H"
+  ],
+  "sensitivity_trials": 6,
+  "evaluated_updates": 1,
+  "accepted_updates": 1,
+  "old_vectors_mps": {
+    "mcc1a": [
+      -0.30765878994689955,
+      20.101342865417173,
+      0.2592813788163473
+    ],
+    "mcc1b": [
+      -0.344,
+      2.778,
+      0.013
+    ],
+    "mcc2": [
+      -1.269,
+      0.505,
+      -0.024
+    ]
+  },
+  "new_vectors_mps": {
+    "mcc1a": [
+      -0.30765878994689955,
+      20.101342865417173,
+      0.2592813788163473
+    ],
+    "mcc1b": [
+      -0.384,
+      2.75,
+      0.062
+    ],
+    "mcc2": [
+      -1.292,
+      0.321,
+      0.043
+    ]
+  },
+  "state_reset_allowed": false,
+  "physical_model_changed": false,
+  "extra_burns_added": false,
+  "stop_reason": "The next rounded response-based update predicts less than 5% objective improvement; no further calibration propagation is justified.",
+  "outcome": {
+    "accepted": true,
+    "all_mission_acceptance_checks_pass": true,
+    "final_position_error_m": 6848.008396874489,
+    "final_velocity_error_mps": 0.025028830828084974
+  }
+}

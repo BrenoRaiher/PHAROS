@@ -1,0 +1,95 @@
+// Copyright (c) 2026 Breno Raiher.
+// SPDX-License-Identifier: MIT
+
+#ifndef PHAROS_CONTROLLER_API_H
+#define PHAROS_CONTROLLER_API_H
+
+/* Public PHAROS controller API. */
+
+#include "TGControllerAPI.h"
+
+#define PHAROS_CONTROLLER_INVALID_INDEX TG_CONTROLLER_INVALID_INDEX
+#define PHAROS_CONTROLLER_EXPORT TG_CONTROLLER_EXPORT
+#define PHAROS_CONTROLLER_CALL TG_CONTROLLER_CALL
+
+typedef TGBool PHAROSBool;
+
+typedef enum TGControllerResult PHAROSControllerResult;
+typedef enum TGIntegratorKind PHAROSIntegratorKind;
+typedef enum TGOutputMode PHAROSOutputMode;
+typedef enum TGJointMotionType PHAROSJointMotionType;
+typedef enum TGThrusterMode PHAROSThrusterMode;
+typedef enum TGGravitySourceRole PHAROSGravitySourceRole;
+typedef enum TGAtmosphereModel PHAROSAtmosphereModel;
+
+#define PHAROS_CONTROLLER_RESULT_OK TG_CONTROLLER_RESULT_OK
+#define PHAROS_CONTROLLER_RESULT_INVALID_ARGUMENT \
+    TG_CONTROLLER_RESULT_INVALID_ARGUMENT
+#define PHAROS_CONTROLLER_RESULT_CREATION_FAILED \
+    TG_CONTROLLER_RESULT_CREATION_FAILED
+#define PHAROS_CONTROLLER_RESULT_USER_EXCEPTION \
+    TG_CONTROLLER_RESULT_USER_EXCEPTION
+
+#define PHAROS_INTEGRATOR_FIXED_STEP_RK4 TG_INTEGRATOR_FIXED_STEP_RK4
+#define PHAROS_INTEGRATOR_ADAPTIVE_DORMAND_PRINCE_54 \
+    TG_INTEGRATOR_ADAPTIVE_DORMAND_PRINCE_54
+
+#define PHAROS_OUTPUT_EVERY_INTEGRATOR_STEP \
+    TG_OUTPUT_EVERY_INTEGRATOR_STEP
+#define PHAROS_OUTPUT_FIXED_INTERVAL TG_OUTPUT_FIXED_INTERVAL
+
+#define PHAROS_JOINT_ROTATION TG_JOINT_ROTATION
+#define PHAROS_JOINT_TRANSLATION TG_JOINT_TRANSLATION
+
+#define PHAROS_THRUSTER_PRESCRIBED_PROFILE TG_THRUSTER_PRESCRIBED_PROFILE
+#define PHAROS_THRUSTER_COMMANDED TG_THRUSTER_COMMANDED
+
+#define PHAROS_GRAVITY_SOURCE_INDEPENDENT TG_GRAVITY_SOURCE_INDEPENDENT
+#define PHAROS_GRAVITY_SOURCE_SYSTEM_BARYCENTER \
+    TG_GRAVITY_SOURCE_SYSTEM_BARYCENTER
+#define PHAROS_GRAVITY_SOURCE_SYSTEM_MEMBER TG_GRAVITY_SOURCE_SYSTEM_MEMBER
+
+#define PHAROS_ATMOSPHERE_TABULATED_PROFILE TG_ATMOSPHERE_TABULATED_PROFILE
+#define PHAROS_ATMOSPHERE_CUBIC_HARRIS_PRIESTER_EARTH \
+    TG_ATMOSPHERE_CUBIC_HARRIS_PRIESTER_EARTH
+
+typedef TGStringView PHAROSStringView;
+typedef TGVec3 PHAROSVec3;
+typedef TGQuat PHAROSQuat;
+typedef TGMat3 PHAROSMat3;
+typedef TGSimulationConfiguration PHAROSSimulationConfiguration;
+typedef TGSpacecraftStateView PHAROSSpacecraftStateView;
+typedef TGComponentStateView PHAROSComponentStateView;
+typedef TGJointStateView PHAROSJointStateView;
+typedef TGThrusterStateView PHAROSThrusterStateView;
+typedef TGReactionWheelStateView PHAROSReactionWheelStateView;
+typedef TGCelestialBodyStateView PHAROSCelestialBodyStateView;
+typedef TGControlInput PHAROSControlInput;
+typedef TGThrusterCommand PHAROSThrusterCommand;
+typedef TGControlOutput PHAROSControlOutput;
+typedef TGControllerContract PHAROSControllerContract;
+
+typedef TGDescribeControllerContractFunction
+    PHAROSDescribeControllerContractFunction;
+typedef TGCreateControllerFunction PHAROSCreateControllerFunction;
+typedef TGDestroyControllerFunction PHAROSDestroyControllerFunction;
+typedef TGComputeControlFunction PHAROSComputeControlFunction;
+typedef TGNextControllerDiscontinuityFunction
+    PHAROSNextControllerDiscontinuityFunction;
+
+#define PHAROS_DESCRIBE_CONTROLLER_CONTRACT_EXPORT \
+    TG_DESCRIBE_CONTROLLER_CONTRACT_EXPORT
+#define PHAROS_CREATE_CONTROLLER_EXPORT TG_CREATE_CONTROLLER_EXPORT
+#define PHAROS_DESTROY_CONTROLLER_EXPORT TG_DESTROY_CONTROLLER_EXPORT
+#define PHAROS_COMPUTE_CONTROL_EXPORT TG_COMPUTE_CONTROL_EXPORT
+#define PHAROS_NEXT_CONTROLLER_DISCONTINUITY_EXPORT \
+    TG_NEXT_CONTROLLER_DISCONTINUITY_EXPORT
+
+#define PHAROS_DescribeControllerContract TG_DescribeControllerContract
+#define PHAROS_CreateController TG_CreateController
+#define PHAROS_DestroyController TG_DestroyController
+#define PHAROS_ComputeControl TG_ComputeControl
+#define PHAROS_NextControllerDiscontinuityElapsedTime \
+    TG_NextControllerDiscontinuityElapsedTime
+
+#endif /* PHAROS_CONTROLLER_API_H */

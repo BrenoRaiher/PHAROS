@@ -1,0 +1,643 @@
+{
+  "direct_states": {
+    "post_first_midcourse_nav_update": {
+      "get_seconds": 42936,
+      "get_hms": "11:55:36",
+      "label": "After MC1",
+      "position_error_m": 5686.362066907992,
+      "position_delta_m": [
+        2587.4722497463226,
+        4503.57048034668,
+        2314.639030456543
+      ],
+      "velocity_error_mps": 0.10861718674815074,
+      "velocity_delta_mps": [
+        -0.07243041715992149,
+        0.07862178319464874,
+        -0.019239104303892418
+      ],
+      "interpolation_interval_s": 60.0,
+      "center": "Earth",
+      "source": "Trajectory Reconstruction Supplement 1, Appendix A, A-4 (PDF 32), TRW postflight row.",
+      "position_informed_calibration": false
+    },
+    "outbound_update": {
+      "get_seconds": 108894,
+      "get_hms": "30:14:54",
+      "label": "Outbound Transfer",
+      "position_error_m": 9335.481242491278,
+      "position_delta_m": [
+        -3520.6474781036377,
+        8543.435501098633,
+        1328.8947296142578
+      ],
+      "velocity_error_mps": 0.22980194990100625,
+      "velocity_delta_mps": [
+        -0.10663495521293953,
+        0.12231394420109609,
+        -0.162718227494679
+      ],
+      "interpolation_interval_s": 60.0,
+      "center": "Earth",
+      "source": "Trajectory Reconstruction Supplement 1, Appendix A, A-6 (PDF 34), TRW postflight row.",
+      "position_informed_calibration": false
+    },
+    "pre_second_midcourse_nav_update": {
+      "get_seconds": 143808,
+      "get_hms": "39:56:48",
+      "label": "Before MC2",
+      "position_error_m": 15422.649344643181,
+      "position_delta_m": [
+        -7418.94100856781,
+        12826.417709350586,
+        -4277.9008712768555
+      ],
+      "velocity_error_mps": 0.2312929892987126,
+      "velocity_delta_mps": [
+        -0.11635012427723268,
+        0.12308859747827228,
+        -0.15750648447044568
+      ],
+      "interpolation_interval_s": 60.0,
+      "center": "Earth",
+      "source": "Trajectory Reconstruction Supplement 1, Appendix A, A-8 (PDF 36), TRW postflight row.",
+      "position_informed_calibration": false
+    },
+    "post_second_midcourse_update": {
+      "get_seconds": 219996,
+      "get_hms": "61:06:36",
+      "label": "After MC2",
+      "position_error_m": 27668.824927681857,
+      "position_delta_m": [
+        -20163.48746395111,
+        12664.831329345703,
+        -14092.540351867676
+      ],
+      "velocity_error_mps": 0.9963717410691191,
+      "velocity_delta_mps": [
+        0.2821308417405817,
+        -0.6845530854898243,
+        0.6667427597553797
+      ],
+      "interpolation_interval_s": 60.0,
+      "center": "Moon",
+      "source": "Trajectory Reconstruction Supplement 1, Appendix A, A-9 (PDF 37), TRW postflight row.",
+      "position_informed_calibration": false
+    },
+    "lunar_rev1": {
+      "get_seconds": 250380,
+      "get_hms": "69:33:00",
+      "label": "Lunar Revolution 1",
+      "position_error_m": 91604.05320165616,
+      "position_delta_m": [
+        -51058.395493507385,
+        58288.951583862305,
+        -48854.28267669678
+      ],
+      "velocity_error_mps": 42.01598236131668,
+      "velocity_delta_mps": [
+        -11.774603125701105,
+        39.86526850733924,
+        6.120609598434669
+      ],
+      "interpolation_interval_s": 60.0,
+      "center": "Moon",
+      "source": "Trajectory Reconstruction Supplement 1, Appendix A, A-10 (PDF 38), TRW postflight row.",
+      "position_informed_calibration": true
+    },
+    "lunar_rev2": {
+      "get_seconds": 258024,
+      "get_hms": "71:40:24",
+      "label": "Lunar Revolution 2",
+      "position_error_m": 81208.82663821374,
+      "position_delta_m": [
+        -39698.36360836029,
+        53226.585189819336,
+        -46753.01145172119
+      ],
+      "velocity_error_mps": 36.44539511847291,
+      "velocity_delta_mps": [
+        -15.068787302749115,
+        33.125254180697084,
+        -1.9788911112859466
+      ],
+      "interpolation_interval_s": 60.0,
+      "center": "Moon",
+      "source": "Trajectory Reconstruction Supplement 1, Appendix A, A-11 (PDF 39), TRW postflight row.",
+      "position_informed_calibration": false
+    },
+    "lunar_rev3": {
+      "get_seconds": 265764,
+      "get_hms": "73:49:24",
+      "label": "Lunar Revolution 3",
+      "position_error_m": 73965.76553071644,
+      "position_delta_m": [
+        -26021.73362350464,
+        49172.559814453125,
+        -48742.82727813721
+      ],
+      "velocity_error_mps": 23.207348175897486,
+      "velocity_delta_mps": [
+        -11.469117453387298,
+        18.21552723924742,
+        -8.673806638032374
+      ],
+      "interpolation_interval_s": 60.0,
+      "center": "Moon",
+      "source": "Trajectory Reconstruction Supplement 1, Appendix A, A-12 (PDF 40), TRW postflight row.",
+      "position_informed_calibration": false
+    },
+    "lunar_rev4": {
+      "get_seconds": 272886,
+      "get_hms": "75:48:06",
+      "label": "Lunar Revolution 4",
+      "position_error_m": 73887.31237329292,
+      "position_delta_m": [
+        -20132.494627952576,
+        49925.19609069824,
+        -50611.1883392334
+      ],
+      "velocity_error_mps": 22.772899291266963,
+      "velocity_delta_mps": [
+        -11.996302537594602,
+        14.360505665806159,
+        -12.979581833750956
+      ],
+      "interpolation_interval_s": 60.0,
+      "center": "Moon",
+      "source": "Trajectory Reconstruction Supplement 1, Appendix A, A-13 (PDF 41), TRW postflight row.",
+      "position_informed_calibration": false
+    },
+    "lunar_rev5": {
+      "get_seconds": 279984,
+      "get_hms": "77:46:24",
+      "label": "Lunar Revolution 5",
+      "position_error_m": 72415.6511968737,
+      "position_delta_m": [
+        -13979.714913368225,
+        49733.64126586914,
+        -50746.024826049805
+      ],
+      "velocity_error_mps": 24.531818562946974,
+      "velocity_delta_mps": [
+        -12.608385239320341,
+        10.722358112750157,
+        -18.107174825581694
+      ],
+      "interpolation_interval_s": 60.0,
+      "center": "Moon",
+      "source": "Trajectory Reconstruction Supplement 1, Appendix A, A-14 (PDF 42), TRW postflight row.",
+      "position_informed_calibration": false
+    },
+    "lunar_rev6": {
+      "get_seconds": 287250,
+      "get_hms": "79:47:30",
+      "label": "Lunar Revolution 6",
+      "position_error_m": 74191.00987602325,
+      "position_delta_m": [
+        -9380.667863845825,
+        50807.25810241699,
+        -53244.07517242432
+      ],
+      "velocity_error_mps": 18.764005355275437,
+      "velocity_delta_mps": [
+        -11.713151925447164,
+        3.926001015418592,
+        -14.123614444296152
+      ],
+      "interpolation_interval_s": 60.0,
+      "center": "Moon",
+      "source": "Trajectory Reconstruction Supplement 1, Appendix A, A-15 (PDF 43), TRW postflight row.",
+      "position_informed_calibration": false
+    },
+    "lunar_rev7": {
+      "get_seconds": 294258,
+      "get_hms": "81:44:18",
+      "label": "Lunar Revolution 7",
+      "position_error_m": 72629.86280786271,
+      "position_delta_m": [
+        -1412.2235469818115,
+        50523.35885620117,
+        -52158.343589782715
+      ],
+      "velocity_error_mps": 27.677058348428886,
+      "velocity_delta_mps": [
+        -12.56228411936172,
+        1.3446696389835324,
+        -24.625199290336013
+      ],
+      "interpolation_interval_s": 60.0,
+      "center": "Moon",
+      "source": "Trajectory Reconstruction Supplement 1, Appendix A, A-16 (PDF 44), TRW postflight row.",
+      "position_informed_calibration": false
+    },
+    "lunar_rev8": {
+      "get_seconds": 301338,
+      "get_hms": "83:42:18",
+      "label": "Lunar Revolution 8",
+      "position_error_m": 73572.28527319129,
+      "position_delta_m": [
+        6387.553654670715,
+        51336.178649902344,
+        -52313.25912475586
+      ],
+      "velocity_error_mps": 33.91529402814125,
+      "velocity_delta_mps": [
+        -12.278088047729398,
+        -3.1683804817191685,
+        -31.455636824431622
+      ],
+      "interpolation_interval_s": 60.0,
+      "center": "Moon",
+      "source": "Trajectory Reconstruction Supplement 1, Appendix A, A-17 (PDF 45), TRW postflight row.",
+      "position_informed_calibration": false
+    },
+    "lunar_rev9": {
+      "get_seconds": 308454,
+      "get_hms": "85:40:54",
+      "label": "Lunar Revolution 9",
+      "position_error_m": 74405.83469058896,
+      "position_delta_m": [
+        14045.199125289917,
+        52186.566665649414,
+        -51142.18295288086
+      ],
+      "velocity_error_mps": 39.2540454135998,
+      "velocity_delta_mps": [
+        -11.664584345046023,
+        -7.689250322591306,
+        -36.6836882396903
+      ],
+      "interpolation_interval_s": 60.0,
+      "center": "Moon",
+      "source": "Trajectory Reconstruction Supplement 1, Appendix A, A-18 (PDF 46), TRW postflight row.",
+      "position_informed_calibration": false
+    },
+    "lunar_rev10": {
+      "get_seconds": 315564,
+      "get_hms": "87:39:24",
+      "label": "Lunar Revolution 10",
+      "position_error_m": 77646.93951031835,
+      "position_delta_m": [
+        22170.591188430786,
+        54124.33708190918,
+        -51069.24942779541
+      ],
+      "velocity_error_mps": 45.60847424193855,
+      "velocity_delta_mps": [
+        -10.70415864824463,
+        -13.786908845406515,
+        -42.136386351931435
+      ],
+      "interpolation_interval_s": 60.0,
+      "center": "Moon",
+      "source": "Trajectory Reconstruction Supplement 1, Appendix A, A-19 (PDF 47), TRW postflight row.",
+      "position_informed_calibration": true
+    },
+    "post_transearth_injection_update": {
+      "get_seconds": 323256,
+      "get_hms": "89:47:36",
+      "label": "After TEI",
+      "position_error_m": 46237.659350042726,
+      "position_delta_m": [
+        23011.017337799072,
+        40078.008224487305,
+        -1472.2363967895508
+      ],
+      "velocity_error_mps": 7.662807273102279,
+      "velocity_delta_mps": [
+        -4.192767443069897,
+        -4.3805253575096685,
+        -4.6851162275078195
+      ],
+      "interpolation_interval_s": 60.0,
+      "center": "Moon",
+      "source": "Trajectory Reconstruction Supplement 1, Appendix A, A-20 (PDF 48), TRW postflight row.",
+      "position_informed_calibration": false
+    },
+    "post_third_midcourse_nav_update": {
+      "get_seconds": 374784,
+      "get_hms": "104:06:24",
+      "label": "After MC3",
+      "position_error_m": 1201.0872829624561,
+      "position_delta_m": [
+        -144.31286430358887,
+        -1174.6432647705078,
+        204.9333038330078
+      ],
+      "velocity_error_mps": 0.5173687216295509,
+      "velocity_delta_mps": [
+        0.07729407401347999,
+        -0.44943745812906855,
+        -0.2443399097026031
+      ],
+      "interpolation_interval_s": 60.0,
+      "center": "Earth",
+      "source": "Trajectory Reconstruction Supplement 1, Appendix A, A-21 (PDF 49), TRW postflight row.",
+      "position_informed_calibration": true
+    },
+    "return_update_129h": {
+      "get_seconds": 465924,
+      "get_hms": "129:25:24",
+      "label": "Return (129 h)",
+      "position_error_m": 45634.05853046521,
+      "position_delta_m": [
+        9087.192613601685,
+        -35780.94970703125,
+        -26825.619590759277
+      ],
+      "velocity_error_mps": 0.48371546224316264,
+      "velocity_delta_mps": [
+        0.17711563544435194,
+        -0.3258604383445345,
+        -0.31052483767996364
+      ],
+      "interpolation_interval_s": 60.0,
+      "center": "Earth",
+      "source": "Trajectory Reconstruction Supplement 1, Appendix A, A-22 (PDF 50), TRW postflight row.",
+      "position_informed_calibration": false
+    },
+    "return_update_131h": {
+      "get_seconds": 473082,
+      "get_hms": "131:24:42",
+      "label": "Return (131 h)",
+      "position_error_m": 48914.9315684352,
+      "position_delta_m": [
+        10211.946338653564,
+        -38047.64025878906,
+        -28995.92649078369
+      ],
+      "velocity_error_mps": 0.456716278743169,
+      "velocity_delta_mps": [
+        0.16685310115281027,
+        -0.3062236184241556,
+        -0.2949184589406286
+      ],
+      "interpolation_interval_s": 60.0,
+      "center": "Earth",
+      "source": "Trajectory Reconstruction Supplement 1, Appendix A, A-23 (PDF 51), TRW postflight row.",
+      "position_informed_calibration": false
+    }
+  },
+  "rounded_maneuver_positions": [
+    {
+      "event_id": "first_midcourse_ignition",
+      "get_seconds": 39599.5,
+      "position_error_m": 14002.549886404837,
+      "radius_error_m": 230.59655965864658,
+      "speed_error_mps": -0.2604070399634111,
+      "flight_path_angle_error_deg": 0.04633121338304136,
+      "interpolation_interval_s": 0.0,
+      "note": "Rounded report coordinates. Lunar Cartesian velocity reconstructed from heading is excluded; use radius, speed and flight-path angle. Epoch is the table epoch, which may differ from the detailed actual firing schedule.",
+      "position_informed_calibration": false,
+      "position_earth_relative_j2000_m": [
+        85269734.25904572,
+        -59657078.37414551,
+        -2827902.4630737305
+      ],
+      "position_moon_relative_j2000_m": [
+        -107395008.20720196,
+        209700506.02450562,
+        144883010.2182083
+      ]
+    },
+    {
+      "event_id": "first_midcourse_cutoff",
+      "get_seconds": 39601.9,
+      "position_error_m": 11220.771130281852,
+      "radius_error_m": -135.72378008067608,
+      "speed_error_mps": 0.010475184519236791,
+      "flight_path_angle_error_deg": 0.002459832828179742,
+      "interpolation_interval_s": 0.0,
+      "note": "Rounded report coordinates. Lunar Cartesian velocity reconstructed from heading is excluded; use radius, speed and flight-path angle. Epoch is the table epoch, which may differ from the detailed actual firing schedule.",
+      "position_informed_calibration": false,
+      "position_earth_relative_j2000_m": [
+        85274380.62109339,
+        -59660230.60029602,
+        -2846225.1027679443
+      ],
+      "position_moon_relative_j2000_m": [
+        -107392631.07824445,
+        209696222.4372406,
+        144864097.84748077
+      ]
+    },
+    {
+      "event_id": "second_midcourse_ignition",
+      "get_seconds": 219595.0,
+      "position_error_m": 23617.838174006487,
+      "radius_error_m": 9682.217162929475,
+      "speed_error_mps": -0.1101696553560032,
+      "flight_path_angle_error_deg": -0.0208889101581633,
+      "interpolation_interval_s": 0.0,
+      "note": "Rounded report coordinates. Lunar Cartesian velocity reconstructed from heading is excluded; use radius, speed and flight-path angle. Epoch is the table epoch, which may differ from the detailed actual firing schedule.",
+      "position_informed_calibration": false,
+      "position_earth_relative_j2000_m": [
+        323619122.95575047,
+        -120968022.67919922,
+        -62540745.49648285
+      ],
+      "position_moon_relative_j2000_m": [
+        -6640788.840227127,
+        32449924.804656982,
+        23735445.671920776
+      ]
+    },
+    {
+      "event_id": "second_midcourse_cutoff",
+      "get_seconds": 219607.8,
+      "position_error_m": 25503.184183219775,
+      "radius_error_m": 3571.047409147024,
+      "speed_error_mps": -0.06297910276816765,
+      "flight_path_angle_error_deg": -0.017262962488615585,
+      "interpolation_interval_s": 0.0,
+      "note": "Rounded report coordinates. Lunar Cartesian velocity reconstructed from heading is excluded; use radius, speed and flight-path angle. Epoch is the table epoch, which may differ from the detailed actual firing schedule.",
+      "position_informed_calibration": false,
+      "position_earth_relative_j2000_m": [
+        323633308.9219656,
+        -120964947.222229,
+        -62540738.95161438
+      ],
+      "position_moon_relative_j2000_m": [
+        -6633717.25073719,
+        32442966.400268555,
+        23730085.367591858
+      ]
+    },
+    {
+      "event_id": "lunar_orbit_insertion_ignition",
+      "get_seconds": 248900.4,
+      "position_error_m": 17819.109740401804,
+      "radius_error_m": -11946.47050756216,
+      "speed_error_mps": 6.802141219397527,
+      "flight_path_angle_error_deg": 0.18913598474786486,
+      "interpolation_interval_s": 0.0,
+      "note": "Rounded report coordinates. Lunar Cartesian velocity reconstructed from heading is excluded; use radius, speed and flight-path angle. Epoch is the table epoch, which may differ from the detailed actual firing schedule.",
+      "position_informed_calibration": true,
+      "position_earth_relative_j2000_m": [
+        347241464.58098507,
+        -130328312.40419006,
+        -74123250.98147583
+      ],
+      "position_moon_relative_j2000_m": [
+        1801135.5514612198,
+        -355061.27223205566,
+        -401847.1222076416
+      ]
+    },
+    {
+      "event_id": "lunar_orbit_insertion_cutoff",
+      "get_seconds": 249147.3,
+      "position_error_m": 25241.756594507937,
+      "radius_error_m": -13019.665045805508,
+      "speed_error_mps": 15.051107334929611,
+      "flight_path_angle_error_deg": -0.323645178973172,
+      "interpolation_interval_s": 0.0,
+      "note": "Rounded report coordinates. Lunar Cartesian velocity reconstructed from heading is excluded; use radius, speed and flight-path angle. Epoch is the table epoch, which may differ from the detailed actual firing schedule.",
+      "position_informed_calibration": false,
+      "position_earth_relative_j2000_m": [
+        347117997.11497307,
+        -130534636.5496521,
+        -74259789.98937225
+      ],
+      "position_moon_relative_j2000_m": [
+        1559277.1267375946,
+        -762683.3473358154,
+        -646305.0263061523
+      ]
+    },
+    {
+      "event_id": "lunar_orbit_circularization_ignition",
+      "get_seconds": 264907.0,
+      "position_error_m": 39844.170492162404,
+      "radius_error_m": -14403.534912256757,
+      "speed_error_mps": 12.452081659688929,
+      "flight_path_angle_error_deg": -0.2086147224804003,
+      "interpolation_interval_s": 0.0,
+      "note": "Rounded report coordinates. Lunar Cartesian velocity reconstructed from heading is excluded; use radius, speed and flight-path angle. Epoch is the table epoch, which may differ from the detailed actual firing schedule.",
+      "position_informed_calibration": false,
+      "position_earth_relative_j2000_m": [
+        353989704.9915514,
+        -117918796.51635742,
+        -67503775.28669739
+      ],
+      "position_moon_relative_j2000_m": [
+        1206869.2703323364,
+        -1113524.3910217285,
+        -846032.5596008301
+      ]
+    },
+    {
+      "event_id": "lunar_orbit_circularization_cutoff",
+      "get_seconds": 264916.0,
+      "position_error_m": 40944.39120243236,
+      "radius_error_m": -17031.913798108697,
+      "speed_error_mps": 15.131930635169283,
+      "flight_path_angle_error_deg": -0.018595250230278585,
+      "interpolation_interval_s": 0.0,
+      "note": "Rounded report coordinates. Lunar Cartesian velocity reconstructed from heading is excluded; use radius, speed and flight-path angle. Epoch is the table epoch, which may differ from the detailed actual firing schedule.",
+      "position_informed_calibration": false,
+      "position_earth_relative_j2000_m": [
+        353983324.39068604,
+        -117921768.50366211,
+        -67506256.5232315
+      ],
+      "position_moon_relative_j2000_m": [
+        1196551.1162080765,
+        -1123965.0786895752,
+        -852522.5245819092
+      ]
+    },
+    {
+      "event_id": "transearth_injection_ignition",
+      "get_seconds": 321556.6,
+      "position_error_m": 37154.79458976262,
+      "radius_error_m": -14054.651211117394,
+      "speed_error_mps": 14.4694687809274,
+      "flight_path_angle_error_deg": -0.21165822741045345,
+      "interpolation_interval_s": 0.0,
+      "note": "Rounded report coordinates. Lunar Cartesian velocity reconstructed from heading is excluded; use radius, speed and flight-path angle. Epoch is the table epoch, which may differ from the detailed actual firing schedule.",
+      "position_informed_calibration": false,
+      "position_earth_relative_j2000_m": [
+        374911666.35484123,
+        -69218349.7039032,
+        -41301897.131248474
+      ],
+      "position_moon_relative_j2000_m": [
+        1653461.666978836,
+        -607373.7302398682,
+        -561754.1027145386
+      ]
+    },
+    {
+      "event_id": "transearth_injection_cutoff",
+      "get_seconds": 321760.3,
+      "position_error_m": 64989.64324652577,
+      "radius_error_m": -19607.355152511736,
+      "speed_error_mps": 10.908187688120961,
+      "flight_path_angle_error_deg": -1.1026477444395866,
+      "interpolation_interval_s": 0.0,
+      "note": "Rounded report coordinates. Lunar Cartesian velocity reconstructed from heading is excluded; use radius, speed and flight-path angle. Epoch is the table epoch, which may differ from the detailed actual firing schedule.",
+      "position_informed_calibration": false,
+      "position_earth_relative_j2000_m": [
+        374722197.8671074,
+        -69380367.6980133,
+        -41410771.39382172
+      ],
+      "position_moon_relative_j2000_m": [
+        1406045.4506587982,
+        -946233.9245452881,
+        -765902.2154693604
+      ]
+    },
+    {
+      "event_id": "third_midcourse_ignition",
+      "get_seconds": 374394.0,
+      "position_error_m": 59910.100592550334,
+      "radius_error_m": 1716.8655157089233,
+      "speed_error_mps": 0.06323894477668546,
+      "flight_path_angle_error_deg": 0.02724431091873214,
+      "interpolation_interval_s": 0.0,
+      "note": "Rounded report coordinates. Lunar Cartesian velocity reconstructed from heading is excluded; use radius, speed and flight-path angle. Epoch is the table epoch, which may differ from the detailed actual firing schedule.",
+      "position_informed_calibration": false,
+      "position_earth_relative_j2000_m": [
+        310726909.02830887,
+        -53178209.72740173,
+        -30346581.927108765
+      ],
+      "position_moon_relative_j2000_m": [
+        -73768893.48679161,
+        -30958881.260543823,
+        -14639326.75920105
+      ]
+    },
+    {
+      "event_id": "third_midcourse_cutoff",
+      "get_seconds": 374408.0,
+      "position_error_m": 49813.49854631917,
+      "radius_error_m": 1213.9053179621696,
+      "speed_error_mps": 0.14229111284475948,
+      "flight_path_angle_error_deg": 0.008640899460942819,
+      "interpolation_interval_s": 0.0,
+      "note": "Rounded report coordinates. Lunar Cartesian velocity reconstructed from heading is excluded; use radius, speed and flight-path angle. Epoch is the table epoch, which may differ from the detailed actual firing schedule.",
+      "position_informed_calibration": false,
+      "position_earth_relative_j2000_m": [
+        310708248.35406494,
+        -53183425.12258911,
+        -30344899.427749634
+      ],
+      "position_moon_relative_j2000_m": [
+        -73789522.30833817,
+        -30976485.825302124,
+        -14644339.630142212
+      ]
+    }
+  ],
+  "initialization_state": "Excluded from residual statistics; used to initialize propagation.",
+  "lunar_table_velocity": "No vector residual: the rounded heading conversion is not a precision velocity reference. Direct TRW states provide lunar vector velocity comparisons.",
+  "source_counts": {
+    "distinct_TRW_states_including_initial": 19,
+    "TRW_comparisons_after_initial": 18,
+    "rounded_maneuver_positions": 12
+  }
+}

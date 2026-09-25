@@ -1,0 +1,27 @@
+{
+  "direction": [
+    0.7483245310663217,
+    0.45707015319364197,
+    0.4807257755351907
+  ],
+  "target_mode": "circularize_moon",
+  "target_mode_id": 5,
+  "target_body_naif_id": 301,
+  "radial_bias": 0.0,
+  "normal_bias": 0.0,
+  "circularization_stop_mps": 0.25,
+  "target_mass": 21190.02115692,
+  "burn_start": 60.0,
+  "burn_end": 69.6,
+  "throttle": 0.9890337273605411,
+  "use_sps": true,
+  "sps_maximum_thrust_n": 91180.3626873533,
+  "main_required_thrust_n": 90180.45397075904,
+  "main_target_delta_v_mps": 41.13000000000001,
+  "ullage_enabled": false,
+  "ullage_start": -1.0,
+  "ullage_end": -1.0,
+  "ullage_throttle": 0.0,
+  "ullage_target_delta_v_mps": 0.0,
+  "total_target_delta_v_mps": 41.13000000000001
+}

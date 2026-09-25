@@ -1,0 +1,91 @@
+format = "TGSCN"
+generator = "Current PHAROS independent verification campaign"
+[scenario]
+name = "cm_shared_rk4"
+start_utc = "2030-01-01T00:00:00Z"
+end_mode = "duration"
+duration_seconds = 2.0
+integrator = "fixed_step_rk4"
+maximum_integrator_step_seconds = 0.02
+initial_integrator_step_seconds = 0.01
+absolute_tolerance = 1e-12
+relative_tolerance = 1e-12
+output_mode = "fixed_interval"
+output_step_seconds = 0.01
+maximum_integration_steps = 100000
+maximum_output_samples = 1000
+[initial_state]
+position_icrf_m = [0.0,0.0,0.0]
+velocity_icrf_mps = [0.0,0.0,0.0]
+attitude_body_to_icrf = [1.0,0.0,0.0,0.0]
+angular_velocity_body_radps = [0.0,0.0,0.0]
+
+[[components]]
+id = "f13f291d-330f-5984-a509-78fc0b3fcbfd"
+name = "Hub"
+initial_mass_kg = 10.0
+minimum_mass_kg = 10.0
+variable_mass = false
+local_center_of_mass_m = [0.0,0.0,0.0]
+origin_body_m = [0.0,0.0,0.0]
+component_to_body = [1.0,0.0,0.0,0.0]
+parent_component = ""
+parent_anchor_m = [0.0,0.0,0.0]
+child_anchor_m = [0.0,0.0,0.0]
+child_to_parent_zero_orientation = [1.0,0.0,0.0,0.0]
+dofs = []
+inertia = {ixx_kgm2=2.0,iyy_kgm2=2.0,izz_kgm2=2.0,ixy_kgm2=0.0,ixz_kgm2=0.0,iyz_kgm2=0.0}
+
+[[components]]
+id = "94b36f06-0d08-5e5f-bfdf-8b5ee97e9540"
+name = "Tank"
+initial_mass_kg = 5.0
+minimum_mass_kg = 1.0
+variable_mass = true
+local_center_of_mass_m = [0.0,0.0,0.0]
+origin_body_m = [3.0,0.0,0.0]
+component_to_body = [1.0,0.0,0.0,0.0]
+parent_component = "Hub"
+parent_anchor_m = [3.0,0.0,0.0]
+child_anchor_m = [0.0,0.0,0.0]
+child_to_parent_zero_orientation = [1.0,0.0,0.0,0.0]
+dofs = []
+inertia = {ixx_kgm2=1.0,iyy_kgm2=1.0,izz_kgm2=1.0,ixy_kgm2=0.0,ixz_kgm2=0.0,iyz_kgm2=0.0}
+
+[[thrusters]]
+name = "shared_0"
+mode = "commanded"
+mount_component = "Hub"
+propellant_component = "Tank"
+application_point_component_m = [0.0,0.0,0.0]
+direction_component = [1.0,0.0,0.0]
+ignition_time_mode = "elapsed"
+ignition_elapsed_seconds = 0.0
+never_shuts_down = true
+maximum_thrust_n = 98.066499999999991
+
+[[thrusters]]
+name = "shared_1"
+mode = "commanded"
+mount_component = "Tank"
+propellant_component = "Tank"
+application_point_component_m = [0.0,0.0,0.0]
+direction_component = [1.0,0.0,0.0]
+ignition_time_mode = "elapsed"
+ignition_elapsed_seconds = 0.0
+never_shuts_down = true
+maximum_thrust_n = 98.066499999999991
+
+[control]
+mode="compiled_user_controller"
+controller_dll_file="../controllers/DischargeController.dll"
+
+[gravity]
+include_first_post_newtonian_correction = false
+bodies = []
+[srp]
+enabled = false
+[atmosphere]
+enabled = false
+[aerodynamics]
+enabled = false

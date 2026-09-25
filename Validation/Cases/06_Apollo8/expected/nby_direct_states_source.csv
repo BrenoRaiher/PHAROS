@@ -1,0 +1,4 @@
+event_id,get_seconds,frame,position_x_ft,position_y_ft,position_z_ft,velocity_x_ftps,velocity_y_ftps,velocity_z_ftps,source
+post_first_midcourse_nav_update,42936.0,ECI_mean_NBY_1969,302856684.3223112,-207062264.0205958,-14791619.40250795,7199.390525999047,-2702.256513112469,-1381.832057196297,Trajectory reconstruction supplement Appendix A page A-4 TRW row
+pre_second_midcourse_nav_update,143808.0,ECI_mean_NBY_1969,809570903.8172642,-352539379.4565915,-134072530.7381011,3779.060108575510,-839.0720820831634,-1029.237566792482,Trajectory reconstruction supplement Appendix A page A-8 TRW row
+post_third_midcourse_nav_update,374784.0,ECI_mean_NBY_1969,1016315367.211594,-181219326.64817876,-102271382.47798749,-4018.871086836336,1284.904495108059,843.4695804246686,Trajectory reconstruction supplement Appendix A page A-21 TRW row (GWMX777)

@@ -1,0 +1,206 @@
+{
+  "initial_state": {
+    "event_id": "initial_state",
+    "get_seconds": 17154.0,
+    "center": "Earth",
+    "position_ft": [
+      70090239.57641882,
+      -97916761.70088618,
+      19864818.77708617
+    ],
+    "velocity_ftps": [
+      12398.09975833132,
+      -7792.260382112903,
+      -923.3343697822593
+    ],
+    "source": "Trajectory supplement Appendix A, page A-3, TRW row.",
+    "utc": "1968-12-21T17:36:54.000Z",
+    "et": -979150944.8163517,
+    "position_relative_j2000_m": [
+      21551552.82162121,
+      -29696272.305482406,
+      6119448.247190806
+    ],
+    "position_icrf_m": [
+      -298632826.09281206,
+      134942588641.47067,
+      58526575674.23046
+    ],
+    "conversion": "Mean NBY B1969.0 to J2000 rotation, then DE442 center translation at the stated mission epoch.",
+    "velocity_relative_j2000_mps": [
+      3796.1460610784097,
+      -2348.82340562588,
+      -270.0204551074927
+    ],
+    "velocity_icrf_mps": [
+      -26487.222938884777,
+      -2627.1612161096427,
+      -391.39450934054736
+    ]
+  },
+  "post_first_midcourse_nav_update": {
+    "event_id": "post_first_midcourse_nav_update",
+    "get_seconds": 42936.0,
+    "center": "Earth",
+    "position_ft": [
+      302856684.3223112,
+      -207062264.0205958,
+      -14791619.40250795
+    ],
+    "velocity_ftps": [
+      7199.390525999047,
+      -2702.256513112469,
+      -1381.832057196297
+    ],
+    "source": "Trajectory reconstruction supplement Appendix A page A-4 TRW row",
+    "utc": "1968-12-22T00:46:36.000Z",
+    "et": -979125162.8163432,
+    "position_relative_j2000_m": [
+      92759192.59653218,
+      -62471069.38484997,
+      -4229677.961730914
+    ],
+    "position_icrf_m": [
+      -1008167749.8552629,
+      134900759612.93141,
+      58512281771.414314
+    ],
+    "conversion": "Mean NBY B1969.0 to J2000 rotation, then DE442 center translation at the stated mission epoch.",
+    "velocity_relative_j2000_mps": [
+      2201.2904912581316,
+      -808.4110719963685,
+      -414.56034625049153
+    ],
+    "velocity_icrf_mps": [
+      -28080.124581101216,
+      -1232.4349977015916,
+      -599.1929247122566
+    ]
+  },
+  "pre_second_midcourse_nav_update": {
+    "event_id": "pre_second_midcourse_nav_update",
+    "get_seconds": 143808.0,
+    "center": "Earth",
+    "position_ft": [
+      809570903.8172642,
+      -352539379.4565915,
+      -134072530.7381011
+    ],
+    "velocity_ftps": [
+      3779.06010857551,
+      -839.0720820831634,
+      -1029.237566792482
+    ],
+    "source": "Trajectory reconstruction supplement Appendix A page A-8 TRW row",
+    "utc": "1968-12-23T04:47:48.000Z",
+    "et": -979024290.8163099,
+    "position_relative_j2000_m": [
+      247618213.1435048,
+      -105740347.01373573,
+      -40120531.26260209
+    ],
+    "position_icrf_m": [
+      -3907151885.718928,
+      134785987235.87851,
+      58445292798.33826
+    ],
+    "conversion": "Mean NBY B1969.0 to J2000 rotation, then DE442 center translation at the stated mission epoch.",
+    "velocity_relative_j2000_mps": [
+      1154.542796228655,
+      -247.75448436205252,
+      -310.237020359127
+    ],
+    "velocity_icrf_mps": [
+      -29110.656395192134,
+      -1241.2807134011632,
+      -742.1136679121573
+    ]
+  },
+  "post_third_midcourse_nav_update": {
+    "event_id": "post_third_midcourse_nav_update",
+    "get_seconds": 374784.0,
+    "center": "Earth",
+    "position_ft": [
+      1016315367.211594,
+      -181219326.64817876,
+      -102271382.47798748
+    ],
+    "velocity_ftps": [
+      -4018.871086836336,
+      1284.904495108059,
+      843.4695804246686
+    ],
+    "source": "Trajectory reconstruction supplement Appendix A page A-21 TRW row (GWMX777)",
+    "utc": "1968-12-25T20:57:24.000Z",
+    "et": -978793314.8162336,
+    "position_relative_j2000_m": [
+      310240916.4714307,
+      -53086493.89965585,
+      -30238267.081088103
+    ],
+    "position_icrf_m": [
+      -10826316460.282955,
+      134458942002.63622,
+      58290232666.727165
+    ],
+    "conversion": "Mean NBY B1969.0 to J2000 rotation, then DE442 center translation at the stated mission epoch.",
+    "velocity_relative_j2000_mps": [
+      -1228.406551225036,
+      383.1348021935277,
+      253.39354586433953
+    ],
+    "velocity_icrf_mps": [
+      -31406.45029173826,
+      -1909.8809420145303,
+      -742.3379859445398
+    ]
+  },
+  "lunar_rev1": {
+    "event_id": "lunar_rev1",
+    "get_seconds": 250380.0,
+    "center": "Moon",
+    "position_ft": [
+      -650479.0,
+      -5146879.0,
+      -3323495.0
+    ],
+    "source": "Trajectory supplement Appendix A, page A-10 (PDF 38), TRW MCI row at GET 2 d 21 h 32 min 60 s; positions transcribed to the nearest foot. Velocity not transcribed.",
+    "utc": "1968-12-24T10:24:00.000Z",
+    "et": -978917718.8162748,
+    "position_relative_j2000_m": [
+      -184332.70216579497,
+      -1570094.922365623,
+      -1013577.6613712223
+    ],
+    "position_icrf_m": [
+      -7032671979.802242,
+      134623498549.65382,
+      58351406110.7055
+    ],
+    "conversion": "Mean NBY B1969.0 to J2000 rotation, then DE442 center translation at the stated mission epoch."
+  },
+  "lunar_rev9": {
+    "event_id": "lunar_rev9",
+    "get_seconds": 315564.0,
+    "center": "Moon",
+    "position_ft": [
+      481271.0,
+      -5029112.0,
+      -3374147.0
+    ],
+    "source": "Trajectory supplement Appendix A, page A-19 (PDF 47), TRW MCI row at GET 3 d 15 h 39 min 24 s; positions transcribed to the nearest foot. Velocity not transcribed.",
+    "utc": "1968-12-25T04:30:24.000Z",
+    "et": -978852534.8162532,
+    "position_relative_j2000_m": [
+      160412.51377597413,
+      -1531808.8213848895,
+      -1027977.3545480787
+    ],
+    "position_icrf_m": [
+      -8976874356.982063,
+      134562643940.79349,
+      58330604129.89201
+    ],
+    "conversion": "Mean NBY B1969.0 to J2000 rotation, then DE442 center translation at the stated mission epoch."
+  }
+}

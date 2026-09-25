@@ -1,0 +1,81 @@
+{
+  "continuity": {
+    "position_discontinuity_m": 0.0,
+    "velocity_discontinuity_mps": 0.0,
+    "quaternion_component_max_discontinuity": 0.0,
+    "angular_velocity_discontinuity_radps": 0.0,
+    "mass_discontinuity_kg": 0.0,
+    "inertia_component_max_discontinuity_kgm2": 0.0
+  },
+  "checkpoint_comparisons": [
+    {
+      "event_id": "third_midcourse_ignition",
+      "event_get_seconds": 374394.0,
+      "actual_sample_get_seconds": 374394.0,
+      "sample_time_error_seconds": 0.0,
+      "position_delta_icrf_m": [
+        -7337.570100784302,
+        -58643.73890686035,
+        9812.8540725708
+      ],
+      "position_error_m": 59910.100592550334,
+      "velocity_delta_icrf_mps": [
+        0.19807475412380882,
+        0.2461033230231351,
+        0.9129917119413449
+      ],
+      "velocity_error_mps": 0.9661026445972625,
+      "relative_radius_error_m": 1716.8655157089233,
+      "relative_speed_error_mps": 0.06323894477645808,
+      "table_position_quantization_half_step_m": 38989.867564578155,
+      "table_velocity_quantization_half_step_mps": 0.22220899066547312,
+      "position_error_over_quantization": 1.5365556318785234,
+      "velocity_error_over_quantization": 4.3477207727012805,
+      "source_note": "NASA Table 5-II converted with ITRF93; ignition altitude corrected from the internally inconsistent printed 165,561.5 nmi to 167,561.5 nmi"
+    },
+    {
+      "event_id": "third_midcourse_cutoff",
+      "event_get_seconds": 374408.0,
+      "actual_sample_get_seconds": 374408.0,
+      "sample_time_error_seconds": 0.0,
+      "position_delta_icrf_m": [
+        -5856.643747329712,
+        -48067.5983581543,
+        11687.187408447266
+      ],
+      "position_error_m": 49813.49854631917,
+      "velocity_delta_icrf_mps": [
+        -0.030057758711336646,
+        0.11544190112681463,
+        0.4158686256408828
+      ],
+      "velocity_error_mps": 0.43263959040633215,
+      "relative_radius_error_m": 1213.9053179621696,
+      "relative_speed_error_mps": 0.14229111284521423,
+      "table_position_quantization_half_step_m": 38987.70154024986,
+      "table_velocity_quantization_half_step_mps": 0.22218161676269899,
+      "position_error_over_quantization": 1.277672101159722,
+      "velocity_error_over_quantization": 1.9472339643131356,
+      "source_note": "NASA Table 5-II converted with ITRF93 or MOON_ME_DE421"
+    }
+  ],
+  "burn_execution": {
+    "burn_start_alignment_error_deg": 4.550125664921913e-06,
+    "target_mode": "fixed_icrf",
+    "burn_start_mass_kg": 14518.694395346776,
+    "burn_end_mass_kg": 14511.123207456261,
+    "target_preburn_mass_kg": 14518.58457896,
+    "integrated_thrust_acceleration_delta_v_icrf_mps": [
+      0.06263211654916227,
+      -0.6917010406286157,
+      -1.3050082846333761
+    ],
+    "integrated_thrust_delta_v_mps": 1.4783165204352837,
+    "target_total_delta_v_mps": 1.4783302754337408,
+    "delta_v_error_mps": -1.3754998457127243e-05,
+    "main_command_throttle": 0.8036579136917186,
+    "main_required_thrust_n": 1430.5110863712591,
+    "sps_maximum_thrust_n": 91180.3626873533,
+    "ullage_command_throttle": 0.0
+  }
+}

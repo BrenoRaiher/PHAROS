@@ -1,0 +1,86 @@
+format = "TGSCN"
+generator = "Fourth-update backend scheduler edge audit"
+
+[scenario]
+name = "Prescribed firing window spans a 1e9 s fixed output"
+start_utc = "2030-01-01T00:00:00Z"
+end_mode = "duration"
+duration_seconds = 1000000000.001
+integrator = "fixed_step_rk4"
+maximum_integrator_step_seconds = 1000000000
+initial_integrator_step_seconds = 1000000000
+absolute_tolerance = 1e-12
+relative_tolerance = 1e-12
+output_mode = "fixed_interval"
+output_step_seconds = 1000000000
+maximum_integration_steps = 100
+maximum_output_samples = 100
+
+[initial_state]
+position_icrf_m = [0, 0, 0]
+velocity_icrf_mps = [0, 0, 0]
+attitude_body_to_icrf = [1, 0, 0, 0]
+angular_velocity_body_radps = [0, 0, 0]
+
+[[components]]
+id = "11111111-1111-1111-1111-111111111111"
+name = "Bus"
+initial_mass_kg = 100
+minimum_mass_kg = 100
+variable_mass = false
+local_center_of_mass_m = [0, 0, 0]
+origin_body_m = [0, 0, 0]
+component_to_body = [1, 0, 0, 0]
+parent_component = ""
+parent_anchor_m = [0, 0, 0]
+child_anchor_m = [0, 0, 0]
+child_to_parent_zero_orientation = [1, 0, 0, 0]
+dofs = []
+inertia = { ixx_kgm2 = 100, iyy_kgm2 = 100, izz_kgm2 = 100, ixy_kgm2 = 0, ixz_kgm2 = 0, iyz_kgm2 = 0 }
+
+[[components]]
+id = "22222222-2222-2222-2222-222222222222"
+name = "Tank"
+initial_mass_kg = 10
+minimum_mass_kg = 1
+variable_mass = true
+local_center_of_mass_m = [0, 0, 0]
+origin_body_m = [0, 0, 0]
+component_to_body = [1, 0, 0, 0]
+parent_component = "Bus"
+parent_anchor_m = [0, 0, 0]
+child_anchor_m = [0, 0, 0]
+child_to_parent_zero_orientation = [1, 0, 0, 0]
+dofs = []
+inertia = { ixx_kgm2 = 10, iyy_kgm2 = 10, izz_kgm2 = 10, ixy_kgm2 = 0, ixz_kgm2 = 0, iyz_kgm2 = 0 }
+
+[[thrusters]]
+name = "Spanning Prescribed Thruster"
+mode = "prescribed_profile"
+mount_component = "Bus"
+propellant_component = "Tank"
+application_point_component_m = [0, 0, 0]
+direction_component = [1, 0, 0]
+ignition_time_mode = "elapsed"
+ignition_elapsed_seconds = 999999999.99999
+never_shuts_down = false
+shutdown_time_mode = "elapsed"
+shutdown_elapsed_seconds = 1000000000.00001
+prescribed_thrust = { source = "constant", constant_value = 9806.65, csv_file = "" }
+prescribed_specific_impulse = { source = "constant", constant_value = 1000, csv_file = "" }
+
+[control]
+mode = "none"
+
+[gravity]
+include_first_post_newtonian_correction = false
+bodies = []
+
+[srp]
+enabled = false
+
+[atmosphere]
+enabled = false
+
+[aerodynamics]
+enabled = false

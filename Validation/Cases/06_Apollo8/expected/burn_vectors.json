@@ -1,0 +1,50 @@
+{
+  "first_midcourse": {
+    "controller_target_direction_icrf_unit": [
+      -0.3556811307328395,
+      0.9286997601292293,
+      -0.10491753321785983
+    ],
+    "direction_source": "Inherited reconstruction direction; see archived legacy source and controller_tuning.json."
+  },
+  "second_midcourse": {
+    "controller_target_direction_icrf_unit": [
+      0.240346525558557,
+      -0.32725148395261155,
+      -0.9138599531124796
+    ],
+    "direction_source": "Retuned fixed ICRF direction; target magnitude is in controller_tuning.json."
+  },
+  "lunar_orbit_insertion": {
+    "controller_target_direction_icrf_unit": [
+      0.44539360538651157,
+      0.39189638252813414,
+      0.8050104108905467
+    ],
+    "direction_source": "Inherited fallback vector; the executed controller uses its live Moon-relative direction law."
+  },
+  "lunar_orbit_circularization": {
+    "controller_target_direction_icrf_unit": [
+      0.7483245310663217,
+      0.45707015319364197,
+      0.4807257755351907
+    ],
+    "direction_source": "Inherited fallback vector; the executed controller uses its live Moon-relative direction law."
+  },
+  "transearth_injection": {
+    "controller_target_direction_icrf_unit": [
+      -0.5439907566621103,
+      -0.7267337774750086,
+      -0.41944257454756495
+    ],
+    "direction_source": "Retuned fixed ICRF direction; target magnitude is in controller_tuning.json."
+  },
+  "third_midcourse": {
+    "controller_target_direction_icrf_unit": [
+      0.04236717432479,
+      -0.4678977950373229,
+      -0.8827664900407947
+    ],
+    "direction_source": "Inherited reconstruction direction; see archived legacy source and controller_tuning.json."
+  }
+}
