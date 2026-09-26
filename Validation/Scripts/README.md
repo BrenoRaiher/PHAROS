@@ -11,7 +11,6 @@ Run these from the repository root as described in the
 | `audit_campaign.py` | Inspect existing output integrity, timing, and physical tails |
 | `build_verification.py` | Rebuild native harnesses from the captured assessment source |
 | `build_controllers.py` | Rebuild Case 1–4 controller fixtures |
-| `make_plots.py`, `verification_figures.py` | Generate figures from recorded results |
 
 Mission-specific scripts stay inside each case. Their local paths are relative
 to that case; the shared runtime is in `Validation/Support/Runtime` and kernels

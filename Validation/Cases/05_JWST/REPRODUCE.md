@@ -10,7 +10,6 @@ python analysis/run_continuous_chain.py
 python analysis/sync_visual_variants.py
 python analysis/analyze_continuous_chain.py
 python analysis/inspect_reference.py
-python analysis/plot_current.py
 ```
 
 Only phase A reads the external initial state. Later phases start from the

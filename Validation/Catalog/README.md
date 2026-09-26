@@ -9,5 +9,5 @@
   for the separately distributed records and frozen tools.
 
 Per-case analysis folders contain the compact numerical summaries. Full state
-histories and generated plot sets are supplied by the optional bundle; see
+histories and frozen executables are supplied by the optional bundle; see
 the [reproduction guide](../../Docs/GettingStarted/Reproduce.md).

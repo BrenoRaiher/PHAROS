@@ -3,16 +3,17 @@
 The main repository contains inputs, controller sources, reference data, and
 compact results. Ordinary development does not require the full recorded
 histories. To analyze those histories or use the exact frozen executables,
-obtain the matching **PHAROS Reproducibility Bundle** distributed alongside this
-source snapshot. No public download URL is assumed by the tools.
+download the [PHAROS Reproducibility Bundle ZIP](https://github.com/BrenoRaiher/PHAROS/raw/refs/heads/main/PHAROS-Reproducibility-Bundle.zip)
+from the repository root. The ZIP is stored with Git LFS.
 
 ## Install the optional evidence
 
 Use Windows x64 and Python 3.11 or newer. Work on a copy: rerunning a case writes
-results and analyses into that copy. From the repository root, with the bundle
-beside the checkout:
+results and analyses into that copy. With the downloaded ZIP in the repository
+root, extract the bundle beside the checkout and restore its files:
 
 ```powershell
+Expand-Archive -LiteralPath ./PHAROS-Reproducibility-Bundle.zip -DestinationPath ..
 python Tools/Repository/install_evidence.py --bundle '../PHAROS Reproducibility Bundle' --check-only
 python Tools/Repository/install_evidence.py --bundle '../PHAROS Reproducibility Bundle'
 python Tools/Repository/check_repository.py --verify-evidence
@@ -53,7 +54,6 @@ python Validation/Cases/04_EarthOrbit/analyze_campaign.py
 python Validation/Cases/01-03_CoreVerification/analysis/analyze_cases_01_03.py
 python Validation/Scripts/additional_features.py --analyze-only
 python Validation/Scripts/audit_campaign.py --records runs_all.json
-python Validation/Scripts/make_plots.py
 python Validation/Cases/01-03_CoreVerification/cases/01_backend_verification/visual_independence/verify.py
 ```
 

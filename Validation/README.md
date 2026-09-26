@@ -25,9 +25,10 @@ inspect existing histories and are not additional mission cases.
 
 ## Optional recorded evidence
 
-The **PHAROS Reproducibility Bundle** contains full histories, frozen runners and
-controller DLLs, diagnostic outputs, generated plots, and captured source. It
-can be restored into these case directories for analysis or reproduction.
+The [PHAROS Reproducibility Bundle](../PHAROS-Reproducibility-Bundle.zip) in the
+repository root contains full histories, frozen runners and controller DLLs,
+diagnostic outputs, and captured source. Extract it and restore its files into
+these case directories for analysis or reproduction.
 The [evidence index](Catalog/evidence_manifest.csv) records every optional file
 and its SHA-256. Installed evidence is excluded from Git.
 

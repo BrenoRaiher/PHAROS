@@ -2,7 +2,7 @@
 
 Follow the [shared instructions](../../../Docs/GettingStarted/Reproduce.md) and use a working copy. The
 frozen runner and SDK are installed under `Validation/Support/Runtime`.
-Use Python 3.11 or newer with NumPy; plotting also requires Matplotlib.
+Use Python 3.11 or newer with NumPy.
 
 From `Validation/Cases/06_Apollo8`:
 
@@ -11,7 +11,6 @@ python tools/continuous_chain.py run-all
 python tools/check_run.py
 python tools/prepare_reference.py
 python tools/sync_visual_variants.py
-python tools/plot_results.py
 ```
 
 The first command compiles the supplied controller sources and propagates all

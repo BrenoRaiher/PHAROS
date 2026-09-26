@@ -12,4 +12,4 @@ The main mission statistics use the original stored output cadence, including on
 
 No reference node was edited, smoothed, shifted, or removed from the nominal comparison. The diagnostic samples were not used for controller fitting. The case retains the original SPK for provenance and documents why exact matching of this local feature would not be a sensible reconstruction objective. A complete survey of every reference interpolation interval is outside this rerun.
 
-Reproduce with `analysis/SpkInventory.exe` and `analysis/inspect_reference.py`; retained results are in `analysis/reference_continuity_audit.json`, `truth/reference_audit/`, and [the reference figure](figures/04_reference_transition.png).
+Reproduce with `analysis/SpkInventory.exe` and `analysis/inspect_reference.py`; retained results are in `analysis/reference_continuity_audit.json` and `truth/reference_audit/`.

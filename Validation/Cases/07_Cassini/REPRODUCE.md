@@ -12,7 +12,6 @@ python tools/reference.py --dense
 python tools/audit.py
 python tools/sync_visuals.py
 python tools/encounters.py
-python tools/plot_results.py
 ```
 
 Set `PHAROS_VCVARS` to the Visual Studio x64 setup script for controller builds.

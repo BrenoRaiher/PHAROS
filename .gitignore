@@ -18,6 +18,7 @@
 !/Source/
 !/Tools/
 !/Validation/
+!/PHAROS-Reproducibility-Bundle.zip
 
 # Generated output, local IDE state, saves, crash dumps, and caches.
 **/.vs/

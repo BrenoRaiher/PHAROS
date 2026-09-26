@@ -124,9 +124,12 @@ Runner source and build instructions are in
 
 The assessment material includes controlled verification cases and simplified,
 calibrated JWST, Apollo 8, and Cassini mission comparisons. Inputs, controller
-sources, references, and compact summaries are included. Full histories and
-frozen execution records are supplied separately in the **PHAROS
-Reproducibility Bundle**, described in the reproduction guide.
+sources, references, and compact summaries are included. The
+[PHAROS Reproducibility Bundle ZIP](https://github.com/BrenoRaiher/PHAROS/raw/refs/heads/main/PHAROS-Reproducibility-Bundle.zip)
+in the repository root contains full recorded histories, frozen executables
+and controller libraries, and the captured assessment source. Download and
+extract it, then follow the [reproduction guide](Docs/GettingStarted/Reproduce.md)
+to restore the files into the checkout. The ZIP is stored with Git LFS.
 
 The author's undergraduate thesis documents the mathematical formulation,
 physical models, implementation, and assessment. The repository guides are
