@@ -35,7 +35,7 @@ Twelve additional positions were reconstructed from rounded Mission Report Table
 
 ## Calibration and reference provenance
 
-The maneuver commands were selected against navigation positions, lunar apsidal altitudes, and the post-MC3 position. The source epochs for lunar revolutions 1 and 10 informed the lunar-burn calibration, while the rounded LOI-ignition position informed MC2 and the post-MC3 position informed TEI. Calibration summaries remain under `analysis` and `provenance`; superseded trial histories are omitted from the collaborator export. No new fitting or propagation was performed when expanding the reference catalog.
+The maneuver commands were selected against navigation positions, lunar apsidal altitudes, and the post-MC3 position. The source epochs for lunar revolutions 1 and 10 informed the lunar-burn calibration, while the rounded LOI-ignition position informed MC2 and the post-MC3 position informed TEI. Calibration parameters and selection records are supplied under `analysis` and `provenance`.
 
 The frozen `expected/direct_states.json` preserves the actual calibration inputs. Its two lunar positions contain transcription errors, and the key `lunar_rev9` identifies revolution 10. The corrected complete catalog is `expected/historical_states.json`. Coordinate corrections, source pages, transcription precision, and unchanged simulation/input hashes are documented in `provenance/historical_reference_expansion.json`. The final comparisons use the corrected source vectors.
 

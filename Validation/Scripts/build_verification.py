@@ -27,9 +27,9 @@ def main():
     TESTS.mkdir(parents=True,exist_ok=True)
     fixtures=TESTS/'controller_contract'
     fixtures.mkdir(exist_ok=True)
-    # Fixtures are retained locally. The two old DLLs are deliberate negative
+    # The bundle supplies two DLLs missing required exports as negative
     # contract fixtures, never controllers for propagated scenarios.
-    for name in ('CurrentFixture.cpp','MismatchFixture.cpp','ControllerContractChecks.cpp','LegacyV3.dll','LegacyV4.dll'):
+    for name in ('CurrentFixture.cpp','MismatchFixture.cpp','ControllerContractChecks.cpp','MissingExportsA.dll','MissingExportsB.dll'):
         if not (fixtures/name).is_file():
             raise FileNotFoundError(fixtures/name)
 
@@ -68,7 +68,7 @@ def main():
     status=[]
     for name,log in [('TGSimCoreValidation','backend_validation_log.txt'),('TGScenarioRoundTripTest','scenario_roundtrip_log.txt'),('ControllerContractChecks','controller_contract_log.txt')]:
         args=[str(TESTS/(name+'.exe'))]
-        if name=='ControllerContractChecks': args += ['LegacyV3.dll','LegacyV4.dll']
+        if name=='ControllerContractChecks': args += ['MissingExportsA.dll','MissingExportsB.dll']
         with (TESTS/log).open('w',encoding='utf-8') as stream:
             r=subprocess.run(args,cwd=fixtures if name=='ControllerContractChecks' else TESTS,stdout=stream,stderr=subprocess.STDOUT)
         status.append({'executable':name,'exit_code':r.returncode,'log':log})

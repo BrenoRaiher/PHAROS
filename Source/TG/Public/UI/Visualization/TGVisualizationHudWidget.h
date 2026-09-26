@@ -173,7 +173,7 @@ private:
     UPROPERTY(meta = (BindWidgetOptional))
     TObjectPtr<UTextBlock> TXT_TelemetryVelocityBodyFixed;
 
-    /** Optional replacement for the legacy fixed telemetry grid. */
+    /** Optional native telemetry workspace. */
     UPROPERTY(meta = (BindWidgetOptional))
     TObjectPtr<UPanelWidget> VBOX_TelemetryCards;
 

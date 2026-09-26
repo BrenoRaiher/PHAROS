@@ -767,7 +767,7 @@ void UTGVisualizationHudWidget::ApplyConstellationSearchFilter(
 
 void UTGVisualizationHudWidget::RefreshDisplayedValues()
 {
-    // Timeline presentation is native to WORKSPACE_Dock. Legacy telemetry
+    // Timeline presentation is native to WORKSPACE_Dock. Text telemetry
     // remains available only when the native workspace is absent.
     RefreshTelemetryValues();
 }

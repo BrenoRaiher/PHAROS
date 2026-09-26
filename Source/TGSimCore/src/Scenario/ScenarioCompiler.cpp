@@ -587,7 +587,7 @@ namespace tgsim::scenario
                     AddError(diagnostics, "SCN-CHP-COLUMNS",
                         "atmosphere.chp_coefficient_csv_file",
                         "Expected exactly 50 rows of eight publication coefficients, "
-                        "or legacy rows containing altitude followed by eight SI coefficients.");
+                        "or rows containing altitude followed by eight SI coefficients.");
                 }
                 else
                 {

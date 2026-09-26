@@ -106,7 +106,7 @@ namespace tgsim
         config.solver.maximum_output_samples = request.maximum_output_samples;
 
         // Canonicalize both time representations once. TGSCN compilation supplies
-        // exact elapsed boundaries; legacy direct callers may still supply only ET.
+        // exact elapsed boundaries; direct callers may still supply only ET.
         for (ThrusterDefinition& thruster : config.vehicle.thrusters)
         {
             thruster.ignition_elapsed_time_seconds =

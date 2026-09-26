@@ -1,6 +1,6 @@
 {
   "segment": "10",
-  "target_role": "legacy",
+  "target_role": "calibration_reference",
   "original_position_residual_m": 751842.6827901503,
   "finite_difference_step_mps": 0.0002,
   "jacobian": [

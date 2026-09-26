@@ -43,7 +43,7 @@ def setkey(text,key,value):
 def scenario(sid,previous=None,factor=1,visual=False):
     t=(ROOT/'provenance/templates'/f'{sid}{"_visual" if visual else ""}.tgscn').read_text(encoding='utf-8-sig')
     if visual:
-        # The final legacy appearance template uses different physical-component
+        # The appearance template uses different physical-component
         # labels. Match stable IDs and rename every named reference consistently.
         physical=tomllib.loads((ROOT/'provenance/templates'/f'{sid}.tgscn').read_text(encoding='utf-8-sig'))
         names={c['id']:c['name'] for c in physical['components']}

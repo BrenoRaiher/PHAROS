@@ -169,7 +169,7 @@ namespace
 
     bool MigrateStoredProjectPath(
         FString& Path,
-        const FString& LegacyProjectRoot,
+        const FString& SourceProjectRoot,
         const FString& CurrentProjectRoot)
     {
         if (Path.IsEmpty() || FPaths::IsRelative(Path))
@@ -181,18 +181,18 @@ namespace
             FPaths::ConvertRelativePathToFull(Path);
         FPaths::NormalizeFilename(NormalizedPath);
 
-        FString LegacyPrefix = LegacyProjectRoot;
-        FPaths::NormalizeDirectoryName(LegacyPrefix);
-        LegacyPrefix += TEXT("/");
+        FString SourcePrefix = SourceProjectRoot;
+        FPaths::NormalizeDirectoryName(SourcePrefix);
+        SourcePrefix += TEXT("/");
         if (!NormalizedPath.StartsWith(
-                LegacyPrefix,
+                SourcePrefix,
                 ESearchCase::IgnoreCase))
         {
             return false;
         }
 
         const FString RelativePath =
-            NormalizedPath.Mid(LegacyPrefix.Len());
+            NormalizedPath.Mid(SourcePrefix.Len());
         FString CandidatePath =
             FPaths::Combine(CurrentProjectRoot, RelativePath);
         FPaths::NormalizeFilename(CandidatePath);
@@ -209,7 +209,7 @@ namespace
 
     bool MigrateScenarioProjectPaths(
         FTGSimulationScenario& Scenario,
-        const FString& LegacyProjectRoot,
+        const FString& SourceProjectRoot,
         const FString& CurrentProjectRoot)
     {
         bool bChanged = false;
@@ -218,23 +218,23 @@ namespace
         {
             bChanged |= MigrateStoredProjectPath(
                 Component.Visual.StlFilePath,
-                LegacyProjectRoot,
+                SourceProjectRoot,
                 CurrentProjectRoot);
             bChanged |= MigrateStoredProjectPath(
                 Component.Visual.BaseColorTextureFilePath,
-                LegacyProjectRoot,
+                SourceProjectRoot,
                 CurrentProjectRoot);
             bChanged |= MigrateStoredProjectPath(
                 Component.Visual.NormalTextureFilePath,
-                LegacyProjectRoot,
+                SourceProjectRoot,
                 CurrentProjectRoot);
             bChanged |= MigrateStoredProjectPath(
                 Component.Visual.RoughnessTextureFilePath,
-                LegacyProjectRoot,
+                SourceProjectRoot,
                 CurrentProjectRoot);
             bChanged |= MigrateStoredProjectPath(
                 Component.Visual.MetallicTextureFilePath,
-                LegacyProjectRoot,
+                SourceProjectRoot,
                 CurrentProjectRoot);
         }
 
@@ -242,42 +242,42 @@ namespace
         {
             bChanged |= MigrateStoredProjectPath(
                 Thruster.PrescribedThrust.CsvFilePath,
-                LegacyProjectRoot,
+                SourceProjectRoot,
                 CurrentProjectRoot);
             bChanged |= MigrateStoredProjectPath(
                 Thruster.PrescribedSpecificImpulse.CsvFilePath,
-                LegacyProjectRoot,
+                SourceProjectRoot,
                 CurrentProjectRoot);
         }
 
         bChanged |= MigrateStoredProjectPath(
             Scenario.Control.StandaloneControllerDllFilePath,
-            LegacyProjectRoot,
+            SourceProjectRoot,
             CurrentProjectRoot);
 
         for (FTGCelestialBodyConfig& Body : Scenario.CelestialBodies)
         {
             bChanged |= MigrateStoredProjectPath(
                 Body.HarmonicModelCsvFilePath,
-                LegacyProjectRoot,
+                SourceProjectRoot,
                 CurrentProjectRoot);
         }
 
         bChanged |= MigrateStoredProjectPath(
             Scenario.Atmosphere.GeneralProfileCsvPath,
-            LegacyProjectRoot,
+            SourceProjectRoot,
             CurrentProjectRoot);
         bChanged |= MigrateStoredProjectPath(
             Scenario.Atmosphere.ChpCoefficientCsvPath,
-            LegacyProjectRoot,
+            SourceProjectRoot,
             CurrentProjectRoot);
         bChanged |= MigrateStoredProjectPath(
             Scenario.Atmosphere.ChpMolecularProfileCsvPath,
-            LegacyProjectRoot,
+            SourceProjectRoot,
             CurrentProjectRoot);
         bChanged |= MigrateStoredProjectPath(
             Scenario.Aerodynamics.Database.CsvFilePath,
-            LegacyProjectRoot,
+            SourceProjectRoot,
             CurrentProjectRoot);
 
         return bChanged;
@@ -296,24 +296,24 @@ namespace
             return false;
         }
 
-        FString LegacyProjectRoot = FPaths::Combine(
+        FString SourceProjectRoot = FPaths::Combine(
             FPaths::GetPath(CurrentProjectRoot),
             TEXT("TG"));
-        FPaths::NormalizeDirectoryName(LegacyProjectRoot);
+        FPaths::NormalizeDirectoryName(SourceProjectRoot);
 
         bool bChanged = false;
         for (FTGSavedScenarioRecord& Record : Library.SavedScenarios)
         {
             bChanged |= MigrateScenarioProjectPaths(
                 Record.Scenario,
-                LegacyProjectRoot,
+                SourceProjectRoot,
                 CurrentProjectRoot);
         }
         for (FTGSavedSimulationRun& Run : Library.SavedRuns)
         {
             bChanged |= MigrateScenarioProjectPaths(
                 Run.InputSnapshot,
-                LegacyProjectRoot,
+                SourceProjectRoot,
                 CurrentProjectRoot);
         }
 

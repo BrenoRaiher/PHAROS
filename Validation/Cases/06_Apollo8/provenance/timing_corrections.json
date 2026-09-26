@@ -1,28 +1,22 @@
 {
   "adopted_source": "NASA Apollo 8 Mission Report, Table 6.9-II, PDF page 138; Section 5.5 independently states the 9.6 s circularization firing.",
   "first_midcourse": {
-    "legacy_ignition_get_s": 39659.5,
-    "corrected_ignition_get_s": 39599.2,
-    "duration_s": 2.4
+    "duration_s": 2.4,
+    "ignition_get_s": 39599.2
   },
   "second_midcourse": {
     "ignition_get_s": 219595.9,
     "duration_s": 11.8,
-    "legacy_timing_retained": true,
     "note": "Printed cutoff rounds to 219607.8; ignition plus the stated duration gives 219607.7."
   },
   "lunar_circularization": {
     "ignition_get_s": 264906.6,
-    "legacy_firing_window_s": 10.42,
-    "corrected_firing_window_s": 9.6
+    "duration_s": 9.6
   },
   "third_midcourse": {
     "ignition_get_s": 374400.0,
     "duration_s": 15.0,
-    "legacy_timing_retained": true,
     "note": "The earlier Table 5-II epoch is a separate trajectory reference; it does not override the detailed maneuver table."
   },
-  "comparison_policy": "Keep all Table 5-II trajectory marks at their published times, distinct from actual firing windows.",
-  "superseded_interpretation": "provenance/trials/02_table5_timing/timing_interpretation.json",
-  "parameters_tuned_to_make_corrections": false
+  "comparison_policy": "Keep all Table 5-II trajectory marks at their published times, distinct from actual firing windows."
 }

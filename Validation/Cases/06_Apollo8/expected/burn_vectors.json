@@ -5,7 +5,7 @@
       0.9286997601292293,
       -0.10491753321785983
     ],
-    "direction_source": "Inherited reconstruction direction; see archived legacy source and controller_tuning.json."
+    "direction_source": "Calibrated reconstruction direction; see controller_tuning.json."
   },
   "second_midcourse": {
     "controller_target_direction_icrf_unit": [
@@ -45,6 +45,6 @@
       -0.4678977950373229,
       -0.8827664900407947
     ],
-    "direction_source": "Inherited reconstruction direction; see archived legacy source and controller_tuning.json."
+    "direction_source": "Calibrated reconstruction direction; see controller_tuning.json."
   }
 }

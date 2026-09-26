@@ -22,14 +22,18 @@ is not removed by the PHAROS uninstaller.
 
 ## Documentation
 
-- [Getting started](Documentation/README.md)
-- [Release notes](Documentation/RELEASE_NOTES.md)
-- [Compatibility](Documentation/COMPATIBILITY.md)
-- [Known limitations](Documentation/KNOWN_LIMITATIONS.md)
+The links below open the online documentation. The installed application also
+includes local guides under `Documentation` and its Controller SDK under
+`PHAROS/Binaries/Win64/ControllerSDK`.
+
+- [Getting started](https://github.com/BrenoRaiher/PHAROS/blob/main/Docs/README.md)
+- [Release notes](https://github.com/BrenoRaiher/PHAROS/blob/main/Docs/Release/RELEASE_NOTES.md)
+- [Compatibility](https://github.com/BrenoRaiher/PHAROS/blob/main/Docs/Release/COMPATIBILITY.md)
+- [Known limitations](https://github.com/BrenoRaiher/PHAROS/blob/main/Docs/Release/KNOWN_LIMITATIONS.md)
 - [TGSCN file format](https://github.com/BrenoRaiher/PHAROS/blob/main/Docs/Reference/TGSCN.md)
-- [Controller SDK](PHAROS/Binaries/Win64/ControllerSDK/README.md)
-- [Privacy](Documentation/PRIVACY.md)
-- [Support](Documentation/SUPPORT.md)
+- [Controller SDK](https://github.com/BrenoRaiher/PHAROS/blob/main/ControllerSDK/README.md)
+- [Privacy](https://github.com/BrenoRaiher/PHAROS/blob/main/Docs/Release/PRIVACY.md)
+- [Support](https://github.com/BrenoRaiher/PHAROS/blob/main/Docs/Release/SUPPORT.md)
 - [Project repository](https://github.com/BrenoRaiher/PHAROS)
 
 ## Safety and Licensing

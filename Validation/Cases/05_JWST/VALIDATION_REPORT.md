@@ -31,7 +31,7 @@ The delivery criterion compares the mass-derived rocket-equation increment with 
 
 ## Calibration and numerical sensitivity
 
-The final calibration policy, fitted marks, parameter updates, and stopping decision are in [calibration_decision.json](provenance/calibration_decision.json) and its accompanying policy/selection summaries. Superseded full tuning histories are omitted from the collaborator export. No state resets were inserted after initialization.
+The final calibration policy, fitted marks, parameter updates, and stopping decision are in [calibration_decision.json](provenance/calibration_decision.json) and its accompanying policy/selection summaries. No state resets were inserted after initialization.
 
 The recorded full-chain half-step comparison changed the final position by 6.891 m, substantially less than the reported historical residuals. See `analysis/step_refinement_metrics.json`. This is one fixed-command numerical comparison, not a bound on all model errors.
 

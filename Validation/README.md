@@ -34,5 +34,5 @@ and its SHA-256. Installed evidence is excluded from Git.
 
 `Support/Provenance` records the original campaign identities and run selection.
 `Support/Runtime` is populated by the bundle. The maintained application source
-is in the repository's `Source` folder; the frozen assessment source and
+is in the repository's `Source` folder; the supplied assessment source and
 executables have their own identities. Both use `Content/SPICEKernels`.

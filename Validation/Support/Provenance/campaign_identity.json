@@ -1,6 +1,4 @@
 {
-  "authoritative_project": "<recorded-user-directory>\\Documents\\Unreal Projects\\PHAROS",
-  "runner_original": "<recorded-user-directory>\\Documents\\Unreal Projects\\PHAROS\\Tools\\TGScenarioRunner\\bin\\PHAROSScenarioRunner.exe",
   "runner_sha256": "bb682d5eace254cbe4d8a140cf8015c379e8f1d2d351558f04a2670ad1b4fac7",
   "runner_bytes": 2508800,
   "scope": [
@@ -8,10 +6,6 @@
     "Earth orbit four-wheel recovery",
     "Earth orbit thruster recovery"
   ],
-  "deferred": [
-    "Apollo 8",
-    "JWST",
-    "Cassini"
-  ],
-  "record_scope": "Original backend/Earth campaign identity. The deferred list records preparation-stage sequencing; all three final mission cases are included in this export with their own provenance."
+  "runner_relative": "../Runtime/PHAROSScenarioRunner.exe",
+  "record_scope": "Physics Core and controlled Earth-orbit verification; mission cases supply their own identity records."
 }

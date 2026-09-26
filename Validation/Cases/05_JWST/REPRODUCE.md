@@ -35,5 +35,5 @@ that location. `PHAROS_RUNNER` and `PHAROS_KERNELS` select deliberate runtime
 alternatives. Record their identities when comparing a new run.
 
 Calibration policy, sensitivity matrix, and selection summaries are retained
-in `provenance/joint_retuning`. Superseded full tuning trajectories and local
-report-publication helpers are not needed to reproduce the final case.
+in `provenance/joint_retuning`. The supplied scenario and controller inputs
+already contain the selected parameters.

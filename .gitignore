@@ -84,9 +84,6 @@ Thumbs.db
 *.lib
 !Source/ThirdParty/CSPICE/Lib/Win64/cspice.lib
 
-# Old-layout DLLs are intentional rejection fixtures, not generated controllers.
-!Validation/**/LegacyV3.dll
-!Validation/**/LegacyV4.dll
 /Validation/**/build/
 /Validation/Support/Runtime/controller_build/
 /Validation/Support/Runtime/verification_build/

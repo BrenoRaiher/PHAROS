@@ -992,8 +992,6 @@ def main() -> None:
                 for item in integrity_results.values()
             ),
         },
-        "baseline_metrics_path":
-            "../../Support/Provenance/legacy_reference/05_to_07_Backend_Feature_Verification/analysis/cases_05_07_metrics.json",
     }
     output = ROOT / "analysis/cases_01_03_metrics.json"
     output.write_text(

@@ -82,7 +82,8 @@ python Validation/Scripts/build_verification.py
 python Validation/Scripts/build_controllers.py --vcvars '<path-to-vcvars64.bat>'
 ```
 
-The two old-layout controller DLLs in Case 1 are intentional rejection fixtures.
+The bundle supplies `MissingExportsA.dll` and `MissingExportsB.dll` in
+Case 1 as intentional rejection fixtures for missing required exports.
 Rebuilt tools have new identities and should not be described as the original
 frozen binaries. The mission guides describe their own builds and analyses:
 

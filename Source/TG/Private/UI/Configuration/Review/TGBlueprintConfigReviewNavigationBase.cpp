@@ -102,7 +102,7 @@ void UTGBlueprintConfigReviewNavigationBase::NativeConstruct()
     // The Scenario/Solver page is Blueprint-authored, but its displayed
     // integrator must always agree with the authoritative scenario draft.
     // Bind after Blueprint construction so this final commit cannot be
-    // overwritten by the page's legacy string-to-enum event graph.
+    // overwritten by the page's string-to-enum event graph.
     BoundIntegratorKindCombo = Cast<UComboBoxString>(
         GetWidgetFromName(TEXT("INPUT_IntegratorKind")));
     if (BoundIntegratorKindCombo == nullptr)

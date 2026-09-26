@@ -1272,12 +1272,12 @@ FString UTGControllerLibrarySubsystem::ResolveSdkDirectory() const
         const FString PublicHeaderPath = FPaths::Combine(
             Candidate,
             TEXT("PHAROSControllerAPI.h"));
-        const FString LegacyHeaderPath = FPaths::Combine(
+        const FString InternalHeaderPath = FPaths::Combine(
             Candidate,
             TEXT("TGControllerAPI.h"));
 
         if (FPaths::FileExists(PublicHeaderPath) ||
-            FPaths::FileExists(LegacyHeaderPath))
+            FPaths::FileExists(InternalHeaderPath))
         {
             return NormalizeDirectoryPath(Candidate);
         }

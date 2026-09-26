@@ -28,5 +28,5 @@ half-step prefix ends after Segment 06, following Venus 2; its maximum sampled
 position difference was 4411.816 km. It did not reach the Earth encounter.
 The local insertion replay began from the same nominal incoming state and
 had a maximum position difference of 0.0108191 m. It does not measure upstream
-mission sensitivity. Both records support numerical-development comparisons
+mission sensitivity. Both records support numerical-sensitivity comparisons
 with different propagation intervals and initial-state conventions.

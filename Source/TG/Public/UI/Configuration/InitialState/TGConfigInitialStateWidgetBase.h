@@ -14,8 +14,7 @@ class UTGConfigInitialStateFrameWidgetBase;
  *
  * The nested frame-aware widget owns all state editing and always commits the
  * canonical FTGSimulationScenario state in ICRF. This host keeps the public
- * refresh entry point used by WBP_SimulationConfig while replacing the legacy
- * ICRF-only Blueprint graphs.
+ * refresh entry point used by WBP_SimulationConfig.
  */
 UCLASS(Blueprintable)
 class TG_API UTGConfigInitialStateWidgetBase

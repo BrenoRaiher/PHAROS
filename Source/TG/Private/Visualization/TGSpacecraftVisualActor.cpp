@@ -659,9 +659,8 @@ bool ATGSpacecraftVisualActor::BuildFromScenario(
          * The source geometry is authoritative for visual origin,
          * orientation and dimensions.
          *
-         * Legacy visual offset/orientation/scale fields remain serialized for
-         * backward compatibility, but this actor deliberately does not apply
-         * them under the current Component Visual Appearance contract.
+         * The actor uses the source geometry directly. Serialized visual
+         * offset/orientation/scale fields do not alter this appearance.
          */
         GeometryRoot->SetRelativeLocation(
             FVector::ZeroVector);
@@ -2090,7 +2089,7 @@ bool ATGSpacecraftVisualActor::
         OutErrorText = FText::FromString(
             FString::Printf(
                 TEXT(
-                    "Component '%s' uses the legacy No Geometry mode. "
+                    "Component '%s' uses No Geometry mode. "
                     "The current Component Visual Appearance editor "
                     "requires Standard Primitive or Custom STL."),
                 *Component.Name));

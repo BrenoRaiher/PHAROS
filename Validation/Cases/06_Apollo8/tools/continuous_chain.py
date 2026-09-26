@@ -1115,7 +1115,6 @@ def run_direct_checkpoint_diagnostic(event_id: str):
 def main():
     parser = argparse.ArgumentParser()
     sub = parser.add_subparsers(dest="command", required=True)
-    sub.add_parser("calibrate")
     one = sub.add_parser("run-segment")
     one.add_argument("segment", choices=SEGMENTS)
     all_parser = sub.add_parser("run-all")
@@ -1131,9 +1130,7 @@ def main():
         ),
     )
     args = parser.parse_args()
-    if args.command == "calibrate":
-        raise SystemExit("Legacy unconstrained calibration is archived only. Use the bounded current retuning workflow.")
-    elif args.command == "run-segment":
+    if args.command == "run-segment":
         run_segment(args.segment)
     elif args.command == "run-all":
         ids = list(SEGMENTS)

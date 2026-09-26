@@ -1,12 +1,9 @@
 {
   "date": "2026-09-18",
-  "purpose": "Densify the recorded nested-tree angular-momentum history.",
-  "recording_interval_before_s": 0.1,
-  "recording_interval_after_s": 0.01,
+  "purpose": "Recorded nested-tree angular-momentum comparison.",
   "integration_maximum_step_s": 0.01,
   "runner": "Support/Runtime/PHAROSScenarioRunner.exe",
   "runner_sha256": "bb682d5eace254cbe4d8a140cf8015c379e8f1d2d351558f04a2670ad1b4fac7",
-  "physical_inputs_and_controller_unchanged": true,
   "quantitative_checks": [
     {
       "metric": "maximum linear-momentum norm",
@@ -99,17 +96,6 @@
       "pass": true
     }
   ],
-  "superseded_record": {
-    "scenario": "Cases/01-03_CoreVerification/cases/02_actuated_multibody/02d_nested_tree/nested_tree.tgscn",
-    "repeat": false,
-    "exit_code": 0,
-    "wall_seconds": 0.17199999999866122,
-    "output_directory": "Cases/01-03_CoreVerification/cases/02_actuated_multibody/02d_nested_tree/results",
-    "runner_sha256": "bb682d5eace254cbe4d8a140cf8015c379e8f1d2d351558f04a2670ad1b4fac7",
-    "scenario_sha256": "1de6004015f61228d470e2f55290dea2bd0df505b31a421789bc4a156cb000ce",
-    "before_case_renumbering_scenario_sha256": "45a2fbac4a230ece73bc60bf6b69af0f2ab037ff92804a286972cd0a072307b5"
-  },
-  "original_scenario_sha256": "1de6004015f61228d470e2f55290dea2bd0df505b31a421789bc4a156cb000ce",
-  "original_solution_sha256": "a3b06c716eef041e56230b7025a8187fc596bce92f12a1c12d73f4c8292794d1",
-  "new_solution_sha256": "7cbe6a5c0bba8dbd4ceede5d589d50d35b1105e552fcd3b76365a95f93478a30"
+  "recording_interval_s": 0.01,
+  "solution_sha256": "7cbe6a5c0bba8dbd4ceede5d589d50d35b1105e552fcd3b76365a95f93478a30"
 }

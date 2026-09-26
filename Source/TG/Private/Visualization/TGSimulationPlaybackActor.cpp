@@ -1327,23 +1327,23 @@ bool ATGSimulationPlaybackActor::LoadResultCsv(
             continue;
         }
 
-        const bool bLegacyDuplicateTerminalEt =
+        const bool bDuplicateTerminalEt =
             CurrentTime == PreviousTime &&
             RowIndex == NumericRows.Num() - 1 &&
             ElapsedTimeColumn != nullptr &&
             NumericRows[RowIndex][*ElapsedTimeColumn] >
                 NumericRows[RowIndex - 1][*ElapsedTimeColumn];
-        if (bLegacyDuplicateTerminalEt)
+        if (bDuplicateTerminalEt)
         {
             // Older runners could append a nanosecond-scale final tail whose
             // elapsed time was distinct but whose large absolute ET rounded
             // to the preceding value. Keep the true final state and discard
-            // only the superseded fixed-grid row.
+            // only the fixed-grid row.
             NumericRows.RemoveAt(RowIndex - 1);
             UE_LOG(
                 LogTemp,
                 Warning,
-                TEXT("PHAROS playback coalesced a legacy duplicate terminal ET in '%s'."),
+                TEXT("PHAROS playback coalesced a duplicate terminal ET in '%s'."),
                 *ResolvedPath);
             break;
         }
@@ -3154,7 +3154,7 @@ void ATGSimulationPlaybackActor::ApplyCelestialBodyRadius(
     }
 
     // Work entirely in actor-local space. This deliberately ignores any
-    // BeginPlay scale applied by a legacy celestial Blueprint, so the CSV
+    // BeginPlay scale applied by a celestial Blueprint, so the CSV
     // reference radius remains the sole authority for physical body size.
     const FBox LocalBounds =
         TGSimulationPlaybackPrivate::

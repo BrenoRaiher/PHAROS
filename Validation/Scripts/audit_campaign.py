@@ -129,7 +129,7 @@ def main():
                 p0=doc['initial_state']['position_icrf_m'];v0=doc['initial_state']['velocity_icrf_mps']
                 error=max(abs(r[f'position_icrf_{a}_m']-(p0[j]+v0[j]*r['elapsed_time_seconds'])) for r in rows for j,a in enumerate('xyz'))
                 scale=max(abs(p0[j]+v0[j]*duration) for j in range(3))
-                # Retain the legacy timekeeping audit's 1 nm ordinary-position
+                # Use the timekeeping audit's 1 nm ordinary-position
                 # tolerance and scale it by binary64 ULPs for billion-second runs.
                 # The dedicated sub-picosecond probe tests its nonzero displacement.
                 tolerance=max(1e-15 if name=='adaptive_subpicosecond_tail' else 1e-9,8*math.ulp(scale))

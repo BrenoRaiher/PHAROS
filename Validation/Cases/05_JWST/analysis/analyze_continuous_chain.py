@@ -427,13 +427,13 @@ def main() -> None:
             "controller_calibration_inputs": [
                 "NAIF reconstructed barycentric state at 2021-12-25T13:00:00Z",
                 "published MCC epochs, durations, and reconstructed delta-v values",
-                "Inherited legacy calibration: NAIF B-H terminal states as weighted objectives for sequential finite-difference burn-vector tuning",
+                "Calibration against NAIF B-H terminal states using weighted objectives for finite-difference burn-vector tuning",
                 "Current calibration: "+tuning.get('current_fit_description', 'final H position/velocity residual only, for one capped two-burn correction'),
                 "published physical mass, propellant, thrust type, and attitude strategy",
             ],
             "held_out_evaluation":
                 "Unique exact-epoch samples excluding A[0], inherited B-H fit epochs and current B-H endpoints; duplicate boundaries count once. These are correlated samples of the same reconstructed mission, not a statistically independent validation mission.",
-            "legacy_calibration_endpoint_count": 7,
+            "calibration_endpoint_count": 7,
             "current_correction_endpoint_count": len(tuning.get('current_fit_phases', ['H'])),
             "excluded_noninitial_epoch_count": len(calibration_ephemeris_times),
             "held_out_sample_count": len(heldout_position_errors),

@@ -284,16 +284,16 @@ int main()
     assert(std::abs(scaled.inertia_body_kgm2.m[1][1] - 10.0) < 1.0e-12);
     assert(std::abs(scaled.inertia_body_kgm2.m[2][2] - 15.0) < 1.0e-12);
 
-    // Removed schema fields are rejected instead of migrated implicitly.
-    std::string legacy = text;
-    const std::size_t legacy_marker = legacy.find("variable_mass = false");
-    assert(legacy_marker != std::string::npos);
-    legacy.insert(
-        legacy_marker + std::string("variable_mass = false").size(),
+    // Unsupported schema fields are rejected.
+    std::string unsupported_text = text;
+    const std::size_t field_marker = unsupported_text.find("variable_mass = false");
+    assert(field_marker != std::string::npos);
+    unsupported_text.insert(
+        field_marker + std::string("variable_mass = false").size(),
         "\nscale_inertia_with_mass = false");
-    ScenarioDocument legacy_document;
+    ScenarioDocument unsupported_document;
     diagnostics.clear();
-    assert(!ParseScenarioText(legacy, legacy_document, diagnostics));
+    assert(!ParseScenarioText(unsupported_text, unsupported_document, diagnostics));
     assert(HasErrors(diagnostics));
     assert(std::any_of(
         diagnostics.begin(), diagnostics.end(),

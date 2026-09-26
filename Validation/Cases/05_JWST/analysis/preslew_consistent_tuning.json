@@ -1,6 +1,6 @@
 {
   "method": "Bounded joint refinement of MCC-1b and MCC-2 from six PHAROS finite-difference response columns, evaluated against D/E/F/G/H state marks; components rounded to 0.001 m/s and stopped at diminishing returns.",
-  "truth_use": "Inherited legacy B-H targeting, followed by the earlier final-H correction and the current joint D/E/F/G/H targeting. Reference states enter only the offline target comparison; no later state is inserted into propagation.",
+  "truth_use": "The calibration used B-H terminal state marks and a joint D/E/F/G/H state objective for the selected burn vectors. Reference states enter only the offline target comparison; no later state is inserted into propagation.",
   "critical_boundary_rule": "each trial begins with the preceding attitude-acquisition phase: A for MCC-1a, C for MCC-1b, and F for MCC-2",
   "retuned_delta_v_vectors_icrf_mps": {
     "mcc1a": [
@@ -336,8 +336,6 @@
       ]
     }
   ],
-  "legacy_history_note": "The history entries below describe inherited legacy calibration, not additional current optimization trials.",
-  "prior_current_method": "Inherited three legacy burn vectors; one bounded ballistic two-burn correction of MCC-1b and MCC-2, rounded to 0.001 m/s per component.",
   "current_fit_phases": [
     "D",
     "E",
@@ -346,5 +344,6 @@
     "H"
   ],
   "current_fit_description": "D/E/F/G/H terminal position and velocity marks with fixed weights and scales recorded before the response trials.",
-  "joint_retuning_record": "provenance/joint_retuning/selection.json"
+  "joint_retuning_record": "provenance/joint_retuning/selection.json",
+  "calibration_history_note": "The history records offline burn-vector calibration. The selected joint calibration is identified in joint_retuning_record."
 }

@@ -245,8 +245,7 @@ struct TG_API FTGComponentDegreeOfFreedomEdit
  * and clipboard behavior.
  *
  * Undo and redo intentionally store complete scenario snapshots. The scenario
- * structure contains value types only, making snapshots simple and reliable
- * while the HUD is still under active development.
+ * structure contains value types only, so snapshots preserve the full editable state.
  */
 UCLASS(BlueprintType)
 class TG_API UTGComponentTreeEditorSession : public UObject
@@ -411,7 +410,7 @@ public:
     /**
      * Validates and atomically commits geometry and whole-component surface
      * appearance. No Geometry is rejected. STL recentering is fixed to
-     * KeepImportedOrigin and legacy visual offset/orientation/scale are reset
+     * KeepImportedOrigin and serialized visual offset/orientation/scale are reset
      * to zero/identity/one so the source STL remains authoritative.
      *
      * Textured mode requires a PNG/JPG/JPEG base-color image; normal,

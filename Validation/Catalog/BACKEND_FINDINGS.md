@@ -4,7 +4,7 @@ These diagnostics examine propagation over a sub-picosecond interval and
 recording when distinct elapsed times map to the same absolute ephemeris time.
 They supplement the baseline comparisons in the
 [coverage matrix](FEATURE_COVERAGE_MATRIX.md). The inputs, expected responses,
-and recorded differences are given below for numerical development.
+and recorded differences are given below for numerical assessment.
 
 Frozen runner SHA-256: `bb682d5eace254cbe4d8a140cf8015c379e8f1d2d351558f04a2670ad1b4fac7`.
 

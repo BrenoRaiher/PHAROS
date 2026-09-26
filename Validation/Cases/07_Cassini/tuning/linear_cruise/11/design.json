@@ -1,6 +1,6 @@
 {
   "segment": "11",
-  "target_role": "Accepted legacy outgoing position and velocity, compared separately with NAIF afterward.",
+  "target_role": "Stored calibration target for outgoing position and velocity; historical agreement is evaluated separately against NAIF.",
   "iterations": 1,
   "main_update_mps": [
     -0.0001554009709750373,

@@ -930,12 +930,12 @@
       "detail": null
     },
     {
-      "name": "preserved legacy mission inventory unchanged",
+      "name": "calibration input inventory preserved",
       "pass": true,
       "detail": 211
     },
     {
-      "name": "consulted legacy physical-input hashes unchanged",
+      "name": "calibration physical-input hashes preserved",
       "pass": true,
       "detail": 56
     }

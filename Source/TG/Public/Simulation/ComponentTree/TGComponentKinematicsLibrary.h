@@ -50,7 +50,7 @@ struct TG_API FTGComponentKinematicPose
 
 /**
  * Exact component-tree kinematics shared by the configuration preview and
- * legacy playback fallback.
+ * CSV-based playback fallback.
  *
  * Physics is not implemented here. This library only evaluates the
  * authoritative rigid transform chain defined by the HUD/backend contract.

@@ -38,7 +38,6 @@ python tools/local_refinement.py --segment 20
 The continuous refinement is a completed prefix through Venus 2, not a full
 twenty-segment refinement. The insertion replay starts from the same nominal
 incoming state and answers a local question. Calibration summaries remain in
-`TUNING.md` and compact `tuning/**/decision.json` records. Superseded trial
-trajectories, local importers, and publication helpers are omitted.
+`TUNING.md` and compact `tuning/**/decision.json` records.
 
 Use the repository checker described in the shared instructions to verify the restored evidence.

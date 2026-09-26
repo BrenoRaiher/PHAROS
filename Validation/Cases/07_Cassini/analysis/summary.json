@@ -18,10 +18,7 @@
   "maximum_position_error_segment": "17",
   "maximum_half_step_position_difference_m": 4411816.398780476,
   "captured_at_saturn": true,
-  "additional_controller_fitting_in_current_rerun": true,
   "effective_cruise_corrections_retained": 9,
-  "baseline_acceptance": "Accepted for the current validation campaign; see BASELINE_ACCEPTANCE.md for the accepted configuration and decision.",
-  "legacy_written": false,
   "continuous_sensitivity_segments": 6,
   "continuous_sensitivity_last_segment": "06",
   "sensitivity_last_endpoint_position_difference_m": 4411816.398780476,
@@ -30,5 +27,7 @@
   "material_continuous_step_sensitivity_observed": true,
   "soi_local_half_step_maximum_position_difference_m": 0.010819073272141742,
   "soi_local_half_step_final_position_difference_m": 0.006498739578846249,
-  "soi_local_half_step_final_velocity_difference_mps": 1.3230258425461842e-06
+  "soi_local_half_step_final_velocity_difference_mps": 1.3230258425461842e-06,
+  "calibrated_maneuver_inputs": true,
+  "assessment_scope": "Simplified calibrated reconstruction; see METHODOLOGY.md and RESULTS.md."
 }

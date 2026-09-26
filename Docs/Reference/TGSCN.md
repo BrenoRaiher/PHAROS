@@ -206,7 +206,7 @@ inertia.
 | `dofs` | table array | Ordered joint DOFs connecting this child to its parent |
 
 Only `variable_mass` controls whether component inertia scales with mass.
-Removed schema fields such as `scale_inertia_with_mass` are rejected.
+Unsupported schema fields such as `scale_inertia_with_mass` are rejected.
 
 The sum of all initial component masses must be greater than zero. The minimum
 reachable spacecraft mass must also be greater than zero: fixed components

@@ -351,7 +351,7 @@ public:
     void GetCurrentTelemetryItems(
         TArray<FTGVisualizationTelemetryItem>& OutItems) const;
 
-    /** Legacy text view retained for existing Blueprint callers. */
+    /** Text view for Blueprint callers. */
     void GetCurrentTelemetryLines(TArray<FString>& OutLines) const;
 
     /** Exact numeric headers available in the loaded result CSV. */

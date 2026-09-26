@@ -52,7 +52,7 @@ enum class ETGStlLengthUnit : uint8
 };
 
 /**
- * Legacy/internal STL recentering setting.
+ * Internal STL recentering setting.
  *
  * The Component Visual Appearance editor always uses KeepImportedOrigin so
  * the user's STL origin and orientation remain authoritative.
@@ -146,11 +146,11 @@ struct TG_API FTGComponentVisualConfig
         ETGStlRecenterMode::KeepImportedOrigin;
 
     // ---------------------------------------------------------------------
-    // Legacy/internal visual transform
+    // Internal visual transform
     // ---------------------------------------------------------------------
 
     /**
-     * Legacy/internal visual offset. The Component Visual Appearance editor
+     * Internal visual offset. The Component Visual Appearance editor
      * fixes this to zero and does not expose it to the user.
      */
     UPROPERTY(
@@ -160,7 +160,7 @@ struct TG_API FTGComponentVisualConfig
     FVector VisualOffsetMeters = FVector::ZeroVector;
 
     /**
-     * Legacy/internal visual orientation. The Component Visual Appearance
+     * Internal visual orientation. The Component Visual Appearance
      * editor fixes this to identity and does not expose it to the user.
      */
     UPROPERTY(
@@ -170,7 +170,7 @@ struct TG_API FTGComponentVisualConfig
     FQuat VisualOrientation = FQuat::Identity;
 
     /**
-     * Legacy/internal visual scale. The Component Visual Appearance editor
+     * Internal visual scale. The Component Visual Appearance editor
      * fixes this to one and does not expose it to the user.
      */
     UPROPERTY(

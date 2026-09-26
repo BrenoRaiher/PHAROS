@@ -711,10 +711,10 @@ namespace tgsim
         }
 
         {
-            // The legacy momentum-derivative selection is retained for request compatibility,
+            // The momentum-derivative request selection is accepted by the interface,
             // but the existing propulsion input is effective thrust and must remain Galilean invariant.
             SimulationRequest request;
-            request.scenario_name = "Legacy mass-flow selection uses effective thrust";
+            request.scenario_name = "Momentum-derivative selection uses effective thrust";
             request.mass_flow_convention = MassFlowConvention::MomentumDerivative;
             request.initial_state.variable_component_masses_kg = {10.0};
             ComponentDefinition tank = MakeComponent(
@@ -742,7 +742,7 @@ namespace tgsim
             const DynamicsEvaluation unboosted = dynamics.ComputeDynamics(
                 0.0, unboosted_state, config);
             report.checks.push_back(Check(
-                "Legacy mass-flow selection is Galilean invariant",
+                "Mass-flow selection is Galilean invariant",
                 (boosted.derivative.velocity_rate_mps2 -
                     unboosted.derivative.velocity_rate_mps2).Norm(),
                 1.0e-12,

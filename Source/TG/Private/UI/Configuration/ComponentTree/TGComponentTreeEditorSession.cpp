@@ -2866,7 +2866,7 @@ bool UTGComponentTreeEditorSession::GetComponentVisualAppearance(
     {
         OutErrorText = FText::FromString(
             TEXT(
-                "This component uses the legacy No Geometry mode. "
+                "This component uses No Geometry mode. "
                 "Choose Standard Primitive or Custom STL before using "
                 "the Component Visual Appearance editor."));
 
@@ -2926,19 +2926,19 @@ bool UTGComponentTreeEditorSession::ApplyComponentVisualAppearance(
     const FTGComponentVisualConfig& ExistingVisual =
         Component.Visual;
 
-    const bool bHasLegacyVisualTransform =
+    const bool bHasVisualTransform =
         ExistingVisual.StlRecenterMode !=
             ETGStlRecenterMode::KeepImportedOrigin ||
         ExistingVisual.VisualOffsetMeters != FVector::ZeroVector ||
         ExistingVisual.VisualOrientation != FQuat::Identity ||
         ExistingVisual.VisualScale != FVector::OneVector;
 
-    if (bHasLegacyVisualTransform)
+    if (bHasVisualTransform)
     {
         TGComponentTreeEditorSessionPrivate::AppendWarning(
             OutWarningText,
             TEXT(
-                "Legacy visual recentering/offset/orientation/scale was "
+                "Visual recentering/offset/orientation/scale was "
                 "reset. The source geometry now defines the component's "
                 "visual origin, orientation and scale."));
     }

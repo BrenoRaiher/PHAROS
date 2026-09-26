@@ -360,7 +360,7 @@ namespace tgsim
         double shutdown_ephemeris_time_tdb_seconds =
             std::numeric_limits<double>::infinity();
         // NaN preserves compatibility with direct callers that only populate the
-        // legacy absolute fields. SimulationConfigBuilder resolves that fallback once.
+        // absolute-epoch fields. SimulationConfigBuilder resolves that fallback once.
         double ignition_elapsed_time_seconds =
             std::numeric_limits<double>::quiet_NaN();
         double shutdown_elapsed_time_seconds =
@@ -375,7 +375,7 @@ namespace tgsim
     };
 
     /// Returns the authoritative mission-relative ignition boundary. The absolute-
-    /// ET subtraction is only a compatibility fallback for legacy direct requests.
+    /// ET subtraction is only a fallback for requests specified in absolute ephemeris time.
     inline double ThrusterIgnitionElapsedTime(
         const ThrusterDefinition& thruster,
         double simulation_start_ephemeris_time_tdb_seconds)

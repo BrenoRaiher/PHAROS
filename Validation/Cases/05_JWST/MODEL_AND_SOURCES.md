@@ -28,4 +28,4 @@ The optional `*_with_visual_appearance.tgscn` files preserve every numerical par
 
 ## Calibration Record
 
-The bounded joint calibration changed only MCC-1b and MCC-2 vector components; all physical assumptions above remain fixed. Its selected values and stopping evidence are in [Retuning Report](provenance/calibration_decision.json).
+The bounded joint calibration changed only MCC-1b and MCC-2 vector components; all physical assumptions above remain fixed. Its selected values and stopping evidence are in [Calibration Record](provenance/calibration_decision.json).

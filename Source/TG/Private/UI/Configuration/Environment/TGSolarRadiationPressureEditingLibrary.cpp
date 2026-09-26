@@ -1020,7 +1020,7 @@ void UTGSolarRadiationPressureEditingLibrary::
     // Preserve an explicitly authored/imported occulter subset. An empty list
     // retains its established meaning of every physical non-Sun catalog body.
 
-    // Migrate legacy generated facets that only carried a component name.
+    // Resolve generated facets identified only by a component name.
     for (FTGOpticalFacetConfig& Facet : Srp.OpticalFacets)
     {
         if (!Facet.ComponentId.IsValid())

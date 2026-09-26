@@ -12,8 +12,6 @@
   "rms_sampled_position_error_km": 26.255793433256372,
   "rms_time_weighted_position_error_km": 26.237933511101208,
   "maximum_sampled_velocity_error_mps": 0.0284783199017067,
-  "endpoint_displacement_from_legacy_m": 5.123030988173088,
-  "endpoint_velocity_change_from_legacy_mps": 2.236288683676212e-06,
   "initial_mass_kg": 5573.8,
   "final_mass_kg": 5573.8,
   "nominal_mass_loss_kg": 0,

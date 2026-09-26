@@ -28,7 +28,7 @@ def structure():
             continue
         if relative.as_posix().startswith(('Source/ThirdParty/', 'Docs/Legal/Licenses/', 'Docs/Legal/Sources/')):
             continue
-        if any(part in {'current_source', 'legacy_reference'} for part in relative.parts):
+        if 'current_source' in relative.parts:
             continue
         if path.suffix == '.py':
             try:

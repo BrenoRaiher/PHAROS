@@ -7,12 +7,12 @@
     "controller_calibration_inputs": [
       "NAIF reconstructed barycentric state at 2021-12-25T13:00:00Z",
       "published MCC epochs, durations, and reconstructed delta-v values",
-      "Inherited legacy calibration: NAIF B-H terminal states as weighted objectives for sequential finite-difference burn-vector tuning",
+      "Calibration against NAIF B-H terminal states using weighted objectives for finite-difference burn-vector tuning",
       "Current calibration: final H position/velocity residual only, for one capped two-burn correction",
       "published physical mass, propellant, thrust type, and attitude strategy"
     ],
     "held_out_evaluation": "Unique exact-epoch samples excluding A[0], inherited B-H fit epochs and current B-H endpoints; duplicate boundaries count once. These are correlated samples of the same reconstructed mission, not a statistically independent validation mission.",
-    "legacy_calibration_endpoint_count": 7,
+    "calibration_endpoint_count": 7,
     "current_correction_endpoint_count": 1,
     "excluded_noninitial_epoch_count": 8,
     "held_out_sample_count": 3165,
@@ -25,12 +25,12 @@
     "controller_calibration_inputs": [
       "NAIF reconstructed barycentric state at 2021-12-25T13:00:00Z",
       "published MCC epochs, durations, and reconstructed delta-v values",
-      "Inherited legacy calibration: NAIF B-H terminal states as weighted objectives for sequential finite-difference burn-vector tuning",
+      "Calibration against NAIF B-H terminal states using weighted objectives for finite-difference burn-vector tuning",
       "Current calibration: D/E/F/G/H terminal position and velocity marks with fixed weights and scales recorded before the response trials.",
       "published physical mass, propellant, thrust type, and attitude strategy"
     ],
     "held_out_evaluation": "Unique exact-epoch samples excluding A[0], inherited B-H fit epochs and current B-H endpoints; duplicate boundaries count once. These are correlated samples of the same reconstructed mission, not a statistically independent validation mission.",
-    "legacy_calibration_endpoint_count": 7,
+    "calibration_endpoint_count": 7,
     "current_correction_endpoint_count": 5,
     "excluded_noninitial_epoch_count": 8,
     "held_out_sample_count": 3165,
