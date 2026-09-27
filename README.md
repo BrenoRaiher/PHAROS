@@ -12,6 +12,8 @@ interplanetary trajectory.
 
 [**Download for Windows**](https://github.com/BrenoRaiher/PHAROS/releases/latest)
 · [Watch the demos](#see-pharos-in-action)
+· [Brief User Guide (PDF)](Docs/PHAROS_BriefUserGuide.pdf)
+· [Complete thesis (PDF)](Docs/PHAROS_CompleteThesis.pdf)
 · [Run from the terminal](#run-from-the-terminal)
 · [Build from source](Docs/GettingStarted/Build.md)
 
@@ -54,6 +56,10 @@ interface and rendering, while the Physics Core computes spacecraft dynamics.
 ## Install and run
 
 **Windows x64 · Windows 11 is the tested platform.**
+
+The [Brief User Guide (PDF)](Docs/PHAROS_BriefUserGuide.pdf) provides
+illustrated instructions for installation, scenario creation, controller
+setup, simulation execution, and playback.
 
 1. Open [GitHub Releases](https://github.com/BrenoRaiher/PHAROS/releases/latest)
    and download the **PHAROS setup executable** from the release's assets.
@@ -131,9 +137,16 @@ and controller libraries, and the captured assessment source. Download and
 extract it, then follow the [reproduction guide](Docs/GettingStarted/Reproduce.md)
 to restore the files into the checkout. The ZIP is stored with Git LFS.
 
-The author's undergraduate thesis documents the mathematical formulation,
-physical models, implementation, and assessment. The repository guides are
-self-contained and can be used independently of that document.
+For the mathematical formulation, physical models, software architecture,
+and interpretation of the verification and mission comparisons, read the
+[complete undergraduate thesis (PDF)](Docs/PHAROS_CompleteThesis.pdf).
+It also documents scenario and controller interfaces. The
+[Brief User Guide (PDF)](Docs/PHAROS_BriefUserGuide.pdf) is available
+separately for practical instructions on using PHAROS.
+
+Both documents can be saved for offline reading:
+[download the user guide](https://github.com/BrenoRaiher/PHAROS/raw/refs/heads/main/Docs/PHAROS_BriefUserGuide.pdf)
+· [download the complete thesis](https://github.com/BrenoRaiher/PHAROS/raw/refs/heads/main/Docs/PHAROS_CompleteThesis.pdf).
 
 ### Repository map
 
@@ -143,7 +156,7 @@ self-contained and can be used independently of that document.
 | `Content/`, `Config/`, `Build/` | Unreal assets, configuration, build resources, and kernel data |
 | `ControllerSDK/` | Controller API, template, and compilation instructions |
 | `Tools/` | Standalone runner, release tools, and repository checks |
-| `Docs/` | User and developer documentation, demo recordings, release information, and notices |
+| `Docs/` | User guide and complete thesis PDFs, user and developer documentation, demos, release information, and notices |
 | `Validation/` | Assessment inputs, references, controllers, and result summaries |
 
 Install Git LFS before cloning and run `git lfs pull` to obtain the assets,
