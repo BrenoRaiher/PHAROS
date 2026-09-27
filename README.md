@@ -1,5 +1,7 @@
 # PHAROS
 
+![PHAROS Icon](Docs/Media/IconAndSplash/PHAROS_Icon_Final.png)
+
 **Build a spacecraft. Simulate its coupled motion. Explore the results.**
 
 PHAROS — **Platform for Hierarchical Articulated Rigid-Body and Orbital
